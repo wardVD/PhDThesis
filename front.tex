@@ -1,0 +1,27 @@
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+\begingroup
+\thispagestyle{empty}
+\begin{tikzpicture}[remember picture,overlay]
+\tikzstyle{titlestyle}=[fill=white!30!white,fill opacity=0.6,text opacity=1,inner sep=1cm,minimum size=2cm]
+\tikzstyle{substyle}=[fill=white!30!white,fill opacity=0.6,text opacity=1,inner sep=0.2cm,minimum size=3cm,text width = 8cm]
+\tikzstyle{logostyle}=[fill=white!30!white,fill opacity=0.6,text opacity=1,inner sep=0.2cm,minimum size=3cm,text width = 5cm]
+
+\node[inner sep=0pt] (background) at (current page.center) {\includegraphics[height=\paperheight]{front}};
+\node[titlestyle] (title) at ([yshift=5cm]current page.center) {\Huge\centering\bfseries\sffamily\parbox[c][][t]{0.95\paperwidth}{\centering Search for Particles with Anomalous Charge in the IceCube Detector\\[15pt]
+{\huge Ward Van Driessche}}}; % Book title};
+%\node[titlestyle] (super) at ([yshift=0cm]current page.center) {\Large\centering\bfseries\sffamily\parbox[c][][t]{0.95\paperwidth}{ Supervisor: prof. dr. D. Ryckbosch \\
+%Dissertation submitted in fulfillment of the requirements for the degree of Doctor (Ph.D.) in Science: Physics}}; % Book title};
+%\node[logostyle] (duper) at ([xshift=2.7cm,yshift=3.5cm]current page.south west)
+%{\centering \bfseries\sffamily\parbox[c][][t]{0.4\paperwidth}{\includegraphics[width=3cm]{logo_UGent_EN_RGB_2400_kleur_witbg.png}}};\node[substyle] (duper) at ([xshift=-4cm,yshift=3.5cm]current page.south east)
+%{\bfseries\sffamily\parbox[c][][s]{0.37\paperwidth}{\begin{flushright}
+%Department of Physics and Astronomy\\
+%Faculty of Sciences\\
+%Ghent University\\
+%Academic year ???
+%\end{flushright}}};
+\end{tikzpicture}
+\vfill
+\endgroup

@@ -1,0 +1,2018 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.6 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist[entry]{nyt/global}
+    \entry{Aaboud:2017svj}{article}{}
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=a4f573dac388f6a04cb89dde8c311bd3}{%
+           family={Aaboud},
+           family_i={A\bibinitperiod},
+           given={Morad},
+           given_i={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{50a697332ec8ff7cfd64a3c7cb8c47eb}
+      \strng{fullhash}{50a697332ec8ff7cfd64a3c7cb8c47eb}
+      \field{sortinit}{A}
+      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{hep-ex}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Eur. Phys. J.}
+      \field{number}{2}
+      \field{title}{{Measurement of the $W$-boson mass in pp collisions at $\sqrt{s}=7$ TeV with the ATLAS detector}}
+      \field{volume}{C78}
+      \field{year}{2018}
+      \field{pages}{110}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1140/epjc/s10052-017-5475-4
+      \endverb
+      \verb{eprint}
+      \verb 1701.07240
+      \endverb
+    \endentry
+    \entry{Aaltonen:2013iut}{article}{}
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=ec164bf898af1790f9f58bdbb43a7604}{%
+           family={Aaltonen},
+           family_i={A\bibinitperiod},
+           given={Timo\bibnamedelima Antero},
+           given_i={T\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{4ae40adf6a33d73fcc4bf41d91d19404}
+      \strng{fullhash}{4ae40adf6a33d73fcc4bf41d91d19404}
+      \field{sortinit}{A}
+      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{hep-ex}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Phys. Rev.}
+      \field{number}{5}
+      \field{title}{{Combination of CDF and D0 $W$-Boson Mass Measurements}}
+      \field{volume}{D88}
+      \field{year}{2013}
+      \field{pages}{052018}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevD.88.052018
+      \endverb
+      \verb{eprint}
+      \verb 1307.7627
+      \endverb
+    \endentry
+    \entry{Abbiendi:2003yd}{article}{}
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=9a03ecb3f6eda54a83da44c2c6dcb486}{%
+           family={Abbiendi},
+           family_i={A\bibinitperiod},
+           given={G.},
+           given_i={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{a27e4455b6664f591cb0e8df8fef1540}
+      \strng{fullhash}{a27e4455b6664f591cb0e8df8fef1540}
+      \field{sortinit}{A}
+      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{hep-ex}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Phys. Lett.}
+      \field{title}{{Search for stable and longlived massive charged particles in e+ e- collisions at s**(1/2) = 130-GeV to 209-GeV}}
+      \field{volume}{B572}
+      \field{year}{2003}
+      \field{pages}{8\bibrangedash 20}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1016/S0370-2693(03)00639-7
+      \endverb
+      \verb{eprint}
+      \verb hep-ex/0305031
+      \endverb
+    \endentry
+    \entry{Abe:1992vr}{article}{}
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=6a3fe9a218f09ea737867c92ea601259}{%
+           family={Abe},
+           family_i={A\bibinitperiod},
+           given={F.},
+           given_i={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{3cacdfd955712250159eda329dd7ade5}
+      \strng{fullhash}{3cacdfd955712250159eda329dd7ade5}
+      \field{sortinit}{A}
+      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Phys. Rev.}
+      \field{title}{{Limits on the production of massive stable charged particles}}
+      \field{volume}{D46}
+      \field{year}{1992}
+      \field{pages}{R1889\bibrangedash R1894}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1103/PhysRevD.46.R1889
+      \endverb
+    \endentry
+    \entry{Abe:1996ef}{article}{}
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=2317ec03d35fc35aa26bef64fcf75f47}{%
+           family={Abe},
+           family_i={A\bibinitperiod},
+           given={K.},
+           given_i={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{2b254cbd13f402e2655e727e93c5f665}
+      \strng{fullhash}{2b254cbd13f402e2655e727e93c5f665}
+      \field{sortinit}{A}
+      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{hep-ex}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{title}{{First measurement of the left-right charge asymmetry in hadronic Z boson decays and a new determination of sin**2 theta(W)(eff)}}
+      \field{volume}{78}
+      \field{year}{1997}
+      \field{pages}{17\bibrangedash 21}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.78.17
+      \endverb
+      \verb{eprint}
+      \verb hep-ex/9609019
+      \endverb
+    \endentry
+    \entry{Abe:2000dq}{article}{}
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=0c69d343b984620773f02fab1178c306}{%
+           family={Abe},
+           family_i={A\bibinitperiod},
+           given={Kenji},
+           given_i={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{3a1202f52fb6a8b9ca4bda7efbb86b31}
+      \strng{fullhash}{3a1202f52fb6a8b9ca4bda7efbb86b31}
+      \field{sortinit}{A}
+      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{hep-ex}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{title}{{A High precision measurement of the left-right Z boson cross-section asymmetry}}
+      \field{volume}{84}
+      \field{year}{2000}
+      \field{pages}{5945\bibrangedash 5949}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.84.5945
+      \endverb
+      \verb{eprint}
+      \verb hep-ex/0004026
+      \endverb
+    \endentry
+    \entry{Abe:2000uc}{article}{}
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=586c7013dd8a9e7234a7937f4774260e}{%
+           family={Abe},
+           family_i={A\bibinitperiod},
+           given={Koya},
+           given_i={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{b3ff395d47a62f535d641c3a8a2bf20f}
+      \strng{fullhash}{b3ff395d47a62f535d641c3a8a2bf20f}
+      \field{sortinit}{A}
+      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{hep-ex}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{title}{{First direct measurement of the parity violating coupling of the Z0 to the s quark}}
+      \field{volume}{85}
+      \field{year}{2000}
+      \field{pages}{5059\bibrangedash 5063}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.85.5059
+      \endverb
+      \verb{eprint}
+      \verb hep-ex/0006019
+      \endverb
+    \endentry
+    \entry{Abe:2000hk}{article}{}
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=586c7013dd8a9e7234a7937f4774260e}{%
+           family={Abe},
+           family_i={A\bibinitperiod},
+           given={Koya},
+           given_i={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{b3ff395d47a62f535d641c3a8a2bf20f}
+      \strng{fullhash}{b3ff395d47a62f535d641c3a8a2bf20f}
+      \field{sortinit}{A}
+      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{hep-ex}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{title}{{An Improved direct measurement of leptonic coupling asymmetries with polarized Z bosons}}
+      \field{volume}{86}
+      \field{year}{2001}
+      \field{pages}{1162\bibrangedash 1166}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.86.1162
+      \endverb
+      \verb{eprint}
+      \verb hep-ex/0010015
+      \endverb
+    \endentry
+    \entry{Abreu:1996py}{article}{}
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=1ae4d7842a8f1ae3f8903d7a2fb7ff3c}{%
+           family={Abreu},
+           family_i={A\bibinitperiod},
+           given={P.},
+           given_i={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{6d1c2f5c5ec2400910bd1fb3fc9b2079}
+      \strng{fullhash}{6d1c2f5c5ec2400910bd1fb3fc9b2079}
+      \field{sortinit}{A}
+      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Phys. Lett.}
+      \field{title}{{Search for stable heavy charged particles in e+ e- collisions at s**(1/2) = 130-GeV to 136-GeV, 161-GeV and 172-GeV}}
+      \field{volume}{B396}
+      \field{year}{1997}
+      \field{pages}{315\bibrangedash 326}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1016/S0370-2693(97)00152-4
+      \endverb
+    \endentry
+    \entry{Acciarri:2015uup}{article}{}
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=ebff8deb76a28357192af46846f4ad89}{%
+           family={Acciarri},
+           family_i={A\bibinitperiod},
+           given={R.},
+           given_i={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{b6c4a3bf9b13bdb7449bd939fe62f6cd}
+      \strng{fullhash}{b6c4a3bf9b13bdb7449bd939fe62f6cd}
+      \field{sortinit}{A}
+      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{physics.ins-det}
+      \field{eprinttype}{arXiv}
+      \field{title}{{Long-Baseline Neutrino Facility (LBNF) and Deep Underground Neutrino Experiment (DUNE)}}
+      \field{year}{2015}
+      \verb{eprint}
+      \verb 1512.06148
+      \endverb
+    \endentry
+    \entry{Acosta:2002ju}{article}{}
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=7c6b374223fc6382a75e4f5de416d128}{%
+           family={Acosta},
+           family_i={A\bibinitperiod},
+           given={D.},
+           given_i={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{60b11d3d915606e1a832934eab8504be}
+      \strng{fullhash}{60b11d3d915606e1a832934eab8504be}
+      \field{sortinit}{A}
+      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{hep-ex}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{title}{{Search for long-lived charged massive particles in $\bar{p}p$ collisions at $\sqrt{s} = 1.8$ TeV}}
+      \field{volume}{90}
+      \field{year}{2003}
+      \field{pages}{131801}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.90.131801
+      \endverb
+      \verb{eprint}
+      \verb hep-ex/0211064
+      \endverb
+    \endentry
+    \entry{Aihara:1984px}{article}{}
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=bafc1a762976256bde4b6e9e1b77785f}{%
+           family={Aihara},
+           family_i={A\bibinitperiod},
+           given={H.},
+           given_i={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{355994afaee5757b52dda4adafc9891f}
+      \strng{fullhash}{355994afaee5757b52dda4adafc9891f}
+      \field{sortinit}{A}
+      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{title}{{Search for $q = 2/3 e$ and $q = 1/3 e$ particles produced in $e^+e^-$ annihilations}}
+      \field{volume}{52}
+      \field{year}{1984}
+      \field{pages}{2332}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.52.2332
+      \endverb
+    \endentry
+    \entry{Akers:1995az}{article}{}
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=f99a6b4b0ad0e02f22a9f4a93afea20a}{%
+           family={Akers},
+           family_i={A\bibinitperiod},
+           given={R.},
+           given_i={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{83a34b179e7ca984cef742619b4eba68}
+      \strng{fullhash}{83a34b179e7ca984cef742619b4eba68}
+      \field{sortinit}{A}
+      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Z. Phys.}
+      \field{title}{{Search for heavy charged particles and for particles with anomalous charge in $e^{+} e^{-}$ collisions at LEP}}
+      \field{volume}{C67}
+      \field{year}{1995}
+      \field{pages}{203\bibrangedash 212}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1007/BF01571281
+      \endverb
+    \endentry
+    \entry{Agashe:2014kda}{article}{}
+      \name{author}{1}{}{%
+        {{hash=13f2fe7bbc3998a2fd888aadb1469082}{%
+           prefix={et},
+           prefix_i={e\bibinitperiod},
+           family={al.},
+           family_i={a\bibinitperiod},
+           given={M.\bibnamedelimi Tanabashi},
+           given_i={M\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \strng{namehash}{13f2fe7bbc3998a2fd888aadb1469082}
+      \strng{fullhash}{13f2fe7bbc3998a2fd888aadb1469082}
+      \field{sortinit}{a}
+      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Phys. Rev. D}
+      \field{title}{{Review of Particle Physics}}
+      \field{volume}{98}
+      \field{year}{2018}
+      \field{pages}{030001}
+      \range{pages}{1}
+    \endentry
+    \entry{Allen:2011zs}{article}{}
+      \name{author}{3}{}{%
+        {{hash=aaf190bd0b14c9d54f7efc67dc89aa31}{%
+           family={Allen},
+           family_i={A\bibinitperiod},
+           given={Steven\bibnamedelima W.},
+           given_i={S\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=0fbe4234855f994497a6ebcee7731b15}{%
+           family={Evrard},
+           family_i={E\bibinitperiod},
+           given={August\bibnamedelima E.},
+           given_i={A\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=a75d38ac7301d5d6b6c3d505d787a297}{%
+           family={Mantz},
+           family_i={M\bibinitperiod},
+           given={Adam\bibnamedelima B.},
+           given_i={A\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \strng{namehash}{05585e20e0bfe942360915071a439429}
+      \strng{fullhash}{05585e20e0bfe942360915071a439429}
+      \field{sortinit}{A}
+      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{astro-ph.CO}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Ann. Rev. Astron. Astrophys.}
+      \field{title}{{Cosmological Parameters from Observations of Galaxy Clusters}}
+      \field{volume}{49}
+      \field{year}{2011}
+      \field{pages}{409\bibrangedash 470}
+      \range{pages}{62}
+      \verb{doi}
+      \verb 10.1146/annurev-astro-081710-102514
+      \endverb
+      \verb{eprint}
+      \verb 1103.4829
+      \endverb
+    \endentry
+    \entry{Ambrosio:2004ub}{article}{}
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=dc5d437a57dfd88f3bf5c672ede226d2}{%
+           family={Ambrosio},
+           family_i={A\bibinitperiod},
+           given={M.},
+           given_i={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{58a97612607c1e2f1e75cf468ef95cfa}
+      \strng{fullhash}{58a97612607c1e2f1e75cf468ef95cfa}
+      \field{sortinit}{A}
+      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{hep-ex}
+      \field{eprinttype}{arXiv}
+      \field{title}{{Final search for lightly ionizing particles with the MACRO detector}}
+      \field{year}{2004}
+      \verb{eprint}
+      \verb hep-ex/0402006
+      \endverb
+    \endentry
+    \entry{Anelli:2015pba}{article}{}
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=efa031518062915d428e549b991cec9f}{%
+           family={Anelli},
+           family_i={A\bibinitperiod},
+           given={M.},
+           given_i={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{edc4e847b156fdba78d13f61e6f9182a}
+      \strng{fullhash}{edc4e847b156fdba78d13f61e6f9182a}
+      \field{sortinit}{A}
+      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{physics.ins-det}
+      \field{eprinttype}{arXiv}
+      \field{title}{{A facility to Search for Hidden Particles (SHiP) at the CERN SPS}}
+      \field{year}{2015}
+      \verb{eprint}
+      \verb 1504.04956
+      \endverb
+    \endentry
+    \entry{Antoniadis:1992eb}{article}{}
+      \name{author}{2}{}{%
+        {{hash=cf9bff78e9897e40ff3a8c74d50a5771}{%
+           family={Antoniadis},
+           family_i={A\bibinitperiod},
+           given={Ignatios},
+           given_i={I\bibinitperiod}}}%
+        {{hash=510ace091bde6626c67cf3622841de0c}{%
+           family={Benakli},
+           family_i={B\bibinitperiod},
+           given={K.},
+           given_i={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{a12c38dade8ca9d974db6e6fabcb5cb1}
+      \strng{fullhash}{a12c38dade8ca9d974db6e6fabcb5cb1}
+      \field{sortinit}{A}
+      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{hep-th}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Phys. Lett.}
+      \field{note}{[Erratum: Phys. Lett.B407,449(1997)]}
+      \field{title}{{Fractionally charged particles and supersymmetry breaking in 4-D strings}}
+      \field{volume}{B295}
+      \field{year}{1992}
+      \field{pages}{219\bibrangedash 224}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1016/S0370-2693(97)00755-7, 10.1016/0370-2693(92)91557-P
+      \endverb
+      \verb{eprint}
+      \verb hep-th/9209020
+      \endverb
+    \endentry
+    \entry{Athanasiu:1988uj}{article}{}
+      \name{author}{4}{}{%
+        {{hash=84e869db2962dd12751a03360d679285}{%
+           family={Athanasiu},
+           family_i={A\bibinitperiod},
+           given={Gregory\bibnamedelima G.},
+           given_i={G\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=69aa6f65bc508996f3a1ef0ca0b8d490}{%
+           family={Atick},
+           family_i={A\bibinitperiod},
+           given={Joseph\bibnamedelima J.},
+           given_i={J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=1033a863afff82b9ad2d2c043eea8b0d}{%
+           family={Dine},
+           family_i={D\bibinitperiod},
+           given={Michael},
+           given_i={M\bibinitperiod}}}%
+        {{hash=b2051e91f49b61d82e45b970bc1ba981}{%
+           family={Fischler},
+           family_i={F\bibinitperiod},
+           given={Willy},
+           given_i={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{52013283240e4a135cc5eb927fa288d0}
+      \strng{fullhash}{38996a3b55f75ab9895776c60dd3c877}
+      \field{sortinit}{A}
+      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Phys. Lett.}
+      \field{title}{{Remarks on Wilson Lines, Modular Invariance and Possible String Relics in Calabi-yau Compactifications}}
+      \field{volume}{B214}
+      \field{year}{1988}
+      \field{pages}{55\bibrangedash 62}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1016/0370-2693(88)90451-0
+      \endverb
+    \endentry
+    \entry{ATLASurl1}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=96fd73b0c28fff2d9cfd9dc354ac83db}{%
+           family={ATLAS},
+           family_i={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{96fd73b0c28fff2d9cfd9dc354ac83db}
+      \strng{fullhash}{96fd73b0c28fff2d9cfd9dc354ac83db}
+      \field{sortinit}{A}
+      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \field{labelnamesource}{author}
+      \verb{url}
+      \verb cds.cern.ch/record/2285809/files/ATLAS-CONF-2017-071.pdf
+      \endverb
+    \endentry
+    \entry{Aubert:1983jy}{article}{}
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=88e561935cf7da3da9373501de3c3805}{%
+           family={Aubert},
+           family_i={A\bibinitperiod},
+           given={J.\bibnamedelimi J.},
+           given_i={J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{c9861e390df09d4a5447cad0d32a8366}
+      \strng{fullhash}{c9861e390df09d4a5447cad0d32a8366}
+      \field{sortinit}{A}
+      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{{11th International Symposium on Lepton and Photon Interactions at High Energies Ithaca, New York, August 4-9, 1983}}
+      \field{journaltitle}{Phys. Lett.}
+      \field{title}{{A Search for Free Quarks in Deep Inelastic Muon Scattering}}
+      \field{volume}{133B}
+      \field{year}{1983}
+      \field{pages}{461}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/0370-2693(83)90828-6
+      \endverb
+    \endentry
+    \entry{Banner:1985ev}{article}{}
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=3d6db381ddd0968a45ea81f27c951728}{%
+           family={Banner},
+           family_i={B\bibinitperiod},
+           given={M.},
+           given_i={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{f78f023f1fbd70e21a2e66d3271dfeeb}
+      \strng{fullhash}{f78f023f1fbd70e21a2e66d3271dfeeb}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Phys. Lett.}
+      \field{title}{{A New Search for Relativistic Particles With Fractional Electric Charge at the {CERN} $p \bar{p}$ Collider}}
+      \field{volume}{156B}
+      \field{year}{1985}
+      \field{pages}{129\bibrangedash 133}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1016/0370-2693(85)91368-1
+      \endverb
+    \endentry
+    \entry{Barr:1982vj}{article}{}
+      \name{author}{3}{}{%
+        {{hash=ef5e72c2aaba1900723a953f7b3b56f4}{%
+           family={Barr},
+           family_i={B\bibinitperiod},
+           given={Stephen\bibnamedelima M.},
+           given_i={S\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=9fd04bca5947034e46799ddba4e5e777}{%
+           family={Reiss},
+           family_i={R\bibinitperiod},
+           given={D.\bibnamedelimi B.},
+           given_i={D\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=7ec548afeac819e27da64665407a87c4}{%
+           family={Zee},
+           family_i={Z\bibinitperiod},
+           given={A.},
+           given_i={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{13b223d85ba42b9690fbb92f2045de61}
+      \strng{fullhash}{13b223d85ba42b9690fbb92f2045de61}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{title}{{Fractional Charges, Monopoles and Peculiar Photons}}
+      \field{volume}{50}
+      \field{year}{1983}
+      \field{pages}{317}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.50.317
+      \endverb
+    \endentry
+    \entry{Battaglieri:2017aum}{article}{}
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=65c56276ceda2dd8bbe92f04948136fe}{%
+           family={Battaglieri},
+           family_i={B\bibinitperiod},
+           given={Marco},
+           given_i={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{88ec129bc08ab99635f6cd725cb68228}
+      \strng{fullhash}{88ec129bc08ab99635f6cd725cb68228}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{hep-ph}
+      \field{eprinttype}{arXiv}
+      \field{title}{{US Cosmic Visions: New Ideas in Dark Matter 2017: Community Report}}
+      \field{year}{2017}
+      \verb{eprint}
+      \verb 1707.04591
+      \endverb
+    \endentry
+    \entry{Bettini:2008zz}{book}{}
+      \name{author}{1}{}{%
+        {{hash=3b835e5b5f8ffe568aaab011f743caed}{%
+           family={Bettini},
+           family_i={B\bibinitperiod},
+           given={Alessandro},
+           given_i={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{3b835e5b5f8ffe568aaab011f743caed}
+      \strng{fullhash}{3b835e5b5f8ffe568aaab011f743caed}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780521880213}
+      \field{journaltitle}{Cambridge, UK: Univ. Pr. (2008) 431 p}
+      \field{title}{{Introduction to elementary particle physics}}
+      \field{year}{2008}
+      \verb{url}
+      \verb http://www.cambridge.org/catalogue/catalogue.asp?isbn=9780521880213
+      \endverb
+    \endentry
+    \entry{Bjorken:2009mm}{article}{}
+      \name{author}{4}{}{%
+        {{hash=8c8f5af88c531519790faf6cb91d5662}{%
+           family={Bjorken},
+           family_i={B\bibinitperiod},
+           given={James\bibnamedelima D.},
+           given_i={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=ca8ba4941a272f13ce044f1a7f60ef86}{%
+           family={Essig},
+           family_i={E\bibinitperiod},
+           given={Rouven},
+           given_i={R\bibinitperiod}}}%
+        {{hash=83a6665c909c5ea203e3bf72e498ac31}{%
+           family={Schuster},
+           family_i={S\bibinitperiod},
+           given={Philip},
+           given_i={P\bibinitperiod}}}%
+        {{hash=c84bb2321cbd52ef041cdef9221d1012}{%
+           family={Toro},
+           family_i={T\bibinitperiod},
+           given={Natalia},
+           given_i={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{510000ebe4d15a8e2e3d4ca31ce01277}
+      \strng{fullhash}{5c25622726dfe3d1e836f78b73807488}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{hep-ph}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Phys. Rev.}
+      \field{title}{{New Fixed-Target Experiments to Search for Dark Gauge Forces}}
+      \field{volume}{D80}
+      \field{year}{2009}
+      \field{pages}{075018}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevD.80.075018
+      \endverb
+      \verb{eprint}
+      \verb 0906.0580
+      \endverb
+    \endentry
+    \entry{Boehm:2003hm}{article}{}
+      \name{author}{2}{}{%
+        {{hash=a1c61edef3a5082608463bd0c1769837}{%
+           family={Boehm},
+           family_i={B\bibinitperiod},
+           given={C.},
+           given_i={C\bibinitperiod}}}%
+        {{hash=ca97868be876381ef47517f88a6e250d}{%
+           family={Fayet},
+           family_i={F\bibinitperiod},
+           given={Pierre},
+           given_i={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{5c2f6d6930ff8f749f5bf39912212a69}
+      \strng{fullhash}{5c2f6d6930ff8f749f5bf39912212a69}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{hep-ph}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Nucl. Phys.}
+      \field{title}{{Scalar dark matter candidates}}
+      \field{volume}{B683}
+      \field{year}{2004}
+      \field{pages}{219\bibrangedash 263}
+      \range{pages}{45}
+      \verb{doi}
+      \verb 10.1016/j.nuclphysb.2004.01.015
+      \endverb
+      \verb{eprint}
+      \verb hep-ph/0305261
+      \endverb
+    \endentry
+    \entry{Bondar:1985sb}{article}{}
+      \name{author}{8}{}{%
+        {{hash=48089c620c88c3c27723885b1a834868}{%
+           family={Bondar},
+           family_i={B\bibinitperiod},
+           given={A.\bibnamedelimi E.},
+           given_i={A\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=3afd14679e38991d8827470b2feed082}{%
+           family={Kuradze},
+           family_i={K\bibinitperiod},
+           given={L.\bibnamedelimi M.},
+           given_i={L\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=8d8de400c36594d66bfdc55c5754c156}{%
+           family={Lelchuk},
+           family_i={L\bibinitperiod},
+           given={M.\bibnamedelimi {\relax\bibnamedelimb Yu}.},
+           given_i={M\bibinitperiod\bibinitdelim {\relax Yu}\bibinitperiod}}}%
+        {{hash=7ab840d5e868df42c0bc97dce28a7907}{%
+           family={Panin},
+           family_i={P\bibinitperiod},
+           given={V.\bibnamedelimi S.},
+           given_i={V\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=62a3b5b50f95e15186c75e06f391edd2}{%
+           family={Sidorov},
+           family_i={S\bibinitperiod},
+           given={V.\bibnamedelimi A.},
+           given_i={V\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=7f3a3f5c95b108545eab2f83e4bbd6fa}{%
+           family={Chilingarov},
+           family_i={C\bibinitperiod},
+           given={A.\bibnamedelimi G.},
+           given_i={A\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=cbf159fed0b656b762c4e6a835090eac}{%
+           family={Shvarts},
+           family_i={S\bibinitperiod},
+           given={B.\bibnamedelimi A.},
+           given_i={B\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=95fba8b649f61533d8b94f2fff18c211}{%
+           family={Eidelman},
+           family_i={E\bibinitperiod},
+           given={S.\bibnamedelimi I.},
+           given_i={S\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+      }
+      \strng{namehash}{a5ad5339b90fc7ab31cd0c5a0fe71da0}
+      \strng{fullhash}{0c4d81192d4e47013cd1e9deca998917}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{JETP Lett.}
+      \field{note}{[Pisma Zh. Eksp. Teor. Fiz.40,440(1984)]}
+      \field{title}{{SEARCH FOR LIGHT PARTICLES WITH CHARGE 2/3 IN e+ e- ANNIHILATION}}
+      \field{volume}{40}
+      \field{year}{1984}
+      \field{pages}{1265\bibrangedash 1268}
+      \range{pages}{4}
+    \endentry
+    \entry{Brahm:1989jh}{article}{}
+      \name{author}{2}{}{%
+        {{hash=c8735feaf373c6fe8d10edb70a43e8ad}{%
+           family={Brahm},
+           family_i={B\bibinitperiod},
+           given={David\bibnamedelima E.},
+           given_i={D\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=432f1ed47e54b795ec39f6247e682605}{%
+           family={Hall},
+           family_i={H\bibinitperiod},
+           given={Lawrence\bibnamedelima J.},
+           given_i={L\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{e7a8cfc47482184ed3646cf8b50944f9}
+      \strng{fullhash}{e7a8cfc47482184ed3646cf8b50944f9}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Phys. Rev.}
+      \field{title}{{U(1)-prime DARK MATTER}}
+      \field{volume}{D41}
+      \field{year}{1990}
+      \field{pages}{1067}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevD.41.1067
+      \endverb
+    \endentry
+    \entry{Buskulic:1992mr}{article}{}
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=d53e83d55a851aad592aae8151d61846}{%
+           family={Buskulic},
+           family_i={B\bibinitperiod},
+           given={D.},
+           given_i={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{274340b7b2382fc1f50923b4982a17ab}
+      \strng{fullhash}{274340b7b2382fc1f50923b4982a17ab}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Phys. Lett.}
+      \field{title}{{Search for particles with unexpected mass and charge in Z decays}}
+      \field{volume}{B303}
+      \field{year}{1993}
+      \field{pages}{198\bibrangedash 208}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1016/0370-2693(93)90066-Q
+      \endverb
+    \endentry
+    \entry{CMS:2012xi}{article}{}
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=7773e2d631b632e1abd826d029173e41}{%
+           family={Chatrchyan},
+           family_i={C\bibinitperiod},
+           given={Serguei},
+           given_i={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{1641571a4f1b8e722d84b42b64c15189}
+      \strng{fullhash}{1641571a4f1b8e722d84b42b64c15189}
+      \field{sortinit}{C}
+      \field{sortinithash}{59f25d509f3381b07695554a9f35ecb2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{hep-ex}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Phys. Rev.}
+      \field{number}{9}
+      \field{title}{{Search for fractionally charged particles in $pp$ collisions at $\sqrt{s}=7$ TeV}}
+      \field{volume}{D87}
+      \field{year}{2013}
+      \field{pages}{092008}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevD.87.092008
+      \endverb
+      \verb{eprint}
+      \verb 1210.2311
+      \endverb
+    \endentry
+    \entry{1964PhRvL}{article}{}
+      \name{author}{4}{}{%
+        {{hash=3f1c8c2e491d76f8e61d30b87ef942ee}{%
+           family={{Christenson}},
+           family_i={C\bibinitperiod},
+           given={J.\bibnamedelimi H.},
+           given_i={J\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=511a7505876fc3b875f97b1a0aba9926}{%
+           family={{Cronin}},
+           family_i={C\bibinitperiod},
+           given={J.\bibnamedelimi W.},
+           given_i={J\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=11ea5027448f9567a21d581cc4d63c5e}{%
+           family={{Fitch}},
+           family_i={F\bibinitperiod},
+           given={V.\bibnamedelimi L.},
+           given_i={V\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=64fcab017662616be213b26de028dfb5}{%
+           family={{Turlay}},
+           family_i={T\bibinitperiod},
+           given={R.},
+           given_i={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{b2053de9b90c0285396f9324bed3bf50}
+      \strng{fullhash}{1d0aa9dd32d3ab5df98f41fdd0d1ee2e}
+      \field{sortinit}{C}
+      \field{sortinithash}{59f25d509f3381b07695554a9f35ecb2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physical Review Letters}
+      \field{month}{07}
+      \field{title}{{Evidence for the 2{$\pi$} Decay of the K20 Meson}}
+      \field{volume}{13}
+      \field{year}{1964}
+      \field{pages}{138\bibrangedash 140}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.13.138
+      \endverb
+    \endentry
+    \entry{clay:1927a}{book}{}
+      \name{author}{1}{}{%
+        {{hash=92dd6e8c0cac340497a333b100fa3a7e}{%
+           family={Clay},
+           family_i={C\bibinitperiod},
+           given={J.},
+           given_i={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{92dd6e8c0cac340497a333b100fa3a7e}
+      \strng{fullhash}{92dd6e8c0cac340497a333b100fa3a7e}
+      \field{sortinit}{C}
+      \field{sortinithash}{59f25d509f3381b07695554a9f35ecb2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the Section of Sciences, Koninklijke Akademie van Wetenschappen te Amsterdam}
+      \field{title}{{Penetrating radiation}}
+      \field{volume}{30}
+      \field{year}{1927}
+      \field{pages}{1115\bibrangedash 1127}
+      \range{pages}{13}
+    \endentry
+    \entry{cmsjetsurl}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=c7da501f54544eba6787960200d9efdb}{%
+           family={CMS},
+           family_i={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{c7da501f54544eba6787960200d9efdb}
+      \strng{fullhash}{c7da501f54544eba6787960200d9efdb}
+      \field{sortinit}{C}
+      \field{sortinithash}{59f25d509f3381b07695554a9f35ecb2}
+      \field{labelnamesource}{author}
+      \verb{url}
+      \verb http://cms.web.cern.ch/news/jets-cms-and-determination-their-energy-scale
+      \endverb
+    \endentry
+    \entry{CMSurl1}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=c7da501f54544eba6787960200d9efdb}{%
+           family={CMS},
+           family_i={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{c7da501f54544eba6787960200d9efdb}
+      \strng{fullhash}{c7da501f54544eba6787960200d9efdb}
+      \field{sortinit}{C}
+      \field{sortinithash}{59f25d509f3381b07695554a9f35ecb2}
+      \field{labelnamesource}{author}
+      \verb{url}
+      \verb cds.cern.ch/record/2235162/files/TOP-15-012-pas.pdf
+      \endverb
+    \endentry
+    \entry{CMSurl2}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=c7da501f54544eba6787960200d9efdb}{%
+           family={CMS},
+           family_i={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{c7da501f54544eba6787960200d9efdb}
+      \strng{fullhash}{c7da501f54544eba6787960200d9efdb}
+      \field{sortinit}{C}
+      \field{sortinithash}{59f25d509f3381b07695554a9f35ecb2}
+      \field{labelnamesource}{author}
+      \verb{url}
+      \verb cds.cern.ch/record/2284594/files/TOP-17-007-pas.pdf
+      \endverb
+    \endentry
+    \entry{TEW:2010aj}{article}{}
+      \field{sortinit}{C}
+      \field{sortinithash}{59f25d509f3381b07695554a9f35ecb2}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{hep-ex}
+      \field{eprinttype}{arXiv}
+      \field{title}{{Combination of CDF and D0 Results on the Width of the W boson}}
+      \field{year}{2010}
+      \verb{eprint}
+      \verb 1003.2826
+      \endverb
+    \endentry
+    \entry{Corbelli:1999af}{article}{}
+      \name{author}{2}{}{%
+        {{hash=14a76bc2d2acc898c229b6ce6baae171}{%
+           family={Corbelli},
+           family_i={C\bibinitperiod},
+           given={Edvige},
+           given_i={E\bibinitperiod}}}%
+        {{hash=beb76203cb7d3b251f65fea65fc5168d}{%
+           family={Salucci},
+           family_i={S\bibinitperiod},
+           given={Paolo},
+           given_i={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{586a798208a4930ec093e00d4e3f41ed}
+      \strng{fullhash}{586a798208a4930ec093e00d4e3f41ed}
+      \field{sortinit}{C}
+      \field{sortinithash}{59f25d509f3381b07695554a9f35ecb2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{astro-ph}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Mon. Not. Roy. Astron. Soc.}
+      \field{title}{{The Extended Rotation Curve and the Dark Matter Halo of M33}}
+      \field{volume}{311}
+      \field{year}{2000}
+      \field{pages}{441\bibrangedash 447}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1046/j.1365-8711.2000.03075.x
+      \endverb
+      \verb{eprint}
+      \verb astro-ph/9909252
+      \endverb
+    \endentry
+    \entry{Davisson:1927ta}{article}{}
+      \name{author}{2}{}{%
+        {{hash=2aa1b95d96d04794e95bff549896293a}{%
+           family={Davisson},
+           family_i={D\bibinitperiod},
+           given={C.},
+           given_i={C\bibinitperiod}}}%
+        {{hash=5a0c3fc0cb18e973c7162167281273ca}{%
+           family={Germer},
+           family_i={G\bibinitperiod},
+           given={L.\bibnamedelimi H.},
+           given_i={L\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{937efda8dbb1e3e1a70d0dcc65f97e6d}
+      \strng{fullhash}{937efda8dbb1e3e1a70d0dcc65f97e6d}
+      \field{sortinit}{D}
+      \field{sortinithash}{78f7c4753a2004675f316a80bdb31742}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Phys. Rev.}
+      \field{title}{{Diffraction of Electrons by a Crystal of Nickel}}
+      \field{volume}{30}
+      \field{year}{1927}
+      \field{pages}{705\bibrangedash 740}
+      \range{pages}{36}
+      \verb{doi}
+      \verb 10.1103/PhysRev.30.705
+      \endverb
+    \endentry
+    \entry{Deur:2016tte}{article}{}
+      \name{author}{3}{}{%
+        {{hash=aa4564cb4e8ed1c36273eecc95af6c47}{%
+           family={Deur},
+           family_i={D\bibinitperiod},
+           given={Alexandre},
+           given_i={A\bibinitperiod}}}%
+        {{hash=ec964c685edd9b9c793ec1f457841f01}{%
+           family={Brodsky},
+           family_i={B\bibinitperiod},
+           given={Stanley\bibnamedelima J.},
+           given_i={S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=8e92a724e09a4b84b85776c189bd0197}{%
+           prefix={de},
+           prefix_i={d\bibinitperiod},
+           family={Teramond},
+           family_i={T\bibinitperiod},
+           given={Guy\bibnamedelima F.},
+           given_i={G\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \strng{namehash}{ca6dfe6056b932270aa92d7955fd474f}
+      \strng{fullhash}{ca6dfe6056b932270aa92d7955fd474f}
+      \field{sortinit}{D}
+      \field{sortinithash}{78f7c4753a2004675f316a80bdb31742}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{hep-ph}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Prog. Part. Nucl. Phys.}
+      \field{title}{{The QCD Running Coupling}}
+      \field{volume}{90}
+      \field{year}{2016}
+      \field{pages}{1\bibrangedash 74}
+      \range{pages}{74}
+      \verb{doi}
+      \verb 10.1016/j.ppnp.2016.04.003
+      \endverb
+      \verb{eprint}
+      \verb 1604.08082
+      \endverb
+    \endentry
+    \entry{Dong:1983nh}{article}{}
+      \name{author}{4}{}{%
+        {{hash=92552abe2849aac6069dfdb4dd6900a6}{%
+           family={Dong},
+           family_i={D\bibinitperiod},
+           given={Fang-xiao},
+           given_i={F\bibinithyphendelim x\bibinitperiod}}}%
+        {{hash=8906776a53440d9b868fa382c0609ba6}{%
+           family={Xue},
+           family_i={X\bibinitperiod},
+           given={Pei-you},
+           given_i={P\bibinithyphendelim y\bibinitperiod}}}%
+        {{hash=c830ea401abdae9d2c05f9eeb52e34f8}{%
+           family={Tu},
+           family_i={T\bibinitperiod},
+           given={Tung-sheng},
+           given_i={T\bibinithyphendelim s\bibinitperiod}}}%
+        {{hash=4612649d2c198cfb4c1b5753d603afaa}{%
+           family={Zhou},
+           family_i={Z\bibinitperiod},
+           given={Xian-jian},
+           given_i={X\bibinithyphendelim j\bibinitperiod}}}%
+      }
+      \strng{namehash}{f511ad1651f5487acb851ee2d012bab5}
+      \strng{fullhash}{7399c2ccabeda1997c76dad39bcae6c6}
+      \field{sortinit}{D}
+      \field{sortinithash}{78f7c4753a2004675f316a80bdb31742}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Phys. Lett.}
+      \field{title}{{Fractional Charges, Monopoles and Peculiar Photons in SO(18) {GUT} Models}}
+      \field{volume}{129B}
+      \field{year}{1983}
+      \field{pages}{405\bibrangedash 410}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1016/0370-2693(83)90129-6
+      \endverb
+    \endentry
+    \entry{Donoghue:2012zc}{article}{}
+      \name{author}{1}{}{%
+        {{hash=edbece0229771ebd2581d64a8d33979e}{%
+           family={Donoghue},
+           family_i={D\bibinitperiod},
+           given={John\bibnamedelima F.},
+           given_i={J\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \strng{namehash}{edbece0229771ebd2581d64a8d33979e}
+      \strng{fullhash}{edbece0229771ebd2581d64a8d33979e}
+      \field{sortinit}{D}
+      \field{sortinithash}{78f7c4753a2004675f316a80bdb31742}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{{Proceedings, 6th International School on Field Theory and Gravitation (ISFTG 2012): Petropolis, Rio de Janeiro, Brazil, April 23-27, 2012}}
+      \field{eprintclass}{gr-qc}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{AIP Conf. Proc.}
+      \field{title}{{The effective field theory treatment of quantum gravity}}
+      \field{volume}{1483}
+      \field{year}{2012}
+      \field{pages}{73\bibrangedash 94}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.1063/1.4756964
+      \endverb
+      \verb{eprint}
+      \verb 1209.3511
+      \endverb
+    \endentry
+    \entry{Faber:1976sn}{article}{}
+      \name{author}{2}{}{%
+        {{hash=3b00fb081dabebf3379555876207b76f}{%
+           family={Faber},
+           family_i={F\bibinitperiod},
+           given={S.\bibnamedelimi M.},
+           given_i={S\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=4e61890088270b075fa5a5d8565ce9e9}{%
+           family={Jackson},
+           family_i={J\bibinitperiod},
+           given={R.\bibnamedelimi E.},
+           given_i={R\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{7b085b44894293f16c44e9583b7d5bbc}
+      \strng{fullhash}{7b085b44894293f16c44e9583b7d5bbc}
+      \field{sortinit}{F}
+      \field{sortinithash}{c6a7d9913bbd7b20ea954441c0460b78}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Astrophys. J.}
+      \field{title}{{Velocity dispersions and mass to light ratios for elliptical galaxies}}
+      \field{volume}{204}
+      \field{year}{1976}
+      \field{pages}{668}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1086/154215
+      \endverb
+    \endentry
+    \entry{Frampton:1982gc}{article}{}
+      \name{author}{2}{}{%
+        {{hash=55c708278a3609da259eccd7228224a9}{%
+           family={Frampton},
+           family_i={F\bibinitperiod},
+           given={P.\bibnamedelimi H.},
+           given_i={P\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=aec349d30b2045074deaf8416cbf2dc3}{%
+           family={Kephart},
+           family_i={K\bibinitperiod},
+           given={T.\bibnamedelimi W.},
+           given_i={T\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{254307cde43052535e6da76e3f228cc2}
+      \strng{fullhash}{254307cde43052535e6da76e3f228cc2}
+      \field{sortinit}{F}
+      \field{sortinithash}{c6a7d9913bbd7b20ea954441c0460b78}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{title}{{Fractionally Charged Particles as Evidence for Supersymmetry}}
+      \field{volume}{49}
+      \field{year}{1982}
+      \field{pages}{1310}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.49.1310
+      \endverb
+    \endentry
+    \entry{Glashow:1970gm}{article}{}
+      \name{author}{3}{}{%
+        {{hash=bbfd077f8a86083e868ede626219a2e3}{%
+           family={Glashow},
+           family_i={G\bibinitperiod},
+           given={S.\bibnamedelimi L.},
+           given_i={S\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=35613a0628b3caa764f7d0e4101844b1}{%
+           family={Iliopoulos},
+           family_i={I\bibinitperiod},
+           given={J.},
+           given_i={J\bibinitperiod}}}%
+        {{hash=212ac66a1131ea666ba163f5cd79d7f9}{%
+           family={Maiani},
+           family_i={M\bibinitperiod},
+           given={L.},
+           given_i={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{3ced020f25190a04da20849db870b028}
+      \strng{fullhash}{3ced020f25190a04da20849db870b028}
+      \field{sortinit}{G}
+      \field{sortinithash}{1c854ef9177a91bf894e66485bdbd3ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{{Meeting of the Italian School of Physics and Weak Interactions Bologna, Italy, April 26-28, 1984}}
+      \field{journaltitle}{Phys. Rev.}
+      \field{title}{{Weak Interactions with Lepton-Hadron Symmetry}}
+      \field{volume}{D2}
+      \field{year}{1970}
+      \field{pages}{1285\bibrangedash 1292}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1103/PhysRevD.2.1285
+      \endverb
+    \endentry
+    \entry{Holdom:1985ag}{article}{}
+      \name{author}{1}{}{%
+        {{hash=ae84c5acc133f04359d5576974832acd}{%
+           family={Holdom},
+           family_i={H\bibinitperiod},
+           given={Bob},
+           given_i={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{ae84c5acc133f04359d5576974832acd}
+      \strng{fullhash}{ae84c5acc133f04359d5576974832acd}
+      \field{sortinit}{H}
+      \field{sortinithash}{82012198d5dfa657b8c4a168793268a6}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Phys. Lett.}
+      \field{title}{{Two U(1)'s and Epsilon Charge Shifts}}
+      \field{volume}{166B}
+      \field{year}{1986}
+      \field{pages}{196\bibrangedash 198}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1016/0370-2693(86)91377-8
+      \endverb
+    \endentry
+    \entry{Holzbauer:2017ntd}{article}{}
+      \name{author}{1}{}{%
+        {{hash=6031745018f505082d89933f80539049}{%
+           family={Holzbauer},
+           family_i={H\bibinitperiod},
+           given={J.\bibnamedelimi L.},
+           given_i={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{6031745018f505082d89933f80539049}
+      \strng{fullhash}{6031745018f505082d89933f80539049}
+      \field{sortinit}{H}
+      \field{sortinithash}{82012198d5dfa657b8c4a168793268a6}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{{Proceedings, 2017 International Workshop on Neutrinos from Accelerators (NuFact17): Uppsala University Main Building, Uppsala, Sweden, September 25-30, 2017}}
+      \field{eprintclass}{hep-ex}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{PoS}
+      \field{title}{{The Muon g-2 Experiment Overview and Status}}
+      \field{volume}{NuFact2017}
+      \field{year}{2018}
+      \field{pages}{116}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.22323/1.295.0116
+      \endverb
+      \verb{eprint}
+      \verb 1712.05980
+      \endverb
+    \endentry
+    \entry{Izaguirre:2015eya}{article}{}
+      \name{author}{2}{}{%
+        {{hash=2eb1ad894034a11954efa6d1b18c0f86}{%
+           family={Izaguirre},
+           family_i={I\bibinitperiod},
+           given={Eder},
+           given_i={E\bibinitperiod}}}%
+        {{hash=5cc68e719e783c3ca684483ec40d8d05}{%
+           family={Yavin},
+           family_i={Y\bibinitperiod},
+           given={Itay},
+           given_i={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{6a5b8a4714660875aadf81074cb5762b}
+      \strng{fullhash}{6a5b8a4714660875aadf81074cb5762b}
+      \field{sortinit}{I}
+      \field{sortinithash}{25e99d37ba90f7c4fb20baf4e310faf3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{hep-ph}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Phys. Rev.}
+      \field{number}{3}
+      \field{title}{{New window to millicharged particles at the LHC}}
+      \field{volume}{D92}
+      \field{year}{2015}
+      \field{pages}{035014}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevD.92.035014
+      \endverb
+      \verb{eprint}
+      \verb 1506.04760
+      \endverb
+    \endentry
+    \entry{Jiang:1985jy}{article}{}
+      \name{author}{2}{}{%
+        {{hash=5e1106bdb2be02ce8169f5e27c73bc5e}{%
+           family={Jiang},
+           family_i={J\bibinitperiod},
+           given={Xiang-Dong},
+           given_i={X\bibinithyphendelim D\bibinitperiod}}}%
+        {{hash=3fee2cf1c9b600d511ef9361d60e707e}{%
+           family={Zhou},
+           family_i={Z\bibinitperiod},
+           given={Xian-Jian},
+           given_i={X\bibinithyphendelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{180a0cd2df403f196ce7e78124856025}
+      \strng{fullhash}{180a0cd2df403f196ce7e78124856025}
+      \field{sortinit}{J}
+      \field{sortinithash}{ec3950a647c092421b9fcca6d819504a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{HEPNP}
+      \field{title}{{SO(10) X SO(8) MODEL WITH FRACTIONAL CHARGES, MONOPOLES AND PECULIAR PHOTONS. (IN CHINESE)}}
+      \field{volume}{9}
+      \field{year}{1985}
+      \field{pages}{421\bibrangedash 429}
+      \range{pages}{9}
+    \endentry
+    \entry{Jonsson1961}{article}{}
+      \name{author}{1}{}{%
+        {{hash=e187591bd4cde48676902f00a628b9cf}{%
+           family={Jönsson},
+           family_i={J\bibinitperiod},
+           given={Claus},
+           given_i={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{e187591bd4cde48676902f00a628b9cf}
+      \strng{fullhash}{e187591bd4cde48676902f00a628b9cf}
+      \field{sortinit}{J}
+      \field{sortinithash}{ec3950a647c092421b9fcca6d819504a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A glass plate covered with an evaporated silver film of about 200 å thickness is irradiated by a line-shaped electron-probe in a vacuum of 10−4 Torr. A hydrocarbon polymerisation film of very low electrical conductivity is formed at places subjected to high electron current density. An electrolytically deposited copper film leaves these places free from copper. When the copper film is stripped a grating with slits free of any material is obtained. 50 $\Mu$ long and 0{·}3 $\Mu$ wide slits with a grating constant of 1 $\Mu$ are obtained. The maximum number of slits is five. The electron diffraction pattern obtained using these slits in an arrangement analogous to Young's light optical interference experiment in the Fraunhofer plane and Fresnel region shows an effect corresponding to the well-known interference phenomena in light optics.}
+      \field{issn}{0044-3328}
+      \field{journaltitle}{Zeitschrift für Physik}
+      \field{month}{08}
+      \field{number}{4}
+      \field{title}{Elektroneninterferenzen an mehreren künstlich hergestellten Feinspalten}
+      \field{volume}{161}
+      \field{year}{1961}
+      \field{pages}{454\bibrangedash 474}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.1007/BF01342460
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/BF01342460
+      \endverb
+    \endentry
+    \entry{Lyons:1984pw}{article}{}
+      \name{author}{1}{}{%
+        {{hash=6f51b992958bf507f7c4d5aa48148dca}{%
+           family={Lyons},
+           family_i={L\bibinitperiod},
+           given={L.},
+           given_i={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{6f51b992958bf507f7c4d5aa48148dca}
+      \strng{fullhash}{6f51b992958bf507f7c4d5aa48148dca}
+      \field{sortinit}{L}
+      \field{sortinithash}{872351f18d0f736066eda0bf18bfa4f7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Phys. Rept.}
+      \field{title}{{Quark Search Experiments at Accelerators and in Cosmic Rays}}
+      \field{volume}{129}
+      \field{year}{1985}
+      \field{pages}{225}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/0370-1573(85)90011-0
+      \endverb
+    \endentry
+    \entry{Magill:2018tbb}{article}{}
+      \name{author}{4}{}{%
+        {{hash=9156862b5e29400a2232e6836e1816d6}{%
+           family={Magill},
+           family_i={M\bibinitperiod},
+           given={Gabriel},
+           given_i={G\bibinitperiod}}}%
+        {{hash=6f51c04e94bfae0d9fd0d1a4b7e02bd0}{%
+           family={Plestid},
+           family_i={P\bibinitperiod},
+           given={Ryan},
+           given_i={R\bibinitperiod}}}%
+        {{hash=634c723a11ca492f4799419bae83bfca}{%
+           family={Pospelov},
+           family_i={P\bibinitperiod},
+           given={Maxim},
+           given_i={M\bibinitperiod}}}%
+        {{hash=a230e0c54df20eb9de36be8d4616b471}{%
+           family={Tsai},
+           family_i={T\bibinitperiod},
+           given={Yu-Dai},
+           given_i={Y\bibinithyphendelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{a73026fe0c6533639d16a196fa369d3d}
+      \strng{fullhash}{60ad3a2a2c3351c828c95f1537a5f4bf}
+      \field{sortinit}{M}
+      \field{sortinithash}{2684bec41e9697b92699b46491061da2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{hep-ph}
+      \field{eprinttype}{arXiv}
+      \field{title}{{Millicharged particles in neutrino experiments}}
+      \field{year}{2018}
+      \verb{eprint}
+      \verb 1806.03310
+      \endverb
+    \endentry
+    \entry{doi:10.1143/PTP.28.870}{article}{}
+      \name{author}{3}{}{%
+        {{hash=8c48df8ccf1c55afc0b66f6ef9030b0a}{%
+           family={Maki},
+           family_i={M\bibinitperiod},
+           given={Ziro},
+           given_i={Z\bibinitperiod}}}%
+        {{hash=66f21f60cbd58bb35e9f41406e196269}{%
+           family={Nakagawa},
+           family_i={N\bibinitperiod},
+           given={Masami},
+           given_i={M\bibinitperiod}}}%
+        {{hash=6c1fa6e2f474430d3897a6e1aec09d0e}{%
+           family={Sakata},
+           family_i={S\bibinitperiod},
+           given={Shoichi},
+           given_i={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{97150147d1cddbdc8774ac57a5cbbdaa}
+      \strng{fullhash}{97150147d1cddbdc8774ac57a5cbbdaa}
+      \field{sortinit}{M}
+      \field{sortinithash}{2684bec41e9697b92699b46491061da2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Progress of Theoretical Physics}
+      \field{number}{5}
+      \field{title}{Remarks on the Unified Model of Elementary Particles}
+      \field{volume}{28}
+      \field{year}{1962}
+      \field{pages}{870\bibrangedash 880}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1143/PTP.28.870
+      \endverb
+      \verb{eprint}
+      \verb /oup/backfile/content_public/journal/ptp/28/5/10.1143/ptp.28.870/2/28-5-870.pdf
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1143/PTP.28.870
+      \endverb
+    \endentry
+    \entry{merli:1974}{article}{}
+      \name{author}{3}{}{%
+        {{hash=616f24ce9caff43d329a2ebffd9552bd}{%
+           family={Merli},
+           family_i={M\bibinitperiod},
+           given={P\bibnamedelima G},
+           given_i={P\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=9aaca0024f1e689efd8a139b11018514}{%
+           family={Missiroli},
+           family_i={M\bibinitperiod},
+           given={G\bibnamedelima F},
+           given_i={G\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=b9f0fc32e337ef919d05933ff44e79b5}{%
+           family={Pozzi},
+           family_i={P\bibinitperiod},
+           given={G},
+           given_i={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{1e55d438834867448dfba3117b55a063}
+      \strng{fullhash}{1e55d438834867448dfba3117b55a063}
+      \field{sortinit}{M}
+      \field{sortinithash}{2684bec41e9697b92699b46491061da2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A simple and versatile electron biprism of the Mollenstedt type is presented, which allows the conversion of a Siemens Elmiskop 101 electron microscope for use as an interference microscope or as an electron interferometer. The microscope's performance with the biprism inserted at the level of the selector aperture plane is investigated both theoretically and experimentally.}
+      \field{journaltitle}{Journal of Physics E: Scientific Instruments}
+      \field{number}{9}
+      \field{title}{Electron interferometry with the Elmiskop 101 electron microscope}
+      \field{volume}{7}
+      \field{year}{1974}
+      \field{pages}{729}
+      \range{pages}{1}
+      \verb{url}
+      \verb http://stacks.iop.org/0022-3735/7/i=9/a=016
+      \endverb
+    \endentry
+    \entry{Mori:1990kw}{article}{}
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=eeab40f5c098eee22555a0e85af03524}{%
+           family={Mori},
+           family_i={M\bibinitperiod},
+           given={M.},
+           given_i={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{c1305a9a3d86a29a9c7df2a0df51c9c2}
+      \strng{fullhash}{c1305a9a3d86a29a9c7df2a0df51c9c2}
+      \field{sortinit}{M}
+      \field{sortinithash}{2684bec41e9697b92699b46491061da2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Phys. Rev.}
+      \field{title}{{Search for fractionally charged particles in Kamiokande-II}}
+      \field{volume}{D43}
+      \field{year}{1991}
+      \field{pages}{2843\bibrangedash 2846}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1103/PhysRevD.43.2843
+      \endverb
+    \endentry
+    \entry{Natarajan:2017sbo}{article}{}
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=cdaf66b0dc4510c994172bc99d2ece78}{%
+           family={Natarajan},
+           family_i={N\bibinitperiod},
+           given={Priyamvada},
+           given_i={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{ef9456faf676a4e8c4f86f7a13fdecc0}
+      \strng{fullhash}{ef9456faf676a4e8c4f86f7a13fdecc0}
+      \field{sortinit}{N}
+      \field{sortinithash}{925374ca63e7594de7fafdb83e64d41d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{astro-ph.GA}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Mon. Not. Roy. Astron. Soc.}
+      \field{number}{2}
+      \field{title}{{Mapping substructure in the HST Frontier Fields cluster lenses and in cosmological simulations}}
+      \field{volume}{468}
+      \field{year}{2017}
+      \field{pages}{1962\bibrangedash 1980}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.1093/mnras/stw3385
+      \endverb
+      \verb{eprint}
+      \verb 1702.04348
+      \endverb
+    \endentry
+    \entry{nobel2004url}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=258459bf1a05ffcb7da4935e8cb63c36}{%
+           family={nobel2004},
+           family_i={n\bibinitperiod}}}%
+      }
+      \strng{namehash}{258459bf1a05ffcb7da4935e8cb63c36}
+      \strng{fullhash}{258459bf1a05ffcb7da4935e8cb63c36}
+      \field{sortinit}{n}
+      \field{sortinithash}{925374ca63e7594de7fafdb83e64d41d}
+      \field{labelnamesource}{author}
+      \verb{url}
+      \verb https://www.nobelprize.org/prizes/physics/2004/popular-information/
+      \endverb
+    \endentry
+    \entry{thomson:1927}{article}{}
+      \name{author}{2}{}{%
+        {{hash=e5d4e91fe4c9c318af0aa194d8685ede}{%
+           family={P.\bibnamedelimi Thomson},
+           family_i={P\bibinitperiod\bibinitdelim T\bibinitperiod},
+           given={G},
+           given_i={G\bibinitperiod}}}%
+        {{hash=3824195b5344aa2b3812c8987078f2aa}{%
+           family={AA},
+           family_i={A\bibinitperiod},
+           given={Reid},
+           given_i={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{0cda52333cd87eaea01e075e6e7b8dba}
+      \strng{fullhash}{0cda52333cd87eaea01e075e6e7b8dba}
+      \field{sortinit}{P}
+      \field{sortinithash}{c0a4896d0e424f9ca4d7f14f2b3428e7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Nature}
+      \field{month}{01}
+      \field{title}{Diffraction of Cathode Rays by a Thin Film}
+      \field{volume}{119}
+      \field{year}{1927}
+      \field{pages}{890\bibrangedash 890}
+      \range{pages}{1}
+    \endentry
+    \entry{PDG2018url}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=f4d610a71351d0e157804f3752c709f8}{%
+           family={PDG},
+           family_i={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{f4d610a71351d0e157804f3752c709f8}
+      \strng{fullhash}{f4d610a71351d0e157804f3752c709f8}
+      \field{sortinit}{P}
+      \field{sortinithash}{c0a4896d0e424f9ca4d7f14f2b3428e7}
+      \field{labelnamesource}{author}
+      \verb{url}
+      \verb http://pdg.lbl.gov/2018/reviews/rpp2018-rev-standard-model.pdf
+      \endverb
+    \endentry
+    \entry{Peskin:1995ev}{book}{}
+      \name{author}{2}{}{%
+        {{hash=819800c45f12d97f02e8b0db22f1c2c2}{%
+           family={Peskin},
+           family_i={P\bibinitperiod},
+           given={Michael\bibnamedelima E.},
+           given_i={M\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=a55210d80fe4ee2b28b50865a570dcf3}{%
+           family={Schroeder},
+           family_i={S\bibinitperiod},
+           given={Daniel\bibnamedelima V.},
+           given_i={D\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Reading, USA}%
+      }
+      \list{publisher}{1}{%
+        {Addison-Wesley}%
+      }
+      \strng{namehash}{0a1779d7de07c4f8d8c7486a126caa3b}
+      \strng{fullhash}{0a1779d7de07c4f8d8c7486a126caa3b}
+      \field{sortinit}{P}
+      \field{sortinithash}{c0a4896d0e424f9ca4d7f14f2b3428e7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780201503975, 0201503972}
+      \field{title}{{An Introduction to quantum field theory}}
+      \field{year}{1995}
+      \verb{url}
+      \verb http://www.slac.stanford.edu/~mpeskin/QFT.html
+      \endverb
+    \endentry
+    \entry{Pospelov:2007mp}{article}{}
+      \name{author}{3}{}{%
+        {{hash=634c723a11ca492f4799419bae83bfca}{%
+           family={Pospelov},
+           family_i={P\bibinitperiod},
+           given={Maxim},
+           given_i={M\bibinitperiod}}}%
+        {{hash=75db2e882d3b9ea123def02d5319e62f}{%
+           family={Ritz},
+           family_i={R\bibinitperiod},
+           given={Adam},
+           given_i={A\bibinitperiod}}}%
+        {{hash=0fccebfae331176f4016e4d897977fa7}{%
+           family={Voloshin},
+           family_i={V\bibinitperiod},
+           given={Mikhail\bibnamedelima B.},
+           given_i={M\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \strng{namehash}{23817aef1085c14d0c52c9730da6b413}
+      \strng{fullhash}{23817aef1085c14d0c52c9730da6b413}
+      \field{sortinit}{P}
+      \field{sortinithash}{c0a4896d0e424f9ca4d7f14f2b3428e7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{hep-ph}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Phys. Lett.}
+      \field{title}{{Secluded WIMP Dark Matter}}
+      \field{volume}{B662}
+      \field{year}{2008}
+      \field{pages}{53\bibrangedash 61}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1016/j.physletb.2008.02.052
+      \endverb
+      \verb{eprint}
+      \verb 0711.4866
+      \endverb
+    \endentry
+    \entry{Povh}{book}{}
+      \name{author}{4}{}{%
+        {{hash=a9b0ad2644c5c0cfcd3d3d28b6e01077}{%
+           family={Povh},
+           family_i={P\bibinitperiod},
+           given={B.},
+           given_i={B\bibinitperiod}}}%
+        {{hash=5cc988646ac74b33018cc58d8260f0a5}{%
+           family={Rith},
+           family_i={R\bibinitperiod},
+           given={K.},
+           given_i={K\bibinitperiod}}}%
+        {{hash=f37f67da4952fbf24ec4c1db6855da04}{%
+           family={Scholz},
+           family_i={S\bibinitperiod},
+           given={C.},
+           given_i={C\bibinitperiod}}}%
+        {{hash=1f670a682d02f3c5519e09bbf845f119}{%
+           family={Zersche},
+           family_i={Z\bibinitperiod},
+           given={F.},
+           given_i={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{37da8d5869ab26224e4dd9429bde07a6}
+      \strng{fullhash}{f350fba73d9a636e1ac8602ebe32f0e1}
+      \field{sortinit}{P}
+      \field{sortinithash}{c0a4896d0e424f9ca4d7f14f2b3428e7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Berlin, Germany: Springer (1995) 340 p.}
+      \field{title}{{Particles and nuclei: An Introduction to the physical concepts}}
+      \field{year}{1995}
+      \verb{doi}
+      \verb 10.1007/3-540-36684-9
+      \endverb
+    \endentry
+    \entry{hessnobel:1936}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=8bd456d2ea9f359c60fb715b6ea7e380}{%
+           family={Prize},
+           family_i={P\bibinitperiod},
+           given={The\bibnamedelima Nobel},
+           given_i={T\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+      }
+      \strng{namehash}{8bd456d2ea9f359c60fb715b6ea7e380}
+      \strng{fullhash}{8bd456d2ea9f359c60fb715b6ea7e380}
+      \field{sortinit}{P}
+      \field{sortinithash}{c0a4896d0e424f9ca4d7f14f2b3428e7}
+      \field{labelnamesource}{author}
+      \verb{url}
+      \verb https://www.nobelprize.org/prizes/physics/1936/ceremony-speech/
+      \endverb
+    \endentry
+    \entry{Riemann:2010zz}{article}{}
+      \name{author}{1}{}{%
+        {{hash=abda65c3395cfb9d6c9901bce1a2cc86}{%
+           family={Riemann},
+           family_i={R\bibinitperiod},
+           given={Sabine},
+           given_i={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{abda65c3395cfb9d6c9901bce1a2cc86}
+      \strng{fullhash}{abda65c3395cfb9d6c9901bce1a2cc86}
+      \field{sortinit}{R}
+      \field{sortinithash}{c7387613477035a752d935acfc3e3ea2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Rept. Prog. Phys.}
+      \field{title}{{Precision electroweak physics at high energies}}
+      \field{volume}{73}
+      \field{year}{2010}
+      \field{pages}{126201}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/0034-4885/73/12/126201
+      \endverb
+    \endentry
+    \entry{ALEPH:2005ab}{article}{}
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=ff539e0775fba8d637c34fd76d1a16af}{%
+           family={Schael},
+           family_i={S\bibinitperiod},
+           given={S.},
+           given_i={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{304affff2e0d005d726edaf4ba8867af}
+      \strng{fullhash}{304affff2e0d005d726edaf4ba8867af}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{hep-ex}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Phys. Rept.}
+      \field{title}{{Precision electroweak measurements on the $Z$ resonance}}
+      \field{volume}{427}
+      \field{year}{2006}
+      \field{pages}{257\bibrangedash 454}
+      \range{pages}{198}
+      \verb{doi}
+      \verb 10.1016/j.physrep.2005.12.006
+      \endverb
+      \verb{eprint}
+      \verb hep-ex/0509008
+      \endverb
+    \endentry
+    \entry{shmoop}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=88183b946cc5f0e8c96b2e66e1c74a7e}{%
+           family={Unknown},
+           family_i={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{88183b946cc5f0e8c96b2e66e1c74a7e}
+      \strng{fullhash}{88183b946cc5f0e8c96b2e66e1c74a7e}
+      \field{sortinit}{U}
+      \field{sortinithash}{8145509bd2718876fc77d31fd2cde117}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.shmoop.com/optics/young-double-slit.html }}
+      \field{note}{[Online; accessed August 2018]}
+      \field{title}{{Young interference}}
+      \field{year}{2018}
+    \endentry
+    \entry{weiswynands:2003}{article}{}
+      \name{author}{2}{}{%
+        {{hash=810ad78ed0fe1ede248af26b87a18c09}{%
+           family={Weis},
+           family_i={W\bibinitperiod},
+           given={Antoine},
+           given_i={A\bibinitperiod}}}%
+        {{hash=04b1957842cd9b7f659593bb171e04ab}{%
+           family={Wynands},
+           family_i={W\bibinitperiod},
+           given={Robert},
+           given_i={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{61c54c073e3ed770c0a237934f97f45b}
+      \strng{fullhash}{61c54c073e3ed770c0a237934f97f45b}
+      \field{sortinit}{W}
+      \field{sortinithash}{99e3ba1b3f78bb6f073e7fa7ac11636b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{06}
+      \field{title}{Three Demonstration Experiments on the Wave and Particle Nature of Light}
+      \field{volume}{1}
+      \field{year}{2003}
+    \endentry
+    \entry{Wen:1985qj}{article}{}
+      \name{author}{2}{}{%
+        {{hash=0e5cbbaef3f573fe1ff3232bf52b70a6}{%
+           family={Wen},
+           family_i={W\bibinitperiod},
+           given={Xiao-Gang},
+           given_i={X\bibinithyphendelim G\bibinitperiod}}}%
+        {{hash=499139cc4d3fda9ba3955fa766a07270}{%
+           family={Witten},
+           family_i={W\bibinitperiod},
+           given={Edward},
+           given_i={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{08755d6ddf51c6490d468aeae4118f87}
+      \strng{fullhash}{08755d6ddf51c6490d468aeae4118f87}
+      \field{sortinit}{W}
+      \field{sortinithash}{99e3ba1b3f78bb6f073e7fa7ac11636b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nucl. Phys.}
+      \field{title}{{Electric and Magnetic Charges in Superstring Models}}
+      \field{volume}{B261}
+      \field{year}{1985}
+      \field{pages}{651\bibrangedash 677}
+      \range{pages}{27}
+      \verb{doi}
+      \verb 10.1016/0550-3213(85)90592-9
+      \endverb
+    \endentry
+    \entry{Yamamoto:1982sk}{article}{}
+      \name{author}{1}{}{%
+        {{hash=3f41646e03d06f903f320f356478d2d4}{%
+           family={Yamamoto},
+           family_i={Y\bibinitperiod},
+           given={Katsuji},
+           given_i={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{3f41646e03d06f903f320f356478d2d4}
+      \strng{fullhash}{3f41646e03d06f903f320f356478d2d4}
+      \field{sortinit}{Y}
+      \field{sortinithash}{3cbc1e3d286284cedb5e5218a3248f94}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Phys. Lett.}
+      \field{title}{{Fractionally Charged Leptons in the SO(14) {GUT}}}
+      \field{volume}{120B}
+      \field{year}{1983}
+      \field{pages}{157\bibrangedash 160}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1016/0370-2693(83)90643-3
+      \endverb
+    \endentry
+    \entry{Yu:1984pb}{article}{}
+      \name{author}{1}{}{%
+        {{hash=0ffb36cbba77140651c1c2b48b93bfe7}{%
+           family={Yu},
+           family_i={Y\bibinitperiod},
+           given={Hong-Wei},
+           given_i={H\bibinithyphendelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{0ffb36cbba77140651c1c2b48b93bfe7}
+      \strng{fullhash}{0ffb36cbba77140651c1c2b48b93bfe7}
+      \field{sortinit}{Y}
+      \field{sortinithash}{3cbc1e3d286284cedb5e5218a3248f94}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Phys. Lett.}
+      \field{title}{{SU(8) GUT MODELS WITH STABLE PROTON, N ANTI-N OSCILLATIONS, FRACTIONAL CHARGES AND LOW MASS MONOPOLES}}
+      \field{volume}{142B}
+      \field{year}{1984}
+      \field{pages}{42\bibrangedash 46}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1016/0370-2693(84)91132-8
+      \endverb
+    \endentry
+  \endsortlist
+  \missing{w}
+  \missing{sub:quarks}
+  \missing{???}
+  \missing{BLABLABLA}
+\endrefsection
+\endinput
+

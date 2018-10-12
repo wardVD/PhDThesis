@@ -1,0 +1,22 @@
+[0] Config.pm:340> INFO - This is Biber 2.4
+[0] Config.pm:343> INFO - Logfile is 'main.blg'
+[38] biber:287> INFO - === Tue Sep 18, 2018, 17:29:22
+[134] Biber.pm:348> INFO - Reading 'main.bcf'
+[314] Biber.pm:742> INFO - Found 74 citekeys in bib section 0
+[321] Biber.pm:3151> INFO - Processing section 0
+[368] Biber.pm:3308> INFO - Looking for bibtex format file 'bibliography.bib' for section 0
+[525] bibtex.pm:1113> INFO - Decoding LaTeX character macros into UTF-8
+[672] bibtex.pm:974> INFO - Found BibTeX data source 'bibliography.bib'
+[711] Utils.pm:147> WARN - ISBN '9780201503975, 0201503972' in entry 'Peskin:1995ev' is invalid - run biber with '--validate_datamodel' for details.
+[1178] Utils.pm:147> WARN - I didn't find a database entry for '???' (section 0)
+[1178] Utils.pm:147> WARN - I didn't find a database entry for 'BLABLABLA' (section 0)
+[1178] Utils.pm:147> WARN - I didn't find a database entry for 'sub:quarks' (section 0)
+[1178] Utils.pm:147> WARN - I didn't find a database entry for 'w' (section 0)
+[1181] Utils.pm:147> WARN - The field 'pages' in entry 'weiswynands:2003' cannot be null, deleting it
+[1734] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1734] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1734] Biber.pm:3028> INFO - Sorting list 'nyt/global' of type 'entry' with scheme 'nyt' and locale 'en-US'
+[1735] Biber.pm:3032> INFO - No sort tailoring available for locale 'en-US'
+[1867] bbl.pm:519> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[2060] bbl.pm:615> INFO - Output to main.bbl
+[2060] Biber.pm:109> INFO - WARNINGS: 6
