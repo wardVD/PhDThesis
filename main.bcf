@@ -2154,6 +2154,8 @@
     <bcf:citekey order="85">Bauleo:2009zz</bcf:citekey>
     <bcf:citekey order="86">Bauleo:2009zz</bcf:citekey>
     <bcf:citekey order="87">Gaisser:2016uoy</bcf:citekey>
+    <bcf:citekey order="88">Lagage:1983zz</bcf:citekey>
+    <bcf:citekey order="89">stanev2010high</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="nyt/global" type="entry" sortscheme="nyt" sortnamekeyscheme="global">
   <bcf:sorting>
