@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.7.26)  9 AUG 2018 14:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.15)  23 OCT 2018 13:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -13,7 +13,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.22 ...,left=3cm,right=3cm,headsep=10pt,a4paper]{
+l.22 ...,left=3cm,right=2cm,headsep=10pt,a4paper]{
                                                   geometry} % Page margins
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
@@ -97,7 +97,43 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.32 \usepackage{
+l.30 \usepackage{
+                 mhchem} %typesetting elements and atomic numbers
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+! LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.35 \usepackage{
+                 hhline}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+! LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.37 \usepackage{
+                 bbm}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+! LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.39 \usepackage{
                  multirow}
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
@@ -109,7 +145,19 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.34 \usepackage[greek,english]{
+l.41 \usepackage[toc,page]{
+                           appendix}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+! LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.43 \usepackage[greek,english]{
                                 babel} % English language/hyphenation
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
@@ -121,13 +169,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.38 \usepackage{
+l.47 \usepackage{
                  enumitem} % Customize lists
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
 
 ! Undefined control sequence.
-l.39 \setlist
+l.48 \setlist
              {nolistsep} % Reduce spacing between bullet points and numbered...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -142,7 +190,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.39 \setlist{n
+l.48 \setlist{n
                olistsep} % Reduce spacing between bullet points and numbered...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -158,7 +206,7 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no p in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 39--40
+Overfull \hbox (20.0pt too wide) in paragraph at lines 48--49
 [] 
  []
 
@@ -169,7 +217,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.41 \usepackage{
+l.50 \usepackage{
                  booktabs} % Required for nicer horizontal rules in tables
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
@@ -181,7 +229,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.43 \usepackage{
+l.52 \usepackage{
                  verbatim} % Allows for large blocks of comments with \begin...
 
 \usepackage may only appear in the document preamble, i.e.,
@@ -194,7 +242,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.45 \usepackage{
+l.54 \usepackage{
                  amsthm}
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
@@ -206,13 +254,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.47 \usepackage{
+l.56 \usepackage{
                  xcolor,colortbl} % Required for specifying colors by name
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
 
 ! Undefined control sequence.
-l.48 \definecolor
+l.57 \definecolor
                  {ocre}{RGB}{241, 169, 30} % Define the orange color used fo...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -227,7 +275,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.48 \definecolor{o
+l.57 \definecolor{o
                    cre}{RGB}{241, 169, 30} % Define the orange color used fo...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -251,7 +299,7 @@ Missing character: There is no , in font nullfont!
 Missing character: There is no 3 in font nullfont!
 Missing character: There is no 0 in font nullfont!
 ! Undefined control sequence.
-l.49 \definecolor
+l.58 \definecolor
                  {weirdblue}{RGB}{49,80,165}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -281,7 +329,7 @@ Missing character: There is no 1 in font nullfont!
 Missing character: There is no 6 in font nullfont!
 Missing character: There is no 5 in font nullfont!
 ! Undefined control sequence.
-l.50 \definecolor
+l.59 \definecolor
                  {grey}{RGB}{196,196,196}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -308,7 +356,7 @@ Missing character: There is no 1 in font nullfont!
 Missing character: There is no 9 in font nullfont!
 Missing character: There is no 6 in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 48--51
+Overfull \hbox (20.0pt too wide) in paragraph at lines 57--60
 []
  []
 
@@ -319,7 +367,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.56 \usepackage{
+l.65 \usepackage{
                  avant} % Use the Avantgarde font for headings
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
@@ -331,7 +379,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.58 \usepackage{
+l.67 \usepackage{
                  lmodern} % Use the Adobe Times Roman as the default text fo...
 
 \usepackage may only appear in the document preamble, i.e.,
@@ -344,7 +392,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.60 \usepackage{
+l.69 \usepackage{
                  microtype} % Slightly tweak font spacing for aesthetics
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
@@ -356,7 +404,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.61 \usepackage[utf8]{
+l.70 \usepackage[utf8]{
                        inputenc} % Required for including letters with accents
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
@@ -368,7 +416,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.62 \usepackage[T1]{
+l.71 \usepackage[T1]{
                      fontenc} % Use 8-bit encoding that has 256 glyphs
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
@@ -380,13 +428,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.68 ...reviate=false,backref=true,backend=biber]{
+l.77 ...reviate=false,backref=true,backend=biber]{
                                                   biblatex}
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
 
 ! Undefined control sequence.
-l.69 \addbibresource
+l.78 \addbibresource
                     {bibliography.bib} % BibTeX bibliography file
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -401,7 +449,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.69 \addbibresource{b
+l.78 \addbibresource{b
                       ibliography.bib} % BibTeX bibliography file
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -423,7 +471,7 @@ Missing character: There is no b in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no b in font nullfont!
 ! Undefined control sequence.
-l.70 \defbibheading
+l.79 \defbibheading
                    {bibempty}{}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -440,7 +488,7 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no y in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 69--71
+Overfull \hbox (20.0pt too wide) in paragraph at lines 78--80
 []
  []
 
@@ -451,7 +499,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.72 \usepackage{
+l.81 \usepackage{
                  calc} % For simpler calculation - used for spacing the inde...
 
 \usepackage may only appear in the document preamble, i.e.,
@@ -464,7 +512,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.73 \usepackage{
+l.82 \usepackage{
                  makeidx} % Required to make an index
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
@@ -480,7 +528,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.76 \usepackage[perpage]{
+l.85 \usepackage[perpage]{
                           footmisc} %footnotes
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
@@ -492,13 +540,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.84 \usepackage{
+l.93 \usepackage{
                  titletoc} % Required for manipulating the table of contents
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
 
 ! Undefined control sequence.
-l.86 \contentsmargin
+l.95 \contentsmargin
                     {0cm} % Removes the default margin
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -513,7 +561,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.86 \contentsmargin{0
+l.95 \contentsmargin{0
                       cm} % Removes the default margin
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -522,12 +570,12 @@ Missing character: There is no 0 in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no m in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 86--87
+Overfull \hbox (20.0pt too wide) in paragraph at lines 95--96
 [] 
  []
 
 ! Undefined control sequence.
-l.89 \titlecontents
+l.98 \titlecontents
                    {part}[0cm]
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -542,7 +590,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.89 \titlecontents{p
+l.98 \titlecontents{p
                      art}[0cm]
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -563,13 +611,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.90 {\addvspace{20pt}
+l.99 {\addvspace{20pt}
                       \centering\large\bfseries}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 ! Undefined control sequence.
-l.90 {\addvspace{20pt}\centering\large
+l.99 {\addvspace{20pt}\centering\large
                                       \bfseries}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -578,13 +626,13 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 89--94
+Overfull \hbox (20.0pt too wide) in paragraph at lines 98--103
 []
  []
 
 ! Undefined control sequence.
-l.96 \titlecontents
-                   {chapter}[1.25cm] % Indentation
+l.105 \titlecontents
+                    {chapter}[1.25cm] % Indentation
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -598,8 +646,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.96 \titlecontents{c
-                     hapter}[1.25cm] % Indentation
+l.105 \titlecontents{c
+                      hapter}[1.25cm] % Indentation
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -625,15 +673,15 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.97 {\addvspace{12pt}
-                      \large\sffamily\bfseries} % Spacing and font options f...
+l.106 {\addvspace{12pt}
+                       \large\sffamily\bfseries} % Spacing and font options ...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 ! Undefined control sequence.
-l.97 {\addvspace{12pt}\large
-                            \sffamily\bfseries} % Spacing and font options f...
+l.106 {\addvspace{12pt}\large
+                             \sffamily\bfseries} % Spacing and font options ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -641,8 +689,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.98 {\color
-            {ocre!60}\contentslabel[\large\thecontentslabel]{1.25cm}\color{o...
+l.107 {\color
+             {ocre!60}\contentslabel[\large\thecontentslabel]{1.25cm}\color{...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -657,8 +705,8 @@ Missing character: There is no ! in font nullfont!
 Missing character: There is no 6 in font nullfont!
 Missing character: There is no 0 in font nullfont!
 ! Undefined control sequence.
-l.98 {\color{ocre!60}\contentslabel
-                                   [\large\thecontentslabel]{1.25cm}\color{o...
+l.107 {\color{ocre!60}\contentslabel
+                                    [\large\thecontentslabel]{1.25cm}\color{...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -667,8 +715,8 @@ and I'll forget about whatever was undefined.
 
 Missing character: There is no [ in font nullfont!
 ! Undefined control sequence.
-l.98 {\color{ocre!60}\contentslabel[\large
-                                          \thecontentslabel]{1.25cm}\color{o...
+l.107 {\color{ocre!60}\contentslabel[\large
+                                           \thecontentslabel]{1.25cm}\color{...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -676,7 +724,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.98 ...!60}\contentslabel[\large\thecontentslabel
+l.107 ...60}\contentslabel[\large\thecontentslabel
                                                   ]{1.25cm}\color{ocre}} % C...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -692,7 +740,7 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no m in font nullfont!
 ! Undefined control sequence.
-l.98 ...bel[\large\thecontentslabel]{1.25cm}\color
+l.107 ...el[\large\thecontentslabel]{1.25cm}\color
                                                   {ocre}} % Chapter number
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -705,8 +753,8 @@ Missing character: There is no c in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no e in font nullfont!
 ! Undefined control sequence.
-l.99 {\color
-            {ocre}}
+l.108 {\color
+             {ocre}}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -718,7 +766,7 @@ Missing character: There is no c in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no e in font nullfont!
 ! Undefined control sequence.
-l.100 {\color
+l.109 {\color
              {ocre!60}\normalsize\;\titlerule*[.5pc]{.}\;\thecontentspage} %...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -741,7 +789,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.100 {\color{ocre!60}\normalsize
+l.109 {\color{ocre!60}\normalsize
                                  \;\titlerule*[.5pc]{.}\;\thecontentspage} %...
 
 Your command was ignored.
@@ -751,17 +799,17 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.100 {\color{ocre!60}\normalsize\;
+l.109 {\color{ocre!60}\normalsize\;
                                    \titlerule*[.5pc]{.}\;\thecontentspage} %...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 100.
+(Font)              <7> on input line 109.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 100.
+(Font)              <5> on input line 109.
 ! Undefined control sequence.
-l.100 {\color{ocre!60}\normalsize\;\titlerule
+l.109 {\color{ocre!60}\normalsize\;\titlerule
                                              *[.5pc]{.}\;\thecontentspage} %...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -770,7 +818,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.100 ...e\;\titlerule*[.5pc]{.}\;\thecontentspage
+l.109 ...e\;\titlerule*[.5pc]{.}\;\thecontentspage
                                                   } % Page number
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -779,7 +827,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Extra }, or forgotten $.
-l.100 ...\;\titlerule*[.5pc]{.}\;\thecontentspage}
+l.109 ...\;\titlerule*[.5pc]{.}\;\thecontentspage}
                                                    % Page number
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -790,24 +838,24 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.101 
+l.110 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 96--101
+Overfull \hbox (20.0pt too wide) in paragraph at lines 105--110
 []
  []
 
 
-Overfull \hbox (33.2477pt too wide) in paragraph at lines 96--101
+Overfull \hbox (33.2477pt too wide) in paragraph at lines 105--110
 \OMS/cmsy/m/n/10 ^^C\OT1/cmr/m/n/10 [\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 5\OML/cm
 m/m/it/10 pc\OT1/cmr/m/n/10 ]\OML/cmm/m/it/10 : $ 
  []
 
 ! Undefined control sequence.
-l.103 \titlecontents
+l.112 \titlecontents
                     {section}[1.25cm] % Indentation
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -822,7 +870,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.103 \titlecontents{s
+l.112 \titlecontents{s
                       ection}[1.25cm] % Indentation
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -849,14 +897,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.104 {\addvspace{3pt}
+l.113 {\addvspace{3pt}
                       \sffamily\bfseries} % Spacing and font options for sec...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 ! Undefined control sequence.
-l.105 {\contentslabel
+l.114 {\contentslabel
                      [\thecontentslabel]{1.25cm}} % Section number
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -866,7 +914,7 @@ and I'll forget about whatever was undefined.
 
 Missing character: There is no [ in font nullfont!
 ! Undefined control sequence.
-l.105 {\contentslabel[\thecontentslabel
+l.114 {\contentslabel[\thecontentslabel
                                        ]{1.25cm}} % Section number
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -882,7 +930,7 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no m in font nullfont!
 ! Undefined control sequence.
-l.107 {\hfill\color
+l.116 {\hfill\color
                    {black}\thecontentspage} % Page number
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -896,7 +944,7 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no k in font nullfont!
 ! Undefined control sequence.
-l.107 {\hfill\color{black}\thecontentspage
+l.116 {\hfill\color{black}\thecontentspage
                                           } % Page number
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -907,12 +955,12 @@ and I'll forget about whatever was undefined.
 Missing character: There is no [ in font nullfont!
 Missing character: There is no ] in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 103--109
+Overfull \hbox (20.0pt too wide) in paragraph at lines 112--118
 []
  []
 
 ! Undefined control sequence.
-l.111 \titlecontents
+l.120 \titlecontents
                     {subsection}[1.25cm] % Indentation
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -927,7 +975,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.111 \titlecontents{s
+l.120 \titlecontents{s
                       ubsection}[1.25cm] % Indentation
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -957,14 +1005,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.112 {\addvspace{1pt}
+l.121 {\addvspace{1pt}
                       \sffamily\small} % Spacing and font options for subsec...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 ! Undefined control sequence.
-l.112 {\addvspace{1pt}\sffamily\small
+l.121 {\addvspace{1pt}\sffamily\small
                                      } % Spacing and font options for subsec...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -973,7 +1021,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.113 {\contentslabel
+l.122 {\contentslabel
                      [\thecontentslabel]{1.25cm}} % Subsection number
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -983,7 +1031,7 @@ and I'll forget about whatever was undefined.
 
 Missing character: There is no [ in font nullfont!
 ! Undefined control sequence.
-l.113 {\contentslabel[\thecontentslabel
+l.122 {\contentslabel[\thecontentslabel
                                        ]{1.25cm}} % Subsection number
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -999,7 +1047,7 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no m in font nullfont!
 ! Undefined control sequence.
-l.115 {\ \titlerule
+l.124 {\ \titlerule
                    *[.5pc]{.}\;\thecontentspage} % Page number
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1018,13 +1066,13 @@ Missing character: There is no . in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.115 {\ \titlerule*[.5pc]{.}\;
+l.124 {\ \titlerule*[.5pc]{.}\;
                                \thecontentspage} % Page number
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Undefined control sequence.
-l.115 {\ \titlerule*[.5pc]{.}\;\thecontentspage
+l.124 {\ \titlerule*[.5pc]{.}\;\thecontentspage
                                                } % Page number
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1033,7 +1081,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Extra }, or forgotten $.
-l.115 {\ \titlerule*[.5pc]{.}\;\thecontentspage}
+l.124 {\ \titlerule*[.5pc]{.}\;\thecontentspage}
                                                  % Page number
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1044,23 +1092,174 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.117 
+l.126 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 111--117
+Overfull \hbox (20.0pt too wide) in paragraph at lines 120--126
 []
  []
 
 
-Overfull \hbox (5.55557pt too wide) in paragraph at lines 111--117
+Overfull \hbox (5.55557pt too wide) in paragraph at lines 120--126
 \OT1/cmr/m/n/10 []$ 
  []
 
 ! Undefined control sequence.
-l.119 \titlecontents
+l.128 \titlecontents
+                    {subsubsection}[1.25cm] % Indentation
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.128 \titlecontents{s
+                      ubsubsection}[1.25cm] % Indentation
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no s in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no [ in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no ] in font nullfont!
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.129 {\addvspace{1pt}
+                      \sffamily\small} % Spacing and font options for subsub...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.129 {\addvspace{1pt}\sffamily\small
+                                     } % Spacing and font options for subsub...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.130 {\contentslabel
+                     [\thecontentslabel]{1.25cm}} % Subsubsection number
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no [ in font nullfont!
+! Undefined control sequence.
+l.130 {\contentslabel[\thecontentslabel
+                                       ]{1.25cm}} % Subsubsection number
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no ] in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no m in font nullfont!
+! Undefined control sequence.
+l.132 {\ \titlerule
+                   *[.5pc]{.}\;\thecontentspage} % Page number
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no * in font nullfont!
+Missing character: There is no [ in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no . in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.132 {\ \titlerule*[.5pc]{.}\;
+                               \thecontentspage} % Page number
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Undefined control sequence.
+l.132 {\ \titlerule*[.5pc]{.}\;\thecontentspage
+                                               } % Page number
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Extra }, or forgotten $.
+l.132 {\ \titlerule*[.5pc]{.}\;\thecontentspage}
+                                                 % Page number
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.134 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 128--134
+[]
+ []
+
+
+Overfull \hbox (5.55557pt too wide) in paragraph at lines 128--134
+\OT1/cmr/m/n/10 []$ 
+ []
+
+! Undefined control sequence.
+l.136 \titlecontents
                     {figure}[0em]
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1075,7 +1274,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.119 \titlecontents{f
+l.136 \titlecontents{f
                       igure}[0em]
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1098,13 +1297,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.120 {\addvspace{-5pt}
+l.137 {\addvspace{-5pt}
                        \sffamily}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 ! Undefined control sequence.
-l.121 {\thecontentslabel
+l.138 {\thecontentslabel
                         \hspace*{1em}}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1113,7 +1312,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.123 {\ \titlerule
+l.140 {\ \titlerule
                    *[.5pc]{.}\;\thecontentspage}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1132,13 +1331,13 @@ Missing character: There is no . in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.123 {\ \titlerule*[.5pc]{.}\;
+l.140 {\ \titlerule*[.5pc]{.}\;
                                \thecontentspage}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Undefined control sequence.
-l.123 {\ \titlerule*[.5pc]{.}\;\thecontentspage
+l.140 {\ \titlerule*[.5pc]{.}\;\thecontentspage
                                                }
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1147,7 +1346,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Extra }, or forgotten $.
-l.123 {\ \titlerule*[.5pc]{.}\;\thecontentspage}
+l.140 {\ \titlerule*[.5pc]{.}\;\thecontentspage}
                                                 
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1158,23 +1357,23 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.125 
+l.142 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 119--125
+Overfull \hbox (20.0pt too wide) in paragraph at lines 136--142
 []
  []
 
 
-Overfull \hbox (8.33328pt too wide) in paragraph at lines 119--125
+Overfull \hbox (8.33328pt too wide) in paragraph at lines 136--142
 |    $ \OT1/cmr/m/n/10 []$ 
  []
 
 ! Undefined control sequence.
-l.127 \titlecontents
+l.144 \titlecontents
                     {table}[0em]
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1189,7 +1388,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.127 \titlecontents{t
+l.144 \titlecontents{t
                       able}[0em]
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1211,13 +1410,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.128 {\addvspace{-5pt}
+l.145 {\addvspace{-5pt}
                        \sffamily}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 ! Undefined control sequence.
-l.129 {\thecontentslabel
+l.146 {\thecontentslabel
                         \hspace*{1em}}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1226,7 +1425,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.131 {\ \titlerule
+l.148 {\ \titlerule
                    *[.5pc]{.}\;\thecontentspage}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1245,13 +1444,13 @@ Missing character: There is no . in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.131 {\ \titlerule*[.5pc]{.}\;
+l.148 {\ \titlerule*[.5pc]{.}\;
                                \thecontentspage}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Undefined control sequence.
-l.131 {\ \titlerule*[.5pc]{.}\;\thecontentspage
+l.148 {\ \titlerule*[.5pc]{.}\;\thecontentspage
                                                }
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1260,7 +1459,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Extra }, or forgotten $.
-l.131 {\ \titlerule*[.5pc]{.}\;\thecontentspage}
+l.148 {\ \titlerule*[.5pc]{.}\;\thecontentspage}
                                                 
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1271,23 +1470,23 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.133 
+l.150 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 127--133
+Overfull \hbox (20.0pt too wide) in paragraph at lines 144--150
 []
  []
 
 
-Overfull \hbox (8.33328pt too wide) in paragraph at lines 127--133
+Overfull \hbox (8.33328pt too wide) in paragraph at lines 144--150
 |    $ \OT1/cmr/m/n/10 []$ 
  []
 
 ! Undefined control sequence.
-l.139 \titlecontents
+l.156 \titlecontents
                     {lchapter}[0em] % Indenting
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1302,7 +1501,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.139 \titlecontents{l
+l.156 \titlecontents{l
                       chapter}[0em] % Indenting
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1327,14 +1526,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.140 {\addvspace{15pt}
-                       \small\sffamily\bfseries} % Spacing and font options ...
+l.157 {\addvspace{15pt}
+                       \large\sffamily\bfseries} % Spacing and font options ...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 ! Undefined control sequence.
-l.140 {\addvspace{15pt}\small
+l.157 {\addvspace{15pt}\large
                              \sffamily\bfseries} % Spacing and font options ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1343,7 +1542,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.141 {\color
+l.158 {\color
              {ocre}\contentslabel[\Large\thecontentslabel]{1.25cm}\color{ocr...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1356,7 +1555,7 @@ Missing character: There is no c in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no e in font nullfont!
 ! Undefined control sequence.
-l.141 {\color{ocre}\contentslabel
+l.158 {\color{ocre}\contentslabel
                                  [\Large\thecontentslabel]{1.25cm}\color{ocr...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1366,7 +1565,7 @@ and I'll forget about whatever was undefined.
 
 Missing character: There is no [ in font nullfont!
 ! Undefined control sequence.
-l.141 {\color{ocre}\contentslabel[\Large
+l.158 {\color{ocre}\contentslabel[\Large
                                         \thecontentslabel]{1.25cm}\color{ocr...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1375,7 +1574,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.141 ...re}\contentslabel[\Large\thecontentslabel
+l.158 ...re}\contentslabel[\Large\thecontentslabel
                                                   ]{1.25cm}\color{ocre}} % C...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1391,7 +1590,7 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no m in font nullfont!
 ! Undefined control sequence.
-l.141 ...el[\Large\thecontentslabel]{1.25cm}\color
+l.158 ...el[\Large\thecontentslabel]{1.25cm}\color
                                                   {ocre}} % Chapter number
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1404,7 +1603,7 @@ Missing character: There is no c in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no e in font nullfont!
 ! Undefined control sequence.
-l.143 {\color
+l.160 {\color
              {ocre}\normalsize\sffamily\bfseries\;\titlerule*[.5pc]{.}\;\the...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1424,7 +1623,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.143 {\color{ocre}\normalsize
+l.160 {\color{ocre}\normalsize
                               \sffamily\bfseries\;\titlerule*[.5pc]{.}\;\the...
 
 Your command was ignored.
@@ -1434,13 +1633,13 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.143 {\color{ocre}\normalsize\sffamily\bfseries\;
+l.160 {\color{ocre}\normalsize\sffamily\bfseries\;
                                                   \titlerule*[.5pc]{.}\;\the...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Undefined control sequence.
-l.143 ...\normalsize\sffamily\bfseries\;\titlerule
+l.160 ...\normalsize\sffamily\bfseries\;\titlerule
                                                   *[.5pc]{.}\;\thecontentspa...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1449,7 +1648,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.143 ...s\;\titlerule*[.5pc]{.}\;\thecontentspage
+l.160 ...s\;\titlerule*[.5pc]{.}\;\thecontentspage
                                                   } % Page number
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1458,7 +1657,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Extra }, or forgotten $.
-l.143 ...\;\titlerule*[.5pc]{.}\;\thecontentspage}
+l.160 ...\;\titlerule*[.5pc]{.}\;\thecontentspage}
                                                    % Page number
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1469,24 +1668,24 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.144 
+l.161 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 139--144
+Overfull \hbox (20.0pt too wide) in paragraph at lines 156--161
 []
  []
 
 
-Overfull \hbox (33.2477pt too wide) in paragraph at lines 139--144
+Overfull \hbox (33.2477pt too wide) in paragraph at lines 156--161
 \OMS/cmsy/m/n/10 ^^C\OT1/cmr/m/n/10 [\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 5\OML/cm
 m/m/it/10 pc\OT1/cmr/m/n/10 ]\OML/cmm/m/it/10 : $ 
  []
 
 ! Undefined control sequence.
-l.146 \titlecontents
+l.163 \titlecontents
                     {lsection}[0em] % Indenting
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1501,13 +1700,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.146 \titlecontents{l
+l.163 \titlecontents{l
                       section}[0em] % Indenting
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 ! Undefined control sequence.
-l.147 {\sffamily\small
+l.164 {\sffamily\small
                       } % Spacing and font options for sections
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1516,7 +1715,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.148 {\contentslabel
+l.165 {\contentslabel
                      [\thecontentslabel]{1.25cm}} % Section number
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1525,7 +1724,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.148 {\contentslabel[\thecontentslabel
+l.165 {\contentslabel[\thecontentslabel
                                        ]{1.25cm}} % Section number
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1534,17 +1733,17 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (80.6197pt too wide) in paragraph at lines 146--151
+Overfull \hbox (80.6197pt too wide) in paragraph at lines 163--168
 []\OT1/cmss/bx/n/10 lsection[0em]
  []
 
 
-Overfull \hbox (39.97243pt too wide) in paragraph at lines 146--151
+Overfull \hbox (39.97243pt too wide) in paragraph at lines 163--168
 \OT1/cmss/bx/n/10 []1.25cm
  []
 
 ! Undefined control sequence.
-l.153 \titlecontents
+l.170 \titlecontents
                     {lsubsection}[.5em] % Indentation
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1559,13 +1758,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.153 \titlecontents{l
+l.170 \titlecontents{l
                       subsection}[.5em] % Indentation
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 ! Undefined control sequence.
-l.154 {\normalfont\footnotesize
+l.171 {\normalfont\footnotesize
                                \sffamily} % Font settings
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1574,7 +1773,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (99.11423pt too wide) in paragraph at lines 153--158
+Overfull \hbox (99.11423pt too wide) in paragraph at lines 170--175
 []\OT1/cmss/bx/n/10 lsubsection[.5em]
  []
 
@@ -1585,7 +1784,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.163 \usepackage{
+l.180 \usepackage{
                   fancyhdr} % Required for header and footer configuration
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
@@ -1593,7 +1792,7 @@ between \documentclass and \begin{document}.
 ! Undefined control sequence.
 <argument> \undefinedpagestyle 
                                
-l.165 \pagestyle{fancy}
+l.182 \pagestyle{fancy}
                        
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1608,14 +1807,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.166 \renewcommand{\chaptermark}
+l.183 \renewcommand{\chaptermark}
                                  [1]{\markboth{\sffamily\normalsize\bfseries...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 ! Undefined control sequence.
-l.168 \fancyhf
+l.185 \fancyhf
               {} \fancyhead[LE,RO]{\sffamily\normalsize\thepage} % Font sett...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1624,7 +1823,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.168 \fancyhf{} \fancyhead
+l.185 \fancyhf{} \fancyhead
                            [LE,RO]{\sffamily\normalsize\thepage} % Font sett...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1639,7 +1838,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.168 \fancyhf{} \fancyhead[
+l.185 \fancyhf{} \fancyhead[
                             LE,RO]{\sffamily\normalsize\thepage} % Font sett...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -1653,7 +1852,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.168 ...{} \fancyhead[LE,RO]{\sffamily\normalsize
+l.185 ...{} \fancyhead[LE,RO]{\sffamily\normalsize
                                                   \thepage} % Font setting f...
 
 Your command was ignored.
@@ -1661,7 +1860,7 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Undefined control sequence.
-l.168 ...yhead[LE,RO]{\sffamily\normalsize\thepage
+l.185 ...yhead[LE,RO]{\sffamily\normalsize\thepage
                                                   } % Font setting for the p...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1670,7 +1869,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.169 \fancyhead
+l.186 \fancyhead
                 [LO]{\rightmark} % Print the nearest section name on the lef...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1679,7 +1878,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.170 \fancyhead
+l.187 \fancyhead
                 [RE]{\leftmark} % Print the current chapter name on the righ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1694,7 +1893,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.171 \renewcommand{\headrulewidth}
+l.188 \renewcommand{\headrulewidth}
                                    {0.5pt} % Width of the rule under the header
 
 Try typing  <return>  to proceed.
@@ -1707,13 +1906,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.173 \renewcommand{\footrulewidth}
+l.190 \renewcommand{\footrulewidth}
                                    {0pt} % Removes the rule in the footer
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 ! Undefined control sequence.
-l.174 \fancypagestyle
+l.191 \fancypagestyle
                      {plain}{\fancyhead{}\renewcommand{\headrulewidth}{0pt}}...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1722,7 +1921,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.174 \fancypagestyle{plain}{\fancyhead
+l.191 \fancypagestyle{plain}{\fancyhead
                                        {}\renewcommand{\headrulewidth}{0pt}}...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1731,22 +1930,22 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (57.11131pt too wide) in paragraph at lines 168--175
+Overfull \hbox (57.11131pt too wide) in paragraph at lines 185--192
 []\OT1/cmss/bx/n/10 [LE,RO]
  []
 
 
-Overfull \hbox (20.61122pt too wide) in paragraph at lines 168--175
+Overfull \hbox (20.61122pt too wide) in paragraph at lines 185--192
 \OT1/cmss/bx/n/10 [LO]
  []
 
 
-Overfull \hbox (20.30566pt too wide) in paragraph at lines 168--175
+Overfull \hbox (20.30566pt too wide) in paragraph at lines 185--192
 \OT1/cmss/bx/n/10 [RE]
  []
 
 
-Overfull \hbox (21.5834pt too wide) in paragraph at lines 168--175
+Overfull \hbox (21.5834pt too wide) in paragraph at lines 185--192
 \OT1/cmss/bx/n/10 plain 
  []
 
@@ -1757,7 +1956,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.190 \usepackage{
+l.207 \usepackage{
                   amsmath,amsfonts,amssymb,amsthm} % For math equations, the...
 
 \usepackage may only appear in the document preamble, i.e.,
@@ -1771,14 +1970,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.195 \newtheorem{notation}{Notation}[chapter]
+l.212 \newtheorem{notation}{Notation}[chapter]
                                               
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Undefined control sequence.
-l.198 \newtheoremstyle
+l.215 \newtheoremstyle
                       {ocrenumbox}% % Theorem style name
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1793,13 +1992,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.198 \newtheoremstyle{o
+l.215 \newtheoremstyle{o
                         crenumbox}% % Theorem style name
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 ! Undefined control sequence.
-l.203 {\small
+l.220 {\small
              \bf\sffamily\color{ocre}}% % Theorem head font
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1808,7 +2007,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.203 {\small\bf
+l.220 {\small\bf
                 \sffamily\color{ocre}}% % Theorem head font
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1817,7 +2016,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.203 {\small\bf\sffamily\color
+l.220 {\small\bf\sffamily\color
                                {ocre}}% % Theorem head font
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1828,13 +2027,13 @@ and I'll forget about whatever was undefined.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.204 {\;
+l.221 {\;
          }% Punctuation after theorem head
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
-l.204 {\;}
+l.221 {\;}
           % Punctuation after theorem head
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1843,7 +2042,7 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 ! Undefined control sequence.
-l.206 {\small
+l.223 {\small
              \sffamily\color{ocre}\thmname{#1}\nobreakspace\thmnumber{\@ifno...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1858,13 +2057,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.206 {\small\sffamily
+l.223 {\small\sffamily
                       \color{ocre}\thmname{#1}\nobreakspace\thmnumber{\@ifno...
 
 Please use the math alphabet \mathsf instead of the \sffamily command. 
 
 ! Undefined control sequence.
-l.206 {\small\sffamily\color
+l.223 {\small\sffamily\color
                             {ocre}\thmname{#1}\nobreakspace\thmnumber{\@ifno...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1873,7 +2072,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.206 {\small\sffamily\color{ocre}\thmname
+l.223 {\small\sffamily\color{ocre}\thmname
                                           {#1}\nobreakspace\thmnumber{\@ifno...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1882,7 +2081,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! You can't use `macro parameter character #' in math mode.
-l.206 {\small\sffamily\color{ocre}\thmname{#
+l.223 {\small\sffamily\color{ocre}\thmname{#
                                             1}\nobreakspace\thmnumber{\@ifno...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -1890,7 +2089,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! Undefined control sequence.
-l.206 ...{ocre}\thmname{#1}\nobreakspace\thmnumber
+l.223 ...{ocre}\thmname{#1}\nobreakspace\thmnumber
                                                   {\@ifnotempty{#1}{}\@upn{#...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1899,7 +2098,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.206 ...e{#1}\nobreakspace\thmnumber{\@ifnotempty
+l.223 ...e{#1}\nobreakspace\thmnumber{\@ifnotempty
                                                   {#1}{}\@upn{#2}}% Theorem ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1908,7 +2107,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! You can't use `macro parameter character #' in math mode.
-l.206 ...#1}\nobreakspace\thmnumber{\@ifnotempty{#
+l.223 ...#1}\nobreakspace\thmnumber{\@ifnotempty{#
                                                   1}{}\@upn{#2}}% Theorem te...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -1916,7 +2115,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! Undefined control sequence.
-l.206 ...akspace\thmnumber{\@ifnotempty{#1}{}\@upn
+l.223 ...akspace\thmnumber{\@ifnotempty{#1}{}\@upn
                                                   {#2}}% Theorem text (e.g. ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1925,7 +2124,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! You can't use `macro parameter character #' in math mode.
-l.206 ...space\thmnumber{\@ifnotempty{#1}{}\@upn{#
+l.223 ...space\thmnumber{\@ifnotempty{#1}{}\@upn{#
                                                   2}}% Theorem text (e.g. Th...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -1933,7 +2132,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! Undefined control sequence.
-l.207 \thmnote
+l.224 \thmnote
               {\nobreakspace\the\thm@notefont\sffamily\bfseries\color{black}...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1942,7 +2141,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.207 \thmnote{\nobreakspace\the\thm@notefont
+l.224 \thmnote{\nobreakspace\the\thm@notefont
                                              \sffamily\bfseries\color{black}...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1953,7 +2152,7 @@ and I'll forget about whatever was undefined.
 ! You can't use `\relax' after \the.
 \sffamily ->\protect 
                      \sffamily  
-l.207 ...e{\nobreakspace\the\thm@notefont\sffamily
+l.224 ...e{\nobreakspace\the\thm@notefont\sffamily
                                                   \bfseries\color{black}---\...
 I'm forgetting what you said and using zero instead.
 
@@ -1964,7 +2163,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.207 ...e{\nobreakspace\the\thm@notefont\sffamily
+l.224 ...e{\nobreakspace\the\thm@notefont\sffamily
                                                   \bfseries\color{black}---\...
 
 Please use the math alphabet \mathsf instead of the \sffamily command. 
@@ -1976,13 +2175,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.207 ...kspace\the\thm@notefont\sffamily\bfseries
+l.224 ...kspace\the\thm@notefont\sffamily\bfseries
                                                   \color{black}---\nobreaksp...
 
 Please use the math alphabet \mathbf instead of the \bfseries command. 
 
 ! Undefined control sequence.
-l.207 ...\the\thm@notefont\sffamily\bfseries\color
+l.224 ...\the\thm@notefont\sffamily\bfseries\color
                                                   {black}---\nobreakspace#3....
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1991,7 +2190,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! You can't use `macro parameter character #' in math mode.
-l.207 ...ly\bfseries\color{black}---\nobreakspace#
+l.224 ...ly\bfseries\color{black}---\nobreakspace#
                                                   3.}} % Optional theorem note
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -2005,7 +2204,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.208 \renewcommand{\qedsymbol}
+l.225 \renewcommand{\qedsymbol}
                                {$\blacksquare$}% Optional qed square
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2013,18 +2212,18 @@ If that doesn't work, type  X <return>  to quit.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.209 
+l.226 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Overfull \hbox (271.58047pt too wide) in paragraph at lines 198--209
+Overfull \hbox (271.58047pt too wide) in paragraph at lines 215--226
 []\OT1/cmss/bx/n/10 ocrenumbox0pt0ptocre$ [][]$ 
  []
 
 ! Undefined control sequence.
-l.210 \newtheoremstyle
+l.227 \newtheoremstyle
                       {blacknumex}% Theorem style name
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2039,13 +2238,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.210 \newtheoremstyle{b
+l.227 \newtheoremstyle{b
                         lacknumex}% Theorem style name
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 ! Undefined control sequence.
-l.215 {\small
+l.232 {\small
              \bf\sffamily}% Theorem head font
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2054,7 +2253,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.215 {\small\bf
+l.232 {\small\bf
                 \sffamily}% Theorem head font
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2065,13 +2264,13 @@ and I'll forget about whatever was undefined.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.216 {\;
+l.233 {\;
          }% Punctuation after theorem head
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
-l.216 {\;}
+l.233 {\;}
           % Punctuation after theorem head
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2080,7 +2279,7 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 ! Undefined control sequence.
-l.218 {\small
+l.235 {\small
              \sffamily{\tiny\ensuremath{\blacksquare}}\nobreakspace\thmname{...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2095,13 +2294,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.218 {\small\sffamily
+l.235 {\small\sffamily
                       {\tiny\ensuremath{\blacksquare}}\nobreakspace\thmname{...
 
 Please use the math alphabet \mathsf instead of the \sffamily command. 
 
 ! Undefined control sequence.
-l.218 {\small\sffamily{\tiny
+l.235 {\small\sffamily{\tiny
                             \ensuremath{\blacksquare}}\nobreakspace\thmname{...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2112,7 +2311,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \blacksquare 
                         
-l.218 ...l\sffamily{\tiny\ensuremath{\blacksquare}
+l.235 ...l\sffamily{\tiny\ensuremath{\blacksquare}
                                                   }\nobreakspace\thmname{#1}...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2121,7 +2320,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.218 ...emath{\blacksquare}}\nobreakspace\thmname
+l.235 ...emath{\blacksquare}}\nobreakspace\thmname
                                                   {#1}\nobreakspace\thmnumbe...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2130,7 +2329,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! You can't use `macro parameter character #' in math mode.
-l.218 ...ath{\blacksquare}}\nobreakspace\thmname{#
+l.235 ...ath{\blacksquare}}\nobreakspace\thmname{#
                                                   1}\nobreakspace\thmnumber{...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -2138,7 +2337,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! Undefined control sequence.
-l.218 ...kspace\thmname{#1}\nobreakspace\thmnumber
+l.235 ...kspace\thmname{#1}\nobreakspace\thmnumber
                                                   {\@ifnotempty{#1}{}\@upn{#...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2147,7 +2346,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.218 ...e{#1}\nobreakspace\thmnumber{\@ifnotempty
+l.235 ...e{#1}\nobreakspace\thmnumber{\@ifnotempty
                                                   {#1}{}\@upn{#2}}% Theorem ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2156,7 +2355,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! You can't use `macro parameter character #' in math mode.
-l.218 ...#1}\nobreakspace\thmnumber{\@ifnotempty{#
+l.235 ...#1}\nobreakspace\thmnumber{\@ifnotempty{#
                                                   1}{}\@upn{#2}}% Theorem te...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -2164,7 +2363,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! Undefined control sequence.
-l.218 ...akspace\thmnumber{\@ifnotempty{#1}{}\@upn
+l.235 ...akspace\thmnumber{\@ifnotempty{#1}{}\@upn
                                                   {#2}}% Theorem text (e.g. ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2173,7 +2372,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! You can't use `macro parameter character #' in math mode.
-l.218 ...space\thmnumber{\@ifnotempty{#1}{}\@upn{#
+l.235 ...space\thmnumber{\@ifnotempty{#1}{}\@upn{#
                                                   2}}% Theorem text (e.g. Th...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -2181,7 +2380,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! Undefined control sequence.
-l.219 \thmnote
+l.236 \thmnote
               {\nobreakspace\the\thm@notefont\sffamily\bfseries---\nobreaksp...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2190,7 +2389,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.219 \thmnote{\nobreakspace\the\thm@notefont
+l.236 \thmnote{\nobreakspace\the\thm@notefont
                                              \sffamily\bfseries---\nobreaksp...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2201,7 +2400,7 @@ and I'll forget about whatever was undefined.
 ! You can't use `\relax' after \the.
 \sffamily ->\protect 
                      \sffamily  
-l.219 ...e{\nobreakspace\the\thm@notefont\sffamily
+l.236 ...e{\nobreakspace\the\thm@notefont\sffamily
                                                   \bfseries---\nobreakspace#...
 I'm forgetting what you said and using zero instead.
 
@@ -2212,7 +2411,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.219 ...e{\nobreakspace\the\thm@notefont\sffamily
+l.236 ...e{\nobreakspace\the\thm@notefont\sffamily
                                                   \bfseries---\nobreakspace#...
 
 Please use the math alphabet \mathsf instead of the \sffamily command. 
@@ -2224,13 +2423,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.219 ...kspace\the\thm@notefont\sffamily\bfseries
+l.236 ...kspace\the\thm@notefont\sffamily\bfseries
                                                   ---\nobreakspace#3.}}% Opt...
 
 Please use the math alphabet \mathbf instead of the \bfseries command. 
 
 ! You can't use `macro parameter character #' in math mode.
-l.219 ...tefont\sffamily\bfseries---\nobreakspace#
+l.236 ...tefont\sffamily\bfseries---\nobreakspace#
                                                   3.}}% Optional theorem note
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -2240,23 +2439,23 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.220 
+l.237 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Overfull \hbox (103.917pt too wide) in paragraph at lines 210--220
+Overfull \hbox (103.917pt too wide) in paragraph at lines 227--237
 []\OT1/cmss/bx/n/10 blacknumex5pt5pt
  []
 
 
-Overfull \hbox (105.88092pt too wide) in paragraph at lines 210--220
+Overfull \hbox (105.88092pt too wide) in paragraph at lines 227--237
 [][]$ 
  []
 
 ! Undefined control sequence.
-l.221 \newtheoremstyle
+l.238 \newtheoremstyle
                       {blacknumbox} % Theorem style name
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2271,13 +2470,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.221 \newtheoremstyle{b
+l.238 \newtheoremstyle{b
                         lacknumbox} % Theorem style name
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 ! Undefined control sequence.
-l.226 {\small
+l.243 {\small
              \bf\sffamily}% Theorem head font
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2286,7 +2485,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.226 {\small\bf
+l.243 {\small\bf
                 \sffamily}% Theorem head font
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2297,13 +2496,13 @@ and I'll forget about whatever was undefined.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.227 {\;
+l.244 {\;
          }% Punctuation after theorem head
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
-l.227 {\;}
+l.244 {\;}
           % Punctuation after theorem head
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2312,7 +2511,7 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 ! Undefined control sequence.
-l.229 {\small
+l.246 {\small
              \sffamily\thmname{#1}\nobreakspace\thmnumber{\@ifnotempty{#1}{}...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2327,13 +2526,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.229 {\small\sffamily
+l.246 {\small\sffamily
                       \thmname{#1}\nobreakspace\thmnumber{\@ifnotempty{#1}{}...
 
 Please use the math alphabet \mathsf instead of the \sffamily command. 
 
 ! Undefined control sequence.
-l.229 {\small\sffamily\thmname
+l.246 {\small\sffamily\thmname
                               {#1}\nobreakspace\thmnumber{\@ifnotempty{#1}{}...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2342,7 +2541,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! You can't use `macro parameter character #' in math mode.
-l.229 {\small\sffamily\thmname{#
+l.246 {\small\sffamily\thmname{#
                                 1}\nobreakspace\thmnumber{\@ifnotempty{#1}{}...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -2350,7 +2549,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! Undefined control sequence.
-l.229 ...family\thmname{#1}\nobreakspace\thmnumber
+l.246 ...family\thmname{#1}\nobreakspace\thmnumber
                                                   {\@ifnotempty{#1}{}\@upn{#...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2359,7 +2558,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.229 ...e{#1}\nobreakspace\thmnumber{\@ifnotempty
+l.246 ...e{#1}\nobreakspace\thmnumber{\@ifnotempty
                                                   {#1}{}\@upn{#2}}% Theorem ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2368,7 +2567,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! You can't use `macro parameter character #' in math mode.
-l.229 ...#1}\nobreakspace\thmnumber{\@ifnotempty{#
+l.246 ...#1}\nobreakspace\thmnumber{\@ifnotempty{#
                                                   1}{}\@upn{#2}}% Theorem te...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -2376,7 +2575,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! Undefined control sequence.
-l.229 ...akspace\thmnumber{\@ifnotempty{#1}{}\@upn
+l.246 ...akspace\thmnumber{\@ifnotempty{#1}{}\@upn
                                                   {#2}}% Theorem text (e.g. ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2385,7 +2584,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! You can't use `macro parameter character #' in math mode.
-l.229 ...space\thmnumber{\@ifnotempty{#1}{}\@upn{#
+l.246 ...space\thmnumber{\@ifnotempty{#1}{}\@upn{#
                                                   2}}% Theorem text (e.g. Th...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -2393,7 +2592,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! Undefined control sequence.
-l.230 \thmnote
+l.247 \thmnote
               {\nobreakspace\the\thm@notefont\sffamily\bfseries---\nobreaksp...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2402,7 +2601,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.230 \thmnote{\nobreakspace\the\thm@notefont
+l.247 \thmnote{\nobreakspace\the\thm@notefont
                                              \sffamily\bfseries---\nobreaksp...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2413,7 +2612,7 @@ and I'll forget about whatever was undefined.
 ! You can't use `\relax' after \the.
 \sffamily ->\protect 
                      \sffamily  
-l.230 ...e{\nobreakspace\the\thm@notefont\sffamily
+l.247 ...e{\nobreakspace\the\thm@notefont\sffamily
                                                   \bfseries---\nobreakspace#...
 I'm forgetting what you said and using zero instead.
 
@@ -2424,7 +2623,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.230 ...e{\nobreakspace\the\thm@notefont\sffamily
+l.247 ...e{\nobreakspace\the\thm@notefont\sffamily
                                                   \bfseries---\nobreakspace#...
 
 Please use the math alphabet \mathsf instead of the \sffamily command. 
@@ -2436,13 +2635,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.230 ...kspace\the\thm@notefont\sffamily\bfseries
+l.247 ...kspace\the\thm@notefont\sffamily\bfseries
                                                   ---\nobreakspace#3.}}% Opt...
 
 Please use the math alphabet \mathbf instead of the \bfseries command. 
 
 ! You can't use `macro parameter character #' in math mode.
-l.230 ...tefont\sffamily\bfseries---\nobreakspace#
+l.247 ...tefont\sffamily\bfseries---\nobreakspace#
                                                   3.}}% Optional theorem note
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -2452,23 +2651,23 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.231 
+l.248 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Overfull \hbox (79.61134pt too wide) in paragraph at lines 221--231
+Overfull \hbox (79.61134pt too wide) in paragraph at lines 238--248
 []\OT1/cmss/bx/n/10 blacknumbox
  []
 
 
-Overfull \hbox (135.29764pt too wide) in paragraph at lines 221--231
+Overfull \hbox (135.29764pt too wide) in paragraph at lines 238--248
 \OT1/cmss/bx/n/10 0pt0pt$ [][]$ 
  []
 
 ! Undefined control sequence.
-l.233 \newtheoremstyle
+l.250 \newtheoremstyle
                       {ocrenum}% % Theorem style name
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2483,13 +2682,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.233 \newtheoremstyle{o
+l.250 \newtheoremstyle{o
                         crenum}% % Theorem style name
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 ! Undefined control sequence.
-l.238 {\small
+l.255 {\small
              \bf\sffamily\color{ocre}}% % Theorem head font
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2498,7 +2697,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.238 {\small\bf
+l.255 {\small\bf
                 \sffamily\color{ocre}}% % Theorem head font
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2507,7 +2706,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.238 {\small\bf\sffamily\color
+l.255 {\small\bf\sffamily\color
                                {ocre}}% % Theorem head font
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2518,13 +2717,13 @@ and I'll forget about whatever was undefined.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.239 {\;
+l.256 {\;
          }% Punctuation after theorem head
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
-l.239 {\;}
+l.256 {\;}
           % Punctuation after theorem head
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2533,7 +2732,7 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 ! Undefined control sequence.
-l.241 {\small
+l.258 {\small
              \sffamily\color{ocre}\thmname{#1}\nobreakspace\thmnumber{\@ifno...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2548,13 +2747,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.241 {\small\sffamily
+l.258 {\small\sffamily
                       \color{ocre}\thmname{#1}\nobreakspace\thmnumber{\@ifno...
 
 Please use the math alphabet \mathsf instead of the \sffamily command. 
 
 ! Undefined control sequence.
-l.241 {\small\sffamily\color
+l.258 {\small\sffamily\color
                             {ocre}\thmname{#1}\nobreakspace\thmnumber{\@ifno...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2563,7 +2762,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.241 {\small\sffamily\color{ocre}\thmname
+l.258 {\small\sffamily\color{ocre}\thmname
                                           {#1}\nobreakspace\thmnumber{\@ifno...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2572,7 +2771,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! You can't use `macro parameter character #' in math mode.
-l.241 {\small\sffamily\color{ocre}\thmname{#
+l.258 {\small\sffamily\color{ocre}\thmname{#
                                             1}\nobreakspace\thmnumber{\@ifno...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -2580,7 +2779,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! Undefined control sequence.
-l.241 ...{ocre}\thmname{#1}\nobreakspace\thmnumber
+l.258 ...{ocre}\thmname{#1}\nobreakspace\thmnumber
                                                   {\@ifnotempty{#1}{}\@upn{#...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2589,7 +2788,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.241 ...e{#1}\nobreakspace\thmnumber{\@ifnotempty
+l.258 ...e{#1}\nobreakspace\thmnumber{\@ifnotempty
                                                   {#1}{}\@upn{#2}}% Theorem ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2598,7 +2797,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! You can't use `macro parameter character #' in math mode.
-l.241 ...#1}\nobreakspace\thmnumber{\@ifnotempty{#
+l.258 ...#1}\nobreakspace\thmnumber{\@ifnotempty{#
                                                   1}{}\@upn{#2}}% Theorem te...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -2606,7 +2805,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! Undefined control sequence.
-l.241 ...akspace\thmnumber{\@ifnotempty{#1}{}\@upn
+l.258 ...akspace\thmnumber{\@ifnotempty{#1}{}\@upn
                                                   {#2}}% Theorem text (e.g. ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2615,7 +2814,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! You can't use `macro parameter character #' in math mode.
-l.241 ...space\thmnumber{\@ifnotempty{#1}{}\@upn{#
+l.258 ...space\thmnumber{\@ifnotempty{#1}{}\@upn{#
                                                   2}}% Theorem text (e.g. Th...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -2623,7 +2822,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! Undefined control sequence.
-l.242 \thmnote
+l.259 \thmnote
               {\nobreakspace\the\thm@notefont\sffamily\bfseries\color{black}...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2632,7 +2831,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.242 \thmnote{\nobreakspace\the\thm@notefont
+l.259 \thmnote{\nobreakspace\the\thm@notefont
                                              \sffamily\bfseries\color{black}...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2643,7 +2842,7 @@ and I'll forget about whatever was undefined.
 ! You can't use `\relax' after \the.
 \sffamily ->\protect 
                      \sffamily  
-l.242 ...e{\nobreakspace\the\thm@notefont\sffamily
+l.259 ...e{\nobreakspace\the\thm@notefont\sffamily
                                                   \bfseries\color{black}---\...
 I'm forgetting what you said and using zero instead.
 
@@ -2654,7 +2853,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.242 ...e{\nobreakspace\the\thm@notefont\sffamily
+l.259 ...e{\nobreakspace\the\thm@notefont\sffamily
                                                   \bfseries\color{black}---\...
 
 Please use the math alphabet \mathsf instead of the \sffamily command. 
@@ -2666,13 +2865,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.242 ...kspace\the\thm@notefont\sffamily\bfseries
+l.259 ...kspace\the\thm@notefont\sffamily\bfseries
                                                   \color{black}---\nobreaksp...
 
 Please use the math alphabet \mathbf instead of the \bfseries command. 
 
 ! Undefined control sequence.
-l.242 ...\the\thm@notefont\sffamily\bfseries\color
+l.259 ...\the\thm@notefont\sffamily\bfseries\color
                                                   {black}---\nobreakspace#3....
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2681,7 +2880,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! You can't use `macro parameter character #' in math mode.
-l.242 ...ly\bfseries\color{black}---\nobreakspace#
+l.259 ...ly\bfseries\color{black}---\nobreakspace#
                                                   3.}} % Optional theorem note
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -2695,7 +2894,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.243 \renewcommand{\qedsymbol}
+l.260 \renewcommand{\qedsymbol}
                                {$\blacksquare$}% Optional qed square
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2703,13 +2902,13 @@ If that doesn't work, type  X <return>  to quit.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.245 
+l.262 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Overfull \hbox (255.4693pt too wide) in paragraph at lines 233--245
+Overfull \hbox (255.4693pt too wide) in paragraph at lines 250--262
 []\OT1/cmss/bx/n/10 ocrenum5pt5ptocre$ [][]$ 
  []
 
@@ -2717,7 +2916,7 @@ Overfull \hbox (255.4693pt too wide) in paragraph at lines 233--245
 ! Undefined control sequence.
 <recently read> \numberwithin 
                               
-l.248 \numberwithin
+l.265 \numberwithin
                    {dummy}{section}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2732,13 +2931,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.248 \numberwithin{d
+l.265 \numberwithin{d
                      ummy}{section}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 ! Undefined control sequence.
-l.249 \theoremstyle
+l.266 \theoremstyle
                    {ocrenumbox}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2754,7 +2953,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.251 \newtheorem{problem}{Problem}[chapter]
+l.268 \newtheorem{problem}{Problem}[chapter]
                                             
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2768,14 +2967,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.252 \newtheorem{exerciseT}{Exercise}[chapter]
+l.269 \newtheorem{exerciseT}{Exercise}[chapter]
                                                
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Undefined control sequence.
-l.253 \theoremstyle
+l.270 \theoremstyle
                    {blacknumex}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2791,14 +2990,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.254 \newtheorem{exampleT}{Example}[chapter]
+l.271 \newtheorem{exampleT}{Example}[chapter]
                                              
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Undefined control sequence.
-l.255 \theoremstyle
+l.272 \theoremstyle
                    {blacknumbox}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2814,7 +3013,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.256 \newtheorem{vocabulary}{Vocabulary}[chapter]
+l.273 \newtheorem{vocabulary}{Vocabulary}[chapter]
                                                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2828,14 +3027,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.257 ...theorem{definitionT}{Definition}[section]
+l.274 ...theorem{definitionT}{Definition}[section]
                                                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Undefined control sequence.
-l.259 \theoremstyle
+l.276 \theoremstyle
                    {ocrenum}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2844,62 +3043,62 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (85.48082pt too wide) in paragraph at lines 248--261
+Overfull \hbox (85.48082pt too wide) in paragraph at lines 265--278
 []\OT1/cmss/bx/n/10 dummysection
  []
 
 
-Overfull \hbox (23.19456pt too wide) in paragraph at lines 248--261
+Overfull \hbox (23.19456pt too wide) in paragraph at lines 265--278
 \OT1/cmss/bx/n/10 ocre-
  []
 
 
-Overfull \hbox (23.55565pt too wide) in paragraph at lines 248--261
+Overfull \hbox (23.55565pt too wide) in paragraph at lines 265--278
 \OT1/cmss/bx/n/10 num-
  []
 
 
-Overfull \hbox (16.11118pt too wide) in paragraph at lines 248--261
+Overfull \hbox (16.11118pt too wide) in paragraph at lines 265--278
 \OT1/cmss/bx/n/10 box
  []
 
 
-Overfull \hbox (27.2779pt too wide) in paragraph at lines 248--261
+Overfull \hbox (27.2779pt too wide) in paragraph at lines 265--278
 \OT1/cmss/bx/n/10 black-
  []
 
 
-Overfull \hbox (14.88895pt too wide) in paragraph at lines 248--261
+Overfull \hbox (14.88895pt too wide) in paragraph at lines 265--278
 \OT1/cmss/bx/n/10 nu-
  []
 
 
-Overfull \hbox (18.77785pt too wide) in paragraph at lines 248--261
+Overfull \hbox (18.77785pt too wide) in paragraph at lines 265--278
 \OT1/cmss/bx/n/10 mex
  []
 
 
-Overfull \hbox (27.2779pt too wide) in paragraph at lines 248--261
+Overfull \hbox (27.2779pt too wide) in paragraph at lines 265--278
 \OT1/cmss/bx/n/10 black-
  []
 
 
-Overfull \hbox (23.55565pt too wide) in paragraph at lines 248--261
+Overfull \hbox (23.55565pt too wide) in paragraph at lines 265--278
 \OT1/cmss/bx/n/10 num-
  []
 
 
-Overfull \hbox (16.11118pt too wide) in paragraph at lines 248--261
+Overfull \hbox (16.11118pt too wide) in paragraph at lines 265--278
 \OT1/cmss/bx/n/10 box
  []
 
 
-Overfull \hbox (23.19456pt too wide) in paragraph at lines 248--261
+Overfull \hbox (23.19456pt too wide) in paragraph at lines 265--278
 \OT1/cmss/bx/n/10 ocre-
  []
 
 
-Overfull \hbox (19.88896pt too wide) in paragraph at lines 248--261
+Overfull \hbox (19.88896pt too wide) in paragraph at lines 265--278
 \OT1/cmss/bx/n/10 num
  []
 
@@ -3216,7 +3415,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.355 \renewcommand{\section}
+l.372 \renewcommand{\section}
                              {\@startsection{section}{1}{\z@}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3228,7 +3427,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.359 \renewcommand{\subsection}
+l.376 \renewcommand{\subsection}
                                 {\@startsection {subsection}{2}{\z@}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3240,7 +3439,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.363 \renewcommand{\subsubsection}
+l.380 \renewcommand{\subsubsection}
                                    {\@startsection {subsubsection}{3}{\z@}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3252,7 +3451,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.367 \renewcommand\paragraph
+l.384 \renewcommand\paragraph
                              {\@startsection{paragraph}{4}{\z@}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3266,7 +3465,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.389 \setlength\ecart{1.2cm-\esp}
+l.406 \setlength\ecart{1.2cm-\esp}
                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3274,7 +3473,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Missing number, treated as zero.
 <to be read again> 
                    \relax 
-l.389 \setlength\ecart{1.2cm-\esp}
+l.406 \setlength\ecart{1.2cm-\esp}
                                   
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -3283,7 +3482,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.389 \setlength\ecart{1.2cm-\esp}
+l.406 \setlength\ecart{1.2cm-\esp}
                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -3293,7 +3492,7 @@ delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
 
-Overfull \hbox (23.66669pt too wide) in paragraph at lines 389--438
+Overfull \hbox (23.66669pt too wide) in paragraph at lines 406--455
 []\OT1/cmss/bx/n/10 -
  []
 
@@ -3304,13 +3503,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.490 \usepackage{
+l.507 \usepackage{
                   hyperref}
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
 
 ! Undefined control sequence.
-l.491 \hypersetup
+l.508 \hypersetup
                  {hidelinks,backref=true,pagebackref=true,hyperindex=true,co...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3325,7 +3524,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.491 \hypersetup{h
+l.508 \hypersetup{h
                    idelinks,backref=true,pagebackref=true,hyperindex=true,co...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -3338,13 +3537,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.492 \usepackage{
+l.509 \usepackage{
                   bookmark}
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
 
 ! Undefined control sequence.
-l.493 \bookmarksetup
+l.510 \bookmarksetup
                     {
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3353,7 +3552,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.497 \ifnum\bookmarkget
+l.514 \ifnum\bookmarkget
                         {level}=0 % chapter
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3364,7 +3563,7 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
                    {
-l.497 \ifnum\bookmarkget{
+l.514 \ifnum\bookmarkget{
                          level}=0 % chapter
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -3373,21 +3572,21 @@ look up `weird error' in the index to The TeXbook.)
 ! Missing = inserted for \ifnum.
 <to be read again> 
                    {
-l.497 \ifnum\bookmarkget{
+l.514 \ifnum\bookmarkget{
                          level}=0 % chapter
 I was expecting to see `<', `=', or `>'. Didn't.
 
 ! Missing number, treated as zero.
 <to be read again> 
                    {
-l.497 \ifnum\bookmarkget{
+l.514 \ifnum\bookmarkget{
                          level}=0 % chapter
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
 ! Undefined control sequence.
-l.498 \bookmarksetup
+l.515 \bookmarksetup
                     {bold}%
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3396,7 +3595,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.500 \ifnum\bookmarkget
+l.517 \ifnum\bookmarkget
                         {level}=-1 % part
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3407,7 +3606,7 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
                    {
-l.500 \ifnum\bookmarkget{
+l.517 \ifnum\bookmarkget{
                          level}=-1 % part
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -3416,27 +3615,84 @@ look up `weird error' in the index to The TeXbook.)
 ! Missing = inserted for \ifnum.
 <to be read again> 
                    {
-l.500 \ifnum\bookmarkget{
+l.517 \ifnum\bookmarkget{
                          level}=-1 % part
 I was expecting to see `<', `=', or `>'. Didn't.
 
 ! Missing number, treated as zero.
 <to be read again> 
                    {
-l.500 \ifnum\bookmarkget{
+l.517 \ifnum\bookmarkget{
                          level}=-1 % part
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
 ! Undefined control sequence.
-l.501 \bookmarksetup
+l.518 \bookmarksetup
                     {color=ocre,bold}%
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (481.25754pt too wide) in paragraph at lines 508--522
+[]\OT1/cmss/bx/n/10 hidelinks,backref=true,pagebackref=true,hyperindex=true,col
+orlinks=false,breaklinks=true,urlcolor=
+ []
+
+
+Overfull \hbox (356.48495pt too wide) in paragraph at lines 508--522
+\OT1/cmss/bx/n/10 ocre,bookmarks=true,bookmarksopen=false,pdftitle=Title,pdfaut
+hor=Author
+ []
+
+
+Overfull \hbox (25.19455pt too wide) in paragraph at lines 508--522
+\OT1/cmss/bx/n/10 open,
+ []
+
+
+Overfull \hbox (23.55565pt too wide) in paragraph at lines 508--522
+\OT1/cmss/bx/n/10 num-
+ []
+
+
+Overfull \hbox (28.5279pt too wide) in paragraph at lines 508--522
+\OT1/cmss/bx/n/10 bered,
+ []
+
+
+Overfull \hbox (14.52785pt too wide) in paragraph at lines 508--522
+\OT1/cmss/bx/n/10 ad-
+ []
+
+
+Overfull \hbox (18.81953pt too wide) in paragraph at lines 508--522
+\OT1/cmss/bx/n/10 dto-
+ []
+
+
+Overfull \hbox (65.16695pt too wide) in paragraph at lines 508--522
+\OT1/cmss/bx/n/10 hook=level=0
+ []
+
+
+Overfull \hbox (52.13908pt too wide) in paragraph at lines 508--522
+\OT1/cmss/bx/n/10 boldlevel=-
+ []
+
+
+Overfull \hbox (5.50003pt too wide) in paragraph at lines 508--522
+\OT1/cmss/bx/n/10 1
+ []
+
+
+Overfull \hbox (72.58368pt too wide) in paragraph at lines 508--522
+\OT1/cmss/bx/n/10 color=ocre,bold
+ []
 
 )
 ! Emergency stop.
@@ -3446,11 +3702,11 @@ and I'll forget about whatever was undefined.
 
  
 Here is how much of TeX's memory you used:
- 8883 strings out of 493029
- 173503 string characters out of 6136234
- 214909 words of memory out of 5000000
- 12427 multiletter control sequences out of 15000+600000
+ 8886 strings out of 493029
+ 173530 string characters out of 6136233
+ 216019 words of memory out of 5000000
+ 12430 multiletter control sequences out of 15000+600000
  4547 words of font info for 17 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 40i,4n,42p,10398b,4211s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 40i,4n,42p,10398b,4213s stack positions out of 5000i,500n,10000p,200000b,80000s
 !  ==> Fatal error occurred, no output PDF file produced!

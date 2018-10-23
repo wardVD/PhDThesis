@@ -121,7 +121,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>sortscheme</bcf:key>
-      <bcf:value>nyt</bcf:value>
+      <bcf:value>none</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>uniquelist</bcf:key>
@@ -680,30 +680,7 @@
   <bcf:sorting>
     <bcf:presort>mm</bcf:presort>
     <bcf:sort order="1">
-      <bcf:sortitem order="1">presort</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="2" final="1">
-      <bcf:sortitem order="1">sortkey</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="3">
-      <bcf:sortitem order="1">sortname</bcf:sortitem>
-      <bcf:sortitem order="2">author</bcf:sortitem>
-      <bcf:sortitem order="3">editor</bcf:sortitem>
-      <bcf:sortitem order="4">translator</bcf:sortitem>
-      <bcf:sortitem order="5">sorttitle</bcf:sortitem>
-      <bcf:sortitem order="6">title</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="4">
-      <bcf:sortitem order="1">sortyear</bcf:sortitem>
-      <bcf:sortitem order="2">year</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="5">
-      <bcf:sortitem order="1">sorttitle</bcf:sortitem>
-      <bcf:sortitem order="2">title</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="6">
-      <bcf:sortitem order="1" pad_side="left" pad_width="4" pad_char="0">volume</bcf:sortitem>
-      <bcf:sortitem order="2">0000</bcf:sortitem>
+      <bcf:sortitem order="1">citeorder</bcf:sortitem>
     </bcf:sort>
   </bcf:sorting>
   <!-- DATA MODEL -->
@@ -2150,70 +2127,56 @@
     <bcf:citekey order="81">pdg2018</bcf:citekey>
     <bcf:citekey order="82">pdg2018</bcf:citekey>
     <bcf:citekey order="83">Aab:2017tyv</bcf:citekey>
-    <bcf:citekey order="84">Hillas:1985is</bcf:citekey>
-    <bcf:citekey order="85">Bauleo:2009zz</bcf:citekey>
+    <bcf:citekey order="84">Waxman:2013zda</bcf:citekey>
+    <bcf:citekey order="85">Hillas:1985is</bcf:citekey>
     <bcf:citekey order="86">Bauleo:2009zz</bcf:citekey>
-    <bcf:citekey order="87">Gaisser:2016uoy</bcf:citekey>
-    <bcf:citekey order="88">Lagage:1983zz</bcf:citekey>
-    <bcf:citekey order="89">stanev2010high</bcf:citekey>
+    <bcf:citekey order="87">Bauleo:2009zz</bcf:citekey>
+    <bcf:citekey order="88">Gaisser:2016uoy</bcf:citekey>
+    <bcf:citekey order="89">Lagage:1983zz</bcf:citekey>
+    <bcf:citekey order="90">stanev2010high</bcf:citekey>
+    <bcf:citekey order="91">Urry:1995mg</bcf:citekey>
+    <bcf:citekey order="91">Antonucci:1993sg</bcf:citekey>
+    <bcf:citekey order="92">Kazanas:2012sk</bcf:citekey>
+    <bcf:citekey order="93">TXS</bcf:citekey>
+    <bcf:citekey order="94">TXS</bcf:citekey>
+    <bcf:citekey order="95">Abraham:2007si</bcf:citekey>
+    <bcf:citekey order="96">IceCube:2018dnn</bcf:citekey>
+    <bcf:citekey order="97">Klebesadel:1973iq</bcf:citekey>
+    <bcf:citekey order="98">Meegan:1992xg</bcf:citekey>
+    <bcf:citekey order="99">Piran:2004ba</bcf:citekey>
+    <bcf:citekey order="100">TheLIGOScientific:2017qsa</bcf:citekey>
+    <bcf:citekey order="100">Abbott:2017oio</bcf:citekey>
+    <bcf:citekey order="100">Abbott:2017gyy</bcf:citekey>
+    <bcf:citekey order="100">Abbott:2017vtc</bcf:citekey>
+    <bcf:citekey order="100">Abbott:2016nmj</bcf:citekey>
+    <bcf:citekey order="101">Acero:2009nb</bcf:citekey>
+    <bcf:citekey order="101">Karlsson:2009hd</bcf:citekey>
+    <bcf:citekey order="102">\IeC {\textbullet }1538-4357-689-2-L105</bcf:citekey>
+    <bcf:citekey order="103">Grupen:2005rx</bcf:citekey>
+    <bcf:citekey order="104">pdg</bcf:citekey>
+    <bcf:citekey order="105">Katz:2011ke</bcf:citekey>
+    <bcf:citekey order="106">Katz:2011ke</bcf:citekey>
+    <bcf:citekey order="107">Honda:2006qj</bcf:citekey>
+    <bcf:citekey order="108">Aartsen:2017mau</bcf:citekey>
+    <bcf:citekey order="109">Aartsen:2017mau</bcf:citekey>
+    <bcf:citekey order="110">doi:10.1143/PTP.46.1644</bcf:citekey>
+    <bcf:citekey order="111">Enberg:2008te</bcf:citekey>
+    <bcf:citekey order="112">fig:neutrinospectrum2</bcf:citekey>
+    <bcf:citekey order="113">Wan:2016nhe</bcf:citekey>
+    <bcf:citekey order="114">Scholberg:2012id</bcf:citekey>
+    <bcf:citekey order="115">Kopke:2011xb</bcf:citekey>
+    <bcf:citekey order="116">nobel1958url</bcf:citekey>
+    <bcf:citekey order="117">ch:planck</bcf:citekey>
+    <bcf:citekey order="118">eq:wave</bcf:citekey>
+    <bcf:citekey order="119">Chirkin:2004hz</bcf:citekey>
+    <bcf:citekey order="120">Chirkin:2004hz</bcf:citekey>
+    <bcf:citekey order="121">Wallraff</bcf:citekey>
+    <bcf:citekey order="122">Wallraff</bcf:citekey>
   </bcf:section>
-  <bcf:sortlist section="0" name="nyt/global" type="entry" sortscheme="nyt" sortnamekeyscheme="global">
+  <bcf:sortlist section="0" name="none/global" type="entry" sortscheme="none" sortnamekeyscheme="global">
   <bcf:sorting>
     <bcf:sort order="1">
-      <bcf:sortitem order="1">presort</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="2" final="1">
-      <bcf:sortitem order="1">sortkey</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="3">
-      <bcf:sortitem order="1">sortname</bcf:sortitem>
-      <bcf:sortitem order="2">author</bcf:sortitem>
-      <bcf:sortitem order="3">editor</bcf:sortitem>
-      <bcf:sortitem order="4">translator</bcf:sortitem>
-      <bcf:sortitem order="5">sorttitle</bcf:sortitem>
-      <bcf:sortitem order="6">title</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="4">
-      <bcf:sortitem order="1">sortyear</bcf:sortitem>
-      <bcf:sortitem order="2">year</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="5">
-      <bcf:sortitem order="1">sorttitle</bcf:sortitem>
-      <bcf:sortitem order="2">title</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="6">
-      <bcf:sortitem order="1" pad_side="left" pad_width="4" pad_char="0">volume</bcf:sortitem>
-      <bcf:sortitem order="2">0000</bcf:sortitem>
-    </bcf:sort>
-  </bcf:sorting>
-  </bcf:sortlist>
-  <bcf:sortlist section="0" name="nyt/global" type="entry" sortscheme="nyt" sortnamekeyscheme="global">
-  <bcf:sorting>
-    <bcf:sort order="1">
-      <bcf:sortitem order="1">presort</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="2" final="1">
-      <bcf:sortitem order="1">sortkey</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="3">
-      <bcf:sortitem order="1">sortname</bcf:sortitem>
-      <bcf:sortitem order="2">author</bcf:sortitem>
-      <bcf:sortitem order="3">editor</bcf:sortitem>
-      <bcf:sortitem order="4">translator</bcf:sortitem>
-      <bcf:sortitem order="5">sorttitle</bcf:sortitem>
-      <bcf:sortitem order="6">title</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="4">
-      <bcf:sortitem order="1">sortyear</bcf:sortitem>
-      <bcf:sortitem order="2">year</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="5">
-      <bcf:sortitem order="1">sorttitle</bcf:sortitem>
-      <bcf:sortitem order="2">title</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="6">
-      <bcf:sortitem order="1" pad_side="left" pad_width="4" pad_char="0">volume</bcf:sortitem>
-      <bcf:sortitem order="2">0000</bcf:sortitem>
+      <bcf:sortitem order="1">citeorder</bcf:sortitem>
     </bcf:sort>
   </bcf:sorting>
   </bcf:sortlist>

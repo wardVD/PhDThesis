@@ -27,6 +27,8 @@
 \usepackage{lipsum} % Inserts dummy text
 
 \usepackage{tikz} % Required for drawing custom shapes
+\usepackage{mhchem} %typesetting elements and atomic numbers
+
 
 %\usepackage[table,xcdraw]{xcolor}
 
@@ -72,7 +74,7 @@
 %	BIBLIOGRAPHY AND INDEX
 %----------------------------------------------------------------------------------------
 
-\usepackage[style=numeric,citestyle=numeric,sorting=nyt,sortcites=true,autopunct=true,babel=hyphen,hyperref=true,abbreviate=false,backref=true,backend=biber]{biblatex}
+\usepackage[style=numeric,citestyle=numeric,sorting=none,sortcites=true,autopunct=true,babel=hyphen,hyperref=true,abbreviate=false,backref=true,backend=biber]{biblatex}
 \addbibresource{bibliography.bib} % BibTeX bibliography file
 \defbibheading{bibempty}{}
 
@@ -118,6 +120,14 @@
 \titlecontents{subsection}[1.25cm] % Indentation
 {\addvspace{1pt}\sffamily\small} % Spacing and font options for subsections
 {\contentslabel[\thecontentslabel]{1.25cm}} % Subsection number
+{}
+{\ \titlerule*[.5pc]{.}\;\thecontentspage} % Page number
+[]
+
+% Subsection text styling
+\titlecontents{subsubsection}[1.25cm] % Indentation
+{\addvspace{1pt}\sffamily\small} % Spacing and font options for subsubsections
+{\contentslabel[\thecontentslabel]{1.25cm}} % Subsubsection number
 {}
 {\ \titlerule*[.5pc]{.}\;\thecontentspage} % Page number
 []
@@ -509,3 +519,16 @@ addtohook={%
 \fi
 }
 }
+
+
+%-----------------------------------------------------------
+%   ROUNDED BOX 
+%-----------------------------------------------------------
+\definecolor{mycolor}{rgb}{0.122, 0.435, 0.698}
+
+\newmdenv[innerlinewidth=0.5pt, roundcorner=4pt,linecolor=mycolor,innerleftmargin=6pt,
+innerrightmargin=6pt,innertopmargin=6pt,innerbottommargin=6pt]{mybox}
+
+
+%\setcounter{tocdepth}{3}
+\setcounter{secnumdepth}{3}

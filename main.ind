@@ -2,43 +2,43 @@
 \nopagebreak
 \tikz\node at (0pt,0pt) [draw=none,fill=ocre!50,line width=1pt,inner sep=5pt]{\parbox{\linewidth-2\fboxsep-2\fboxrule-2pt}{\centering\large\sffamily\bfseries\textcolor{white}{C}}};\vspace*{0.2cm}\nopagebreak
 
-  \item Corollaries\dotfill \hyperpage{59}
+  \item Corollaries\dotfill \hyperpage{73}
 
   \indexspace
 \nopagebreak
 \tikz\node at (0pt,0pt) [draw=none,fill=ocre!50,line width=1pt,inner sep=5pt]{\parbox{\linewidth-2\fboxsep-2\fboxrule-2pt}{\centering\large\sffamily\bfseries\textcolor{white}{D}}};\vspace*{0.2cm}\nopagebreak
 
-  \item Definitions\dotfill \hyperpage{59}
+  \item Definitions\dotfill \hyperpage{73}
 
   \indexspace
 \nopagebreak
 \tikz\node at (0pt,0pt) [draw=none,fill=ocre!50,line width=1pt,inner sep=5pt]{\parbox{\linewidth-2\fboxsep-2\fboxrule-2pt}{\centering\large\sffamily\bfseries\textcolor{white}{E}}};\vspace*{0.2cm}\nopagebreak
 
-  \item Examples\dotfill \hyperpage{60}
-    \subitem Equation and Text\dotfill \hyperpage{60}
-    \subitem Paragraph of Text\dotfill \hyperpage{60}
-  \item Exercises\dotfill \hyperpage{60}
+  \item Examples\dotfill \hyperpage{74}
+    \subitem Equation and Text\dotfill \hyperpage{74}
+    \subitem Paragraph of Text\dotfill \hyperpage{74}
+  \item Exercises\dotfill \hyperpage{74}
 
   \indexspace
 \nopagebreak
 \tikz\node at (0pt,0pt) [draw=none,fill=ocre!50,line width=1pt,inner sep=5pt]{\parbox{\linewidth-2\fboxsep-2\fboxrule-2pt}{\centering\large\sffamily\bfseries\textcolor{white}{P}}};\vspace*{0.2cm}\nopagebreak
 
   \item Paragraphs of Text\dotfill \hyperpage{5}
-  \item Problems\dotfill \hyperpage{60}
-  \item Propositions\dotfill \hyperpage{59}
-    \subitem Several Equations\dotfill \hyperpage{60}
-    \subitem Single Line\dotfill \hyperpage{60}
+  \item Problems\dotfill \hyperpage{74}
+  \item Propositions\dotfill \hyperpage{73}
+    \subitem Several Equations\dotfill \hyperpage{74}
+    \subitem Single Line\dotfill \hyperpage{74}
 
   \indexspace
 \nopagebreak
 \tikz\node at (0pt,0pt) [draw=none,fill=ocre!50,line width=1pt,inner sep=5pt]{\parbox{\linewidth-2\fboxsep-2\fboxrule-2pt}{\centering\large\sffamily\bfseries\textcolor{white}{R}}};\vspace*{0.2cm}\nopagebreak
 
-  \item Remarks\dotfill \hyperpage{59}
+  \item Remarks\dotfill \hyperpage{73}
 
   \indexspace
 \nopagebreak
 \tikz\node at (0pt,0pt) [draw=none,fill=ocre!50,line width=1pt,inner sep=5pt]{\parbox{\linewidth-2\fboxsep-2\fboxrule-2pt}{\centering\large\sffamily\bfseries\textcolor{white}{V}}};\vspace*{0.2cm}\nopagebreak
 
-  \item Vocabulary\dotfill \hyperpage{60}
+  \item Vocabulary\dotfill \hyperpage{74}
 
 \end{theindex}
