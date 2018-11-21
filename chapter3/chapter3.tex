@@ -1,4 +1,8 @@
 \chapter{Cosmic Rays and Neutrinos}
+\label{ch:cr}
+
+\url{https://indico.cern.ch/event/719824/contributions/2972435/attachments/1745570/2825844/ISAPP2018_CERN_parizot.pdf} NALEZEN
+
 Cosmic rays alsmost exclusively refer to particles with a finite rest mass. The term \textit{rays} was historically wrongly attributed to these particles as they were thought to be mostly electromagnetic radiation.
 The interest of cosmic rays within the field of particle physics and modern particle physics is clear: multiple new particles were discovered from the interactions at energies which were higher than most experiments could reach. Positrons, muons, pions and kaons were first discovered in cosmic ray experiments in the 1930s and 40s. Today, high-energy cosmic ray interactions are still of interest as the highest energies of these particles go beyond what is feasible at the most powerful accelorators such as the LHC. Neutrinos are expected be produced toghether with cosmic rays near the source or close to Earth making neutrino astronomy a powerful and important part of modern day astronomy. In this chapter I will give BLA BLA BLA. For a more exhaustive description of cosmic rays I refer the reader to \cite{Gaisser:2016uoy}.
 
@@ -10,18 +14,18 @@ Hess later ruled out the possibility that cosmic rays originate from the Sun as 
 
 \subsection{What are cosmic rays?}
 \label{subsec:whatarecosmicrays}
-Cosmic rays are, almost exclusively, the collection of nuclei which are stripped of their electrons, making them electrically charged, heavy particles. Around 90\% of the particles are ionized hydrogen atoms, or protons. 9\% are alpha particles and 1\% are nuclei of heavier elements. There is a striking resemblance between the relative abundance of cosmic rays and elements in the Solar System as seen in Fig. \ref{fig:relabundance}. A much smaller fraction of incoming particles are electrons, positron and antiprotons.
+Cosmic rays are, almost exclusively, the collection of nuclei which are stripped of their electrons, making them electrically charged, heavy particles. Around 90\% of the particles are ionized hydrogen atoms, or protons. 9\% are alpha particles and 1\% are nuclei of heavier elements. There is a striking resemblance between the relative abundance of cosmic rays and elements in the Solar System as seen in Figure \ref{fig:relabundance}. A much smaller fraction of incoming particles are electrons, positron and antiprotons.
 
 \begin{figure}
-\label{fig:relabundance}
 \centering
 \includegraphics[width=0.7\textwidth]{./chapter3/img/relativeabundanceACE.png}
 \caption{The cosmic ray elemental abundances measured on Earth compared to the solar system abundances, all relative to carbon = 100. Figure from ACE news archive \cite{ISRAEL2005201}.}
+\label{fig:relabundance}
 \end{figure}
 There are however two important differences between cosmic rays and elements from our Solar System. Firstly, the two groups of elements Li, Be, B and Sc, Ti, V, Cr, Mn are many orders of magnitude more abundant in cosmic rays than in the solar system. This is due to their absence in stellar nucleosynthesis and are therefore not expected to be produced in large numbers. More massive cosmic rays (mainly C, O and Fe) can produce these nuclei in the process of \textit{spallation}. They are produced by collisions of cosmic rays with the interstellar medium. Therefore, these nuclei are sometimes referred to as \textit{secondary nuclei}.
 The second difference is that nuclei with $Z>1$ are much more abundant with respect to hydrogen for cosmic rays. This phenomenon is not yet well understood but could be attributed to the difficulty to ionize hydrogen, necessary for acceleration processes.
 
-The amount of cosmic rays seen on Earth is expressed in units of $\left[m^{-2} s^{-1} sr^{-1}\right]$. We can see in Fig. \ref{fig:spectrumCR} that the cosmic ray flux follows a energy power law spectrum:
+The amount of cosmic rays seen on Earth is expressed in units of $\left[m^{-2} s^{-1} sr^{-1}\right]$. We can see in Figure \ref{fig:spectrumCR} that the cosmic ray flux follows a energy power law spectrum:
 
 \begin{equation}
 \label{eq:spectrum}
@@ -30,10 +34,10 @@ dNdE \varpropto E^{-\gamma} dE,
 where $\gamma$ is called the \textit{spectrum index}. Because of the steepness of the spectrum it is often multiplied by a higher power of energy\footnote{The broad range in both energy and flux should convince the reader that many types of detectors are necessary to study the behaviour of cosmic rays. Low-energy particles are abundant and high-energy particles are much more rare. Both the energy and the incoming flux will determine the type and size of the detector.}.
 
 \begin{figure}
-\label{fig:spectrumCR}
 \centering
 \includegraphics[width = 0.6\textwidth]{chapter3/img/spectrumCR.png}
 \caption{Spectrum of cosmic rays at Earth. The all-particle spectrum measured by different experiments is plotted together with the proton-only spectrum. Subdominant contributions to the total flux from electrons, positrons and antiprotons as measured by the PAMELA experiment are also shown. Figure from \cite{Blasi:2013rva}.}
+\label{fig:spectrumCR}
 \end{figure}
 
 We can divide the global spectrum in four regions. Between 10 GeV and 1 PeV the differential spectrum index is around -2.7. From 10 PeV to 1 EeV it is around -3.1. Above 10 EeV the spectrum again flattens to an index around -2.6 and an apparent cutoff region is present at around $10^{20}$ eV. The transition of this first to second region is referred to as the \textit{knee} at around 3 PeV. The second to third region transition is referred to as the \textit{ankle}. It is possible to describe the full cosmic-ray spectrum with sources within our galaxy. A more generally accepted theory is that the knee in the spectrum originates from the end of a population of particles which are accelerated within our Milky Way \cite{Gaisser:2013bla}. A sometimes referred to at around 100 PeV is the \textit{second knee}, believed to be a feature of the iron drop-off.
@@ -61,14 +65,14 @@ If there is a characteristic regidity, $R_e$ above which a particular accelerati
 \begin{equation}
 E_{tot} = Ze \times R_e.
 \end{equation}
-This effect is visualised in Fig. \ref{fig:fitsgaisser} and indicates that as one population reaches its maximum the composition becomes heavier. The second knee, reported by KASCADE-Grande \cite{Apel:2011mi} and GAMMA \cite{Garyaka:2008gs} could be explained with an ``iron knee'' bump.
+This effect is visualised in Figure \ref{fig:fitsgaisser} and indicates that as one population reaches its maximum the composition becomes heavier. The second knee, reported by KASCADE-Grande \cite{Apel:2011mi} and GAMMA \cite{Garyaka:2008gs} could be explained with an ``iron knee'' bump.
 
 \begin{figure}
-\label{fig:fitsgaisser}
 \centering
 \includegraphics[width=0.48\textwidth]{chapter3/img/fit1gaisser.png}
 \includegraphics[width=0.48\textwidth]{chapter3/img/fit2gaisser.png}
 \caption{Blub}
+\label{fig:fitsgaisser}
 \end{figure}
 
 %A schematic picture of our home galaxy, the Milky Way, is shown in Fig. 1.2. Most stars are concentrated in the galactic disc of height h $\approx$ 300 pc in the form of spiral arms. The disc is filled with warm atomic gas that consists to 90\% of H and to 10\% of He and has an average density n approx 1/cm3. It contains also an ordered magnetic field with strength B approx 3microG. The energy when the Larmor radius
@@ -88,10 +92,10 @@ or
 Particles with energies above $5 \times 10^{19}$ eV would interact with the CMB, leading to an exponential cutoff (but if the incoming particles above these energies would be relatively young it is still possible for them to reach the detector). The Pierre Auger experiment reported to see higher compositions at the highest energies \cite{icrc2017:pa}. If the particle is a nucleus with A nucleons, then the GZK limit applies to its nucleons, which carry only a fraction 1/A of the total energy. For iron nuclei this would for example result in a limit of $2.8 \times 10^{21}$ eV. In contrast, the TA experiment interpreted their data as implying a light primary composition (mainly p and He) at the highest energies. Both experiments use a different interpretations for crucial quantities of these measurements and a thorough join analysis conducted by both experiments states that, at the current level of statistics and understanding of systematics, both data sets are compatible with being drawn from the same parent distribution \cite{PDG2018url}.
 
 \begin{figure}
-\label{fig:ankle}
 \centering
 \includegraphics[width=0.6\textwidth]{chapter3/img/ankle.png}
 \caption{Expanded view of the higest energy portion of the cosmic-ray spectrum from data of the Telescope Array and the Pierre Auger Observatory \cite{pdg2018}.}
+\label{fig:ankle}
 \end{figure}
 The Pierre Auger Observatory also reported evidence in an anisotripic distribution of the arrival directions of the highest-energy cosmic rays \cite{Aab:2017tyv} in a direction where the distribution of galaxies is relatively high and does not coincide with the galactic plane. These observations, together with our lack of known possible sources within our galaxy for these ultra-high energies shows compelling evidence that these particles have an origin from outside our galaxy. From pion decay there is also an expected flux from extragalactic neutrinos (more information in section \ref{subsec:astro} and \ref{waarjehetinhoofdstuk5gaatbespreken}). The flux, spectrum and angular distribution of the excess neutrino signal detected by IceCube between $\approx 50$ TeV and $\approx 2$ PeV are inconsistent with those expected for Galactic sources \cite{Waxman:2013zda}.\\
 \newline
@@ -124,13 +128,13 @@ These numbers are not set in stone and hold large uncertainties, but it shows th
 \subsubsection{Extragalactic accelerators}
 We will see in Section \ref{para:maxenergy} that the maximum energy from shock acceleration by a supernova remnant is insufficient to explain UHECR. As explained in Section \ref{para:fermiacceleration}, particles can be accelerated if the trajectory of the particles can be changed and energy can be transferred multiple times. The magnetic fields responsible for the course change of these particles has to be sufficient in magnitude in order for these particles not to escape and go beyond the grasp of the source responsible for the acceleration. This limitation is expressed by the gyroradius in the accelerator, $r_L = E/ZeB$ similar to Eq. \ref{eq:gyro}, requiring it to be smaller than the radius of the accelerator: $r_L < R$ or $E < ZeBR$.
 
-Even if only qualitative, this relation provides an interesting criterion to idendify possible sources of UHECRs by looking at the accelerator related term $BR$. This was done in a classic paper by Hillas \cite{Hillas:1985is}, illustrated in the more recent Fig. \ref{fig:hillas}. Accelerators necessary to explain the amount of UHECRs are not populated (enough) in our galaxy, making them more likely to be of extra-galactic origin. \textbf{Active galactic nuclei, blazars and gamma ray bursts} (en andere als je die hebt toegevoegd later) are therefore also briefly explained.
+Even if only qualitative, this relation provides an interesting criterion to idendify possible sources of UHECRs by looking at the accelerator related term $BR$. This was done in a classic paper by Hillas \cite{Hillas:1985is}, illustrated in the more recent Figure \ref{fig:hillas}. Accelerators necessary to explain the amount of UHECRs are not populated (enough) in our galaxy, making them more likely to be of extra-galactic origin. \textbf{Active galactic nuclei, blazars and gamma ray bursts} (en andere als je die hebt toegevoegd later) are therefore also briefly explained.
 
 \begin{figure}
-\label{fig:hillas}
 \centering
 \includegraphics[width = 0.7\textwidth]{chapter3/img/Hillas.jpg}
 \caption{The Hillas plot of potential cosmic ray accelerotors locates objects according to size and magnetic field. Objects to the left of the diagonal lines cannot accelerate particles to $10^{20}$ eV (proton: solid, iron: broken). Image obtained from HIER "REF" TOEVOEGEN, OVERAL EIGENLIJK \cite{Bauleo:2009zz}}
+\label{fig:hillas}
 \end{figure}
 
 
@@ -140,15 +144,15 @@ Even if only qualitative, this relation provides an interesting criterion to ide
 Supernovae can be broadly subdivided into two categories: type I and type II. Type I supernova explosions happen in binary star systems. In those systems one of the two starts is a carbon-oxygen white dwarf which accretes matter from the second star. When the total mass of the white dwarf reaches the Chandrasekhar REF limit of around 1.44 solar masses it cannot longer hold itself under the gravitational pressure and collapses in on itself. Within seconds, the carbon component in the white dwarf starts nuclear fusion and enough energy is released to produce an explosion brighter than the Sun with a factor of around 5 billion. 
 A resulting shock wave can reach up to around 3\% the speed of light.
 
-Type II supernova explosions differ by being single star systems. When a star reaches the end of its lifecycle the subsequent fusion reactions reach to a halt. If the star has enough mass (at least 8 times the mass of the Sun), it is possible for the inner core to again reach the Chandrasekhar limit and collapse in on itself due to the lack of \textit{electron degeneracy}. Without the outward pressure of nuclear fusion reactions and the support of the core, the outer layers of the star collapse under the gravitational pressure. The compression of the electrons and protons into neutrons results into a very hot, dense, neutron core. The velocity of the inwards falling layers can reach to a staggering 23\% of the speed of light and recoil when hitting the remaining core. Neutrinos are produced in this violent core collapse and the outward going shockwave hits the remaining outer layers forming the supernova explosion \footnote{Astronomer Carl Sagan once said, "The nitrogen in our DNA, the calcium in our teeth, the iron in our blood, the carbon in our apple pies were made in the interiors of collapsing stars. We are made of starstuff."}.
+Type II supernova explosions differ by being single star systems. When a star reaches the end of its lifecycle the subsequent fusion reactions reach to a halt. If the star has enough mass (at least 8 times the mass of the Sun), it is possible for the inner core to again reach the Chandrasekhar limit and collapse in on itself due to the lack of \textit{electron degeneracy}. Without the outward pressure of nuclear fusion reactions and the support of the core, the outer layers of the star collapse under the gravitational pressure. The compression of the electrons and protons into neutrons results into a very hot, dense, neutron core. The velocity of the inwards falling layers can reach to a staggering 23\% of the speed of light and recoil when hitting the remaining core. Neutrinos are produced in this violent core collapse and the outward going shockwave hits the remaining outer layers forming the supernova explosion \footnote{Astronomer Carl Sagan once said, "The nitrogen in our DNA, the calcium in our teeth, the iron in our blood, the carbon in our apple pies were made in the interiors of collapsing stars. We are made of starstuff."}\footnote{To get a better feeling of how extraordinary these events really are, I'd like to illustrate what it would be when one could be close to a supernova event. From Figure \ref{fig:neutrinospectrumall} one can calculate that the number of of Solar neutrinos going through our hand per second is around \textit{one trillion}. Yet they are so weakly interaction, on average, only one will hit with an atom in your body every few years. Supernova explosions are so vast that around $10^{57}$ neutrinos can be released. This number is so big that even if an observer is a distance of 2.3 AU away from the event, he would still receive a fatal radiation dose of \textit{neutrinos alone}. As another example: looking at a supernova as far away as the Sun is from the Earth is $10^9$ times brighter than if one would detonate a hydrogen bomb pressed against your eyeball.}
 
 Because of their brightness supernovae within our galaxy can be seen with the naked eye (provided they are not too far away). The last recorded supernova from our galaxy was by Johannes Kepler in 1604 but earliest recordings go back to 185 AD by Chinese astronomers\footnote{From observations of other galaxies supernovae are expected to occur, on average, once every thirty years. Not all of these will be visible to the naked eye, but would almost certainly be observable with modern astronomical telescopes.}.
 \begin{figure}
-\label{fig:supernova}
 \centering
 \includegraphics[width=0.48\textwidth,height=8cm]{chapter3/img/crabnebula.jpg}
 \includegraphics[width=0.48\textwidth,height=8cm]{chapter3/img/casa.jpg}
 \caption{Left: the Crab Nebula is the supernova remnant approximately one thousand years old. The supernova was noted by Chinese astronomers in the year 1054 AD. Right: Chandra X-ray observatory picture of the Cassiopeia A supernova remnant (pictures from NASA).}
+\label{fig:supernova}
 \end{figure}
 \newline
 The question remains how supernovae can serve as cosmic ray accelerators. In 1949, Enrico fermi proposed a mechanism where particles can gain energy by collisions with moving interstellar ionized gas clouds. Only later, it was realized that a large, plane shock front moving with a certain velocity is able to accelerated charged particles much more efficiently. This first mechanism results into an energy transfer proportional to the squared velocity of the cloud and is thus called \textit{second order Fermi acceleration}. Shock front acceleration energy transfer is proportional to the velocity and is called \textit{first order Fermi acceleration}. Supernova remnants provide an explanation for the origin of these shock fronts.
@@ -156,14 +160,14 @@ The question remains how supernovae can serve as cosmic ray accelerators. In 194
 \paragraph{First- and second-order Fermi acceleration}
 \label{para:fermiacceleration}
 
-Suppose we have a magnetic cloud in the interstellar medium travelling with a certain velocity $\vec{V}$ and a particle with velocity $\vec{v}$ enters the cloud under an angle $\theta_1$ (see Fig. \ref{fig:cloud}). If we assume collisionless scattering can occur (no energy is dissipated from the particle to the cloud) due to the magnetic fields in the cloud, the magnitude of the momentum in the rest frame of the cloud will not change ($E'_1 = E'_2$, where we the apostrophe denotes the cloud rest frame). From special relativity we know that:
+Suppose we have a magnetic cloud in the interstellar medium travelling with a certain velocity $\vec{V}$ and a particle with velocity $\vec{v}$ enters the cloud under an angle $\theta_1$ (see Figure \ref{fig:cloud}). If we assume collisionless scattering can occur (no energy is dissipated from the particle to the cloud) due to the magnetic fields in the cloud, the magnitude of the momentum in the rest frame of the cloud will not change ($E'_1 = E'_2$, where we the apostrophe denotes the cloud rest frame). From special relativity we know that:
 
 \begin{figure}
-\label{fig:cloud}
 \centering
 \includegraphics[width=0.48\textwidth]{chapter3/img/cloud.png}
 \includegraphics[width=0.48\textwidth]{chapter3/img/shock.png}
 \caption{Left: magnetic cloud. Right: shock waves typically have magnetic inhomogeneities both preceding (downstream) and following them (upstream). If a charged particles travels trough the shock wave it can gain velocity through first-order Fermi acceleration. In the illustration a particle travels from upstream to downstream and back upstream. At every back and forth movement the particle effectively gains in energy. For a particle with a velocity $u_1$ relative to the shock front the front seems to come at him with velocity $-u_1$. The downstream medium has a velocity relative to the shock front of $u_2 < u_)1$ making it seem coming towards the particle with velocity $u_1-u2$.}
+\label{fig:cloud}
 \end{figure}
 
 \begin{equation}
@@ -193,7 +197,7 @@ By hypothesis, the escaping particles are isotropic in the cloud frame: $\langle
 \end{equation}
 showing that for molecular clouds the energy gain is indeed proportional to the square of $\beta$ for second-order Fermi acceleration.\\
 \newline
-If a particle is incoming to an expanding shock (see Fig. \ref{fig:cloud}) $\langle \cos \theta_2'\rangle$ is equal to 2/3, leading to
+If a particle is incoming to an expanding shock (see Figure \ref{fig:cloud}) $\langle \cos \theta_2'\rangle$ is equal to 2/3, leading to
 
 \begin{equation}
 \frac{\Delta E}{E} = \frac{\frac{4}{3}\beta + \frac{13}{9}\beta^2}{1-\beta^2} \approx \frac{4}{3} \beta,
@@ -306,13 +310,13 @@ Doen of niet?
 When primary cosmic ray particles hit the Earth's atmosphere they give rise to a large shower of secondary particles. At low- to mid-energy ranges the abundance of cosmic rays is large enough for these showers to be analyzed with balloon or satellite experiments. As indicated in section \ref{subsec:whatarecosmicrays}, the flux of high-energy cosmic rays is so small, there is a need for very large-scale detectors, measuring kilometers in instrumented area.\\
 \newline
 The interaction length of nuclei with high energies is too small for them to be able to further than tens of kilometers in height. They will interact with an atmospheric nucleus and produce secondary particles. These particles, on their turn, decay or further interact with the atmosphere and give rise to an \textit{extensive air shower} if the production of new particles is large enough. Some of these particles will be stopped, but others are capable of reaching the Earth or even penetrate deep inside it. Although air showers are of significant importance in cosmic ray studies, we will only give a brief summary of the most noteworthy features and it's main importance for this analysis.
-An air shower has three components: the hadronic, muonic and electromagnetic. The hadronic component can be seen as the core of the shower consisting of high-energy hadrons. The interactions and subsequent decays of these hadrons fuel the electromagnetic and muonic parts. A schematic overview is given in Fig. \ref{fig:airshower}. If the primary particle is a photon the shower is made up almost exclusively of an electromagnetic component. Because the lateral size of an electromagnetic cascade is caused by multiple scattering of electrons and positrons the lateral size of these showers is relatively small (radius around 1 km for a transversely downgoing 100 TeV photon). In hadronic cascades, on the other hand, the lateral size is caused by the transverse momenta of the secondary particles making these showers much larger (radius arond 4km for a transversely downgoing 100 TeV proton) \cite{Grupen:2005rx}.
+An air shower has three components: the hadronic, muonic and electromagnetic. The hadronic component can be seen as the core of the shower consisting of high-energy hadrons. The interactions and subsequent decays of these hadrons fuel the electromagnetic and muonic parts. A schematic overview is given in Figure \ref{fig:airshower}. If the primary particle is a photon the shower is made up almost exclusively of an electromagnetic component. Because the lateral size of an electromagnetic cascade is caused by multiple scattering of electrons and positrons the lateral size of these showers is relatively small (radius around 1 km for a transversely downgoing 100 TeV photon). In hadronic cascades, on the other hand, the lateral size is caused by the transverse momenta of the secondary particles making these showers much larger (radius arond 4km for a transversely downgoing 100 TeV proton) \cite{Grupen:2005rx}.
 
 \begin{figure}
-\label{fig:airshower}
 \centering
 \includegraphics[width=0.8\textwidth]{chapter3/img/airshower.png}
 \caption{Schematic view of an extensive air shower with a clear distinction between the three components. Image from KASKADE collaboration.}
+\label{fig:airshower}
 \end{figure} 
 
 \subsection{Hadronic component}
@@ -359,22 +363,24 @@ Leeg laten en pas beschrijven hieronder?
 
 
 \section{Neutrinos}
-As by-products of cosmic ray collisions with matter, neutrinos provide incontrovertible evidence for hadronic acceleration. Since these particle are weakly-interacting they can escape much denser environments and hold crucial information about the origins of their production environments. Because these particles barely interact, their detection is difficult. Similarly to cosmic rays, neutrinos cover a broad range in energy (see Fig. \ref{fig:neutrinorange}), calling for different types of detector to cover this large spectrum. 
+\label{sec:neutrinos}
+As by-products of cosmic ray collisions with matter, neutrinos provide incontrovertible evidence for hadronic acceleration. Since these particle are weakly-interacting they can escape much denser environments and hold crucial information about the origins of their production environments. Because these particles barely interact, their detection is difficult. Similarly to cosmic rays, neutrinos cover a broad range in energy (see Figure \ref{fig:neutrinorange}), calling for different types of detector to cover this large spectrum. 
 
 \begin{figure}[t]
 \centering
 \includegraphics[width=0.7\textwidth]{chapter3/img/neutrinospectrum.png}
 \caption{Plot illustrating several neutrino fluxes which cover a huge range of energy. Illustration from \cite{Katz:2011ke}.}
+\label{fig:neutrinospectrumall}
 \end{figure}
 
-Cosmic rays are deflected in inter- and extragalactic magnetic fields and therefore their arrival direction at Earth does not hold much pointing information (Fig. \ref{fig:sourceinfo}, left). Light ranging from radio to gamma rays on the electromagnetic spectrum is of a crucial importance in astrophysics but has it's limitations. Photons can be absorbed by interstellar medium, or are trapped in opaque sources. At higher energies ($\approx 10^{14}$ eV) photons interact and produce electron-positron pair ($\gamma + \gamma \rightarrow e^+ + e^-$). Unless the sources are closeby no photons are capable of reaching Earth (see Fig. \ref{fig:sourceinfo}, right). Neutrinos escape from the sources more easily and are not deflected by magnetic fields making them key messengers in identifying cosmic ray accelerators. In the following we will go over the different types of neutrinos which are detectable on Earth.
+Cosmic rays are deflected in inter- and extragalactic magnetic fields and therefore their arrival direction at Earth does not hold much pointing information (Figure \ref{fig:sourceinfo}, left). Light ranging from radio to gamma rays on the electromagnetic spectrum is of a crucial importance in astrophysics but has it's limitations. Photons can be absorbed by interstellar medium, or are trapped in opaque sources. At higher energies ($\approx 10^{14}$ eV) photons interact and produce electron-positron pair ($\gamma + \gamma \rightarrow e^+ + e^-$). Unless the sources are closeby no photons are capable of reaching Earth (see Figure \ref{fig:sourceinfo}, right). Neutrinos escape from the sources more easily and are not deflected by magnetic fields making them key messengers in identifying cosmic ray accelerators. In the following we will go over the different types of neutrinos which are detectable on Earth.
 
 \begin{figure}[t]
-\label{fig:sourceinfo}
 \centering
 \includegraphics[width=0.4\textwidth]{chapter3/img/sourceinformation_3.jpg}
 \includegraphics[width=0.59\textwidth]{chapter3/img/opaque-to-photons.png}
 \caption{Left: Artist impression of the path that several types of particles travel before reaching Earth. Right: Illustration of the visibility of sources in function of their distance and the photon energy. The signature dip in the photon visibility comes from the pair production peak when photons interact with the CMB. Both illustrations from the IceCube collaboration.}
+\label{fig:sourceinfo}
 \end{figure}
 
 
@@ -392,18 +398,18 @@ which should be clear when we look at the example of pion decay where the muon d
 \end{align}
 The most referred to calculations for the atmospherical neutrino flux was done by Honda et al. \cite{Honda:2006qj}.
 \begin{figure}[t]
-\label{fig:neutrinospectrum2}
 \centering
 \includegraphics[width=0.39\textwidth]{chapter3/img/neutrinospectrum2.png}
 \includegraphics[width=0.6\textwidth]{chapter3/img/astroflux.png}
 \caption{Left: Measurement from the IceCube collaboration showing the difference in $\nu_e$ and $\nu_\mu$ flux. Right: Measured differential astrophysical flux using contained events (points) and a fit do that data (blue line and band), compared with the best fit obtained from throug-going $\nu_\mu$ (pink line and band). From Ref. \cite{Aartsen:2017mau}}.
+\label{fig:neutrinospectrum2}
 \end{figure}
 
 \subsection{Prompt}
 Charmed mesons, also called D mesons, are the lightest particles that contain charm quarks\footnote{$D^0: c\bar{u}, \bar{D}^0: u\bar{c}, D^+: c\bar{d}, D^-: d\bar{c}$}. Hints of charm particles were first seen in cosmic rays in 1971 by Niu et al. \cite{doi:10.1143/PTP.46.1644}. The production of these particles is strongly suppressed, but are expected to exhibit a harder spectrum than conventional neutrinos do. These mesons have short lifetimes (hence the name: prompt) and decay into netrinos independent of their energy and arrival direction. Therefore, their energy spectrum is expected to follow that of primary cosmic rays. Their contribution at higher energies can be non-negligible or even become dominant. To this date is has not been possible to observe this prompt component, but remains an interesting signal in diffuse neutrino searches and could contribute significantly to background expectations.  The most referred to calculations for the prompt neutrino flux was done by Endberg et al. \cite{Enberg:2008te}.
 \subsection{Astrophysical}
 \label{subsec:astro}
-Astrophysical neutrinos are expected to be created when cosmic rays interact close to their interaction sites. Because they are neutral and are unlikely to be absorbed, astrophysical neutrinos are expected to reveal more information about these sources. To first order, these neutrinos would follow the spectrum of cosmic rays at their production. As indicated in section \ref{para:power}, this is equal to an $E^{-2}$ powerlaw spectrum from Fermi shock acceleration. The majority of these neutrinos are expected to arise from decays from pions which were created in these cosmic-ray interactions ($\pi \rightarrow \mu + \nu_\mu$) followed by the muon decay ($\mu \rightarrow e + \nu_e + \nu_\mu$). The resulting flavor ratio fraction is $\nu_e: \nu_\mu: \nu_\tau = 1:2:0$ at the source. Neutrino oscillations across cosmological distances give an expected $\nu_e: \nu_\mu: \nu_\tau = 1:1:1$ expectation at Earth. As can be seen in Fig. \cite{fig:neutrinospectrum2}.
+Astrophysical neutrinos are expected to be created when cosmic rays interact close to their interaction sites. Because they are neutral and are unlikely to be absorbed, astrophysical neutrinos are expected to reveal more information about these sources. To first order, these neutrinos would follow the spectrum of cosmic rays at their production. As indicated in section \ref{para:power}, this is equal to an $E^{-2}$ powerlaw spectrum from Fermi shock acceleration. The majority of these neutrinos are expected to arise from decays from pions which were created in these cosmic-ray interactions ($\pi \rightarrow \mu + \nu_\mu$) followed by the muon decay ($\mu \rightarrow e + \nu_e + \nu_\mu$). The resulting flavor ratio fraction is $\nu_e: \nu_\mu: \nu_\tau = 1:2:0$ at the source. Neutrino oscillations across cosmological distances give an expected $\nu_e: \nu_\mu: \nu_\tau = 1:1:1$ expectation at Earth. As can be seen in Figure \cite{fig:neutrinospectrum2}.
 
 The spectrum is expected to follow the hardest spectrum of the three and therefore dominates at the highest energies.
 
