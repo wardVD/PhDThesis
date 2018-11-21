@@ -1,0 +1,12 @@
+#Below we give the PV systematic in percentage for a given background. The name of the file corresponds to the 
+               #signal that was used to produce these systematics (each signal had a different BDT). How the systematic is calculated:
+               #each directory has 50 BDTs. We look at the number of remaining events per bkg per BDT. From this we calculate the average
+               #and the minimum and the maximum. Then we select the biggest discrepancy between the minimum and avg and maximum
+               #and average and select this discrepancy. From this we calculate the largest relative difference.
+#BDT cut here: 0.32
+
+
+test_corsika_le_bg	nan
+total_test_sig	55.52
+test_nugeniemu_atmos_bg	197.55
+test_numu_atmos_bg	265.48
