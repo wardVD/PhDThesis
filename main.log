@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.15)  21 NOV 2018 15:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.15)  11 DEC 2018 18:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -720,176 +720,10 @@ Package mhchem Warning: You did not specify a 'version' option for the mhchem
 (mhchem)                different output with the same input in future versions
 .
 
-) (/usr/share/texlive/texmf-dist/tex/latex/tools/hhline.sty
-Package: hhline 2014/10/28 v2.03 Table rule package (DPC)
-)
-(/usr/share/texlive/texmf-dist/tex/latex/bbm-macros/bbm.sty
-Package: bbm 1999/03/15 V 1.2 provides fonts for set symbols - TH
-LaTeX Font Info:    Overwriting math alphabet `\mathbbm' in version `bold'
-(Font)                  U/bbm/m/n --> U/bbm/bx/n on input line 33.
-LaTeX Font Info:    Overwriting math alphabet `\mathbbmss' in version `bold'
-(Font)                  U/bbmss/m/n --> U/bbmss/bx/n on input line 35.
-)
-(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
-\bigstrutjot=\dimen268
-)
-(/usr/share/texlive/texmf-dist/tex/latex/appendix/appendix.sty
-Package: appendix 2009/09/02 v1.2b extra appendix facilities
-\c@@pps=\count271
-\c@@ppsavesec=\count272
-\c@@ppsaveapp=\count273
-)
-(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2016/02/24 3.9q The Babel package
-
-(/usr/share/texlive/texmf-dist/tex/generic/babel-greek/greek.ldf
-Language: greek 2016/02/04 v1.9f Greek support for the babel system
-
-(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2016/02/24 3.9q Babel common definitions
-\babel@savecnt=\count274
-\U@D=\dimen269
-)
-\bbl@monogreek=\count275
-\bbl@polygreek=\count276
-\bbl@ancientgreek=\count277
-
-(/usr/share/texlive/texmf-dist/tex/latex/greek-fontenc/lgrenc.def
-File: lgrenc.def 2015/12/07 v0.13.1 LGR Greek font encoding definitions
-
-(/usr/share/texlive/texmf-dist/tex/latex/greek-fontenc/greek-fontenc.def
-File: greek-fontenc.def 2015/08/04 v0.13 Common Greek font encoding definitions
-
-)))
-(/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
-Language: english 2012/08/20 v3.3p English support from the babel system
-\l@canadian = a dialect from \language\l@american 
-\l@australian = a dialect from \language\l@british 
-\l@newzealand = a dialect from \language\l@british 
-))
-(/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
-Package: enumitem 2011/09/28 v3.5.2 Customized lists
-\labelindent=\skip65
-\enit@outerparindent=\dimen270
-\enit@toks=\toks33
-\enit@inbox=\box54
-\enitdp@description=\count278
-)
-(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
-Package: booktabs 2005/04/14 v1.61803 publication quality tables
-\heavyrulewidth=\dimen271
-\lightrulewidth=\dimen272
-\cmidrulewidth=\dimen273
-\belowrulesep=\dimen274
-\belowbottomsep=\dimen275
-\aboverulesep=\dimen276
-\abovetopsep=\dimen277
-\cmidrulesep=\dimen278
-\cmidrulekern=\dimen279
-\defaultaddspace=\dimen280
-\@cmidla=\count279
-\@cmidlb=\count280
-\@aboverulesep=\dimen281
-\@belowrulesep=\dimen282
-\@thisruleclass=\count281
-\@lastruleclass=\count282
-\@thisrulewidth=\dimen283
-)
-(/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
-Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks34
-\verbatim@line=\toks35
-\verbatim@in@stream=\read2
-)
-(/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
-Package: amsthm 2015/03/04 v2.20.2
-\thm@style=\toks36
-\thm@bodyfont=\toks37
-\thm@headfont=\toks38
-\thm@notefont=\toks39
-\thm@headpunct=\toks40
-\thm@preskip=\skip66
-\thm@postskip=\skip67
-\thm@headsep=\skip68
-\dth@everypar=\toks41
-)
-(/usr/share/texlive/texmf-dist/tex/latex/colortbl/colortbl.sty
-Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
-
-(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
-Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
-\col@sep=\dimen284
-\extrarowheight=\dimen285
-\NC@list=\toks42
-\extratabsurround=\skip69
-\backup@length=\skip70
-)
-\everycr=\toks43
-\minrowclearance=\skip71
-)
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/avant.sty
-Package: avant 2005/04/12 PSNFSS-v9.2a (SPQR) 
-)
-(/usr/share/texmf/tex/latex/lm/lmodern.sty
-Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
-LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
-(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
-(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
-(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
-(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
-)
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
-Package: microtype 2013/05/23 v2.5a Micro-typographical refinements (RS)
-\MT@toks=\toks44
-\MT@count=\count283
-LaTeX Info: Redefining \textls on input line 766.
-\MT@outer@kern=\dimen286
-LaTeX Info: Redefining \textmicrotypecontext on input line 1285.
-\MT@listname@count=\count284
-
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-pdftex.def
-File: microtype-pdftex.def 2013/05/23 v2.5a Definitions specific to pdftex (RS)
-
-LaTeX Info: Redefining \lsstyle on input line 915.
-LaTeX Info: Redefining \lslig on input line 915.
-\MT@outer@space=\skip72
-)
-Package microtype Info: Loading configuration file microtype.cfg.
-
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg
-File: microtype.cfg 2013/05/23 v2.5a microtype main configuration file (RS)
-))
-(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2015/03/17 v1.2c Input encoding file
-\inpenc@prehook=\toks45
-\inpenc@posthook=\toks46
+\inpenc@prehook=\toks33
+\inpenc@posthook=\toks34
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2015/12/03 v1.1r UTF-8 support for inputenc
@@ -1185,6 +1019,53 @@ Now handling font encoding OMX ...
 ... no UTF-8 mapping file for font encoding OMX
 Now handling font encoding U ...
 ... no UTF-8 mapping file for font encoding U
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2423 (decimal 9251)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/tools/hhline.sty
+Package: hhline 2014/10/28 v2.03 Table rule package (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/bbm-macros/bbm.sty
+Package: bbm 1999/03/15 V 1.2 provides fonts for set symbols - TH
+LaTeX Font Info:    Overwriting math alphabet `\mathbbm' in version `bold'
+(Font)                  U/bbm/m/n --> U/bbm/bx/n on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathbbmss' in version `bold'
+(Font)                  U/bbmss/m/n --> U/bbmss/bx/n on input line 35.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen268
+)
+(/usr/share/texlive/texmf-dist/tex/latex/appendix/appendix.sty
+Package: appendix 2009/09/02 v1.2b extra appendix facilities
+\c@@pps=\count271
+\c@@ppsavesec=\count272
+\c@@ppsaveapp=\count273
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2016/02/24 3.9q The Babel package
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel-greek/greek.ldf
+Language: greek 2016/02/04 v1.9f Greek support for the babel system
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2016/02/24 3.9q Babel common definitions
+\babel@savecnt=\count274
+\U@D=\dimen269
+)
+\bbl@monogreek=\count275
+\bbl@polygreek=\count276
+\bbl@ancientgreek=\count277
+
+(/usr/share/texlive/texmf-dist/tex/latex/greek-fontenc/lgrenc.def
+File: lgrenc.def 2015/12/07 v0.13.1 LGR Greek font encoding definitions
 Now handling font encoding LGR ...
 ... processing UTF-8 mapping file for font encoding LGR
 
@@ -1545,16 +1426,134 @@ File: lgrenc.dfu 2015/08/05 1.6 UTF-8 support for Greek
    defining Unicode char U+10146 (decimal 65862)
    defining Unicode char U+10147 (decimal 65863)
 )
-   defining Unicode char U+00A9 (decimal 169)
-   defining Unicode char U+00AA (decimal 170)
-   defining Unicode char U+00AE (decimal 174)
-   defining Unicode char U+00BA (decimal 186)
-   defining Unicode char U+02C6 (decimal 710)
-   defining Unicode char U+02DC (decimal 732)
-   defining Unicode char U+200C (decimal 8204)
-   defining Unicode char U+2026 (decimal 8230)
-   defining Unicode char U+2122 (decimal 8482)
-   defining Unicode char U+2423 (decimal 9251)
+(/usr/share/texlive/texmf-dist/tex/latex/greek-fontenc/greek-fontenc.def
+File: greek-fontenc.def 2015/08/04 v0.13 Common Greek font encoding definitions
+
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2012/08/20 v3.3p English support from the babel system
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+))
+(/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2011/09/28 v3.5.2 Customized lists
+\labelindent=\skip65
+\enit@outerparindent=\dimen270
+\enit@toks=\toks35
+\enit@inbox=\box54
+\enitdp@description=\count278
+)
+(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen271
+\lightrulewidth=\dimen272
+\cmidrulewidth=\dimen273
+\belowrulesep=\dimen274
+\belowbottomsep=\dimen275
+\aboverulesep=\dimen276
+\abovetopsep=\dimen277
+\cmidrulesep=\dimen278
+\cmidrulekern=\dimen279
+\defaultaddspace=\dimen280
+\@cmidla=\count279
+\@cmidlb=\count280
+\@aboverulesep=\dimen281
+\@belowrulesep=\dimen282
+\@thisruleclass=\count281
+\@lastruleclass=\count282
+\@thisrulewidth=\dimen283
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks36
+\verbatim@line=\toks37
+\verbatim@in@stream=\read2
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2015/03/04 v2.20.2
+\thm@style=\toks38
+\thm@bodyfont=\toks39
+\thm@headfont=\toks40
+\thm@notefont=\toks41
+\thm@headpunct=\toks42
+\thm@preskip=\skip66
+\thm@postskip=\skip67
+\thm@headsep=\skip68
+\dth@everypar=\toks43
+)
+(/usr/share/texlive/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen284
+\extrarowheight=\dimen285
+\NC@list=\toks44
+\extratabsurround=\skip69
+\backup@length=\skip70
+)
+\everycr=\toks45
+\minrowclearance=\skip71
+)
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/avant.sty
+Package: avant 2005/04/12 PSNFSS-v9.2a (SPQR) 
+)
+(/usr/share/texmf/tex/latex/lm/lmodern.sty
+Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
+Package: microtype 2013/05/23 v2.5a Micro-typographical refinements (RS)
+\MT@toks=\toks46
+\MT@count=\count283
+LaTeX Info: Redefining \textls on input line 766.
+\MT@outer@kern=\dimen286
+LaTeX Info: Redefining \textmicrotypecontext on input line 1285.
+\MT@listname@count=\count284
+
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-pdftex.def
+File: microtype-pdftex.def 2013/05/23 v2.5a Definitions specific to pdftex (RS)
+
+LaTeX Info: Redefining \lsstyle on input line 915.
+LaTeX Info: Redefining \lslig on input line 915.
+\MT@outer@space=\skip72
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg
+File: microtype.cfg 2013/05/23 v2.5a microtype main configuration file (RS)
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
@@ -2083,23 +2082,23 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 
 Package hyperref Warning: Option `backref' has already been used,
-(hyperref)                setting the option has no effect on input line 510.
+(hyperref)                setting the option has no effect on input line 511.
 
 
 Package hyperref Warning: Option `pagebackref' has already been used,
-(hyperref)                setting the option has no effect on input line 510.
+(hyperref)                setting the option has no effect on input line 511.
 
 
 Package hyperref Warning: Option `hyperindex' has already been used,
-(hyperref)                setting the option has no effect on input line 510.
+(hyperref)                setting the option has no effect on input line 511.
 
-Package hyperref Info: Option `colorlinks' set `false' on input line 510.
-Package hyperref Info: Option `breaklinks' set `true' on input line 510.
+Package hyperref Info: Option `colorlinks' set `false' on input line 511.
+Package hyperref Info: Option `breaklinks' set `true' on input line 511.
 
 Package hyperref Warning: Option `bookmarks' has already been used,
-(hyperref)                setting the option has no effect on input line 510.
+(hyperref)                setting the option has no effect on input line 511.
 
-Package hyperref Info: Option `bookmarksopen' set `false' on input line 510.
+Package hyperref Info: Option `bookmarksopen' set `false' on input line 511.
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/bookmark.sty
 Package: bookmark 2011/12/02 v1.24 PDF bookmarks (HO)
 
@@ -2125,8 +2124,17 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 
 \@quotelevel=\count431
 \@quotereset=\count432
-(./main.aux (./front.aux) (./voorblad.aux) (./thankyou.aux)
-(./chapter5/chapter5.aux) (./appendix/appendix.aux))
+(./main.aux (./front.aux) (./voorblad.aux) (./thankyou.aux) (./poem.aux)
+(./abstract.aux) (./nederlands.aux) (./introduction.aux)
+(./chapter1/chapter1.aux
+LaTeX Font Info:    Try loading font information for LGR+cmr on input line 11.
+
+(/usr/share/texlive/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
+File: lgrcmr.fd 2013/09/01 v1.0 Greek European Computer Regular
+))
+(./chapter2/chapter2.aux) (./chapter3/chapter3.aux) (./chapter4/chapter4.aux)
+(./chapter5/chapter5.aux) (./chapter6/chapter6.aux) (./chapter7/chapter7.aux)
+(./chapter8/chapter8.aux) (./chapter9/chapter9.aux) (./appendix/appendix.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
@@ -2142,11 +2150,6 @@ LaTeX Font Info:    ... okay on input line 48.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
 LaTeX Font Info:    ... okay on input line 48.
 LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 48.
-LaTeX Font Info:    Try loading font information for LGR+cmr on input line 48.
-
-(/usr/share/texlive/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
-File: lgrcmr.fd 2013/09/01 v1.0 Greek European Computer Regular
-)
 LaTeX Font Info:    ... okay on input line 48.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 48.
 LaTeX Font Info:    ... okay on input line 48.
@@ -2253,105 +2256,7 @@ Package biblatex Info: ... file 'main.bbl' found.
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database:
-(biblatex)                BLABLABLA
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                sub:quarks
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                \IeC {\textbullet }1538-4357-689-2-L105
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                ???
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                ch:planck
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                pdg2018
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                TXS
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                Kopke:2011xb
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                eq:wave
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                w
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                Honda:2006qj
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                icrc2017:pa
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                Katz:2011ke
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                pdg
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                fig:neutrinospectrum2
+(biblatex)                SAMCITEREN+andere
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
@@ -2438,404 +2343,1861 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 \openout2 = `voorblad.aux'.
 
  (./voorblad.tex
-[2
+[1
+
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 34--36
+Underfull \hbox (badness 10000) in paragraph at lines 37--39
 
  []
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 45.
+(Font)              <10.95> on input line 48.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 45.
+(Font)              <8> on input line 48.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 45.
+(Font)              <6> on input line 48.
 
-<Pictures/logo_UGent_EN_RGB_2400_kleur_witbg.png, id=26, 10.02747pt x 7.52812pt
+<Pictures/logo_UGent_EN_RGB_2400_kleur_witbg.png, id=25, 10.02747pt x 7.52812pt
 >
 File: Pictures/logo_UGent_EN_RGB_2400_kleur_witbg.png Graphic file (type png)
  <use Pictures/logo_UGent_EN_RGB_2400_kleur_witbg.png>
 Package pdftex.def Info: Pictures/logo_UGent_EN_RGB_2400_kleur_witbg.png used o
-n input line 49.
+n input line 52.
 (pdftex.def)             Requested size: 100.27435pt x 75.28091pt.
 )
-Overfull \hbox (2.43332pt too wide) in paragraph at lines 39--50
+Overfull \hbox (2.43332pt too wide) in paragraph at lines 42--50
 $[]$  $[]$[] 
  []
 
-[3 <./Pictures/logo_UGent_EN_RGB_2400_kleur_witbg.png>]
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.50 \include{voorblad}
+                        [2 <./Pictures/logo_UGent_EN_RGB_2400_kleur_witbg.png>]
 \openout2 = `thankyou.aux'.
 
- (./thankyou.tex
-[4
+(./thankyou.texpdfTeX warning (ext4): destination with the same identifier (nam
+e{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.13 \newpage
+              [1
 
 
-]) [5
-\FN@pp@footnotehinttrue 
 
-] [6
+])
+\openout2 = `poem.aux'.
 
-] <Pictures/60seconds_StandardModelCube.jpg, id=49, 1606.0pt x 903.375pt>
+ (./poem.tex
+Underfull \hbox (badness 10000) in paragraph at lines 12--38
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--38
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--38
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--38
+
+ []
+
+)pdfTeX warning (ext4): destination with the same identifier (name{page.}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.52 \include{poem}
+                    [1
+
+
+
+]
+\openout2 = `abstract.aux'.
+
+ (./abstract.tex)pdfTeX warning (ext4): destination with the same identifier (n
+ame{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.53 \include{abstract}
+                        [1
+
+
+
+]pdfTeX warning (ext4): destination with the same identifier (name{page.}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.58 \mainmatter
+                 [2
+
+
+]
+<Pictures/60seconds_StandardModelCube.jpg, id=50, 1606.0pt x 903.375pt>
 File: Pictures/60seconds_StandardModelCube.jpg Graphic file (type jpg)
 
 <use Pictures/60seconds_StandardModelCube.jpg>
 Package pdftex.def Info: Pictures/60seconds_StandardModelCube.jpg used on input
- line 71.
+ line 68.
 (pdftex.def)             Requested size: 597.50787pt x 336.10442pt.
  (./main.toc
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <12> on input line 9.
+LaTeX Font Info:    Try loading font information for LGR+lmr on input line 15.
+
+(/usr/share/texlive/texmf-dist/tex/latex/cbfonts-fd/lgrlmr.fd
+File: lgrlmr.fd 2013/09/01 v1.0 Greek Latin Modern Regular
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 63.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 63.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 63.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.59 ...Data Processing and Analysis}}{19}{part.2}
+l.97 ...{\numberline {2.2}Theory}{31}{section.2.2}
                                                    [1
 
- <./Pictures/60seconds_StandardModelCube.jpg>]
+ <./Pictures/60seconds_StandardModelCube.jpg>] [2]
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
 
 
 LaTeX Font Warning: Font shape `T1/lmss/bx/sc' undefined
-(Font)              using `T1/lmss/bx/n' instead on input line 73.
+(Font)              using `T1/lmss/bx/n' instead on input line 321.
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.137 ...de {\color {ocre}Index}}{43}{section*.11}
-                                                   [2])
+[3])
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.73 \cleardoublepage
-                      % Forces the first chapter to start on an odd page so ...
-[3]pdfTeX warning (ext4): destination with the same identifier (name{page.4}) h
-as been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.73 \cleardoublepage
-                      % Forces the first chapter to start on an odd page so ...
-[4
+ [4]
+\openout2 = `nederlands.aux'.
 
-] <Pictures/whitepage.png, id=266, 752.8125pt x 391.4625pt>
+ (./nederlands.tex
+<Pictures/whitepage.png, id=486, 752.8125pt x 391.4625pt>
 File: Pictures/whitepage.png Graphic file (type png)
 
 <use Pictures/whitepage.png>
-Package pdftex.def Info: Pictures/whitepage.png used on input line 84.
+Package pdftex.def Info: Pictures/whitepage.png used on input line 1.
 (pdftex.def)             Requested size: 597.50787pt x 310.72736pt.
-pdfTeX warning (ext4): destination with the same identifier (name{page.5}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.87 \lipsum[1-7]
-                  % Dummy text [5
+ [5
 
- <./Pictures/whitepage.png>]pdfTeX warning (ext4): destination with the same id
-entifier (name{page.6}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.95 \chapter
-             *{Introduction and Summary}\label{ch1} [6]
-<Pictures/Header_Higgs_hunters_QandA.jpg, id=274, 1606.0pt x 903.375pt>
+
+
+ <./Pictures/whitepage.png>]) [6]
+\openout2 = `introduction.aux'.
+
+
+(./introduction.tex
+<Pictures/Header_Higgs_hunters_QandA.jpg, id=497, 1606.0pt x 903.375pt>
 File: Pictures/Header_Higgs_hunters_QandA.jpg Graphic file (type jpg)
 
 <use Pictures/Header_Higgs_hunters_QandA.jpg>
 Package pdftex.def Info: Pictures/Header_Higgs_hunters_QandA.jpg used on input 
-line 95.
+line 1.
 (pdftex.def)             Requested size: 597.50787pt x 336.10442pt.
  [7
 
- <./Pictures/Header_Higgs_hunters_QandA.jpg>] [8]
+
+
+ <./Pictures/Header_Higgs_hunters_QandA.jpg>]) [8]
 \c@ttl@toc@default=\count440
  (./main.ptc) [9
 
+
 ] [10]
+\openout2 = `chapter1/chapter1.aux'.
+
+ (./chapter1/chapter1.tex
+Chapter 1.
+<Pictures/StandardModel.jpg, id=576, 1606.0pt x 903.375pt>
+File: Pictures/StandardModel.jpg Graphic file (type jpg)
+
+<use Pictures/StandardModel.jpg>
+Package pdftex.def Info: Pictures/StandardModel.jpg used on input line 1.
+(pdftex.def)             Requested size: 597.50787pt x 336.10442pt.
+
+
+LaTeX Warning: Citation 'Povh' on page 11 undefined on input line 11.
+
+
+LaTeX Warning: Citation 'Peskin:1995ev' on page 11 undefined on input line 11.
+
+
+LaTeX Warning: Citation 'Agashe:2014kda' on page 11 undefined on input line 11.
+
+
+
+LaTeX Warning: Citation 'Bettini:2008zz' on page 11 undefined on input line 11.
+
+
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 16.
+(/usr/share/texmf/tex/latex/lm/omslmr.fd
+File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <8> not available
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 16.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9> on input line 16.
+LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <6> not available
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 16.
+ [11
+
+
+ <./Pictures/StandardModel.jpg>]
+<chapter1/img/SMparticles_rounded.png, id=594, 946.53625pt x 513.92pt>
+File: chapter1/img/SMparticles_rounded.png Graphic file (type png)
+
+<use chapter1/img/SMparticles_rounded.png>
+Package pdftex.def Info: chapter1/img/SMparticles_rounded.png used on input lin
+e 32.
+(pdftex.def)             Requested size: 455.24411pt x 247.17282pt.
+
+
+LaTeX Warning: Citation 'cernSMpic' on page 12 undefined on input line 33.
+
+
+LaTeX Warning: Citation 'cernSMpic' on page 12 undefined on input line 33.
+
+
+LaTeX Warning: Citation 'RevModPhys.88.030502' on page 12 undefined on input li
+ne 38.
+
+[12 <./chapter1/img/SMparticles_rounded.png (PNG copy)>]
+
+LaTeX Warning: Citation 'cmsjetsurl' on page 13 undefined on input line 45.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 59.
+
+[13]
+
+LaTeX Warning: Citation 'kircher1641athanasii' on page 14 undefined on input li
+ne 96.
+
+[14]
+LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 108.
+
+
+LaTeX Warning: Citation 'farmelo2009strangest' on page 15 undefined on input li
+ne 122.
+
+[15]
+
+LaTeX Warning: Citation 'mandl2013quantum' on page 16 undefined on input line 1
+26.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--130
+
+ []
+
+[16] [17]
+<chapter1/img/BoringPotential.png, id=688, 623.32875pt x 402.50375pt>
+File: chapter1/img/BoringPotential.png Graphic file (type png)
+
+<use chapter1/img/BoringPotential.png>
+Package pdftex.def Info: chapter1/img/BoringPotential.png used on input line 23
+7.
+(pdftex.def)             Requested size: 227.62206pt x 146.98328pt.
+
+<chapter1/img/Higgs-Potential-lookdown.png, id=689, 610.28pt x 387.4475pt>
+File: chapter1/img/Higgs-Potential-lookdown.png Graphic file (type png)
+
+<use chapter1/img/Higgs-Potential-lookdown.png>
+Package pdftex.def Info: chapter1/img/Higgs-Potential-lookdown.png used on inpu
+t line 238.
+(pdftex.def)             Requested size: 227.62206pt x 144.51207pt.
+
+<chapter1/img/Higgs-Potential-Goldstone.png, id=690, 610.28pt x 387.4475pt>
+File: chapter1/img/Higgs-Potential-Goldstone.png Graphic file (type png)
+
+<use chapter1/img/Higgs-Potential-Goldstone.png>
+Package pdftex.def Info: chapter1/img/Higgs-Potential-Goldstone.png used on inp
+ut line 239.
+(pdftex.def)             Requested size: 227.62206pt x 144.51207pt.
+
+<chapter1/img/Higgs-Potential-radial.png, id=691, 610.28pt x 387.4475pt>
+File: chapter1/img/Higgs-Potential-radial.png Graphic file (type png)
+
+<use chapter1/img/Higgs-Potential-radial.png>
+Package pdftex.def Info: chapter1/img/Higgs-Potential-radial.png used on input 
+line 240.
+(pdftex.def)             Requested size: 227.62206pt x 144.51207pt.
+
+Overfull \hbox (2.43333pt too wide) in paragraph at lines 237--241
+[][] []
+ []
+
+
+Overfull \hbox (2.43333pt too wide) in paragraph at lines 237--241
+[] [] 
+ []
+
+
+LaTeX Warning: Citation 'flip' on page 18 undefined on input line 241.
+
+
+LaTeX Warning: Citation 'flip' on page 18 undefined on input line 241.
+
+[18] [19 <./chapter1/img/BoringPotential.png> <./chapter1/img/Higgs-Potential-l
+ookdown.png> <./chapter1/img/Higgs-Potential-Goldstone.png> <./chapter1/img/Hig
+gs-Potential-radial.png>]
+Package mdframed Info: mdframed works in twoside mode on input line 292.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 292.
+ [20] [21]
+LaTeX Font Info:    Try loading font information for U+bbm on input line 403.
+
+(/usr/share/texlive/texmf-dist/tex/latex/bbm-macros/ubbm.fd
+File: ubbm.fd 1999/03/15 V 1.2 Font definition for bbm font - TH
+) [22]
+
+LaTeX Warning: Citation 'Glashow:1970gm' on page 23 undefined on input line 456
+.
+
+
+LaTeX Warning: Citation '1964PhRvL' on page 23 undefined on input line 456.
+
+
+LaTeX Warning: Citation 'doi:10.1143/PTP.28.870' on page 23 undefined on input 
+line 458.
+
+[23] <chapter1/img/younginterference.png, id=791, 459.7175pt x 433.62pt>
+File: chapter1/img/younginterference.png Graphic file (type png)
+
+<use chapter1/img/younginterference.png>
+Package pdftex.def Info: chapter1/img/younginterference.png used on input line 
+496.
+(pdftex.def)             Requested size: 273.16002pt x 227.62082pt.
+
+<chapter1/img/doubleslitsinglephoton_crop.png, id=792, 216.81pt x 207.77625pt>
+File: chapter1/img/doubleslitsinglephoton_crop.png Graphic file (type png)
+
+<use chapter1/img/doubleslitsinglephoton_crop.png>
+Package pdftex.def Info: chapter1/img/doubleslitsinglephoton_crop.png used on i
+nput line 497.
+(pdftex.def)             Requested size: 182.1026pt x 227.63197pt.
+
+Overfull \hbox (2.45184pt too wide) in paragraph at lines 496--498
+[][] [] 
+ []
+
+
+LaTeX Warning: Citation 'shmoop' on page 24 undefined on input line 498.
+
+
+LaTeX Warning: Citation 'weiswynands:2003' on page 24 undefined on input line 4
+98.
+
+
+LaTeX Warning: Citation 'shmoop' on page 24 undefined on input line 498.
+
+
+LaTeX Warning: Citation 'weiswynands:2003' on page 24 undefined on input line 4
+98.
+
+
+LaTeX Warning: Citation 'Davisson:1927ta' on page 24 undefined on input line 50
+2.
+
+
+LaTeX Warning: Citation 'thomson:1927' on page 24 undefined on input line 502.
+
+
+LaTeX Warning: Citation 'Jonsson1961' on page 24 undefined on input line 502.
+
+
+LaTeX Warning: Citation 'merli:1974' on page 24 undefined on input line 502.
+
+
+LaTeX Warning: Citation 'weiswynands:2003' on page 24 undefined on input line 5
+02.
+
+
+LaTeX Warning: Citation 'Anderson:1933mb' on page 24 undefined on input line 50
+5.
+
+
+LaTeX Warning: Citation 'Dirac:1928hu' on page 24 undefined on input line 505.
+
+
+LaTeX Warning: Citation 'Lattes:1947mw' on page 24 undefined on input line 505.
+
+
+
+LaTeX Warning: Citation 'Neddermeyer:1937md' on page 24 undefined on input line
+ 505.
+
+[24]
+
+LaTeX Warning: Citation 'Herb:1977ek' on page 25 undefined on input line 512.
+
+
+LaTeX Warning: Citation 'Abe:1995hr' on page 25 undefined on input line 512.
+
+
+LaTeX Warning: Citation 'Barber:1979yr' on page 25 undefined on input line 513.
+
+
+
+LaTeX Warning: Citation 'ALEPH:2005ab' on page 25 undefined on input line 525.
+
+
+LaTeX Warning: Citation 'Riemann:2010zz' on page 25 undefined on input line 525
+.
+
+
+LaTeX Warning: Citation 'Abe:2000dq' on page 25 undefined on input line 525.
+
+
+LaTeX Warning: Citation 'Abe:2000uc' on page 25 undefined on input line 525.
+
+
+LaTeX Warning: Citation 'Abe:2000hk' on page 25 undefined on input line 525.
+
+
+LaTeX Warning: Citation 'Abe:1996ef' on page 25 undefined on input line 525.
+
+
+LaTeX Warning: Citation 'Aaltonen:2013iut' on page 25 undefined on input line 5
+25.
+
+
+LaTeX Warning: Citation 'TEW:2010aj' on page 25 undefined on input line 525.
+
+
+LaTeX Warning: Citation 'TEW:2010aj' on page 25 undefined on input line 525.
+
+
+LaTeX Warning: Citation 'Aaboud:2017svj' on page 25 undefined on input line 525
+.
+
+
+LaTeX Warning: Citation 'ATLASurl1' on page 25 undefined on input line 525.
+
+
+LaTeX Warning: Citation 'CMSurl1' on page 25 undefined on input line 525.
+
+
+LaTeX Warning: Citation 'CMSurl2' on page 25 undefined on input line 525.
+
+[25 <./chapter1/img/younginterference.png> <./chapter1/img/doubleslitsinglephot
+on_crop.png>]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 528.
+
+
+LaTeX Warning: Citation 'PDG2018url' on page 26 undefined on input line 530.
+
+
+LaTeX Warning: Citation 'PDG2018url' on page 26 undefined on input line 530.
+
+[26]
+
+LaTeX Warning: Citation 'Ade:2015xua' on page 27 undefined on input line 573.
+
+
+LaTeX Warning: Citation 'Corbelli:1999af' on page 27 undefined on input line 57
+3.
+
+
+LaTeX Warning: Citation 'Faber:1976sn' on page 27 undefined on input line 573.
+
+
+LaTeX Warning: Citation 'Allen:2011zs' on page 27 undefined on input line 573.
+
+
+LaTeX Warning: Citation 'Natarajan:2017sbo' on page 27 undefined on input line 
+573.
+
+
+LaTeX Warning: Citation 'Hubble:1929ig' on page 27 undefined on input line 574.
+
+
+
+LaTeX Warning: Citation 'Donoghue:2012zc' on page 27 undefined on input line 57
+5.
+
+
+LaTeX Warning: Citation 'Holzbauer:2017ntd' on page 27 undefined on input line 
+577.
+
+[27]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 589.
+
+[28] <chapter1/img/screening.png, id=835, 295.85532pt x 154.32657pt>
+File: chapter1/img/screening.png Graphic file (type png)
+
+<use chapter1/img/screening.png>
+Package pdftex.def Info: chapter1/img/screening.png used on input line 634.
+(pdftex.def)             Requested size: 227.62871pt x 136.58487pt.
+
+<chapter1/img/antiscreening.png, id=836, 620.3175pt x 491.58656pt>
+File: chapter1/img/antiscreening.png Graphic file (type png)
+
+<use chapter1/img/antiscreening.png>
+Package pdftex.def Info: chapter1/img/antiscreening.png used on input line 635.
+
+(pdftex.def)             Requested size: 227.62083pt x 136.57065pt.
+
+Overfull \hbox (2.43877pt too wide) in paragraph at lines 634--636
+[][] [] 
+ []
+
+
+LaTeX Warning: Citation 'Deur:2016tte' on page 29 undefined on input line 636.
+
+
+LaTeX Warning: Citation 'Deur:2016tte' on page 29 undefined on input line 636.
+
+[29 <./chapter1/img/screening.png> <./chapter1/img/antiscreening.png>]
+<chapter1/img/running.png, id=847, 407.27156pt x 331.2375pt>
+File: chapter1/img/running.png Graphic file (type png)
+
+<use chapter1/img/running.png>
+Package pdftex.def Info: chapter1/img/running.png used on input line 658.
+(pdftex.def)             Requested size: 227.62206pt x 185.12782pt.
+
+
+LaTeX Warning: Citation 'nobel2004url' on page 30 undefined on input line 659.
+
+
+LaTeX Warning: Citation 'nobel2004url' on page 30 undefined on input line 659.
+
+
+LaTeX Warning: Citation 'He:1989eq' on page 30 undefined on input line 665.
+
+
+LaTeX Warning: Citation 'Yu:1984pb' on page 30 undefined on input line 667.
+
+[30 <./chapter1/img/running.png>]) [31]
+\openout2 = `chapter2/chapter2.aux'.
+
+ (./chapter2/chapter2.tex [32
+
+
+
+]
+Chapter 2.
+<Pictures/Exploring_the_unknown_2.jpg, id=867, 715.92468pt x 402.00188pt>
+File: Pictures/Exploring_the_unknown_2.jpg Graphic file (type jpg)
+
+<use Pictures/Exploring_the_unknown_2.jpg>
+Package pdftex.def Info: Pictures/Exploring_the_unknown_2.jpg used on input lin
+e 1.
+(pdftex.def)             Requested size: 597.50787pt x 335.52621pt.
+
+
+LaTeX Warning: Citation 'He:1989eq' on page 33 undefined on input line 12.
+
+
+LaTeX Warning: Citation 'Barr:1982vj' on page 33 undefined on input line 12.
+
+
+LaTeX Warning: Citation 'Frampton:1982gc' on page 33 undefined on input line 12
+.
+
+
+LaTeX Warning: Citation 'Yu:1984pb' on page 33 undefined on input line 12.
+
+
+LaTeX Warning: Citation 'Yamamoto:1982sk' on page 33 undefined on input line 12
+.
+
+
+LaTeX Warning: Citation 'Dong:1983nh' on page 33 undefined on input line 12.
+
+
+LaTeX Warning: Citation 'Jiang:1985jy' on page 33 undefined on input line 12.
+
+[33 <./Pictures/Exploring_the_unknown_2.jpg>]
+
+LaTeX Warning: Citation 'Bajc:2016qcc' on page 34 undefined on input line 14.
+
+
+LaTeX Warning: Citation 'Nishino:2009aa' on page 34 undefined on input line 14.
+
+
+
+LaTeX Warning: Citation 'Wen:1985qj' on page 34 undefined on input line 16.
+
+
+LaTeX Warning: Citation 'Antoniadis:1992eb' on page 34 undefined on input line 
+16.
+
+
+LaTeX Warning: Citation 'Athanasiu:1988uj' on page 34 undefined on input line 1
+6.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--17
+
+ []
+
+
+LaTeX Warning: Citation 'Holdom:1985ag' on page 34 undefined on input line 18.
+
+
+LaTeX Warning: Citation 'Izaguirre:2015eya' on page 34 undefined on input line 
+18.
+
+
+LaTeX Warning: Citation 'Brahm:1989jh' on page 34 undefined on input line 18.
+
+
+LaTeX Warning: Citation 'Boehm:2003hm' on page 34 undefined on input line 18.
+
+
+LaTeX Warning: Citation 'Pospelov:2007mp' on page 34 undefined on input line 18
+.
+
+
+LaTeX Warning: Citation 'Bjorken:2009mm' on page 34 undefined on input line 18.
+
+
+
+LaTeX Warning: Citation 'Magill:2018tbb' on page 34 undefined on input line 18.
+
+
+
+LaTeX Warning: Citation 'Acciarri:2015uup' on page 34 undefined on input line 1
+8.
+
+
+LaTeX Warning: Citation 'Anelli:2015pba' on page 34 undefined on input line 18.
+
+
+
+LaTeX Warning: Citation 'Battaglieri:2017aum' on page 34 undefined on input lin
+e 18.
+
+[34]
+
+LaTeX Warning: Citation 'Lyons:1984pw' on page 35 undefined on input line 70.
+
+
+LaTeX Warning: Citation 'Aubert:1983jy' on page 35 undefined on input line 70.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 80.
+
+
+LaTeX Warning: Citation 'Bondar:1985sb' on page 35 undefined on input line 88.
+
+
+LaTeX Warning: Citation 'Aihara:1984px' on page 35 undefined on input line 89.
+
+
+LaTeX Warning: Citation 'Abbiendi:2003yd' on page 35 undefined on input line 90
+.
+
+
+LaTeX Warning: Citation 'Abreu:1996py' on page 35 undefined on input line 91.
+
+
+LaTeX Warning: Citation 'Akers:1995az' on page 35 undefined on input line 92.
+
+
+LaTeX Warning: Citation 'Buskulic:1992mr' on page 35 undefined on input line 93
+.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 100.
+
+
+LaTeX Warning: Citation 'Banner:1985ev' on page 35 undefined on input line 108.
+
+
+
+LaTeX Warning: Citation 'Abe:1992vr' on page 35 undefined on input line 109.
+
+
+LaTeX Warning: Citation 'Acosta:2002ju' on page 35 undefined on input line 110.
+
+
+
+LaTeX Warning: Citation 'CMS:2012xi' on page 35 undefined on input line 114.
+
+[35]
+
+LaTeX Warning: Citation 'Mori:1990kw' on page 36 undefined on input line 124.
+
+<chapter2/img/upperlimits.png, id=905, 968.61874pt x 878.28125pt>
+File: chapter2/img/upperlimits.png Graphic file (type png)
+
+<use chapter2/img/upperlimits.png>
+Package pdftex.def Info: chapter2/img/upperlimits.png used on input line 127.
+(pdftex.def)             Requested size: 318.66948pt x 288.9492pt.
+
+
+LaTeX Warning: Citation 'Ambrosio:2004ub' on page 36 undefined on input line 12
+8.
+
+
+LaTeX Warning: Citation 'Ambrosio:2004ub' on page 36 undefined on input line 12
+8.
+
+) [36 <./chapter2/img/upperlimits.png>] [37]
+\openout2 = `chapter3/chapter3.aux'.
+
+ (./chapter3/chapter3.tex [38
+
+
+
+]
+Chapter 3.
+<Pictures/cosmicrays-s.jpg, id=920, 1606.0pt x 903.375pt>
+File: Pictures/cosmicrays-s.jpg Graphic file (type jpg)
+
+<use Pictures/cosmicrays-s.jpg>
+Package pdftex.def Info: Pictures/cosmicrays-s.jpg used on input line 1.
+(pdftex.def)             Requested size: 597.50787pt x 336.10442pt.
+
+
+LaTeX Warning: Citation 'Gaisser:2016uoy' on page 39 undefined on input line 9.
+
+
+
+LaTeX Warning: Citation 'hessnobel:1936' on page 39 undefined on input line 13.
+
+
+
+LaTeX Warning: Citation 'PhysRev.32.533' on page 39 undefined on input line 13.
+
+
+
+LaTeX Warning: Citation 'clay:1927a' on page 39 undefined on input line 15.
+
+[39 <./Pictures/cosmicrays-s.jpg>]
+<./chapter3/img/relativeabundanceACE.png, id=926, 811.03pt x 687.56876pt>
+File: ./chapter3/img/relativeabundanceACE.png Graphic file (type png)
+
+<use ./chapter3/img/relativeabundanceACE.png>
+Package pdftex.def Info: ./chapter3/img/relativeabundanceACE.png used on input 
+line 23.
+(pdftex.def)             Requested size: 318.66948pt x 270.16508pt.
+
+
+LaTeX Warning: Citation 'ISRAEL2005201' on page 40 undefined on input line 24.
+
+
+LaTeX Warning: Citation 'ISRAEL2005201' on page 40 undefined on input line 24.
+
+<chapter3/img/spectrumCR.png, id=930, 539.76656pt x 616.55344pt>
+File: chapter3/img/spectrumCR.png Graphic file (type png)
+
+<use chapter3/img/spectrumCR.png>
+Package pdftex.def Info: chapter3/img/spectrumCR.png used on input line 40.
+(pdftex.def)             Requested size: 318.66948pt x 364.00798pt.
+
+
+LaTeX Warning: Citation 'Blasi:2013rva' on page 40 undefined on input line 41.
+
+
+LaTeX Warning: Citation 'Blasi:2013rva' on page 40 undefined on input line 41.
+
+[40 <./chapter3/img/relativeabundanceACE.png>] [41 <./chapter3/img/spectrumCR.p
+ng>]
+
+LaTeX Warning: Citation '0034-4885-64-4-201' on page 42 undefined on input line
+ 54.
+
+
+LaTeX Warning: Citation 'Fermi-LAT:2010fcp' on page 42 undefined on input line 
+54.
+
+
+LaTeX Warning: Citation 'Gaisser:2016uoy' on page 42 undefined on input line 54
+.
+
+[42]
+
+LaTeX Warning: Citation 'Apel:2011mi' on page 43 undefined on input line 72.
+
+
+LaTeX Warning: Citation 'Garyaka:2008gs' on page 43 undefined on input line 72.
+
+
+<chapter3/img/fit1gaisser.png, id=967, 1060.96375pt x 1025.8325pt>
+File: chapter3/img/fit1gaisser.png Graphic file (type png)
+
+<use chapter3/img/fit1gaisser.png>
+Package pdftex.def Info: chapter3/img/fit1gaisser.png used on input line 76.
+(pdftex.def)             Requested size: 218.51521pt x 211.2675pt.
+
+<chapter3/img/fit2gaisser.png, id=968, 1062.97125pt x 1061.9675pt>
+File: chapter3/img/fit2gaisser.png Graphic file (type png)
+
+<use chapter3/img/fit2gaisser.png>
+Package pdftex.def Info: chapter3/img/fit2gaisser.png used on input line 77.
+(pdftex.def)             Requested size: 218.51521pt x 218.3043pt.
+
+
+LaTeX Warning: Citation 'Greisen:1966jv' on page 43 undefined on input line 87.
+
+
+
+LaTeX Warning: Citation 'Zatsepin:1966jv' on page 43 undefined on input line 87
+.
+
+
+LaTeX Warning: Citation 'icrc2017:pa' on page 43 undefined on input line 97.
+
+
+LaTeX Warning: Citation 'PDG2018url' on page 43 undefined on input line 97.
+
+<chapter3/img/ankle.png, id=971, 824.07875pt x 623.32875pt>
+File: chapter3/img/ankle.png Graphic file (type png)
+
+<use chapter3/img/ankle.png>
+Package pdftex.def Info: chapter3/img/ankle.png used on input line 101.
+(pdftex.def)             Requested size: 273.14923pt x 206.60268pt.
+
+
+LaTeX Warning: Citation 'PDG2018url' on page 43 undefined on input line 102.
+
+
+LaTeX Warning: Citation 'PDG2018url' on page 43 undefined on input line 102.
+
+
+LaTeX Warning: Citation 'Aab:2017tyv' on page 43 undefined on input line 105.
+
+
+LaTeX Warning: Citation 'Waxman:2013zda' on page 43 undefined on input line 105
+.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--108
+
+ []
+
+[43 <./chapter3/img/fit1gaisser.png> <./chapter3/img/fit2gaisser.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 116--119
+
+ []
+
+[44 <./chapter3/img/ankle.png>]
+
+LaTeX Warning: Citation 'Hillas:1985is' on page 45 undefined on input line 136.
+
+
+<chapter3/img/Hillas.jpg, id=992, 602.25pt x 575.14874pt>
+File: chapter3/img/Hillas.jpg Graphic file (type jpg)
+
+<use chapter3/img/Hillas.jpg>
+Package pdftex.def Info: chapter3/img/Hillas.jpg used on input line 140.
+(pdftex.def)             Requested size: 318.66948pt x 304.33592pt.
+
+
+LaTeX Warning: Citation 'Bauleo:2009zz' on page 45 undefined on input line 141.
+
+
+
+LaTeX Warning: Citation 'Bauleo:2009zz' on page 45 undefined on input line 141.
+
+
+<chapter3/img/crabnebula_rounded.jpg, id=996, 1044.90375pt x 1044.90375pt>
+File: chapter3/img/crabnebula_rounded.jpg Graphic file (type jpg)
+
+<use chapter3/img/crabnebula_rounded.jpg>
+Package pdftex.def Info: chapter3/img/crabnebula_rounded.jpg used on input line
+ 158.
+(pdftex.def)             Requested size: 218.5115pt x 219.0855pt.
+
+<chapter3/img/casa_rounded_resized.jpg, id=997, 245.2362pt x 209.583pt>
+File: chapter3/img/casa_rounded_resized.jpg Graphic file (type jpg)
+
+<use chapter3/img/casa_rounded_resized.jpg>
+Package pdftex.def Info: chapter3/img/casa_rounded_resized.jpg used on input li
+ne 159.
+(pdftex.def)             Requested size: 232.17227pt x 219.09004pt.
+ [45]
+<chapter3/img/cloud_update.png, id=1012, 739.76375pt x 491.8375pt>
+File: chapter3/img/cloud_update.png Graphic file (type png)
+
+<use chapter3/img/cloud_update.png>
+Package pdftex.def Info: chapter3/img/cloud_update.png used on input line 174.
+(pdftex.def)             Requested size: 217.39311pt x 144.54pt.
+
+<chapter3/img/shock.png, id=1013, 501.875pt x 562.1pt>
+File: chapter3/img/shock.png Graphic file (type png)
+
+<use chapter3/img/shock.png>
+Package pdftex.def Info: chapter3/img/shock.png used on input line 176.
+(pdftex.def)             Requested size: 200.03424pt x 224.03743pt.
+ [46 <./chapter3/img/Hillas.jpg>]
+
+LaTeX Warning: Citation 'Gaisser:2016uoy' on page 47 undefined on input line 20
+3.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 207--211
+
+ []
+
+[47 <./chapter3/img/crabnebula_rounded.jpg> <./chapter3/img/casa_rounded_resize
+d.jpg>] [48 <./chapter3/img/cloud_update.png> <./chapter3/img/shock.png>]
+
+LaTeX Warning: Citation 'Lagage:1983zz' on page 49 undefined on input line 272.
+
+
+
+LaTeX Warning: Citation 'stanev2010high' on page 49 undefined on input line 277
+.
+
+
+LaTeX Warning: Citation 'Urry:1995mg' on page 49 undefined on input line 285.
+
+
+LaTeX Warning: Citation 'Antonucci:1993sg' on page 49 undefined on input line 2
+85.
+
+
+LaTeX Warning: Citation 'Kazanas:2012sk' on page 49 undefined on input line 285
+.
+
+
+<chapter3/img/quazar_resized_rounded_resized_2.jpg, id=1047, 695.59875pt x 491.
+8375pt>
+File: chapter3/img/quazar_resized_rounded_resized_2.jpg Graphic file (type jpg)
+
+ <use chapter3/img/quazar_resized_rounded_resized_2.jpg>
+Package pdftex.def Info: chapter3/img/quazar_resized_rounded_resized_2.jpg used
+ on input line 291.
+(pdftex.def)             Requested size: 223.07211pt x 157.72142pt.
+
+<chapter3/img/jet_crop_rounded.jpg, id=1048, 697.60625pt x 491.8375pt>
+File: chapter3/img/jet_crop_rounded.jpg Graphic file (type jpg)
+
+<use chapter3/img/jet_crop_rounded.jpg>
+Package pdftex.def Info: chapter3/img/jet_crop_rounded.jpg used on input line 2
+92.
+(pdftex.def)             Requested size: 223.07211pt x 157.27113pt.
+
+
+LaTeX Warning: Citation 'Abraham:2007si' on page 49 undefined on input line 296
+.
+
+
+LaTeX Warning: Citation 'IceCube:2018dnn' on page 49 undefined on input line 29
+6.
+
+[49]
+
+LaTeX Warning: Citation 'Klebesadel:1973iq' on page 50 undefined on input line 
+300.
+
+
+LaTeX Warning: Citation 'Meegan:1992xg' on page 50 undefined on input line 300.
+
+
+
+LaTeX Warning: Citation 'Piran:2004ba' on page 50 undefined on input line 302.
+
+
+LaTeX Warning: Citation 'TheLIGOScientific:2017qsa' on page 50 undefined on inp
+ut line 304.
+
+
+LaTeX Warning: Citation 'Abbott:2017oio' on page 50 undefined on input line 304
+.
+
+
+LaTeX Warning: Citation 'Abbott:2017gyy' on page 50 undefined on input line 304
+.
+
+
+LaTeX Warning: Citation 'Abbott:2017vtc' on page 50 undefined on input line 304
+.
+
+
+LaTeX Warning: Citation 'Abbott:2016nmj' on page 50 undefined on input line 304
+.
+
+<chapter3/img/fireball_rounded.jpg, id=1059, 989.6975pt x 550.055pt>
+File: chapter3/img/fireball_rounded.jpg Graphic file (type jpg)
+
+<use chapter3/img/fireball_rounded.jpg>
+Package pdftex.def Info: chapter3/img/fireball_rounded.jpg used on input line 3
+08.
+(pdftex.def)             Requested size: 273.14923pt x 151.80695pt.
+
+
+LaTeX Warning: Citation 'Acero:2009nb' on page 50 undefined on input line 313.
+
+
+LaTeX Warning: Citation 'Karlsson:2009hd' on page 50 undefined on input line 31
+3.
+
+[50 <./chapter3/img/quazar_resized_rounded_resized_2.jpg> <./chapter3/img/jet_c
+rop_rounded.jpg>]
+
+LaTeX Warning: Citation '1538-4357-689-2-L105' on page 51 undefined on input li
+ne 316.
+
+<chapter3/img/neutrinospectrum.png, id=1068, 1053.33525pt x 831.105pt>
+File: chapter3/img/neutrinospectrum.png Graphic file (type png)
+
+<use chapter3/img/neutrinospectrum.png>
+Package pdftex.def Info: chapter3/img/neutrinospectrum.png used on input line 3
+29.
+(pdftex.def)             Requested size: 318.66948pt x 251.43857pt.
+
+
+LaTeX Warning: Citation 'Katz:2011ke' on page 51 undefined on input line 330.
+
+
+LaTeX Warning: Citation 'Katz:2011ke' on page 51 undefined on input line 330.
+
+<chapter3/img/sourceinformation_3.jpg, id=1071, 642.4pt x 486.81876pt>
+File: chapter3/img/sourceinformation_3.jpg Graphic file (type jpg)
+
+<use chapter3/img/sourceinformation_3.jpg>
+Package pdftex.def Info: chapter3/img/sourceinformation_3.jpg used on input lin
+e 338.
+(pdftex.def)             Requested size: 182.09486pt x 137.99452pt.
+
+<chapter3/img/opaque-to-photons.png, id=1072, 818.3373pt x 438.6789pt>
+File: chapter3/img/opaque-to-photons.png Graphic file (type png)
+
+<use chapter3/img/opaque-to-photons.png>
+Package pdftex.def Info: chapter3/img/opaque-to-photons.png used on input line 
+339.
+(pdftex.def)             Requested size: 268.59235pt x 143.98131pt.
+ [51 <./chapter3/img/fireball_rounded.jpg>] <chapter3/img/neutrinospectrum2.png
+, id=1085, 271.0125pt x 260.172pt>
+File: chapter3/img/neutrinospectrum2.png Graphic file (type png)
+
+<use chapter3/img/neutrinospectrum2.png>
+Package pdftex.def Info: chapter3/img/neutrinospectrum2.png used on input line 
+360.
+(pdftex.def)             Requested size: 177.54492pt x 170.44763pt.
+
+<chapter3/img/astroflux.png, id=1086, 1375.1375pt x 817.0525pt>
+File: chapter3/img/astroflux.png Graphic file (type png)
+
+<use chapter3/img/astroflux.png>
+Package pdftex.def Info: chapter3/img/astroflux.png used on input line 361.
+(pdftex.def)             Requested size: 273.14923pt x 162.28555pt.
+
+
+LaTeX Warning: Citation 'Aartsen:2017mau' on page 52 undefined on input line 36
+2.
+
+
+LaTeX Warning: Citation 'Aartsen:2017mau' on page 52 undefined on input line 36
+2.
+
+
+LaTeX Warning: Citation 'doi:10.1143/PTP.46.1644' on page 52 undefined on input
+ line 367.
+
+
+Overfull \hbox (29.84605pt too wide) in paragraph at lines 367--368
+\T1/lmr/m/n/10.95 (-20) Hints of charm par-ti-cles were first seen in cos-mic r
+ays in 1971 by Niu et al. [[]].
+ []
+
+[52 <./chapter3/img/neutrinospectrum.png (PNG copy)>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [53 <./chapter3/img/sourceinformation_3.jpg> <./chapter3/img/opaque-to-photons
+.png> <./chapter3/img/neutrinospectrum2.png> <./chapter3/img/astroflux.png>]
+
+LaTeX Warning: Citation 'Wan:2016nhe' on page 54 undefined on input line 389.
+
+
+LaTeX Warning: Citation 'Scholberg:2012id' on page 54 undefined on input line 4
+03.
+
+
+LaTeX Warning: Citation 'Kopke:2011xb' on page 54 undefined on input line 403.
+
+
+LaTeX Warning: Citation 'Grupen:2005rx' on page 54 undefined on input line 414.
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 408--415
+
+ []
+
+[54] <chapter3/img/airshower.png, id=1132, 845.1575pt x 597.23125pt>
+File: chapter3/img/airshower.png Graphic file (type png)
+
+<use chapter3/img/airshower.png>
+Package pdftex.def Info: chapter3/img/airshower.png used on input line 418.
+(pdftex.def)             Requested size: 364.19667pt x 257.36032pt.
+ [55 <./chapter3/img/airshower.png (PNG copy)>]
+
+LaTeX Warning: Citation 'PDG2018url' on page 56 undefined on input line 437.
+
+) [56]
+\openout2 = `chapter4/chapter4.aux'.
+
+ (./chapter4/chapter4.tex
+Chapter 4.
+<Pictures/MuonWithPhotons_3.png, id=1149, 1606.0pt x 876.27374pt>
+File: Pictures/MuonWithPhotons_3.png Graphic file (type png)
+
+<use Pictures/MuonWithPhotons_3.png>
+Package pdftex.def Info: Pictures/MuonWithPhotons_3.png used on input line 1.
+(pdftex.def)             Requested size: 597.50787pt x 326.02127pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--20
+
+ []
+
+<chapter4/img/feynmanneutrino.png, id=1152, 840.13875pt x 252.945pt>
+File: chapter4/img/feynmanneutrino.png Graphic file (type png)
+
+<use chapter4/img/feynmanneutrino.png>
+Package pdftex.def Info: chapter4/img/feynmanneutrino.png used on input line 23
+.
+(pdftex.def)             Requested size: 409.71692pt x 123.3536pt.
+
+
+LaTeX Warning: Citation 'nobel1958url' on page 57 undefined on input line 29.
+
+[57
+
+
+
+ <./Pictures/MuonWithPhotons_3.png>]
+<chapter4/img/cherenkov2.png, id=1165, 538.01pt x 484.81125pt>
+File: chapter4/img/cherenkov2.png Graphic file (type png)
+
+<use chapter4/img/cherenkov2.png>
+Package pdftex.def Info: chapter4/img/cherenkov2.png used on input line 52.
+(pdftex.def)             Requested size: 273.14923pt x 246.14082pt.
+ [58 <./chapter4/img/feynmanneutrino.png>]
+
+LaTeX Warning: Citation 'PDG2018url' on page 59 undefined on input line 62.
+
+[59 <./chapter4/img/cherenkov2.png>]
+<chapter4/img/ICinteractions.png, id=1189, 690.58pt x 408.52625pt>
+File: chapter4/img/ICinteractions.png Graphic file (type png)
+
+<use chapter4/img/ICinteractions.png>
+Package pdftex.def Info: chapter4/img/ICinteractions.png used on input line 85.
+
+(pdftex.def)             Requested size: 318.66948pt x 188.51654pt.
+
+
+LaTeX Warning: Citation 'Wallraff' on page 60 undefined on input line 86.
+
+
+LaTeX Warning: Citation 'Wallraff' on page 60 undefined on input line 86.
+
+[60 <./chapter4/img/ICinteractions.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 130--131
+
+ []
+
+<chapter4/img/muonenergyloss.png, id=1207, 772.8875pt x 735.74875pt>
+File: chapter4/img/muonenergyloss.png Graphic file (type png)
+
+<use chapter4/img/muonenergyloss.png>
+Package pdftex.def Info: chapter4/img/muonenergyloss.png used on input line 134
+.
+(pdftex.def)             Requested size: 318.66948pt x 303.35416pt.
+ [61]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 158.
+
+
+LaTeX Warning: Citation 'Chirkin:2004hz' on page 62 undefined on input line 159
+.
+
+
+LaTeX Warning: Citation 'Chirkin:2004hz' on page 62 undefined on input line 159
+.
+
+
+LaTeX Warning: Citation 'Chirkin:2004hz' on page 62 undefined on input line 176
+.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [62 <./chapter4/img/muonenergyloss.png>]
+<chapter4/img/Feynman_Ionization_2.png, id=1233, 316.18124pt x 422.57875pt>
+File: chapter4/img/Feynman_Ionization_2.png Graphic file (type png)
+
+<use chapter4/img/Feynman_Ionization_2.png>
+Package pdftex.def Info: chapter4/img/Feynman_Ionization_2.png used on input li
+ne 200.
+(pdftex.def)             Requested size: 159.33821pt x 212.9589pt.
+
+<chapter4/img/Feynman_Bremsstrahlung_2.png, id=1234, 411.5375pt x 285.065pt>
+File: chapter4/img/Feynman_Bremsstrahlung_2.png Graphic file (type png)
+
+<use chapter4/img/Feynman_Bremsstrahlung_2.png>
+Package pdftex.def Info: chapter4/img/Feynman_Bremsstrahlung_2.png used on inpu
+t line 201.
+(pdftex.def)             Requested size: 218.51521pt x 151.3621pt.
+ [63 <./chapter4/img/Feynman_Ionization_2.png> <./chapter4/img/Feynman_Bremsstr
+ahlung_2.png>]
+Underfull \vbox (badness 3861) has occurred while \output is active []
+
+ [64]
+<chapter4/img/Feynman_PhotoNuclear_2.png, id=1261, 311.1625pt x 411.5375pt>
+File: chapter4/img/Feynman_PhotoNuclear_2.png Graphic file (type png)
+
+<use chapter4/img/Feynman_PhotoNuclear_2.png>
+Package pdftex.def Info: chapter4/img/Feynman_PhotoNuclear_2.png used on input 
+line 282.
+(pdftex.def)             Requested size: 159.33821pt x 210.73537pt.
+
+<chapter4/img/Feynman_PairProduction_2.png, id=1262, 394.47375pt x 522.95375pt>
+File: chapter4/img/Feynman_PairProduction_2.png Graphic file (type png)
+<use chapter4/img/Feynman_PairProduction_2.png>
+Package pdftex.def Info: chapter4/img/Feynman_PairProduction_2.png used on inpu
+t line 283.
+(pdftex.def)             Requested size: 159.33821pt x 211.23653pt.
+) [65 <./chapter4/img/Feynman_PhotoNuclear_2.png> <./chapter4/img/Feynman_PairP
+roduction_2.png>]
 \openout2 = `chapter5/chapter5.aux'.
 
- (./chapter5/chapter5.tex
-Chapter 1.
-<Pictures/ICL2.png, id=311, 636.3775pt x 361.35pt>
+
+(./chapter5/chapter5.tex [66
+
+
+
+]
+Chapter 5.
+<Pictures/ICL2.png, id=1276, 636.3775pt x 361.35pt>
 File: Pictures/ICL2.png Graphic file (type png)
  <use Pictures/ICL2.png>
 Package pdftex.def Info: Pictures/ICL2.png used on input line 1.
 (pdftex.def)             Requested size: 597.50787pt x 339.27757pt.
 
 
-LaTeX Warning: Reference `sec:detectors' on page 11 undefined on input line 2.
+LaTeX Warning: Citation 'amandaurl' on page 67 undefined on input line 8.
 
 
-LaTeX Warning: Reference `sec:neutrinos' on page 11 undefined on input line 4.
+LaTeX Warning: Citation 'Andres:1999hm' on page 67 undefined on input line 8.
 
 
-LaTeX Warning: Reference `ch:cherenkov' on page 11 undefined on input line 4.
+LaTeX Warning: Citation 'Ahrens:2002gq' on page 67 undefined on input line 8.
 
 
-LaTeX Warning: Citation 'amandaurl' on page 11 undefined on input line 4.
+Underfull \hbox (badness 10000) in paragraph at lines 6--9
 
+ []
 
-LaTeX Warning: Citation 'Andres:1999hm' on page 11 undefined on input line 4.
+<chapter5/img/icecube_detector_2.jpg, id=1280, 642.4pt x 481.8pt>
+File: chapter5/img/icecube_detector_2.jpg Graphic file (type jpg)
 
-
-LaTeX Warning: Citation 'Ahrens:2002gq' on page 11 undefined on input line 4.
-
-<chapter5/img/icecube_detector.jpg, id=312, 642.4pt x 481.8pt>
-File: chapter5/img/icecube_detector.jpg Graphic file (type jpg)
-
-<use chapter5/img/icecube_detector.jpg>
-Package pdftex.def Info: chapter5/img/icecube_detector.jpg used on input line 9
-.
+<use chapter5/img/icecube_detector_2.jpg>
+Package pdftex.def Info: chapter5/img/icecube_detector_2.jpg used on input line
+ 13.
 (pdftex.def)             Requested size: 500.77129pt x 375.58928pt.
 
-Overfull \hbox (45.52718pt too wide) in paragraph at lines 9--10
+Overfull \hbox (45.52718pt too wide) in paragraph at lines 13--14
  [][] 
  []
 
-[11
+<chapter5/img/SouthPole_2.jpg, id=1281, 1204.5pt x 972.63374pt>
+File: chapter5/img/SouthPole_2.jpg Graphic file (type jpg)
 
+<use chapter5/img/SouthPole_2.jpg>
+Package pdftex.def Info: chapter5/img/SouthPole_2.jpg used on input line 20.
+(pdftex.def)             Requested size: 341.43307pt x 275.70453pt.
+ [67 <./Pictures/ICL2.png (PNG copy)>]
+[68 <./chapter5/img/icecube_detector_2.jpg> <./chapter5/img/SouthPole_2.jpg>]
 
- <./Pictures/ICL2.png (PNG copy)>] [12 <./chapter5/img/icecube_detector.jpg>]
+LaTeX Warning: Citation 'Binnenkort gepubliceerd' on page 69 undefined on input
+ line 32.
 
-LaTeX Warning: Reference `sec:propagation' on page 13 undefined on input line 2
-1.
-
-
-LaTeX Warning: Citation 'Search for steady point-like sources in the astrophysi
-cal muon neutrino flux with 8 years of IceCube data Nog niet gepubliceerd' on p
-age 13 undefined on input line 21.
-
-
-Overfull \hbox (259.13556pt too wide) in paragraph at lines 21--22
-\T1/lmr/m/n/10.95 (-20) [[]].
- []
-
-<chapter4/img/ICinteractions2.png, id=328, 758.835pt x 485.815pt>
+<chapter4/img/ICinteractions2.png, id=1296, 758.835pt x 485.815pt>
 File: chapter4/img/ICinteractions2.png Graphic file (type png)
 
 <use chapter4/img/ICinteractions2.png>
-Package pdftex.def Info: chapter4/img/ICinteractions2.png used on input line 25
+Package pdftex.def Info: chapter4/img/ICinteractions2.png used on input line 38
 .
 (pdftex.def)             Requested size: 455.24411pt x 291.45418pt.
 
+Underfull \vbox (badness 1297) has occurred while \output is active []
 
-LaTeX Warning: Citation 'sec:ice' on page 13 undefined on input line 31.
+ [69 <./chapter4/img/ICinteractions2.png>]
 
-[13 <./chapter4/img/ICinteractions2.png>]
+LaTeX Warning: Citation 'Collaboration:2011ym' on page 70 undefined on input li
+ne 46.
 
-LaTeX Warning: Citation 'Collaboration:2011ym' on page 14 undefined on input li
-ne 33.
+[70]
 
-
-LaTeX Warning: Reference `ch:cr' on page 14 undefined on input line 36.
-
-
-LaTeX Warning: Citation 'Aartsen:2013rt' on page 14 undefined on input line 42.
+LaTeX Warning: Citation 'Aartsen:2013rt' on page 71 undefined on input line 62.
 
 
-[14]
 
-LaTeX Warning: Citation 'Ackermann:2006pva' on page 15 undefined on input line 
-46.
+LaTeX Warning: Citation 'Ackermann:2006pva' on page 71 undefined on input line 
+66.
 
 
-LaTeX Warning: Citation 'Ackermann:2006pva' on page 15 undefined on input line 
-55.
+LaTeX Warning: Citation 'Ackermann:2006pva' on page 71 undefined on input line 
+75.
 
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 55.
-(/usr/share/texmf/tex/latex/lm/omslmr.fd
-File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <8> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 55.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 55.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 55.
-LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <6> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 55.
-
-<chapter5/img/2008config.png, id=347, 918.43124pt x 704.6325pt>
+<chapter5/img/2008config.png, id=1313, 918.43124pt x 704.6325pt>
 File: chapter5/img/2008config.png Graphic file (type png)
 
 <use chapter5/img/2008config.png>
-Package pdftex.def Info: chapter5/img/2008config.png used on input line 67.
+Package pdftex.def Info: chapter5/img/2008config.png used on input line 87.
 (pdftex.def)             Requested size: 188.39174pt x 144.54pt.
 
-<chapter5/img/spiceleacoefficients.png, id=348, 1017.8025pt x 1519.6775pt>
+<chapter5/img/spiceleacoefficients.png, id=1314, 1017.8025pt x 1519.6775pt>
 File: chapter5/img/spiceleacoefficients.png Graphic file (type png)
 
 <use chapter5/img/spiceleacoefficients.png>
 Package pdftex.def Info: chapter5/img/spiceleacoefficients.png used on input li
-ne 69.
+ne 89.
 (pdftex.def)             Requested size: 169.40555pt x 252.94499pt.
 
 
-LaTeX Warning: Citation '1412998' on page 15 undefined on input line 71.
+LaTeX Warning: Citation '1412998' on page 71 undefined on input line 91.
 
 
-LaTeX Warning: Citation '1412998' on page 15 undefined on input line 71.
+LaTeX Warning: Citation '1412998' on page 71 undefined on input line 91.
 
 
-LaTeX Warning: Citation '1412998' on page 15 undefined on input line 76.
+LaTeX Warning: Citation '1412998' on page 71 undefined on input line 96.
 
-[15] <chapter5/img/DOM-Picture.png, id=366, 308.352pt x 277.035pt>
+[71]
+
+LaTeX Warning: Citation 'Aartsen:2016nxy' on page 72 undefined on input line 10
+3.
+
+
+LaTeX Warning: Citation 'Aartsen:2016nxy' on page 72 undefined on input line 10
+4.
+
+[72 <./chapter5/img/2008config.png> <./chapter5/img/spiceleacoefficients.png>]
+<chapter5/img/DOM-Picture.png, id=1335, 308.352pt x 277.035pt>
 File: chapter5/img/DOM-Picture.png Graphic file (type png)
 
 <use chapter5/img/DOM-Picture.png>
-Package pdftex.def Info: chapter5/img/DOM-Picture.png used on input line 94.
+Package pdftex.def Info: chapter5/img/DOM-Picture.png used on input line 107.
 (pdftex.def)             Requested size: 218.51521pt x 196.32422pt.
 
-<chapter5/img/electronicsDOM.png, id=367, 859.21pt x 790.955pt>
+<chapter5/img/electronicsDOM.png, id=1336, 859.21pt x 790.955pt>
 File: chapter5/img/electronicsDOM.png Graphic file (type png)
 
 <use chapter5/img/electronicsDOM.png>
-Package pdftex.def Info: chapter5/img/electronicsDOM.png used on input line 95.
-
+Package pdftex.def Info: chapter5/img/electronicsDOM.png used on input line 108
+.
 (pdftex.def)             Requested size: 218.51521pt x 201.15378pt.
 
-Underfull \vbox (badness 6396) has occurred while \output is active []
 
- [16 <./chapter5/img/2008config.png> <./chapter5/img/spiceleacoefficients.png>]
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 122.
+LaTeX Warning: Citation 'Abbasi:2010vc' on page 73 undefined on input line 114.
 
 
-(/usr/share/texmf/tex/latex/lm/t1lmtt.fd
+<chapter5/img/acceptanceDOM.png, id=1338, 857.2025pt x 676.5275pt>
+File: chapter5/img/acceptanceDOM.png Graphic file (type png)
+
+<use chapter5/img/acceptanceDOM.png>
+Package pdftex.def Info: chapter5/img/acceptanceDOM.png used on input line 118.
+
+(pdftex.def)             Requested size: 318.66948pt x 251.49838pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--129
+
+ []
+
+[73 <./chapter5/img/DOM-Picture.png> <./chapter5/img/electronicsDOM.png>]
+
+LaTeX Warning: Citation 'Aartsen:2016nxy' on page 74 undefined on input line 13
+3.
+
+<chapter5/img/cablelayout.png, id=1347, 1018.80624pt x 815.045pt>
+File: chapter5/img/cablelayout.png Graphic file (type png)
+
+<use chapter5/img/cablelayout.png>
+Package pdftex.def Info: chapter5/img/cablelayout.png used on input line 139.
+(pdftex.def)             Requested size: 409.71692pt x 327.77821pt.
+
+<chapter5/img/cableSchematic_withcable.png, id=1348, 1033.8625pt x 797.98125pt>
+File: chapter5/img/cableSchematic_withcable.png Graphic file (type png)
+<use chapter5/img/cableSchematic_withcable.png>
+Package pdftex.def Info: chapter5/img/cableSchematic_withcable.png used on inpu
+t line 140.
+(pdftex.def)             Requested size: 409.71692pt x 316.2402pt.
+
+
+LaTeX Warning: Citation 'Aartsen:2016nxy' on page 74 undefined on input line 14
+1.
+
+
+LaTeX Warning: Citation 'Aartsen:2016nxy' on page 74 undefined on input line 14
+1.
+
+[74 <./chapter5/img/acceptanceDOM.png>] [75 <./chapter5/img/cablelayout.png> <.
+/chapter5/img/cableSchematic_withcable.png>]
+<chapter5/img/dataflow.png, id=1363, 773.89125pt x 806.01125pt>
+File: chapter5/img/dataflow.png Graphic file (type png)
+
+<use chapter5/img/dataflow.png>
+Package pdftex.def Info: chapter5/img/dataflow.png used on input line 162.
+(pdftex.def)             Requested size: 318.66948pt x 331.8934pt.
+ [76] [77 <./chapter5/img/dataflow.png>]
+
+LaTeX Warning: Citation 'Aartsen:2017mnf' on page 78 undefined on input line 17
+8.
+
+<chapter5/img/globaltrigger.png, id=1379, 795.97375pt x 298.11375pt>
+File: chapter5/img/globaltrigger.png Graphic file (type png)
+
+<use chapter5/img/globaltrigger.png>
+Package pdftex.def Info: chapter5/img/globaltrigger.png used on input line 182.
+
+(pdftex.def)             Requested size: 364.19667pt x 136.40163pt.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 188.
+
+[78 <./chapter5/img/globaltrigger.png>]
+
+LaTeX Warning: Citation 'Aartsen:2017kpd' on page 79 undefined on input line 22
+0.
+
+
+LaTeX Warning: Citation 'Aartsen:2018vez' on page 79 undefined on input line 22
+0.
+
+
+LaTeX Warning: Citation 'TheIceCube:2016oqi' on page 79 undefined on input line
+ 220.
+
+<chapter5/img/blazar.jpg, id=1388, 308.352pt x 303.7749pt>
+File: chapter5/img/blazar.jpg Graphic file (type jpg)
+
+<use chapter5/img/blazar.jpg>
+Package pdftex.def Info: chapter5/img/blazar.jpg used on input line 226.
+(pdftex.def)             Requested size: 182.09486pt x 179.3925pt.
+
+<chapter5/img/highenergyevents.png, id=1389, 101.178pt x 72.27pt>
+File: chapter5/img/highenergyevents.png Graphic file (type png)
+
+<use chapter5/img/highenergyevents.png>
+Package pdftex.def Info: chapter5/img/highenergyevents.png used on input line 2
+27.
+(pdftex.def)             Requested size: 259.49246pt x 185.39096pt.
+
+
+LaTeX Warning: Citation 'Klein:2018fnn' on page 79 undefined on input line 232.
+
+
+
+LaTeX Warning: Citation 'Aartsen:2017mau' on page 79 undefined on input line 23
+2.
+
+
+LaTeX Warning: Citation 'IceCube:2018dnn' on page 79 undefined on input line 23
+2.
+
+
+LaTeX Warning: Citation 'IceCube:2018dnn' on page 79 undefined on input line 23
+2.
+
+[79 <./chapter5/img/blazar.jpg> <./chapter5/img/highenergyevents.png>]
+<chapter5/img/FlavorTriangle.png, id=1399, 971.63pt x 804.00375pt>
+File: chapter5/img/FlavorTriangle.png Graphic file (type png)
+
+<use chapter5/img/FlavorTriangle.png>
+Package pdftex.def Info: chapter5/img/FlavorTriangle.png used on input line 236
+.
+(pdftex.def)             Requested size: 273.14923pt x 226.01509pt.
+
+
+LaTeX Warning: Citation 'Aartsen:2015knd' on page 80 undefined on input line 23
+7.
+
+
+LaTeX Warning: Citation 'Aartsen:2015knd' on page 80 undefined on input line 23
+7.
+
+<chapter5/img/oscillations.png, id=1400, 1057.9525pt x 796.9775pt>
+File: chapter5/img/oscillations.png Graphic file (type png)
+
+<use chapter5/img/oscillations.png>
+Package pdftex.def Info: chapter5/img/oscillations.png used on input line 244.
+(pdftex.def)             Requested size: 318.66948pt x 240.0558pt.
+
+
+LaTeX Warning: Citation 'Aartsen:2017nmd' on page 80 undefined on input line 24
+5.
+
+
+LaTeX Warning: Citation 'Aartsen:2017nmd' on page 80 undefined on input line 24
+5.
+
+
+LaTeX Warning: Citation 'Baum:2017rty' on page 80 undefined on input line 252.
+
+
+LaTeX Warning: Citation 'Kowarik:2009qr' on page 80 undefined on input line 252
+.
+
+<chapter5/img/LV.png, id=1405, 1625.07124pt x 862.22125pt>
+File: chapter5/img/LV.png Graphic file (type png)
+
+<use chapter5/img/LV.png>
+Package pdftex.def Info: chapter5/img/LV.png used on input line 261.
+(pdftex.def)             Requested size: 432.48051pt x 229.46112pt.
+
+
+LaTeX Warning: Citation 'Colladay:1998fq' on page 80 undefined on input line 26
+2.
+
+
+LaTeX Warning: Citation 'Aartsen:2017ibm' on page 80 undefined on input line 26
+2.
+
+
+LaTeX Warning: Citation 'Colladay:1998fq' on page 80 undefined on input line 26
+2.
+
+
+LaTeX Warning: Citation 'Aartsen:2017ibm' on page 80 undefined on input line 26
+2.
+
+
+LaTeX Warning: Citation 'Abbasi:2010kx' on page 80 undefined on input line 266.
+
+
+
+LaTeX Warning: Citation 'Aartsen:2017ibm' on page 80 undefined on input line 26
+6.
+
+[80 <./chapter5/img/FlavorTriangle.png>]
+<chapter5/img/dm.png, id=1415, 961.5925pt x 810.02625pt>
+File: chapter5/img/dm.png Graphic file (type png)
+
+<use chapter5/img/dm.png>
+Package pdftex.def Info: chapter5/img/dm.png used on input line 272.
+(pdftex.def)             Requested size: 295.90588pt x 249.2639pt.
+
+
+LaTeX Warning: Citation 'Aartsen:2017ulx' on page 81 undefined on input line 27
+7.
+
+
+LaTeX Warning: Citation 'Aartsen:2016zhm' on page 81 undefined on input line 27
+7.
+
+
+LaTeX Warning: Citation 'Abbasi:2009vg' on page 81 undefined on input line 277.
+
+
+
+LaTeX Warning: Citation 'Aartsen:2016fep' on page 81 undefined on input line 27
+7.
+
+
+LaTeX Warning: Citation 'Dirac60' on page 81 undefined on input line 280.
+
+
+Underfull \vbox (badness 2245) has occurred while \output is active []
+
+ [81 <./chapter5/img/oscillations.png>]
+
+LaTeX Warning: Citation 'HOOFT1974276' on page 82 undefined on input line 291.
+
+
+LaTeX Warning: Citation 'Polyakov:1974ek' on page 82 undefined on input line 29
+1.
+
+
+LaTeX Warning: Citation 'Aartsen:2014awd' on page 82 undefined on input line 29
+1.
+
+
+Underfull \vbox (badness 1082) has occurred while \output is active []
+
+ [82 <./chapter5/img/LV.png>]
+
+LaTeX Warning: Citation 'Collaboration:2017tdy' on page 83 undefined on input l
+ine 297.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 297--300
+
+ []
+
+
+LaTeX Warning: Citation 'Aab:2016vlz' on page 83 undefined on input line 302.
+
+[83 <./chapter5/img/dm.png>]
+
+LaTeX Warning: Citation 'Tosi:2017zho' on page 84 undefined on input line 306.
+
+
+LaTeX Warning: Citation 'Auffenberg:2017vwc' on page 84 undefined on input line
+ 306.
+
+<chapter5/img/upgrade.png, id=1444, 429.605pt x 375.4025pt>
+File: chapter5/img/upgrade.png Graphic file (type png)
+
+<use chapter5/img/upgrade.png>
+Package pdftex.def Info: chapter5/img/upgrade.png used on input line 312.
+(pdftex.def)             Requested size: 364.19667pt x 318.25159pt.
+
+
+LaTeX Warning: Citation 'Ishihara:2017vxn' on page 84 undefined on input line 3
+17.
+
+
+LaTeX Warning: Citation 'Classen:2017sng' on page 84 undefined on input line 31
+7.
+
+[84 <./chapter5/img/upgrade.png>]
+
+LaTeX Warning: Citation 'Collaboration:2017chl' on page 85 undefined on input l
+ine 319.
+
+
+LaTeX Warning: Citation 'Resconi:2017mad' on page 85 undefined on input line 31
+9.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 319--322
+
+ []
+
+<chapter5/img/gen2_structure.jpg, id=1453, 1228.59pt x 745.8264pt>
+File: chapter5/img/gen2_structure.jpg Graphic file (type jpg)
+
+<use chapter5/img/gen2_structure.jpg>
+Package pdftex.def Info: chapter5/img/gen2_structure.jpg used on input line 326
+.
+(pdftex.def)             Requested size: 455.24411pt x 276.36115pt.
+
+
+LaTeX Warning: Citation 'Blaufuss:2015muc' on page 85 undefined on input line 3
+31.
+
+
+LaTeX Warning: Citation 'Ahlers:2014ioa' on page 85 undefined on input line 331
+.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 331--334
+
+ []
+
+[85 <./chapter5/img/gen2_structure.jpg>]
+
+LaTeX Warning: Citation 'Euler:2015oen' on page 86 undefined on input line 338.
+
+
+
+LaTeX Warning: Citation 'Schroder:2016hrv' on page 86 undefined on input line 3
+40.
+
+
+LaTeX Warning: Citation 'Allison:2015eky' on page 86 undefined on input line 34
+0.
+
+
+LaTeX Warning: Citation 'Glaser:2018ifj' on page 86 undefined on input line 340
+.
+
+) [86] (./main.ptc
+
+LaTeX Font Warning: Font shape `T1/lmss/m/sc' in size <10> not available
+(Font)              Font shape `T1/lmr/m/sc' tried instead on input line 324.
+
+Package microtype Info: Character `029' is missing
+(microtype)             in font `T1/lmr/m/sc/10'.
+(microtype)             Ignoring protrusion settings for this character.
+) [87
+
+
+] [88]
+\openout2 = `chapter6/chapter6.aux'.
+
+ (./chapter6/chapter6.tex
+Chapter 6.
+<Pictures/servers_cropped.jpg, id=1552, 278.4804pt x 156.585pt>
+File: Pictures/servers_cropped.jpg Graphic file (type jpg)
+
+<use Pictures/servers_cropped.jpg>
+Package pdftex.def Info: Pictures/servers_cropped.jpg used on input line 1.
+(pdftex.def)             Requested size: 597.50787pt x 336.018pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+
+ []
+
+[89
+
+
+ <./Pictures/servers_cropped.jpg>]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 24.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 49.
+
+
+Overfull \hbox (60.33978pt too wide) in paragraph at lines 53--83
+ [][] 
+ []
+
+[90] [91]
+Overfull \hbox (19.08176pt too wide) in paragraph at lines 115--118
+[]\T1/lmr/m/n/10.95 (-20) IceProd: V1) https://arxiv.org/abs/1311.5904 V2) http
+://iopscience.iop.org/article/10.1088/1742-
+ []
+
+) [92]
+\openout2 = `chapter7/chapter7.aux'.
+
+ (./chapter7/chapter7.tex
+Chapter 7.
+<Pictures/bubblechamber2.jpg, id=1614, 798.985pt x 454.69875pt>
+File: Pictures/bubblechamber2.jpg Graphic file (type jpg)
+
+<use Pictures/bubblechamber2.jpg>
+Package pdftex.def Info: Pictures/bubblechamber2.jpg used on input line 1.
+(pdftex.def)             Requested size: 597.50787pt x 340.05188pt.
+) [93
+
+
+
+ <./Pictures/bubblechamber2.jpg>]
+\openout2 = `chapter8/chapter8.aux'.
+
+
+(./chapter8/chapter8.tex [94
+
+
+
+]
+Chapter 8.
+<Pictures/wallhaven-301134.png, id=1624, 1927.2pt x 1084.05pt>
+File: Pictures/wallhaven-301134.png Graphic file (type png)
+
+<use Pictures/wallhaven-301134.png>
+Package pdftex.def Info: Pictures/wallhaven-301134.png used on input line 1.
+(pdftex.def)             Requested size: 597.50787pt x 336.08511pt.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 3.
+ (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 Package microtype Info: Loading generic settings for font family
 (microtype)             `lmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
+)
+[95 <./Pictures/wallhaven-301134.png>]
+\openout2 = `chapter9/chapter9.aux'.
 
-Overfull \hbox (25.58398pt too wide) in paragraph at lines 122--123
-\T1/lmr/m/n/10.95 (-20) Gen2 il-lus-tratie: []$\T1/lmtt/m/n/10.95 https : / / i
-cecube . wisc . edu / ~jkelley / talks / nnn18 _ kelley _ icecube _ detector _
- []
-
-[17 <./chapter5/img/DOM-Picture.png> <./chapter5/img/electronicsDOM.png>])
-Overfull \hbox (45.8287pt too wide) in paragraph at lines 143--138
-[]\T1/lmr/m/n/10.95 (-20) Ook hoofd-stuk 6 van: []$\T1/lmtt/m/n/10.95 https : /
- / edoc . hu-[]berlin . de / bitstream / handle / 18452 / 17668 / yanez-[]garza
- .
- []
-
-[18] (./main.ptc
-
-LaTeX Font Warning: Font shape `T1/lmss/m/sc' in size <10> not available
-(Font)              Font shape `T1/lmr/m/sc' tried instead on input line 76.
-
-Package microtype Info: Character `029' is missing
-(microtype)             in font `T1/lmr/m/sc/10'.
-(microtype)             Ignoring protrusion settings for this character.
-) [19
+ (./chapter9/chapter9.tex [96
 
 
-] [20]
-Chapter 2.
-<Pictures/bubblechamber2.jpg, id=467, 798.985pt x 454.69875pt>
-File: Pictures/bubblechamber2.jpg Graphic file (type jpg)
-
-<use Pictures/bubblechamber2.jpg>
-Package pdftex.def Info: Pictures/bubblechamber2.jpg used on input line 149.
-(pdftex.def)             Requested size: 597.50787pt x 340.05188pt.
- [21
-
- <./Pictures/bubblechamber2.jpg>] [22
 
 ]
-Chapter 3.
-<Pictures/wallhaven-301134.png, id=476, 1927.2pt x 1084.05pt>
-File: Pictures/wallhaven-301134.png Graphic file (type png)
+Chapter 9.
+<Pictures/ribbon.png, id=1640, 602.25pt x 334.24875pt>
+File: Pictures/ribbon.png Graphic file (type png)
 
-<use Pictures/wallhaven-301134.png>
-Package pdftex.def Info: Pictures/wallhaven-301134.png used on input line 165.
-(pdftex.def)             Requested size: 597.50787pt x 336.08511pt.
- [23 <./Pictures/wallhaven-301134.png>]
-[24
-
-]
-Chapter 4.
-<Pictures/wallhaven-442918.jpg, id=489, 1371.1225pt x 770.88pt>
-File: Pictures/wallhaven-442918.jpg Graphic file (type jpg)
-
-<use Pictures/wallhaven-442918.jpg>
-Package pdftex.def Info: Pictures/wallhaven-442918.jpg used on input line 184.
-(pdftex.def)             Requested size: 597.50787pt x 335.94176pt.
- [25 <./Pictures/wallhaven-442918.jpg>]
+<use Pictures/ribbon.png>
+Package pdftex.def Info: Pictures/ribbon.png used on input line 1.
+(pdftex.def)             Requested size: 597.50787pt x 331.6468pt.
+) [97 <./Pictures/ribbon.png>]
 \openout2 = `appendix/appendix.aux'.
 
 
-(./appendix/appendix.tex [26
+(./appendix/appendix.tex [98
 
 
-] [27
 
-] [28]
+] [99
+
+] [100]
 Appendix A.
-File: Pictures/wallhaven-442918.jpg Graphic file (type jpg)
-<use Pictures/wallhaven-442918.jpg>
-Package pdftex.def Info: Pictures/wallhaven-442918.jpg used on input line 2.
-(pdftex.def)             Requested size: 597.50787pt x 335.94176pt.
- [29
+<Pictures/icesymmetries.jpg, id=1659, 963.6pt x 542.025pt>
+File: Pictures/icesymmetries.jpg Graphic file (type jpg)
 
-] [30
+<use Pictures/icesymmetries.jpg>
+Package pdftex.def Info: Pictures/icesymmetries.jpg used on input line 3.
+(pdftex.def)             Requested size: 597.50787pt x 336.10991pt.
+ [101
+
+ <./Pictures/icesymmetries.jpg>] [102
 
 ]
 Appendix B.
-File: Pictures/wallhaven-442918.jpg Graphic file (type jpg)
-<use Pictures/wallhaven-442918.jpg>
-Package pdftex.def Info: Pictures/wallhaven-442918.jpg used on input line 19.
-(pdftex.def)             Requested size: 597.50787pt x 335.94176pt.
- [31]) [32]
-Chapter 5.
-<Pictures/chapter_head_1.pdf, id=544, 597.432pt x 298.716pt>
+<Pictures/Hot_metalwork_cropped.jpg, id=1669, 1606.0pt x 903.375pt>
+File: Pictures/Hot_metalwork_cropped.jpg Graphic file (type jpg)
+
+<use Pictures/Hot_metalwork_cropped.jpg>
+Package pdftex.def Info: Pictures/Hot_metalwork_cropped.jpg used on input line 
+23.
+(pdftex.def)             Requested size: 597.50787pt x 336.10442pt.
+ [103 <./Pictures/Hot_metalwork_cropped.jpg>]) [104]
+Chapter 10.
+<Pictures/chapter_head_1.pdf, id=1693, 597.432pt x 298.716pt>
 File: Pictures/chapter_head_1.pdf Graphic file (type pdf)
 
 <use Pictures/chapter_head_1.pdf>
-Package pdftex.def Info: Pictures/chapter_head_1.pdf used on input line 201.
+Package pdftex.def Info: Pictures/chapter_head_1.pdf used on input line 166.
 (pdftex.def)             Requested size: 597.50787pt x 298.77907pt.
-Package mdframed Info: mdframed works in twoside mode on input line 215.
+Package mdframed Info: mdframed works in twoside mode on input line 180.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 215.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 231.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 231.
-Package mdframed Info: mdframed works in twoside mode on input line 240.
+(mdframed)              on input line 180.
+Package mdframed Info: mdframed works in twoside mode on input line 205.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 240.
- [33
+(mdframed)              on input line 205.
+ [105
 
 
  <./Pictures/chapter_head_1.pdf>]
-Package mdframed Info: mdframed works in twoside mode on input line 295.
+Package mdframed Info: mdframed works in twoside mode on input line 260.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 295.
- [34]
+(mdframed)              on input line 260.
+
+[106]
+File: Pictures/chapter_head_1.pdf Graphic file (type pdf)
+ <use Pictures/chapter_head_1.pdf>
+Package pdftex.def Info: Pictures/chapter_head_1.pdf used on input line 286.
+(pdftex.def)             Requested size: 597.50787pt x 298.77907pt.
+ [107
+
+] [108
+
+] (./main.ind
 File: Pictures/chapter_head_1.pdf Graphic file (type pdf)
 
 <use Pictures/chapter_head_1.pdf>
-Package pdftex.def Info: Pictures/chapter_head_1.pdf used on input line 321.
-(pdftex.def)             Requested size: 597.50787pt x 298.77907pt.
- [35
-
-] [36] [37] [38] [39] [40] [41] [42
-
-]
-(./main.ind
-File: Pictures/chapter_head_1.pdf Graphic file (type pdf)
- <use Pictures/chapter_head_1.pdf>
 Package pdftex.def Info: Pictures/chapter_head_1.pdf used on input line 1.
 (pdftex.def)             Requested size: 597.50787pt x 298.77907pt.
 
@@ -2868,25 +4230,32 @@ Overfull \hbox (1.20001pt too wide) in paragraph at lines 40--41
 [][] 
  []
 
-[43
+[109
 
 
 ])
 \tf@ptc=\write7
 \openout7 = `main.ptc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 351.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 351.
- (./main.aux (./front.aux) (./voorblad.aux) (./thankyou.aux)
-(./chapter5/chapter5.aux) (./appendix/appendix.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 351.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 351.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 316.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 316.
+ (./main.aux (./front.aux) (./voorblad.aux) (./thankyou.aux) (./poem.aux) (./ab
+stract.aux) (./nederlands.aux) (./introduction.aux)
+(./chapter1/chapter1.aux) (./chapter2/chapter2.aux) (./chapter3/chapter3.aux)
+(./chapter4/chapter4.aux) (./chapter5/chapter5.aux) (./chapter6/chapter6.aux)
+(./chapter7/chapter7.aux) (./chapter8/chapter8.aux) (./chapter9/chapter9.aux)
+(./appendix/appendix.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 316.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 316.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
 LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 
 Package biblatex Warning: Please (re)run Biber on the file:
@@ -2898,43 +4267,46 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 38501 strings out of 493029
- 718790 string characters out of 6136233
- 1275266 words of memory out of 5000000
- 40875 multiletter control sequences out of 15000+600000
- 185446 words of font info for 227 fonts, out of 8000000 for 9000
+ 39494 strings out of 493029
+ 736979 string characters out of 6136233
+ 1336967 words of memory out of 5000000
+ 41314 multiletter control sequences out of 15000+600000
+ 214938 words of font info for 292 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,17n,62p,10460b,2559s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{page.74} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{page.73} has been referenced but does not exist, re
-placed by a fixed one
-
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvip
-s/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/t
-exmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-m
-athex.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/
-fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc1
-0.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/font
-s/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb>
-</usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1
-/public/lm/lmmi9.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/sh
-are/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/
-lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmr5.pfb></usr/share/texmf
-/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pf
-b></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type
-1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss10.pfb></usr
-/share/texmf/fonts/type1/public/lm/lmss17.pfb></usr/share/texmf/fonts/type1/pub
-lic/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/sh
-are/texmf/fonts/type1/public/lm/lmsy6.pfb></usr/share/texmf/fonts/type1/public/
-lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (49 pages, 7091960 bytes).
+ 57i,28n,62p,10460b,2845s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
+ips/lm/lm-mathsy.enc} </home/ward/.texmf-var/fonts/pk/ljfour/public/bbm/bbm10.6
+57pk>{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc
+/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}</us
+r/share/texlive/texmf-dist/fonts/type1/public/cbfonts/grmn0900.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/cbfonts/grmn1000.pfb></usr/share/texmf/fo
+nts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.p
+fb></usr/share/texmf/fonts/type1/public/lm/lmbx9.pfb></usr/share/texmf/fonts/ty
+pe1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></
+usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/
+public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/sha
+re/texmf/fonts/type1/public/lm/lmmi9.pfb></usr/share/texmf/fonts/type1/public/l
+m/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf
+/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmr5.p
+fb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/typ
+e1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/sh
+are/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public
+/lm/lmri7.pfb></usr/share/texmf/fonts/type1/public/lm/lmri8.pfb></usr/share/tex
+mf/fonts/type1/public/lm/lmri9.pfb></usr/share/texmf/fonts/type1/public/lm/lmss
+10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss17.pfb></usr/share/texmf/fon
+ts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.
+pfb></usr/share/texmf/fonts/type1/public/lm/lmsy5.pfb></usr/share/texmf/fonts/t
+ype1/public/lm/lmsy6.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></us
+r/share/texmf/fonts/type1/public/lm/lmsy9.pfb></usr/share/texmf/fonts/type1/pub
+lic/lm/lmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/sy
+mbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/sym
+bols/msam7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbo
+ls/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbol
+s/msbm7.pfb>
+Output written on main.pdf (116 pages, 23434799 bytes).
 PDF statistics:
- 1206 PDF objects out of 1440 (max. 8388607)
- 986 compressed objects within 10 object streams
- 261 named destinations out of 1000 (max. 500000)
- 50125 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 2226 PDF objects out of 2487 (max. 8388607)
+ 1739 compressed objects within 18 object streams
+ 541 named destinations out of 1000 (max. 500000)
+ 55220 words of extra memory for PDF output out of 61914 (max. 10000000)
 

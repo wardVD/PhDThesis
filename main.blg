@@ -1,34 +1,17 @@
-[1] Config.pm:340> INFO - This is Biber 2.4
-[1] Config.pm:343> INFO - Logfile is 'main.blg'
-[63] biber:287> INFO - === Tue Oct 23, 2018, 13:49:22
-[172] Biber.pm:348> INFO - Reading 'main.bcf'
-[342] Biber.pm:742> INFO - Found 123 citekeys in bib section 0
-[350] Biber.pm:3151> INFO - Processing section 0
-[393] Biber.pm:3308> INFO - Looking for bibtex format file 'bibliography.bib' for section 0
-[806] bibtex.pm:1113> INFO - Decoding LaTeX character macros into UTF-8
-[1155] bibtex.pm:974> INFO - Found BibTeX data source 'bibliography.bib'
-[1217] Utils.pm:147> WARN - ISBN '9780201503975, 0201503972' in entry 'Peskin:1995ev' is invalid - run biber with '--validate_datamodel' for details.
-[1736] Utils.pm:147> WARN - ISBN '9780521016469, 9781316598917' in entry 'Gaisser:2016uoy' is invalid - run biber with '--validate_datamodel' for details.
-[2033] Utils.pm:147> WARN - I didn't find a database entry for '???' (section 0)
-[2034] Utils.pm:147> WARN - I didn't find a database entry for 'BLABLABLA' (section 0)
-[2034] Utils.pm:147> WARN - I didn't find a database entry for 'sub:quarks' (section 0)
-[2034] Utils.pm:147> WARN - I didn't find a database entry for 'w' (section 0)
-[2034] Utils.pm:147> WARN - I didn't find a database entry for 'icrc2017:pa' (section 0)
-[2034] Utils.pm:147> WARN - I didn't find a database entry for 'pdg2018' (section 0)
-[2034] Utils.pm:147> WARN - I didn't find a database entry for 'TXS' (section 0)
-[2034] Utils.pm:147> WARN - I didn't find a database entry for '\IeC {\textbullet }1538-4357-689-2-L105' (section 0)
-[2034] Utils.pm:147> WARN - I didn't find a database entry for 'pdg' (section 0)
-[2034] Utils.pm:147> WARN - I didn't find a database entry for 'Katz:2011ke' (section 0)
-[2034] Utils.pm:147> WARN - I didn't find a database entry for 'Honda:2006qj' (section 0)
-[2035] Utils.pm:147> WARN - I didn't find a database entry for 'fig:neutrinospectrum2' (section 0)
-[2035] Utils.pm:147> WARN - I didn't find a database entry for 'Kopke:2011xb' (section 0)
-[2035] Utils.pm:147> WARN - I didn't find a database entry for 'ch:planck' (section 0)
-[2035] Utils.pm:147> WARN - I didn't find a database entry for 'eq:wave' (section 0)
-[2038] Utils.pm:147> WARN - The field 'pages' in entry 'weiswynands:2003' cannot be null, deleting it
-[2801] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[2801] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[2801] Biber.pm:3028> INFO - Sorting list 'none/global' of type 'entry' with scheme 'none' and locale 'en-US'
-[2801] Biber.pm:3032> INFO - No sort tailoring available for locale 'en-US'
-[2893] bbl.pm:519> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[3247] bbl.pm:615> INFO - Output to main.bbl
-[3248] Biber.pm:109> INFO - WARNINGS: 18
+[0] Config.pm:340> INFO - This is Biber 2.4
+[0] Config.pm:343> INFO - Logfile is 'main.blg'
+[40] biber:287> INFO - === Tue Dec 11, 2018, 18:04:28
+[151] Biber.pm:348> INFO - Reading 'main.bcf'
+[336] Biber.pm:742> INFO - Found 7 citekeys in bib section 0
+[342] Biber.pm:3151> INFO - Processing section 0
+[373] Biber.pm:3308> INFO - Looking for bibtex format file 'bibliography.bib' for section 0
+[814] bibtex.pm:1113> INFO - Decoding LaTeX character macros into UTF-8
+[1216] bibtex.pm:974> INFO - Found BibTeX data source 'bibliography.bib'
+[1289] Utils.pm:147> WARN - I didn't find a database entry for 'SAMCITEREN+andere' (section 0)
+[1336] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1336] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1337] Biber.pm:3028> INFO - Sorting list 'none/global' of type 'entry' with scheme 'none' and locale 'en-US'
+[1337] Biber.pm:3032> INFO - No sort tailoring available for locale 'en-US'
+[1344] bbl.pm:519> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[1379] bbl.pm:615> INFO - Output to main.bbl
+[1380] Biber.pm:109> INFO - WARNINGS: 1

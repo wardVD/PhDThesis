@@ -1,35 +1,39 @@
 \chapter{Relativistic Particles in Matter}
 \label{ch:cherenkov}
-Neutrinos are notoriously difficult to detect. When high-energy neutrinos interact with matter, they produce secondary particles that travel fast enough to produce Cherenkov radiation. As indicated in section \ref{sec:detectors} cubic-sized experiments try to exploit this properties by using natural ice or water as the instrumented volume. In this chapter an overview of the behaviour of relativistic matter is given. The experiment that is used here is the IceCube detector, therefore there will be a larger focus on ice.
+\begin{flushright}
+\textit{\\Hofstadter's Law: It always takes longer than you expect, even when you take into account Hofstadter's Law\\}
+\end{flushright}
+
+\noindent Neutrinos are notoriously difficult to detect. When high-energy neutrinos interact with matter, they produce secondary particles that travel fast enough to produce Cherenkov radiation. \textcolor{red}{As indicated in Section \ref{sec:detectors}}, cubic-sized experiments try to exploit these properties by using natural ice or water as the instrumented volume. In this chapter an overview of the behaviour of relativistic matter is given. The experiment that is used here is the IceCube detector and therefore, there will be a larger focus on ice.
 
 \section{Neutrino interactions}
 \label{sec:neutrinointeractions}
-Neutrino interactions with matter in both the charged current (CC) and neutral current (NC) interactions. In the former, the mediator particle is a charged W-boson resulting in a charged lepton in the final state. In the latter, the mediator particle is the neutral Z-boson. Both interaction types have a resulting hadronic component as daughter particles. The interactions can be written as
+Neutrinos interact with matter in both charged current (CC) and neutral current (NC) processes. In the former, the mediator particle is a charged $W$ boson resulting in a charged lepton in the final state. In the latter, the mediator particle is the neutral $Z$ boson. Both interaction types have a resulting hadronic component as daughter particles. The interactions can be written as
 
 \begin{alignat}{2}
-\nu_l \left(\bar{\nu}_l\right) + N &\xrightarrow{\text{W}^+} l^- \left(l^+\right) + X^{+\left(-\right)} \ \ && \left(CC\right)\\
-\nu_l \left(\bar{\nu}_l\right) + N &\xrightarrow{\text{Z}} \nu'_l \left(\bar{\nu}'_l\right) + X && \left(NC\right),
+\nu_l \left(\bar{\nu}_l\right) + N &\xrightarrow{W} l^- \left(l^+\right) + X^{+\left(-\right)} \ \ && \left(CC\right)\\
+\nu_l \left(\bar{\nu}_l\right) + N &\xrightarrow{Z} \nu'_l \left(\bar{\nu}'_l\right) + X && \left(NC\right),
 \end{alignat}
 where $l$ is the lepton flavor ($e,\mu,\tau$), $N$ denotes the inital hadronic state of the nucleus and $X$ the final hadronic state. These interactions are illustrated in Figure \ref{fig:feynmanneutrino}.\\
 \newline
-The charged leptons and hadrons lead to light production via gamma ray production and Cherenkov radiation. With the right material it is possible to detect this light production and reconstruct some of the neutrino's characteristics.
+The charged leptons and hadrons lead to light production via gamma ray production and Cherenkov radiation. With the right material, it is possible to detect this light production and reconstruct some of the neutrino's characteristics.
 
 \begin{figure}[t]
 \centering
 \includegraphics[width = 0.9\textwidth]{chapter4/img/feynmanneutrino.png}
-\caption{Feynman diagrams of the NC (\textit{left}) and CC (\textit{right}) OVERAL SCHUINE LETTERS LINKSRECHTS? neutrino interactions. $l$ is the lepton flavor ($e,\mu,\tau$), $N$ denotes the inital hadronic state of the nucleus and $X$ the final hadronic state. The antineutrino interactions are given in between brackets.}
+\caption{Feynman diagrams of the NC (\textit{left}) and CC (\textit{right}) neutrino interactions. $l$ is the lepton flavor ($e,\mu,\tau$), $N$ denotes the inital hadronic state of the nucleus and $X$ the final hadronic state. The antineutrino interactions are given in between brackets.}
 \label{fig:feynmanneutrino}
 \end{figure}
 
 \section{Cherenkov effect}
-From Einstein's works on special and general relativity it follows that the speed of light in vacuum, $c$, is a universal constant. The speed of light in matter can be significantly lower than that. If a particle travels through a dielectric medium at a speed which is greater than the phase velocity of light in that medium, electromagnetic radiation is emitted. This radiation is called \textit{Cherenkov radiation} and is named after the first person who was able to detect it experimentally, Pavel Cherenkov. He was awarded the Nobel Prize in 1958 for his findings together with Frank and Tamm on their theoretical work on the subject \cite{nobel1958url}.
+From Einstein's works on special and general relativity, it follows that the speed of light in vacuum, $c$, is a universal constant. The speed of light in matter can be significantly lower than that. If a particle travels through a dielectric medium at a speed that is greater than the phase velocity of light in that medium, electromagnetic radiation is emitted. This radiation is called \textit{Cherenkov radiation} and is named after the first person who was able to detect it experimentally, Pavel Cherenkov. He was awarded the Nobel Prize in 1958 for his findings together with Frank and Tamm on their theoretical work on the subject \cite{nobel1958url}.
 
-As can be seen in Appendix \cite{ch:planck}, equation \cite{eq:wave}, the velocity of a propagating wave is given by
+As can be seen in Appendix \ref{ch:planck}, Eq. \ref{eq:wave}, the velocity of a propagating wave is given by
 
 \begin{equation}
 \nabla^2\psi = \frac{1}{v^2} \frac{\partial \psi}{\partial t},
 \end{equation}
-where $\psi$ is the wave and $v$ it's group velocity. From Maxwell's equations and some vector calculus it is straightforward to find that the wave equation for electromagnetic radiation becomes
+where $\psi$ is the wave function and $v$ its group velocity. From Maxwell's equations and some vector calculus, it is straightforward to find that the wave equation for electromagnetic radiation becomes
 
 \begin{equation}
 \nabla^2E = \mu \epsilon \frac{\partial E}{\partial t},
@@ -41,7 +45,7 @@ v = \frac{1}{\sqrt{\mu \epsilon}} = \frac{1}{\sqrt{\mu_r \epsilon_r}}\frac{1}{\s
 \end{equation}
 where $1/\sqrt{\mu_0 \epsilon_0} = c$ and $\mu_r$ and $\epsilon_r$ are the relative (to vacuum) permeability and permittivity respectively and are $\geq 1$. These terms are also written as the refractive index $n = \sqrt{\mu_r \epsilon_r}$: $v = c/n$.
 
-When a charged particle moves inside a dielectric medium, it excites the molecules of the medium to the higher levels and excited states. The molecules emit photons in the form of electromagnetic radiation upon returning back to their ground state. According to the \textit{Huygens principle}, the emitted waves move out spherically at the phase velocity of the medium (which can be less than the speed of light in vacuum). If the motion of the particle is slow, the radiated waves bunch up slightly in the direction of motion, but they do not cross. However if the particle moves faster than the light speed, the emitted waves add up constructively leading to a coherent radiation at angle $\theta_c$ with respect to the particle direction; Cherenkov radiation. The coherent interference is enough to be visible to the nnaked eye\footnote{The typical blue light in the cooling water at nuclear reactor sites is also due to this Cherenkov radiation.}. The signature of the effect is a cone of emission in the direction of particle motion. Figure \ref{fig:cherenkov} shows a schematic of the Cherenkov radiation showing the typical spherical wavefront and the resultant radiation\footnote{Note of the author: the typical cone shape of this effect can be easily seen when observing ducks. If a duck is travelling in a straight line in the water, individual concentric waves can be distinguished and a cone shaped wave is produced behind them.}.
+When a charged particle moves inside a dielectric medium, it excites the molecules of the medium to the higher levels and excited states. The molecules emit photons in the form of electromagnetic radiation upon returning back to their ground state. According to the \textit{Huygens principle}, the emitted waves move out spherically at the phase velocity of the medium (which can be less than the speed of light in vacuum). If the motion of the particle is slow, the radiated waves bunch up slightly in the direction of motion, but they do not cross. However, if the particle moves faster than the light speed, the emitted waves add up constructively leading to a coherent radiation at angle $\theta_c$ with respect to the particle direction; Cherenkov radiation. The coherent interference is enough to be visible to the naked eye\footnote{The typical blue light in the cooling water at nuclear reactor sites is also due to this Cherenkov radiation.}. The signature of the effect is a cone of emission in the direction of particle motion. Fig. \ref{fig:cherenkov} shows a schematic view of the Cherenkov radiation, illustrating the typical spherical wavefront and the resulting radiation\footnote{Note of the author: the typical cone shape of this effect can be easily seen when observing ducks. If a duck is traveling in a straight line in the water, individual concentric waves can be distinguished and a cone shaped wave is produced behind them.}.
 
 \begin{figure}[ht]
 \centering
@@ -55,12 +59,12 @@ From the figure we can derive that
 \begin{equation}
 \cos\theta_c = \frac{\frac{c}{n} \Delta t}{v \Delta t} = \frac{c}{vn} = \frac{1}{\beta n}.
 \end{equation} 
-Because $-1 \leq \cos\theta_c \leq 1$, the velocity of the charged particle must be $v \geq c/n$. Typical values of $n$ are on the order of 1-2, requiring the particles to be relativistic in order to emit Cherenkov radiation. The number of photons produced per unit path length of a particle with charge $ze$ and per unit energy interval of the photon was calculated by Frank and Tamm, and is often referred to as the Frank-Tamm equation \cite{pdg2018url}
+Because $-1 \leq \cos\theta_c \leq 1$, the velocity of the charged particle must be $v \geq c/n$. Typical values of $n$ are on the order of 1-2, requiring the particles to be relativistic in order to emit Cherenkov radiation. The number of photons produced per unit path length of a particle with charge $ze$ and per unit energy interval of the photon was calculated by Frank and Tamm, and is often referred to as the Frank-Tamm equation \cite{PDG2018url}
 
 \begin{equation}
 \begin{split}
 \frac{d^2N}{dE dx} &= \frac{\alpha z^2}{\hbar c} \sin^2 \theta_c = \frac{\alpha^2 z^2}{r_e m_e c^2} \left( 1 - \frac{1}{\beta^2 n^2\left(E\right)} \right)\\
-&\approx 370 \sin^2 \theta_c \left(E\right) \textrm{eV}^{-1} cm^{-1} \ \ \ \left( z =1\right),
+&\approx 370 \sin^2 \theta_c \left(E\right) \textrm{eV}^{-1} \textrm{cm}^{-1} \ \ \ \left( z =1\right),
 \end{split}
 \end{equation}
 where $r_e$ is the classical electron radius, $m_e$ the electron mass and $\alpha$ the fine-structure constant. Equivalently, this equation can be written in function of the wavelength of the photon
@@ -69,27 +73,26 @@ where $r_e$ is the classical electron radius, $m_e$ the electron mass and $\alph
 \label{eq:franktamm}
 \frac{d^2N}{dx d\lambda}  = \frac{2\pi \alpha z^2}{\lambda^2} \left(1- \frac{1}{\beta^2 n^2 \left(\lambda \right)} \right).
 \end{equation}
-
-As an example, air Cherenkov telescopes such as MAGIC, H.E.S.S and VERITAS look for the direct and indirect Cherenkov light from gamma rays and cosmic rays. Because the refractive index of air is close to 1 (1.000293 at sea level and smaller with increasing height) the opening angle of the Cherenkov cone is small ($\approx 1^{\circ}$). The particles need to be pretty relativistic in order for Cherenkov radiation to occur\footnote{Let us assume the refractive index of air at sea level, than from $E^2/m^2 = \gamma^2 = 1/(1-\beta^2)$ it follows the minimal energy is $\approx 41$ times it's rest mass. Since the refractive index decreases in function of height, the energies of particles interacting with the atmosphere must be even higher.}.
+As an example, air Cherenkov telescopes such as MAGIC, H.E.S.S and VERITAS look for the direct and indirect Cherenkov light from gamma rays and cosmic rays. Because the refractive index of air is close to 1 (1.000293 at sea level and smaller with increasing height) the opening angle of the Cherenkov cone is small ($\approx 1^{\circ}$). The particles need to be very relativistic in order for Cherenkov radiation to occur\footnote{Let us assume the refractive index of air at sea level, then, from $E^2/m^2 = \gamma^2 = 1/(1-\beta^2)$, it follows that the minimal energy is $\approx 41$ times its rest mass. Since the refractive index decreases in function of height, the energies of particles interacting with the atmosphere must be even higher.}.
 
 In water and ice, the refractive index is $\approx 1.33$, making $\beta_{min} = 0.75$ and $E_{min} = 1.51 \cdot m_0$. Experiments using water or ice as the interaction medium are Super-Kamiokande, ANTARES and the IceCube experiment.
 \section{Propagation}
 \label{sec:propagation}
-As described in section \ref{sec:neutrinointeractions}, neutrinos will give rise to several types of interactions in the surrounding medium. There are three characteristic signatures which are the main interest in the IceCube detector (illustrated in Figure \ref{fig:ICinteractions}).
+As described in Section \ref{sec:neutrinointeractions}, neutrinos will give rise to several types of interactions in the surrounding medium. There are three characteristic signatures, which are the main interest in the IceCube detector (illustrated in Figure \ref{fig:ICinteractions}).
 
 \begin{figure}[t]
 \centering
 \includegraphics[width=0.7\textwidth]{chapter4/img/ICinteractions.png}
-\caption{Schematic view of the neutrino signatures in matter. At each interaction point there is a hadronic cascade (red). Every hadronic cascade has electromagnetic sub-showers which are not illustrated here. Muons and energetic taus can give rise to tracks. Illustrations from \cite{Wallraff}.}
+\caption{Schematic view of the neutrino signatures in matter. At each interaction point there is a hadronic cascade (red). Every hadronic cascade has electromagnetic sub-showers which are not illustrated here. Muons and energetic taus can give rise to tracks. Illustrations from Ref. \cite{Wallraff}.}
 \label{fig:ICinteractions}
 \end{figure}
 
 \subsection{Cascades}
 \subsubsection{Electrons and photons}
 
-In a charged current neutrino interaction, the energetic electron will give rise to a shower of gamma rays (bremsstrahlung), positrons and electrons (pair production). Positrons and electrons will in their turn emit new gamma rays and this process continues until the photon energies fall below the pair production threshold. Because electrons/positrons lose their energy fast, they are almost immediately stopped, giving an \textit{electromagnetic cascade} a spherical shape.
+In a charged current neutrino interaction, the energetic electron will give rise to a shower of gamma rays (bremsstrahlung) and positrons and electrons (pair production). Positrons and electrons will in their turn emit new gamma rays and this process continues until the photon energies fall below the pair production threshold. Because electrons/positrons lose their energy fast, they are almost immediately stopped, giving an \textit{electromagnetic cascade} a spherical shape.
 
-Let us assume $E_0$ is the energy of the incoming electron. In a very simplistic toy model one can say that an electron emits one photon after one radiation length, $X_0$. A photon will decay into an electron-positron pair after approximately one radiation length too\footnote{In fact one radiation length implies $1/e$ times the initial energy. Assuming an the electron looses half it's energy into the photon then 0.63/0.5 $\approx 1$. After one radiation length a high energy photon looses $approx 7/9$ times it's energy via bremsstrahlung, again we assume $\approx 1$.}. At every decay or radiation process it is assumed the daugher particles carry 1/2 of the energy. After $t$ steps, the energy is equal to
+Let us assume $E_0$ is the energy of the incoming electron. In a very simplistic toy model one can say that an electron emits one photon after one radiation length, $X_0$. A photon will decay into an electron-positron pair after approximately one radiation length too\footnote{In fact one radiation length implies $1/e$ times the initial energy. Assuming the electron looses half its energy into the photon, then 0.63/0.5 $\approx 1$. After one radiation length, a high energy photon looses $\approx 7/9$ times its energy via bremsstrahlung, again we assume $\approx 1$.}. At every decay or radiation process it is assumed that the daugher particles carry 1/2 of the energy. After $t$ steps, the energy is equal to
 
 \begin{equation}
 E(t) = \frac{E_0}{2^t}.
@@ -99,12 +102,12 @@ The number of particles will be equal to
 \begin{equation}
 N(t) = 2^t.
 \end{equation}
-At a critical energy $E_c$, the multiplications stops (as pair production dominates over bremsstrahlung) and we find
+At a critical energy $E_c$, the multiplication process stops (as pair production dominates over bremsstrahlung) and we find
 
 \begin{equation}
 t_{max} = \frac{\ln\left(\frac{E_0}{E_c}\right)}{\ln 2},
 \end{equation}
-the total longitudinal length of an electromagnetic shower is thus equal to
+the total longitudinal length of an electromagnetic shower is thus approximately equal to
 
 \begin{equation}
 X = X_0 \frac{\ln\left(\frac{E_0}{E_c}\right)}{\ln 2}.
@@ -112,33 +115,34 @@ X = X_0 \frac{\ln\left(\frac{E_0}{E_c}\right)}{\ln 2}.
 This logarithmic dependence on the energy of the initial particle will therefore result into elongations of a couple of meters at most. Typical values in ice are $X_0 \approx 40$ cm and $E_c \approx 80$ MeV.
 
 \subsubsection{Hadrons}
-In the case of neutral current events, the breakup of the struck nucleus leads to charged byproducts. These byproducts can reinteract in the medium and produce neutral pions that decay into gamma rays. These particles again die out quickly, resulting in a spherical emission of light for \textit{hadronic cascades}. The basic development of hadronic cascades in space is very similar to that of electromagnetic ones, buth with important differences in energy losses, particle content, lateral spread and fluctuations. Hadronic cascades contain particles heavier than electrons, that have a higher Cherenkov threshold. A fraction of them are slow neutrons, which do not produce any light. Neutral pions produce gamma rays. Charged pions, on the other hand, can decay into muons and muon neutrinos; long-ranged particles that do not contribute to the cascading process. Finally, a non-neglibible fraction of the energy is lost in the hadronic binding processes.
+In the case of neutral current events, the breakup of the struck nucleus leads to charged byproducts. These byproducts can reinteract in the medium and produce neutral pions that decay into gamma rays. These particles again die out quickly, resulting in a spherical emission of light for \textit{hadronic cascades}. The basic development of hadronic cascades in space is very similar to that of electromagnetic ones, but with important differences in energy losses, particle content, lateral spread and fluctuations. Hadronic cascades contain particles heavier than electrons, that have a higher Cherenkov threshold. A fraction of them are slow neutrons, which do not produce any light. Neutral pions produce gamma rays. Charged pions, on the other hand, can decay into muons and muon neutrinos; long-ranged particles that do not contribute to the cascading process. Finally, a non-neglibible fraction of the energy is lost in the hadronic binding processes.
 
-The light yield will be smaller than the one obtained from an electromagnetic cascade of equal initial energy and with much lager event-by-event variations. 
+The light yield will be smaller than the one obtained from an electromagnetic cascade of equal initial energy and with much larger event-by-event variations. 
 
 
-\subsection{Muon track}
-Muons are produced in charged current muon neutrino interactions and travel much further than electrons and positrons. The relativistic muon will produce light according to the Frank-Tamm equation \ref{eq:franktamm}, resulting in \textit{direct Cherenkov radiation}. Ionization, bremsstrahlung, pair production and photonuclear interactions (see section \ref{sec:energyloss}) are also capable of producing relativistic secondary particles that will produce \textit{indirect Cherenkov radiation}. Both effects result in a Cherenkov cone with a diffuse light emmiting out from the track in all directions behind it. 
+\subsection{Muon tracks}
+Muons are produced in charged current muon neutrino interactions and travel much further than electrons and positrons. The relativistic muon will produce light according to the Frank-Tamm equation, Eq. \ref{eq:franktamm}, resulting in \textit{direct Cherenkov radiation}. Ionization, bremsstrahlung, pair production, and photonuclear interactions (see Section \ref{sec:energyloss}) are also capable of producing relativistic secondary particles that will produce \textit{indirect Cherenkov radiation}. Both effects result in a Cherenkov cone with a diffuse light emitting out from the track in all directions behind it. 
 
 \subsubsection{Energy loss}
 \label{subsub:energyloss}
-Below 1 TeV, muons will lose most of it's energy to ionization losses. A charged particle traversing matter will ionize the material around it. When the energy transfer is high enough, electrons can be stripped away from their atoms, resulting in \textit{delta electrons}. As can be seen in Figure \ref{fig:energyloss}, ionization losses have only a very weak energy dependence. It is therefore very difficult to distinguish for example a 50 GeV from a 500 GeV muon as the direct Cherenkov light production will be similar (Eq. \ref{eq:franktamm}) and the energy loss will be from the energy-independent ionization.
+Below 1 TeV, muons will lose most of its energy to ionization losses. A charged particle traversing matter will ionize the material around it. When the energy transfer is high enough, electrons can be stripped away from their atoms, resulting in \textit{delta electrons}. As can be seen in Figure \ref{fig:energyloss}, ionization losses have only a very weak energy dependence. It is therefore very difficult to distinguish for example a 50 GeV from a 500 GeV muon as the direct Cherenkov light production will be similar (Eq. \ref{eq:franktamm}) and the energy loss will be from the energy-independent ionization.
 
-Above 1 TeV, however, the muon will on average lose more energy to stochastic effects\footnote{In this context we mean the energy losses are not deterministic: it is impossible to know when an interaction of this kind will occur. One can only make estimations on their \textit{expected} effects.}. Here, effects such as bremsstrahlung, pair production and the photonuclear effect dominate over ionization. Indirect Cherenkov production starts to dominate and make the energy estimation much easier.\\
-\newline
+Above 1 TeV, however, the muon will on average lose more energy to stochastic\footnote{In this context we mean the energy losses are not deterministic: it is impossible to know when an interaction of this kind will occur. One can only make estimations on their \textit{expected} effects.} effects. Here, effects such as bremsstrahlung, pair production and the photonuclear effect dominate over ionization. Indirect Cherenkov production starts to dominate and make the energy estimation much easier.\\
+
 \begin{figure}[t]
 \centering
 \includegraphics[width = 0.7\textwidth]{chapter4/img/muonenergyloss.png}
 \caption{Muon energy loss from ionization (upper solid curve), bremsstrahlung (dashed), photonuclear (dotted), pair production (dashed-dotted) and decay (lower solid curve).}
 \label{fig:energyloss}
 \end{figure}
-The average energy loss along the muon trajectory can be parametrized by 
+
+\noindent The average energy loss along the muon trajectory can be parametrized by 
 
 \begin{equation}
 \label{eq:energyloss}
 - \frac{dE}{dx} = a + b \cdot E_\mu,
 \end{equation}
-where $a$ and $b$ are obtained by fitting and can be found in Table \ref{tab:fits} \footnote{Mwe stands for ``meter water equivalent'', a unit often used in cosmic ray physics. A detector shielded by matter equal to 100 mwe would be equally shielded from cosmic rays if it were 100 meters below water.} \ref{tab:energylossconstants}. The muon range can be found by integrating Eq. \ref{eq:energyloss}
+where $a$ and $b$ are obtained by fitting and can be found in Table \ref{tab:energylossconstants}\footnote{Mwe stands for ``meter water equivalent'', a unit often used in cosmic ray physics. A detector shielded by matter equal to 100 mwe would be equally shielded from cosmic rays if it were 100 meters below water.}. The muon range can be found by integrating Eq. \ref{eq:energyloss}
 
 \begin{equation}
 \begin{split}
@@ -152,27 +156,27 @@ with $E_{th} = a/b = 720$ GeV, the energy theshold above which stochastic effect
 % \usepackage[table,xcdraw]{xcolor}
 % If you use beamer only pass "xcolor=table" option, i.e. \documentclass[xcolor=table]{beamer}
 \begin{table}[]
-\label{tab:fits}
+\caption{Best fits for muon energy loss parameters $a$ and $b$ from Eq. \ref{eq:energyloss}. Fits from \cite{Chirkin:2004hz}.}
+\label{tab:energylossconstants}
 \centering
 \begin{tabular}{|
 >{\columncolor[HTML]{9B9B9B}}l |c|c|}
 \hline
-{\color[HTML]{000000} Medium}   & \cellcolor[HTML]{9B9B9B}{$a \left(\frac{\textrm{GeV}}{\textrm{mwe}}\right)$} & \cellcolor[HTML]{9B9B9B}{$b \left(\frac{10^{-3}}{\textrm{mwe}}\right)$} \\ \hline \hline
+{\color[HTML]{000000} Medium}   & \cellcolor[HTML]{9B9B9B}{$a \left(\frac{\textrm{GeV}}{\textrm{mwe}}\right)$} & \cellcolor[HTML]{9B9B9B}{$b \left(\frac{10^{-3}}{\textrm{mwe}}\right)$} \\ \hline 
 {\color[HTML]{000000} Air}      & 0.281                                                                                             & 0.347                                                                                        \\ \hline
 {\color[HTML]{000000} Ice}      & 0.259                                                                                             & 0.363                                                                                        \\ \hline
 {\color[HTML]{000000} Fr. Rock} & 0.231                                                                                             & 0.436                                                                                        \\ \hline
 {\color[HTML]{000000} St. Rock} & 0.223                                                                                             & 0.463                                                                                        \\ \hline
 \end{tabular}
-\caption{Best fits for muon energy loss parameters $a$ and $b$ from Eq. \ref{eq:energyloss}. Fits from \cite{Chirkin:2004hz}.}
 \end{table}
 
 
 \section{Energy loss formulae}
 \label{sec:energyloss}
-As mentioned in section \ref{subsub:energyloss}, secondary interactions become non-negligible at certain energies. These effects are accounted for in IceCube simulations and are of great importance for muons. Since these interactions are electromagnetic in nature, they will also play a role for SMP particles. In this section we go over the the four main components of secondary interactions. This section is largely based on the findings in \cite{Chirkin:2004hz}. The energy of the secondary particles will be expressed with $\nu = v E$, with $E$ the energy of the incident particle and $v$ the fraction of the energy transfer. Secondary interactions occur at all energy levels and become continuous in nature below a certain energy threshold. Therefore, in many codes $v_{cut}$ is implemented as a lower bound (more information see section????).
+As mentioned in Section \ref{subsub:energyloss}, secondary interactions become non-negligible at certain energies. These effects are accounted for in IceCube simulations and are of great importance for muons. Since these interactions are electromagnetic in nature, they will also play a role for SMP particles. In this section we go over the four main components of secondary interactions. This section is largely based on the findings in \cite{Chirkin:2004hz}. The energy of the secondary particles will be expressed with $\nu = v E$, with $E$ the energy of the incident particle and $v$ the fraction of the energy transfer. Secondary interactions occur at all energy levels and become continuous in nature below a certain energy threshold. Therefore, in many codes $v_{cut}$ is implemented as a lower bound (more information see Section \ref{sec:energyloss}).
 
 \subsection{Ionization}
-Fast charged particles that move through matter will interact with the electrons of atoms in the material. The interaction will excite or ionize\footnote{In this case, one often refers to these electrons as \textit{delta electrons}. These electrons can be relativistic and produce Cherenkov radiation.} the atoms. The Feynman diagram of this interaction is given in Figure \ref{fig:feynmanionizbrems}. This interaction will lead to an energy loss of the traveling particle and is expressed via the Bethe-Bloch formula
+Fast charged particles that move through matter will interact with the electrons of atoms in the material. The interaction will excite or ionize\footnote{In this case, one often refers to these electrons as \textit{delta electrons}. These electrons can be relativistic and produce Cherenkov radiation.} the atoms. The Feynman diagram of this interaction is given in Fig. \ref{fig:feynmanionizbrems} (left). This interaction will lead to an energy loss of the traveling particle and is expressed via the Bethe-Bloch formula
 
 \begin{equation}
 \label{eq:ioniz}
@@ -201,12 +205,12 @@ where negligible terms are left out.
 
 
 \subsection{Bremsstrahlung}
-Charged particles that decelerate by another charged particle lose kinetic energy that is converted into radiation. This phenomena is known as \textit{bremsstrahlung} and is illustrated in Figure \ref{fig:feynmanionizbrems}. The cross section may be represented by the sum of an elastic component and two inelastic components,
+Charged particles that decelerate by another charged particle lose kinetic energy that is converted into radiation. This phenomena is known as \textit{bremsstrahlung} and is illustrated in Fig. \ref{fig:feynmanionizbrems} (right). The cross section may be represented by the sum of an elastic component and two inelastic components,
 
 \begin{equation}
 \sigma = \sigma_{el} + \Delta \sigma^{in}_a + \Delta \sigma^{in}_n,
 \end{equation}
-where $\sigma_{el}$ denotes the cross section of the Coulomb scattering of the particle from the atomic center and the two other terms are corrections which account for additional processes, in which the bremsstrahlung is accompanied by the changing of electron and nuclear structure of the atom in the final state.
+where $\sigma_{el}$ denotes the cross section of the Coulomb scattering of the particle from the atomic center and the two other terms are corrections that account for additional processes, in which the bremsstrahlung is accompanied by the changing of electron and nuclear structure of the atom in the final state.
 
 \subsubsection{Elastic component}
 \begin{equation}
@@ -225,8 +229,8 @@ where $\alpha$ is the fine structure constant and $\omega$ the photon's frequenc
 &\Delta \sigma^{el}_n(\delta) = \left[\frac{D_n}{1+\delta (D_n \sqrt{e} -1)/m_t}\right] \textrm{ \ \ ; } D_n = 1.54 {A^0.27}.
 \end{split}
 \end{equation}
-Other constants are as defined in Eq. \cite{eq:ioniz}. Other parametrizations can be found in the corresponding literature. 
-mu hier dimensieloos (zie inleiding)
+Other constants are as defined in Eq. \ref{eq:ioniz}. Other parametrizations can be found in the corresponding literature. 
+%mu hier dimensieloos (zie inleiding)
 
 \subsection{Inelastic component}
 
@@ -237,14 +241,14 @@ The effect of nucleus excitation can be evaluated as
  \end{equation}
 where $\Delta \sigma^{el}_n$ is defined in Eq. \ref{eq:formfactors}.
 
-In the atomic excitation, one accounts for bremmstrahlung whereby photons can radiate from the throughgoing particle and where photons radiate from the electrons of the atom. This contribution is
+In the atomic excitation, one accounts for bremsstrahlung whereby photons can radiate from the throughgoing particle and where photons radiate from the electrons of the atom. This contribution is
 
 \begin{equation}
 \Delta \sigma^{in}_a \approx \frac{1}{Z} \ln \left[ \frac{m_t/\delta}{\delta m_t/m_e^2 + \sqrt{e}} \right] - \ln\left[1+ \frac{m_e}{\delta \sqrt{e} B' Z^{-2/3}} \right],
 \end{equation}
-where $B'=1429$ for $Z > 2$ and $B' = 446$ for $Z=1$
+where $B'=1429$ for $Z > 2$ and $B' = 446$ for $Z=1$.
 \subsection{Photonuclear}
-The photonuclear interaction of leptons is the process by which a lepton scatters inelastically with a nucleon or nucleus. Through a virtual photon exchange hadrons are produced, which is illustrated in Figure \ref{fig:feynmannuclpairprod}. The cross section formula is given by
+The photonuclear interaction of leptons is the process by which a lepton scatters inelastically with a nucleon or nucleus. Through a virtual photon exchange, hadrons are produced, as is illustrated in Fig. \ref{fig:feynmannuclpairprod}. The cross section formula is given by
 
 \begin{equation} 
 \begin{split} 
@@ -256,12 +260,13 @@ The photonuclear interaction of leptons is the process by which a lepton scatter
 & m_1^2 = 0.54 \textrm{ GeV}^2, \ \ \textrm{and \ \ \ } m_2^2 = 1.8 \textrm{\ GeV}^2.
 \end{split} 
 \end{equation}
-Parameters which aren't defined here can be found in the corresponding literature.
+Parameters that aren't defined here can be found in the corresponding literature.
 
-\begin{equation}
-\sigma_{\gamma N}
-\end{equation}
+%\begin{equation}
+%\sigma_{\gamma N}
+%\end{equation}
 \subsection{Pair production}
+\label{subsec:pairprod}
 Pair production occurs when the virtual photon radiated from the throughgoing particle or proton splits into an electron-positron pair or muon-antimuon pair, the differenctial cross section is equal to
  
 \begin{equation}

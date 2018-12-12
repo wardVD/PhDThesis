@@ -49,12 +49,8 @@
 \include{front}
 \include{voorblad}
 \include{thankyou}
-\underline{\Huge{\sffamily Abstract}}\\
-Bla bla bla
-%Ik zou graag ook mezelf willen bedanken
-Of dat je in het middelbaar leert dat je eigenlijk een bundel bent van elektronen en protonen en bla bla bla, maar van zodra je fysica studeert besef je dat je eigenlijk een bundel trillingen in velden bent.
-
-~\vfill
+\include{poem}
+\include{abstract}
 
 %----------------------------------------------------------------------------------------
 %	TABLE OF CONTENTS
@@ -64,10 +60,11 @@ Of dat je in het middelbaar leert dat je eigenlijk een bundel bent van elektrone
 %\usechapterimagefalse % If you don't want to include a chapter image, use this to toggle images off - it can be enabled later with \usechapterimagetrue
 
 \chapterimage{60seconds_StandardModelCube.jpg} % Table of contents heading image
+\setcounter{page}{1}
 
 \pagestyle{empty} % No headers
 
-\renewcommand{\contentsname}{Table of Content}
+\renewcommand{\contentsname}{Table of Contents}
 \tableofcontents % Print the table of contents itself
 
 \cleardoublepage % Forces the first chapter to start on an odd page so it's on the right
@@ -75,61 +72,48 @@ Of dat je in het middelbaar leert dat je eigenlijk een bundel bent van elektrone
 \pagestyle{fancy} % Print headers again
 
 
+
 %----------------------------------------------------------------------------------------
 %	Nederlandstalige samenvatting
 %----------------------------------------------------------------------------------------
-
 \chapterimage{whitepage.png} % whitepage voor samenvatting
-
-\chapter*{Nederlandstalige samenvatting}\label{nederlands}
-\addcontentsline{toc}{chapter}{\protect\numberline{}Nederlandstalige samenvatting}%
-
-\lipsum[1-7] % Dummy text
+\include{nederlands}
 
 %----------------------------------------------------------------------------------------
 %	INTRODUCTION
 %----------------------------------------------------------------------------------------
-
 \chapterimage{Header_Higgs_hunters_QandA.jpg} % Chapter heading image
-
-\chapter*{Introduction and Summary}\label{ch1}
-\addcontentsline{toc}{chapter}{\protect\numberline{}Introduction}%
-
-\section*{Paragraphs of Text}\index{Paragraphs of Text}
-
-\lipsum[1-7] % Dummy text
+\include{introduction}
 
 %------------------------------------------------
 
 %----------------------------------------------------------------------------------------
 %	PART
 %----------------------------------------------------------------------------------------
-
 \part{Theory and Experiment}
 %----------------------------------------------------------------------------------------
 %	CHAPTER 1
 %----------------------------------------------------------------------------------------
-
 \chapterimage{StandardModel.jpg} % Chapter heading image
-%\include{chapter1/chapter1}
+\include{chapter1/chapter1}
 
 %----------------------------------------------------------------------------------------
 %	CHAPTER 2
 %----------------------------------------------------------------------------------------
 \chapterimage{Exploring_the_unknown_2} % Chapter heading image
-%\include{chapter2/chapter2}
+\include{chapter2/chapter2}
 
 %----------------------------------------------------------------------------------------
 %	CHAPTER 3
 %----------------------------------------------------------------------------------------
 \chapterimage{cosmicrays-s.jpg} % Chapter heading image
-%\include{chapter3/chapter3}
+\include{chapter3/chapter3}
 
 %----------------------------------------------------------------------------------------
 %	CHAPTER 4
 %----------------------------------------------------------------------------------------
 \chapterimage{MuonWithPhotons_3.png}
-%\include{chapter4/chapter4}
+\include{chapter4/chapter4}
 
 %----------------------------------------------------------------------------------------
 %	CHAPTER 5
@@ -140,50 +124,31 @@ Of dat je in het middelbaar leert dat je eigenlijk een bundel bent van elektrone
 %	PART
 %----------------------------------------------------------------------------------------
 
-\part{Simulation, Data Processing and Analysis}
+\part{Simulation, Processing and Analysis}
 
 %----------------------------------------------------------------------------------------
 %	CHAPTER 6
 %----------------------------------------------------------------------------------------
-\chapterimage{bubblechamber2.jpg}
-\chapter{Event Generation, Simulation and Reconstruction}
-\section{PPC/PROPOSAL}
-Hier ook indirect cherenkov light component
-Cross-sections al uitgelegd in hoofdstuk 4, hier beter omschrijven HOE er omgegaan werd met die formules!
-\section{signal simulation}
-hier ook verband met secondary effects aanhalen, dat dit een z2/z4 afhankelijkheid heeft. Ook dat het met die cylindervorm werkt en schieten vanaf schijf enzovooort
-\section{IceHive}
-\section{Line-Fit}
-\section{SPE and MPE}
-\section{\textsc{Millipede}}
-\section{Boosted Decision Tree Classifiers}
+\chapterimage{servers_cropped.jpg}
+\include{chapter6/chapter6}
 
 %----------------------------------------------------------------------------------------
 %	CHAPTER 7
 %----------------------------------------------------------------------------------------
-\chapterimage{wallhaven-301134.png}
-\chapter{The SPACE Analysis}
-De uitleg van temperature modulations is goed in Sam zijn thesis
-\url{https://arxiv.org/pdf/physics/0312102v1.pdf}\\
-\url{https://arxiv.org/pdf/1310.1284.pdf}
-\section{Motivation}
-\section{General strategy}
-\section{Event cleaning}
-\section{Variables}
-\section{BDT results}
-\section{Pull validation}
-\section{Systematic Uncertainties}
-
-\section{Results}
-
+\chapterimage{bubblechamber2.jpg}
+\include{chapter7/chapter7}
 
 %----------------------------------------------------------------------------------------
 %	CHAPTER 8
 %----------------------------------------------------------------------------------------
-\chapterimage{wallhaven-442918.jpg}
-\chapter{Summary and Discussion}
+\chapterimage{wallhaven-301134.png}
+\include{chapter8/chapter8}
 
-
+%----------------------------------------------------------------------------------------
+%	CHAPTER 9
+%----------------------------------------------------------------------------------------
+\chapterimage{ribbon.png}
+\include{chapter9/chapter9}
 
 %----------------------------------------------------------------------------------------
 %	Appendix
