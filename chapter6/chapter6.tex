@@ -1,0 +1,118 @@
+\chapter{Simulation: Event Generation and Propagation}
+%SUPER MOOIE AFBEELDINGEN \url{http://www.hap-astroteilchen.de/poPAHrt.php}
+In order to be able to search for new physics, one has to have a good handle on the detector response on known physics events. Depending on the analysis, some processes are more interesting than others. In general, the particle interactions of interest are referred to as \textit{signal events}. Other interactions, which mimic or obscure the signal events, are typically called \textit{background events}. These events are simulated using Monte Carlo\footnote{While recovering from an illness in 1946, Stanislaw Ulam figured that the actual counting of succesful attempts in playing a card game would yield him a much faster answer to the probability of succes rather than doing the actual calculus. His work, shared with John von Neumann, needed to remain secret and adopted the code word ``Monte Carlo'', referring the gambling games in the Monte Carlo Casino in Monaco.} (MC) simulations, where one makes use of a model that describes the interactions and their probability to occur. A typical MC simulation consists of hundreds to millions of events that are constructed using these models from random number generators. To determine the detector response of a particle interaction, one first has to start with the particle generation, which defines the properties of the interaction. Afterwards, the propagation of the particle in the detector (medium) is simulated as best as possible. Below, we give an overview of the important background and signal simulations that are used in this analysis.
+\section{Generation}
+Simulations start with setting up the starting conditions of the physical processes one wants to simulate. For example, a shower event by itself is not well defined. The type of primary particle (H, He, Fe,...), the energy, the inclination and so on will all define the properties of the air shower that will be produced. Multiple different generators used in the IceCube collaboration serve other purposes; some are explained in more detail below.
+
+\subsection{Background simulation}
+\subsubsection{CORSIKA}
+A free, publicly available software framework that is widely used in the astrophysics community for the simulation of cosmic ray interactions is called CORSIKA (COsmic Ray SImulations for Kascade). It was originally developed for the KASCADE experiment and now used by most people and collaborations to simulate air shower events.\\
+
+\noindent A particle of specific type, energy, direction and position is injected in the top of the atmosphere and propagated. The distribution of particles in the shower is saved and read out at a certain altitude. Because the flux of cosmic rays is exceedingly small at the highest energies, too many resources and too much time would be required to simulate an energy distribution as measured in experiments. Therefore, one often simulates a much harder spectrum and reweights the events accordingly later on (see Section \ref{sec:weighting}). Simulation datasets are often subdivided into a low-energy and high-energy dataset. The former ranges from primary energies between 600 GeV to 100 TeV and uses a spectral index that is close to what is measured. The spectral index of the latter is smaller, resulting in a harder spectrum, and the primary energy ranges from 100 TeV to 100 EeV. The lower limit of the energy range is due to the limited penetration depth of muons through the ice. An overview is given in Table \ref{tab:datasets}.
+
+Iets met die 5-component?
+
+The spectrum used for this analysis, after reweighting, follows the following energy distribution:
+
+\begin{equation}
+\label{eq:gaisser}
+\Phi_i \left(E_{\textrm{prim}}\right) = \sum^3_{j=1} a_{i,j} E^{-\gamma_{i,j}} \cdot \exp \left[- \frac{E}{Z_i R_{c,j}}\right].
+\end{equation}
+
+\noindent where we sum over the three populations that are mentioned in Section \ref{subsubsec:galactic}, $\gamma$ is the spectral index, $Z$ the particle atomic number and $a_{i,j}$ the normalization constants for primary $i$ in population $j$. The 5 groups that are assumed to contribute significantly to the flux are: p, He, CNO, Mg-Si and Fe. This is the convention that is used in Ref. \cite{Gaisser:2013bla}. Table \ref{tab:fluxnormalization} shows the best fits for the normalization constants to describe the data.
+
+\begin{table}[]
+\centering
+\caption{Best fit for parameters in Eq. \ref{eq:gaisser}. Numbers taken from Ref. \cite{Gaisser:2013bla}}
+\label{tab:fluxnormalization}
+\begin{tabular}{|
+>{\columncolor[HTML]{9B9B9B}}c |c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+$j$ & \cellcolor[HTML]{9B9B9B}$R_c$ {[}V{]} & \multicolumn{5}{c|}{\cellcolor[HTML]{9B9B9B}$\gamma$} & \multicolumn{5}{c|}{\cellcolor[HTML]{9B9B9B}$a_{i,j}$} \\ \hline
+ &  & p & He & CNO & Mg-Si & Fe & p & He & CNO & Mg-Si & Fe \\ \hline
+1 & $4 \cdot 10^{15}$ & 1.66 & 1.58 & 1.63 & 1.67 & 1.63 & 7860 & 3550 & 2200 & 1430 & 2120 \\ \hline
+2 & $30 \cdot 10^{15}$ & \multicolumn{5}{c|}{1.4} & \multicolumn{2}{c|}{20} & \multicolumn{3}{c|}{13.4} \\ \hline
+3 & $2 \cdot 10^{18}$ & \multicolumn{5}{c|}{1.4} & \multicolumn{2}{c|}{1.7} & \multicolumn{3}{c|}{1.14} \\ \hline
+\end{tabular}
+\end{table}
+
+\paragraph{Interactions}
+The lowest energies are simulated with FLUKA (FLUktuierende KAskade) \cite{Battistoni:2015epi}. Which model is the best for the highest energies is not known at the time of writing, if there even is one, since there are no controlled laboratory measurements that are capable of reaching these energies \cite{SAMCITEREN+andere}. 
+
+
+
+\noindent CORSIKA is written in FORTRAN 77, but a C++ version is currently in the making \cite{Engel:2018akg}.
+\subsubsection{NuGen}
+\subsubsection{GENIE}
+
+
+\begin{table}[]
+\centering
+\caption{My caption}
+\label{tab:datasets}
+\begin{tabular}{|
+>{\columncolor[HTML]{9B9B9B}}l |c|c|c|c|c|c|}
+\hline
+Generator & \cellcolor[HTML]{9B9B9B}Type & \cellcolor[HTML]{9B9B9B}Range {[}GeV{]} & \cellcolor[HTML]{9B9B9B}Simulated $\gamma$ & \cellcolor[HTML]{9B9B9B}Weighted $\gamma$ & \cellcolor[HTML]{9B9B9B}Ice & \cellcolor[HTML]{9B9B9B}Dataset \\ \hline
+CORSIKA-in-ice & HE 5-comp. & $10^5 - 10^{11}$ & 2 & \cite{Gaisser:2013bla} & SpiceLea & 11937 \\ \hline
+CORSIKA-in-ice & LE 5-comp. & $600 - 10^5$ & 2.6 & \cite{Gaisser:2013bla} & SpiceLea & 11499 \\ \hline
+CORSIKA-in-ice & LE 5-comp. & $600 - 10^5$ & 2.6 & \cite{Gaisser:2013bla} & SpiceLea & 11808 \\ \hline
+CORSIKA-in-ice & LE 5-comp. & $600 - 10^5$ & 2.6 & \cite{Gaisser:2013bla} & SpiceLea & 11865 \\ \hline
+CORSIKA-in-ice & LE 5-comp. & $600 - 10^5$ & 2.6 & \cite{Gaisser:2013bla} & SpiceLea & 11905 \\ \hline
+CORSIKA-in-ice & LE 5-comp. & $600 - 10^5$ & 2.6 & \cite{Gaisser:2013bla} & SpiceLea & 11926 \\ \hline
+CORSIKA-in-ice & LE 5-comp. & $600 - 10^5$ & 2.6 & \cite{Gaisser:2013bla} & SpiceLea & 11943 \\ \hline
+CORSIKA-in-ice & LE 5-comp. & $600 - 10^5$ & 2.6 & \cite{Gaisser:2013bla} & SpiceLea & 12161 \\ \hline
+CORSIKA-in-ice & LE 5-comp. & $600 - 10^5$ & 2.6 & \cite{Gaisser:2013bla} & SpiceLea & 12268 \\ \hline
+GENIE & $\nu_\mu$ & $0.5 - 100$ & 1 & \cite{Honda:2015fha} & SpiceMie & 12475 \\ \hline
+\cellcolor[HTML]{9B9B9B} &  &  &  & atmos.: \cite{Honda:2006qj} &  &  \\
+\cellcolor[HTML]{9B9B9B} &  &  &  & prompt: \cite{Enberg:2008te} &  &  \\
+\multirow{-3}{*}{\cellcolor[HTML]{9B9B9B}NuGen} & \multirow{-3}{*}{$\nu_\mu$} & \multirow{-3}{*}{$100 - 10^8$} & \multirow{-3}{*}{2} & astro.: HESE 4y fit & \multirow{-3}{*}{SpiceLea} & \multirow{-3}{*}{11029} \\ \hline
+\cellcolor[HTML]{9B9B9B} &  &  &  & atmos.: \cite{Honda:2006qj} &  &  \\
+\cellcolor[HTML]{9B9B9B} &  &  &  & prompt: \cite{Enberg:2008te} &  &  \\
+\multirow{-3}{*}{\cellcolor[HTML]{9B9B9B}NuGen} & \multirow{-3}{*}{$\nu_\mu$} & \multirow{-3}{*}{$100 - 10^8$} & \multirow{-3}{*}{2} & astro.: HESE 4y fit & \multirow{-3}{*}{SpiceLea} & \multirow{-3}{*}{12346} \\ \hline
+\cellcolor[HTML]{9B9B9B} &  &  &  & atmos.: \cite{Honda:2006qj} &  &  \\
+\cellcolor[HTML]{9B9B9B} &  &  &  & prompt: \cite{Enberg:2008te} &  &  \\
+\multirow{-3}{*}{\cellcolor[HTML]{9B9B9B}NuGen} & \multirow{-3}{*}{$\nu_\mu$} & \multirow{-3}{*}{$100 - 10^8$} & \multirow{-3}{*}{2} & astro.: HESE 4y fit & \multirow{-3}{*}{SpiceLea} & \multirow{-3}{*}{11883} \\ \hline
+\cellcolor[HTML]{9B9B9B} &  &  &  & atmos.: \cite{Honda:2006qj} &  &  \\
+\cellcolor[HTML]{9B9B9B} &  &  &  & prompt: \cite{Enberg:2008te} &  &  \\
+\multirow{-3}{*}{\cellcolor[HTML]{9B9B9B}NuGen} & \multirow{-3}{*}{$\nu_e$} & \multirow{-3}{*}{$100 - 10^8$} & \multirow{-3}{*}{2} & astro.: HESE 4y fit & \multirow{-3}{*}{SpiceLea} & \multirow{-3}{*}{12034} \\ \hline
+\cellcolor[HTML]{9B9B9B} &  &  &  & atmos.: \cite{Honda:2006qj} &  &  \\
+\cellcolor[HTML]{9B9B9B} &  &  &  & prompt: \cite{Enberg:2008te} &  &  \\
+\multirow{-3}{*}{\cellcolor[HTML]{9B9B9B}NuGen} & \multirow{-3}{*}{$\nu_e$} & \multirow{-3}{*}{$100 - 10^8$} & \multirow{-3}{*}{2} & astro.: HESE 4y fit & \multirow{-3}{*}{SpiceLea} & \multirow{-3}{*}{12646} \\ \hline
+\end{tabular}
+\end{table}
+
+\subsection{Signal simulation}
+hier ook verband met secondary effects aanhalen, dat dit een z2/z4 afhankelijkheid heeft. Ook dat het met die cylindervorm werkt en schieten vanaf schijf enzovooort
+
+
+Processing ergens: online L0, L1, L2, uw filters,...
+
+\section{Propagation}
+\subsection{PROPOSAL}
+\subsection{PPC}
+Hier ook indirect cherenkov light component
+Cross-sections al uitgelegd in hoofdstuk 4, hier beter omschrijven HOE er omgegaan werd met die formules!
+
+Iets van wavelength dependence van Frank-Tamm:
+
+\begin{equation}
+\frac{dN}{dx} = \int_{\lambda_1}^{\lambda_2} \frac{2 \pi \alpha}{\lambda^2} \sin^2 \left(\theta_c\right) d\lambda = 2\pi \alpha \sin^2 \left(\theta_c\right) \left(\frac{1}{\lambda_1} -\frac{1}{\lambda_2}\right).
+\end{equation}
+The PMTs in the DOMs are most sensitive between 300-650 nm and from the formula above we can calculate that this have an expected rate of around 350 photons per cm for a Cherenkov emission profile. En spiceMie paper, waar die 2450 ph/meter wordt uitgelegd (fig 8)
+
+\section{Data processing}
+Hier ook een flowchart?
+\section{Weighting}
+\label{sec:weighting}
+
+
+
+\textcolor{red}{Icetray ergens????}
+Icetray is a modular framework, mostly written in C++ for fast computation. A python interface for most modules is provided for fast and easy implementation of the code. The framework is used both online and offline.
+Iets met dagman/condor.
+
+IceProd:
+V1) https://arxiv.org/abs/1311.5904
+V2) http://iopscience.iop.org/article/10.1088/1742-6596/664/6/062056/meta
+
