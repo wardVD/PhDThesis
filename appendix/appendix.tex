@@ -98,4 +98,129 @@ Substituting this for $kT$ in eq. \ref{eq:rayleigh} we find Planck's equation:
 \frac{du}{d\nu} = \frac{8\pi h \nu^3}{c^3} \frac{h\nu}{e^{h\nu/kT} - 1}
 \end{equation}
 
+\chapterimage{gauss.png}
+\chapter{Statistics}
+A word that is often mentioned in this work is ``statistics''. It refers to the statistical error of a counting experiment, i.e. the Poissonian error. The Poisson distribution is a discrete probability of a certain number of $n$events occurring in a fixed time interval. The Poisson probability function is given by
+
+\begin{equation}
+P(n) = \frac{\lambda^n e^{-\lambda}}{n!},
+\end{equation}
+
+\noindent where $\lambda$ is the expected number of events and also equal to the variance. An experiment that counted $N$ events therefore has a statistical error of
+
+\begin{equation}
+\sigma = \sqrt{N}
+\end{equation}
+
+\noindent In other words: higher statistics denotes a lower statistical error.
+
+\chapterimage{random_crop.png}
+\chapter{Distributions}
+\label{ch:distributions}
+
+\section{Spherical random numbers}
+\label{sec:sphericalrandom}
+Most random number generators provide uniform distributions from between the range $[01,]$. Assume we want to make a uniform distribution along a sphere with angles $\phi$ and $\theta$ and radius $r$, in spherical coordinates. Random numbers between $[0,\pi]$, $[0,2\pi]$ and $[0,R]$ (the ranges of the coordinates) would not give a uniform distribution as illustrated in Fig. \ref{fig:sphere} (left).
+
+\begin{figure}
+\centering
+\includegraphics[width=0.49\textwidth]{appendix/img/badrandom.png}
+\includegraphics[width=0.49\textwidth]{appendix/img/goodrandom.png}
+\caption{Blub}
+\label{fig:sphere}
+\end{figure}
+
+\noindent The differential surface area, $dA$, is equal to $dA(d\phi,d\theta) = r^2 \sin(\phi) d\phi d\theta$. If we want the distribution $f(v)$ to be constant for a uniform distribution, then $f(v) = \frac{1}{4\pi}$ since $\int \int_S f(v)dA = 1$ and $\int \int_S dA = 4\pi$. We want the distribution in function of the angles, so
+
+\begin{equation}
+f(v)dA = \frac{1}{4\pi} dA = f(\phi,\theta)d\phi d\theta.
+\end{equation}
+
+\noindent Since we know the expression for $dA$, we find that
+
+\begin{equation}
+f(\phi,\theta) = \frac{1}{4\pi} \sin(\phi),
+\end{equation}
+and separating the angles:
+
+\begin{alignat}{2}
+f(\theta) =&& \int^\pi_0 f(\phi,\theta)d\phi = \frac{1}{2\pi}, \\
+f(\phi)   =&& \int^{2\pi}_0 f(\phi,\theta)d\theta = \frac{\sin(\phi)}{2},
+\end{alignat}
+\noindent where it is clear that $f(\pi)$ scales with $\sin(\phi)$; there are more points needed at the equator (this makes sense, as the total surface at the equator is much larger!).\\
+
+\noindent The question is now how one can get a sample to follow the distribution of $f(\phi)$. For this, we use the \textit{inverse transform sampling} method where one makes use of the cumulative distribution function, $F(\phi)$, which increases monotonically
+
+\begin{equation}
+F(\phi) = \int^\phi_0 f(\phi')d\phi' = \frac{1}{2} \left(1-\cos(\phi)\right).
+\end{equation}
+
+\noindent The method shows that if $u$ is a random variable drawn from a uniform distribution, we have to find the inverse function of $F$,
+
+\begin{align}
+F(F^{-1}(u)) =& u \\
+\frac{1}{2} \left(1-\cos(F^{-1}(u))\right) =& u\\
+F^{-1}(u) =& \arccos(1-2u).
+\end{align}
+
+\noindent In other words: if $u$ is a random variable drawn from a uniform distribution, then $\phi = \arccos(1-2u)$ follows a distribution necessary for a uniform spherical distribution. Similarly, $\theta = \frac{1}{2\pi} u$.
+\section{Power law distributions}
+Analogous to what was written in the previous section, one can produce a power law distribution from random numbers using the inverse transform sampling method: 
+\begin{equation}
+    \begin{split}
+    f(E) &= A\cdot E^{-\gamma} \rm\ \ \ (power law)\\
+            F(E) &= \int^{E}_{E_{min}} A \cdot E^{-\gamma} dE = u \text{\ \ (inverse sampling, u random number [0,1])}\\
+            &= A \left[\frac{E^{-\gamma+1}}{-\gamma+1}\right]^E_{E_{min}}\\
+            &= \frac{A}{-\gamma+1}\left(E^{-\gamma+1}-E_{min}^{-\gamma+1}\right)\\
+            F\left(F^{-1}(u)\right) &= u\\
+            &\Rightarrow\\
+            u &= \frac{A}{-\gamma+1}\left(\left(F^{-1}(u)\right)^{-\gamma+1}-E_{min}^{-\gamma+1}\right)\\
+            F^{-1}(u) &= \left(\left(\frac{-\gamma+1}{A}\cdot u\right)+ E_{min}^{-\gamma+1}\right)^{1/(-\gamma+1)}\\
+            &\text{and because}\\
+            F(E_{max}) = 1 &\Rightarrow A = \frac{-\gamma+1}{E_{max}^{-\gamma+1}-E_{min}^{-\gamma+1}}\\
+            &\Rightarrow\\
+            F^{-1}(u) &= \left((1-u) \cdot E_{min}^{-\gamma+1} + u \cdot E_{max}^{-\gamma+1}\right)^{1/(-\gamma+1)}\\
+            \text{$E$ will follow from the distribution $f(E)$ as}\\
+            E &= \left((1-u) \cdot E_{min}^{-\gamma+1} + u \cdot E_{max}^{-\gamma+1}\right)^{1/(-\gamma+1)}\\ 
+            \end{split}
+            \end{equation}
+            For $\gamma$ = -1, we will make a uniform distribution in log space. This is shown in Fig. \ref{fig:powerlawrandom}.
+            \begin{equation}
+            \begin{split}
+            E &= E_{min} \cdot 10^{u\cdot \log{\frac{E_{max}}{E_{min}}}}\\
+            &= 10^{u[\log{E_{min}},\log{E_{max}}]}
+\end{split}
+\end{equation}
+            
+\begin{figure}
+\centering
+\includegraphics[width=0.48\textwidth]{appendix/img/probabilitypowerlaw_index1}
+\includegraphics[width=0.48\textwidth]{appendix/img/probabilitypowerlaw_index2}
+\caption{Blub}
+\label{fig:powerlawrandom}
+\end{figure}
+
+\section{Angular distributions}
+\label{sec:angularappendix}
+As seen in Section \ref{sec:sphericalrandom}, the differential space angle $d\Omega$ is equal to
+
+\begin{equation}
+d\Omega = \sin\theta d\theta d\phi.
+\end{equation} 
+
+\noindent If one shows the distribution of $\phi$ and/or $\theta$, then this is the same as showing partial integrations per bin. We find that
+
+\begin{equation}
+\Omega \propto \cos\theta \phi,
+\end{equation}
+
+\noindent or in other words: the space angle is proportional to the azimuth and the cosine of the zenith. An example is shown in Fig. \ref{fig:spaceangle}.
+
+\begin{figure}
+\centering
+\includegraphics[width = 0.8\textwidth]{appendix/img/spaceangle.png}
+\caption{Illustration of angle distributions in spherical coordinates. The blue and red surfaces are equal in size. The left figure clearly shows the surface to be proportional to the azumith. The right figure shows how there is a non-trivial dependence on the zenith angle for equal partitions on the surface of a sphere.}
+\end{figure}
+
+
 \end{appendices}

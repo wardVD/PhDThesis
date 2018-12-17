@@ -1,17 +1,21 @@
 [0] Config.pm:340> INFO - This is Biber 2.4
 [0] Config.pm:343> INFO - Logfile is 'main.blg'
-[40] biber:287> INFO - === Tue Dec 11, 2018, 18:04:28
-[151] Biber.pm:348> INFO - Reading 'main.bcf'
-[336] Biber.pm:742> INFO - Found 7 citekeys in bib section 0
-[342] Biber.pm:3151> INFO - Processing section 0
-[373] Biber.pm:3308> INFO - Looking for bibtex format file 'bibliography.bib' for section 0
-[814] bibtex.pm:1113> INFO - Decoding LaTeX character macros into UTF-8
-[1216] bibtex.pm:974> INFO - Found BibTeX data source 'bibliography.bib'
-[1289] Utils.pm:147> WARN - I didn't find a database entry for 'SAMCITEREN+andere' (section 0)
-[1336] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1336] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1337] Biber.pm:3028> INFO - Sorting list 'none/global' of type 'entry' with scheme 'none' and locale 'en-US'
-[1337] Biber.pm:3032> INFO - No sort tailoring available for locale 'en-US'
-[1344] bbl.pm:519> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[1379] bbl.pm:615> INFO - Output to main.bbl
-[1380] Biber.pm:109> INFO - WARNINGS: 1
+[41] biber:287> INFO - === Thu Dec 13, 2018, 18:01:14
+[143] Biber.pm:348> INFO - Reading 'main.bcf'
+[314] Biber.pm:742> INFO - Found 146 citekeys in bib section 0
+[322] Biber.pm:3151> INFO - Processing section 0
+[358] Biber.pm:3308> INFO - Looking for bibtex format file 'bibliography.bib' for section 0
+[833] bibtex.pm:1113> INFO - Decoding LaTeX character macros into UTF-8
+[1255] bibtex.pm:974> INFO - Found BibTeX data source 'bibliography.bib'
+[1308] Utils.pm:147> WARN - ISBN '9780201503975, 0201503972' in entry 'Peskin:1995ev' is invalid - run biber with '--validate_datamodel' for details.
+[1917] Utils.pm:147> WARN - ISBN '9780521016469, 9781316598917' in entry 'Gaisser:2016uoy' is invalid - run biber with '--validate_datamodel' for details.
+[2376] Utils.pm:147> WARN - I didn't find a database entry for 'SAMCITEREN+andere' (section 0)
+[2377] Utils.pm:147> WARN - I didn't find a database entry for 'Honda:2015fna' (section 0)
+[2381] Utils.pm:147> WARN - The field 'pages' in entry 'weiswynands:2003' cannot be null, deleting it
+[3274] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[3274] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[3274] Biber.pm:3028> INFO - Sorting list 'none/global' of type 'entry' with scheme 'none' and locale 'en-US'
+[3274] Biber.pm:3032> INFO - No sort tailoring available for locale 'en-US'
+[3387] bbl.pm:519> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[3852] bbl.pm:615> INFO - Output to main.bbl
+[3852] Biber.pm:109> INFO - WARNINGS: 5
