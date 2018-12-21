@@ -1,7 +1,203 @@
-\chapter{Reconstruction and ???}
-\section{IceHive}
-\section{Line-Fit}
-Brenda Dingus thesis
-\section{SPE and MPE}
-\section{\textsc{Millipede}}
+\chapter{Reconstruction, Cleaning and Analysis Techniques}
+\label{ch:reconstruction}
+\begin{flushright}
+\textit{Shall I refuse my dinner because I do not fully understand the process of digestion? $\sim$ Oliver Heaviside}
+\end{flushright}
+Because the in-ice IceCube detecor is a sparsely distributed detector, it is not straightforward to unambiguously reconstruct the particle (interactions). The scattering and absorption of photons, tilt of ice sheets, bubble column, etc. lead to uncertainties and make reconstruction challenging. Over the years, multiple reconstruction methods have been developed in the collaboration. They range from very fast (and simple) reconstructions, necessary for online filtering, to slow (and more refined) ones. Multiple reconstruction algorithms have been used in this analysis and are explained in more detail in this chapter.
+
+
+
+\section{Reconstruction}
+
+\subsection{Likelihood}
+Reconstruction algorithms usually have no unique solutions to describe the set of measured values of an event. The likelihood $\mathcal{L}(\vec{x} |\vec{a})$ describes the probability of a set of parameters ${\vec{a}}$ and a set of experimentally measured values ${\vec{x}}$. The parameters, ${\vec{a}}$, typically define the particle's characteristics (energy, direction, position, type, etc.) while the measured values ${\vec{x}}$ are determinded from the detector response (number of PE, timing, position of hit DOMs, etc.). This likelihood is equal to the cumulative probability
+
+\begin{equation}
+\mathcal{L}(\vec{x}|\vec{a}) = \prod_i p(x_i|\vec{a}),
+\end{equation}
+\noindent where $p(x,\vec{a})$ is the probability that we measure a certain value $x$ from a set of independent values $\vec{x}$ given an initial set of parameters $\vec{a}$. The best possible guess for the unknown parameters $\vec{a}$ is the most likely set that will result into the experimental values. This is done by maximizing the likelihood $\mathcal{L}$. The reconstruction algorithms below rely on following parameters that assume a single, long track
+
+\begin{equation}
+\label{eq:vec}
+\vec{a} = (\vec{r_0},t_0,\vec{p},E_0),
+\end{equation}
+\noindent where $r_0$ is the position vector of the particle at a time $t_0$ with a direction $\vec{p}$ and initial energy $E_0$. 
+
+\subsection{\texttt{Line-Fit}}
+\textcolor{red}{Dit niet voor IceHive? Reconstr. wordt daar ook geintroduceerd... Toch in Coincsuite}\\
+
+\begin{figure}
+\centering
+\includegraphics[width=0.6\textwidth]{chapter7/img/linefit.png}
+\caption{Figure illustrating how LF works. The position, $\vec{r}$, and velocity, $\vec{v}_\textrm{part}$ minimizing the distance of the DOMs to the track is calculated. The dotted line is one distance that is minimized in Eq. \ref{eq:lf}.}
+\label{fig:lf}
+\end{figure}
+
+\noindent One of the most simple approaches in constructing a parameter profile is by calculating the track that, overall, has the closest approach of all the hit doms and is called \texttt{Line-Fit}\index{Line-Fit} (LF) \cite{Ahrens:2003fg}. If we assume that a particle starts at a position, $\vec{r}$ at a time 0 and travels at a velocity of $\vec{v}_\textrm{part}$, then its position at any given time is
+
+\begin{equation}
+\vec{r'} = \vec{r} + \vec{v}_{\textrm{part}}t.
+\end{equation}
+
+\noindent We want to calculate the best possible estimate of the velocity $\vec{v}_\textrm{part}$ and the position $\vec{r}$. Each DOM has a known location, $\vec{r}_i$, and measured time of a pulse, $t_i$. In this algorithm one assumes that a wavefront perpendicular to the particles direction is traveling along with the particle. If the veloctity $\vec{v}_\textrm{part}$ is fixed, then the position of the particle is known (black points in Fig. \ref{fig:lf}). However, because the Cherenkov wavefront should be set at an angle and scattering, PMT jitter, noise, etc. are not taken into account, this will not agree with the DOM position projected along the particle path (grey dots). The unknown velocity $\vec{v}_\textrm{part}$ and position $\vec{r}$ are the analytical solutions after minimizing the distances $d_i$ as shown in the figure\footnote{Minimizing $r_i - r'$ (dotted line in Fig. \ref{fig:lf}) is the same as minimizing $d$.}
+
+\begin{equation}
+\label{eq:lf}
+\begin{split}
+S(\vec{r},\vec{v}_{\textrm{part}}) &= \sum^{N_{\textrm{hit}}}_{i=1} \rho(\vec{r},\vec{v}_\textrm{part},\vec{r}_i,t_i)^2\\
+&\equiv \sum^{N_{\textrm{hit}}}_{i=1} \left(\vec{r}_i - \vec{r} - \vec{v}_\textrm{part}t_i \right)^2,
+\end{split}
+\end{equation}
+\noindent where $N_\textrm{hit}$ are the number of hits. The analytical solution by minimizing this equation is equal to
+
+\begin{equation}
+\vec{r} = \langle\vec{r}_i\rangle - \vec{v}_\textrm{part} \ \ \ \textrm{and}\ \ \ \vec{v}_\textrm{part} = \frac{\langle \vec{r}_i t_i\rangle - \langle \vec{r}_i \rangle \langle t_i \rangle }{\langle t_i^2 \rangle - \langle t_i \rangle^2},
+\end{equation}
+\noindent where $\langle x \rangle$ denotes the average of a parameter $x$ over all hits $i$. Because this is an analytical equation, this algorithm is very fast and therefore often used in online processing.
+ 
+\subsubsection{\texttt{Improved Line-Fit}}
+While disregarding the Cherenkov profile is inherent to the simplified LF model chosen for computational reasons, removing hits generated by photons that scattered for a significant length of time will mitigate the effect of ignoring the photon scattering in the ice. It was found that a basic filter could identify these scattered hits, and improve accuracy by almost a factor of two by removing them from the dataset. More formally, for each hit $h_i$, the algorithm looks at all neighboring hits within a neighborhood of $\mu$, and if there exists a neighboring hit $hj$ with a time stamp that is $t$ earlier than $h_i$, then $h_i$ is considered a scattered hit, and is not used in the basic reconstruction algorithm. Optimal values of $\mu$ and $t$ were found to be 156 m and 778 ns by tuning them on simulated muon data \cite{Aartsen:2013bfa}.\\
+
+\noindent This ``delay cleaning'' is done by computing the Huberfit on the remaining data points and minimizing
+
+\begin{equation}
+\sum^{N_{\textrm{hit}}}_{i=1} \phi(\rho(\vec{r},\vec{v}_\textrm{part},\vec{r}_i,t_i)),
+\end{equation}
+\noindent where $\rho$ was defined in Eq. \ref{eq:lf} and the Huber penalty function $\phi$ is defined as
+
+\begin{equation}
+\phi(\rho) \equiv \left\{
+    \begin{array}{ll}
+        \rho^2 &\textrm{if } \rho < \mu \\
+        \mu\left(2\rho - \mu\right) & \textrm{if }\rho \leq \mu
+    \end{array}
+    \right.
+    .
+\end{equation}
+\noindent Because of the overal performance increase of this method, all LF computations were done with the improved version (although still often referred to as ``Line-Fit'').
+
+\subsection{SPE and MPE}
+A more intricate method of track reconstruction is done by taking the geometrical shape of the Cherenkov cone into account and relying on simulation fits where a seed track is implemented (usually from the fast Line-Fit algorithm).
+
+
+\begin{figure}
+\centering
+\includegraphics[width=0.6\textwidth]{chapter7/img/reconstruction.png}
+\caption{Figure illustrating a muon track passing close by an optical module and defining the parameters used in the reconstruction algorithms.}
+\label{fig:reconstruction}
+\end{figure}
+
+Let us assume a particle is traveling close to a DOM with parameters defined in Eq. \ref{eq:vec} as illustrated in Fig. \ref{fig:reconstruction}. The minimal distance of the track to the DOM is equal to $d$ and the PMT-axis (downwards relative to DOM) has an angle offset of $\eta$ degrees of the Cherenkov wave direction. In perfect conditions, the \textit{time residual} (time between the observed hit time and the ``expected'' time ) is a delta function, where
+
+\begin{equation}
+t_{\textrm{res}} \equiv t_{\textrm{hit}} - t_{\textrm{geo}},
+\end{equation}
+\noindent with
+
+\begin{equation}
+t_\textrm{geo} = t_0 + \frac{\vec{p} \cdot (\vec{r}_i - \vec{r}_0) + d\tan \theta_c}{c_\textrm{vac}},
+\end{equation}
+\noindent which is equal to the time of the particle to travel from the position $\vec{r}_0$ to $\vec{r}'$ as illustrated in the figure. The accompanying Cherenkov wavefront that sent out photons at a time $t_0$ from $\vec{r}_0$ will cross the DOM when the particle is at a position $\vec{r}'$. Due to noise effects, PMT jitter, light from secondary interactions, DOM orientation, etc. the time risidual is smeared and shifted. The p.d.f. was estimated with photon simulations in ice and fitted to a Pandel function \ref{Ahrens:2003fg}. The time likelihood profile for single photons $i$ at the locations of the hit DOMs is then
+
+\begin{equation}
+\mathcal{L}_\textrm{time} = \sum^{N_\textrm{hit}}_{i=1} p_1 (t_\textrm{res} | \vec{a} = {d_i,\eta_i,...}).
+\end{equation}
+\noindent An initial particle position and direction are found by maximizing the likelihood and iterated a couple of times to find the global maximum instead of a local. This fitting is called the Single PhotoElectron (SPE)\index{SPE} fit.\\
+
+\noindent The description of single photons arriving at the optical modules cannot be correct since electrical and optical signal channels can only resulve multiple photons separated by a few 100 ns and $\approx$ 10 ns, respectively. In the Multi-PhotoElectron (MPE) fit, one accounts for the fact that the early photons in a DOM hit scattered less in the ice. The p.d.f. for the first photon out of a total of $N$ to arrive with a time residual of $t_textrm{res}$ is
+
+\begin{equation}
+p^1_N (t_\textrm{res}) = N \cdot p_1(t_\textrm{res}) \cdot \left(\int^\infty_{t_\textrm{res}} p_1(t) dt \right)^{(N-1)} = N \cdot p_1 (t_\textrm{res}) \cdot (1-P_1 (t_\textrm{res}))^{(N-1)},
+\end{equation}
+\noindent where $P_1$ is the cumulative distribution of the single photon p.d.f..
+\subsection{\texttt{Millipede}}
+To have a better handle on the particle energy and cascades along the track, the module \texttt{Millipede} was developed. The number of photons seen at each optical module depends on multiple factors (that were mentioned throughout this text, such as the ice characteristics, timing, etc. In this module, the expected number of photons is said to depend on the energy that was deposited and a \textit{light yield factor} that depends on the DOM position and the location of emission along the track
+
+\begin{equation}
+N_{\textrm{exp},k} = \rho_k + \sum^n_{i=1} \Lambda(\vec{r}_k,\vec{r}_i') E_i,
+\end{equation}
+where $k$ refers to a certain DOM and $i$ refers to a certain energy deposit such as illustrated in Fig. \ref{fig:millipede}.
+
+\begin{figure}
+\centering
+\includegraphics[width=0.6\textwidth]{chapter7/img/millipede.png}
+\caption{Blub}
+\label{fig:millipede}
+\end{figure}
+
+More information can be found in ... and Stef Verpoest his master thesis.
+%\section{Event splitting}
+%Multiple triggers are combined into one event by the event builder (see Section \ref{subsec:triggers}. The triggerspl
+
+\subsection{FiniteReco}
+\subsection{Paraboloid}
+
+\section{Pulse cleaning}
+\label{sec:pulsecleaning}
+As explained in Section \ref{subsec:calibration}, each DOM in IceCube has an intrinsic noise rate. This dark noise is observed in every triggered event and seen as random hits in the detector added to the hit pattern of tracks and cascades. These spurious hits are a large nuisance factor in event reconstructions, leading to misidentification and errors in the result. Noise cleaning should be done in early stages of event processing and analysis to reduce a large rate of bad reconstructed events that pass cut selections. One of the most conservative ways is to only look at HLC hits (\textit{HLC cleaning}), but is too demanding for most low-energetic events that will have multiple hits from isolated DOMs. 
+
+Another, more conservative method, is the \textit{seededRT} \index{seededRT} algorithm. This method relies on the ``RT cut'', which was already implemented in AMANDA. $R$ is a designed radius and $T$ refers to the time between multiple possible pulse times (e.g. the pulse of one DOM starts during the time window of of a second DOMs pulse, or stops during the time window). The full description can be found in Ref. \cite{RTcutwiki}, but can be summarized as: DOMs are required to be in a temporal and spacial coincidence that is physically possible (e.g. signal between DOMs cannot exceed the speed of light in vaccuum). This method is however computationally expensive since all DOM pairs have to be looped over\footnote{The number of pairs for $n$ DOMs is equal to $\frac{1}{2}n(n-1)$ and scales with $n^2$.}. The seededRT algorithm takes a subset of seeds that are considered to be mostly signal related hits. These seeds can be provided by, for example, using HLC information. By adding all further hits found within the seeds RT-range to the list of seed hits and iterating until a convergence, only those (SLC) hits are kept which cluster around the initial seed hits. Outlying noise hits are supposedly not added and thus removed in the cleaned output. This method does not scale as drastically as the original RT cut method.
+
+
+\section{\texttt{IceHive}}
+In Section \ref{subsec:triggers}, it was explained how multiple triggers were combined into one global trigger. In a first step, Q-frames are simply re-split into the individual events that belong to the different subtriggers. In about 10\% of cases the data read out in one of these P-frames contains more than one primary interaction. This pile-up effect is referred to as \textit{coincident events}\index{coincident events}. This is a direct result of the traversal time of a couple of microseconds in the detector\footnote{The speed of light in vaccuum is equal to $\approx$ 0.3 m/ns, meaning the particle travels around 100 m in 0.3 $\mu$s, without accounting for the delayed photon propagation necessary for detection.}, the large flux of low-energetic events and the trigger time windows of a couple of microseconds. This can be problematic for reconstructions, as can be seen in Fig. \ref{fig:coincident} where two downgoing muons can be reconstructed as an upgoing track.\\
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.8\textwidth]{chapter7/img/coincidenteventsCORS.png}
+\caption{Event display of a simulated coincident event of two downgoing muons. The colors of the event range from red (early) to blue (late). The first muon hits the bottom of the detector, while the second traverses mainly the upper part. These events are often reconstructed as up-going and therefore result in a large background contribution. The scattered isolated hits are due to noise effects and mostly removed by pulse cleaning.}
+\end{figure}
+
+\noindent There are two modules that try to clean events more thoroughly than pulse cleaning alone. The first is \textit{TopolocalSplitter}\index{TopologicalSplitter}(TS), which starts from the Q-frames and loops over pulses and splits the event into clusters of pulses that contain at least a number of causally\footnote{The time between two DOM hits cannot be less than the time that light may have taken.} connected pulses within a certain time window. Some extra cleaning, similar to seededRT cleaning, is done in addition and can split coincident events that have overlapping readout windows, but are geometrically separated.
+
+The second module, and also used in this analysis, is called \texttt{IceHive}. A full description can be found in the doctoral thesis of M. Zoll \cite{mzollthesis}. The module consists of two main parts: one that splits events and handles coincident events, \texttt{HiveSplitter} and another that has a refined pulse cleaning, \texttt{HiveCleaning}.
+
+\subsection{\texttt{HiveSplitter}}
+The module assumes that individual particles will create \textit{clusters} of hits in the detector. A cluster can grow within a certain time window, but is separated from another cluster if it's not spatially connected. An initial cluster is formed if the multiplicity of hits exceeds a certain threshold (usually 3 or 4). The main difference in this module versus TS is that is uses hexagons to describe the detector instead of assuming a spherical parameterization. It makes more sense to optimize the search volume, where hits are clustered together, with a shape that describes the detector well and uses a discrete spacing between larger volumes instead of a uniformly growing sphere. The hexagonal shape is set by defining three heights. The first height is defined along the string of the hit DOM and is equal to the vertical distance along the string where another. The second height is the vertical height along the neighboring strings. The third hight is the vertical height along the next-to-neighboring strings. An example is shown in Fig. \ref{fig:hexagon}.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.5\textwidth]{chapter7/img/hexagons.png}
+\includegraphics[width=0.4\textwidth]{chapter7/img/cherenkovzoll.png}
+\caption{\textit{Left: }The black circle illustrates a DOM that triggered a hit in the detector. The grey circles symbolize the DOMs along the string of the hit DOM. The number of DOMs that can be included in the active volume depends on the height defined by the module. The blue/purple DOMs belong to the neighboring strings and the red DOMs to the next-to-neighboring strings. The heights of both these sets of DOMs are also set by the module. This example shows $h_2 > h_1 > h_3$, the heights are also asymmetric in this example. \textit{Right: }Illustration of Cherenkov emission profile of a traversing particle. Both figures from Ref. \cite{mzollthesis}.}
+\label{fig:hexagon}
+\end{figure}
+When the active region is set, additionally it is checked if DOMs can be ``connected''. \texttt{IceHive} assumes certain emission profiles (for both cascades as tracks) where light is produced. Three possible connections are checked:
+
+\begin{enumerate}
+\item Hits occur at the same time, but at a spatial distance in agreement with the Cherenkov emission profile (hits C\&1 and 2\&3 in Fig. \ref{fig:hexagon})
+\item Hits occur at a different time and a different location, but in agreement with the Cherenkov emission profile (hits C\&2 in Fig. \ref{fig:hexagon}).
+\item Hits on topologically identical sites of an emission pattern that has moved along with the propagation of the particle (hits C\&3 and hits 1\&2 on Fig. \ref{fig:hexagon}).
+\end{enumerate}
+These clusters are finally separated into different events, P-frames.
+
+\subsection{\texttt{HiveCleaning}}
+Additionally, a similar cleaning as explained in Section \ref{sec:pulsecleaning} can be performed. Isolated hits that do not have neighbouring hits occurring within a certain distance within a certain time window, are removed. The main difference between this and seededRT cleaning is that the module again uses the hexagons as defined in the previous section.\\
+
+\noindent the usage of \texttt{IceHive} has a great performance in separating coincident events, but often ``overperforms'' and splits clusters of hits that are originating from the same particle. This is predominantly the case for dim tracks that have large separations in between clusters (most of the triggered SMP events are of this type). It is because of this that the module \textit{CoincSuite} \index{CoincSuite} was designed.
+
+\section{CoincSuite}
+\begin{figure}[t]
+\centering
+\includegraphics[width=\textwidth]{chapter7/img/coincsuite.png}
+\caption{Schematic illustrations of possible recombination scenarios with the \texttt{CoincSuite} module.}
+\label{fig:coincsuite}
+\end{figure}
+Several testing algorithms allow to check if two or more split P-frames can originate from a single event. Five different scenarios were tested in this analysis, the first four are also chronologically shown in Fig. \ref{fig:coincsuite}:
+\vspace{2mmtw
+}
+\begin{enumerate}
+\item Cluster alignment: the reconstructed direction of the individual clusters is compared to the direction of a reconstruction that uses the combined hits (HypoFit). The directions should be within a certain criticle angle.
+\item Cylinder cluster containment: the DOMs of the individual clusters should be able to be grouped together in a cylinder that has its center and direction along the HypoFit.
+\item Cylinder cluster alignment: a cylinder around the recontruction of each cluster is draw. The cylinders should overlap within a certain fraction.
+\item COG\footnote{Uitleggen wat COG is} connection: the second quarter of the COG of the first cluster and the third quarter of the COG of the second cluster are computed. These COG should lie close enough and have to be in the vicinity of the HypoFit.
+\item Velocity test: tests if the velocity of the HypoFit is close to the speed of light.
+\end{enumerate}
+
+\vspace{2mm}
+\noindent These tests lead to a successful recombination of signal events while the advantage \texttt{IceHive} was not lost.
+
+
+
+\section{Analysis techniques}
 \section{Boosted Decision Tree Classifiers}

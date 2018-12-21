@@ -131,6 +131,7 @@ The two sets of ATWD chips are operated alternately in order to reduce deadtime.
 The delay board consists of a 10 m-long copper trace that is able to delay the signal for 75 ns necessary to be able to record the full waveform, even before the discriminator threshold.
 
 \subsection{Calibration devices}
+\label{subsec:calibration}
 Regular calibration of the components is necessary to be able to convert the DOM waveforms into physical constants. Some calibration procedures do not allow for simultaneous data-taking and are performed as few as possible, without losing significant confidence in the calibration of the devices. In-ice DOMs are calibrated yearly with the DOMCal procedure. Global time calibration can be done in parallel with data-taking and is provided by the RAPCal procedure. Optical efficiencies of the devices were determined in the lab before deployment and are also done \textit{in situ}. ``Dark noise'' results in the vast majority of the background hits and needs to be properly understood for low-energy neutrino analyses, supernova searches, and detector simulations. The total rate of dark noise averages at around 560 Hz for in-ice DOMs and 780 Hz for HQE DOMs. The origins of the noise are non-trivial and include electronic noise, themionic emission, Cherenkov light from radioactive decays, field emission within the PMT, and scintillation/luminescence in the glass of the PMT and pressure sphere. They are simulated with a combination of uncorrelated (Poissonian) noise and a correlated component. More information about these procedures can be found in \cite{Aartsen:2016nxy}.
 
 \subsection{Cable systems}
@@ -164,7 +165,7 @@ In total 5484 (5160 IC + 324 IT) optical modules were deployed and as of 2018, t
 \caption{Schematic overview of the data flow in the primary IceCube online systems.}
 \label{fig:dataflow}
 \end{figure}
-First processing of the photon detection is done inside the DOM as explained in Section \ref{subsec:mainboard}: hits flagged as SLC are compressed more aggressively compared to HLC hits that have their entire waveform digitized. This information is sent along the cable/string to which all DOMs are attached and runs to the ICL. Each one of the strings is connected to one of the DOMHubs, which together with servers that run various online systems, comprised the South Pole System (SPS).
+First processing of the photon detection is done inside the DOM as explained in Section \ref{subsec:mainboard}: hits flagged as SLC are compressed more aggressively compared to HLC hits that have their entire waveform digitized. This information is sent along the cable/string to which all DOMs are attached and runs to the ICL. Each one of the strings is connected to one of the DOMHubs, which together with servers that run various online systems, comprised the South Pole System (SPS). An overview is given in Fig. \ref{fig:dataflow}.
 
 The data acquisition (DAQ) system is run on the DOMHubs and recognizes patterns in hits that are most likely caused by particle interactions. This combination of hits is called an ``event''. Most of the DAQ data rate originates from atmospheric muons with an event rate averaging around 2.7 kHz. The total bandwith saved to tape (see Section \ref{subsec:datahandling}) is approximately 1 TB/day.
 
@@ -214,7 +215,9 @@ Events are sent through the online Processing and Filtering (PnF) system for fur
 
 \subsection{Data handling}
 \label{subsec:datahandling}
-Most of the data is processed with the PnF system. The geometry, calibration, and detector status (GCD) information from each 8 hour run is sent via the same satellite transfer that is used for the continuously running PnF system. All of the raw waveforms were written to tape before that system was retired in 2015. Since then, disks have been used to store the remaining archival data. This raw data is shipped to the North every year and are used if reprocessing of data is necessary. An example being the SPE correction for all runs starting from 2010 to 2016 referred to as \textit{pass2 data}. 
+Most of the data is processed with the PnF system. The geometry, calibration, and detector status (GCD) information from each 8 hour run is sent via the same satellite transfer that is used for the continuously running PnF system. All of the raw waveforms were written to tape before that system was retired in 2015. Since then, disks have been used to store the remaining archival data. This raw data is shipped to the North every year and are used if reprocessing of data is necessary. An example being the SPE correction for all runs starting from 2010 to 2016 referred to as \textit{pass2 data}. \\
+
+\noindent Files are stored in IceCube specific files and are called \textit{i3files} \index{i3file}.
 
 \section{Search strategies}
 %heel veel hiervan: \url{https://arxiv.org/pdf/1806.05696.pdf}

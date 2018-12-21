@@ -2061,7 +2061,15 @@
     <bcf:citekey order="32">Dunsch:2018nsc</bcf:citekey>
     <bcf:citekey order="33">dimaspice</bcf:citekey>
     <bcf:citekey order="34">Lundberg:2007mf</bcf:citekey>
-    <bcf:citekey order="35">subsec:datahandling</bcf:citekey>
+    <bcf:citekey order="35">Abbasi:2010vc</bcf:citekey>
+    <bcf:citekey order="35">Ma:2009aw</bcf:citekey>
+    <bcf:citekey order="36">subsec:datahandling</bcf:citekey>
+    <bcf:citekey order="37">Ahrens:2003fg</bcf:citekey>
+    <bcf:citekey order="38">Aartsen:2013bfa</bcf:citekey>
+    <bcf:citekey order="39">RTcutwiki</bcf:citekey>
+    <bcf:citekey order="40">mzollthesis</bcf:citekey>
+    <bcf:citekey order="41">mzollthesis</bcf:citekey>
+    <bcf:citekey order="42">mzollthesis</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="none/global" type="entry" sortscheme="none" sortnamekeyscheme="global">
   <bcf:sorting>

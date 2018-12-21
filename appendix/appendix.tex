@@ -167,24 +167,34 @@ F^{-1}(u) =& \arccos(1-2u).
 \section{Power law distributions}
 Analogous to what was written in the previous section, one can produce a power law distribution from random numbers using the inverse transform sampling method: 
 \begin{equation}
-    \begin{split}
-    f(E) &= A\cdot E^{-\gamma} \rm\ \ \ (power law)\\
-            F(E) &= \int^{E}_{E_{min}} A \cdot E^{-\gamma} dE = u \text{\ \ (inverse sampling, u random number [0,1])}\\
-            &= A \left[\frac{E^{-\gamma+1}}{-\gamma+1}\right]^E_{E_{min}}\\
-            &= \frac{A}{-\gamma+1}\left(E^{-\gamma+1}-E_{min}^{-\gamma+1}\right)\\
-            F\left(F^{-1}(u)\right) &= u\\
-            &\Rightarrow\\
-            u &= \frac{A}{-\gamma+1}\left(\left(F^{-1}(u)\right)^{-\gamma+1}-E_{min}^{-\gamma+1}\right)\\
+\begin{split}
+f(E) &= A\cdot E^{-\gamma} \rm\ \ \ (power law)\\
+F(E) &= \int^{E}_{E_{min}} A \cdot E^{-\gamma} dE = u \text{\ \ (inverse sampling, u random number [0,1])}\\
+&= A \left[\frac{E^{-\gamma+1}}{-\gamma+1}\right]^E_{E_{min}}\\
+&= \frac{A}{-\gamma+1}\left(E^{-\gamma+1}-E_{min}^{-\gamma+1}\right)\\
+\end{split}
+\end{equation}
+\vspace{3mm}
+\noindent Because we know that $F\left(F^{-1}(u)\right) = u$, we can find an expression for $F^{-1}(u)$:
+
+\begin{equation}
+\begin{split}
+u &= \frac{A}{-\gamma+1}\left(\left(F^{-1}(u)\right)^{-\gamma+1}-E_{min}^{-\gamma+1}\right)\\
+&\Rightarrow \\
             F^{-1}(u) &= \left(\left(\frac{-\gamma+1}{A}\cdot u\right)+ E_{min}^{-\gamma+1}\right)^{1/(-\gamma+1)}\\
-            &\text{and because}\\
-            F(E_{max}) = 1 &\Rightarrow A = \frac{-\gamma+1}{E_{max}^{-\gamma+1}-E_{min}^{-\gamma+1}}\\
-            &\Rightarrow\\
-            F^{-1}(u) &= \left((1-u) \cdot E_{min}^{-\gamma+1} + u \cdot E_{max}^{-\gamma+1}\right)^{1/(-\gamma+1)}\\
-            \text{$E$ will follow from the distribution $f(E)$ as}\\
-            E &= \left((1-u) \cdot E_{min}^{-\gamma+1} + u \cdot E_{max}^{-\gamma+1}\right)^{1/(-\gamma+1)}\\ 
-            \end{split}
-            \end{equation}
-            For $\gamma$ = -1, we will make a uniform distribution in log space. This is shown in Fig. \ref{fig:powerlawrandom}.
+\end{split}.
+\end{equation}
+To find $A$, we use the property of a CDF:
+\begin{equation}
+F(E_{max}) = 1\Rightarrow A = \frac{-\gamma+1}{E_{max}^{-\gamma+1}-E_{min}^{-\gamma+1}},
+\end{equation}
+\noindent leading to
+\begin{equation}
+F^{-1}(u) = \left((1-u) \cdot E_{min}^{-\gamma+1} + u \cdot E_{max}^{-\gamma+1}\right)^{1/(-\gamma+1)},\\
+\end{equation}
+\noindent which shows how one can draw a distribution in function of $E$ following $f(E)$ with a uniform random number $u$.\\
+
+\noindent For $\gamma$ = -1, the computations are analogous and one can see that this will produce a uniform distribution in log space. This is shown in Fig. \ref{fig:powerlawrandom}.
             \begin{equation}
             \begin{split}
             E &= E_{min} \cdot 10^{u\cdot \log{\frac{E_{max}}{E_{min}}}}\\
@@ -222,5 +232,33 @@ d\Omega = \sin\theta d\theta d\phi.
 \caption{Illustration of angle distributions in spherical coordinates. The blue and red surfaces are equal in size. The left figure clearly shows the surface to be proportional to the azumith. The right figure shows how there is a non-trivial dependence on the zenith angle for equal partitions on the surface of a sphere.}
 \end{figure}
 
+\section{Weighting}
+\label{sec:weighting}
+A method that is often used in simulations is \textit{weighting}. The simulated and expected differential flux of particles is often not the same, mainly due to two reasons:
+
+\begin{itemize}
+\item The flux has no uniform power law behavior. As can bee seen in Fig. \ref{fig:spectrumCR}, there are multiple ``kinks'' and changes in the spectrum. Instead of simulating the flux according to one model, a general uniform flux is used and later reweighted to be able to fit to other models more easily.
+\item A steep power law indicates very few events at the highest energy bins. This means large CPU time would be necessary to simulate these events. As an example, let us assume two different fluxes
+
+\begin{equation}
+f_1 = A \cdot x^{-1}
+\end{equation}
+
+\begin{equation}
+f_2 = B \cdot x^{-2},
+\end{equation}
+\noindent where $A = 10^3$ and $B = 10^4$, so the fluxes cross at a value of $x^{-1+2} = x = \frac{10^4}{10^3} = 10$. In the interval $x \in [10^3,10^4]$, the number of events for $f_1$ is equal to $10^3$, whereas for $f_2$ this is equal to 9.
+
+Simulating with harder spectra\footnote{Harder spectra equals to a lower gamma, since there will be more high-energy events.} leads to more statistics in high-energy bins.
+\end{itemize}
+\vspace{3mm}
+\noindent The weights can be generally written down as
+
+\begin{equation}
+w = \frac{dN_{exp}}{dA d\Omega dE dt} \times \frac{dA d\Omega dE}{dN_{sim}}.
+\end{equation}
+
+\vspace{3mm}
+\noindent A disadvantage of using weights is that certain events with a high weight are rare but can dominate or obscure the sample in the tails of certain distributions.
 
 \end{appendices}

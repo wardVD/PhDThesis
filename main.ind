@@ -1,37 +1,54 @@
 \begin{theindex}
+\nopagebreak
+\tikz\node at (0pt,0pt) [draw=none,fill=ocre!50,line width=1pt,inner sep=5pt]{\parbox{\linewidth-2\fboxsep-2\fboxrule-2pt}{\centering\large\sffamily\bfseries\textcolor{white}{Symbols}}};\vspace*{0.2cm}\nopagebreak
 
-  \item Corollaries, \hyperpage{33}
-
-  \indexspace
-
-  \item Definitions, \hyperpage{33}
-
-  \indexspace
-
-  \item Examples, \hyperpage{34}
-    \subitem Equation and Text, \hyperpage{34}
-    \subitem Paragraph of Text, \hyperpage{34}
-  \item Exercises, \hyperpage{34}
+  \item \textit{IceTray}\dotfill \hyperpage{7}
+  \item \textit{Photonics}\dotfill \hyperpage{14}
+  \item ``Monte Carlo''\dotfill \hyperpage{7}
+  \item ``PMT jitter'\dotfill \hyperpage{14}
 
   \indexspace
+\nopagebreak
+\tikz\node at (0pt,0pt) [draw=none,fill=ocre!50,line width=1pt,inner sep=5pt]{\parbox{\linewidth-2\fboxsep-2\fboxrule-2pt}{\centering\large\sffamily\bfseries\textcolor{white}{B}}};\vspace*{0.2cm}\nopagebreak
 
-  \item MMC, \hyperpage{14}
-
-  \indexspace
-
-  \item PPC, \hyperpage{13}
-  \item Problems, \hyperpage{34}
-  \item PROPOSAL, \hyperpage{14}
-  \item Propositions, \hyperpage{33}
-    \subitem Several Equations, \hyperpage{34}
-    \subitem Single Line, \hyperpage{34}
+  \item burn sample\dotfill \hyperpage{15}
 
   \indexspace
+\nopagebreak
+\tikz\node at (0pt,0pt) [draw=none,fill=ocre!50,line width=1pt,inner sep=5pt]{\parbox{\linewidth-2\fboxsep-2\fboxrule-2pt}{\centering\large\sffamily\bfseries\textcolor{white}{C}}};\vspace*{0.2cm}\nopagebreak
 
-  \item Remarks, \hyperpage{33}
+  \item called \textit{CLSim}\dotfill \hyperpage{14}
+  \item CORSIKA\dotfill \hyperpage{8, 9}
 
   \indexspace
+\nopagebreak
+\tikz\node at (0pt,0pt) [draw=none,fill=ocre!50,line width=1pt,inner sep=5pt]{\parbox{\linewidth-2\fboxsep-2\fboxrule-2pt}{\centering\large\sffamily\bfseries\textcolor{white}{F}}};\vspace*{0.2cm}\nopagebreak
 
-  \item Vocabulary, \hyperpage{34}
+  \item FLUKA\dotfill \hyperpage{9}
+
+  \indexspace
+\nopagebreak
+\tikz\node at (0pt,0pt) [draw=none,fill=ocre!50,line width=1pt,inner sep=5pt]{\parbox{\linewidth-2\fboxsep-2\fboxrule-2pt}{\centering\large\sffamily\bfseries\textcolor{white}{I}}};\vspace*{0.2cm}\nopagebreak
+
+  \item IceTray\dotfill \hyperpage{10}
+
+  \indexspace
+\nopagebreak
+\tikz\node at (0pt,0pt) [draw=none,fill=ocre!50,line width=1pt,inner sep=5pt]{\parbox{\linewidth-2\fboxsep-2\fboxrule-2pt}{\centering\large\sffamily\bfseries\textcolor{white}{M}}};\vspace*{0.2cm}\nopagebreak
+
+  \item MMC\dotfill \hyperpage{14}
+
+  \indexspace
+\nopagebreak
+\tikz\node at (0pt,0pt) [draw=none,fill=ocre!50,line width=1pt,inner sep=5pt]{\parbox{\linewidth-2\fboxsep-2\fboxrule-2pt}{\centering\large\sffamily\bfseries\textcolor{white}{N}}};\vspace*{0.2cm}\nopagebreak
+
+  \item neutrino-generator\dotfill \hyperpage{9}
+
+  \indexspace
+\nopagebreak
+\tikz\node at (0pt,0pt) [draw=none,fill=ocre!50,line width=1pt,inner sep=5pt]{\parbox{\linewidth-2\fboxsep-2\fboxrule-2pt}{\centering\large\sffamily\bfseries\textcolor{white}{P}}};\vspace*{0.2cm}\nopagebreak
+
+  \item PPC\dotfill \hyperpage{13}
+  \item PROPOSAL\dotfill \hyperpage{12}, \hyperpage{14}
 
 \end{theindex}
