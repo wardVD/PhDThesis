@@ -24,6 +24,7 @@ Reconstruction algorithms usually have no unique solutions to describe the set o
 \noindent where $r_0$ is the position vector of the particle at a time $t_0$ with a direction $\vec{p}$ and initial energy $E_0$. 
 
 \subsection{\texttt{Line-Fit}}
+\label{subsec:lf}
 \textcolor{red}{Dit niet voor IceHive? Reconstr. wordt daar ook geintroduceerd... Toch in Coincsuite}\\
 
 \begin{figure}
@@ -77,6 +78,7 @@ While disregarding the Cherenkov profile is inherent to the simplified LF model 
 \noindent Because of the overal performance increase of this method, all LF computations were done with the improved version (although still often referred to as ``Line-Fit'').
 
 \subsection{SPE and MPE}
+\label{subsec:spempe}
 A more intricate method of track reconstruction is done by taking the geometrical shape of the Cherenkov cone into account and relying on simulation fits where a seed track is implemented (usually from the fast Line-Fit algorithm).
 
 
@@ -114,23 +116,77 @@ p^1_N (t_\textrm{res}) = N \cdot p_1(t_\textrm{res}) \cdot \left(\int^\infty_{t_
 To have a better handle on the particle energy and cascades along the track, the module \texttt{Millipede} was developed. The number of photons seen at each optical module depends on multiple factors (that were mentioned throughout this text, such as the ice characteristics, timing, etc. In this module, the expected number of photons is said to depend on the energy that was deposited and a \textit{light yield factor} that depends on the DOM position and the location of emission along the track
 
 \begin{equation}
-N_{\textrm{exp},k} = \rho_k + \sum^n_{i=1} \Lambda(\vec{r}_k,\vec{r}_i') E_i,
+\label{eq:n_exp}
+\begin{split}
+N_{\textrm{exp},k} &= \rho_k + \sum^n_{i=1} \Lambda(\vec{r}_k,\vec{r}_i') E_i\\
+&= \rho_k + \vec{\Lambda}(\vec{r}_k,\vec{r}_i') \cdot \vec{E},
+\end{split}
 \end{equation}
 where $k$ refers to a certain DOM and $i$ refers to a certain energy deposit such as illustrated in Fig. \ref{fig:millipede}.
 
 \begin{figure}
 \centering
 \includegraphics[width=0.6\textwidth]{chapter7/img/millipede.png}
-\caption{Blub}
+\caption{Illustration of the working principles of the \texttt{Millipede} toolkit. A track is subdivided into segments that each deposit a certain energy, $E_i$. Different segments can contribute to the total number photons seen per DOM, $N_k$.}
 \label{fig:millipede}
 \end{figure}
 
-More information can be found in ... and Stef Verpoest his master thesis.
+The likelihood is assumed to follow a Poisson distribution with $\lambda$, the expected amount of photons, equal to $N_{\textrm{exp},k}$
+
+\begin{equation}
+\mathcal{L}_k = \frac{\left(\vec{\Lambda} \cdot \vec{E} + \rho_k \right)^N_{\textrm{seen},k}}{N_{\textrm{seen},k}!} e^{-\vec{\Lambda} \cdot \vec{E} + \rho_k}.
+\end{equation}
+\noindent For easier, faster and more accurate computation the logarithm of the likelihood is used
+
+\begin{equation}
+\begin{split}
+\ln \mathcal{L}_k &= N_{\textrm{seen},k} \ln \left(\rho_k + \sum^n_{i=1} \Lambda(\vec{r}_k,\vec{r}_i') E_i \right) - \ln \left(N_{\textrm{seen},k}!\right) - \sum^n_{i=1} \Lambda(\vec{r}_k,\vec{r}_i') E_i - \rho_k\\
+&= N_{\textrm{seen},k} \ln \left(\rho_k + \vec{\Lambda}(\vec{r}_k) \vec{E} \right) - \vec{\Lambda}(\vec{r}_k) \vec{E} - \rho_k - \ln\left(N_{\textrm{seen},k}!\right)
+\end{split}
+\end{equation}
+\noindent Maximizing the total likelihood (summing over all $m$ DOMs) with respect to the energy gives 
+
+\begin{equation}
+\nabla_{\vec{E}} \ln \mathcal{L} = \nabla_{\vec{E}} \sum^m_{k=1} \ln \mathcal{L}_k = \sum^m_{k=1} \left(\frac{N_{\textrm{seen},k} \vec{\Lambda}(\vec{r})}{\vec{\Lambda}(\vec{r}_k) \cdot \vec{E} + \rho_k} - \vec{\Lambda}(\vec{r}_k) \right) = 0.
+\end{equation}
+\noindent This equation holds if all terms in the sum vanish, i.e. if for all DOMs holds that
+
+\begin{equation}
+\begin{split}
+N_{\textrm{seen},k} \overset{\textrm{Eq.}\ref{eq:n_exp}}{=} &N_{\textrm{exp},k} \\
+= &\vec{\Lambda}(\vec{r}_k) \cdot \vec{E} + \rho_k.
+\end{split}
+\end{equation}
+\noindent This can be written in a set of linear equations
+
+\begin{equation}
+\vec{N} - \vec{\rho} = \mathbf{\Lambda} \vec{E}, 
+\end{equation}
+\noindent where
+
+\begin{equation}
+\mathbf{\Lambda} = 
+\begin{pmatrix}
+\Lambda(\vec{r}_1,\vec{r}_1') & \cdots & \Lambda(\vec{r}_1,\vec{r}_n')\\
+\vdots  & \ddots & \cdots \\
+\Lambda(\vec{r}_m,\vec{r}_1') & \cdots & \Lambda(\vec{r}_m,\vec{r}_n')\\
+\end{pmatrix},
+\end{equation}
+\noindent is the \textit{response matrix} and has to be inverted to find the energies in the vector $\vec{E}$. It describes the DOM response to light output from certain segments along a track. The entries in this matrix come from simulations that produce spline tables. Simplified sources, such as minimum ionizing muons and isotropically emitting point sources are simulated in Monte Carlo simulations at certain discrete points. Interpolation is done using spline functions. More information, such as how timing information can be implemented, can be found in Refs. \cite{millipedeinternal,stefthesis}.
+
 %\section{Event splitting}
 %Multiple triggers are combined into one event by the event builder (see Section \ref{subsec:triggers}. The triggerspl
 
-\subsection{FiniteReco}
-\subsection{Paraboloid}
+\subsection{\texttt{FiniteReco}}
+\texttt{FiniteReco} is a module that tries to reconstruct if particles are starting, stopping, contained or through-going. The hit DOMs around a seed track are checked to have a seen light and the first and last emission points along the track are used to check the possible hypotheses.
+
+Because the edges of the detector are not well defined\footnote{Imagine a cascade 20 m below the lowest DOMs. It is still possible for light to reach the bottom modules of the detector.}, the likelihoods of individual DOMs to have seen a hit lead to a total likelihood that does not give a conclusive answer, but the starting and stopping probabilities can for example be compared to a through-going track hypothesis.
+\subsection{\texttt{Paraboloid}}
+In sections \ref{subsec:lf} and \ref{subsec:spempe}, we discussed how a particle's direction could be estimated. The \texttt{Paraboloid} module tries to provide an estimate for the error on this direction. A highly energetic muon with hunderds of hit DOMs will lead to a much better directional resolution than a dim track where only a handful of DOMs are hit. In general, the likelihood space around the estimated direction is scanned and compared to the likelihood of the initial track estimation. This method also gives a robust estimation if the initial track direction is in fact located ath the global maximum likelihood or a local one. \texttt{Paraboloid} constructs a grid of zenith and azimuth points near the minimum, for each point on the grid it does a three-parameter minimization for the vertex holding the zenith and azimuth constant. The likelihood values for each point on the grid are then fit to paraboloid using a $\chi^2$ minimization.
+
+\textcolor{red}{Die sigmas en Paraboloid pull uitleggen, beste pagina: doxygen}
+
+More information can be found in Ref. \cite{Neunhoffer:2004ha}
 
 \section{Pulse cleaning}
 \label{sec:pulsecleaning}
