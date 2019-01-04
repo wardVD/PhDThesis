@@ -410,6 +410,166 @@
       \verb 1510.05494
       \endverb
     \endentry
+    \entry{Honda:2015fha}{article}{}
+      \name{author}{5}{}{%
+        {{hash=685b0c55d2ec74638b959e27d765568e}{%
+           family={Honda},
+           family_i={H\bibinitperiod},
+           given={M.},
+           given_i={M\bibinitperiod}}}%
+        {{hash=f1bc91559287004f0774be94a973ca98}{%
+           family={Sajjad\bibnamedelima Athar},
+           family_i={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+           given={M.},
+           given_i={M\bibinitperiod}}}%
+        {{hash=1aa5fa2f0b1fd589ffa01be301d3a9b2}{%
+           family={Kajita},
+           family_i={K\bibinitperiod},
+           given={T.},
+           given_i={T\bibinitperiod}}}%
+        {{hash=85ab6cbd90cc2344da81b60c00baecf7}{%
+           family={Kasahara},
+           family_i={K\bibinitperiod},
+           given={K.},
+           given_i={K\bibinitperiod}}}%
+        {{hash=30499d3fd6b22cbf61fd61f0bdf9cd27}{%
+           family={Midorikawa},
+           family_i={M\bibinitperiod},
+           given={S.},
+           given_i={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{36a5a02096e8ae5f8f6998b28a84726e}
+      \strng{fullhash}{8333195c3b33bde4b231962c469d521b}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{astro-ph.HE}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Phys. Rev.}
+      \field{number}{2}
+      \field{title}{{Atmospheric neutrino flux calculation using the NRLMSISE-00 atmospheric model}}
+      \field{volume}{D92}
+      \field{year}{2015}
+      \field{pages}{023004}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevD.92.023004
+      \endverb
+      \verb{eprint}
+      \verb 1502.03916
+      \endverb
+    \endentry
+    \entry{Hoerandel:2002yg}{article}{}
+      \name{author}{1}{}{%
+        {{hash=159954f6dc4c3bd8aec4c97947e313dd}{%
+           family={Hoerandel},
+           family_i={H\bibinitperiod},
+           given={Joerg\bibnamedelima R.},
+           given_i={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{159954f6dc4c3bd8aec4c97947e313dd}
+      \strng{fullhash}{159954f6dc4c3bd8aec4c97947e313dd}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{astro-ph}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Astropart. Phys.}
+      \field{title}{{On the knee in the energy spectrum of cosmic rays}}
+      \field{volume}{19}
+      \field{year}{2003}
+      \field{pages}{193\bibrangedash 220}
+      \range{pages}{28}
+      \verb{doi}
+      \verb 10.1016/S0927-6505(02)00198-6
+      \endverb
+      \verb{eprint}
+      \verb astro-ph/0210453
+      \endverb
+    \endentry
+    \entry{Gaisser:2011cc}{article}{}
+      \name{author}{1}{}{%
+        {{hash=915bc159dd2bc0830010df52b6ff5573}{%
+           family={Gaisser},
+           family_i={G\bibinitperiod},
+           given={Thomas\bibnamedelima K.},
+           given_i={T\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \strng{namehash}{915bc159dd2bc0830010df52b6ff5573}
+      \strng{fullhash}{915bc159dd2bc0830010df52b6ff5573}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{astro-ph.HE}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Astropart. Phys.}
+      \field{title}{{Spectrum of cosmic-ray nucleons, kaon production, and the atmospheric muon charge ratio}}
+      \field{volume}{35}
+      \field{year}{2012}
+      \field{pages}{801\bibrangedash 806}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1016/j.astropartphys.2012.02.010
+      \endverb
+      \verb{eprint}
+      \verb 1111.6675
+      \endverb
+    \endentry
+    \entry{PhysRevD.70.023006}{article}{}
+      \name{author}{5}{}{%
+        {{hash=52823c6c683ea7cdb027b594674172a1}{%
+           family={Barr},
+           family_i={B\bibinitperiod},
+           given={G.\bibnamedelimi D.},
+           given_i={G\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=f1dab379971edb286bb0371b29fd803e}{%
+           family={Gaisser},
+           family_i={G\bibinitperiod},
+           given={T.\bibnamedelimi K.},
+           given_i={T\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=9afbb33810bd801e84bc8e53d79f9dda}{%
+           family={Lipari},
+           family_i={L\bibinitperiod},
+           given={P.},
+           given_i={P\bibinitperiod}}}%
+        {{hash=320b921333a8957d3ddea7f5e2177c03}{%
+           family={Robbins},
+           family_i={R\bibinitperiod},
+           given={S.},
+           given_i={S\bibinitperiod}}}%
+        {{hash=fffb10292ad69a24f781d071d61696d3}{%
+           family={Stanev},
+           family_i={S\bibinitperiod},
+           given={T.},
+           given_i={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{7c593d33e6163e858a9d3fb0d2d750f6}
+      \strng{fullhash}{1a10667e5f5bdfec898696c23f145e69}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{2}
+      \field{journaltitle}{Phys. Rev. D}
+      \field{month}{07}
+      \field{title}{Three-dimensional calculation of atmospheric neutrinos}
+      \field{volume}{70}
+      \field{year}{2004}
+      \field{pages}{023006}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevD.70.023006
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevD.70.023006
+      \endverb
+    \endentry
     \entry{Dunsch:2018nsc}{article}{}
       \name{author}{6}{}{%
         {{hash=92cb97452b08673b5229f9d1d243d9aa}{%
@@ -604,9 +764,202 @@
       \verb 0911.5336
       \endverb
     \endentry
+    \entry{Ahrens:2003fg}{article}{}
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=68cb27878ae2962272851db62eb568e6}{%
+           family={Ahrens},
+           family_i={A\bibinitperiod},
+           given={J.},
+           given_i={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{12004b49084d4f055282c4dbfa1be739}
+      \strng{fullhash}{12004b49084d4f055282c4dbfa1be739}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{astro-ph}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Nucl. Instrum. Meth.}
+      \field{title}{{Muon track reconstruction and data selection techniques in AMANDA}}
+      \field{volume}{A524}
+      \field{year}{2004}
+      \field{pages}{169\bibrangedash 194}
+      \range{pages}{26}
+      \verb{doi}
+      \verb 10.1016/j.nima.2004.01.065
+      \endverb
+      \verb{eprint}
+      \verb astro-ph/0407044
+      \endverb
+    \endentry
+    \entry{Aartsen:2013bfa}{article}{}
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=efa7e9be1bcc0de5a41a557e797afd0b}{%
+           family={Aartsen},
+           family_i={A\bibinitperiod},
+           given={M.\bibnamedelimi G.},
+           given_i={M\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \strng{namehash}{e766755b300c9c7f14286a776d6a9489}
+      \strng{fullhash}{e766755b300c9c7f14286a776d6a9489}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{astro-ph.IM}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Nucl. Instrum. Meth.}
+      \field{title}{{Improvement in Fast Particle Track Reconstruction with Robust Statistics}}
+      \field{volume}{A736}
+      \field{year}{2014}
+      \field{pages}{143\bibrangedash 149}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1016/j.nima.2013.10.074
+      \endverb
+      \verb{eprint}
+      \verb 1308.5501
+      \endverb
+    \endentry
+    \entry{millipedeinternal}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=187fba1552767b18f30c44375da17514}{%
+           family={collaboration},
+           family_i={c\bibinitperiod},
+           given={IceCube},
+           given_i={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{187fba1552767b18f30c44375da17514}
+      \strng{fullhash}{187fba1552767b18f30c44375da17514}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \verb{url}
+      \verb https://internal-apps.icecube.wisc.edu/reports/data/icecube/2014/04/001/icecube_201404001_v1.pdf
+      \endverb
+    \endentry
+    \entry{stefthesis}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=6a7daa6168ae267f4d4e03c30198f624}{%
+           family={Verpoest},
+           family_i={V\bibinitperiod},
+           given={Stef},
+           given_i={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{6a7daa6168ae267f4d4e03c30198f624}
+      \strng{fullhash}{6a7daa6168ae267f4d4e03c30198f624}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \verb{url}
+      \verb https://lib.ugent.be/fulltxt/RUG01/002/479/620/RUG01-002479620_2018_0001_AC.pdf
+      \endverb
+    \endentry
+    \entry{Neunhoffer:2004ha}{article}{}
+      \name{author}{1}{}{%
+        {{hash=43d8ecbf5b1d2cf34be160f8647dbce3}{%
+           family={Neunhoffer},
+           family_i={N\bibinitperiod},
+           given={Till},
+           given_i={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{43d8ecbf5b1d2cf34be160f8647dbce3}
+      \strng{fullhash}{43d8ecbf5b1d2cf34be160f8647dbce3}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{astro-ph}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Astropart. Phys.}
+      \field{title}{{Estimating the angular resolution of tracks in neutrino telescopes based on a likelihood analysis}}
+      \field{volume}{25}
+      \field{year}{2006}
+      \field{pages}{220\bibrangedash 225}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1016/j.astropartphys.2006.01.002
+      \endverb
+      \verb{eprint}
+      \verb astro-ph/0403367
+      \endverb
+    \endentry
+    \entry{RTcutwiki}{misc}{}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \verb{url}
+      \verb https://wiki.icecube.wisc.edu/index.php/SLC_hit_cleaning
+      \endverb
+    \endentry
+    \entry{mzollthesis}{misc}{}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \verb{url}
+      \verb https://www.dissertations.se/dissertation/fef1f8e4ba/
+      \endverb
+    \endentry
+    \entry{FREUND1997119}{article}{}
+      \name{author}{2}{}{%
+        {{hash=9dae54fc70ef3090ef42046937183be2}{%
+           family={Freund},
+           family_i={F\bibinitperiod},
+           given={Yoav},
+           given_i={Y\bibinitperiod}}}%
+        {{hash=8428d6ce4d2319a5be839da6c9ae0128}{%
+           family={Schapire},
+           family_i={S\bibinitperiod},
+           given={Robert\bibnamedelima E},
+           given_i={R\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{84c6ce5fcee6ba7b7dedfc3ac789155c}
+      \strng{fullhash}{84c6ce5fcee6ba7b7dedfc3ac789155c}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0022-0000}
+      \field{journaltitle}{Journal of Computer and System Sciences}
+      \field{number}{1}
+      \field{title}{A Decision-Theoretic Generalization of On-Line Learning and an Application to Boosting}
+      \field{volume}{55}
+      \field{year}{1997}
+      \field{pages}{119\bibrangedash 139}
+      \range{pages}{21}
+      \verb{doi}
+      \verb https://doi.org/10.1006/jcss.1997.1504
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S002200009791504X
+      \endverb
+    \endentry
+    \entry{boserpdf}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=a5ce9c6a6648ea18963824dbda5cb277}{%
+           family={C.\bibnamedelimi Böser},
+           family_i={C\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={S.\bibnamedelimi Fink},
+           given_i={S\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=f899df3294d88b39ea4bb0d13b58fbcd}{%
+           family={Röcker},
+           family_i={R\bibinitperiod},
+           given={S.},
+           given_i={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{ffd82638f760744351284949e1a39702}
+      \strng{fullhash}{ffd82638f760744351284949e1a39702}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Presented at the KSETA Doctoral Workshop, Berlin, Germany}
+      \field{month}{07}
+      \field{title}{Introduction to boosted decision trees: A multivariate approach to clasification problems}
+      \field{year}{2014}
+    \endentry
   \endsortlist
-  \missing{SAMCITEREN+andere}
-  \missing{Honda:2015fna}
   \missing{subsec:datahandling}
 \endrefsection
 \endinput

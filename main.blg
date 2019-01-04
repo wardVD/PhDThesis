@@ -1,19 +1,19 @@
 [0] Config.pm:340> INFO - This is Biber 2.4
-[1] Config.pm:343> INFO - Logfile is 'main.blg'
-[48] biber:287> INFO - === Mon Dec 17, 2018, 14:45:06
-[156] Biber.pm:348> INFO - Reading 'main.bcf'
-[317] Biber.pm:742> INFO - Found 18 citekeys in bib section 0
-[323] Biber.pm:3151> INFO - Processing section 0
-[358] Biber.pm:3308> INFO - Looking for bibtex format file 'bibliography.bib' for section 0
-[812] bibtex.pm:1113> INFO - Decoding LaTeX character macros into UTF-8
-[1196] bibtex.pm:974> INFO - Found BibTeX data source 'bibliography.bib'
-[1356] Utils.pm:147> WARN - I didn't find a database entry for 'SAMCITEREN+andere' (section 0)
-[1356] Utils.pm:147> WARN - I didn't find a database entry for 'Honda:2015fna' (section 0)
-[1356] Utils.pm:147> WARN - I didn't find a database entry for 'subsec:datahandling' (section 0)
-[1451] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1451] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1451] Biber.pm:3028> INFO - Sorting list 'none/global' of type 'entry' with scheme 'none' and locale 'en-US'
-[1451] Biber.pm:3032> INFO - No sort tailoring available for locale 'en-US'
-[1466] bbl.pm:519> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[1528] bbl.pm:615> INFO - Output to main.bbl
-[1528] Biber.pm:109> INFO - WARNINGS: 3
+[0] Config.pm:343> INFO - Logfile is 'main.blg'
+[47] biber:287> INFO - === Thu Jan  3, 2019, 16:11:34
+[132] Biber.pm:348> INFO - Reading 'main.bcf'
+[270] Biber.pm:742> INFO - Found 29 citekeys in bib section 0
+[275] Biber.pm:3151> INFO - Processing section 0
+[309] Biber.pm:3308> INFO - Looking for bibtex format file 'bibliography.bib' for section 0
+[859] bibtex.pm:1113> INFO - Decoding LaTeX character macros into UTF-8
+[1293] bibtex.pm:974> INFO - Found BibTeX data source 'bibliography.bib'
+[1538] Utils.pm:147> WARN - BibTeX subsystem: warning: comma(s) at end of name (removing)
+[1538] Utils.pm:147> WARN - BibTeX subsystem: author, warning: comma(s) at end of name (removing)
+[1538] Utils.pm:147> WARN - I didn't find a database entry for 'subsec:datahandling' (section 0)
+[1717] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1717] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1717] Biber.pm:3028> INFO - Sorting list 'none/global' of type 'entry' with scheme 'none' and locale 'en-US'
+[1717] Biber.pm:3032> INFO - No sort tailoring available for locale 'en-US'
+[1745] bbl.pm:519> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[1860] bbl.pm:615> INFO - Output to main.bbl
+[1860] Biber.pm:109> INFO - WARNINGS: 3

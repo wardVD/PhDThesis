@@ -120,20 +120,20 @@ P(n) = \frac{\lambda^n e^{-\lambda}}{n!},
 
 \section{Spherical random numbers}
 \label{sec:sphericalrandom}
-Most random number generators provide uniform distributions from between the range $[01,]$. Assume we want to make a uniform distribution along a sphere with angles $\phi$ and $\theta$ and radius $r$, in spherical coordinates. Random numbers between $[0,\pi]$, $[0,2\pi]$ and $[0,R]$ (the ranges of the coordinates) would not give a uniform distribution as illustrated in Fig. \ref{fig:sphere} (left).
+Most random number generators provide uniform distributions from between the range $[0,1]$. Assume we want to make a uniform distribution along a sphere with angles $\phi$ and $\theta$ and radius $r$, in spherical coordinates. Random numbers between $[0,\pi]$, $[0,2\pi]$ and $[0,R]$ (the ranges of the coordinates) would not give a uniform distribution as illustrated in Fig. \ref{fig:sphere} (left).\\
 
 \begin{figure}
 \centering
 \includegraphics[width=0.49\textwidth]{appendix/img/badrandom.png}
 \includegraphics[width=0.49\textwidth]{appendix/img/goodrandom.png}
-\caption{Blub}
+\caption{\textit{Left: }Illustration of a uniform sampling in angles $\phi$ and $\theta$ that doesn't give a uniform spherical distribution. \textit{Right: }Illustration of a good spherical distribution.}
 \label{fig:sphere}
 \end{figure}
 
 \noindent The differential surface area, $dA$, is equal to $dA(d\phi,d\theta) = r^2 \sin(\phi) d\phi d\theta$. If we want the distribution $f(v)$ to be constant for a uniform distribution, then $f(v) = \frac{1}{4\pi}$ since $\int \int_S f(v)dA = 1$ and $\int \int_S dA = 4\pi$. We want the distribution in function of the angles, so
 
 \begin{equation}
-f(v)dA = \frac{1}{4\pi} dA = f(\phi,\theta)d\phi d\theta.
+f(v)dA = \frac{1}{4\pi} dA = f(r) f(\phi,\theta)d\phi d\theta.
 \end{equation}
 
 \noindent Since we know the expression for $dA$, we find that
@@ -147,7 +147,7 @@ and separating the angles:
 f(\theta) =&& \int^\pi_0 f(\phi,\theta)d\phi = \frac{1}{2\pi}, \\
 f(\phi)   =&& \int^{2\pi}_0 f(\phi,\theta)d\theta = \frac{\sin(\phi)}{2},
 \end{alignat}
-\noindent where it is clear that $f(\pi)$ scales with $\sin(\phi)$; there are more points needed at the equator (this makes sense, as the total surface at the equator is much larger!).\\
+\noindent where it is clear that $f(\phi)$ scales with $\sin(\phi)$; there are more points needed at the equator (this makes sense, as the surface at the equator is much larger!).\\
 
 \noindent The question is now how one can get a sample to follow the distribution of $f(\phi)$. For this, we use the \textit{inverse transform sampling} method where one makes use of the cumulative distribution function, $F(\phi)$, which increases monotonically
 
@@ -206,7 +206,7 @@ F^{-1}(u) = \left((1-u) \cdot E_{min}^{-\gamma+1} + u \cdot E_{max}^{-\gamma+1}\
 \centering
 \includegraphics[width=0.48\textwidth]{appendix/img/probabilitypowerlaw_index1}
 \includegraphics[width=0.48\textwidth]{appendix/img/probabilitypowerlaw_index2}
-\caption{Blub}
+\caption{\textit{Left: }Histograms with different binnings showing the behavior of an energy spectrum with spectral index -1. \textit{Right: }Histograms with different binnings showing the behavior of an energy spectrum with spectral index -2.}
 \label{fig:powerlawrandom}
 \end{figure}
 
@@ -215,13 +215,13 @@ F^{-1}(u) = \left((1-u) \cdot E_{min}^{-\gamma+1} + u \cdot E_{max}^{-\gamma+1}\
 As seen in Section \ref{sec:sphericalrandom}, the differential space angle $d\Omega$ is equal to
 
 \begin{equation}
-d\Omega = \sin\theta d\theta d\phi.
+d\Omega = \sin(\theta) d\theta d\phi.
 \end{equation} 
 
 \noindent If one shows the distribution of $\phi$ and/or $\theta$, then this is the same as showing partial integrations per bin. We find that
 
 \begin{equation}
-\Omega \propto \cos\theta \phi,
+\Omega \propto \cos(\theta),
 \end{equation}
 
 \noindent or in other words: the space angle is proportional to the azimuth and the cosine of the zenith. An example is shown in Fig. \ref{fig:spaceangle}.
@@ -229,7 +229,8 @@ d\Omega = \sin\theta d\theta d\phi.
 \begin{figure}
 \centering
 \includegraphics[width = 0.8\textwidth]{appendix/img/spaceangle.png}
-\caption{Illustration of angle distributions in spherical coordinates. The blue and red surfaces are equal in size. The left figure clearly shows the surface to be proportional to the azumith. The right figure shows how there is a non-trivial dependence on the zenith angle for equal partitions on the surface of a sphere.}
+\caption{Illustration of angle distributions in spherical coordinates. The blue and red surfaces are equal in size. The left figure clearly shows the surface to be proportional to the azimuth. The right figure shows how there is a non-trivial dependence on the zenith angle for equal partitions on the surface of a sphere.}
+\label{fig:spaceangle}
 \end{figure}
 
 \section{Weighting}
@@ -260,5 +261,62 @@ w = \frac{dN_{exp}}{dA d\Omega dE dt} \times \frac{dA d\Omega dE}{dN_{sim}}.
 
 \vspace{3mm}
 \noindent A disadvantage of using weights is that certain events with a high weight are rare but can dominate or obscure the sample in the tails of certain distributions.
+
+\chapterimage{lines.jpg}
+\chapter{AdaBoost: simple example}
+\label{ch:adaboostappendix}
+
+Consider a binary decision tree classification with 10 training examples. The illustrations below are 2D variable distributions.\\
+\newline
+\noindent We give each event an equal weight, making the weight distribution $D_1$ uniform. For this simple example, each of our classifiers will be an axis-parallel linear classifier (simple cut in one of the two variables).
+
+\paragraph{Initial distribution}
+
+
+\begin{center}
+\includegraphics[width=7cm]{appendix/img/adaboost1.png}
+\end{center}
+
+\paragraph{Round 1}
+\begin{center}
+\includegraphics[width=7cm]{appendix/img/adaboost2.png}
+\end{center}
+
+\begin{itemize}
+\item Error rate of $h_1$: $\epsilon_1 = 0.3$; weight of $h_1$ (see Eq. \ref{eq:boostfactor}): $\alpha_1 = \frac{1}{2} \ln\left(\frac{1-\epsilon_1}{\epsilon_1}\right) = 0.42$
+\item An event that is misclassified gets a higher weight: weight multiplied with $\exp(\alpha_1)$
+\item An event that is correcly classified gets a lower weight: weight multiplied with $\exp(-\alpha_1)$
+\end{itemize}
+
+\paragraph{Round 2}
+
+\begin{center}
+\includegraphics[width=7cm]{appendix/img/adaboost3.png}
+\end{center}
+
+\begin{itemize}
+\item Error rate of $h_1$: $\epsilon_1 = 0.21$; weight of $h_2$ (see Eq. \ref{eq:boostfactor}): $\alpha_2 = \frac{1}{2} \ln\left(\frac{1-\epsilon_2}{\epsilon_2}\right) = 0.65$
+\item An event that is misclassified gets a higher weight: weight multiplied with $\exp(\alpha_2)$
+\item An event that is correcly classified gets a lower weight: weight multiplied with $\exp(-\alpha_2)$
+\end{itemize}
+
+\paragraph{Round 3}
+
+\begin{center}
+\includegraphics[width=7cm]{appendix/img/adaboost4.png}
+\end{center}
+
+The error rate of $h_1$: $\epsilon_1 = 0.21$; weight of $h_2$ (see Eq. \ref{eq:boostfactor}): $\alpha_2 = \frac{1}{2} \ln\left(\frac{1-\epsilon_2}{\epsilon_2}\right) = 0.65$
+
+Let us suppose to stop after this round, we now have a forest of 3 decision classifiers: $h_1,h_2,h_3$.
+
+\paragraph{Final step}
+The final classifier is a weighted linear combination of all the classifiers:
+
+
+\begin{center}
+\includegraphics[width=12cm]{appendix/img/adaboost5.png}
+\end{center}
+
 
 \end{appendices}

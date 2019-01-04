@@ -5,12 +5,10 @@
 \end{flushright}
 Because the in-ice IceCube detecor is a sparsely distributed detector, it is not straightforward to unambiguously reconstruct the particle (interactions). The scattering and absorption of photons, tilt of ice sheets, bubble column, etc. lead to uncertainties and make reconstruction challenging. Over the years, multiple reconstruction methods have been developed in the collaboration. They range from very fast (and simple) reconstructions, necessary for online filtering, to slow (and more refined) ones. Multiple reconstruction algorithms have been used in this analysis and are explained in more detail in this chapter.
 
-
-
 \section{Reconstruction}
 
 \subsection{Likelihood}
-Reconstruction algorithms usually have no unique solutions to describe the set of measured values of an event. The likelihood $\mathcal{L}(\vec{x} |\vec{a})$ describes the probability of a set of parameters ${\vec{a}}$ and a set of experimentally measured values ${\vec{x}}$. The parameters, ${\vec{a}}$, typically define the particle's characteristics (energy, direction, position, type, etc.) while the measured values ${\vec{x}}$ are determinded from the detector response (number of PE, timing, position of hit DOMs, etc.). This likelihood is equal to the cumulative probability
+Reconstruction algorithms usually have no unique solutions to describe the set of measured values of an event. The likelihood $\mathcal{L}(\vec{x} |\vec{a})$ describes the probability of a set of parameters ${\vec{a}}$ to be expressed in a set of experimentally measured values ${\vec{x}}$. The parameters, ${\vec{a}}$, typically define the particle's characteristics (energy, direction, position, type, etc.) while the measured values ${\vec{x}}$ are determined from the detector response (number of PE, timing, position of hit DOMs, etc.). This likelihood is equal to the cumulative probability
 
 \begin{equation}
 \mathcal{L}(\vec{x}|\vec{a}) = \prod_i p(x_i|\vec{a}),
@@ -21,11 +19,10 @@ Reconstruction algorithms usually have no unique solutions to describe the set o
 \label{eq:vec}
 \vec{a} = (\vec{r_0},t_0,\vec{p},E_0),
 \end{equation}
-\noindent where $r_0$ is the position vector of the particle at a time $t_0$ with a direction $\vec{p}$ and initial energy $E_0$. 
+\noindent where $\vec{r_0}$ is the position vector of the particle at a time $t_0$ with a direction $\vec{p}$ and initial energy $E_0$. 
 
 \subsection{\texttt{Line-Fit}}
 \label{subsec:lf}
-\textcolor{red}{Dit niet voor IceHive? Reconstr. wordt daar ook geintroduceerd... Toch in Coincsuite}\\
 
 \begin{figure}
 \centering
@@ -34,13 +31,13 @@ Reconstruction algorithms usually have no unique solutions to describe the set o
 \label{fig:lf}
 \end{figure}
 
-\noindent One of the most simple approaches in constructing a parameter profile is by calculating the track that, overall, has the closest approach of all the hit doms and is called \texttt{Line-Fit}\index{Line-Fit} (LF) \cite{Ahrens:2003fg}. If we assume that a particle starts at a position, $\vec{r}$ at a time 0 and travels at a velocity of $\vec{v}_\textrm{part}$, then its position at any given time is
+\noindent One of the most simple approaches in constructing a parameter profile is by calculating the track that, overall, has the closest approach of all the hit optical modules and is called \texttt{Line-Fit}\index{Line-Fit} (LF) \cite{Ahrens:2003fg}. If we assume that a particle starts at a position, $\vec{r}$ at a time 0 and travels at a velocity of $\vec{v}_\textrm{part}$, then its position at any given time is
 
 \begin{equation}
 \vec{r'} = \vec{r} + \vec{v}_{\textrm{part}}t.
 \end{equation}
 
-\noindent We want to calculate the best possible estimate of the velocity $\vec{v}_\textrm{part}$ and the position $\vec{r}$. Each DOM has a known location, $\vec{r}_i$, and measured time of a pulse, $t_i$. In this algorithm one assumes that a wavefront perpendicular to the particles direction is traveling along with the particle. If the veloctity $\vec{v}_\textrm{part}$ is fixed, then the position of the particle is known (black points in Fig. \ref{fig:lf}). However, because the Cherenkov wavefront should be set at an angle and scattering, PMT jitter, noise, etc. are not taken into account, this will not agree with the DOM position projected along the particle path (grey dots). The unknown velocity $\vec{v}_\textrm{part}$ and position $\vec{r}$ are the analytical solutions after minimizing the distances $d_i$ as shown in the figure\footnote{Minimizing $r_i - r'$ (dotted line in Fig. \ref{fig:lf}) is the same as minimizing $d$.}
+\noindent We want to calculate the best possible estimate of the velocity $\vec{v}_\textrm{part}$ and the position $\vec{r}$. Each DOM has a known location, $\vec{r}_i$, and measured time of a pulse, $t_i$. In this algorithm one assumes that a wavefront perpendicular to the particle's direction is traveling along with the particle. If the veloctity $\vec{v}_\textrm{part}$ is fixed, then the position of the particle is known (black points in Fig. \ref{fig:lf}). However, because the Cherenkov wavefront should be set at an angle and scattering, PMT jitter, noise, etc. are not taken into account, this will not agree with the DOM position projected along the particle path (grey dots). The unknown velocity $\vec{v}_\textrm{part}$ and position $\vec{r}$ are the analytical solutions after minimizing the distances $d_i$ as shown in the figure\footnote{Minimizing $r_i - r'$ (dotted line in Fig. \ref{fig:lf}) is the same as minimizing $d$.}
 
 \begin{equation}
 \label{eq:lf}
@@ -52,19 +49,21 @@ S(\vec{r},\vec{v}_{\textrm{part}}) &= \sum^{N_{\textrm{hit}}}_{i=1} \rho(\vec{r}
 \noindent where $N_\textrm{hit}$ are the number of hits. The analytical solution by minimizing this equation is equal to
 
 \begin{equation}
-\vec{r} = \langle\vec{r}_i\rangle - \vec{v}_\textrm{part} \ \ \ \textrm{and}\ \ \ \vec{v}_\textrm{part} = \frac{\langle \vec{r}_i t_i\rangle - \langle \vec{r}_i \rangle \langle t_i \rangle }{\langle t_i^2 \rangle - \langle t_i \rangle^2},
+\vec{r} = \langle\vec{r}_i\rangle - \vec{v}_\textrm{part}\langle t_i\rangle \ \ \ \textrm{and}\ \ \ \vec{v}_\textrm{part} = \frac{\langle \vec{r}_i t_i\rangle - \langle \vec{r}_i \rangle \langle t_i \rangle }{\langle t_i^2 \rangle - \langle t_i \rangle^2},
 \end{equation}
-\noindent where $\langle x \rangle$ denotes the average of a parameter $x$ over all hits $i$. Because this is an analytical equation, this algorithm is very fast and therefore often used in online processing.
+\noindent where $\langle x \rangle$ denotes the average of a parameter $x$ over all hits $i$.
+
+Because this is an analytical equation, this algorithm is very fast and therefore often used in online processing.
  
 \subsubsection{\texttt{Improved Line-Fit}}
-While disregarding the Cherenkov profile is inherent to the simplified LF model chosen for computational reasons, removing hits generated by photons that scattered for a significant length of time will mitigate the effect of ignoring the photon scattering in the ice. It was found that a basic filter could identify these scattered hits, and improve accuracy by almost a factor of two by removing them from the dataset. More formally, for each hit $h_i$, the algorithm looks at all neighboring hits within a neighborhood of $\mu$, and if there exists a neighboring hit $hj$ with a time stamp that is $t$ earlier than $h_i$, then $h_i$ is considered a scattered hit, and is not used in the basic reconstruction algorithm. Optimal values of $\mu$ and $t$ were found to be 156 m and 778 ns by tuning them on simulated muon data \cite{Aartsen:2013bfa}.\\
+While disregarding the Cherenkov profile is inherent to the simplified LF model chosen for computational reasons, removing hits generated by photons that scattered for a significant length of time will mitigate the effect of ignoring the photon scattering in the ice. It was found that a basic filter could identify these scattered hits, and improve accuracy by almost a factor of two by removing them from the dataset. More formally, for each hit $h_i$, the algorithm looks at all neighboring hits within a neighborhood of $\mu$, and if there exists a neighboring hit $h_j$ with a time stamp that is $t$ earlier than $h_i$, then $h_i$ is considered a scattered hit, and is not used in the basic reconstruction algorithm. Optimal values of $\mu$ and $t$ were found to be 156 m and 778 ns by tuning them on simulated muon data \cite{Aartsen:2013bfa}.\\
 
 \noindent This ``delay cleaning'' is done by computing the Huberfit on the remaining data points and minimizing
 
 \begin{equation}
 \sum^{N_{\textrm{hit}}}_{i=1} \phi(\rho(\vec{r},\vec{v}_\textrm{part},\vec{r}_i,t_i)),
 \end{equation}
-\noindent where $\rho$ was defined in Eq. \ref{eq:lf} and the Huber penalty function $\phi$ is defined as
+\noindent where $\rho$ is defined in Eq. \ref{eq:lf} and the Huber penalty function $\phi$ is defined as
 
 \begin{equation}
 \phi(\rho) \equiv \left\{
@@ -79,17 +78,17 @@ While disregarding the Cherenkov profile is inherent to the simplified LF model 
 
 \subsection{SPE and MPE}
 \label{subsec:spempe}
-A more intricate method of track reconstruction is done by taking the geometrical shape of the Cherenkov cone into account and relying on simulation fits where a seed track is implemented (usually from the fast Line-Fit algorithm).
+A more intricate method of track reconstruction is done by taking the geometrical shape of the Cherenkov cone into account and relying on simulation fits where a seed track is implemented (usually from the fast \texttt{Line-Fit} algorithm).
 
 
 \begin{figure}
 \centering
 \includegraphics[width=0.6\textwidth]{chapter7/img/reconstruction.png}
-\caption{Figure illustrating a muon track passing close by an optical module and defining the parameters used in the reconstruction algorithms.}
+\caption{Figure illustrating a muon track passing close by an optical module and defining the parameters used in the reconstruction algorithms. Illustration from Ref. \cite{Ahrens:2003fg}.}
 \label{fig:reconstruction}
 \end{figure}
 
-Let us assume a particle is traveling close to a DOM with parameters defined in Eq. \ref{eq:vec} as illustrated in Fig. \ref{fig:reconstruction}. The minimal distance of the track to the DOM is equal to $d$ and the PMT-axis (downwards relative to DOM) has an angle offset of $\eta$ degrees of the Cherenkov wave direction. In perfect conditions, the \textit{time residual} (time between the observed hit time and the ``expected'' time ) is a delta function, where
+Let us assume a particle is traveling close to a DOM with parameters defined in Eq. \ref{eq:vec} as illustrated in Fig. \ref{fig:reconstruction}. The minimal distance of the track to the DOM is equal to $d$ and the PMT-axis (downwards relative to DOM) has an angle offset of $\eta$ degrees of the Cherenkov wave direction. In perfect conditions, the \textit{time residual} (time between the observed hit time and the ``expected'' time ) is a delta function centered around 0, where
 
 \begin{equation}
 t_{\textrm{res}} \equiv t_{\textrm{hit}} - t_{\textrm{geo}},
@@ -97,16 +96,16 @@ t_{\textrm{res}} \equiv t_{\textrm{hit}} - t_{\textrm{geo}},
 \noindent with
 
 \begin{equation}
-t_\textrm{geo} = t_0 + \frac{\vec{p} \cdot (\vec{r}_i - \vec{r}_0) + d\tan \theta_c}{c_\textrm{vac}},
+t_\textrm{geo} = t_0 + \frac{\vec{p} \cdot (\vec{r}_i - \vec{r}_0) + d\cdot \tan (\theta_c)}{c_\textrm{vac}},
 \end{equation}
-\noindent which is equal to the time of the particle to travel from the position $\vec{r}_0$ to $\vec{r}'$ as illustrated in the figure. The accompanying Cherenkov wavefront that sent out photons at a time $t_0$ from $\vec{r}_0$ will cross the DOM when the particle is at a position $\vec{r}'$. Due to noise effects, PMT jitter, light from secondary interactions, DOM orientation, etc. the time risidual is smeared and shifted. The p.d.f. was estimated with photon simulations in ice and fitted to a Pandel function \ref{Ahrens:2003fg}. The time likelihood profile for single photons $i$ at the locations of the hit DOMs is then
+\noindent which is equal to the time of the particle to travel from the position $\vec{r}_0$ to $\vec{r}'$ as illustrated in the figure. The accompanying Cherenkov wavefront that sent out photons at a time $t_0$ from $\vec{r}_0$ will cross the DOM when the particle is at a position $\vec{r}'$. Due to noise effects, PMT jitter, light from secondary interactions, DOM orientation, etc. the time risidual is smeared and shifted. The p.d.f. was estimated with photon simulations in ice and fitted to a Pandel function \cite{Ahrens:2003fg}. The time likelihood profile for single photons $i$ at the locations of the hit DOMs is then
 
 \begin{equation}
 \mathcal{L}_\textrm{time} = \sum^{N_\textrm{hit}}_{i=1} p_1 (t_\textrm{res} | \vec{a} = {d_i,\eta_i,...}).
 \end{equation}
 \noindent An initial particle position and direction are found by maximizing the likelihood and iterated a couple of times to find the global maximum instead of a local. This fitting is called the Single PhotoElectron (SPE)\index{SPE} fit.\\
 
-\noindent The description of single photons arriving at the optical modules cannot be correct since electrical and optical signal channels can only resulve multiple photons separated by a few 100 ns and $\approx$ 10 ns, respectively. In the Multi-PhotoElectron (MPE) fit, one accounts for the fact that the early photons in a DOM hit scattered less in the ice. The p.d.f. for the first photon out of a total of $N$ to arrive with a time residual of $t_textrm{res}$ is
+\noindent The description of single photons arriving at the optical modules cannot be correct since electrical and optical signal channels can only resolve multiple photons separated by a few 100 ns and $\approx$ 10 ns, respectively. In the Multi-PhotoElectron (MPE) fit, one accounts for the fact that the early photons in a DOM hit scattered less in the ice. The p.d.f. for the first photon out of a total of $N$ to arrive with a time residual of $t_\textrm{res}$ is
 
 \begin{equation}
 p^1_N (t_\textrm{res}) = N \cdot p_1(t_\textrm{res}) \cdot \left(\int^\infty_{t_\textrm{res}} p_1(t) dt \right)^{(N-1)} = N \cdot p_1 (t_\textrm{res}) \cdot (1-P_1 (t_\textrm{res}))^{(N-1)},
@@ -201,7 +200,8 @@ In Section \ref{subsec:triggers}, it was explained how multiple triggers were co
 \begin{figure}[t]
 \centering
 \includegraphics[width=0.8\textwidth]{chapter7/img/coincidenteventsCORS.png}
-\caption{Event display of a simulated coincident event of two downgoing muons. The colors of the event range from red (early) to blue (late). The first muon hits the bottom of the detector, while the second traverses mainly the upper part. These events are often reconstructed as up-going and therefore result in a large background contribution. The scattered isolated hits are due to noise effects and mostly removed by pulse cleaning.}
+\caption{Event display of a simulated coincident event of two downgoing muons. The colors of the event range from red (early) to blue (late). The first muon hits the bottom of the detector, while the second traverses mainly the upper part. These events are often reconstructed as a single up-going event and therefore result in a large background contribution. The scattered isolated hits are due to noise effects and mostly removed by pulse cleaning.}
+\label{fig:coincidentevent}
 \end{figure}
 
 \noindent There are two modules that try to clean events more thoroughly than pulse cleaning alone. The first is \textit{TopolocalSplitter}\index{TopologicalSplitter}(TS), which starts from the Q-frames and loops over pulses and splits the event into clusters of pulses that contain at least a number of causally\footnote{The time between two DOM hits cannot be less than the time that light may have taken.} connected pulses within a certain time window. Some extra cleaning, similar to seededRT cleaning, is done in addition and can split coincident events that have overlapping readout windows, but are geometrically separated.
@@ -240,20 +240,155 @@ Additionally, a similar cleaning as explained in Section \ref{sec:pulsecleaning}
 \label{fig:coincsuite}
 \end{figure}
 Several testing algorithms allow to check if two or more split P-frames can originate from a single event. Five different scenarios were tested in this analysis, the first four are also chronologically shown in Fig. \ref{fig:coincsuite}:
-\vspace{2mmtw
-}
+\vspace{2mm}
+
 \begin{enumerate}
 \item Cluster alignment: the reconstructed direction of the individual clusters is compared to the direction of a reconstruction that uses the combined hits (HypoFit). The directions should be within a certain criticle angle.
 \item Cylinder cluster containment: the DOMs of the individual clusters should be able to be grouped together in a cylinder that has its center and direction along the HypoFit.
 \item Cylinder cluster alignment: a cylinder around the recontruction of each cluster is draw. The cylinders should overlap within a certain fraction.
-\item COG\footnote{Uitleggen wat COG is} connection: the second quarter of the COG of the first cluster and the third quarter of the COG of the second cluster are computed. These COG should lie close enough and have to be in the vicinity of the HypoFit.
+\item COG\footnote{Similar to COM (Center Of Mass), the COG is a weighted average position of the hit DOMs. DOMs that register more light get a heigher weight.} connection: the second quarter of the COG of the first cluster and the third quarter of the COG of the second cluster are computed. These COG should lie close enough and have to be in the vicinity of the HypoFit.
 \item Velocity test: tests if the velocity of the HypoFit is close to the speed of light.
 \end{enumerate}
 
 \vspace{2mm}
-\noindent These tests lead to a successful recombination of signal events while the advantage \texttt{IceHive} was not lost.
-
-
+\noindent The combination of \texttt{IceHive}, which does a very good job in cleaning events, but often overperformes and splits events that shouldn't be, and \texttt{CoincSuite}, which recombines events that were wrongfully split leads to a very powerful tool to clean events.
 
 \section{Analysis techniques}
-\section{Boosted Decision Tree Classifiers}
+\textcolor{red}{Komt hier iets dat je gebruikt in het volgende hoofdstuk maar nog niet hebt uitgelegd?}
+\section{Boosted Decision Tree classifiers}
+Given a certain event with a fixed set of variables that are constructed in an analysis, the question remains if the event is in fact a \textit{signal} or \textit{background} event. One can rely on Monte Carlo simulations to get a handle on the variable distribution in both sets. The most general and still widely used method is to use a cut-and-count approach where a cut is placed on a certain variable that discards events that fail the requirement. A Boosted Decision Tree (BDT) inspects a set of set variables and classifies an event with a score that ranges from -1 to 1. The higher the score, the more an event is regarded as signal-like. How this is done is given in more detail below. Boosted decision trees rely on multiple individual trees. Therefore, we will first explain how a single tree classification works.
+
+
+\subsection{Stucture}
+The goal of a decision tree is to determine if an event is signal- or background like. It uses a tree-like structure where certain selection criteria are used at different nodes as illustrated in Fig. \ref{fig:bdt}.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.5\textwidth]{chapter7/img/bdt.png}
+\caption{Illustration of decision tree scheme.}
+\label{fig:bdt}
+\end{figure}
+An decision tree is a binary tree that places an event into a certain node depending on the selection at a node. The depth of a decision tree can be arbitrarily long, but is but are determined by a set of criteria defined in Section \ref{subsec:training}). An event consists of a certain set of variables $X = {x_1,x_2,...x_n}$ that are used in the classification. Before any selection criteria, the event is said to be represented by the \textit{root node}. A binary selection then determines to which \textit{child node} the event should be classified, for example: 
+
+\begin{equation}
+\begin{split}
+\textrm{Selection A} &= x_1 > y_1 \ \ (\textrm{option 1})\\
+&= x_1 \leq y_1 \ \ (\textrm{option 2}),
+\end{split}
+\end{equation}
+where $y_1$ is the cut value for variable $x_1$. Similarly, the other selections deterimine where the event is eventually placed. The last nodes are referred to as \textit{leaf nodes} and hold the probabilities of whether an event is more signal- or background-like. These probabilities are translated into a score ranging between -1 (background) and 1 (signal). 
+
+\subsection{Training}
+\label{subsec:training}
+To construct a decision tree, one first has to ``train'' the algorithm. Given a certain ``signal set'' and ``background set'', all variables used in the BDT are histogrammed and at each bin for each variable the ``best cut'' is set at the first node selection. This best cut uses the purity of a node, $p$, to select the optimal cut:
+
+\begin{equation}
+p = \frac{\sum_s w_s}{\sum_s w_s + \sum_b w_b},
+\end{equation}
+\noindent where $w_s$ and $w_b$ refer to the weights of the signal and background events and
+
+\begin{equation}
+g(p) = p(1-p), 
+\end{equation}
+where $g$ refers to the Gini index that is used as a separation variable in this work\footnote{Other possible separation variables include the cross entropy $-p \cdot \ln(p)-(1-p) \cdot \ln(1-p)$ or the misclassification error $1-\textrm{max}(p,1-p)$}. Using the Gini index, the separation gain determins the effectiveness of the cut
+
+\begin{equation}
+\label{eq:separationgain}
+\Delta S = g_p \cdot \sum w_p - \left(g_l \cdot \sum w_l + g_r \cdot \sum w_r\right),
+\end{equation}
+\noindent where $g_p$ and $w_p$ denote the Gini index and weights of the parent nodes and similarly for the left and right child nodes. The cut that gives the highest separation gain is subsequently selected. The algorithm stops when one of the following criteria is met:
+
+\begin{itemize}
+\item A node only consists of signal or background events.
+\item A certain predefined maximal depth is reached.
+\item Splitting would cause a child node to have less than a predefined minimal amount of events left;  
+\end{itemize}
+and therefore determines the size of a tree. These selection criteria are necessary to avoid overtraining (see Section \ref{subsec:overtraining}).
+
+\subsection{Boosting}
+As already implied in the text above, a BDT consists of a \textit{forest} of decision trees. A user specified number of individual decision trees are trained sequentially, with a boosting process in between each training. Boosting consists of adjusting the weights of individual events according to whether the previously trained tree classifies them correctly. In this work, the AdaBoost\footnote{Short for Adaptive Boosting.} algorithm was used for boosting in which the score of an event is a weighted average of the scores the event receives from each tree in the forest \cite{FREUND1997119}.
+
+A BDT may informally be called a ``boosted decision tree'', but it must be understood that there are actually many trees (typically hundreds), and that boosting is a process that occurs between the training of consecutive trees. The approach makes use of the power of numbers: many weak single decision trees combined can be more powerful than one very good decision tree. In general, boosting follows the following steps:
+
+\begin{enumerate}
+\item Train a weak model on training data.
+\item Compute the error of the model on each training example.
+\item Give higher importance to examples on which the model made mistakes.
+\item Re-train the model using ``importance weighted'' training examples.
+\item Go back to step 2.
+\end{enumerate}
+\vspace{2mm}
+An example is given in Appendix \ref{ch:adaboostappendix}.\\
+\newline
+\noindent If $I(s,y)$ is a function equal to 0 if the sample test score after tree classification, $s$, is equal to it's true identity, $y$, then the error rate for a tree is equal to
+
+\begin{equation}
+\epsilon = \frac{\sum_i w_i I(s,y)}{\sum_i w_i}.
+\end{equation}
+\noindent The boosting factor for the tree is defined as
+
+\begin{equation}
+\label{eq:boostfactor}
+\alpha = \beta \cdot \ln\left(\frac{1-\epsilon}{\epsilon}\right),
+\end{equation}
+\noindent and changes the weight of the tree to
+
+\begin{equation}
+\begin{split}
+w' = w \cdot \exp(\alpha), \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ w' = w \cdot \exp(-\alpha)\\
+\textrm{ (correct classification)} \ \ \ \ \textrm{ (incorrect classification),}
+\end{split}
+\end{equation}
+\noindent after which the weights are renormalized so that $\sum w = 1$. The process is repeated until the number of predefined trees is reached.
+
+Due to its definition, the boost factor $\alpha$ will give good classifiers (which have low error rates, $\epsilon$) large boost factors. Events that are misclassified are then given larger weights, making the algorithm more likely to classify them correctly in the subsequent tree classifier.
+
+Once the entire BDT is trained, the events can be given a score based on the multiple tree classifiers. This is done by taking the weighted average of all the scores in the individual tree classifiers, using its boost factor $\alpha$ as the weight of the tree. The score of an event $i$ is then given by
+
+\begin{equation}
+s_i = \frac{\sum_m \alpha_m \cdot s_{i,m}}{\sum \alpha_m},
+\end{equation}
+\noindent where we loop over the individual trees denoted with index $m$.
+
+\subsection{Overtraining}
+\label{subsec:overtraining}
+BDTs are very powerful tools, but if not used correctly could lead to problems that are not easy to spot at first sight. Assume we train our BDT with a certain signal set and background set. If the BDT is trained up to the point of classifying statistical fluctuations, there is said to be \textit{training sample overtraining}. An example is given in Fig. \ref{fig:overtraining}. Another example is data/MC overtraining. The former can be dealt with with the use of \textit{pruning}, while the latter should show clear data/MC agreement. 
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.5\textwidth]{chapter7/img/overtraining.png}
+\caption{Example of overtraining. In black, the theoretical line between background (blue points) and signal (red points) is given. An overtrained BDT will have a (perfect) selection such as the green line. Illustration from \cite{boserpdf}.}
+\label{fig:overtraining}
+\end{figure}
+
+\subsubsection{Pruning}
+The problem with overtraining is essentially that there are certain splits in a classifier tree that are too specific and less important. In the method of \textit{cost complexity pruning}, for each node the complexity is calculated as
+
+\begin{equation}
+\rho = \frac{\Delta S}{n_{\textrm{leaves}} -1},
+\end{equation}
+\noindent with $\Delta S$ th separation gain as defined in Eq. \ref{eq:separationgain}. The subtree of the node with the smallest value of $\rho$ is removed and this is done repeatedly until a desired \textit{pruning strength}\footnote{A parameter on a scale from 0 to 100, which specifies the percentage of the pruning sequence to actually execute. 0 means no pruning is done and 100 signifies only a single root node remaining.} is reached.\\
+\newline
+\noindent BDTs are always trained and tested with different subsets of the same type (background or signal) of event. If the training set has significantly different scores than the testing set, the sample is most probably overtrained and one has to change the BDT input parameters. Typically, one uses Kolmogorov-Smirnov testing to indicate if the BDT score distributions from the training and testing sets could follow the same distribution pattern. As a rule of thumb, a $p_{KS} \lesssim 0.01$ indicates overtraining beyond the level of comfort.
+
+
+\subsubsection{Data-MC agreement}
+\textcolor{red}{Nodig?}	
+
+\section{Paraboloid}
+\label{sec:paraboloid}
+
+\section{IceCube coordinate system}
+Lastly, when referring to positions and directions one first has define a coordinate system to be able to uniquely define these variables. The system is shown in Fig. \ref{fig:coordinates}.\\
+\newline
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.5\textwidth]{chapter7/img/CoordinateSystem.png}
+\caption{The IceCube Coordinate system.}
+\label{fig:coordinates}
+\end{figure}
+
+\noindent The center of the coordinate system is set close to the geometric center of the detector, at about 2000 m below the surface of the ice. The y-axis of the coordinate system is aligned with the Prime Meridian pointing toward Greenwich (United Kingdom). The x-axis is set perpendicular to the y-axis pointing in a, 90$^\circ$ clockwise direction. The z-axis is set perpendicular to the xy-plane, pointing upwards, normal to the Earth's surface.
+
+A particle's direction is defined with zenith and azimuth angles, $\theta$ and $\phi$ respectively. The zenith angle is measured relative to the positive z-axis and the azimuth angle is measured counterclockwise from the positive xy-plane.
