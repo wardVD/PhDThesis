@@ -2,182 +2,132 @@
 \defcounter {refsection}{0}\relax 
 \select@language {english}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {}Introduction}{5}{chapter*.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {part}{\@mypartnumtocformat {\textlatin {I}}{Theory and Experiment}}{7}{part.1}
+\contentsline {part}{\@mypartnumtocformat {\textlatin {I}}{Theory and Experiment}}{3}{part.1}
 \ttl@starttoc {default@1}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{\@mypartnumtocformat {\textlatin {II}}{Simulation, Processing and Analysis}}{9}{part.2}
+\contentsline {part}{\@mypartnumtocformat {\textlatin {II}}{Simulation, Processing and Analysis}}{5}{part.2}
 \ttl@stoptoc {default@1}
 \ttl@starttoc {default@2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {1}Simulation: Event Generation and Propagation}{11}{chapter.1}
+\contentsline {chapter}{\numberline {1}Simulation: Event Generation and Propagation}{7}{chapter.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.1}Generation}{13}{section.1.1}
+\contentsline {section}{\numberline {1.1}Generation}{9}{section.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.1}Background simulation}{13}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Background simulation}{9}{subsection.1.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.1.1.1}CORSIKA}{13}{subsubsection.1.1.1.1}
+\contentsline {subsubsection}{\numberline {1.1.1.1}CORSIKA}{9}{subsubsection.1.1.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Interactions}{14}{section*.6}
+\contentsline {paragraph}{Interactions}{10}{section*.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.1.1.2}NuGen}{14}{subsubsection.1.1.1.2}
+\contentsline {subsubsection}{\numberline {1.1.1.2}NuGen}{10}{subsubsection.1.1.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.1.1.3}GENIE}{15}{subsubsection.1.1.1.3}
+\contentsline {subsubsection}{\numberline {1.1.1.3}GENIE}{11}{subsubsection.1.1.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.2}Signal simulation}{15}{subsection.1.1.2}
+\contentsline {subsection}{\numberline {1.1.2}Signal simulation}{11}{subsection.1.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.2}Propagation}{17}{section.1.2}
+\contentsline {section}{\numberline {1.2}Propagation}{13}{section.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.1}\texttt {PROPOSAL}}{17}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.1}\texttt {PROPOSAL}}{13}{subsection.1.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\texttt {PROPOSAL} for SMPs}{18}{section*.12}
+\contentsline {paragraph}{\texttt {PROPOSAL} for SMPs}{14}{section*.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.2}Photoelectron generators}{18}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.2}Photoelectron generators}{14}{subsection.1.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.3}Detector simulation}{19}{section.1.3}
+\contentsline {section}{\numberline {1.3}Detector simulation}{15}{section.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.4}Burn sample}{20}{section.1.4}
+\contentsline {section}{\numberline {1.4}Burn sample}{16}{section.1.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4.1}Standard ??}{20}{subsection.1.4.1}
+\contentsline {subsection}{\numberline {1.4.1}Standard ??}{16}{subsection.1.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4.2}Event viewer}{20}{subsection.1.4.2}
+\contentsline {section}{\numberline {1.5}Event viewer}{16}{section.1.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Reconstruction, Cleaning and Analysis Techniques}{21}{chapter.2}
+\contentsline {chapter}{\numberline {2}The SPACE Analysis}{17}{chapter.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Reconstruction}{21}{section.2.1}
+\contentsline {section}{\numberline {2.1}Motivation}{17}{section.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.1}Likelihood}{21}{subsection.2.1.1}
+\contentsline {section}{\numberline {2.2}General strategy}{17}{section.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.2}\texttt {Line-Fit}}{22}{subsection.2.1.2}
+\contentsline {section}{\numberline {2.3}Event cleaning}{17}{section.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.1.2.1}\texttt {Improved Line-Fit}}{23}{subsubsection.2.1.2.1}
+\contentsline {section}{\numberline {2.4}Variables}{17}{section.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.3}SPE and MPE}{23}{subsection.2.1.3}
+\contentsline {section}{\numberline {2.5}BDT results}{17}{section.2.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.4}\texttt {Millipede}}{24}{subsection.2.1.4}
+\contentsline {section}{\numberline {2.6}Pull validation}{17}{section.2.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.5}\texttt {FiniteReco}}{26}{subsection.2.1.5}
+\contentsline {section}{\numberline {2.7}Systematic Uncertainties}{17}{section.2.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.6}\texttt {Paraboloid}}{26}{subsection.2.1.6}
+\contentsline {section}{\numberline {2.8}Results}{17}{section.2.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Pulse cleaning}{26}{section.2.2}
+\contentsline {chapter}{\numberline {3}Summary and Discussion}{19}{chapter.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}\texttt {IceHive}}{26}{section.2.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.1}\texttt {HiveSplitter}}{27}{subsection.2.3.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.2}\texttt {HiveCleaning}}{29}{subsection.2.3.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}CoincSuite}{29}{section.2.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.5}Analysis techniques}{29}{section.2.5}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.6}Boosted Decision Tree classifiers}{30}{section.2.6}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.6.1}Stucture}{30}{subsection.2.6.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.6.2}Training}{30}{subsection.2.6.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.6.3}Boosting}{31}{subsection.2.6.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.6.4}Overtraining}{32}{subsection.2.6.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.6.4.1}Pruning}{32}{subsubsection.2.6.4.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.6.4.2}Data-MC agreement}{33}{subsubsection.2.6.4.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.7}Paraboloid}{33}{section.2.7}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.8}IceCube coordinate system}{33}{section.2.8}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}The SPACE Analysis}{35}{chapter.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Motivation}{35}{section.3.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}General strategy}{35}{section.3.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Event cleaning}{35}{section.3.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}Variables}{35}{section.3.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.5}BDT results}{35}{section.3.5}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.6}Pull validation}{35}{section.3.6}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.7}Systematic Uncertainties}{35}{section.3.7}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.8}Results}{35}{section.3.8}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Summary and Discussion}{37}{chapter.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {part}{\@mypartnumtocformat {\textlatin {III}}{Additions}}{39}{part.3}
+\contentsline {part}{\@mypartnumtocformat {\textlatin {III}}{Additions}}{21}{part.3}
 \ttl@stoptoc {default@2}
 \ttl@starttoc {default@3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Appendices}{41}{section*.24}
+\contentsline {chapter}{Appendices}{23}{section*.13}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Gauge symmetries}{43}{Appendix.a.A}
+\contentsline {chapter}{\numberline {A}Gauge symmetries}{25}{Appendix.a.A}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}Planck's law}{45}{Appendix.a.B}
+\contentsline {chapter}{\numberline {B}Planck's law}{27}{Appendix.a.B}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.1}Electromagnetic waves in a cubical cavity}{45}{section.a.B.1}
+\contentsline {section}{\numberline {B.1}Electromagnetic waves in a cubical cavity}{27}{section.a.B.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {B.1.1}Classical approach}{46}{subsection.a.B.1.1}
+\contentsline {subsection}{\numberline {B.1.1}Classical approach}{28}{subsection.a.B.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {B.1.2}Quantum approach}{46}{subsection.a.B.1.2}
+\contentsline {subsection}{\numberline {B.1.2}Quantum approach}{28}{subsection.a.B.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {C}Statistics}{47}{Appendix.a.C}
+\contentsline {chapter}{\numberline {C}Statistics}{29}{Appendix.a.C}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {D}Distributions}{49}{Appendix.a.D}
+\contentsline {chapter}{\numberline {D}Distributions}{31}{Appendix.a.D}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {D.1}Spherical random numbers}{49}{section.a.D.1}
+\contentsline {section}{\numberline {D.1}Spherical random numbers}{31}{section.a.D.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {D.2}Power law distributions}{50}{section.a.D.2}
+\contentsline {section}{\numberline {D.2}Power law distributions}{32}{section.a.D.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {D.3}Angular distributions}{51}{section.a.D.3}
+\contentsline {section}{\numberline {D.3}Angular distributions}{33}{section.a.D.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {D.4}Weighting}{51}{section.a.D.4}
+\contentsline {section}{\numberline {D.4}Weighting}{33}{section.a.D.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {E}AdaBoost: simple example}{55}{Appendix.a.E}
+\contentsline {chapter}{\numberline {E}AdaBoost: simple example}{37}{Appendix.a.E}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Initial distribution}{55}{section*.28}
+\contentsline {paragraph}{Initial distribution}{37}{section*.17}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Round 1}{55}{section*.29}
+\contentsline {paragraph}{Round 1}{37}{section*.18}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Round 2}{56}{section*.30}
+\contentsline {paragraph}{Round 2}{38}{section*.19}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Round 3}{56}{section*.31}
+\contentsline {paragraph}{Round 3}{38}{section*.20}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Final step}{56}{section*.32}
+\contentsline {paragraph}{Final step}{38}{section*.21}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Some useful things for LaTeX}{57}{chapter.5}
+\contentsline {chapter}{\numberline {4}Some useful things for LaTeX}{39}{chapter.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Definitions}{57}{section.5.1}
+\contentsline {section}{\numberline {4.1}Definitions}{39}{section.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Remarks}{57}{section.5.2}
+\contentsline {section}{\numberline {4.2}Remarks}{39}{section.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Corollaries}{57}{section.5.3}
+\contentsline {section}{\numberline {4.3}Corollaries}{39}{section.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.4}Propositions}{57}{section.5.4}
+\contentsline {section}{\numberline {4.4}Propositions}{39}{section.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.1}Several equations}{58}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {4.4.1}Several equations}{40}{subsection.4.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.2}Single Line}{58}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {4.4.2}Single Line}{40}{subsection.4.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.5}Examples}{58}{section.5.5}
+\contentsline {section}{\numberline {4.5}Examples}{40}{section.4.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.5.1}Equation and Text}{58}{subsection.5.5.1}
+\contentsline {subsection}{\numberline {4.5.1}Equation and Text}{40}{subsection.4.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.5.2}Paragraph of Text}{58}{subsection.5.5.2}
+\contentsline {subsection}{\numberline {4.5.2}Paragraph of Text}{40}{subsection.4.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.6}Exercises}{58}{section.5.6}
+\contentsline {section}{\numberline {4.6}Exercises}{40}{section.4.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.7}Problems}{58}{section.5.7}
+\contentsline {section}{\numberline {4.7}Problems}{40}{section.4.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.8}Vocabulary}{58}{section.5.8}
+\contentsline {section}{\numberline {4.8}Vocabulary}{40}{section.4.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\leavevmode {\color {ocre}Bibliography}}{59}{chapter*.33}
+\contentsline {chapter}{\leavevmode {\color {ocre}Bibliography}}{41}{chapter*.22}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\leavevmode {\color {ocre}Index}}{63}{section*.34}
+\contentsline {chapter}{\leavevmode {\color {ocre}Index}}{53}{section*.23}
 \contentsfinish 

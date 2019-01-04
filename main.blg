@@ -1,19 +1,22 @@
 [0] Config.pm:340> INFO - This is Biber 2.4
 [0] Config.pm:343> INFO - Logfile is 'main.blg'
-[47] biber:287> INFO - === Thu Jan  3, 2019, 16:11:34
-[132] Biber.pm:348> INFO - Reading 'main.bcf'
-[270] Biber.pm:742> INFO - Found 29 citekeys in bib section 0
-[275] Biber.pm:3151> INFO - Processing section 0
-[309] Biber.pm:3308> INFO - Looking for bibtex format file 'bibliography.bib' for section 0
-[859] bibtex.pm:1113> INFO - Decoding LaTeX character macros into UTF-8
-[1293] bibtex.pm:974> INFO - Found BibTeX data source 'bibliography.bib'
-[1538] Utils.pm:147> WARN - BibTeX subsystem: warning: comma(s) at end of name (removing)
-[1538] Utils.pm:147> WARN - BibTeX subsystem: author, warning: comma(s) at end of name (removing)
-[1538] Utils.pm:147> WARN - I didn't find a database entry for 'subsec:datahandling' (section 0)
-[1717] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1717] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1717] Biber.pm:3028> INFO - Sorting list 'none/global' of type 'entry' with scheme 'none' and locale 'en-US'
-[1717] Biber.pm:3032> INFO - No sort tailoring available for locale 'en-US'
-[1745] bbl.pm:519> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[1860] bbl.pm:615> INFO - Output to main.bbl
-[1860] Biber.pm:109> INFO - WARNINGS: 3
+[42] biber:287> INFO - === Fri Jan  4, 2019, 14:53:21
+[148] Biber.pm:348> INFO - Reading 'main.bcf'
+[306] Biber.pm:742> INFO - Found 203 citekeys in bib section 0
+[313] Biber.pm:3151> INFO - Processing section 0
+[350] Biber.pm:3308> INFO - Looking for bibtex format file 'bibliography.bib' for section 0
+[888] bibtex.pm:1113> INFO - Decoding LaTeX character macros into UTF-8
+[1343] bibtex.pm:974> INFO - Found BibTeX data source 'bibliography.bib'
+[1406] Utils.pm:147> WARN - ISBN '9780201503975, 0201503972' in entry 'Peskin:1995ev' is invalid - run biber with '--validate_datamodel' for details.
+[2038] Utils.pm:147> WARN - ISBN '9780521016469, 9781316598917' in entry 'Gaisser:2016uoy' is invalid - run biber with '--validate_datamodel' for details.
+[2865] Utils.pm:147> WARN - BibTeX subsystem: warning: comma(s) at end of name (removing)
+[2865] Utils.pm:147> WARN - BibTeX subsystem: author, warning: comma(s) at end of name (removing)
+[2865] Utils.pm:147> WARN - I didn't find a database entry for 'Binnenkort gepubliceerd' (section 0)
+[2871] Utils.pm:147> WARN - The field 'pages' in entry 'weiswynands:2003' cannot be null, deleting it
+[4122] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[4122] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[4122] Biber.pm:3028> INFO - Sorting list 'none/global' of type 'entry' with scheme 'none' and locale 'en-US'
+[4122] Biber.pm:3032> INFO - No sort tailoring available for locale 'en-US'
+[4295] bbl.pm:519> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[4954] bbl.pm:615> INFO - Output to main.bbl
+[4955] Biber.pm:109> INFO - WARNINGS: 6

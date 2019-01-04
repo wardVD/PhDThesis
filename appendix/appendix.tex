@@ -120,7 +120,7 @@ P(n) = \frac{\lambda^n e^{-\lambda}}{n!},
 
 \section{Spherical random numbers}
 \label{sec:sphericalrandom}
-Most random number generators provide uniform distributions from between the range $[0,1]$. Assume we want to make a uniform distribution along a sphere with angles $\phi$ and $\theta$ and radius $r$, in spherical coordinates. Random numbers between $[0,\pi]$, $[0,2\pi]$ and $[0,R]$ (the ranges of the coordinates) would not give a uniform distribution as illustrated in Fig. \ref{fig:sphere} (left).\\
+Most random number generators provide uniform distributions between the range $[0,1]$. Assume we want to make a uniform distribution along a sphere with angles $\phi$ and $\theta$ and radius $r$, in spherical coordinates. Random numbers between $[0,\pi]$, $[0,2\pi]$ and $[0,R]$ (the ranges of the coordinates) would not give a uniform distribution as illustrated in Fig. \ref{fig:sphere} (left).\\
 
 \begin{figure}
 \centering
@@ -165,6 +165,7 @@ F^{-1}(u) =& \arccos(1-2u).
 
 \noindent In other words: if $u$ is a random variable drawn from a uniform distribution, then $\phi = \arccos(1-2u)$ follows a distribution necessary for a uniform spherical distribution. Similarly, $\theta = \frac{1}{2\pi} u$.
 \section{Power law distributions}
+\label{sec:powerlawdistr}
 Analogous to what was written in the previous section, one can produce a power law distribution from random numbers using the inverse transform sampling method: 
 \begin{equation}
 \begin{split}
@@ -238,19 +239,19 @@ d\Omega = \sin(\theta) d\theta d\phi.
 A method that is often used in simulations is \textit{weighting}. The simulated and expected differential flux of particles is often not the same, mainly due to two reasons:
 
 \begin{itemize}
-\item The flux has no uniform power law behavior. As can bee seen in Fig. \ref{fig:spectrumCR}, there are multiple ``kinks'' and changes in the spectrum. Instead of simulating the flux according to one model, a general uniform flux is used and later reweighted to be able to fit to other models more easily.
+\item The flux has no uniform power law behavior. As can bee seen in Fig. \ref{fig:spectrumCR}, there can be multiple ``kinks'' and changes in a spectrum. Instead of simulating the flux according to one model, a general uniform flux is used and later reweighted to be able to fit to other models more easily.
 \item A steep power law indicates very few events at the highest energy bins. This means large CPU time would be necessary to simulate these events. As an example, let us assume two different fluxes
 
 \begin{equation}
-f_1 = A \cdot x^{-1}
+f_1 = A \cdot x^{-1},
 \end{equation}
 
 \begin{equation}
 f_2 = B \cdot x^{-2},
 \end{equation}
-\noindent where $A = 10^3$ and $B = 10^4$, so the fluxes cross at a value of $x^{-1+2} = x = \frac{10^4}{10^3} = 10$. In the interval $x \in [10^3,10^4]$, the number of events for $f_1$ is equal to $10^3$, whereas for $f_2$ this is equal to 9.
+\noindent where $A = 10^3$ and $B = 10^4$, so the fluxes cross at a value of $x^{-1+2} = x = \frac{10^4}{10^3} = 10$. In the interval $x \in [10^3,10^4]$, the number of events for $f_1$ is equal to $10^3$, whereas for $f_2$ this is equal to 9.\\
 
-Simulating with harder spectra\footnote{Harder spectra equals to a lower gamma, since there will be more high-energy events.} leads to more statistics in high-energy bins.
+\noindent Simulating with harder spectra\footnote{Harder spectra equals to a lower gamma, since there will be more high-energy events.} leads to more statistics in high-energy bins.
 \end{itemize}
 \vspace{3mm}
 \noindent The weights can be generally written down as

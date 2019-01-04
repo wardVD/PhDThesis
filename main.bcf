@@ -2027,11 +2027,11 @@
   </bcf:bibdata>
   <bcf:section number="0">
     <bcf:citekey order="1">1742-6596-664-6-062056</bcf:citekey>
-    <bcf:citekey order="2">Gaisser:2013bla</bcf:citekey>
+    <bcf:citekey order="2">Engel:2018akg</bcf:citekey>
     <bcf:citekey order="3">Gaisser:2013bla</bcf:citekey>
     <bcf:citekey order="4">Gaisser:2013bla</bcf:citekey>
-    <bcf:citekey order="5">Battistoni:2015epi</bcf:citekey>
-    <bcf:citekey order="6">Engel:2018akg</bcf:citekey>
+    <bcf:citekey order="5">Gaisser:2013bla</bcf:citekey>
+    <bcf:citekey order="6">Battistoni:2015epi</bcf:citekey>
     <bcf:citekey order="7">Gazizov:2004va</bcf:citekey>
     <bcf:citekey order="8">Honda:2006qj</bcf:citekey>
     <bcf:citekey order="9">Enberg:2008te</bcf:citekey>
@@ -2068,21 +2068,6 @@
     <bcf:citekey order="39">Lundberg:2007mf</bcf:citekey>
     <bcf:citekey order="40">Abbasi:2010vc</bcf:citekey>
     <bcf:citekey order="40">Ma:2009aw</bcf:citekey>
-    <bcf:citekey order="41">Ahrens:2003fg</bcf:citekey>
-    <bcf:citekey order="42">Aartsen:2013bfa</bcf:citekey>
-    <bcf:citekey order="43">Ahrens:2003fg</bcf:citekey>
-    <bcf:citekey order="44">Ahrens:2003fg</bcf:citekey>
-    <bcf:citekey order="45">Ahrens:2003fg</bcf:citekey>
-    <bcf:citekey order="46">millipedeinternal</bcf:citekey>
-    <bcf:citekey order="46">stefthesis</bcf:citekey>
-    <bcf:citekey order="47">Neunhoffer:2004ha</bcf:citekey>
-    <bcf:citekey order="48">RTcutwiki</bcf:citekey>
-    <bcf:citekey order="49">mzollthesis</bcf:citekey>
-    <bcf:citekey order="50">mzollthesis</bcf:citekey>
-    <bcf:citekey order="51">mzollthesis</bcf:citekey>
-    <bcf:citekey order="52">FREUND1997119</bcf:citekey>
-    <bcf:citekey order="53">boserpdf</bcf:citekey>
-    <bcf:citekey order="54">boserpdf</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="none/global" type="entry" sortscheme="none" sortnamekeyscheme="global">
   <bcf:sorting>

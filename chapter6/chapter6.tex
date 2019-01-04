@@ -4,19 +4,19 @@
 \begin{flushright}
 \textit{\\Soon there will be virtual reality, and augmented reality. If you assume any rate of improvement at all, then games will become indistinguishable from reality . . ., it would seem to follow that the odds we are in base reality are one in billions. $\sim$ Elon Musk\\}
 \end{flushright}
-In order to be able to search for new physics, one has to have a good handle on the detector response on known physics processes. Depending on the analysis, some processes are more interesting than others. In general, the particle interactions of interest are referred to as \textit{signal events}. Other interactions, which mimic or obscure the signal events, are typically called \textit{background events}. These events are simulated using Monte Carlo\footnote{While recovering from an illness in 1946, Stanislaw Ulam figured that the actual counting of succesful attempts in playing a card game would yield him a much faster answer to the probability of succes rather than doing the actual calculus. His work, shared with John von Neumann, needed to remain secret and adopted the code word ``Monte Carlo''\index{Monte Carlo}, referring to the gambling games in the Monte Carlo Casino in Monaco.} (MC) simulations, where one makes use of a model that describes the interactions and their probability to occur. A typical MC simulation consists of hundreds to millions of events that are constructed using these models with the use of random number generators. To determine the detector response of a particle interaction, one first has to start with the particle generation, which sets the conditions of the initial interaction. Afterwards, the propagation of the particle in the detector (medium) is simulated as best as possible. Below, we give an overview of the important background and signal simulations that are used in this analysis. A flowchart of the simulations steps is given in Fig. \ref{fig:flowchart}.
+To be able to search for new physics, one has to have a good handle on the detector response on known physics processes. Depending on the analysis, some processes are more interesting than others. In general, the particle interactions of interest are referred to as \textit{signal events}. Other interactions, which mimic or obscure the signal events, are typically called \textit{background events}. These events are simulated using Monte Carlo\footnote{While recovering from an illness in 1946, Stanislaw Ulam figured that the actual counting of succesful attempts in playing a card game would yield him a much faster answer to the probability of succes rather than doing the actual calculus. His work, shared with John von Neumann, needed to remain secret and adopted the code word ``Monte Carlo''\index{Monte Carlo}, referring to the gambling games in the Monte Carlo Casino in Monaco.} (MC) simulations, where one makes use of a model that describes the interactions and their probability to occur. A typical MC simulation consists of hundreds to millions of events that are constructed using these models with the use of random number generators. To determine the detector response of a particle interaction, one first has to start with the particle generation, which sets the conditions of the initial interaction. Afterwards, the propagation of the particle in the detector (medium) is simulated as best as possible. Below, we give an overview of the important background and signal simulations that are used in this analysis. A flowchart of the simulations steps is given in Fig. \ref{fig:flowchart}.
 
 \begin{figure}
 \centering
 \includegraphics[width=0.65\textwidth]{chapter6/img/flowchart_extended.png}
-\caption{Flowchart of the simulation layout. On the left it is shown that particles are injected and their interactions are simulated to digitized waveforms. The right part shows real data processing. After triggering, data and simulation go through the same processing chain to prepare for analysis.}
+\caption{Flowchart of the simulation layout. On the left is shown that particles are injected and their interactions are simulated to digitized waveforms. The right part shows real data processing. After triggering both data and simulation go through the same processing chain to prepare for analysis.}
 \label{fig:flowchart}
 \end{figure}
 
 \begin{corollary}[The software framework]
-\textit{IceTray} \index{IceTray} is a modular framework written and used by the IceCube collaboration and mostly written in C++ for fast computation. A python interface for most modules is provided for fast and easy implementation of the code. The framework is used in both online and offline processing and is stream-based with modules that act on events in the stream and is essentially follows the flowchart that is provided by the user.\\
+\textit{IceTray} \index{IceTray} is a modular framework written and used by the IceCube collaboration and mostly written in C++ for fast computation. A python interface for most modules is provided for fast and easy implementation of the code. The framework is used in both online and offline processing and is stream-based with modules that act on events in the stream and essentially follows a flowchart of modules that is provided by the user.\\
 
-\noindent To process the large amount of simulation that is required for the collaboration, a data processing and management framework called \textit{IceProd} was developed. The setup is very light-weight, running as a python application. It uses (complex) workflow DAGs (see below) across distributed computing grids in order to optimize usage of resources. A \textit{dataset} is set up by running hunders to thousands of jobs in parallel over multiple computing resources all over the world. Each dataset has specific input parameters that are fixed. Distributions in physical parameters such as the direction, energy, position, etc. of the particle(s) are provided by random number generators \cite{1742-6596-664-6-062056}.\\
+\noindent To process the large amount of simulation that is required for the collaboration, a data processing and management framework called \textit{IceProd} was developed. The setup is very light-weight, running as a python application. It uses (complex) workflow DAGs (see below) across distributed computing grids in order to optimize usage of resources. A \textit{dataset} is set up by running hundreds to thousands of jobs in parallel over multiple computing resources all over the world. Each dataset has specific input parameters that are fixed. Distributions in physical parameters such as the direction, energy, position, etc. of the particle(s) are provided by random number generators \cite{1742-6596-664-6-062056}.\\
 
 \noindent \textit{HTCondor} is an open source computing software that provides a job queueing mechanism, scheduling policy, priority scheme, resource monitoring, and resource management. Users submit their serial or parallel jobs to HTCondor and places them into a queue. It chooses when and where to run the jobs based upon a policy, carefully monitors their progress, and ultimately informs the user upon completion.\\
 
@@ -28,7 +28,9 @@ Simulations start with setting up the starting conditions of the physical proces
 
 \subsection{Background simulation}
 \subsubsection{CORSIKA}
-A free, publicly available software framework that is widely used in the astrophysics community for the simulation of cosmic ray interactions is called CORSIKA \index{CORSIKA} (COsmic Ray SImulations for Kascade). It was originally developed for the KASCADE experiment and now used by most people and collaborations to simulate air shower events. IceCube analyses, such as this one, use CORSIKA simulations to simulate the muonic component that is able to reach the in-ice detector.\\
+A free, publicly available software framework that is widely used in the astrophysics community for the simulation of cosmic ray interactions is called CORSIKA \index{CORSIKA} (COsmic Ray SImulations for Kascade). It was originally developed for the KASCADE experiment and now used by most people and collaborations to simulate air shower events. IceCube analyses, such as this one, use CORSIKA simulations to simulate the muonic component that is able to reach the in-ice detector.
+
+The code is written in FORTRAN 77, but a C++ version is currently in the making \cite{Engel:2018akg}.\\
 
 \noindent A particle of specific type, energy, direction and position is injected in the top of the atmosphere and propagated. The distribution of particles in the shower is saved and read out according to a certain altitude. Because the flux of cosmic rays is exceedingly small at the highest energies, too many resources and too much time would be required to simulate an energy distribution as measured in experiments. Therefore, one often simulates a much harder spectrum and reweights the events accordingly later on (see Section \ref{sec:weighting}). Simulation datasets are often subdivided into a low-energy and high-energy dataset. The former ranges from primary energies between 600 GeV to 100 TeV and uses a spectral index that is close to what is measured. The spectral index of the latter is smaller, resulting in a harder spectrum, and the primary energy ranges from 100 TeV to 100 EeV. The lower limit of the energy range is due to the limited penetration depth of muons through the ice. An overview is given in Table \ref{tab:datasets}.\\
 
@@ -57,17 +59,14 @@ $j$ & \cellcolor[HTML]{9B9B9B}$R_c$ {[}V{]} & \multicolumn{5}{c|}{\cellcolor[HTM
 \end{table}
 
 \paragraph{Interactions}
-The atmosphere composition is always set at 78.1\% N$_2$, 21\% O$_2$, and 0.9\% Ar, which is a good description of reality on average. However, the density of the air above the detector changes significantly during the year because of temperature differences in the Arctic Summer and Winter. Most analyses that treat the muonic component as a background and are not interested in the details of the showers and how it changes during the year use an average of the atmospheric density. \\
+The atmosphere composition is always set at 78.1\% N$_2$, 21\% O$_2$, and 0.9\% Ar, which is a good description of reality. However, the density of the air above the detector changes significantly during the year because of temperature differences in the Arctic Summer and Winter. Most analyses treat the muonic component as a background and are not interested in the details of the showers and how it changes during the year and therefore use an average of the atmospheric density. \\
 
-\noindent The shower propagation and composition depends on the models that are used to simulate these high-energy interactions. The lowest energies are simulated with FLUKA \index{FLUKA} (FLUktuierende KAskade) \cite{Battistoni:2015epi}. This model covers the energy range that can be compared with accelerator experiments. Which model is the best for the highest energies is not known at the time of writing, if there even is one that describes nature well enough, since there are no controlled laboratory measurements that are capable of reaching these energies. Several studies seem to indicate that the composition changes drastically at the highest energies \textcolor{red}{SAMCITEREN+andere}. Fortunately, this is of no importance for this analysis.\\
+\noindent The shower propagation and composition depends on the models that are used to simulate these high-energy interactions. The lowest energies are simulated with FLUKA \index{FLUKA} (FLUktuierende KAskade) \cite{Battistoni:2015epi}. This model covers the energy range that can be compared with accelerator experiments. Which model is the best for the highest energies is not known at the time of writing since there are no controlled laboratory measurements that are capable of reaching these energies. Several studies seem to indicate that the composition changes drastically at the highest energies \textcolor{red}{SAMCITEREN+andere}. Fortunately, this is of no importance for this analysis.\\
 
-
-
-\noindent CORSIKA \index{CORSIKA} is written in FORTRAN 77, but a C++ version is currently in the making \cite{Engel:2018akg}.
 \subsubsection{NuGen}
-The neutrino-generator \index{neutrino-generator} is a neutrino event generator program that works with the IceTray framework. With this module, one can inject a primary neutrino on the surface of the Earth by specifying a few parameters in the steering file.
+The neutrino-generator\index{neutrino-generator} (NuGen) is a neutrino event generator program that works with the IceTray framework. With this module, one can inject a primary neutrino on the surface of the Earth by specifying a few parameters in the steering file.
 
-The physics implemented in this program is based on the ANIS-All Neutrino Interaction Generator \cite{Gazizov:2004va}. However, the cross sections have been updated and the structure of code has been changed significantly from ANIS to incorporate it in the IceTray framework.\\
+The physics implemented in this program is based on the ANIS-All Neutrino Interaction Generator \cite{Gazizov:2004va}. However, the cross sections have been updated and the structure of the code has been changed significantly from ANIS to incorporate it in the IceTray framework.\\
 
 \noindent The generator requires the first interaction to be near the detector and
 
@@ -75,7 +74,7 @@ The physics implemented in this program is based on the ANIS-All Neutrino Intera
 
 \begin{itemize}
 \item prepares a primary neutrino and injects it to the Earth,
-\item propagates the neutrino and work out interactions inside the Earth\footnote{Possible interactions are CC, NC, Glashow resonance for $\bar{\nu}_e$ and tau decay for $\barparen{\nu_\tau}$. CC interactions produces no new neutrinos and the simulation stops at the vertex point. The other interactions create new secondary neutrinos.} (when they occur),
+\item propagates the neutrino and works out interactions inside the Earth\footnote{Possible interactions are CC, NC, Glashow resonance for $\bar{\nu}_e$ and tau decay for $\barparen{\nu_\tau}$. CC interactions produces no new neutrinos and the simulation stops at the vertex point. The other interactions create new secondary neutrinos.} (when they occur),
 \item makes a forced interaction inside the detection volume\footnote{
 In most cases, a neutrino will not interact within the medium, but for computational reasons at least one neutrino is forced to interact and the simulation is reweighted afterwards accordingly.} (only if any neutrino reaches the detector site),
 \item stores injected neutrinos and all generated secondaries,
@@ -84,12 +83,12 @@ In most cases, a neutrino will not interact within the medium, but for computati
 \vspace{3mm}
 \noindent The generator also does not distinguish between neutrino and antineutrino and assumes a ratio of (1:1).\\
 
-\noindent The spectrum used for this analysis, after reweighting, follows the Honda2006 spectrum \cite{Honda:2006qj} for atmospheric neutrinos, SarcevicStd for the prompt component \cite{Enberg:2008te}, and astrophysical from \cite{Aartsen:2014gkd} (see Section \ref{sec:neutrinos} for more information on these fluxes). The astrophysical flux measured by the IceCube collaboration follows the following energy spectrum
+\noindent The spectrum used for this analysis, after reweighting, follows the Honda2006 spectrum \cite{Honda:2006qj} for atmospheric neutrinos, SarcevicStd for the prompt component \cite{Enberg:2008te}, and an astrophysical flux fit from Ref. \cite{Aartsen:2014gkd} (see Section \ref{sec:neutrinos} for more information on these fluxes). The astrophysical flux measured by the IceCube collaboration follows an energy spectrum equal to
 
 \begin{equation}
 E^2 \left(\Phi \right) = 1.5 \cdot 10^{-8} \left( \frac{E}{100 \textrm{ TeV}} \right)^{-0.3} \textrm{GeV } \textrm{cm}^{-2} \textrm{s}^{-1} \textrm{sr}^{-1}.
 \end{equation}
-
+\vspace{3mm}
 \noindent The distribution for these different components can be seen in Fig. \ref{fig:neutrinospectrum}.
 
 \begin{figure}
@@ -173,7 +172,7 @@ Generator & Type & Range {[}GeV{]} & Sim. $\gamma$ & Weighted $\gamma$ & Ice & D
 \end{table}
 
 \subsection{Signal simulation}
-As mentioned in Section \ref{sec:properties}, the signal flux is assumed to be isotropic close to the detector. The SMP starting points are randomly placed on a disk with a direction perpendicular to it as shown in Fig. \ref{fig:injector}. The disk has a radius of 800 m and is located at a distance of 1000 m from the detector center. The disk itself is randomly rotated around the detector center to simulate an isotropic flux. The distribution of the azimuth, $\phi$ and cosine of the zenith\footnote{See Appendix \ref{sec:angularappendix} why we show the cosine of the zenith.}, $\cos(\theta)$, is shown in Fig. \ref{fig:angles}.\\
+As mentioned in Section \ref{sec:properties}, the signal flux is assumed to be isotropic close to the detector. The SMP starting points are randomly placed on a disk with a direction perpendicular to it as shown in Fig. \ref{fig:injector}. The disk has a radius of 800 m and is located at a distance of 1000 m from the detector center. The disk itself is randomly rotated around the detector center to simulate an isotropic flux. The distribution of the azimuth, $\phi$, and cosine of the zenith\footnote{See Appendix \ref{sec:angularappendix} why we show the cosine of the zenith.}, $\cos(\theta)$, is shown in Fig. \ref{fig:angles}.\\
 
 \begin{figure}[t]
 \centering
@@ -190,7 +189,7 @@ As mentioned in Section \ref{sec:properties}, the signal flux is assumed to be i
 \label{fig:angles}
 \end{figure}
 
-\noindent Because slow moving particles would require specialized treatment, the minimal velocity of the particles is set as $\beta > 0.95$ and simulated with am $E^{-1}$ spectrum. The spectrum is later normalized to a flux of $10^{-14} \textrm{ GeV } \textrm{cm}^{-2} \textrm{ s}^{-1} \textrm{ sr}^{-1}$ with an $E^{-2}$ spectrum. The absolute flux is only necessary for illustrative purposes, see Section \textcolor{red}{refer to this section when it's written!}.\\
+\noindent Because slow moving particles would require specialized treatment, the minimal velocity of the particles is set as $\beta > 0.95$ and simulated with an $E^{-1}$ spectrum. The spectrum is later normalized to a flux of $10^{-14} \textrm{ GeV } \textrm{cm}^{-2} \textrm{ s}^{-1} \textrm{ sr}^{-1}$ with an $E^{-2}$ spectrum (see Appendix \ref{sec:powerlawdistr}) where the absolute flux is only necessary for illustrative purposes, see Section \textcolor{red}{refer to this section when it's written!}.\\
 
 \noindent Similar to the background, SpiceLea was used as the nominal ice model.
 
@@ -201,14 +200,14 @@ After generation, the particles need to be propagated through the medium. The pa
 
 
 \subsection{\texttt{PROPOSAL}}
-Using the cross sections of the important interaction, together with the properties of the traversing medium and the particles (mass, charge, spin, decay time, etc.) it is possible to simulate the energy losses, secondary production and the consequent interaction of these daughter particles. This is done in the software package \texttt{PROPOSAL} \index{PROPOSAL} (the Propagator with Optimal Precision and Optimized Speed for All Leptons), fully written in C++. It was based on the former program \texttt{MMC} (Muon Monte Carlo), which was written in Java. In 2018, a substantial improved version of \texttt{PROPOSAL} was finalized. An illustration of the workings of the code is given in Fig. \ref{fig:proposal} and an in depth documentation is given in Ref. \cite{Dunsch:2018nsc}.
+Using the cross sections of the important interactions, together with the properties of the traversing medium and the particles (mass, charge, spin, decay time, etc.), it is possible to simulate the energy losses, secondary production and the consequent interactions of these daughter particles. This is done in the software package \texttt{PROPOSAL} \index{PROPOSAL} (the Propagator with Optimal Precision and Optimized Speed for All Leptons), fully written in C++. It was based on its predecessor \texttt{MMC} (Muon Monte Carlo), which was written in Java. In 2018, a substantial improved version of \texttt{PROPOSAL} was finalized. An illustration of the workings of the code is given in Fig. \ref{fig:proposal} and an in-depth documentation is given in Ref. \cite{Dunsch:2018nsc}.
 
 \paragraph{\texttt{PROPOSAL} for SMPs}
-Since we assume the SMPs to behave leptonically, it was chosen to use PROPOSAL for the signal propagation as well. The mass and charge of the particle are set in the input parameters and the cross section dependence on these parameters can be seen in Section \ref{sec:energyloss}. In general, there is a small dependence on the mass and a squared dependency on the charge (Eq. ???), except for bremsstrahlung that has a quadratic charge dependency. These effects only become prominent and important for highly relativistic particles, which as will be seen in Section \textcolor{red}{verwijs hiernaar als je dit geschreven hebt}, do not have a dominating contribution to the total signal.\\
+Since we assume the SMPs to behave leptonically, it was chosen to use PROPOSAL for the signal propagation as well. The mass and charge of the particle are set in the input parameters and the cross section dependence on these parameters can be seen in Section \ref{sec:energyloss}. In general, there is a small dependence on the mass and a squared dependency on the charge, except for bremsstrahlung that has a quadratic charge dependency. These effects only become prominent and important for highly relativistic particles, which as will be seen in Section \textcolor{red}{verwijs hiernaar als je dit geschreven hebt}, do not have a dominating contribution to the total signal.\\
 
 \begin{figure}
 \centering
-\includegraphics[width=0.9\textwidth]{chapter6/img/proposal.png}
+\includegraphics[width=0.7\textwidth]{chapter6/img/proposal.png}
 \caption{Overview of the class structure in \texttt{PROPOSAL}, from Ref. \cite{Dunsch:2018nsc}.}
 \label{fig:proposal}
 \end{figure}
@@ -216,7 +215,7 @@ Since we assume the SMPs to behave leptonically, it was chosen to use PROPOSAL f
 \noindent The \texttt{PROPOSAL} module keeps track of all the particles that are produced during propagation and the accompanying energy losses in a tree-like structure (called an \textit{I3MCTree}). This collection of particles and their interactions are forwarded to a light production computation module.
 
 \subsection{Photoelectron generators}
-In Section \ref{subsec:icesimulation} we already explained how the ice is simulated in the IceCube detector. The parameters $b_e(400)$ and $a_{dust}(400)$ define the photon propagation through the ice and determine if they are absorbed or hit a DOM. To optimize computing time, the DOMs were scaled (mostly with a factor of 5) to force more photon interactions. The number of photons emitted was then appropriately scaled down with the square of this scaling factor\footnote{The surface of a sphere scales with the square of the radius.}. The DOM acceptance curves, as shown in Fig. \ref{fig:acceptance}, together with the Frank-Tamm formula (Eq. \ref{eq:franktamm}) allow to calculate the expected number of photons produced per unit length:
+In Section \ref{subsec:icesimulation} we already explained how the ice is simulated in the IceCube detector. The parameters $b_e(400)$ and $a_{dust}(400)$ define the photon propagation through the ice and determine if they are absorbed or hit a DOM. To optimize computing time, the DOMs were scaled (nominally with a factor of 5) to force more photon interactions. The number of photons emitted was then appropriately scaled down with the square of this scaling factor\footnote{The surface of a sphere scales with the square of the radius.}. The DOM acceptance curves, as shown in Fig. \ref{fig:acceptance}, together with the Frank-Tamm formula (Eq. \ref{eq:franktamm}) allow to calculate the expected number of photons produced per unit length:
 
 \begin{equation}
 \frac{dN}{dx} = \int_{\lambda_1}^{\lambda_2} \frac{2 \pi \alpha}{\lambda^2} \sin^2 \left(\theta_c\right) d\lambda = 2\pi \alpha \sin^2 \left(\theta_c\right) \left(\frac{1}{\lambda_1} -\frac{1}{\lambda_2}\right).
@@ -228,14 +227,14 @@ GPU environments allow the tracking of thousands of photons simultaneously, vast
 
 Previous photon propagation code, such as \texttt{Photonics} \index{Photonics} \cite{Lundberg:2007mf}, produced 6-dimensional photon tables (3 spatial, 2 directional and 1 temporal). This meant that at least one set of tables had to be produced per particle type and per velocity and interpolation methods had to be used, with the accompanying inaccuracies. These tables also required significant disk space and the method was therefore replaced with the GPU-codes. Direct photon simulation also allows for other non-trivial implementations such as the tilting of ice layers.\\
 
-\noindent Another photon propagation code is called \texttt{CLSim}\index{CLSim}, which uses GEANT4 to propagate particles. A hybrid version called \texttt{HybridCLsim} is sometimes used. Muons are propagated using \texttt{PROPOSAL}/\texttt{MMC} \index{MMC} and their stochastic losses (which are showers) are simulated from tables whereas the ``bare muons'' (with their stochastics) are simulated using direct propagation. This avoids time loss for the rare but very computational high-energy cascade events.\\
+\noindent Another photon propagation code is called \texttt{CLSim}\index{CLSim}, which uses GEANT4 to propagate particles. A hybrid version called \texttt{HybridCLsim} is sometimes used. Muons are propagated using \texttt{PROPOSAL}/\texttt{MMC} \index{MMC} and their stochastic losses (which are small showers) are simulated from tables whereas the ``bare muons'' (with their stochastics) are simulated using direct propagation. This avoids time loss for the rare but very computational high-energy cascade events.\\
 
 \noindent An illustration of photon propagation in the IceCube detector for both a cascade and track simulation is shown in Fig. \ref{fig:photonsimulation}.
 
 \begin{figure}
 \centering
-\includegraphics[width=0.48\textwidth,height=2.2in]{chapter6/img/photons_track.png}
-\includegraphics[width=0.48\textwidth,height=2.2in]{chapter6/img/photons_cascade.png}
+\includegraphics[width=0.48\textwidth,height=2.2in]{chapter6/img/photons_track_rounded.png}
+\includegraphics[width=0.48\textwidth,height=2.2in]{chapter6/img/photons_cascade_rounded.png}
 \caption{\textit{Left:} simulation of a track event in IceCube. Each line represents a photon path and colors indicate how far they have traveled from their generation point. \textit{Right:} simulation of a cascade event in IceCube.}
 \label{fig:photonsimulation}
 \end{figure}
@@ -247,7 +246,7 @@ Further processing of the simulations involve:
 \begin{itemize}
 \item \texttt{Polyplopia}: a project dedicated to merge multiple events to account for coincident events (that are simulated independently). An estimated 15\% of CORSIKA events result in coincident events and make up de bulk of bad reconstructions where down-going muons are simulated as up-going (example see Fig. \ref{fig:coincidentevent});
 \item \texttt{Vuvuzela}: the PMT noise is simulated as having an exponential component from  thermal and radioactive decays, and a log-normal contribution for scintillation;
-\item \texttt{PMT}: the time from the first photon entering the PMT to the readout after passing along multiple dynodes has an uncertainty, referred to as ``PMT jitter'' \index{PMT jitter}. The amplification of photoelectrons by the PMT is also not constant and is simulated in this module. Additionally, the module accounts for prepulses, late pulses, afterpulses and saturation of the PMT. More information can be found in Refs. \cite{Abbasi:2010vc,Ma:2009aw}.
+\item \texttt{PMT}: the time from the first photon entering the PMT to the readout after passing along multiple dynodes has an uncertainty, referred to as ``PMT jitter''\index{PMT jitter}. The amplification of photoelectrons by the PMT is also not constant and is simulated in this module. Additionally, the module accounts for prepulses, late pulses, afterpulses and saturation of the PMT. More information can be found in Refs. \cite{Abbasi:2010vc,Ma:2009aw}.
 \item \texttt{DOMLauncher}: the digitization of the PMT pulses and other behavior of the DOM mainboard (as explained in Section \ref{subsec:mainboard}) is done in this module. The three main features of the DOM that are simulated to generate launches are the discriminator, LC, and digitization.
 \item \texttt{trigger-sim}: simulation of the trigger behavior as explained in Sec. \ref{subsec:triggers}.
 \end{itemize}
@@ -262,9 +261,11 @@ It is for this reason, most analyses select a certain subset of the data they wa
 \textcolor{red}{More info on the burnsample see Section???\\}
 
 \subsection{Standard ??}
-\noindent Processing ergens: online L0, L1, L2, uw filters,... Beter
+\textcolor{red}{Processing ergens: online L0, L1, L2, uw filters,... Beter in analysis hoofdstuk?}
 
-\subsection{Event viewer}
-After a full simulation, it is possible to visualize the event in an event viewer called \textit{Steamshovel} \index{Steamshovel}. Typical events in the IceCube detector are shown with this interface and are loaded from \textit{i3files} that contain information about the detector geometry and the full event (DOM positions and calibrations, detector hits, timestamps, trigger hits, etc.). Simulated events also contain the true values of the particles and can be compared with reconstructed variables. Event viewers allow for first guesses in how background events are able to be separated from signal, although both can have wide varieties in possible outputs.
+\section{Event viewer}
+After a full simulation, it is possible to visualize the event in an event viewer called \texttt{Steamshovel} \index{Steamshovel}. Typical events in the IceCube detector are shown with this interface and are loaded from \textit{i3files} that contain information about the detector geometry and the full event (DOM positions and calibrations, detector hits, timestamps, trigger hits, etc.). Simulated events also contain the true values of the particles and can be compared with reconstructed variables. Event viewers allow for first guesses in how background events are able to be separated from signal, although both can have wide varieties in possible outputs.
 
-An example is given in Fig. \textcolor{red}{??? wat is goed?}.
+The number of photons seen per DOM is indicated by the size of the spheres; the larger the sphere, the more PEs were seen. The color of the modules indicates the time of the pulse registration. The color scale can be chosen, but usually a rainbow pattern is used where red indicates the earliest pulse hits and blue the last. 
+
+An example is given in Fig. \ref{fig:photonsimulation}. \textcolor{red}{\\ \\ en in eerste steamshovel verwijzen naar dit deel?}.
