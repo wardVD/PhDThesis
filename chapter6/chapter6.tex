@@ -109,6 +109,7 @@ To include the lowest energies, which are not accounted for by ANIS/NuGen, the G
 \small
 \caption{Overview of the datasets used in this analysis. GaisserH3a from Ref. \cite{Gaisser:2013bla}, Honda2015 from Ref. \cite{Honda:2015fha}, Honda2006 from Ref. \cite{Honda:2006qj}, Sarcevic from Ref. \cite{Enberg:2008te}, and astrophysical from Ref. \cite{Aartsen:2014gkd}.}
 \label{tab:datasets}
+\resizebox{\textwidth}{!}{%
 \begin{tabular}{|
 >{\columncolor[HTML]{9B9B9B}}l |c|c|c|c|c|r|}
 \hline
@@ -138,7 +139,8 @@ GENIE & $\nu_\mu$ & $0.5 - 100$ & 1 & Honda2015 & SpiceMie & 12475 \\ \hline
 \cellcolor[HTML]{9B9B9B} &  &  &  & atmos.: Honda2006 &  &  \\
 \cellcolor[HTML]{9B9B9B} &  &  &  & prompt: Sarcevic &  &  \\
 \multirow{-3}{*}{\cellcolor[HTML]{9B9B9B}NuGen} & \multirow{-3}{*}{$\nu_e$} & \multirow{-3}{*}{$100 - 10^8$} & \multirow{-3}{*}{2} & astro.: Astro. & \multirow{-3}{*}{SpiceLea} & \multirow{-3}{*}{12646} \\ \hline
-\end{tabular}
+\end{tabular}%
+}
 \end{table}
 
 
@@ -148,6 +150,7 @@ GENIE & $\nu_\mu$ & $0.5 - 100$ & 1 & Honda2015 & SpiceMie & 12475 \\ \hline
 \centering
 \caption{Overview of the datasets used for systematic uncertainties. Polyg(onato) follows from Ref. \cite{Hoerandel:2002yg}, GaisserH4a from Ref. \cite{Gaisser:2011cc} and Bartol from Ref. \cite{PhysRevD.70.023006}.}
 \label{tab:systematics}
+\resizebox{\textwidth}{!}{%
 \begin{tabular}{|l|c|c|c|c|c|c|r|}
 \hline
 \rowcolor[HTML]{9B9B9B} 
@@ -169,7 +172,8 @@ Generator & Type & Range {[}GeV{]} & Sim. $\gamma$ & Weighted $\gamma$ & Ice & D
 \cellcolor[HTML]{9B9B9B} &  &  &  &  &  &  & DOM eff. -10\% \\
 \cellcolor[HTML]{9B9B9B} &  &  &  &  &  &  & Abs./Scat. -7.1\% \\
 \multirow{-4}{*}{\cellcolor[HTML]{9B9B9B}NuGen} & \multirow{-4}{*}{$\nu_\mu$} & \multirow{-4}{*}{$100 - 10^8$} & \multirow{-4}{*}{2} & \multirow{-4}{*}{\begin{tabular}[c]{@{}c@{}}Honda2006\\ \\ + Bartol (syst.)\end{tabular}} & \multirow{-4}{*}{SpiceLea} & \multirow{-4}{*}{12346} & Bartol flux \\ \hline
-\end{tabular}
+\end{tabular}%
+}
 \end{table}
 
 \subsection{Signal simulation}
@@ -263,7 +267,21 @@ Getting the intricate details of physical events in non-trivial environments jus
 
 It is for this reason, most analyses select a certain subset of the data they want to analyze to compare to the Monte Carlo simulations. For this analysis, 10\% of the total data, called the \textit{burn sample}\index{burn sample}, was used to compare data to Monte Carlo. As indicated in Section \ref{subsec:datahandling}, the data is saved in 8-hour runs and the burn sample consists of every run ending with a `0'. The burn sample also allows to estimate the robustness of certain reconstructions and variables regarding differences in data and simulation.\\
 
-\noindent After the discovery of an SPE offset in the DOM response in 2015, it was decided that multiple years of data was to be reprocessed in what was called \textit{pass2 reprocessing} \cite{pass2}. Aside from the SPE correction, the raw pulses were reprocessed with 2017 PnF, making the data more uniform in the course of the years for easier comparison\footnote{Most filters did not undergo changes or only minor ones.}. This analysis makes use of data starting in the years 2011 to 2015 and are referred to as IC86-1 to IC86-5 where IC86 stands for the complete 86-string IceCube detector configuration and the last digit refers to the year of the season start.
+\noindent After the discovery of an SPE offset in the DOM response in 2015, it was decided that multiple years of data was to be reprocessed in what was called \textit{pass2 reprocessing} \cite{pass2}. Aside from the SPE correction, the raw pulses were reprocessed with 2017 PnF, making the data more uniform in the course of the years for easier comparison\footnote{Most filters did not undergo changes or only minor ones.}. This analysis makes use of data starting in the years 2011 to 2015 and are referred to as IC86-1 to IC86-5 where IC86 stands for the complete 86-string IceCube detector configuration and the last digit refers to the year of the season start.\\
+
+\noindent The \textit{livetime} is the total time that the detector was up and running and non-corrupted data was processed. Due to the increase in detector uptime over the years, this also means that the livetime of the different datasets has increased. The livetime for the different years is equal to
+\vspace{2mm}
+\begin{itemize}
+\item Around 31 days of livetime for IC86-1,
+\item Around 32.2 days of livetime for IC86-2,
+\item Around 33.2 days of livetime for IC86-3,
+\item Around 36.6 days of livetime for IC86-4,
+\item Around 36.7 days of livetime for IC86-5,
+\end{itemize}
+
+\noindent resulting in a total burn sample livetime of around 170 days.
+
+\textcolor{red}{In tabel misschien? En data van start/einde...?}
 
 \section{Event viewer}
 After a full simulation, it is possible to visualize the event in an event viewer called \texttt{Steamshovel}\index{Steamshovel}. Typical events in the IceCube detector are shown with this interface and are loaded from \textit{i3files} that contain information about the detector geometry and the full event (DOM positions and calibrations, detector hits, timestamps, trigger hits, etc.). Simulated events also contain the true values of the particles and can be compared with reconstructed variables. Event viewers allow for first guesses in how background events are able to be separated from signal, although both can have wide varieties in possible outputs.

@@ -178,6 +178,7 @@ N_{\textrm{seen},k} = &\vec{\Lambda}(\vec{r}_k) \cdot \vec{E} + \rho_k\\
 %Multiple triggers are combined into one event by the event builder (see Section \ref{subsec:triggers}. The triggerspl
 
 \subsection{\texttt{FiniteReco}}
+\label{subsec:finitereco}
 \texttt{FiniteReco} is a module that tries to reconstruct if particles are starting, stopping, contained or through-going. The hit DOMs around a seed track are checked to have seen light and the first and last emission points along the track are used to check the possible hypotheses.
 
 Because the edges of the detector are not well defined\footnote{Imagine a cascade 20 m below the lowest DOMs. It is still possible for light to reach the bottom modules of the detector.}, the likelihoods of individual DOMs to have seen a hit lead to a total likelihood that doesn't give a conclusive answer, but the starting and stopping probabilities can be compared to a through-going track hypothesis.
@@ -212,6 +213,7 @@ Another, more conservative method, is the \texttt{seededRT} \index{seededRT} alg
 
 
 \section{\texttt{IceHive}}
+\label{sec:icehive}
 In Section \ref{subsec:triggers}, it was explained how multiple triggers were combined into one global trigger. In a first step, Q-frames are simply re-split into the individual events that belong to the different subtriggers. In about 15\% of cases the data read out in one of these P-frames contains more than one primary interaction. This pile-up effect is referred to as \textit{coincident events}\index{coincident events}. It is a direct result of the traversal time of a couple of microseconds in the detector\footnote{The speed of light in vacuum is equal to $\approx$ 0.3 m/ns, meaning the particle travels around 100 m in 0.3 $\mu$s, without accounting for the delayed photon propagation necessary for detection.}, the large flux of low-energetic events and the trigger time windows of a couple of microseconds. This can be problematic for reconstructions, as can be seen in Fig. \ref{fig:coincidentevent} where two downgoing muons can be reconstructed as an upgoing track.\\
 
 \begin{figure}[t]

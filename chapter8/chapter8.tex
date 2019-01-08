@@ -66,13 +66,97 @@ Before further processing, the burn sample (Section \ref{sec:burnsample}) is com
 \label{fig:burnsamplechecks}
 \end{figure}
 
-\section{Quality cuts}
-The combined filter selection leads to a total rate of $\sim60$ Hz, or $\sim1.9$ billion events per year. 
-MPE 
+\section{Level 3}
+The combined filter selection leads to a total rate of $\sim60$ Hz, or $\sim1.9$ billion events per year. The average event size at Level2 is around 15 kB, which would result into around 30 TB of data per year.
+
+Therefore, five quality cuts are implemented with a goal that is threefold:
+\vspace{2mm}
+\begin{enumerate}
+\item reduce the total rate of the data,
+\item improve the signal to background ratio, getting rid of uninteresting events,
+\item improve the agreement between data and Monte Carlo.
+\end{enumerate}
+\vspace{2mm}
+\noindent These cuts are shown in Fig. \ref{fig:level3cuts}.
+
+\subsection{Zenith angle cut}
+Even though there are no up-going muons from air showers expected, the vast majority of events that pass the filter selection remain from misreconstructed muons. Even though there is only a small chance of these events to have a large misreconstructed zenith angle. The expected flux of air showers is so much larger compared to the assumed signal flux to such an extent that is dominates with orders of magnitude. The majority still has an reconstructed zenith angle lower than 90$^\circ$. Therefore the zenith angle cut was set at an angle of 
+
+\begin{equation}
+\theta_\textrm{zen} (MPE) \geq 85^\circ.
+\end{equation}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.49\textwidth]{chapter8/img/1D_stack_mpefit_zenith.png}
+\includegraphics[width=0.49\textwidth]{chapter8/img/1D_stack_mpefit_rlogl.png}
+\includegraphics[width=0.49\textwidth]{chapter8/img/L3_zenithcut_gr_1p4835298642_rloglcut_less_15_1D_stack_npe.png}
+\includegraphics[width=0.49\textwidth]{chapter8/img/L3_zenithcut_gr_1p4835298642_rloglcut_less_15_npecut_less_50_1D_stack_finitereco_rllh_starting.png}
+\includegraphics[width=0.49\textwidth]{chapter8/img/L3_zenithcut_gr_1p4835298642_rloglcut_less_15_npecut_less_50_startingtrackcut_hs_gr_0_1D_stack_finitereco_rllh_stopping.png}
+\caption{\textit{First row, left: }Number of events in function of MPE reconstructed zenith angle normalized to the burn sample. The upwards trend to higher zenith angles is due to the filter selections that depend on the angle. \textit{First row, right: }Number of events in function of rlogL normalized to the burn sample. \textit{Second row, left: }Number of events in function of number of photoelectrons (NPE) seen in the detector. \textit{Second row, right: }Number of events in function of the starting likelihood. \textit{Third row: }Number of events in function of the stopping likelihood. The cuts are illustrated with an orange line, the arrow points towards the events that are kept.}
+\label{fig:level3cuts}
+\end{figure}
+
+
+\subsection{RlogL cut}
+The reduced log-likelihood, rlogL of the track reconstruction fit is used as a goodness-of-fit variable. The term ``reduced'' is used because the logarithm of the likelihood is normalized by the number of degrees of freedom (NDOF) in the track fit
+
+\begin{equation}
+\textrm{rlogL} = \frac{\log \mathcal{L}}{\textrm{NDOF}} = \frac{\log \mathcal{L}}{\textrm{NCh} - \textrm{NPara}},
+\end{equation}
+where NCh is the number of channels/DOMs and NPara the number of fitted parameters (3 for the position and 2 for the track). For Gaussian probability distributions this expression corresponds to the reduced chi-square. Lower values indicate better reconstructions, therefore the rlogL cut was set at a value of 
+
+\begin{equation}
+\textrm{rlogL} < 15.
+\end{equation}
+
+\subsection{NPE cut}
+The number of photoelectrons seen in the detector has a clear correlation to the number of photons that were emitted from the track. From Eq. \ref{eq:franktamm} it is clear that particles with a charge $< 1$ will produce less light. Therefore a cut on the total number of photoelectrons was set at a value of 
+
+\begin{equation}
+\textrm{NPE} < 50.
+\end{equation} 
+
+
+\subsection{Starting rlogL cut}
+The relative probability for tracks to be starting and/or stopping can be computed with FiniteReco (see Section \ref{subsec:finitereco}). Because most low-energetic muons would be starting and/or stopping in the detector, these likelihoods prove to be a powerful tool in removing these events \footnote{High energetic muons will have a higher change of being throughgoing, but would produce much more light than the dim tracks that are expected for the SMPs.}. The llh is always compared to the llh of throughgoing tracks, hence the ``relative probability''. It was chosen to place the starting rlogL at a value of 
+
+\begin{equation}
+\textrm{rlogL} = \textrm{rlogL}(\textrm{starting}) - \textrm{rlogL}(\textrm{throughgoing}) > 0. 
+\end{equation}
+
+\subsection{Stopping rlogL cut}
+Analogous to the previous cut, it was chosen to place the stopping rlogL at a value of
+\begin{equation}
+\textrm{rlogL} = \textrm{rlogL}(\textrm{stopping}) - \textrm{rlogL}(\textrm{throughgoing}) > 10. 
+\end{equation}
+
+
+\section{Level 4}
+As can be seen in Fig. \ref{fig:level3cuts}, most of the background still originates from air showers (referred to as CORSIKA). Due to the Level 3 quality cuts, the total rate was reduced from around $\sim 60$ Hz to $\sim2$ Hz, low enough for more elaborate variables to be computed and more elaborate cleaning. In Level 4 I have implemented the IceHive splitting and cleaning tools (see Section \ref{sec:icehive}) and rerun the particle reconstructions on these ``new'' events. 
 
 
 
-De uitleg van temperature modulations is goed in Sam zijn thesis
+\begin{table}[]
+\caption{My caption}
+\label{tab:level4}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{|
+>{\columncolor[HTML]{9B9B9B}}l |c|c|c|}
+\hline
+Variable & \cellcolor[HTML]{9B9B9B}Definition & \cellcolor[HTML]{9B9B9B}Cut & \cellcolor[HTML]{9B9B9B}Motivation \\ \hline
+nCh & Number of hit DOMs & $\geq 5$ & Allows for better reconstructions \\ \hline
+nStr & Number of hit strings & $\geq 2$ & Allows for better reconstructions \\ \hline
+nStr\_in & \begin{tabular}[c]{@{}c@{}}The number of hit inner strings.\\ An inner string is not located at the edge of the detector\end{tabular} & $\geq 1$ & Reduce leak-in events \\ \hline
+Fitstatus MPE & Status of MPE reconstruction & Status == 'OK' & Remove bad reconstructions \\ \hline
+$\theta_{HC}$ (MPE) & Zenith angle cut on HiveCleaned pulses & $\geq 85^\circ$ & \begin{tabular}[c]{@{}c@{}}Similar to cut explained in ???:\\ focus on up-going tracks\end{tabular} \\ \hline
+Innerstring domination & See text inline & == True & See text inline \\ \hline
+\end{tabular}%
+}
+\end{table}
+
+
+
 \url{https://arxiv.org/pdf/physics/0312102v1.pdf}\\
 \url{https://arxiv.org/pdf/1310.1284.pdf}
 
