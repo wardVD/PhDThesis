@@ -3,7 +3,7 @@
 \begin{flushright}
 \textit{Shall I refuse my dinner because I do not fully understand the process of digestion? $\sim$ Oliver Heaviside}
 \end{flushright}
-Because the in-ice IceCube detecor is a sparsely distributed detector, it is not straightforward to unambiguously reconstruct the particle (interactions). The scattering and absorption of photons, tilt of ice sheets, bubble column, etc. lead to uncertainties and make reconstruction challenging. Over the years, multiple reconstruction methods have been developed in the collaboration. They range from very fast (and simple) reconstructions, necessary for online filtering, to slow (and more refined) ones. Multiple reconstruction algorithms have been used in this analysis and are explained in more detail in this chapter.
+Because the in-ice IceCube detector is sparsely distributed, it is not straightforward to unambiguously reconstruct the particle (interactions). The scattering and absorption of photons, tilt of ice sheets, bubble column, etc. lead to uncertainties and make reconstruction challenging. Over the years, multiple reconstruction methods have been developed in the collaboration. They range from very fast (and simple) reconstructions, necessary for online filtering, to slow (and more refined) ones. Multiple reconstruction algorithms have been used in this analysis and are explained in more detail in this chapter.
 
 \section{Reconstruction}
 
@@ -37,7 +37,7 @@ Reconstruction algorithms usually have no unique solutions to describe the set o
 \vec{r'} = \vec{r} + \vec{v}_{\textrm{part}}t.
 \end{equation}
 
-\noindent We want to calculate the best possible estimate of the velocity $\vec{v}_\textrm{part}$ and the position $\vec{r}$. Each DOM has a known location, $\vec{r}_i$, and measured time of a pulse, $t_i$. In this algorithm one assumes that a wavefront perpendicular to the particle's direction is traveling along with the particle. If the veloctity $\vec{v}_\textrm{part}$ is fixed, then the position of the particle is known (black points in Fig. \ref{fig:lf}). However, the Cherenkov wavefront should be set at an angle and because scattering, PMT jitter, noise, etc. are not taken into account, this will not agree with the DOM position projected along the particle path (grey dots). The unknown velocity $\vec{v}_\textrm{part}$ and position $\vec{r}$ are the analytical solutions after minimizing the distances $d_i$ as shown in the figure\footnote{Minimizing $r_i - r'$ (dotted line in Fig. \ref{fig:lf}) is the same as minimizing $d$.}
+\noindent We want to calculate the best possible estimate of the velocity $\vec{v}_\textrm{part}$ and an initial position $\vec{r}$. Each DOM has a known location, $\vec{r}_i$, and measured time of a pulse, $t_i$. In this algorithm one assumes that a wavefront perpendicular to the particle's direction is traveling along with the particle. If the veloctity $\vec{v}_\textrm{part}$ is fixed, then the position of the particle at later times is known (black points in Fig. \ref{fig:lf}). However, the Cherenkov wavefront should be set at an angle and because scattering, PMT jitter, noise, etc. are not taken into account, this will not agree with the DOM position projected along the particle path (grey dots). The unknown velocity $\vec{v}_\textrm{part}$ and position $\vec{r}$ are the analytical solutions after minimizing the distances $d_i$ as shown in the figure\footnote{Minimizing $r_i - r'$ (dotted line in Fig. \ref{fig:lf}) is the same as minimizing $d$.}
 
 \begin{equation}
 \label{eq:lf}
@@ -112,7 +112,7 @@ p^1_N (t_\textrm{res}) = N \cdot p_1(t_\textrm{res}) \cdot \left(\int^\infty_{t_
 \end{equation}
 \noindent where $P_1$ is the cumulative distribution of the single photon p.d.f..
 \subsection{\texttt{Millipede}}
-To have a better handle on the particle energy and cascades along the track, the module \texttt{Millipede} was developed. The number of photons seen at each optical module depends on multiple factors that were mentioned throughout this text, such as the ice characteristics, timing, etc. In this module, the expected number of photons is said to depend on the energy that was deposited and a \textit{light yield factor} that depends on the DOM position and the location of emission along the track
+To have a better handle on the particle energy and cascades along the track, the module \texttt{Millipede} was developed. The number of photons seen at each optical module depends on multiple factors that were mentioned throughout this text, such as the ice characteristics, timing, etc. In this module, the expected number of photons is said to depend on the energy that was deposited along a track and a \textit{light yield factor} that depends on the DOM position and the location of emission
 
 \begin{equation}
 \label{eq:n_exp}
@@ -192,7 +192,7 @@ In Sections \ref{subsec:lf} and \ref{subsec:spempe}, we discussed how a particle
 \sigma_\textrm{para} = \sqrt{\frac{\sigma_1^2 + \sigma_2^2}{2}}.
 \end{equation}
 
-\noindent Since $\sigma_1$ and $\sigma_2$ should follow univariate Gaussian distributions, $\sigma_\textrm{para}$ will be the radius parameter in a bivariate distribution, meaning that the mean should be set to $1.177\sigma$\footnote{The CDF of the Rayleigh distribution $1-e^{-x^2/2\sigma^2}$ is equal to the containment for a bivariate normal distribution. Implementing $x=1.177\sigma$ yields a factor of 0.5.}. This means, that if we calculate the great circle distance between the MC truth of the signal particle with the reconstruction direction and divide it with $\sigma_\textrm{para}$, the distribution should peak at 1.177 (mean). This variable is called the \textit{paraboloid pull} and should be compared to an energy related variable (here the number of hit DOMs (NCh) is used). In Fig. \ref{fig:paraboloidpull}, it is clear that there is an offset, which is in all analyses, that can be explained by multiple factors in Monte Carlo simulations but mainly stems from our incomplete knowledge and non-perfect simulations of the ice.
+\noindent Since $\sigma_1$ and $\sigma_2$ should follow univariate Gaussian distributions, $\sigma_\textrm{para}$ will be the radius parameter in a bivariate distribution, meaning that the mean should be set to $1.177\sigma$\footnote{The CDF of the Rayleigh distribution $1-e^{-x^2/2\sigma^2}$ is equal to the containment for a bivariate normal distribution. Implementing $x=1.177\sigma$ yields a factor of 0.5.}. This means, that if we calculate the great circle distance between the MC truth of the signal particle with the reconstruction direction and divide it with $\sigma_\textrm{para}$, the distribution should peak at 1.177 (mean). This variable is called the \textit{paraboloid pull} and should be compared to an energy related variable (here the number of hit DOMs (NCh) is used). In Fig. \ref{fig:paraboloidpull}, it is clear that there is an offset, which is seen in all analyses, that can be explained by multiple factors in Monte Carlo simulations but mainly stems from our incomplete knowledge and non-perfect simulations of the ice.
 
 \begin{figure}[t]
 \centering
@@ -208,7 +208,7 @@ More information can be found in Ref. \cite{Neunhoffer:2004ha}.
 \label{sec:pulsecleaning}
 As explained in Section \ref{subsec:calibration}, each DOM in IceCube has an intrinsic noise rate. This dark noise is observed in every triggered event and seen as random hits in the detector added to the hit pattern of tracks and cascades. These spurious hits are a large nuisance factor in event reconstructions, leading to misidentification and errors in the result. Noise cleaning should be done in early stages of event processing and analysis to reduce a large rate of bad reconstructed events that pass cut selections. One of the most conservative ways is to only look at HLC hits (\textit{HLC cleaning}), but is too demanding for most low-energetic events that will have multiple hits from isolated DOMs. 
 
-Another, more conservative method, is the \texttt{seededRT} \index{seededRT} algorithm. This method relies on the ``$RT$-cut'', which was already implemented in the time of AMANDA operations. $R$ is a designed radius and $T$ refers to the time between multiple possible pulse times (e.g. the pulse of one DOM starts during the time window of a second DOM's pulse, or stops during the time window). The full description can be found in Ref. \cite{RTcutwiki}, but can be summarized as: DOMs are required to be in a temporal and spacial coincidence that is physically possible (e.g. signal between DOMs cannot exceed the speed of light in vacuum). This method is however computationally expensive since all DOM pairs have to be looped over\footnote{The number of pairs for $n$ DOMs is equal to $\frac{1}{2}n(n-1)$ and scales with $n^2$.}. The \texttt{seededRT} algorithm takes a subset of seeds that are considered to be mostly signal related hits. These seeds can be provided by, for example, using HLC information. By adding all further hits found within the seed's $RT$-range to the list of seed hits and iterating until a convergence, only those (SLC) hits are kept that cluster around the initial seed hits. Outlying noise hits are supposedly not added and thus removed in the cleaned output. This method does not scale as drastically as the original $RT$-cut method.
+Another, more conservative method, is the \texttt{seededRT} \index{seededRT} algorithm. This method relies on the ``$RT$-cut'', which was already implemented in the time of AMANDA operations. $R$ is a designed radius and $T$ refers to the time between multiple possible pulse times (e.g. the pulse of one DOM starts during the time window of a second DOM's pulse, or stops during the time window). The full description can be found in Ref. \cite{RTcutwiki}, but can be summarized as follows: DOMs are required to be in a temporal and spacial coincidence that is physically possible (e.g. signal between DOMs cannot exceed the speed of light in vacuum). This method is however computationally expensive since all DOM pairs have to be looped over\footnote{The number of pairs for $n$ DOMs is equal to $\frac{1}{2}n(n-1)$ and scales with $n^2$.}. The \texttt{seededRT} algorithm takes a subset of seeds that are considered to be mostly signal related hits. These seeds can be provided by, for example, using HLC information. By adding all further hits found within the seed's $RT$-range to the list of seed hits and iterating until a convergence, only those (SLC) hits are kept that cluster around the initial seed hits. Outlying noise hits are supposedly not added and thus removed in the cleaned output. This method does not scale as drastically as the original $RT$-cut method.
 
 
 \section{\texttt{IceHive}}
@@ -315,18 +315,21 @@ is used as a separation variable in this work\footnote{Other possible separation
 \Delta S = g_p \cdot \sum w_p - \left(g_l \cdot \sum w_l + g_r \cdot \sum w_r\right),
 \end{equation}
 \noindent where $g_p$ and $w_p$ denote the Gini index and weights of the parent nodes and similarly for the left and right child nodes. The cut that gives the highest separation gain is subsequently selected. The algorithm stops when one of the following criteria is met:
+\vspace{2mm}
 
 \begin{itemize}
 \item a node only consists of signal or background events;
 \item a certain predefined maximal depth is reached;
 \item splitting would cause a child node to have less than a predefined minimal amount of events left;  
 \end{itemize}
+\vspace{2mm}
 and therefore determines the size of a tree. These selection criteria are necessary to avoid overtraining (see Section \ref{subsec:overtraining}).
 
 \subsection{Boosting}
 As already implied in the text above, a BDT consists of a \textit{forest} of decision trees. A user specified number of individual decision trees are trained sequentially, with a boosting process in between each training. Boosting consists of adjusting the weights of individual events according to whether the previously trained tree classifies them correctly. In this work, the AdaBoost\footnote{Short for Adaptive Boosting.} algorithm was used for boosting in which the score of an event is a weighted average of the scores the event receives from each tree in the forest \cite{FREUND1997119}.
 
 A BDT may informally be called a ``boosted decision tree'', but it must be understood that there are actually many trees (typically hundreds), and that boosting is a process that occurs between the training of consecutive trees. The approach makes use of the power of numbers: many weak single decision trees combined can be more powerful than one very good decision tree. In general, boosting follows the following steps:
+\vspace{2mm}
 
 \begin{enumerate}
 \item Train a weak model on training data.
