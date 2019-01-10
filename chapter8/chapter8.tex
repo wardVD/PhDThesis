@@ -83,10 +83,10 @@ Therefore, five quality cuts are implemented with a goal that is threefold:
 Even though there are no up-going muons from air showers expected, the vast majority of events that pass the filter selection remain from misreconstructed muons. Even though there is only a small chance of these events to have a large misreconstructed zenith angle. The expected flux of air showers is so much larger compared to the assumed signal flux to such an extent that is dominates with orders of magnitude. The majority still has an reconstructed zenith angle lower than 90$^\circ$. Therefore the zenith angle cut was set at an angle of 
 
 \begin{equation}
-\theta_\textrm{zen} (MPE) \geq 85^\circ.
+\theta_\textrm{zen} (\textrm{MPE}) \geq 85^\circ.
 \end{equation}
 
-\begin{figure}[t]
+\begin{figure}[ht]
 \centering
 \includegraphics[width=0.49\textwidth]{chapter8/img/1D_stack_mpefit_zenith.png}
 \includegraphics[width=0.49\textwidth]{chapter8/img/1D_stack_mpefit_rlogl.png}
@@ -133,12 +133,10 @@ Analogous to the previous cut, it was chosen to place the stopping rlogL at a va
 
 
 \section{Level 4}
-As can be seen in Fig. \ref{fig:level3cuts}, most of the background still originates from air showers (referred to as CORSIKA). Due to the Level 3 quality cuts, the total rate was reduced from around $\sim 60$ Hz to $\sim2$ Hz, low enough for more elaborate variables to be computed and more elaborate cleaning. In Level 4 I have implemented the IceHive splitting and cleaning tools (see Section \ref{sec:icehive}) and rerun the particle reconstructions on these ``new'' events. 
-
-
+As can be seen in Fig. \ref{fig:level3cuts}, most of the background still originates from air showers (referred to as CORSIKA). Due to the Level 3 quality cuts, the total rate was reduced from around $\sim 60$ Hz to $\sim2$ Hz, low enough for more elaborate variables to be computed and more elaborate cleaning. In Level 4 I have implemented the IceHive splitting and cleaning tools (see Section \ref{sec:icehive}) and rerun the particle reconstructions on these ``new'' events. Additional quality cuts were added to this level to ensure higher quality events. An overview is given in Table \ref{tab:level4}. Finally, new variables were constructed to use in Level 5.
 
 \begin{table}[]
-\caption{My caption}
+\caption{Overview of quality cuts in Level 4.}
 \label{tab:level4}
 \resizebox{\textwidth}{!}{%
 \begin{tabular}{|
@@ -155,7 +153,139 @@ Innerstring domination & See text inline & == True & See text inline \\ \hline
 }
 \end{table}
 
+\subsection{Cleaning and quality cuts}
+\noindent IceHive provides for a thourough cleaning method, sometimes resulting into events with a very low amount of hit DOMs. However, a minimal amount of hits is required to have reasonable and trustworthy particle reconstructions. Similarly, more than one string should have a hit to allow for better reconstructions due to the sparse distribution of the strings in the detector. Because light is able to reach the edge of the detector, even if the closest approach of the particle is tens or hunderds of meters away for very bright events, is would be near impossible to distinguish bright events far from the detector to dim tracks passing close by. Therefore, it was required that at least one string not on the edge of the detector should have hit DOMs to reduce these \textit{leak-in events}.
+The zenith angle cut is re-introduced on the new event that should have better reconstructions due to cleaning and finally there is a requirement for ``innerstring domination''.
 
+\paragraph{Innerstring domination}
+There persist classes of events at the boundary of the detector, which can be a problem for an upgoing track analysis. This includes event classes as:
+
+\vspace{2mm}
+\begin{itemize}
+\item (Leak in) Events which are heading towards the instrumented volume, but stop right before they reach it or pass next to, but not to far from, the detector. These leak light to the detector boundaries.
+\item (Boundary) Events that penetrate the detector very shallow on the boundary lines and possibly have a cascade at the endpoint. The events have rather cascade like characteristics.
+\item (Corner-clippers) Events that are throughgoing on the corners of the detector that have a COG at a corner of the detector.
+\item (Leak out) Events originating from a neutrino passing through almost the entire length of the detector and only have an interaction vertex right before leaving the detector. Depending on position and angle, the reverse direction of reconstruction can be of similar probability and thus a nuisance.
+\end{itemize}
+\vspace{2mm}
+
+\noindent All these event classes are not well reconstructable or have a high uncertainty in the reconstruction. It is more feasible to remove these class of events to maintain a sample of well reconstructable events. This is done here by the requirement of innerstring domination.
+
+DOMs are defined as outer DOMs if they are one of the following:
+
+\vspace{2mm}
+\begin{itemize}
+\item part of a string on edge of the detector,
+\item on the bottom of strings 1-78,
+\item on the top of strings 1-78.
+\end{itemize}
+\vspace{2mm}
+
+\noindent The innerstring domination is set to \texttt{True} when 
+
+\begin{equation}
+\frac{\# \textrm{outer DOMs}}{\#\textrm{inner DOMs}} < 0.5.
+\end{equation}
+
+\subsection{Variable construction}
+To distinguish signal from background events, variables that show a clear distribution difference prove to have the most discriminative power. In this part of the analysis, multiple new variables are introduced with this goal. Some variables used in Level 5 are already explained in the text and need no further introduction. A summary is given in Table \ref{tab:allvariables}.
+
+\subsubsection{Commonvariables}
+Variables that were often used in analyses often had subtle differences between them, making them prone to be a cause of errors. Multiple variable were therefore combined into one project, called ``Commonvariables''. The variables used here can be subdivided into three categories: track characteristics, hit statistics and time characteristics and are summarized in Table \ref{tab:commonvariables}.
+
+\begin{table}[]
+\centering
+\caption{List of Commonvariables used in this analysis.} 
+%\vspace{2mm}
+\begin{flushleft}
+\begin{footnotesize}
+$^\dagger$ Whenever one of the track characteristics variables is shown/mentioned, the suffix (e.g. \_50) refers to the track cylinder that was used around the track.
+\end{footnotesize}
+\end{flushleft}
+\label{tab:commonvariables}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{|
+>{\columncolor[HTML]{9B9B9B}}l |c|c|}
+\hline
+Category & \cellcolor[HTML]{9B9B9B}Variable & \cellcolor[HTML]{9B9B9B}Description \\ \hline
+\begin{tabular}[c]{@{}l@{}}Track\\ Characteristics$^\dagger$\end{tabular} & AvgDistToDom & \begin{tabular}[c]{@{}c@{}}The average distance of the DOMs to the reconstructed track, \\ weighted by the total charge of each DOM.\end{tabular} \\ \cline{2-3} 
+ & EmptyHits & \begin{tabular}[c]{@{}c@{}}The maximal track length along the reconstructed track that \\ got no hits within a cylinder around the track.\end{tabular} \\ \cline{2-3} 
+ & TrackSeparation & \begin{tabular}[c]{@{}c@{}}Distance how far the COG positions of the first and the \\ last quartile of the hits are separated from each other.\end{tabular} \\ \cline{2-3} 
+ & TrackDistribution & \begin{tabular}[c]{@{}c@{}}The track hits distribution smoothness value {[}-1;1{]} \\ shows how smooth the hits of the given pulse series\\ within the specified track cylinder radius are distributed \\ along the track.\end{tabular} \\ \hline
+Hit Statistics & ZTravel & \begin{tabular}[c]{@{}c@{}}Z value of first quartile (in time) of the hit DOMs is calculated.\\ ZTravel is the average difference of the z value of all hit DOMs\\ with the first quartile z value.\end{tabular} \\ \cline{2-3} 
+ & ZMax & The maximum z of all hit DOMs. \\ \hline
+\begin{tabular}[c]{@{}l@{}}Time\\ Characteristics\end{tabular} & ZPattern & \begin{tabular}[c]{@{}c@{}}All first pulses per DOM are ordered in time. If a DOM\\ position of a pulse is higher than the previous ZPattern\\ is increased with +1. If the second pulse is located lower \\ in the detector ZPattern decreases with -1. \\ In general this variable gives a tendency of the direction of a track.\end{tabular} \\ \hline
+\end{tabular}%
+}
+\end{table}
+Because DC and IC DOMs have different quantum efficiencies (see Section \ref{subsec:DC}), the pulses from DC and IC DOMs should not be mixed for an unambiguous definition. Therefore either only DC or IC pulses are used to compute these variables depending on if an event is \textit{IC dominated} or \textit{DC dominated}, where the former is set at $\frac{\# \textrm{DOMs}_\textrm{IC}}{\# \textrm{DOMs}_\textrm{DC}} >= 0.5$ and the latter otherwise.
+
+\subsubsection{Millipede variables}
+The \texttt{Millipede} toolkit was introduced in Section \ref{subsec:millipede}, where it was explained how the energy deposition could be estimated from the light seen by the individual DOMs. Constructing multiple variables from this toolkit was the master thesis subject of Stef Verpoest and can be found in Ref. \cite{steffthesis} for an elaborate explanation. 
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.6\textwidth]{chapter8/img/millipedeStef.png}
+\caption{Output of a \texttt{Millipede} fit for an SMP with charge $\frac{1}{3}$ and mass 10 GeV. The x-axis shows the distance the particle traveled and starts after the first simulated energy loss event. The fit tries to estimate the energy of 15 m track segments. As a comparison, the true positions of energy deposits from the MC simulation are shown in green. Locations outside the detector are shaded in grey.}
+\label{fig:millipedeoutput}
+\end{figure}
+
+\subsubsection{New variables}
+
+\begin{table}[]
+\footnotesize
+
+\caption{My caption}
+\label{my-label}
+\begin{tabular}{|l|r|c|c|}
+\hline
+\rowcolor[HTML]{9B9B9B} 
+Class & \multicolumn{1}{|c|}{Variable} & \begin{tabular}[c]{@{}c@{}}MRMR\\score\end{tabular} & \multicolumn{1}{l|}{\cellcolor[HTML]{9B9B9B}Importance} \\ \hline
+\multicolumn{1}{|c|}{\cellcolor[HTML]{9B9B9B}} & ZMax & 2 & 0.109 \\ \cline{2-4} 
+\multicolumn{1}{|c|}{\cellcolor[HTML]{9B9B9B}} & ZTravel & 3 & 0.106 \\ \cline{2-4} 
+\multicolumn{1}{|c|}{\cellcolor[HTML]{9B9B9B}} & AvgDistToDom\_150 & 9 & 0.048 \\ \cline{2-4} 
+\multicolumn{1}{|c|}{\cellcolor[HTML]{9B9B9B}} & TrackSeparation\_150 & 10 & 0.043 \\ \cline{2-4} 
+\multicolumn{1}{|c|}{\cellcolor[HTML]{9B9B9B}} & TrackDistribution\_50 & 12 & 0.035 \\ \cline{2-4} 
+\multicolumn{1}{|c|}{\cellcolor[HTML]{9B9B9B}} & TrackSeparation\_50 & 13 & 0.034 \\ \cline{2-4} 
+\multicolumn{1}{|c|}{\cellcolor[HTML]{9B9B9B}} & EmptyHits\_100 & 16 & 0.027 \\ \cline{2-4} 
+\multicolumn{1}{|c|}{\multirow{-8}{*}{\cellcolor[HTML]{9B9B9B}Commonvariables}} & ZPattern & 17 & 0.016 \\ \hline
+\cellcolor[HTML]{9B9B9B} & RunsAboveMean & 4 & 0.105 \\ \cline{2-4} 
+\cellcolor[HTML]{9B9B9B} & Mean\_dEdX & 5 & 0.074 \\ \cline{2-4} 
+\multirow{-3}{*}{\cellcolor[HTML]{9B9B9B}Millipede} & TrackLength\_60 & 11 & 0.039 \\ \hline
+\cellcolor[HTML]{9B9B9B} & NewLength\_150 & 1 & 0.132 \\ \cline{2-4} 
+\cellcolor[HTML]{9B9B9B} & NewLength\_all\_z & 6 & 0.059 \\ \cline{2-4} 
+\multirow{-3}{*}{\cellcolor[HTML]{9B9B9B}New variables} & SpeedRatio & 14 & 0.033 \\ \hline
+\cellcolor[HTML]{9B9B9B} & LineFit\_Velocity & 7 & 0.055 \\ \cline{2-4} 
+\cellcolor[HTML]{9B9B9B} & $\sigma_{\textrm{para}}$ & 8 & 0.051 \\ \cline{2-4} 
+\multirow{-3}{*}{\cellcolor[HTML]{9B9B9B}Other variables} & $\cos(\theta)_{\textrm{SPE}}$ & 15 & 0.033 \\ \hline
+\end{tabular}
+\begin{tabular}{|c|r|}
+\hline
+\rowcolor[HTML]{9B9B9B} 
+\begin{tabular}[c]{@{}c@{}}MRMR\\score\end{tabular}& Variable \\ \hline
+1 & NewLength\_150 \\ \hline
+2 & ZMax \\ \hline
+3 & ZTravel \\ \hline
+4 & RunsAboveMean \\ \hline
+5 & Mean\_dEdX \\ \hline
+6 & NewLength\_all\_z \\ \hline
+7 & LineFit\_Velocity \\ \hline
+8 & $\sigma_\textrm{para}$ \\ \hline
+9 & AvgDistToDom\_150 \\ \hline
+10 & TrackSeparation\_150 \\ \hline
+11 & TrackLength\_60 \\ \hline
+12 & TrackDistribution\_50 \\ \hline
+13 & TrackSeparation\_50 \\ \hline
+14 & SpeedRatio \\ \hline
+15 & $\cos(\theta)_\textrm{SPE}$ \\ \hline
+16 & EmptyHits\_100 \\ \hline
+17 & ZPattern \\ \hline
+\end{tabular}
+\end{table}
+
+\section{Level 5}
+\subsection{MRMR}
+\subsection{BDT}
 
 \url{https://arxiv.org/pdf/physics/0312102v1.pdf}\\
 \url{https://arxiv.org/pdf/1310.1284.pdf}
@@ -164,11 +294,7 @@ Ook ergens een tabel maken met info over je data runs. Duidelijk maken wat de li
 
 Klaus zijn paper? \url{https://arxiv.org/abs/1806.05696}
 
-\section{Motivation}
-\section{General strategy}
-\section{Event cleaning}
-\section{Variables}
-\section{BDT results}
+
 \section{Pull validation}
 \section{Systematic Uncertainties}
 
