@@ -209,11 +209,6 @@ Variables that were often used in analyses often had subtle differences between 
 \centering
 \caption{List of Commonvariables used in this analysis.} 
 %\vspace{2mm}
-\begin{flushleft}
-\begin{footnotesize}
-$^\dagger$ Whenever one of the track characteristics variables is shown/mentioned, the suffix (e.g. \_50) refers to the track cylinder that was used around the track.
-\end{footnotesize}
-\end{flushleft}
 \label{tab:commonvariables}
 \resizebox{\textwidth}{!}{%
 \begin{tabular}{|
@@ -224,18 +219,23 @@ Category & \cellcolor[HTML]{F1A91E}Variable & \cellcolor[HTML]{F1A91E}Descriptio
  & EmptyHits & \begin{tabular}[c]{@{}c@{}}The maximal track length along the reconstructed track that \\ got no hits within a cylinder around the track.\end{tabular} \\ \cline{2-3} 
  & TrackSeparation & \begin{tabular}[c]{@{}c@{}}Distance how far the COG positions of the first and the \\ last quartile of the hits are separated from each other.\end{tabular} \\ \cline{2-3} 
  & TrackDistribution & \begin{tabular}[c]{@{}c@{}}The track hits distribution smoothness value {[}-1;1{]} \\ shows how smooth the hits of the given pulse series\\ within the specified track cylinder radius are distributed \\ along the track.\end{tabular} \\ \hline
-Hit Statistics & ZTravel & \begin{tabular}[c]{@{}c@{}}Z value of first quartile (in time) of the hit DOMs is calculated.\\ ZTravel is the average difference of the z value of all hit DOMs\\ with the first quartile z value.\end{tabular} \\ \cline{2-3} 
+Hit Statistics & ZTravel & \begin{tabular}[c]{@{}c@{}}ZTravel is the average difference of the z value of all hit DOMs\\ with the first (in time) quartile z value.\end{tabular} \\ \cline{2-3} 
  & ZMax & The maximum z of all hit DOMs. \\ \hline
 \begin{tabular}[c]{@{}l@{}}Time\\ Characteristics\end{tabular} & ZPattern & \begin{tabular}[c]{@{}c@{}}All first pulses per DOM are ordered in time. If a DOM\\ position of a pulse is higher than the previous ZPattern\\ is increased with +1. If the second pulse is located lower \\ in the detector ZPattern decreases with -1. \\ In general this variable gives a tendency of the direction of a track.\end{tabular} \\ \hline
 \end{tabular}%
 }
+\begin{flushleft}
+\begin{footnotesize}
+$^\dagger$ Whenever one of the track characteristics variables is shown/mentioned, the suffix (e.g. \_50) refers to the track cylinder that was used around the track.
+\end{footnotesize}
+\end{flushleft}
 \end{table}
 
 \begin{figure}
 \centering
 \includegraphics[width = 0.49\textwidth]{chapter8/img/1D_stack_zmax.png}
 \includegraphics[width = 0.49\textwidth]{chapter8/img/1D_stack_ztravel.png}
-\caption{Blub}
+\caption{\textit{Left: }Distribution of ZMax. The dip slightly below the origin is due to the dust layer. \textit{Right: }Distribution of ZTravel. Negative values indicate down-going tracks, explaining the differences in signal and muons from air showers.}
 \label{fig:commonvariables1}
 \end{figure}
 
@@ -243,7 +243,7 @@ Hit Statistics & ZTravel & \begin{tabular}[c]{@{}c@{}}Z value of first quartile 
 \centering
 \includegraphics[width = 0.49\textwidth]{chapter8/img/1D_stack_avdistdom_150.png}
 \includegraphics[width = 0.49\textwidth]{chapter8/img/1D_stack_trackseparation_150.png}
-\caption{Blub}
+\caption{\textit{Left: }Distribution of the average distance of a hit DOM to the seed track. Signal events produce less light, making is less probable for DOMs far away from the track to record light pulses. \textit{Right: }Distribution of the TrackSeparation, or CoG separation, signal events show longer tails in the distribution compared to muons from air showers as expected. A cylinder radius of 150 m was used.}
 \label{fig:commonvariables2}
 \end{figure}
 
@@ -251,7 +251,7 @@ Hit Statistics & ZTravel & \begin{tabular}[c]{@{}c@{}}Z value of first quartile 
 \centering
 \includegraphics[width = 0.49\textwidth]{chapter8/img/1D_stack_trackdistribution_50.png}
 \includegraphics[width = 0.49\textwidth]{chapter8/img/1D_stack_trackseparation_50.png}
-\caption{Blub}
+\caption{\textit{Left: }Distribution of the smoothness of the track. \textit{Right: }Distribution of the TrackSeparation, or CoG separation, with a cylinder radius of 50 m.}
 \label{fig:commonvariables3}
 \end{figure}
 
@@ -259,7 +259,7 @@ Hit Statistics & ZTravel & \begin{tabular}[c]{@{}c@{}}Z value of first quartile 
 \centering
 \includegraphics[width = 0.49\textwidth]{chapter8/img/1D_stack_emptyhits_100.png}
 \includegraphics[width = 0.49\textwidth]{chapter8/img/1D_stack_zpattern.png}
-\caption{Blub}
+\caption{\textit{Left: }Distribution of the length of empty hits along a track. Dim signal events show longer tails in the distribution than the backgrounds. \textit{Right: }Distribution of the ZPattern of a track. Negative values indicate down-going tracks, explaining the different behaviour in signal and background.}
 \label{fig:commonvariables4}
 \end{figure}
 
@@ -456,11 +456,12 @@ Also, it was chosen to select a (large) subsample of the signal to train the BDT
 \begin{itemize}
 \item Data and MC show a very good agreement.
 \item The rate in background events is reduced with 4 to 5 orders of magnitude at the a BDT score around 0.25.
-\item At highere BDT scores, muons from low energetic muon neutrinos become a much more significant part of the total background than muons from air showers.
+\item At higher BDT scores, muons from low energetic muon neutrinos become a much more significant part of the total background than muons from air showers.
 \item The signal used to train the BDT is more concentrated at higher scores, as expected. The total signal sample and the subset used for training overlap at scores higher than 0.1.
 \item At the highest scores, where the signal dominates, it is clear that there is a lack of statistics in both CORSIKA simulations as the burn sample.
 \end{itemize}
 \vspace{2mm}
+Additional checks can be found in Appendix \ref{ch:bdtchecks}.
 
 \begin{figure}
 \centering
@@ -468,6 +469,15 @@ Also, it was chosen to select a (large) subsample of the signal to train the BDT
 \caption{Blub}
 \label{fig:singlebdtrate}
 \end{figure}
+
+\noindent The limited amount of datasets available in CORSIKA simulation 
+
+
+
+\subsection{Pull validation}
+
+\section{Results}
+\section{Systematic Uncertainties}
 
 
 
@@ -477,9 +487,3 @@ Also, it was chosen to select a (large) subsample of the signal to train the BDT
 Ook ergens een tabel maken met info over je data runs. Duidelijk maken wat de livetime is bv en ook zeggen van wanneer to wanneer een bepaalde run liep (2011: mei 2011- mei 2012)
 
 Klaus zijn paper? \url{https://arxiv.org/abs/1806.05696}
-
-
-\section{Pull validation}
-\section{Systematic Uncertainties}
-
-\section{Results}

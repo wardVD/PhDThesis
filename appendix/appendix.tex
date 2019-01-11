@@ -329,22 +329,24 @@ The final classifier is a weighted linear combination of all the classifiers:
 \includegraphics[width=12cm]{appendix/img/adaboost5.png}
 \end{center}
 
-\chapterimage{checks.jpg}
+\chapterimage{whitepage.png}
 \chapter{Additional BDT checks}
 \label{ch:bdtchecks}
+As explained in Section \ref{sec:BDT}, it is important to perfom some checks to see if a BDT is performing normally. A first check is done to see if the distribution of the training and testing samples show significant differences. This is shown in Fig. \ref{fig:overtraining} and explained in more detail in Section \ref{subsec:overtraining}.\\
 
-\begin{figure}
+\begin{figure}[ht]
 \centering
-\includegraphics[width=\textwidth]{appendix/img/overtrainingbackground.png}
-\includegraphics[width=\textwidth]{appendix/img/overtrainingsignal.png}
-\caption{Blub}
+\includegraphics[width=\textwidth]{appendix/img/overtrain.png}
+\caption{No significant overtraining seems to be present in signal and background. The signal used here is an SMP of charge $\frac{1}{2}$ and mass 100 GeV.}
 \label{fig:overtraining}
 \end{figure}
 
-\begin{figure}
+\noindent The correlation between the 17 variables that were used in the BDT is shown in Fig. \ref{fig:correlation}. These variables were selected with the mRMR feature, which shows an excellent performance since there are no significant correlations in both signal and backround visible.
+\begin{figure}[ht]
 \centering
-\includegraphics[width=\textwidth]{appendix/img/correlation.png}
-\caption{Blub}
+\includegraphics[width=0.49\textwidth]{appendix/img/correlationbackground.png}
+\includegraphics[width=0.49\textwidth]{appendix/img/correlationsignal.png}
+\caption{Here we see the correlation between the variables that are used in the BDT. There is no significant correlation in \textit{both} signal and background, making these variables appropriate to use.}
 \label{fig:correlation}
 \end{figure}
 
