@@ -125,6 +125,27 @@
       \field{type}{mathesis}
       \field{year}{2018}
     \endentry
+    \entry{kunnenthesis}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=aab8daecd452f36992351e6a2d4c3f18}{%
+           family={Künnen},
+           family_i={K\bibinitperiod},
+           given={J.},
+           given_i={J\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {VUB}%
+      }
+      \strng{namehash}{aab8daecd452f36992351e6a2d4c3f18}
+      \strng{fullhash}{aab8daecd452f36992351e6a2d4c3f18}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A Search for Dark Matter in the Center of the Earth with the IceCube Neutrino Detector}
+      \field{type}{mathesis}
+      \field{year}{2015}
+    \endentry
   \endsortlist
 \endrefsection
 \endinput

@@ -2026,13 +2026,30 @@
     <bcf:datasource type="file" datatype="bibtex">bibliography.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">VEF2012</bcf:citekey>
-    <bcf:citekey order="2">LowUp2012</bcf:citekey>
-    <bcf:citekey order="3">OnlineMuonL22012</bcf:citekey>
-    <bcf:citekey order="4">DeepCore2012</bcf:citekey>
-    <bcf:citekey order="5">2011rate</bcf:citekey>
-    <bcf:citekey order="6">2011rate</bcf:citekey>
-    <bcf:citekey order="7">steffthesis</bcf:citekey>
+    <bcf:citekey order="1">Ahrens:2003fg</bcf:citekey>
+    <bcf:citekey order="2">Aartsen:2013bfa</bcf:citekey>
+    <bcf:citekey order="3">Ahrens:2003fg</bcf:citekey>
+    <bcf:citekey order="4">Ahrens:2003fg</bcf:citekey>
+    <bcf:citekey order="5">Ahrens:2003fg</bcf:citekey>
+    <bcf:citekey order="6">millipedeinternal</bcf:citekey>
+    <bcf:citekey order="6">stefthesis</bcf:citekey>
+    <bcf:citekey order="7">Neunhoffer:2004ha</bcf:citekey>
+    <bcf:citekey order="8">RTcutwiki</bcf:citekey>
+    <bcf:citekey order="9">mzollthesis</bcf:citekey>
+    <bcf:citekey order="10">mzollthesis</bcf:citekey>
+    <bcf:citekey order="11">mzollthesis</bcf:citekey>
+    <bcf:citekey order="12">FREUND1997119</bcf:citekey>
+    <bcf:citekey order="13">boserpdf</bcf:citekey>
+    <bcf:citekey order="14">boserpdf</bcf:citekey>
+    <bcf:citekey order="15">1453511</bcf:citekey>
+    <bcf:citekey order="16">VEF2012</bcf:citekey>
+    <bcf:citekey order="17">LowUp2012</bcf:citekey>
+    <bcf:citekey order="18">OnlineMuonL22012</bcf:citekey>
+    <bcf:citekey order="19">DeepCore2012</bcf:citekey>
+    <bcf:citekey order="20">2011rate</bcf:citekey>
+    <bcf:citekey order="21">2011rate</bcf:citekey>
+    <bcf:citekey order="22">steffthesis</bcf:citekey>
+    <bcf:citekey order="23">kunnenthesis</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="none/global" type="entry" sortscheme="none" sortnamekeyscheme="global">
   <bcf:sorting>

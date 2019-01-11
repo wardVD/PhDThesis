@@ -277,6 +277,7 @@ Several testing algorithms allow to check if two or more split P-frames can orig
 \section{Analysis techniques}
 \textcolor{red}{Komt hier iets dat je gebruikt in het volgende hoofdstuk maar nog niet hebt uitgelegd?}
 \section{Boosted Decision Tree classifiers}
+\label{sec:BDT}
 Given a certain event with a fixed set of variables that are constructed in an analysis, the question remains if the event is in fact a \textit{signal} or \textit{background} event. One can rely on Monte Carlo simulations to get a handle on the variable distribution in both sets. The most general and still widely used method is to use a cut-and-count approach where a cut is placed on a certain variable that discards events that fail the requirement. A Boosted Decision Tree (BDT) inspects a set of set variables and classifies an event with a score that ranges from -1 to 1. The higher the score, the more an event is regarded as signal-like. How this is done is given in more detail below. Boosted decision trees rely on multiple individual trees. Therefore, we will first explain how a single tree classification works.
 
 
@@ -329,6 +330,7 @@ is used as a separation variable in this work\footnote{Other possible separation
 and therefore determines the size of a tree. These selection criteria are necessary to avoid overtraining (see Section \ref{subsec:overtraining}).
 
 \subsection{Boosting}
+\label{subsec:boosting}
 As already implied in the text above, a BDT consists of a \textit{forest} of decision trees. A user specified number of individual decision trees are trained sequentially, with a boosting process in between each training. Boosting consists of adjusting the weights of individual events according to whether the previously trained tree classifies them correctly. In this work, the AdaBoost\footnote{Short for Adaptive Boosting.} algorithm was used for boosting in which the score of an event is a weighted average of the scores the event receives from each tree in the forest \cite{FREUND1997119}.
 
 A BDT may informally be called a ``boosted decision tree'', but it must be understood that there are actually many trees (typically hundreds), and that boosting is a process that occurs between the training of consecutive trees. The approach makes use of the power of numbers: many weak single decision trees combined can be more powerful than one very good decision tree. In general, boosting follows the following steps:
@@ -355,7 +357,7 @@ An example is given in Appendix \ref{ch:adaboostappendix}.\\
 \label{eq:boostfactor}
 \alpha = \beta \cdot \ln\left(\frac{1-\epsilon}{\epsilon}\right),
 \end{equation}
-\noindent and changes the weight of the tree to
+\noindent with $\beta$ a user defined \textit{boosting beta} and changes the weight of the tree to
 
 \begin{equation}
 \begin{split}
@@ -386,6 +388,7 @@ BDTs are very powerful tools, but if not used correctly could lead to problems t
 \end{figure}
 
 \subsubsection{Pruning}
+\label{subsub:pruning}
 The problem with overtraining is essentially that there are certain splits in a classifier tree that are too specific and less important. In the method of \textit{cost complexity pruning}, for each node the complexity is calculated as
 
 \begin{equation}
@@ -398,6 +401,14 @@ The problem with overtraining is essentially that there are certain splits in a 
 
 \subsubsection{Data-MC agreement}
 \textcolor{red}{Nodig?}	
+
+\section{Minimal-Redundancy-Maximum-Relevance}
+\label{sec:mrmr}
+Having multiple variables that are able to discriminate signal from background events is a neccesary tool to ensure to conclude statements about a certain theory or exotic phenomenon. Single variables can show promising results, but when multiple variables are highly correlated much of the discriminative power diminishes. When using BDTs, analyzers often try to include variables and remove them if they show to be highly correlated in a trial-and-error fashion.
+
+In this analysis, I made use of a technique that was originally developed for data in biological sciences but can be used for most analyses that involve ``data mining ''. Variables from a large sample set were selected with the condition of minimal-Redundancy-Maximal-Relevance (mRMR). To optimize the characterization of a certain class of events with a set of variables, these variables are selected with a \textit{maximal relevance}. ``Relevance'' is characterized in terms of correlation of mutual information. Because combinations of individually good features do not necessarily lead to good classification performance, there is the additional requirement of \textit{minimal redundancy} \cite{1453511}.\\
+
+\noindent In this analysis, mRMR was used to rank variables from a large set according to their importance and proved to lead to low correlated variables (see Fig. ???).
 
 \section{IceCube coordinate system}
 Lastly, when referring to positions and directions one first has define a coordinate system to be able to uniquely define these variables. The system is shown in Fig. \ref{fig:coordinates}.\\

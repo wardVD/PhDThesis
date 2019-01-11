@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.15)  9 JAN 2019 17:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.15)  11 JAN 2019 16:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2124,8 +2124,8 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 
 \@quotelevel=\count431
 \@quotereset=\count432
-(./main.aux (./chapter8/chapter8.aux) (./chapter9/chapter9.aux)
-(./appendix/appendix.aux))
+(./main.aux (./chapter7/chapter7.aux) (./chapter8/chapter8.aux)
+(./chapter9/chapter9.aux) (./appendix/appendix.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
@@ -2327,28 +2327,294 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <12> on input line 5.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 15.
+
+(/usr/share/texmf/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+Package microtype Info: Loading generic settings for font family
+(microtype)             `lmtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 29.
  [1
 
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Pictures/60seconds_Stand
-ardModelCube.jpg>])
+ardModelCube.jpg>] [2])
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
- [2]
+ [3]
+[4
+
+]
 \c@ttl@toc@default=\count440
- (./main.ptc) [3
+ (./main.ptc) [5
+
+] [6] (./main.ptc) [7
+
+] [8]
+\openout2 = `chapter7/chapter7.aux'.
+
+ (./chapter7/chapter7.tex
+Chapter 1.
+<Pictures/bubblechamber2.jpg, id=313, 798.985pt x 454.69875pt>
+File: Pictures/bubblechamber2.jpg Graphic file (type jpg)
+
+<use Pictures/bubblechamber2.jpg>
+Package pdftex.def Info: Pictures/bubblechamber2.jpg used on input line 1.
+(pdftex.def)             Requested size: 597.50787pt x 340.05188pt.
+
+<chapter7/img/linefit.png, id=314, 126.78947pt x 87.0621pt>
+File: chapter7/img/linefit.png Graphic file (type png)
+
+<use chapter7/img/linefit.png>
+Package pdftex.def Info: chapter7/img/linefit.png used on input line 29.
+(pdftex.def)             Requested size: 273.14923pt x 187.57306pt.
+ [9
 
 
-] [4] (./main.ptc) [5
+ <./Pictures/bubblechamber2.jpg>]
 
-] [6]
+LaTeX Warning: Citation 'Ahrens:2003fg' on page 10 undefined on input line 34.
+
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 40.
+(/usr/share/texmf/tex/latex/lm/omslmr.fd
+File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <8> not available
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 40.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9> on input line 40.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 40.
+LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <6> not available
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 40.
+LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10> not available
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 58.
+
+
+LaTeX Warning: Citation 'Aartsen:2013bfa' on page 10 undefined on input line 59
+.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--60
+
+ []
+
+[10 <./chapter7/img/linefit.png>]
+<chapter7/img/reconstruction.png, id=355, 836.12375pt x 729.72626pt>
+File: chapter7/img/reconstruction.png Graphic file (type png)
+
+<use chapter7/img/reconstruction.png>
+Package pdftex.def Info: chapter7/img/reconstruction.png used on input line 86.
+
+(pdftex.def)             Requested size: 273.14923pt x 238.39418pt.
+
+
+LaTeX Warning: Citation 'Ahrens:2003fg' on page 11 undefined on input line 87.
+
+
+LaTeX Warning: Citation 'Ahrens:2003fg' on page 11 undefined on input line 87.
+
+[11 <./chapter7/img/reconstruction.png>]
+
+LaTeX Warning: Citation 'Ahrens:2003fg' on page 12 undefined on input line 101.
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--107
+
+ []
+
+
+LaTeX Warning: Reference `subsec:millipede' on page 12 undefined on input line 
+115.
+
+<chapter7/img/millipede.png, id=368, 630.355pt x 414.54875pt>
+File: chapter7/img/millipede.png Graphic file (type png)
+
+<use chapter7/img/millipede.png>
+Package pdftex.def Info: chapter7/img/millipede.png used on input line 129.
+(pdftex.def)             Requested size: 273.14923pt x 179.63144pt.
+ [12]
+
+LaTeX Warning: Citation 'millipedeinternal' on page 13 undefined on input line 
+176.
+
+
+LaTeX Warning: Citation 'stefthesis' on page 13 undefined on input line 176.
+
+[13 <./chapter7/img/millipede.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 189--190
+
+ []
+
+<chapter7/img/pullbeforecorrection.png, id=399, 458.9145pt x 401.0985pt>
+File: chapter7/img/pullbeforecorrection.png Graphic file (type png)
+
+<use chapter7/img/pullbeforecorrection.png>
+Package pdftex.def Info: chapter7/img/pullbeforecorrection.png used on input li
+ne 201.
+(pdftex.def)             Requested size: 218.51521pt x 190.98277pt.
+
+<chapter7/img/pullaftercorrection.png, id=400, 461.0826pt x 396.7623pt>
+File: chapter7/img/pullaftercorrection.png Graphic file (type png)
+
+<use chapter7/img/pullaftercorrection.png>
+Package pdftex.def Info: chapter7/img/pullaftercorrection.png used on input lin
+e 202.
+(pdftex.def)             Requested size: 218.51521pt x 188.02815pt.
+
+
+LaTeX Warning: Citation 'Neunhoffer:2004ha' on page 14 undefined on input line 
+207.
+
+
+LaTeX Warning: Reference `subsec:calibration' on page 14 undefined on input lin
+e 211.
+
+
+LaTeX Warning: Citation 'RTcutwiki' on page 14 undefined on input line 213.
+
+[14]
+LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <12> not available
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 216.
+
+
+LaTeX Warning: Reference `subsec:triggers' on page 15 undefined on input line 2
+18.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 218--219
+
+ []
+
+<chapter7/img/coincidenteventsCORS.png, id=416, 770.88pt x 578.16pt>
+File: chapter7/img/coincidenteventsCORS.png Graphic file (type png)
+
+<use chapter7/img/coincidenteventsCORS.png>
+Package pdftex.def Info: chapter7/img/coincidenteventsCORS.png used on input li
+ne 222.
+(pdftex.def)             Requested size: 364.19667pt x 273.14676pt.
+
+
+LaTeX Warning: Citation 'mzollthesis' on page 15 undefined on input line 229.
+
+[15 <./chapter7/img/pullbeforecorrection.png> <./chapter7/img/pullaftercorrecti
+on.png>] <chapter7/img/hexagons.png, id=430, 253.69781pt x 376.40625pt>
+File: chapter7/img/hexagons.png Graphic file (type png)
+
+<use chapter7/img/hexagons.png>
+Package pdftex.def Info: chapter7/img/hexagons.png used on input line 236.
+(pdftex.def)             Requested size: 227.62206pt x 337.72865pt.
+
+<chapter7/img/cherenkovzoll.png, id=431, 420.57124pt x 811.03pt>
+File: chapter7/img/cherenkovzoll.png Graphic file (type png)
+
+<use chapter7/img/cherenkovzoll.png>
+Package pdftex.def Info: chapter7/img/cherenkovzoll.png used on input line 237.
+
+(pdftex.def)             Requested size: 182.09486pt x 351.14928pt.
+
+
+LaTeX Warning: Citation 'mzollthesis' on page 16 undefined on input line 238.
+
+
+LaTeX Warning: Citation 'mzollthesis' on page 16 undefined on input line 238.
+
+[16 <./chapter7/img/coincidenteventsCORS.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 251--252
+
+ []
+
+<chapter7/img/coincsuite.png, id=444, 1696.3375pt x 500.87125pt>
+File: chapter7/img/coincsuite.png Graphic file (type png)
+
+<use chapter7/img/coincsuite.png>
+Package pdftex.def Info: chapter7/img/coincsuite.png used on input line 259.
+(pdftex.def)             Requested size: 455.24411pt x 134.41927pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [17 <./chapter7/img/hexagons.png> <./chapter7/img/cherenkovzoll.png>] [18 <./c
+hapter7/img/coincsuite.png (PNG copy)>]
+<chapter7/img/bdt.png, id=464, 462.78159pt x 441.86131pt>
+File: chapter7/img/bdt.png Graphic file (type png)
+
+<use chapter7/img/bdt.png>
+Package pdftex.def Info: chapter7/img/bdt.png used on input line 289.
+(pdftex.def)             Requested size: 227.62206pt x 217.33649pt.
+ [19 <./chapter7/img/bdt.png>]
+LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 325.
+
+
+LaTeX Warning: Citation 'FREUND1997119' on page 20 undefined on input line 334.
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 347--350
+
+ []
+
+[20] <chapter7/img/overtraining.png, id=496, 860.21375pt x 759.83875pt>
+File: chapter7/img/overtraining.png Graphic file (type png)
+
+<use chapter7/img/overtraining.png>
+Package pdftex.def Info: chapter7/img/overtraining.png used on input line 385.
+(pdftex.def)             Requested size: 227.62206pt x 201.05486pt.
+
+
+LaTeX Warning: Citation 'boserpdf' on page 21 undefined on input line 386.
+
+
+LaTeX Warning: Citation 'boserpdf' on page 21 undefined on input line 386.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 396--400
+
+ []
+
+[21 <./chapter7/img/overtraining.png (PNG copy)>]
+
+LaTeX Warning: Citation '1453511' on page 22 undefined on input line 409.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 409--410
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 414--416
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 414--416
+
+ []
+
+<chapter7/img/CoordinateSystem.png, id=509, 671.50874pt x 660.4675pt>
+File: chapter7/img/CoordinateSystem.png Graphic file (type png)
+
+<use chapter7/img/CoordinateSystem.png>
+Package pdftex.def Info: chapter7/img/CoordinateSystem.png used on input line 4
+19.
+(pdftex.def)             Requested size: 227.62206pt x 223.88075pt.
+ [22 <./chapter7/img/CoordinateSystem.png>]) [23]
 \openout2 = `chapter8/chapter8.aux'.
 
- (./chapter8/chapter8.tex
-Chapter 1.
-<Pictures/wallhaven-301134.png, id=216, 1927.2pt x 1084.05pt>
+ (./chapter8/chapter8.tex [24
+
+
+
+]
+Chapter 2.
+<Pictures/wallhaven-301134.png, id=525, 1927.2pt x 1084.05pt>
 File: Pictures/wallhaven-301134.png Graphic file (type png)
 
 <use Pictures/wallhaven-301134.png>
@@ -2356,16 +2622,18 @@ Package pdftex.def Info: Pictures/wallhaven-301134.png used on input line 1.
 (pdftex.def)             Requested size: 597.50787pt x 336.08511pt.
 
 
-LaTeX Warning: Reference `ch:theoreticalmotivation' on page 7 undefined on inpu
-t line 2.
+LaTeX Warning: Reference `ch:theoreticalmotivation' on page 25 undefined on inp
+ut line 2.
 
 
-LaTeX Warning: Reference `subsec:filters' on page 7 undefined on input line 5.
+LaTeX Warning: Reference `subsec:filters' on page 25 undefined on input line 5.
 
 
-LaTeX Warning: Reference `sec:processing' on page 7 undefined on input line 5.
 
-<chapter8/img/FilterRate.png, id=219, 1445.4pt x 1445.4pt>
+LaTeX Warning: Reference `sec:processing' on page 25 undefined on input line 5.
+
+
+<chapter8/img/FilterRate.png, id=527, 1445.4pt x 1445.4pt>
 File: chapter8/img/FilterRate.png Graphic file (type png)
 
 <use chapter8/img/FilterRate.png>
@@ -2373,43 +2641,22 @@ Package pdftex.def Info: chapter8/img/FilterRate.png used on input line 9.
 (pdftex.def)             Requested size: 455.24411pt x 455.23724pt.
 
 
-LaTeX Warning: Reference `subsec:triggers' on page 7 undefined on input line 15
-.
+LaTeX Warning: Reference `subsec:triggers' on page 25 undefined on input line 1
+5.
 
 
-LaTeX Warning: Reference `tab:trigger' on page 7 undefined on input line 20.
+LaTeX Warning: Reference `tab:trigger' on page 25 undefined on input line 20.
 
-[7
+[25 <./Pictures/wallhaven-301134.png>] [26 <./chapter8/img/FilterRate.png>]
 
+LaTeX Warning: Reference `Muon2012' on page 27 undefined on input line 25.
 
- <./Pictures/wallhaven-301134.png>] [8 <./chapter8/img/FilterRate.png>]
-
-LaTeX Warning: Reference `Muon2012' on page 9 undefined on input line 25.
-
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 28.
-(/usr/share/texmf/tex/latex/lm/omslmr.fd
-File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 28.
-
-
-LaTeX Warning: Reference `subsec:spempe' on page 9 undefined on input line 33.
-
-LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <8> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 33.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 33.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 33.
-LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <6> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 33.
 
 Underfull \hbox (badness 10000) in paragraph at lines 47--48
 
  []
 
-<chapter8/img/stringview.jpg, id=242, 154.176pt x 143.0946pt>
+<chapter8/img/stringview.jpg, id=548, 154.176pt x 143.0946pt>
 File: chapter8/img/stringview.jpg Graphic file (type jpg)
 
 <use chapter8/img/stringview.jpg>
@@ -2417,14 +2664,14 @@ Package pdftex.def Info: chapter8/img/stringview.jpg used on input line 51.
 (pdftex.def)             Requested size: 250.38564pt x 232.39276pt.
 
 
-LaTeX Warning: Reference `sec:burnsample' on page 9 undefined on input line 59.
+LaTeX Warning: Reference `sec:burnsample' on page 27 undefined on input line 59
+.
 
 
+LaTeX Warning: Reference `sec:burnsample' on page 27 undefined on input line 59
+.
 
-LaTeX Warning: Reference `sec:burnsample' on page 9 undefined on input line 59.
-
-
-<chapter8/img/FilterRatePerRun.png, id=245, 499.3857pt x 350.5095pt>
+<chapter8/img/FilterRatePerRun.png, id=551, 499.3857pt x 350.5095pt>
 File: chapter8/img/FilterRatePerRun.png Graphic file (type png)
 
 <use chapter8/img/FilterRatePerRun.png>
@@ -2432,7 +2679,7 @@ Package pdftex.def Info: chapter8/img/FilterRatePerRun.png used on input line 6
 3.
 (pdftex.def)             Requested size: 223.07211pt x 156.57257pt.
 
-<chapter8/img/FilterRatePerMonth.png, id=246, 497.2176pt x 352.6776pt>
+<chapter8/img/FilterRatePerMonth.png, id=552, 497.2176pt x 352.6776pt>
 File: chapter8/img/FilterRatePerMonth.png Graphic file (type png)
 
 <use chapter8/img/FilterRatePerMonth.png>
@@ -2441,14 +2688,14 @@ Package pdftex.def Info: chapter8/img/FilterRatePerMonth.png used on input line
 (pdftex.def)             Requested size: 223.07211pt x 158.2245pt.
 
 
-LaTeX Warning: Reference `subsub:corsika' on page 9 undefined on input line 65.
+LaTeX Warning: Reference `subsub:corsika' on page 27 undefined on input line 65
+.
 
 
+LaTeX Warning: Reference `subsub:corsika' on page 27 undefined on input line 65
+.
 
-LaTeX Warning: Reference `subsub:corsika' on page 9 undefined on input line 65.
-
-
-[9] <chapter8/img/1D_stack_mpefit_zenith.png, id=267, 404.712pt x 382.3083pt>
+[27] <chapter8/img/1D_stack_mpefit_zenith.png, id=568, 404.712pt x 382.3083pt>
 File: chapter8/img/1D_stack_mpefit_zenith.png Graphic file (type png)
 
 <use chapter8/img/1D_stack_mpefit_zenith.png>
@@ -2456,7 +2703,7 @@ Package pdftex.def Info: chapter8/img/1D_stack_mpefit_zenith.png used on input
 line 91.
 (pdftex.def)             Requested size: 223.07211pt x 210.72522pt.
 
-<chapter8/img/1D_stack_mpefit_rlogl.png, id=268, 436.63126pt x 403.5075pt>
+<chapter8/img/1D_stack_mpefit_rlogl.png, id=569, 436.63126pt x 403.5075pt>
 File: chapter8/img/1D_stack_mpefit_rlogl.png Graphic file (type png)
 
 <use chapter8/img/1D_stack_mpefit_rlogl.png>
@@ -2465,30 +2712,30 @@ ine 92.
 (pdftex.def)             Requested size: 223.07211pt x 206.14937pt.
 
 <chapter8/img/L3_zenithcut_gr_1p4835298642_rloglcut_less_15_1D_stack_npe.png, i
-d=269, 421.575pt x 398.23781pt>
+d=570, 421.575pt x 398.23781pt>
 File: chapter8/img/L3_zenithcut_gr_1p4835298642_rloglcut_less_15_1D_stack_npe.p
 ng Graphic file (type png)
 
 <use chapter8/img/L3_zenithcut_gr_1p4835298642_rloglcut_less_15_1D_stack_npe.pn
 g>
 Package pdftex.def Info: chapter8/img/L3_zenithcut_gr_1p4835298642_rloglcut_les
-s_15_1D_stack_npe.png used on input line 93.
+s_15_1D_stack_npe.png used on input line 99.
 (pdftex.def)             Requested size: 223.07211pt x 210.72473pt.
 
 <chapter8/img/L3_zenithcut_gr_1p4835298642_rloglcut_less_15_npecut_less_50_1D_s
-tack_finitereco_rllh_starting.png, id=270, 431.36156pt x 402.75468pt>
+tack_finitereco_rllh_starting.png, id=571, 431.36156pt x 402.75468pt>
 File: chapter8/img/L3_zenithcut_gr_1p4835298642_rloglcut_less_15_npecut_less_50
 _1D_stack_finitereco_rllh_starting.png Graphic file (type png)
 
 <use chapter8/img/L3_zenithcut_gr_1p4835298642_rloglcut_less_15_npecut_less_50_
 1D_stack_finitereco_rllh_starting.png>
 Package pdftex.def Info: chapter8/img/L3_zenithcut_gr_1p4835298642_rloglcut_les
-s_15_npecut_less_50_1D_stack_finitereco_rllh_starting.png used on input line 94
-.
+s_15_npecut_less_50_1D_stack_finitereco_rllh_starting.png used on input line 10
+0.
 (pdftex.def)             Requested size: 223.07211pt x 208.27827pt.
 
 <chapter8/img/L3_zenithcut_gr_1p4835298642_rloglcut_less_15_npecut_less_50_star
-tingtrackcut_hs_gr_0_1D_stack_finitereco_rllh_stopping.png, id=271, 432.11438pt
+tingtrackcut_hs_gr_0_1D_stack_finitereco_rllh_stopping.png, id=572, 432.11438pt
  x 403.5075pt>
 File: chapter8/img/L3_zenithcut_gr_1p4835298642_rloglcut_less_15_npecut_less_50
 _startingtrackcut_hs_gr_0_1D_stack_finitereco_rllh_stopping.png Graphic file (t
@@ -2498,153 +2745,320 @@ ype png)
 startingtrackcut_hs_gr_0_1D_stack_finitereco_rllh_stopping.png>
 Package pdftex.def Info: chapter8/img/L3_zenithcut_gr_1p4835298642_rloglcut_les
 s_15_npecut_less_50_startingtrackcut_hs_gr_0_1D_stack_finitereco_rllh_stopping.
-png used on input line 95.
+png used on input line 107.
 (pdftex.def)             Requested size: 223.07211pt x 208.30432pt.
 
 
-LaTeX Warning: Float too large for page by 5.71846pt on input line 98.
+LaTeX Warning: Reference `eq:franktamm' on page 28 undefined on input line 125.
 
 
-LaTeX Warning: Reference `eq:franktamm' on page 10 undefined on input line 114.
+[28 <./chapter8/img/stringview.jpg>]
 
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 149.
 
-[10 <./chapter8/img/stringview.jpg>]
+[29 <./chapter8/img/FilterRatePerRun.png> <./chapter8/img/FilterRatePerMonth.pn
+g>] [30 <./chapter8/img/1D_stack_mpefit_zenith.png> <./chapter8/img/1D_stack_mp
+efit_rlogl.png>]
 
-LaTeX Warning: Reference `subsec:finitereco' on page 11 undefined on input line
- 122.
-
-
-LaTeX Warning: Reference `sec:icehive' on page 11 undefined on input line 136.
+LaTeX Warning: Reference `tab:allvariables' on page 31 undefined on input line 
+202.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 138.
+               Default added (so using `tbp') on input line 208.
 
-[11 <./chapter8/img/FilterRatePerRun.png> <./chapter8/img/FilterRatePerMonth.pn
-g>]
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 184.
+<chapter8/img/1D_stack_zmax.png, id=618, 939.51pt x 722.7pt>
+File: chapter8/img/1D_stack_zmax.png Graphic file (type png)
 
- (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
-File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-Package microtype Info: Loading generic settings for font family
-(microtype)             `lmtt' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
+<use chapter8/img/1D_stack_zmax.png>
+Package pdftex.def Info: chapter8/img/1D_stack_zmax.png used on input line 236.
+
+(pdftex.def)             Requested size: 223.07211pt x 171.58789pt.
+
+<chapter8/img/1D_stack_ztravel.png, id=619, 939.51pt x 722.7pt>
+File: chapter8/img/1D_stack_ztravel.png Graphic file (type png)
+
+<use chapter8/img/1D_stack_ztravel.png>
+Package pdftex.def Info: chapter8/img/1D_stack_ztravel.png used on input line 2
+37.
+(pdftex.def)             Requested size: 223.07211pt x 171.58789pt.
+
+<chapter8/img/1D_stack_avdistdom_150.png, id=620, 939.51pt x 722.7pt>
+File: chapter8/img/1D_stack_avdistdom_150.png Graphic file (type png)
+
+<use chapter8/img/1D_stack_avdistdom_150.png>
+Package pdftex.def Info: chapter8/img/1D_stack_avdistdom_150.png used on input 
+line 244.
+(pdftex.def)             Requested size: 223.07211pt x 171.58789pt.
+
+<chapter8/img/1D_stack_trackseparation_150.png, id=621, 939.51pt x 722.7pt>
+File: chapter8/img/1D_stack_trackseparation_150.png Graphic file (type png)
+
+<use chapter8/img/1D_stack_trackseparation_150.png>
+Package pdftex.def Info: chapter8/img/1D_stack_trackseparation_150.png used on 
+input line 245.
+(pdftex.def)             Requested size: 223.07211pt x 171.58789pt.
+
+<chapter8/img/1D_stack_trackdistribution_50.png, id=622, 939.51pt x 722.7pt>
+File: chapter8/img/1D_stack_trackdistribution_50.png Graphic file (type png)
+
+<use chapter8/img/1D_stack_trackdistribution_50.png>
+Package pdftex.def Info: chapter8/img/1D_stack_trackdistribution_50.png used on
+ input line 252.
+(pdftex.def)             Requested size: 223.07211pt x 171.58789pt.
+
+<chapter8/img/1D_stack_trackseparation_50.png, id=623, 939.51pt x 722.7pt>
+File: chapter8/img/1D_stack_trackseparation_50.png Graphic file (type png)
+
+<use chapter8/img/1D_stack_trackseparation_50.png>
+Package pdftex.def Info: chapter8/img/1D_stack_trackseparation_50.png used on i
+nput line 253.
+(pdftex.def)             Requested size: 223.07211pt x 171.58789pt.
+
+<chapter8/img/1D_stack_emptyhits_100.png, id=624, 939.51pt x 722.7pt>
+File: chapter8/img/1D_stack_emptyhits_100.png Graphic file (type png)
+
+<use chapter8/img/1D_stack_emptyhits_100.png>
+Package pdftex.def Info: chapter8/img/1D_stack_emptyhits_100.png used on input 
+line 260.
+(pdftex.def)             Requested size: 223.07211pt x 171.58789pt.
+
+<chapter8/img/1D_stack_zpattern.png, id=625, 939.51pt x 722.7pt>
+File: chapter8/img/1D_stack_zpattern.png Graphic file (type png)
+
+<use chapter8/img/1D_stack_zpattern.png>
+Package pdftex.def Info: chapter8/img/1D_stack_zpattern.png used on input line 
+261.
+(pdftex.def)             Requested size: 223.07211pt x 171.58789pt.
 
 
-LaTeX Warning: Reference `tab:allvariables' on page 12 undefined on input line 
-191.
+LaTeX Warning: Reference `subsec:DC' on page 31 undefined on input line 266.
 
+[31 <./chapter8/img/L3_zenithcut_gr_1p4835298642_rloglcut_less_15_1D_stack_npe.
+png> <./chapter8/img/L3_zenithcut_gr_1p4835298642_rloglcut_less_15_npecut_less_
+50_1D_stack_finitereco_rllh_starting.png>]
 
-Underfull \vbox (badness 1910) has occurred while \output is active []
+LaTeX Warning: Reference `subsec:millipede' on page 32 undefined on input line 
+269.
 
- [12]
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 196.
-
-
-LaTeX Warning: Reference `subsec:DC' on page 13 undefined on input line 221.
-
-
-LaTeX Warning: Reference `subsec:millipede' on page 13 undefined on input line 
-224.
-
-<chapter8/img/millipedeStef.png, id=308, 1026.83624pt x 979.66pt>
+<chapter8/img/millipedeStef.png, id=643, 1026.83624pt x 979.66pt>
 File: chapter8/img/millipedeStef.png Graphic file (type png)
 
 <use chapter8/img/millipedeStef.png>
-Package pdftex.def Info: chapter8/img/millipedeStef.png used on input line 228.
+Package pdftex.def Info: chapter8/img/millipedeStef.png used on input line 273.
 
 (pdftex.def)             Requested size: 273.14923pt x 260.59526pt.
 
 
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 235.
+LaTeX Warning: Reference `fig:allmillipedevar' on page 32 undefined on input li
+ne 279.
 
-[13]) [14] [15 <./chapter8/img/1D_stack_mpefit_zenith.png> <./chapter8/img/1D_s
-tack_mpefit_rlogl.png> <./chapter8/img/L3_zenithcut_gr_1p4835298642_rloglcut_le
-ss_15_1D_stack_npe.png> <./chapter8/img/L3_zenithcut_gr_1p4835298642_rloglcut_l
-ess_15_npecut_less_50_1D_stack_finitereco_rllh_starting.png> <./chapter8/img/L3
-_zenithcut_gr_1p4835298642_rloglcut_less_15_npecut_less_50_startingtrackcut_hs_
-gr_0_1D_stack_finitereco_rllh_stopping.png>] [16 <./chapter8/img/millipedeStef.
-png>]
+
+<chapter8/img/1D_stack_millipede_dedx_mean_nozeroes.png, id=644, 939.51pt x 722
+.7pt>
+File: chapter8/img/1D_stack_millipede_dedx_mean_nozeroes.png Graphic file (type
+ png)
+ <use chapter8/img/1D_stack_millipede_dedx_mean_nozeroes.png>
+Package pdftex.def Info: chapter8/img/1D_stack_millipede_dedx_mean_nozeroes.png
+ used on input line 286.
+(pdftex.def)             Requested size: 223.07211pt x 171.58789pt.
+
+<chapter8/img/1D_stack_millipede_dedx_runsabovemean.png, id=645, 939.51pt x 722
+.7pt>
+File: chapter8/img/1D_stack_millipede_dedx_runsabovemean.png Graphic file (type
+ png)
+ <use chapter8/img/1D_stack_millipede_dedx_runsabovemean.png>
+Package pdftex.def Info: chapter8/img/1D_stack_millipede_dedx_runsabovemean.png
+ used on input line 287.
+(pdftex.def)             Requested size: 223.07211pt x 171.58789pt.
+ [32 <./chapter8/img/L3_zenithcut_gr_1p4835298642_rloglcut_less_15_npecut_less_
+50_startingtrackcut_hs_gr_0_1D_stack_finitereco_rllh_stopping.png> <./chapter8/
+img/1D_stack_zmax.png> <./chapter8/img/1D_stack_ztravel.png>] [33 <./chapter8/i
+mg/1D_stack_avdistdom_150.png> <./chapter8/img/1D_stack_trackseparation_150.png
+> <./chapter8/img/1D_stack_trackdistribution_50.png> <./chapter8/img/1D_stack_t
+rackseparation_50.png>]
+<chapter8/img/1D_stack_millipede_tracklength60.png, id=665, 939.51pt x 722.7pt>
+File: chapter8/img/1D_stack_millipede_tracklength60.png Graphic file (type png)
+
+<use chapter8/img/1D_stack_millipede_tracklength60.png>
+Package pdftex.def Info: chapter8/img/1D_stack_millipede_tracklength60.png used
+ on input line 294.
+(pdftex.def)             Requested size: 223.07211pt x 171.58789pt.
+ [34 <./chapter8/img/1D_stack_emptyhits_100.png> <./chapter8/img/1D_stack_zpatt
+ern.png>]
+<chapter8/img/1D_stack_speedratio.png, id=688, 939.51pt x 722.7pt>
+File: chapter8/img/1D_stack_speedratio.png Graphic file (type png)
+
+<use chapter8/img/1D_stack_speedratio.png>
+Package pdftex.def Info: chapter8/img/1D_stack_speedratio.png used on input lin
+e 319.
+(pdftex.def)             Requested size: 223.07211pt x 171.58789pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 337--338
+
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 355--356
+
+ []
+
+[35 <./chapter8/img/millipedeStef.png>] [36 <./chapter8/img/1D_stack_millipede_
+dedx_mean_nozeroes.png> <./chapter8/img/1D_stack_millipede_dedx_runsabovemean.p
+ng> <./chapter8/img/1D_stack_millipede_tracklength60.png> <./chapter8/img/1D_st
+ack_speedratio.png>]
+<chapter8/img/newlengthillustration.png, id=708, 459.06718pt x 423.44113pt>
+File: chapter8/img/newlengthillustration.png Graphic file (type png)
+
+<use chapter8/img/newlengthillustration.png>
+Package pdftex.def Info: chapter8/img/newlengthillustration.png used on input l
+ine 361.
+(pdftex.def)             Requested size: 273.14923pt x 251.94736pt.
+
+<chapter8/img/1D_stack_newlength_150.png, id=709, 939.51pt x 722.7pt>
+File: chapter8/img/1D_stack_newlength_150.png Graphic file (type png)
+
+<use chapter8/img/1D_stack_newlength_150.png>
+Package pdftex.def Info: chapter8/img/1D_stack_newlength_150.png used on input 
+line 369.
+(pdftex.def)             Requested size: 223.07211pt x 171.58789pt.
+
+<chapter8/img/1D_stack_newlength_all_z.png, id=710, 939.51pt x 722.7pt>
+File: chapter8/img/1D_stack_newlength_all_z.png Graphic file (type png)
+
+<use chapter8/img/1D_stack_newlength_all_z.png>
+Package pdftex.def Info: chapter8/img/1D_stack_newlength_all_z.png used on inpu
+t line 370.
+(pdftex.def)             Requested size: 223.07211pt x 171.58789pt.
+
+<chapter8/img/1D_stack_linefitvelocity.png, id=711, 939.51pt x 722.7pt>
+File: chapter8/img/1D_stack_linefitvelocity.png Graphic file (type png)
+
+<use chapter8/img/1D_stack_linefitvelocity.png>
+Package pdftex.def Info: chapter8/img/1D_stack_linefitvelocity.png used on inpu
+t line 377.
+(pdftex.def)             Requested size: 223.07211pt x 171.58789pt.
+
+<chapter8/img/1D_stack_sigma_corr_paraboloid.png, id=712, 939.51pt x 722.7pt>
+File: chapter8/img/1D_stack_sigma_corr_paraboloid.png Graphic file (type png)
+
+<use chapter8/img/1D_stack_sigma_corr_paraboloid.png>
+Package pdftex.def Info: chapter8/img/1D_stack_sigma_corr_paraboloid.png used o
+n input line 378.
+(pdftex.def)             Requested size: 223.07211pt x 171.58789pt.
+
+<chapter8/img/1D_stack_spefit1_hc_coszenith.png, id=713, 939.51pt x 722.7pt>
+File: chapter8/img/1D_stack_spefit1_hc_coszenith.png Graphic file (type png)
+
+<use chapter8/img/1D_stack_spefit1_hc_coszenith.png>
+Package pdftex.def Info: chapter8/img/1D_stack_spefit1_hc_coszenith.png used on
+ input line 379.
+(pdftex.def)             Requested size: 223.07211pt x 171.58789pt.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 387.
+
+[37 <./chapter8/img/newlengthillustration.png>] [38 <./chapter8/img/1D_stack_ne
+wlength_150.png> <./chapter8/img/1D_stack_newlength_all_z.png> <./chapter8/img/
+1D_stack_linefitvelocity.png> <./chapter8/img/1D_stack_sigma_corr_paraboloid.pn
+g> <./chapter8/img/1D_stack_spefit1_hc_coszenith.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 452--453
+
+ []
+
+
+<chapter8/img/dist_vs_bdt_result2_signal_m_100_charge1ovr2.png, id=742, 674.279
+1pt x 505.89pt>
+File: chapter8/img/dist_vs_bdt_result2_signal_m_100_charge1ovr2.png Graphic fil
+e (type png)
+
+<use chapter8/img/dist_vs_bdt_result2_signal_m_100_charge1ovr2.png>
+Package pdftex.def Info: chapter8/img/dist_vs_bdt_result2_signal_m_100_charge1o
+vr2.png used on input line 467.
+(pdftex.def)             Requested size: 318.66948pt x 239.09604pt.
+) [39]
+[40 <./chapter8/img/dist_vs_bdt_result2_signal_m_100_charge1ovr2.png>]
 \openout2 = `chapter9/chapter9.aux'.
 
- (./chapter9/chapter9.tex
-Chapter 2.
-<Pictures/ribbon.png, id=345, 602.25pt x 334.24875pt>
+
+(./chapter9/chapter9.tex
+Chapter 3.
+<Pictures/ribbon.png, id=757, 602.25pt x 334.24875pt>
 File: Pictures/ribbon.png Graphic file (type png)
 
 <use Pictures/ribbon.png>
 Package pdftex.def Info: Pictures/ribbon.png used on input line 1.
 (pdftex.def)             Requested size: 597.50787pt x 331.6468pt.
-) [17
+) [41
 
 
 
- <./Pictures/ribbon.png>] [18
+ <./Pictures/ribbon.png>] [42
 
 
 ] (./main.ptc)
-[19] [20]
+[43] [44]
 \openout2 = `appendix/appendix.aux'.
 
- (./appendix/appendix.tex [21
+ (./appendix/appendix.tex [45
 
 
 
-] [22]
+] [46]
 Appendix A.
-<Pictures/icesymmetries.jpg, id=419, 963.6pt x 542.025pt>
+<Pictures/icesymmetries.jpg, id=830, 963.6pt x 542.025pt>
 File: Pictures/icesymmetries.jpg Graphic file (type jpg)
 
 <use Pictures/icesymmetries.jpg>
 Package pdftex.def Info: Pictures/icesymmetries.jpg used on input line 3.
 (pdftex.def)             Requested size: 597.50787pt x 336.10991pt.
- [23
+ [47
 
- <./Pictures/icesymmetries.jpg>] [24
+ <./Pictures/icesymmetries.jpg>] [48
 
 ]
 Appendix B.
-<Pictures/Hot_metalwork_cropped.jpg, id=428, 1606.0pt x 903.375pt>
+<Pictures/Hot_metalwork_cropped.jpg, id=839, 1606.0pt x 903.375pt>
 File: Pictures/Hot_metalwork_cropped.jpg Graphic file (type jpg)
 
 <use Pictures/Hot_metalwork_cropped.jpg>
 Package pdftex.def Info: Pictures/Hot_metalwork_cropped.jpg used on input line 
 23.
 (pdftex.def)             Requested size: 597.50787pt x 336.10442pt.
- [25 <./Pictures/Hot_metalwork_cropped.jpg>] [26]
+ [49 <./Pictures/Hot_metalwork_cropped.jpg>] [50]
 Appendix C.
-<Pictures/gauss.png, id=458, 1480.53125pt x 823.075pt>
+<Pictures/gauss.png, id=865, 1480.53125pt x 823.075pt>
 File: Pictures/gauss.png Graphic file (type png)
 
 <use Pictures/gauss.png>
 Package pdftex.def Info: Pictures/gauss.png used on input line 102.
 (pdftex.def)             Requested size: 597.50787pt x 332.17555pt.
- [27
+ [51
 
- <./Pictures/gauss.png>] [28
+ <./Pictures/gauss.png>] [52
 
 ]
 Appendix D.
-<Pictures/random_crop.png, id=470, 722.7pt x 401.5pt>
+<Pictures/random_crop.png, id=877, 722.7pt x 401.5pt>
 File: Pictures/random_crop.png Graphic file (type png)
 
 <use Pictures/random_crop.png>
 Package pdftex.def Info: Pictures/random_crop.png used on input line 118.
 (pdftex.def)             Requested size: 597.50787pt x 331.95224pt.
 
-<appendix/img/badrandom.png, id=472, 357.7365pt x 298.4751pt>
+<appendix/img/badrandom.png, id=879, 357.7365pt x 298.4751pt>
 File: appendix/img/badrandom.png Graphic file (type png)
 
 <use appendix/img/badrandom.png>
 Package pdftex.def Info: appendix/img/badrandom.png used on input line 127.
 (pdftex.def)             Requested size: 223.07211pt x 186.11836pt.
 
-<appendix/img/goodrandom.png, id=473, 349.7868pt x 322.3242pt>
+<appendix/img/goodrandom.png, id=880, 349.7868pt x 322.3242pt>
 File: appendix/img/goodrandom.png Graphic file (type png)
 
 <use appendix/img/goodrandom.png>
@@ -2655,13 +3069,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 149--151
 
  []
 
-[29 <./Pictures/random_crop.png>] [30 <./appendix/img/badrandom.png> <./appendi
+[53 <./Pictures/random_crop.png>] [54 <./appendix/img/badrandom.png> <./appendi
 x/img/goodrandom.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 195--197
 
  []
 
-<appendix/img/probabilitypowerlaw_index1.png, id=499, 578.16pt x 1156.32pt>
+<appendix/img/probabilitypowerlaw_index1.png, id=905, 578.16pt x 1156.32pt>
 File: appendix/img/probabilitypowerlaw_index1.png Graphic file (type png)
 
 <use appendix/img/probabilitypowerlaw_index1.png>
@@ -2669,7 +3083,7 @@ Package pdftex.def Info: appendix/img/probabilitypowerlaw_index1.png used on in
 put line 208.
 (pdftex.def)             Requested size: 218.51521pt x 437.02423pt.
 
-<appendix/img/probabilitypowerlaw_index2.png, id=500, 578.16pt x 1156.32pt>
+<appendix/img/probabilitypowerlaw_index2.png, id=906, 578.16pt x 1156.32pt>
 File: appendix/img/probabilitypowerlaw_index2.png Graphic file (type png)
 
 <use appendix/img/probabilitypowerlaw_index2.png>
@@ -2677,7 +3091,7 @@ Package pdftex.def Info: appendix/img/probabilitypowerlaw_index2.png used on in
 put line 209.
 (pdftex.def)             Requested size: 218.51521pt x 437.02423pt.
 
-<appendix/img/SpectrumBeforeWeighting.png, id=502, 416.9979pt x 383.031pt>
+<appendix/img/SpectrumBeforeWeighting.png, id=908, 416.9979pt x 383.031pt>
 File: appendix/img/SpectrumBeforeWeighting.png Graphic file (type png)
 
 <use appendix/img/SpectrumBeforeWeighting.png>
@@ -2685,16 +3099,16 @@ Package pdftex.def Info: appendix/img/SpectrumBeforeWeighting.png used on input
  line 218.
 (pdftex.def)             Requested size: 218.51521pt x 200.72023pt.
 
-<appendix/img/SpectrumAfterWeighting.png, id=503, 421.3341pt x 383.7537pt>
+<appendix/img/SpectrumAfterWeighting.png, id=909, 421.3341pt x 383.7537pt>
 File: appendix/img/SpectrumAfterWeighting.png Graphic file (type png)
 
 <use appendix/img/SpectrumAfterWeighting.png>
 Package pdftex.def Info: appendix/img/SpectrumAfterWeighting.png used on input 
 line 219.
 (pdftex.def)             Requested size: 218.51521pt x 199.02606pt.
- [31 <./appendix/img/probabilitypowerlaw_index1.png> <./appendix/img/probabilit
+ [55 <./appendix/img/probabilitypowerlaw_index1.png> <./appendix/img/probabilit
 ypowerlaw_index2.png>]
-<appendix/img/spaceangle.png, id=516, 1044.90375pt x 463.7325pt>
+<appendix/img/spaceangle.png, id=923, 1044.90375pt x 463.7325pt>
 File: appendix/img/spaceangle.png Graphic file (type png)
 
 <use appendix/img/spaceangle.png>
@@ -2702,20 +3116,20 @@ Package pdftex.def Info: appendix/img/spaceangle.png used on input line 242.
 (pdftex.def)             Requested size: 364.19667pt x 161.6295pt.
 
 
-LaTeX Warning: Reference `fig:spectrumCR' on page 32 undefined on input line 25
+LaTeX Warning: Reference `fig:spectrumCR' on page 56 undefined on input line 25
 2.
 
-[32 <./appendix/img/SpectrumBeforeWeighting.png> <./appendix/img/SpectrumAfterW
+[56 <./appendix/img/SpectrumBeforeWeighting.png> <./appendix/img/SpectrumAfterW
 eighting.png> <./appendix/img/spaceangle.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 261--263
 
  []
 
-[33] [34
+[57] [58
 
 ]
 Appendix E.
-<Pictures/lines.jpg, id=541, 855.195pt x 481.8pt>
+<Pictures/lines.jpg, id=947, 855.195pt x 481.8pt>
 File: Pictures/lines.jpg Graphic file (type jpg)
  <use Pictures/lines.jpg>
 Package pdftex.def Info: Pictures/lines.jpg used on input line 277.
@@ -2725,57 +3139,45 @@ Underfull \hbox (badness 10000) in paragraph at lines 280--283
 
  []
 
-<appendix/img/adaboost1.png, id=542, 590.205pt x 540.0175pt>
+<appendix/img/adaboost1.png, id=948, 590.205pt x 540.0175pt>
 File: appendix/img/adaboost1.png Graphic file (type png)
 
 <use appendix/img/adaboost1.png>
 Package pdftex.def Info: appendix/img/adaboost1.png used on input line 288.
 (pdftex.def)             Requested size: 199.16928pt x 182.22743pt.
 
-<appendix/img/adaboost2.png, id=543, 925.4575pt x 515.9275pt>
+<appendix/img/adaboost2.png, id=949, 925.4575pt x 515.9275pt>
 File: appendix/img/adaboost2.png Graphic file (type png)
 
 <use appendix/img/adaboost2.png>
 Package pdftex.def Info: appendix/img/adaboost2.png used on input line 293.
 (pdftex.def)             Requested size: 199.16928pt x 111.03246pt.
-
-
-LaTeX Warning: Reference `eq:boostfactor' on page 35 undefined on input line 29
-7.
-
-[35 <./Pictures/lines.jpg> <./appendix/img/adaboost1.png> <./appendix/img/adabo
-ost2.png>] <appendix/img/adaboost3.png, id=550, 1218.5525pt x 455.7025pt>
+ [59 <./Pictures/lines.jpg> <./appendix/img/adaboost1.png> <./appendix/img/adab
+oost2.png>]
+<appendix/img/adaboost3.png, id=957, 1218.5525pt x 455.7025pt>
 File: appendix/img/adaboost3.png Graphic file (type png)
 
 <use appendix/img/adaboost3.png>
 Package pdftex.def Info: appendix/img/adaboost3.png used on input line 305.
 (pdftex.def)             Requested size: 199.16928pt x 74.47841pt.
 
-
-LaTeX Warning: Reference `eq:boostfactor' on page 36 undefined on input line 30
-9.
-
-<appendix/img/adaboost4.png, id=551, 1225.57875pt x 456.70625pt>
+<appendix/img/adaboost4.png, id=959, 1225.57875pt x 456.70625pt>
 File: appendix/img/adaboost4.png Graphic file (type png)
 
 <use appendix/img/adaboost4.png>
 Package pdftex.def Info: appendix/img/adaboost4.png used on input line 317.
 (pdftex.def)             Requested size: 199.16928pt x 74.21736pt.
 
-
-LaTeX Warning: Reference `eq:boostfactor' on page 36 undefined on input line 32
-0.
-
-<appendix/img/adaboost5.png, id=552, 1162.3425pt x 508.90125pt>
+<appendix/img/adaboost5.png, id=961, 1162.3425pt x 508.90125pt>
 File: appendix/img/adaboost5.png Graphic file (type png)
 
 <use appendix/img/adaboost5.png>
 Package pdftex.def Info: appendix/img/adaboost5.png used on input line 329.
 (pdftex.def)             Requested size: 341.43306pt x 149.48782pt.
-) [36 <./appendix/img/adaboost3.png> <./appendix/img/adaboost4.png> <./appendix
+) [60 <./appendix/img/adaboost3.png> <./appendix/img/adaboost4.png> <./appendix
 /img/adaboost5.png>]
-Chapter 3.
-<Pictures/chapter_head_1.pdf, id=560, 597.432pt x 298.716pt>
+Chapter 4.
+<Pictures/chapter_head_1.pdf, id=969, 597.432pt x 298.716pt>
 File: Pictures/chapter_head_1.pdf Graphic file (type pdf)
 
 <use Pictures/chapter_head_1.pdf>
@@ -2793,7 +3195,7 @@ Package mdframed Info: mdframed works in twoside mode on input line 206.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
 (mdframed)              on input line 206.
- [37
+ [61
 
 
  <./Pictures/chapter_head_1.pdf>]
@@ -2801,8 +3203,8 @@ Package mdframed Info: mdframed works in twoside mode on input line 261.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
 (mdframed)              on input line 261.
- [38]
-<Pictures/library_crop.jpg, id=592, 1003.75pt x 558.085pt>
+ [62]
+<Pictures/library_crop.jpg, id=1000, 1003.75pt x 558.085pt>
 File: Pictures/library_crop.jpg Graphic file (type jpg)
 
 <use Pictures/library_crop.jpg>
@@ -2811,9 +3213,9 @@ Package pdftex.def Info: Pictures/library_crop.jpg used on input line 293.
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
- [39
+ [63
 
- <./Pictures/library_crop.jpg>] [40
+ <./Pictures/library_crop.jpg>] [64
 
 ]
 (./main.ind
@@ -2851,7 +3253,7 @@ Overfull \hbox (1.20001pt too wide) in paragraph at lines 39--40
 [][] 
  []
 
-[41
+[65
 
 
 ])
@@ -2860,8 +3262,8 @@ Overfull \hbox (1.20001pt too wide) in paragraph at lines 39--40
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 323.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 323.
- (./main.aux (./chapter8/chapter8.aux) (./chapter9/chapter9.aux)
-(./appendix/appendix.aux))
+ (./main.aux (./chapter7/chapter7.aux) (./chapter8/chapter8.aux)
+(./chapter9/chapter9.aux) (./appendix/appendix.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 323.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 323.
 
@@ -2869,54 +3271,47 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 323.
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                main
+(biblatex)                and rerun LaTeX afterwards.
 
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 38297 strings out of 493029
- 715639 string characters out of 6136233
- 1279507 words of memory out of 5000000
- 40797 multiletter control sequences out of 15000+600000
- 164609 words of font info for 180 fonts, out of 8000000 for 9000
+ 38705 strings out of 493029
+ 725226 string characters out of 6136233
+ 1282756 words of memory out of 5000000
+ 41006 multiletter control sequences out of 15000+600000
+ 170293 words of font info for 198 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,18n,57p,10460b,2528s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{figure.caption.11} has been referenced but does n
-ot exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section*.21} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter*.20} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section*.10} has been referenced but does not exist
-, replaced by a fixed one
-
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvip
-s/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/t
-exmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-m
-athsy.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/
-fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc1
-0.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/font
-s/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb>
-</usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1
-/public/lm/lmmi9.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/sh
-are/texmf/fonts/type1/public/lm/lmr5.pfb></usr/share/texmf/fonts/type1/public/l
-m/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/f
-onts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pf
-b></usr/share/texmf/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf/fonts/ty
-pe1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb><
-/usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb></usr/share/texmf/fonts/type1/
-public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (41 pages, 7564478 bytes).
+ 57i,19n,57p,10460b,2528s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
+ips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share
+/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm
+-mathex.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texm
+f/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmcs
+c10.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fo
+nts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pf
+b></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/typ
+e1/public/lm/lmmi9.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/
+share/texmf/fonts/type1/public/lm/lmr5.pfb></usr/share/texmf/fonts/type1/public
+/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf
+/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.
+pfb></usr/share/texmf/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf/fonts/
+type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb
+></usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb></usr/share/texmf/fonts/type
+1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy9.pfb></usr/s
+hare/texmf/fonts/type1/public/lm/lmtk10.pfb></usr/share/texmf/fonts/type1/publi
+c/lm/lmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symb
+ols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbo
+ls/msam7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols
+/msbm10.pfb>
+Output written on main.pdf (65 pages, 13415356 bytes).
 PDF statistics:
- 863 PDF objects out of 1000 (max. 8388607)
- 653 compressed objects within 7 object streams
- 189 named destinations out of 1000 (max. 500000)
- 46013 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 1334 PDF objects out of 1440 (max. 8388607)
+ 1004 compressed objects within 11 object streams
+ 319 named destinations out of 1000 (max. 500000)
+ 48805 words of extra memory for PDF output out of 51595 (max. 10000000)
 
