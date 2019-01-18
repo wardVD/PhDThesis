@@ -82,13 +82,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.4.3}Precision tests}{27}{subsection.1.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.5}The need for physics beyond the Standard Model}{28}{section.1.5}
+\contentsline {section}{\numberline {1.5}The need for physics beyond the Standard Model}{27}{section.1.5}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.5.1}Running of the coupling constants}{31}{subsection.1.5.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.5.2}Unifying theories}{32}{subsection.1.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.5.3}How to look for new physics}{33}{subsection.1.5.3}
+\contentsline {subsection}{\numberline {1.5.3}How to look for new physics}{32}{subsection.1.5.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {2}Theoretical Motivation of the Analysis}{35}{chapter.2}
 \defcounter {refsection}{0}\relax 
@@ -100,7 +100,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.4}Previous searches}{36}{section.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.1}Searches with accelerators and fixed targets}{37}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.1}Searches with accelerators and fixed targets}{36}{subsection.2.4.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.4.2}Colliders}{37}{subsection.2.4.2}
 \defcounter {refsection}{0}\relax 
@@ -258,17 +258,17 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.6.4}Beyond the Standard Model searches}{82}{subsection.5.6.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.6.4.1}Lorentz invariance violation}{83}{subsubsection.5.6.4.1}
+\contentsline {subsubsection}{\numberline {5.6.4.1}Lorentz invariance violation}{82}{subsubsection.5.6.4.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {5.6.4.2}Dark matter}{83}{subsubsection.5.6.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.6.4.3}Magnetic monopoles}{84}{subsubsection.5.6.4.3}
+\contentsline {subsubsection}{\numberline {5.6.4.3}Magnetic monopoles}{83}{subsubsection.5.6.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.7}Future upgrades}{85}{section.5.7}
+\contentsline {section}{\numberline {5.7}Future upgrades}{84}{section.5.7}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.7.1}Scintillators}{85}{subsection.5.7.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.7.2}IceAct}{86}{subsection.5.7.2}
+\contentsline {subsection}{\numberline {5.7.2}IceAct}{85}{subsection.5.7.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.7.3}IceCube Upgrade}{86}{subsection.5.7.3}
 \defcounter {refsection}{0}\relax 
@@ -422,81 +422,97 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {8.4.1}BDT result}{134}{subsection.8.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.4.2}Pull validation}{135}{subsection.8.4.2}
+\contentsline {subsection}{\numberline {8.4.2}Pull-validation}{135}{subsection.8.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.5}Results}{135}{section.8.5}
+\contentsline {subsection}{\numberline {8.4.3}Model Rejection Factor}{136}{subsection.8.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.6}Systematic Uncertainties}{135}{section.8.6}
+\contentsline {subsection}{\numberline {8.4.4}Systematic Uncertainties}{138}{subsection.8.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {9}Summary and Discussion}{137}{chapter.9}
+\contentsline {paragraph}{Implementing the uncertainties in the upper limit}{140}{section*.117}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{\@mypartnumtocformat {\textlatin {III}}{Additions}}{139}{part.3}
+\contentsline {section}{\numberline {8.5}Results}{141}{section.8.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Appendices}{141}{section*.110}
+\contentsline {subsection}{\numberline {8.5.1}Unblinding}{141}{subsection.8.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Gauge symmetries}{143}{Appendix.a.A}
+\contentsline {subsection}{\numberline {8.5.2}Limits}{142}{subsection.8.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}Planck's law}{145}{Appendix.a.B}
+\contentsline {chapter}{\numberline {9}Summary and Conclusion}{145}{chapter.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.1}Electromagnetic waves in a cubical cavity}{145}{section.a.B.1}
+\contentsline {part}{\@mypartnumtocformat {\textlatin {III}}{Additions}}{147}{part.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {B.1.1}Classical approach}{146}{subsection.a.B.1.1}
+\contentsline {chapter}{Appendices}{149}{section*.122}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {B.1.2}Quantum approach}{146}{subsection.a.B.1.2}
+\contentsline {chapter}{\numberline {A}Gauge symmetries}{151}{Appendix.a.A}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {C}Statistics}{147}{Appendix.a.C}
+\contentsline {chapter}{\numberline {B}Planck's law}{153}{Appendix.a.B}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {D}Distributions}{149}{Appendix.a.D}
+\contentsline {section}{\numberline {B.1}Electromagnetic waves in a cubical cavity}{153}{section.a.B.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {D.1}Spherical random numbers}{149}{section.a.D.1}
+\contentsline {subsection}{\numberline {B.1.1}Classical approach}{154}{subsection.a.B.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {D.2}Power law distributions}{150}{section.a.D.2}
+\contentsline {subsection}{\numberline {B.1.2}Quantum approach}{154}{subsection.a.B.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {D.3}Angular distributions}{151}{section.a.D.3}
+\contentsline {chapter}{\numberline {C}Statistics}{155}{Appendix.a.C}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {D.4}Weighting}{152}{section.a.D.4}
+\contentsline {chapter}{\numberline {D}Distributions}{157}{Appendix.a.D}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {E}AdaBoost: simple example}{155}{Appendix.a.E}
+\contentsline {section}{\numberline {D.1}Spherical random numbers}{157}{section.a.D.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Initial distribution}{155}{section*.115}
+\contentsline {section}{\numberline {D.2}Power law distributions}{158}{section.a.D.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Round 1}{155}{section*.116}
+\contentsline {section}{\numberline {D.3}Angular distributions}{159}{section.a.D.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Round 2}{156}{section*.117}
+\contentsline {section}{\numberline {D.4}Weighting}{160}{section.a.D.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Round 3}{156}{section*.118}
+\contentsline {chapter}{\numberline {E}AdaBoost: simple example}{163}{Appendix.a.E}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Final step}{156}{section*.119}
+\contentsline {paragraph}{Initial distribution}{163}{section*.127}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {F}Additional BDT checks}{157}{Appendix.a.F}
+\contentsline {paragraph}{Round 1}{163}{section*.128}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {10}Some useful things for LaTeX}{159}{chapter.10}
+\contentsline {paragraph}{Round 2}{164}{section*.129}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.1}Definitions}{159}{section.10.1}
+\contentsline {paragraph}{Round 3}{164}{section*.130}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.2}Remarks}{159}{section.10.2}
+\contentsline {paragraph}{Final step}{164}{section*.131}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.3}Corollaries}{159}{section.10.3}
+\contentsline {chapter}{\numberline {F}Resampling Methods}{165}{Appendix.a.F}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.4}Propositions}{159}{section.10.4}
+\contentsline {section}{\numberline {F.1}Bootstrapping}{165}{section.a.F.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {10.4.1}Several equations}{160}{subsection.10.4.1}
+\contentsline {section}{\numberline {F.2}Cross-validation}{165}{section.a.F.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {10.4.2}Single Line}{160}{subsection.10.4.2}
+\contentsline {chapter}{\numberline {G}Additional BDT Checks}{167}{Appendix.a.G}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.5}Examples}{160}{section.10.5}
+\contentsline {chapter}{\numberline {H}Data Events at Final Level}{169}{Appendix.a.H}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {10.5.1}Equation and Text}{160}{subsection.10.5.1}
+\contentsline {chapter}{\numberline {10}Some useful things for LaTeX}{173}{chapter.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {10.5.2}Paragraph of Text}{160}{subsection.10.5.2}
+\contentsline {section}{\numberline {10.1}Definitions}{173}{section.10.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.6}Exercises}{160}{section.10.6}
+\contentsline {section}{\numberline {10.2}Remarks}{173}{section.10.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.7}Problems}{160}{section.10.7}
+\contentsline {section}{\numberline {10.3}Corollaries}{173}{section.10.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.8}Vocabulary}{160}{section.10.8}
+\contentsline {section}{\numberline {10.4}Propositions}{173}{section.10.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\leavevmode {\color {ocre}Bibliography}}{161}{chapter*.122}
+\contentsline {subsection}{\numberline {10.4.1}Several equations}{174}{subsection.10.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\leavevmode {\color {ocre}Index}}{163}{section*.123}
+\contentsline {subsection}{\numberline {10.4.2}Single Line}{174}{subsection.10.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {10.5}Examples}{174}{section.10.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {10.5.1}Equation and Text}{174}{subsection.10.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {10.5.2}Paragraph of Text}{174}{subsection.10.5.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {10.6}Exercises}{174}{section.10.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {10.7}Problems}{174}{section.10.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {10.8}Vocabulary}{174}{section.10.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\leavevmode {\color {ocre}Bibliography}}{175}{chapter*.141}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\leavevmode {\color {ocre}Index}}{189}{section*.142}
 \contentsfinish 

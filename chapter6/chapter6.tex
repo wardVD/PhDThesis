@@ -267,16 +267,22 @@ Getting the intricate details of physical events in non-trivial environments jus
 
 It is for this reason, most analyses select a certain subset of the data they want to analyze to compare to the Monte Carlo simulations. For this analysis, 10\% of the total data, called the \textit{burn sample}\index{burn sample}, was used to compare data to Monte Carlo. As indicated in Section \ref{subsec:datahandling}, the data is saved in 8-hour runs and the burn sample consists of every run ending with a `0'. The burn sample also allows to estimate the robustness of certain reconstructions and variables regarding differences in data and simulation.\\
 
-\noindent After the discovery of an SPE offset in the DOM response in 2015, it was decided that multiple years of data was to be reprocessed in what was called \textit{pass2 reprocessing} \cite{pass2}. Aside from the SPE correction, the raw pulses were reprocessed with 2017 PnF, making the data more uniform in the course of the years for easier comparison\footnote{Most filters did not undergo changes or only minor ones.}. This analysis makes use of data starting in the years 2011 to 2015 and are referred to as IC86-1 to IC86-5 where IC86 stands for the complete 86-string IceCube detector configuration and the last digit refers to the year of the season start.\\
+\noindent After the discovery of an SPE offset in the DOM response in 2015, it was decided that multiple years of data was to be reprocessed in what was called \textit{pass2 reprocessing} \cite{pass2}. Aside from the SPE correction, the raw pulses were reprocessed with 2017 PnF, making the data more uniform in the course of the years for easier comparison\footnote{Most filters did not undergo changes or only minor ones.}. This analysis makes use of data starting in the years 2011 to 2015 and are referred to as IC86-1 to IC86-5 where IC86 stands for the complete 86-string IceCube detector configuration and the last digit refers to the year of the season start. Only runs were considered that had
+
+\begin{enumerate}
+\item a positive tag from run coordinators (status == ``good\_i3''),
+\item at least 5000 active optical modules,
+\item all strings active during runtime.
+\end{enumerate}
 
 \noindent The \textit{livetime} is the total time that the detector was up and running and non-corrupted data was processed. Due to the increase in detector uptime over the years, this also means that the livetime of the different datasets has increased. The livetime for the different years is equal to
 \vspace{2mm}
 \begin{itemize}
-\item Around 31 days of livetime for IC86-1,
-\item Around 32.2 days of livetime for IC86-2,
-\item Around 33.2 days of livetime for IC86-3,
-\item Around 36.6 days of livetime for IC86-4,
-\item Around 36.7 days of livetime for IC86-5,
+\item around 31 days of livetime for IC86-1,
+\item around 32.2 days of livetime for IC86-2,
+\item around 33.2 days of livetime for IC86-3,
+\item around 36.6 days of livetime for IC86-4,
+\item around 36.7 days of livetime for IC86-5,
 \end{itemize}
 
 \noindent resulting in a total burn sample livetime of around 170 days.

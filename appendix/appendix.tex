@@ -329,8 +329,48 @@ The final classifier is a weighted linear combination of all the classifiers:
 \includegraphics[width=12cm]{appendix/img/adaboost5.png}
 \end{center}
 
+
 \chapterimage{whitepage.png}
-\chapter{Additional BDT checks}
+\chapter{Resampling Methods}
+\label{ch:resampling}
+Resampling is a method used in statistical analyses and commonly refers to methods that extract information from a larger set by taking subsets and performing significance or validations tests. Two common examples are \textit{bootstrapping} and \textit{cross-validation} and are explained below.
+
+\section{Bootstrapping}
+The basic idea of bootstrapping is that we can draw conclusions from a certain sample in a larger, unknown, population by taking a subsample and performing inference about the sample from the subsample. The method assumes that the true probability distribution from a sample to a population can be reasonably estimated from an emperical probability distribution from a subsample to a sample.
+
+Assume we have a total population $P$ of size $N_P$ and a measured sample $N$ of size $N_N$, where 
+
+\begin{equation}
+N_N < N_P \textrm{ and } N \subset P.
+\end{equation}
+From this sample, only one estimate of the mean can be computed. To get a sense of the variability we could assume a Gaussian or Poissonian probability, or what is done in this method: form a new subsample that is also of size $N_N$. This can only be done by \textit{sampling with replacement} where the elements in the subsample can repeated. If $N_N$ is sufficiently large, this will almost certainly result in subsamples that are different from the original sample. The mean can be computed from the new subsample and this process is repeated a large number of times (typically of the order of 1,000). The distribution of the means then indicates our confidence in the sample mean where a large variability assumes large uncertainties.
+
+\section{Cross-validation}
+Another example of a resampling method is cross-validation, sometimes called \textit{rotation estimation} where one wants to estimate the predictive power of a model. From a sample, a subsample called the \textit{training sample} is selected to train a model (e.g. a BDT). This model is then checked on another subsample called the \textit{testing sample}. This allows to estimate how the model will generalize to another independent datasets. Training samples will often have a lower performance in parameter estimations from the testing sample than the training sample. In cross-validation one tries to get an estimate for this effect. An often uses cross-validation method is called \textit{$k$-fold cross-validation}.
+
+In this method, one iterates the procedure of selecting a training sample and a testing sample $k$ times. If the total size of the samples set is $N_N$, the testing samples will have a size of $N_N/k$. As we have $k$ iterations, the subsamples can be chosen without replacement and are unique each time. At each iteration, the training sample will have a size of $N_N - \frac{N_N}{k} = N_N \cdot \frac{k-1}{k}$. The $k$ results can then be averaged to produce a single estimation.\\
+
+\noindent Pull-validation is another example of a resampling method that is explained in more detail in Section \ref{subsec:pv}. Illustratively it can be visualized as in Figs. \ref{fig:pvillustration1} and \ref{fig:pvillustration2}.
+
+\begin{figure}
+\centering
+\includegraphics[width=0.49\textwidth]{appendix/img/resampling_before.png}
+\includegraphics[width=0.49\textwidth]{appendix/img/hist1.png}
+\caption{Simplistic llustration of parameter space that originates from one branch in one BDT. The axis represent physical parameters that are used in the BDT. The blue box illustrates the cuts that are placed on the parameters. The BDT algorithm converts the survival probability of an event regarding these cuts into a score. Limited statistics for the background events are represented by a discontinuous tail.}
+\label{fig:pvillustration1}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.49\textwidth]{appendix/img/resampling_after.png}
+\includegraphics[width=0.49\textwidth]{appendix/img/hist2.png}
+\caption{Simplistic llustration of parameter space that originates from one branch in one BDT. Resampling the background (different green point) results in more statistics in the tail.}
+\label{fig:pvillustration2}
+\end{figure}
+
+
+\chapterimage{whitepage.png}
+\chapter{Additional BDT Checks}
 \label{ch:bdtchecks}
 As explained in Section \ref{sec:BDT}, it is important to perfom some checks to see if a BDT is performing normally. A first check is done to see if the distribution of the training and testing samples show significant differences. This is shown in Fig. \ref{fig:overtraining} and explained in more detail in Section \ref{subsec:overtraining}.\\
 
@@ -348,6 +388,49 @@ As explained in Section \ref{sec:BDT}, it is important to perfom some checks to 
 \includegraphics[width=0.49\textwidth]{appendix/img/correlationsignal.png}
 \caption{Here we see the correlation between the variables that are used in the BDT. There is no significant correlation in \textit{both} signal and background, making these variables appropriate to use.}
 \label{fig:correlation}
+\end{figure}
+
+\chapterimage{whitepage.png}
+\chapter{Data Events at Final Level}
+\label{ch:eventviewerFinal}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.49\textwidth]{appendix/img/FINAL_data_m_10000_ch1ovr2_1.png}
+\includegraphics[width=0.49\textwidth]{appendix/img/FINAL_data_m_10000_ch1ovr2_1_NUMUANOLOGY.png}
+\caption{Event viewers of an event that survive the SMP with mass 10 TeV and charge 1/2 selection. \textit{Left (data): } Short and bright up-going track corresponds to $\mu$ from an atmospheric $\nu_\mu$ that stopped shortly after leaving DeepCore. \textit{Right: }Simulated atmospheric $\nu_\mu$ event that strongly resembles this data event.}
+\label{fig:final_1}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.49\textwidth]{appendix/img/FINAL_data_m_10000_ch1ovr2_2.png}
+\includegraphics[width=0.49\textwidth]{appendix/img/FINAL_data_m_10000_ch1ovr2_2_NUMUANALOGY.png}
+\caption{Event viewers of an event that survive the SMP with mass 10 TeV and charge 1/2 selection. \textit{Left (data): }Corresponds to an up-going $\mu$ from atmospheric $\nu_\mu$ that either starts or ``corridors'' in between strings and skims DeepCore. After leaving DeepCore it only passes close to one string, giving the two hits. \textit{Right: }Simulated atmospheric $\nu_\mu$ event that strongly resembles this data event.}
+\label{fig:final_1}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.49\textwidth]{appendix/img/FINAL_data_m_10_ch1ovr3_1.png}
+\includegraphics[width=0.49\textwidth]{appendix/img/FINAL_data_m_10_ch1ovr3_1_NUMUANALOGY.png}
+\caption{Event viewers of an event that survive the SMP with mass 10 GeV and charge 1/3 selection. \textit{Left (data): }Corresponds to a horizontal $\mu$ from atmospheric $\nu_\mu$ that passes close to one string in IceCube and stops in DeepCore where more light is recorded. \textit{Right: }Simulated atmospheric $\nu_\mu$ event that strongly resembles this data event.}
+\label{fig:final_3}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.49\textwidth]{appendix/img/FINAL_signal_m_100_ch1ovr2.png}
+\includegraphics[width=0.49\textwidth]{appendix/img/FINAL_signal_m_100_ch1ovr3.png}
+\caption{\textit{Left: }Typical SMP of 100 GeV and charge 1/2 that survives the final selection. \textit{Right: }Typical SMP of 100 GeV and charge 1/3 that survives theh final selection. Note that there is a lot less light produces compared to particles with higher charges.}
+\label{fig:final_4}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.49\textwidth]{appendix/img/FINAL_signal_m_100_ch2ovr3.png}
+\caption{Typical SMP of 100 GeV and charge 1/3 that survives theh final selection. Note that there is a lot more light produces compared to particles with lower charges.}
+\label{fig:final_4}
 \end{figure}
 
 \end{appendices}
