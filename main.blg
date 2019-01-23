@@ -1,22 +1,16 @@
 [0] Config.pm:340> INFO - This is Biber 2.4
 [0] Config.pm:343> INFO - Logfile is 'main.blg'
-[40] biber:287> INFO - === Fri Jan 11, 2019, 18:08:24
-[140] Biber.pm:348> INFO - Reading 'main.bcf'
-[296] Biber.pm:742> INFO - Found 212 citekeys in bib section 0
-[303] Biber.pm:3151> INFO - Processing section 0
-[347] Biber.pm:3308> INFO - Looking for bibtex format file 'bibliography.bib' for section 0
-[892] bibtex.pm:1113> INFO - Decoding LaTeX character macros into UTF-8
-[1320] bibtex.pm:974> INFO - Found BibTeX data source 'bibliography.bib'
-[1378] Utils.pm:147> WARN - ISBN '9780201503975, 0201503972' in entry 'Peskin:1995ev' is invalid - run biber with '--validate_datamodel' for details.
-[2047] Utils.pm:147> WARN - ISBN '9780521016469, 9781316598917' in entry 'Gaisser:2016uoy' is invalid - run biber with '--validate_datamodel' for details.
-[2994] Utils.pm:147> WARN - BibTeX subsystem: warning: comma(s) at end of name (removing)
-[2995] Utils.pm:147> WARN - BibTeX subsystem: author, warning: comma(s) at end of name (removing)
-[2995] Utils.pm:147> WARN - I didn't find a database entry for 'Binnenkort gepubliceerd' (section 0)
-[3000] Utils.pm:147> WARN - The field 'pages' in entry 'weiswynands:2003' cannot be null, deleting it
-[4185] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[4185] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[4185] Biber.pm:3028> INFO - Sorting list 'none/global' of type 'entry' with scheme 'none' and locale 'en-US'
-[4185] Biber.pm:3032> INFO - No sort tailoring available for locale 'en-US'
-[4339] bbl.pm:519> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[4956] bbl.pm:615> INFO - Output to main.bbl
-[4956] Biber.pm:109> INFO - WARNINGS: 6
+[39] biber:287> INFO - === Wed Jan 23, 2019, 14:07:46
+[153] Biber.pm:348> INFO - Reading 'main.bcf'
+[319] Biber.pm:742> INFO - Found 219 citekeys in bib section 0
+[329] Biber.pm:3151> INFO - Processing section 0
+[377] Biber.pm:3308> INFO - Looking for bibtex format file 'bibliography.bib' for section 0
+[912] bibtex.pm:1113> INFO - Decoding LaTeX character macros into UTF-8
+[1364] bibtex.pm:974> INFO - Found BibTeX data source 'bibliography.bib'
+[1381] Utils.pm:147> WARN - Invalid or undefined BibTeX entry key in file '/tmp/2k1gBFcT0e/bibliography.bib_1410.utf8', skipping ...
+[1418] Utils.pm:147> WARN - ISBN '9780201503975, 0201503972' in entry 'Peskin:1995ev' is invalid - run biber with '--validate_datamodel' for details.
+[2148] Utils.pm:147> WARN - ISBN '9780521016469, 9781316598917' in entry 'Gaisser:2016uoy' is invalid - run biber with '--validate_datamodel' for details.
+[3088] Utils.pm:147> WARN - Possible typo (case mismatch) between citation and datasource keys: 'Muon2012' and 'muon2012' in file 'bibliography.bib'
+[3169] Utils.pm:163> ERROR - BibTeX subsystem: /tmp/2k1gBFcT0e/bibliography.bib_1410.utf8, line 2855, syntax error: found ",", expected one of: number, name (entry type, key, field, or macro name), end of entry ("}" or ")") or quoted string ({...} or "...")
+[3170] Biber.pm:109> INFO - WARNINGS: 4
+[3170] Biber.pm:113> INFO - ERRORS: 1
