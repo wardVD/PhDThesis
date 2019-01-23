@@ -2312,30 +2312,21 @@
     <bcf:citekey order="253">1453511</bcf:citekey>
     <bcf:citekey order="254">VEF2012</bcf:citekey>
     <bcf:citekey order="255">LowUp2012</bcf:citekey>
-    <bcf:citekey order="256">OnlineMuonL22012</bcf:citekey>
-    <bcf:citekey order="257">DeepCore2012</bcf:citekey>
-    <bcf:citekey order="258">2011rate</bcf:citekey>
+    <bcf:citekey order="256">Muon2012</bcf:citekey>
+    <bcf:citekey order="257">OnlineMuonL22012</bcf:citekey>
+    <bcf:citekey order="258">DeepCore2012</bcf:citekey>
     <bcf:citekey order="259">2011rate</bcf:citekey>
-    <bcf:citekey order="260">steffthesis</bcf:citekey>
-    <bcf:citekey order="261">kunnenthesis</bcf:citekey>
-    <bcf:citekey order="262">\IeC {\textbullet }</bcf:citekey>
-    <bcf:citekey order="263">Anna</bcf:citekey>
-    <bcf:citekey order="263">Jan</bcf:citekey>
-    <bcf:citekey order="263">atmospheric muons</bcf:citekey>
-    <bcf:citekey order="263">...</bcf:citekey>
-    <bcf:citekey order="264">Feldman:1997qc</bcf:citekey>
-    <bcf:citekey order="265">Hill:2002nv</bcf:citekey>
-    <bcf:citekey order="266">Gaisser:2013bla</bcf:citekey>
-    <bcf:citekey order="267">Gaisser:2011cc</bcf:citekey>
-    <bcf:citekey order="268">PhysRevD.70.023006</bcf:citekey>
-    <bcf:citekey order="269">Honda:2006qj</bcf:citekey>
-    <bcf:citekey order="270">Roodman:2003rw</bcf:citekey>
-  </bcf:section>
-  <bcf:sortlist section="0" name="none/global" type="entry" sortscheme="none" sortnamekeyscheme="global">
-  <bcf:sorting>
-    <bcf:sort order="1">
-      <bcf:sortitem order="1">citeorder</bcf:sortitem>
-    </bcf:sort>
-  </bcf:sorting>
-  </bcf:sortlist>
-</bcf:controlfile>
+    <bcf:citekey order="260">2011rate</bcf:citekey>
+    <bcf:citekey order="261">steffthesis</bcf:citekey>
+    <bcf:citekey order="262">kunnenthesis</bcf:citekey>
+    <bcf:citekey order="263">1352676</bcf:citekey>
+    <bcf:citekey order="264">Aartsen:2016fep</bcf:citekey>
+    <bcf:citekey order="264">Aartsen:2015exf</bcf:citekey>
+    <bcf:citekey order="264">scheriauthesis</bcf:citekey>
+    <bcf:citekey order="265">Aartsen:2016fep</bcf:citekey>
+    <bcf:citekey order="265">Aartsen:2015exf</bcf:citekey>
+    <bcf:citekey order="266">Feldman:1997qc</bcf:citekey>
+    <bcf:citekey order="267">Hill:2002nv</bcf:citekey>
+    <bcf:citekey order="268">Gaisser:2013bla</bcf:citekey>
+    <bcf:citekey order="269">Gaisser:2011cc</bcf:citekey>
+    <bcf:ci

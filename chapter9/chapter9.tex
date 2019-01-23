@@ -1,13 +1,16 @@
 \chapter{Summary and Conclusion}
-Ook verschillende mogelijkheden die je verschillende toepassingen zouden geven.
+\label{ch:summary}
+In this work a search for particles with an anomalous charge is obtained. These particles would have an electric charge lower than one, relative to the electron charge. The charges under investigation are 1/2, 1/3 and 2/3, the masses assumed range from 10 GeV to 100 TeV in multiples of 10, giving a total of 15 signal points. Due to the difference in charge, these particles will produce less Cherenkov light compared to muons.\\
 
-Vergelijken met andere experimenten, zeggen dat het appels met peren vgl is en ook wrm je zo weinig efficient bent met IC ondanks veel groter
+\noindent By assuming that these particles can have different signatures in the IceCube detector compared to known particles it is possible to perform a search. Detecting these particles would provide a gateway to extensions of the Standard Model. There exist a plethora of possible models to include new physics, where the existence of particles with an anomalous charge would provide an indication in what model would be more feasible than another.\\
 
-The burn sample data and MC backgrounds in function of the BDT score shown an excellent agreement in Fig. \ref{fig:pullval} and Fig. \ref{fig:MRF}, even at higher scores where the signal is expected to dominate.
+\noindent The particles were assumed to be isotropic in direction and follow an $E^-2$ spectrum. The simulations were done by using the modules that are used to simulate muon interactions and changing the mass and charge in the cross-sections that are implemented in the code. Photon producion, with the use of GPU intensive models, is scaled with the charge as predicted by the Frank-Tamm equation for Cherenkov photon production.\\
 
+\noindent The analysis starts from data obtained from PnF from the IceCube detector that was gathered in the years 2011 to 2015 and include a total of 1723 days of livetime. The large amount of data is first sent through a series of quality cuts and cleaning algorithms. A resampling technique called pull-validation was used to handle the lack of statistics at the final level using a boosted decision tree.\\
 
-Possible improvements: filter! Trigger! a speed cut... If multiple COGs, connection of both should be within time window.
+\noindent The final conclusion is that the number of data events is in agreement with the number of expected backgrounds and therefore an upper limit of the flux of particles with an anomalous charge was set. The observed limits are up to an order of magnitude more stringent than older experiments although a direct comparison is not well supported. All experiments set limits to a flux close to the detector, but do not include effects such as the shielding of rock or ice around the detector. Therefore there is a need for better theoretical models that predict fluxes at the set detector locations.\\
 
-Other machine learning techniques.
+\noindent Other possible improvements of the analysis shouls mainly focus on the triggering and filtering efficiencies of these very dim particles. Dedicated triggers and filters could potentially make the limits an order of magnitude more stringent (or more). These are also expected to include more noise effects so that a proper estimate is not possible. In this analysis boosted decision trees were used, but the last couple of years there have been many advances in other machine learning techniques, which could provide for potential enhancements.
+Other possible improvements could be done with IceCube Upgrade and even IceCube-Gen2, but the former seems very small in instrumented volume to make use of long tracks that are expected and the latter is even more coarsly spaced so that dim tracks will be almost undistinguishable from noise effects.\\
 
-Energy estimators (although probably wrong)
+\noindent Anomalously charged particles remain to be undetected; the search for new physics is to be continued.
