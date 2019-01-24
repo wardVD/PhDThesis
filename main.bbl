@@ -1,0 +1,550 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.6 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist[entry]{none/global}
+    \entry{VEF2012}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=187fba1552767b18f30c44375da17514}{%
+           family={collaboration},
+           family_i={c\bibinitperiod},
+           given={IceCube},
+           given_i={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{187fba1552767b18f30c44375da17514}
+      \strng{fullhash}{187fba1552767b18f30c44375da17514}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \verb{url}
+      \verb https://docushare.icecube.wisc.edu/dsweb/Get/Document-56551/VEFproposal.pdf
+      \endverb
+    \endentry
+    \entry{LowUp2012}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=187fba1552767b18f30c44375da17514}{%
+           family={collaboration},
+           family_i={c\bibinitperiod},
+           given={IceCube},
+           given_i={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{187fba1552767b18f30c44375da17514}
+      \strng{fullhash}{187fba1552767b18f30c44375da17514}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \verb{url}
+      \verb https://docushare.icecube.wisc.edu/dsweb/Get/Document-59303/lowup_2012_proposal.pdf
+      \endverb
+    \endentry
+    \entry{muon2012filter}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=187fba1552767b18f30c44375da17514}{%
+           family={collaboration},
+           family_i={c\bibinitperiod},
+           given={IceCube},
+           given_i={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{187fba1552767b18f30c44375da17514}
+      \strng{fullhash}{187fba1552767b18f30c44375da17514}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \verb{url}
+      \verb https://docushare.icecube.wisc.edu/dsweb/Get/Document-59906/MuonFilter2012_v3_with_addendum.pdf
+      \endverb
+    \endentry
+    \entry{OnlineMuonL22012}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=187fba1552767b18f30c44375da17514}{%
+           family={collaboration},
+           family_i={c\bibinitperiod},
+           given={IceCube},
+           given_i={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{187fba1552767b18f30c44375da17514}
+      \strng{fullhash}{187fba1552767b18f30c44375da17514}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \verb{url}
+      \verb https://docushare.icecube.wisc.edu/dsweb/Get/Document-59728/onlinel2proposal2012.pdf
+      \endverb
+    \endentry
+    \entry{DeepCore2012}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=187fba1552767b18f30c44375da17514}{%
+           family={collaboration},
+           family_i={c\bibinitperiod},
+           given={IceCube},
+           given_i={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{187fba1552767b18f30c44375da17514}
+      \strng{fullhash}{187fba1552767b18f30c44375da17514}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \verb{url}
+      \verb https://docushare.icecube.wisc.edu/dsweb/Get/Document-59397/DeepCoreFilterProposal.pdf
+      \endverb
+    \endentry
+    \entry{2011rate}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=187fba1552767b18f30c44375da17514}{%
+           family={collaboration},
+           family_i={c\bibinitperiod},
+           given={IceCube},
+           given_i={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{187fba1552767b18f30c44375da17514}
+      \strng{fullhash}{187fba1552767b18f30c44375da17514}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \verb{url}
+      \verb https://wiki.icecube.wisc.edu/index.php/Effects_of_DOM_Mainboard_Release_443
+      \endverb
+    \endentry
+    \entry{steffthesis}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=9ec73c266765433202faa58e12f5bb93}{%
+           family={Verpoest},
+           family_i={V\bibinitperiod},
+           given={S.},
+           given_i={S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {UGent}%
+      }
+      \strng{namehash}{9ec73c266765433202faa58e12f5bb93}
+      \strng{fullhash}{9ec73c266765433202faa58e12f5bb93}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Search for particles with fractional charges in IceCube based on anomalous energy loss}
+      \field{type}{mathesis}
+      \field{year}{2018}
+    \endentry
+    \entry{kunnenthesis}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=aab8daecd452f36992351e6a2d4c3f18}{%
+           family={Künnen},
+           family_i={K\bibinitperiod},
+           given={J.},
+           given_i={J\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {VUB}%
+      }
+      \strng{namehash}{aab8daecd452f36992351e6a2d4c3f18}
+      \strng{fullhash}{aab8daecd452f36992351e6a2d4c3f18}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A Search for Dark Matter in the Center of the Earth with the IceCube Neutrino Detector}
+      \field{type}{mathesis}
+      \field{year}{2015}
+    \endentry
+    \entry{1352676}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=d0763332914e327ce2468f89937a3591}{%
+           family={Britto},
+           family_i={B\bibinitperiod},
+           given={R.\bibnamedelimi J.},
+           given_i={R\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=621c4979b251f2eb6e2c79a210805937}{%
+           family={Acharya},
+           family_i={A\bibinitperiod},
+           given={B.\bibnamedelimi S.},
+           given_i={B\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=f3411178f71e9b8321cf49301972bd36}{%
+           family={Anupama},
+           family_i={A\bibinitperiod},
+           given={G.\bibnamedelimi C.},
+           given_i={G\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{5fa20bf0146d13bc7003c803c7bf314d}
+      \strng{fullhash}{5fa20bf0146d13bc7003c803c7bf314d}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{{Proceedings, 	 32nd International Cosmic Ray Conference (ICRC 2011): Beijing, China, August 11-18, 2011}}
+      \field{title}{{Data analysis method for the search of point sources of gamma rays with the HAGAR telescope array}}
+      \field{volume}{9}
+      \field{pages}{142}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.7529/ICRC2011/V09/0943
+      \endverb
+    \endentry
+    \entry{Aartsen:2016fep}{article}{}
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=efa7e9be1bcc0de5a41a557e797afd0b}{%
+           family={Aartsen},
+           family_i={A\bibinitperiod},
+           given={M.\bibnamedelimi G.},
+           given_i={M\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \strng{namehash}{e766755b300c9c7f14286a776d6a9489}
+      \strng{fullhash}{e766755b300c9c7f14286a776d6a9489}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{astro-ph.HE}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Eur. Phys. J.}
+      \field{number}{2}
+      \field{title}{{First search for dark matter annihilations in the Earth with the IceCube Detector}}
+      \field{volume}{C77}
+      \field{year}{2017}
+      \field{pages}{82}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1140/epjc/s10052-016-4582-y
+      \endverb
+      \verb{eprint}
+      \verb 1609.01492
+      \endverb
+    \endentry
+    \entry{Aartsen:2015exf}{article}{}
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=efa7e9be1bcc0de5a41a557e797afd0b}{%
+           family={Aartsen},
+           family_i={A\bibinitperiod},
+           given={M.\bibnamedelimi G.},
+           given_i={M\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \strng{namehash}{e766755b300c9c7f14286a776d6a9489}
+      \strng{fullhash}{e766755b300c9c7f14286a776d6a9489}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{astro-ph.HE}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Eur. Phys. J.}
+      \field{number}{3}
+      \field{title}{{Searches for Relativistic Magnetic Monopoles in IceCube}}
+      \field{volume}{C76}
+      \field{year}{2016}
+      \field{pages}{133}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1140/epjc/s10052-016-3953-8
+      \endverb
+      \verb{eprint}
+      \verb 1511.01350
+      \endverb
+    \endentry
+    \entry{scheriauthesis}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=fe5b47a5bab61b73f3be71c807d8d83a}{%
+           family={Scheriau},
+           family_i={S\bibinitperiod},
+           given={F.},
+           given_i={F\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {University of Dortmund}%
+      }
+      \strng{namehash}{fe5b47a5bab61b73f3be71c807d8d83a}
+      \strng{fullhash}{fe5b47a5bab61b73f3be71c807d8d83a}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Data-Mining in der Astroteilchenphysik}
+      \field{type}{mathesis}
+      \field{year}{2014}
+    \endentry
+    \entry{Feldman:1997qc}{article}{}
+      \name{author}{2}{}{%
+        {{hash=f4add24f4efaee1c9011c6b160b0925d}{%
+           family={Feldman},
+           family_i={F\bibinitperiod},
+           given={Gary\bibnamedelima J.},
+           given_i={G\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=f86d6fa2e4ed6f0375eacb65f57d95ab}{%
+           family={Cousins},
+           family_i={C\bibinitperiod},
+           given={Robert\bibnamedelima D.},
+           given_i={R\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{8fbf50bdbcdb976f8828a3b89bd4d8fc}
+      \strng{fullhash}{8fbf50bdbcdb976f8828a3b89bd4d8fc}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{physics.data-an}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Phys. Rev.}
+      \field{title}{{A Unified approach to the classical statistical analysis of small signals}}
+      \field{volume}{D57}
+      \field{year}{1998}
+      \field{pages}{3873\bibrangedash 3889}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1103/PhysRevD.57.3873
+      \endverb
+      \verb{eprint}
+      \verb physics/9711021
+      \endverb
+    \endentry
+    \entry{Hill:2002nv}{article}{}
+      \name{author}{2}{}{%
+        {{hash=8295e844ca537f8f3325ee6029a35088}{%
+           family={Hill},
+           family_i={H\bibinitperiod},
+           given={Gary\bibnamedelima C.},
+           given_i={G\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=e3c04826d22c039a1ca8a22cc411fade}{%
+           family={Rawlins},
+           family_i={R\bibinitperiod},
+           given={Katherine},
+           given_i={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{1712b2c222f2c62c7dc8d1718c56dfd3}
+      \strng{fullhash}{1712b2c222f2c62c7dc8d1718c56dfd3}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{astro-ph}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Astropart. Phys.}
+      \field{title}{{Unbiased cut selection for optimal upper limits in neutrino detectors: The Model rejection potential technique}}
+      \field{volume}{19}
+      \field{year}{2003}
+      \field{pages}{393\bibrangedash 402}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1016/S0927-6505(02)00240-2
+      \endverb
+      \verb{eprint}
+      \verb astro-ph/0209350
+      \endverb
+    \endentry
+    \entry{Gaisser:2013bla}{article}{}
+      \name{author}{3}{}{%
+        {{hash=915bc159dd2bc0830010df52b6ff5573}{%
+           family={Gaisser},
+           family_i={G\bibinitperiod},
+           given={Thomas\bibnamedelima K.},
+           given_i={T\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=24b5d1b901a8c16d0db2e2e436be8a61}{%
+           family={Stanev},
+           family_i={S\bibinitperiod},
+           given={Todor},
+           given_i={T\bibinitperiod}}}%
+        {{hash=e2b6b7979d1d07083623b976813c2ff3}{%
+           family={Tilav},
+           family_i={T\bibinitperiod},
+           given={Serap},
+           given_i={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{d3e00627a719b42fc3d51ed8c7d97da0}
+      \strng{fullhash}{d3e00627a719b42fc3d51ed8c7d97da0}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{astro-ph.HE}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Front. Phys.(Beijing)}
+      \field{title}{{Cosmic Ray Energy Spectrum from Measurements of Air Showers}}
+      \field{volume}{8}
+      \field{year}{2013}
+      \field{pages}{748\bibrangedash 758}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1007/s11467-013-0319-7
+      \endverb
+      \verb{eprint}
+      \verb 1303.3565
+      \endverb
+    \endentry
+    \entry{Gaisser:2011cc}{article}{}
+      \name{author}{1}{}{%
+        {{hash=915bc159dd2bc0830010df52b6ff5573}{%
+           family={Gaisser},
+           family_i={G\bibinitperiod},
+           given={Thomas\bibnamedelima K.},
+           given_i={T\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \strng{namehash}{915bc159dd2bc0830010df52b6ff5573}
+      \strng{fullhash}{915bc159dd2bc0830010df52b6ff5573}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{astro-ph.HE}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Astropart. Phys.}
+      \field{title}{{Spectrum of cosmic-ray nucleons, kaon production, and the atmospheric muon charge ratio}}
+      \field{volume}{35}
+      \field{year}{2012}
+      \field{pages}{801\bibrangedash 806}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1016/j.astropartphys.2012.02.010
+      \endverb
+      \verb{eprint}
+      \verb 1111.6675
+      \endverb
+    \endentry
+    \entry{PhysRevD.70.023006}{article}{}
+      \name{author}{5}{}{%
+        {{hash=52823c6c683ea7cdb027b594674172a1}{%
+           family={Barr},
+           family_i={B\bibinitperiod},
+           given={G.\bibnamedelimi D.},
+           given_i={G\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=f1dab379971edb286bb0371b29fd803e}{%
+           family={Gaisser},
+           family_i={G\bibinitperiod},
+           given={T.\bibnamedelimi K.},
+           given_i={T\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=9afbb33810bd801e84bc8e53d79f9dda}{%
+           family={Lipari},
+           family_i={L\bibinitperiod},
+           given={P.},
+           given_i={P\bibinitperiod}}}%
+        {{hash=320b921333a8957d3ddea7f5e2177c03}{%
+           family={Robbins},
+           family_i={R\bibinitperiod},
+           given={S.},
+           given_i={S\bibinitperiod}}}%
+        {{hash=fffb10292ad69a24f781d071d61696d3}{%
+           family={Stanev},
+           family_i={S\bibinitperiod},
+           given={T.},
+           given_i={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{7c593d33e6163e858a9d3fb0d2d750f6}
+      \strng{fullhash}{1a10667e5f5bdfec898696c23f145e69}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{2}
+      \field{journaltitle}{Phys. Rev. D}
+      \field{month}{07}
+      \field{title}{Three-dimensional calculation of atmospheric neutrinos}
+      \field{volume}{70}
+      \field{year}{2004}
+      \field{pages}{023006}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevD.70.023006
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevD.70.023006
+      \endverb
+    \endentry
+    \entry{Honda:2006qj}{article}{}
+      \name{author}{5}{}{%
+        {{hash=5b8136897d0b1d79197d89c363efc8fd}{%
+           family={Honda},
+           family_i={H\bibinitperiod},
+           given={Morihiro},
+           given_i={M\bibinitperiod}}}%
+        {{hash=1aa5fa2f0b1fd589ffa01be301d3a9b2}{%
+           family={Kajita},
+           family_i={K\bibinitperiod},
+           given={T.},
+           given_i={T\bibinitperiod}}}%
+        {{hash=85ab6cbd90cc2344da81b60c00baecf7}{%
+           family={Kasahara},
+           family_i={K\bibinitperiod},
+           given={K.},
+           given_i={K\bibinitperiod}}}%
+        {{hash=30499d3fd6b22cbf61fd61f0bdf9cd27}{%
+           family={Midorikawa},
+           family_i={M\bibinitperiod},
+           given={S.},
+           given_i={S\bibinitperiod}}}%
+        {{hash=6573e932d981d7f8bc7b3e6ce96ed9e0}{%
+           family={Sanuki},
+           family_i={S\bibinitperiod},
+           given={T.},
+           given_i={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{5ef0929242bb447732ef68ec73a609c8}
+      \strng{fullhash}{fa492a26b30e780a335a57b4f3efa2fa}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{astro-ph}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Phys. Rev.}
+      \field{title}{{Calculation of atmospheric neutrino flux using the interaction model calibrated with atmospheric muon data}}
+      \field{volume}{D75}
+      \field{year}{2007}
+      \field{pages}{043006}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevD.75.043006
+      \endverb
+      \verb{eprint}
+      \verb astro-ph/0611418
+      \endverb
+    \endentry
+    \entry{Roodman:2003rw}{article}{}
+      \name{author}{1}{}{%
+        {{hash=1301f3adc08d8ebbd877759f5e9d0052}{%
+           family={Roodman},
+           family_i={R\bibinitperiod},
+           given={Aaron},
+           given_i={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{1301f3adc08d8ebbd877759f5e9d0052}
+      \strng{fullhash}{1301f3adc08d8ebbd877759f5e9d0052}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{{Statistical problems in particle physics, astrophysics and cosmology. Proceedings, Conference, PHYSTAT 2003, Stanford, USA, September 8-11, 2003}}
+      \field{eprintclass}{physics.data-an}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{eConf}
+      \field{note}{[,166(2003)]}
+      \field{title}{{Blind analysis in particle physics}}
+      \field{volume}{C030908}
+      \field{year}{2003}
+      \field{pages}{TUIT001}
+      \range{pages}{-1}
+      \verb{eprint}
+      \verb physics/0312102
+      \endverb
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+

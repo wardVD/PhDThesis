@@ -73,6 +73,8 @@
 \usepackage[utf8]{inputenc} % Required for including letters with accents
 \usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
 
+\usepackage{titlesec}
+
 %----------------------------------------------------------------------------------------
 %	BIBLIOGRAPHY AND INDEX
 %----------------------------------------------------------------------------------------
@@ -110,6 +112,7 @@
 {\color{ocre!60}\contentslabel[\large\thecontentslabel]{1.25cm}\color{ocre}} % Chapter number
 {\color{ocre}}  
 {\color{ocre!60}\normalsize\;\titlerule*[.5pc]{.}\;\thecontentspage} % Page number
+
 
 % Section text styling
 \titlecontents{section}[1.25cm] % Indentation
@@ -375,7 +378,7 @@ innerbottommargin=5pt]{cBox}
 \renewcommand{\section}{\@startsection{section}{1}{\z@}
 {-4ex \@plus -1ex \@minus -.4ex}
 {1ex \@plus.2ex }
-{\normalfont\large\sffamily\bfseries}}
+{\normalfont\Large\sffamily\bfseries}}
 \renewcommand{\subsection}{\@startsection {subsection}{2}{\z@}
 {-3ex \@plus -0.1ex \@minus -.4ex}
 {0.5ex \@plus.2ex }

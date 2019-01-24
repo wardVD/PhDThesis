@@ -7,30 +7,30 @@
 \textit{A little learning is a dangerous thing; Drink deep, or taste not the Pierian Spring \\$\sim$ Alexander Pope}
 \end{flushright}
 
-\noindent The first chapters in this work served as an introduction to the theoretical physics models that were necessary to explain the signature of the particles we are searching for and details of the background contributions. The previous chapters explained the detector workings, reconstruction and analysis techniques. This chapter will discribe the main workings of the analysis and the results that can be draw. Starting from data that was processed with basic reconstructions and requirements, a workflow was set up to try to discriminate events that are most likely of known physical interactions from the rare events that are sought for in this analysis, theoretical particles with an anomalous charge (see Chapter \ref{ch:theoreticalmotivation}). The analysis was adopted the "SPACE" analysis, which stands for a "Search for Particle with Anomalous ChargE".
+\noindent The first chapters in this work served as an introduction to the theoretical physics models that were necessary to explain the signature of the particles under investigation and give more details on the background contributions. The previous chapters were used to explain the general workings of the detector and describe reconstruction and analysis techniques. In this chapter we focus on how the analysis was set up and the results that can be draw. Starting from data that was processed with basic reconstructions and passing general requirements, a workflow was set up to try to discriminate events that are most likely of known physical interactions from the rare events that are sought for in this analysis: theoretical particles with an anomalous charge that were introduced in Chapter \ref{ch:theoreticalmotivation}. The analysis was adopted the ``SPACE'' analysis and stands for a ``Search for Particle with Anomalous ChargE''.
 
 \section{Filter selection}
-As explained in Section \ref{subsec:filters}, IceCube data is processed through multiple filters. Since this analysis is the first of its kind in the collaboration, no processed dataset from other analyses was used. Filters had to be selected for proper comparison of data and Monte Carlo and I have chosen to optimize the signal to background ratio to select which filters should be included. An illustration is given in Fig. \ref{fig:filterrate}. This filter selection will be referred to as \textit{Level2b}, as an addition to filter processing in Level2 (see Section \ref{sec:processing}). The filters that were chosen are given below. 
+As explained in Section \ref{subsec:filters}, IceCube data is processed through multiple filters. Since this analysis is the first of its kind in the collaboration, the choice was to start from scratch and not use a processed dataset from another analysis\footnote{Since many searches look for similar signatures or deal with similar backgrounds, processed datasets in the collaboration are often used for multiple analyses.}. Therefore, a combination of filters had to be chosen that are able to distinguish signal events from background as best as possible in this preliminary stage. An illustration in filter combination efficiency is given in Fig. \ref{fig:filterrate}. This filter selection will be referred to as \textit{Level2b} as an addition to filter processing in Level2 (see Section \ref{sec:processing}). The filters that were included in this stage are given below. 
 
 \begin{figure}
 \centering
-\includegraphics[width=\textwidth]{chapter8/img/FilterRate.png}
-\caption{Illustration of the efficiencies of several filters and their possible combinations. The x-axis was determined by starting with filter selections that had a low efficiency in signal selection and range from low to high signal performance. Five signal points for a fixed charge and different mass show similar results. Exotic SMPs with charges 1/2 and 2/3 show similar results but are left out for a better visualization.}
+\includegraphics[width=\textwidth]{chapter8/img/FilterRate_better.png}
+\caption{Illustration of the efficiencies of several filters and their possible combinations. The x-axis was determined by starting with filter selections that had a low efficiency in signal selection and ranges from low to high signal performance. Five signal points for a fixed charge and different mass show similar results. SMPs with charges 1/2 and 2/3 show similar results but are left out for a better visualization.}
 \label{fig:filterrate}
 \end{figure}
 
 \subsection{VEF}
-The Vertical Event Filter (VEF) is designed to be used for oscillation and Earth WIMP analyses and makes use of the string trigger (see Section \ref{subsec:triggers}). An SMP that travels alongside a string, or closeby, can trigger optical modules even though the total light yield of an event is low (making other filter hits unlikely), making this filter an ideal addition to the filters that are selected. The filter also removes HLC hits in the top 5 DOM layers to reduce the muonic component from air shower events. Other selection cuts try to further optimize the search efficiency for WIMP events (see Section \ref{subsubsec:DM}) in particular. For example, the \texttt{LineFit} zenith angle should be higher than 68.7$^\circ$. More information can be found in Ref. \cite{VEF2012}.
+The Vertical Event Filter (VEF) is designed for oscillation and Earth WIMP analyses and makes use of the string trigger (see Section \ref{subsec:triggers}). An SMP that travels alongside a string, or closeby, can trigger optical modules even though the total light yield of an event is low (other trigger hits are unlikely in this scenario), making this filter an ideal addition to the filters that are selected. The filter removes HLC hits in the top 5 DOM layers to reduce the muonic component from air shower events and other selection cuts try to further refine the search region, in particular for WIMP events (see Section \ref{subsubsec:DM}). For example, the \texttt{LineFit} zenith angle should be higher than 68.7$^\circ$, focussing on up-going tracks. More information can be found in Ref. \cite{VEF2012}.
 
 %meeste hiervan: https://docushare.icecube.wisc.edu/dsweb/Get/Document-62750/VEF_2013_proposal.pdf
 
 \subsection{LowUp}
-The primary motive for the LowUp filter is also designed for WIMP searches, but also atmospheric neutrino analysis and is mainly designed to capture up-going muons with an energy below 1 TeV. The majority of the events that are selected by this filter make use of the in-ice Volume Trigger (see Table \ref{tab:trigger}), but also the in-ice SMT8, in-ice String and SMT3-DeepCore triggers are used for completeness. The selection cuts are loose selections required to look for up-going track-like particles. For example, the zenith angle of the reconstructed particle should have an angle of 80$^\circ$ or higher and the difference between the maximal z-coordinate and minimal z-coordinate of hit DOMs should be less than or equal to 600 m. More information can be found in Ref. \cite{LowUp2012}.
+The primary motive for the LowUp filter design is again focussed on WIMP searches but also atmospheric neutrino analysis. Therefore, it is set up to capture up-going muons with an energy below 1 TeV. The majority of the events that are selected by this filter make use of the in-ice Volume Trigger, but also the in-ice SMT8, in-ice String and SMT3-DeepCore triggers are used for completeness (see Table \ref{tab:trigger}). The selection cuts are loose selections required to look for up-going track-like particles. For example, the zenith angle of the reconstructed particle should have an angle of 80$^\circ$ or higher and the difference between the maximal z-coordinate and minimal z-coordinate of hit DOMs should be less than or equal to 600 m. More information can be found in Ref. \cite{LowUp2012}.
 
 %je hebt een Nchan>=5 cut in je L4 zodat veranderingen in LowUp niet uitmaken :-)
 
 \subsection{Online Muon L2}
-The Online Muon L2 filter is a subset of the Muon Filter (see Ref. \cite{Muon2012}) and tries to select the most interesting muon-like events while reducing the rate of the filter from around 30 Hz to 5 Hz, reducing the data stream with a factor of 6. Historically this subset was data processed offline from the Muon Filter, but after realizing that this could be done online and because many analyses made use of this selection, it was chosen to implement it as a separate filter. The filter tries to select both up-going and down-going muons, with different selection cuts depending on the zenith angle of the particle reconstruction. The four selection ranges are defined as:
+The Online Muon L2 filter is a subset of the Muon Filter (see Ref. \cite{muon2012filter}) and tries to select the most interesting muon-like events while reducing the rate of the filter from around 30 Hz to 5 Hz, reducing the data stream with a factor of 6. Historically, this subset was data processed offline from the Muon Filter, but after realizing that this could be done online and because many analyses made use of this selection, it was chosen to implement it as a separate filter. The filter tries to select both up-going and down-going muons, with different selection cuts depending on the zenith angle of the particle reconstruction. The four selection ranges are defined as:
 \vspace{2mm}
 \begin{itemize}
 \item $180^\circ \geq \theta_\textrm{MPE} \geq 115^\circ$
@@ -44,7 +44,7 @@ where the particle reconstruction was done with MPE (Section \ref{subsec:spempe}
 \subsection{DeepCore}
 A DeepCore specialized filter was added to account for SMP tracks that traverse the more densly instrumented DC detector. Due to the low amount of light produced by these dim tracks, adding the DeepCore filter that is optimized for this part of the detector proved to be of significant importance.
 
-The DeepCore filter was designed to look for very dim events coming from, e.g., dark matter, low-energy neutrino oscillations, and studies in observing atmospheric neutrinos below 100 GeV. The fiducial volume used for this filter consists of
+The DeepCore filter was designed to look for very dim events coming from dark matter, low-energy neutrino oscillations, and studies in observing atmospheric neutrinos below 100 GeV. The fiducial volume used for this filter consists of
 \vspace{2mm}
 \begin{itemize}
 \item the bottom 22 DOMs on the IceCube strings 25, 26, 27, 34, 35, 36, 37, 44, 45, 46, 47 and 54;
@@ -60,21 +60,21 @@ These strings are indicated in Fig. \ref{fig:deepcorestrings}.\\
 \label{fig:deepcorestrings}
 \end{figure}
 
-\noindent The filter uses the DeepCore SMT3 trigger and calculates the COG position of the event. Two layers are used as a veto to remove events that probably originate from atmospheric muons. More information can be found in Ref. \cite{DeepCore2012}.
+\noindent The filter uses the DeepCore SMT3 trigger and two layers are used as a veto to remove events that probably originate from atmospheric muons by comparing the hit positions and timing to the COGs. More information can be found in Ref. \cite{DeepCore2012}.
 
 \subsection{Burnsample checks}
-Before further processing, the burn sample (Section \ref{sec:burnsample}) is compared over the different years that are used in the analysis. This is shown in Figure \ref{fig:burnsamplechecks} and proved to show consistency throughout the years. More information on the burn sample can be found in Section \ref{sec:burnsample}.
+Before further processing, the burn sample (Section \ref{sec:burnsample}) is compared over the different years that are used in the analysis. This is shown in Figure \ref{fig:burnsamplechecks} and shows consistency throughout the years. More information on the burn sample can be found in Section \ref{sec:burnsample}.
 
 \begin{figure}[t]
 \centering
 \includegraphics[width=0.49\textwidth]{chapter8/img/FilterRatePerRun.png}
 \includegraphics[width=0.49\textwidth]{chapter8/img/FilterRatePerMonth.png}
-\caption{\textit{Left: }Total rate of the combined filters in function of the run number. The sine wave pattern from seasonal variations in the atmosphere (see Section \ref{subsub:corsika}) is clearly visible and consistent throughout the years. The x-axis is more spread out in the first years due to the larger amount of test runs. The shift in data rate in early 2011 runs is caused by a DOM software change that was introduced in the Summer of 2011 \cite{2011rate}. This phenomenon is well understood and since the changes are minimal, these runs are kept. \textit{Right: }Total filter rate averaged per month. There is an overlap for each year because a new season doesn't necessarily start in the beginning of a month.}
+\caption{\textit{Left: }Total rate of the combined filters as a function of the run number. The sine wave pattern from seasonal variations in the atmosphere (see Section \ref{subsub:corsika}) is clearly visible and consistent throughout the years. The x-axis is more spread out in the first years due to the larger amount of test runs. The shift in data rate in early 2011 runs is caused by a DOM software change that was introduced in the Summer of 2011 \cite{2011rate}. This phenomenon is well understood and since the changes are minimal, these runs are kept. \textit{Right: }Total filter rate averaged per month. There is an overlap for each year because a new season doesn't necessarily start in the beginning of a month.}
 \label{fig:burnsamplechecks}
 \end{figure}
 
 \section{Level 3}
-The combined filter selection leads to a total rate of $\sim60$ Hz, or $\sim1.9$ billion events per year of livetime. The average event size at Level2 is around 15 kB, which would result into around 30 TB of data per year of livetime.
+The combined filter selection leads to a total rate of $\sim60$ Hz, or an expected $1.9$ billion events per year of livetime. The average event size at Level2 is around 15 kB, which would result into around 30 TB of data per year of livetime.
 
 Therefore, five quality cuts are implemented with a goal that is threefold:
 \vspace{2mm}
@@ -88,34 +88,34 @@ Therefore, five quality cuts are implemented with a goal that is threefold:
 
 \subsection{Zenith angle cut}
 \label{subsec:zenithanglecut}
-Even though there are no up-going muons from air showers expected, the vast majority of events that pass the filter selections remain from misreconstructed muons. Even though there is only a small chance of these events to have a large misreconstructed zenith angle, the expected flux of air showers is so much larger compared to the assumed signal flux to such an extent that it dominates with orders of magnitude. The majority still has a reconstructed zenith angle lower than 90$^\circ$ (up-going). Therefore the zenith angle cut was set at an angle of 
+Even though there are no up-going muons from air showers expected, the vast majority of events that pass the filter selections still originate from muons that are misreconstructed. Even though there is only a small chance of these events to have a reconstructed zenith angle with a large offset from the true angle, the expected flux of air showers is so much larger compared to the assumed signal flux to such an extent that it dominates with orders of magnitude. Therefore a zenith angle cut was set at an angle of 
 
 \begin{equation}
-\theta_\textrm{zen} (\textrm{MPE}) \geq 85^\circ.
+\theta_\textrm{zen} (\textrm{MPE}) \geq 85^\circ,
 \end{equation}
 
-\noindent The cut is slightly relaxed to include events coming from the horizon. Muons passing through kilometers of air and ice have a much lower chance of reaching the detector.
+\noindent where the cut is slightly relaxed to include events coming from the horizon. Muons passing through kilometers of air and ice have a much lower chance of reaching the detector.
 
 \begin{figure}[ht]
 \centering
-\includegraphics[width=0.49\textwidth]{chapter8/img/1D_stack_mpefit_zenith.png}
-\includegraphics[width=0.49\textwidth]{chapter8/img/1D_stack_mpefit_rlogl.png}
-\caption{\textit{Left: }Number of events in function of MPE reconstructed zenith angle normalized to the burn sample. The upwards trend to higher zenith angles is due to the filter selections that depend on the angle. \textit{Right: }Number of events in function of rlogL normalized to the burn sample. The cuts are illustrated with an orange line, the arrow points towards the events that are kept.}
+\includegraphics[width=0.49\textwidth]{chapter8/img/1D_stack_mpefit_zenith_new.png}
+\includegraphics[width=0.49\textwidth]{chapter8/img/1D_stack_mpefit_rlogl_new.png}
+\caption{\textit{Left: }Number of events as a function of MPE reconstructed zenith angle and normalized to the burn sample. The upwards trend to higher zenith angles is due to the filter selections that depend on the angle. \textit{Right: }Number of events as a function of rlogL normalized to the burn sample. The cuts are illustrated with an orange line, the arrow points towards the events that are kept.}
 \label{fig:level3cuts1}
 \end{figure}
 
 \begin{figure}[ht]
 \centering
-\includegraphics[width=0.49\textwidth]{chapter8/img/L3_zenithcut_gr_1p4835298642_rloglcut_less_15_1D_stack_npe.png}
-\includegraphics[width=0.49\textwidth]{chapter8/img/L3_zenithcut_gr_1p4835298642_rloglcut_less_15_npecut_less_50_1D_stack_finitereco_rllh_starting.png}
-\caption{\textit{Left: }Number of events in function of number of photoelectrons (NPE) seen in the detector. \textit{Right: }Number of events in function of the starting likelihood. The cuts are illustrated with an orange line, the arrow points towards the events that are kept.}
+\includegraphics[width=0.49\textwidth]{chapter8/img/L3_zenithcut_gr_1p4835298642_rloglcut_less_15_1D_stack_npe_new.png}
+\includegraphics[width=0.49\textwidth]{chapter8/img/L3_zenithcut_gr_1p4835298642_rloglcut_less_15_npecut_less_50_1D_stack_finitereco_rllh_starting_new.png}
+\caption{\textit{Left: }Number of events as a function of number of photoelectrons (NPE) seen in the detector. \textit{Right: }Number of events as a function of the starting likelihood. The cuts are illustrated with an orange line, the arrow points towards the events that are kept.}
 \label{fig:level3cuts2}
 \end{figure}
 
 \begin{figure}[ht]
 \centering
-\includegraphics[width=0.49\textwidth]{chapter8/img/L3_zenithcut_gr_1p4835298642_rloglcut_less_15_npecut_less_50_startingtrackcut_hs_gr_0_1D_stack_finitereco_rllh_stopping.png}
-\caption{Number of events in function of the stopping likelihood. The cut is illustrated with an orange line, the arrow points towards the events that are kept.}
+\includegraphics[width=0.49\textwidth]{chapter8/img/L3_zenithcut_gr_1p4835298642_rloglcut_less_15_npecut_less_50_startingtrackcut_hs_gr_0_1D_stack_finitereco_rllh_stopping_new.png}
+\caption{Number of events as a function of the stopping likelihood. The cut is illustrated with an orange line, the arrow points towards the events that are kept.}
 \label{fig:level3cuts3}
 \end{figure}
 
@@ -125,7 +125,7 @@ The reduced log-likelihood, rlogL, of the track reconstruction fit is used as a 
 \begin{equation}
 \textrm{rlogL} = \frac{\log \mathcal{L}}{\textrm{NDOF}} = \frac{\log \mathcal{L}}{\textrm{NCh} - \textrm{NPara}},
 \end{equation}
-where NCh is the number of channels/DOMs and NPara the number of fitted parameters (3 for the position and 2 for the track direction). For Gaussian probability distributions this expression corresponds to the reduced chi-square. Lower values indicate better reconstructions\footnote{Often minimizer are used in likelihood computations. These use $-\log \mathcal{L}$, which can be minimized.}, therefore the rlogL cut was set at a value of 
+where NCh is the number of channels/DOMs and NPara the number of fitted parameters (3 for the position and 2 for the track direction). For Gaussian probability distributions this expression corresponds to the reduced chi-square. Lower values indicate better reconstructions\footnote{Often minimizer are used in likelihood computations, which actually use $-\log \mathcal{L}$ and can therefore be minimized.}, therefore the rlogL cut was set at a value of 
 
 \begin{equation}
 \textrm{rlogL} < 15.
@@ -140,7 +140,7 @@ The total number of photoelectrons seen in the detector for an event has a clear
 
 
 \subsection{Starting rlogL cut}
-The relative probability for tracks to be starting and/or stopping can be computed with FiniteReco (see Section \ref{subsec:finitereco}). Because most low-energetic muons would be starting and/or stopping in the detector, these likelihoods prove to be a powerful tool in removing these events\footnote{High energetic muons will have a higher change of being throughgoing, but would produce much more light than the dim tracks that are expected for the SMPs.}. The llh is always compared to the llh of throughgoing tracks, hence the ``relative probability''. It was chosen to place the starting relative logL at a value of 
+The relative probability for tracks to be starting and/or stopping can be computed with FiniteReco (see Section \ref{subsec:finitereco}). Because most low-energetic muons would be starting and/or stopping in the detector, these likelihoods prove to be a powerful tool in removing these events\footnote{High energetic muons will have a higher chance of being throughgoing, but would produce much more light than the dim tracks that are expected for the SMPs.}. The likelihood is always compared to the likelihood of throughgoing tracks, hence the ``relative probability''. It was chosen to place the starting relative logL at a value of 
 
 \begin{equation}
 \textrm{rel\_logL}(\textrm{starting}) = \textrm{logL}(\textrm{starting}) - \textrm{logL}(\textrm{throughgoing}) > 0. 
@@ -175,7 +175,7 @@ Innerstring domination & See text inline & == True & See text inline \\ \hline
 \end{table}
 
 \subsection{Cleaning and quality cuts}
-\noindent IceHive provides for a thourough cleaning method, sometimes resulting into events with a very low amount of hit DOMs. However, a minimal amount of hits is required to have reasonable and trustworthy particle reconstructions. Similarly, more than one string should have a hit to allow for better reconstructions due to the sparse distribution of the strings in the detector. Therefore, there are requirements on the minimum amount of DOMs and strings that should be hit as can be seen in Table \ref{tab:level4}. Because light is able to reach the edge of the detector, even if the closest approach of very bright events is tens or hunderds of meters away, it would be near impossible to distinguish bright events far from the detector to dim tracks passing close by. Therefore, it was required that at least one string that is not on the edge of the detector should have hit DOMs to reduce these \textit{leak-in events}.
+\noindent IceHive provides for a thourough cleaning method, sometimes resulting into events with a very low amount of hit DOMs. However, a minimal amount of hits is required to have reasonable and trustworthy particle reconstructions. Similarly, more than one string should have a hit to allow for better reconstructions due to the sparse distribution of the strings in the detector. Therefore, there are requirements on the minimum amount of DOMs and strings that should be hit as can be seen in Table \ref{tab:level4}. Because light is able to reach the edge of the detector even if the closest approach of very bright events is tens or hunderds of meters away, it would be near impossible to distinguish bright events far from the detector to dim tracks passing closeby. Therefore, it was required that at least one string that is not on the edge of the detector should have hit DOMs to reduce these \textit{leak-in events}.
 The zenith angle cut is re-introduced on the new event that should have better reconstructions due to cleaning and finally there is a requirement for ``innerstring domination''.
 
 \paragraph{Innerstring domination}
@@ -183,9 +183,9 @@ Several types of events at the boundary of the detector can be a problem for an 
 
 \vspace{2mm}
 \begin{itemize}
-\item (Leak in) Events that are heading towards the instrumented volume, but stop right before they reach it or pass close to the detector. These ``leak'' light to the detector boundaries.
+\item (Leak in) Events that are heading towards the instrumented volume, but stop right before they reach it or pass close by the detector. These ``leak'' light to the detector boundaries.
 \item (Boundary) Events that penetrate the detector very shallow on the boundary lines and possibly have a cascade at the endpoint. The events have rather cascade-like characteristics.
-\item (Corner-clippers) Events that are throughgoing on the corners of the detector and therefore have a COG at a corner of the detector.
+\item (Corner-clippers) Events that are throughgoing on the corners of the detector and therefore have a COG at a corner of the detector\footnote{Two coincident corner-clippers could be a large nuisance in this analysis.}.
 \item (Leak out) Events originating from a neutrino that passes through almost the entire length of the detector and only have an interaction vertex right before leaving the detector. Depending on position and angle, the reverse direction of reconstruction can be of similar probability and thus a nuisance.
 \end{itemize}
 \vspace{2mm}
@@ -232,8 +232,8 @@ Category & \cellcolor[HTML]{F1A91E}Variable & \cellcolor[HTML]{F1A91E}Descriptio
 %\multirow{-4}{*}{\cellcolor[HTML]{F1A91E}\begin{tabular}[c]{@{}l@{}}  \end{tabular}
 \multirow{-4}{*}{\cellcolor[HTML]{F1A91E}\begin{tabular}[c]{@{}l@{}}Track \\ Characteristics$^\dagger$\end{tabular}} & TrackDistribution & \begin{tabular}[c]{@{}c@{}}The track hits distribution smoothness value {[}-1;1{]} \\ shows how smooth the hits of the given pulse series\\ within the specified track cylinder radius are distributed \\ along the track.\end{tabular} \\ \hline
 \cellcolor[HTML]{F1A91E} & ZTravel & \begin{tabular}[c]{@{}c@{}}ZTravel is the average difference of the z value of all hit DOMs\\ with the first (in time) quartile z value.\end{tabular} \\ \cline{2-3} 
-\multirow{-4}{*}{\cellcolor[HTML]{F1A91E}\begin{tabular}[c]{@{}l@{}}Hit \\ Statistics\end{tabular}}  & ZMax & The maximum z of all hit DOMs. \\ \hline
-\begin{tabular}[c]{@{}l@{}}Time\\ Characteristics\end{tabular} & ZPattern & \begin{tabular}[c]{@{}c@{}}All first pulses per DOM are ordered in time. If a DOM\\ position of a pulse is higher than the previous ZPattern\\ is increased with +1. If the second pulse is located lower \\ in the detector ZPattern decreases with -1. \\ In general this variable gives a tendency of the direction of a track.\end{tabular} \\ \hline
+\multirow{-4}{*}{\cellcolor[HTML]{F1A91E}\begin{tabular}[c]{@{}l@{}}Hit \\ Statistics\end{tabular}}  & ZMax & The maximum z coordinate of all hit DOMs. \\ \hline
+\begin{tabular}[c]{@{}l@{}}Time\\ Characteristics\end{tabular} & ZPattern & \begin{tabular}[c]{@{}c@{}}All first pulses per DOM are ordered in time. If a DOM\\ position of a pulse is higher than the previous pulse's DOM position, ZPattern\\ is increased with +1. If the DOM position is located lower \\ in the detector, ZPattern decreases with -1. \\ In general this variable gives a tendency of the direction of a track.\end{tabular} \\ \hline
 \end{tabular}%
 }
 \begin{flushleft}
@@ -263,7 +263,7 @@ $^\dagger$ Whenever one of the track characteristics variables is shown/mentione
 \centering
 \includegraphics[width = 0.49\textwidth]{chapter8/img/1D_stack_trackdistribution_50.png}
 \includegraphics[width = 0.49\textwidth]{chapter8/img/1D_stack_trackseparation_50.png}
-\caption{\textit{Left: }Distribution of the smoothness of the track. \textit{Right: }Distribution of the TrackSeparation, or CoG separation, with a cylinder radius of 50 m.}
+\caption{\textit{Left: }Distribution of the smoothness of the track. \textit{Right: }Distribution of the TrackSeparation, or COG separation, with a cylinder radius of 50 m.}
 \label{fig:commonvariables3}
 \end{figure}
 
@@ -275,10 +275,10 @@ $^\dagger$ Whenever one of the track characteristics variables is shown/mentione
 \label{fig:commonvariables4}
 \end{figure}
 
-Because DC and IC DOMs have different quantum efficiencies (see Section \ref{subsec:DC}), the pulses from DC and IC DOMs should not be mixed for an unambiguous definition. Therefore either only DC or IC pulses are used to compute these variables depending on if an event is \textit{IC dominated} or \textit{DC dominated}, where the former is set at $\frac{\# \textrm{DOMs}_\textrm{IC}}{\# \textrm{DOMs}_\textrm{DC}} \geq 0.5$ and the latter otherwise.
+Because DC and IC DOMs have different quantum efficiencies (see Section \ref{subsec:DC}), the pulses from DC and IC DOMs should not be mixed for an unambiguous definition. Therefore either only DC or IC pulses are used to compute these variables depending if an event is \textit{IC dominated} or \textit{DC dominated}, where the former is set at $\frac{\# \textrm{DOMs}_\textrm{IC}}{\# \textrm{DOMs}_\textrm{DC}} \geq 0.5$ and the latter otherwise.
 
 \subsubsection{Millipede variables}
-The \texttt{Millipede} toolkit was introduced in Section \ref{subsec:millipede}, where it was explained how the energy deposition could be estimated from the light seen by the individual DOMs. Constructing multiple variables from this toolkit was the master thesis subject of Stef Verpoest and can be found in Ref. \cite{steffthesis} for an elaborate explanation. The variables used in this analysis are explained below. Fig. \ref{fig:millipedeoutput} shows how the fit performed and can be helpful to explain the variables.
+The \texttt{Millipede} toolkit was introduced in Section \ref{subsec:millipede}, where it was explained how the energy deposition could be estimated from the light seen by the individual DOMs. Constructing multiple variables from this toolkit was the master thesis subject of Stef Verpoest and can be found in Ref. \cite{steffthesis} for an elaborate explanation. The variables that were used in this analysis are explained below. Fig. \ref{fig:millipedeoutput} shows how one fit was performed and can be helpful to explain the variables.
 
 \begin{figure}[ht]
 \centering
@@ -290,7 +290,7 @@ The \texttt{Millipede} toolkit was introduced in Section \ref{subsec:millipede},
 \paragraph{Mean loss}
 The most straightforward useage of the estimated energy loss rate is by taking the mean value and is referred to as \textit{Mean\_dEdX}. As can be seen from Fig. \ref{fig:allmillipedevar1}, the distribution of SMPs peaks at lower values than known backgrounds as expected. Energy losses that are reconstructed to come from outside the detector are removed (hence the \textit{\_contained} in the figure). 
 
-Due to the squared charge dependencies, an SMP of charge 1/3 is expected to have a relative energy loss difference to muons with a factor of 9, which is the case when comparing to muons from neutrino interactions\footnote{We don't really see an exact factor of 9 difference as the algorithms still \textit{assumes} that a muon is passing through.}. Atmospheric muons in this level are almost entirely the result of misreconstructions, corner clippers, etc. making a comparison not valid.
+Due to the squared charge dependencies, an SMP of charge 1/3 is expected to have a relative energy loss difference to muons with a factor of 9, which is the case when comparing to muons from neutrino interactions\footnote{We don't really see an exact factor of 9 difference as the algorithms still \textit{assumes} that a muon is passing through. Although, a significant shift is visible.}. Atmospheric muons in this level are almost entirely the result of misreconstructions, corner clippers, etc. making a comparison not valid.
 %Je wijkt af van de dEdX die je verwacht omdat je al voorgaande cuts hebt die kijken naar low E muons... 
 
 \begin{figure}
@@ -314,12 +314,12 @@ Once the mean is computed, it is possible to count the amount of times the energ
 \paragraph{Track length}
 Because of the lower energy losses, the SMP particles are also expected to travel larger distances than muons, supporting the idea to contruct a variable that is sensitive to the distance traveled in the detector: a track length.
 
-Since the tracks at this level induce very dim events, many segments from the \texttt{Millipede} output are reconstructed with zero energy. Therefore, it was chosen to use a certain part of the segments. The variable used here, \textit{TrackLength\_60}, returns the length were 60\% of the energy was deposited. It is the distance between the track segments where 20\% and 80\% of the energy was deposited. We expected to see larger tails in the distribution of Fig. \ref{fig:allmillipedevar2} in the signal compared to the background. However, sub-optimal reconstructions result in bad millipede fits, giving a low and almost constant energy loss along the track. Additionally, coincident events that are not well separated also contribute to these events in the tail. Nonetheless, most of the backgrounds events result into low values for this variable, still making it a powerful discriminative tool. 
+Since the tracks at this level induce very dim events, many segments from the \texttt{Millipede} output are reconstructed with zero energy. Therefore, it was chosen to use a certain part of the segments. The variable used here, \textit{TrackLength\_60}, returns the length were 60\% of the energy was deposited. It is the distance between the track segments where 20\% and 80\% of the energy was deposited. We expected to see larger tails in the distribution of Fig. \ref{fig:allmillipedevar2} in the signal compared to the background. However, sub-optimal reconstructions result in bad millipede fits, giving a low and almost constant energy loss along the track. Additionally, coincident events that are not well separated also contribute to these events in the tail. Nonetheless, most of the background events result into low values, still making it a powerful discriminative tool. 
 
 \subsubsection{New variables}
 
 \paragraph{Speedratio}
-In addition, new variables were constructed. One was adopted from Jan K\"unnen's Earth WIMP analysis \cite{kunnenthesis}. By looking at the ``speed ratio'' of the first to second and first to third HLC hits, it was possible to remove wrongfuly simulated detector noise, helping in data/MC disagreement. In this analysis, it showed to provide for a modest addition to discriminating variables\footnote{Data and MC seem to agree well, which is probably due to the newer and better simulations compared to a couple of years ago when the Earth WIMP analysis was done.}. The \textit{Speedratio} is defined as
+In addition, new variables were constructed. One was adopted from Jan K\"unnen's Earth WIMP analysis \cite{kunnenthesis}. By looking at the ``speed ratio'' of the first to second and first to third HLC hits, it was possible to remove erronous simulated detector noise, helping in data/MC agreement. In this analysis, it showed to provide for a modest addition to discriminating variables\footnote{In this analysis, data and MC seem to agree well, which is probably due to the newer and better simulations compared to a couple of years ago when the Earth WIMP analysis was done.}. The \textit{Speedratio} is defined as
 
 \begin{equation}
 \frac{v_{12}}{v_{13}} = \frac{d\left( \textrm{HLC}_1,\textrm{HLC}_2 \right)/\Delta t\left(\textrm{HLC}_1, \textrm{HLC}_2\right)}{d\left(\textrm{HLC}_1, \textrm{HLC}_3 \right)/\Delta t\left(\textrm{HLC}_1,\textrm{HLC}_3 \right)},
@@ -344,12 +344,12 @@ Because DC and IC pulses should not be mixed, essential information is lost rega
 \end{itemize}
 \vspace{2mm}
 since otherwise the contribution of noise infiltration is too high. Additionaly,
-pulses that lie within a cylinder with the seed track as the center are selected. The radius can be chosen, but is of the order of 50-150 meters. This radius is shown with a suffix after the variable (e.g. \_100), if the radius is infinite (all pulses are used), the suffix is ``\_all''. 
+pulses that lie within a cylinder with the seed track as the center are selected. The radius can be chosen, but is of the order of 50-150 meters. This radius is shown with a suffix after the variable (e.g. ``\_100''), if the radius is infinite (all pulses are used), the suffix is ``\_all''. 
 
 Then the first/last quartile in DC hits and the first/last half of the IC hits are determined. From these one can easily calculate the COG. To determine a length from four COGs, two have to be selected. The selection is based on the timing information on these COGs and given in the Table \ref{table:newlength}.\\
 
 \begin{table}[]
-\caption{Selection procedure which COGs should be used to compute a track length.}
+\caption{Selection procedure which COGs should be used to compute a track length. $f, l, h \textrm{ and } q$ stand for first, last, half and quarter respectively.}
 \label{table:newlength}
 \centering
 \begin{tabular}{|
@@ -360,11 +360,11 @@ $\textrm{DC}_{f,q} < \textrm{IC}_{f,h}$ & DC$_{f,q}$ \\ \hline
 $\textrm{DC}_{f,q} \geq \textrm{IC}_{f,h}$ & IC$_{f,h}$ \\ \hline
  & \cellcolor[HTML]{F1A91E}COG$_2$ \\ \hline
 $\textrm{DC}_{l,q} > \textrm{IC}_{l,h}$ & DC$_{l,q}$ \\ \hline
-$\textrm{DC}_{f,q} \leq \textrm{IC}_{f,h}$ & IC$_{l,h}$ \\ \hline
+$\textrm{DC}_{l,q} \leq \textrm{IC}_{l,h}$ & IC$_{l,h}$ \\ \hline
 \end{tabular}
 \end{table} 
  
-\noindent Summarizing, one can say that the NewLength variable is another attempt in defining the track length of the track in the detector. The suffix ``\_z'' is used for the variable that only uses the z-coordinate. Negative values occur when the timing of the two selected COGs is inverted when compared to the seed track (e.g. if the seed track is down-going but the first COG in time is located below the second) and occurs when the reconstruction was not optimal.\\
+\noindent Summarizing, one can say that the NewLength variable is another attempt in defining the track length of the track in the detector. The suffix ``\_z'' is used for the variable that only uses the z-coordinate. Negative values occur when the timing of the two selected COGs is inverted when compared to the seed track (e.g. if the seed track is down-going but the first COG in time is located below the second) and are present when the reconstruction was not optimal.\\
 
 \noindent An illustration how the NewLength variable is constructed is shown in Fig. \ref{fig:newlength} and the distributions in Fig. \ref{fig:newvariables2}.
 
@@ -461,16 +461,16 @@ The parameters that were used for BDT training (see Section \ref{sec:BDT}) are:
 \vspace{2mm}
 \noindent Training is done on 10\% of the available burnsample as it showed to have a better performance as opposed to training on background simulation due to the limited amount of CORSIKA simulation available. The other 90\% of the burn sample is used for testing and is shown in the following plots. Testing on the MC datasets is also shown for the sake of completeness. Contribution of possible signal events, if they exist, in the data are minimal. Together with the very good data/MC agreement that is seen in the variables used, the training on data is a valid choice.
 
-Also, it was chosen to select a (large) subsample of the signal to train the BDT to give the best possible results. One can see in the variable distributions in Figs. \ref{fig:commonvariables1} and \ref{fig:newvariables2} that there are minimal contributions of events with negative ZTravel and/or negative NewLength values. Up-going tracks should give positive values both and are therefore removed from the signal sample that is used to train the BDT\footnote{Of course, the final signal rate is computed from the full signal sample.}.\\
+Also, it was chosen to select a (large) subsample of the signal to train the BDT to give the best possible results. One can see in the variable distributions in Figs. \ref{fig:commonvariables1} and \ref{fig:newvariables2} that there are minimal contributions of events with negative ZTravel and/or negative NewLength values. Up-going tracks should give positive values both and are therefore removed from the signal sample that is used to train the BDT\footnote{The final signal rate is computed from the full signal sample.}.\\
 
 \noindent The result of one BDT can be seen in Fig. \ref{fig:singlebdtrate} and we can draw several conclusions:
 \vspace{2mm}
 \begin{itemize}
 \item Data and MC show a very good agreement.
 \item The rate in background events is reduced with 4 to 5 orders of magnitude at a BDT score around 0.25.
-\item At higher BDT scores, muons from low energetic muon neutrinos become a much more significant part of the total background than muons from air showers. This is mainly because data that mainly consists of atmospheric muons is used to train the decision tree.
+\item At higher BDT scores, muons from low energetic muon neutrinos become a much more significant part of the total background than muons from air showers. This is mainly because the data used to train the decision tree mainly consists of atmospheric muons.
 \item The signal used for training is more concentrated at higher scores, as expected. The total signal sample and the subset used for training overlap at scores higher than 0.1.
-\item At the highest scores, where the signal dominates, it is clear that there is a lack of statistics in both CORSIKA simulations as the burn sample.
+\item At the highest scores, where the signal dominates, it is clear that there is a lack of statistics in both CORSIKA simulations as the burn sample to draw sensible conclusions.
 \end{itemize}
 \vspace{2mm}
 Additional checks can be found in Appendix \ref{ch:bdtchecks}.\\
@@ -482,7 +482,7 @@ Additional checks can be found in Appendix \ref{ch:bdtchecks}.\\
 \label{fig:singlebdtrate}
 \end{figure}
 
-\noindent The limited amount of statistics in the tail of the CORSIKA datasets prove challenging. There is a need for an order of magnitude, at least, more events, which is not feasible with the available resources. Other techniques, such as defining off-source or off-time regions \cite{1352676}, are not available for this search as we have assumed an isotropic flux that is not time-dependent.
+\noindent The limited amount of statistics in the tail of the CORSIKA datasets prove challenging. There is a need for an order of magnitude more events, which is not feasible with the available resources. Other techniques, such as defining off-source or off-time regions \cite{1352676}, are not available for this search as we have assumed an isotropic flux that is not time-dependent.
 
 
 
@@ -490,7 +490,7 @@ Additional checks can be found in Appendix \ref{ch:bdtchecks}.\\
 \label{subsec:pv}
 Another way of dealing with limited statistics is by using re-sampling techniques. The method used here is called \textit{Pull-Validation}\footnote{The term \textit{pull} refers to the ``pulling'' of subsamples from a larger set, while \textit{validation} refers to the method being used to estimate uncertainties.} (PV) and was used several times before in the IceCube collaboration \cite{Aartsen:2016fep,Aartsen:2015exf,scheriauthesis}. It is comparable to bootstrapping and cross-validation (see Appendix \ref{ch:resampling}), but uses much smaller training samples that lead to a larger variability that can be used as an estimator for the variability of the whole sample. As opposed to most bootstrapping and cross-validation methods, the resampling can be done without replacement\footnote{Selecting without replacement means that when an object is selected from a set it is removed from the set so that it cannot be chosen twice or more.} because the samples are much smaller.
 
-As can be seen in Fig. \ref{fig:singlebdtrate}, in the region of interest (at high BDT scores) there is a lack of statistics, mainly for the data burn sample and atmospheric muon simulations. Because we want to compute an upper limit from this distribution or set a discovery significance, a cut on the BDT score at a value that is higher than for example 0.3 would not result in a trustworthy background estimation. We cannot know from the distribution how the tail evolves into higher BDT scores. Training the BDT on a slightly different training sample would result into a similar, but different BDT result. A subsequent cut implies a binary addition of an event to the final sensitivity: surviving the cut or not. By using slightly different training samples, one is able to give an estimate about the tail of the background distributions in function of the BDT score.\\
+As can be seen in Fig. \ref{fig:singlebdtrate}, in the region of interest (at high BDT scores) there is a lack of statistics, mainly for the data burn sample and atmospheric muon simulations. Because we want to compute an upper limit from this distribution or set a discovery significance, a cut on the BDT score at a value that is higher than for example 0.3 would not result in a trustworthy background estimation. We cannot know from the distribution how the tail evolves into higher BDT scores. A cut on a single BDT implies a binary addition of an event to the final sensitivity: surviving the cut or not, and training the BDT on a slightly different training sample would result into a similar, but different BDT result. By using slightly different training samples, one is able to give an estimate about the tail of the background distributions in function of the BDT score.\\
 
 \noindent Let us assume we have $N$ events making up a sample $S$. One BDT takes a subset $S_1$ and uses it as a training sample and using the remaining set for testing, $S_2$. 
 
@@ -510,7 +510,7 @@ A single event will have one BDT score attributed per iteration and by reprocess
 w_{PV} = \frac{\# \textrm{scores above cut thresthold}}{N_p}.
 \end{equation}
 
-The number of pull-validation iterations, $N_p$, should be high enough to extract as much information as possible, but low enough so that the subsamples, which are 10\% of the total set chosen at random each time, are still adding information in the variability of the BDT performance. Too many iterations would induce correlation effects in the subsamples. Previous analyses indicated that $N_p = 200$ is a good enough to fulfill these requirements \cite{Aartsen:2016fep,Aartsen:2015exf}. The result for an SMP with charge 1/2 and mass 100 GeV is shown in Fig. \ref{fig:pullval} and shows the power of PV. Fig. \ref{fig:betweenbins} illustrates how one bin in this histogram is constructed.\\
+The number of pull-validation iterations, $N_p$, should be high enough to extract as much information as possible, but low enough so that the subsamples, which are 10\% of the total set chosen at random each time, are still adding information in the variability of the BDT performance. Too many iterations would induce correlation effects in the subsamples. Previous analyses indicated that $N_p = 200$ is a good enough to fulfill these requirements and is also used in this analysis \cite{Aartsen:2016fep,Aartsen:2015exf}. The result for an SMP with charge 1/2 and mass 100 GeV is shown in Fig. \ref{fig:pullval} and shows the power of PV. Fig. \ref{fig:betweenbins} illustrates how one bin in this histogram is constructed.\\
  
 \begin{figure}
 \centering
@@ -536,16 +536,16 @@ The question remains where we should place a cut in the BDT score for a signific
 \mu_{90} \left(n_\textrm{obs},n_\textrm{b}\right).
 \end{equation}
 
-\noindent If we assume that the expected amount of signal events is $n_\textrm{s}$, then the 90\% conficende upper limit on the signal flux is
+\noindent If we assume that the expected amount of signal events is $n_\textrm{s}$, then the 90\% confidence upper limit on the signal flux is
 
 \begin{equation}
 \label{eq:flux}
 \Phi_{90\%}\left(n_\textrm{obs},n_\textrm{b},n_\textrm{s}\right) = \Phi \cdot  \frac{\mu_{90}\left(n_\textrm{obs},n_\textrm{b}\right)}{n_\textrm{s}}.
 \end{equation}
 
-\noindent It is important to mention that $n_\textrm{s}$ and $\Phi$ scale linearly, making the UL \textit{independent} of the assumed absolute flux. Unfortunately, an UL can only be computed once the number of observed events is known. The best \textit{expected} UL could be computed by assuming that the number of observed events is expected to be almost equal to the expected number of events from the MC background. Setting $n_\textrm{obs}$ equal to $n_\textrm{b}$ is however not a good approach for analyses that have small sample sets at the final level\footnote{Say one expects 2.5 background events with a 1$\sigma$ error of 2.1. If, after unblinding, one finds 0, 1, 2, 3, 4 or 5 events in data this would be considered as consistent with the expected background. The 90\% Feldman-Cousins UL are however drastically different: $\mu_{90}(0,2.5) = 1.18, \ \mu_{90}(5,2.5) = 7.49$. Which is more than a factor of 6 difference!}.
+\noindent It is important to mention that $n_\textrm{s}$ and $\Phi$ scale linearly, making the UL \textit{independent} of the assumed absolute flux. Unfortunately, an UL can only be computed once the number of observed events is known. The best \textit{expected} UL could be computed by assuming that the number of observed events is expected to be almost equal to the expected number of events from the MC background. Setting $n_\textrm{obs}$ equal to $n_\textrm{b}$ is however not a good approach for analyses that have small sample sets at the final level\footnote{Say one expects 2.5 background events with a 1$\sigma$ error of 2.1. If, after unblinding, one finds 0, 1, 2, 3, 4 or 5 events in data this would be considered as consistent with the expected background. The 90\% Feldman-Cousins UL are however drastically different: $\mu_{90}(0,2.5) = 1.18, \ \mu_{90}(5,2.5) = 7.49$. Which is more than a factor of 6 difference! Do we simply take the mean?}.
 
-A better way is to assume that the number of observed events is the mean of a Poisson distribution and we compute the \textit{average upper limit} by summing over all the expected upper limits, weighted by their Poisson probability of occuring \cite{Hill:2002nv}
+A better way is to assume that the number of observed events is the mean of a Poissonian distribution and we compute the \textit{average upper limit} by summing over all the expected upper limits, weighted by their Poisson probability of occuring \cite{Hill:2002nv}
 
 \begin{equation}
 \begin{split}
@@ -566,16 +566,16 @@ The MRF gives a numerical indication of where we find an optimal trade-off of ex
 \begin{figure}
 \centering
 \includegraphics[width=0.9\textwidth]{chapter8/img/ModelRejectionFactor_percentile_0p9_signal_m_100_ch_1ovr2_noSYST.png}
-\caption{Zoomed in version of Fig. \ref{fig:pullval}, focused on higher BDT scores, again for an SMP with charge 1/2 and mass 100 GeV. Only the most prominent backgrounds are shown. The expected rate is shown on the left vertical axis, while the MRF score can be obtained from the right vertical axis. After pull-validation, there are enough statistics for a proper MRF computation (purple). Only statistical uncertainties are shown here. The small offset of data from MC is a common feature in PV and is accounted for in the systematic uncertainties.}
+\caption{Zoomed in version of Fig. \ref{fig:pullval}, focused on higher BDT scores, again for an SMP with charge 1/2 and mass 100 GeV. Only the most prominent backgrounds are shown. The expected rate is shown on the left vertical axis, while the MRF score can be obtained from the right vertical axis. After pull-validation, there are enough statistics for a proper MRF computation (purple). Only statistical uncertainties are shown here. The offset of data from MC is a common feature in PV and is accounted for in the systematic uncertainties.}
 \label{fig:mrf}
 \end{figure}
 
-\noindent The BDT score where the MRF is minimized was chosen as the final cut; this is the cut that will give the most stringent upper limit or best value for an observation. The results can be found in Tab. \ref{tab:expectedresults}.
+\noindent The BDT score where the MRF is minimized was chosen as the final cut; this is the cut that will probably give the most stringent upper limit or best value for an observation. The results can be found in Tab. \ref{tab:expectedresults}.
 
 \begin{table}[]
 \centering
 \renewcommand{\arraystretch}{1.5}
-\caption{Expected amount signal and background events for 5 years of data (see Section \ref{subsec:unblinding}), errors are statistical only. The signal is normalized to a flux of $10^{-14} \ \textrm{cm}^{-2} \textrm{s}^{-1} \textrm{sr}^{-1}$. The optimal BDT cut value from the MRF minimization is shown together with the expected upper limit and the statistical error.}
+\caption{Expected amount signal and background events for 5 years of data (see Section \ref{sec:results}), errors are statistical only. The signal is normalized to a flux of $10^{-14} \ \textrm{cm}^{-2} \textrm{s}^{-1} \textrm{sr}^{-1}$. The optimal BDT cut value from the MRF minimization is shown together with the expected upper limit and the statistical error.}
 \label{tab:expectedresults}
 \resizebox{\textwidth}{!}{%
 \begin{tabular}{|
@@ -602,7 +602,7 @@ Mass & \cellcolor[HTML]{F1A91E}Charge & \cellcolor[HTML]{F1A91E}\begin{tabular}[
 \end{table}
 
 
-\subsection{Systematic Uncertainties}
+\subsection{Systematic uncertainties}
 There are four types of uncertainties that are assumed in the result of this analysis, which are listed below
 
 \begin{enumerate}
@@ -749,7 +749,7 @@ Event views of the types of these events can be found in Appendix \ref{ch:eventv
 \begin{table}[]
 \centering
 \renewcommand{\arraystretch}{1.5}
-\caption{Final results of the upper limit computations. Signal is the expected rate from a $10^{-14} \ \textrm{cm}^{-2} \textrm{s}^{-1} \textrm{sr}^{-1}$ and background and signal are normalized to the total livetime of the full dataset.}
+\caption{Final results of the upper limit computations. For the signal, we show the expected rate from a $10^{-14} \ \textrm{cm}^{-2} \textrm{s}^{-1} \textrm{sr}^{-1}$ flux and both background and signal are normalized to the total livetime of the full dataset.}
 \label{tab:finalresults}
 \resizebox{\textwidth}{!}{%
 \begin{tabular}{|
@@ -775,11 +775,11 @@ Mass & \cellcolor[HTML]{F1A91E}Charge & \cellcolor[HTML]{F1A91E}\begin{tabular}[
 }
 \end{table}
 
-\noindent The resulting upper limits are shown in Fig. \ref{fig:moneyplot1} and \ref{fig:moneyplot2} and compared to the experiments that were discussed in Chapter \ref{ch:theoreticalmotivation}. The limits from this analysis were computed with Eq. \ref{eq:finalUL} and are more stringent than any other experiment that was done up to now. Also shown are the upper limits for the individual charges with the large systematical error bands.
+\noindent The resulting upper limits are shown in Figs. \ref{fig:moneyplot1} and \ref{fig:moneyplot2} and compared to the experiments that were discussed in Chapter \ref{ch:theoreticalmotivation}. The limits from this analysis were computed with Eq. \ref{eq:finalUL} and are more stringent than any other experiment that was done up to now. Also shown are the upper limits for the individual charges with the large systematical error bands.
 
 There is an apparent optimum for discriminating SMPs from backgrounds in the IceCube experiment at a charge of 1/2. Particles with a higher charge (such as 2/3) resemble physical muons a lot more, while particles with a lower charge have a lot lower probability in producing enough light to trigger the detector.
 
-In these figures, the obtained limits are compared to older experiments. These used simplistic models for possible signatures of particles with an anomalous charge and assumed near 100\% detector efficiencies. Even though the instrumented volume of the IceCube detector is orders of magnitude larger than those experiments, the trigger and filter efficiencies (which were never optimized for these particles) are so low that the overall limit improvement is only slightly better. Nevertheless, the coarsly spaced IceCube detector offers a way to set limits for these theorettical particles.
+In these figures, the obtained limits are compared to older experiments that used simplistic models for possible signatures of particles with an anomalous charge and assumed near 100\% detector efficiencies. Even though the instrumented volume of the IceCube detector is orders of magnitude larger than those experiments, the trigger and filter efficiencies (which were never optimized for these particles) are so low that the overall limit improvement is only slightly better. Nevertheless, the coarsly spaced IceCube detector offers a way to set limits for these theoretical particles.
 
 \begin{figure}
 \centering
