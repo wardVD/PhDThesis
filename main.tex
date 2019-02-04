@@ -46,11 +46,13 @@
 \input{structure} % Insert the commands.tex file which contains the majority of the structure behind the template
 
 \begin{document}
-\include{front}
-\include{voorblad}
-\include{thankyou}
-\include{poem}
-\include{abstract}
+%\include{front}
+%\include{voorblad}
+%\include{thankyou}
+%\include{poem}
+
+
+%\include{abstract}
 
 
 %----------------------------------------------------------------------------------------
@@ -77,14 +79,16 @@
 %----------------------------------------------------------------------------------------
 %	Nederlandstalige samenvatting
 %----------------------------------------------------------------------------------------
+\usechapterimagefalse
 \chapterimage{whitepage.png} % whitepage voor samenvatting
-\include{nederlands}
+%\include{nederlands}
+\usechapterimagetrue
 
 %----------------------------------------------------------------------------------------
 %	INTRODUCTION
 %----------------------------------------------------------------------------------------
 \chapterimage{Header_Higgs_hunters_QandA.jpg} % Chapter heading image
-\include{introduction}
+%\include{introduction}
 
 %------------------------------------------------
 
@@ -96,7 +100,7 @@
 %	CHAPTER 1
 %----------------------------------------------------------------------------------------
 \chapterimage{StandardModel.jpg} % Chapter heading image
-%\include{chapter1/chapter1}
+\include{chapter1/chapter1}
 
 %----------------------------------------------------------------------------------------
 %	CHAPTER 2
@@ -156,7 +160,7 @@
 %----------------------------------------------------------------------------------------
 %	Appendix
 %----------------------------------------------------------------------------------------
-%\include{appendix/appendix}
+\include{appendix/appendix}
 
 
 
@@ -291,6 +295,7 @@ Definition of word.
 %	BIBLIOGRAPHY
 %----------------------------------------------------------------------------------------
 
+
 \chapterimage{library_crop.jpg}
 \chapter*{Bibliography}
 \addcontentsline{toc}{chapter}{\textcolor{ocre}{Bibliography}}
@@ -298,6 +303,7 @@ Definition of word.
 %------------------------------------------------
 
 \printbibliography[heading=bibempty]
+
 %\section*{Articles}
 %\addcontentsline{toc}{section}{Articles}
 %\printbibliography[heading=bibempty,type=article]
