@@ -1,15 +1,19 @@
 [0] Config.pm:340> INFO - This is Biber 2.4
 [0] Config.pm:343> INFO - Logfile is 'main.blg'
-[55] biber:287> INFO - === Thu Jan 24, 2019, 15:11:23
-[172] Biber.pm:348> INFO - Reading 'main.bcf'
-[431] Biber.pm:742> INFO - Found 19 citekeys in bib section 0
-[441] Biber.pm:3151> INFO - Processing section 0
-[492] Biber.pm:3308> INFO - Looking for bibtex format file 'bibliography.bib' for section 0
-[1103] bibtex.pm:1113> INFO - Decoding LaTeX character macros into UTF-8
-[1603] bibtex.pm:974> INFO - Found BibTeX data source 'bibliography.bib'
-[4842] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[4842] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[4842] Biber.pm:3028> INFO - Sorting list 'none/global' of type 'entry' with scheme 'none' and locale 'en-US'
-[4843] Biber.pm:3032> INFO - No sort tailoring available for locale 'en-US'
-[4859] bbl.pm:519> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[4919] bbl.pm:615> INFO - Output to main.bbl
+[62] biber:287> INFO - === Fri Feb 15, 2019, 10:11:22
+[213] Biber.pm:348> INFO - Reading 'main.bcf'
+[455] Biber.pm:742> INFO - Found 146 citekeys in bib section 0
+[467] Biber.pm:3151> INFO - Processing section 0
+[512] Biber.pm:3308> INFO - Looking for bibtex format file 'bibliography.bib' for section 0
+[1382] bibtex.pm:1113> INFO - Decoding LaTeX character macros into UTF-8
+[2091] bibtex.pm:974> INFO - Found BibTeX data source 'bibliography.bib'
+[2176] Utils.pm:147> WARN - ISBN '9780201503975, 0201503972' in entry 'Peskin:1995ev' is invalid - run biber with '--validate_datamodel' for details.
+[3419] Utils.pm:147> WARN - ISBN '9780521016469, 9781316598917' in entry 'Gaisser:2016uoy' is invalid - run biber with '--validate_datamodel' for details.
+[4003] Utils.pm:147> WARN - I didn't find a database entry for 'subsubsec:galactic' (section 0)
+[5384] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[5384] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[5384] Biber.pm:3028> INFO - Sorting list 'none/global' of type 'entry' with scheme 'none' and locale 'en-US'
+[5384] Biber.pm:3032> INFO - No sort tailoring available for locale 'en-US'
+[5564] bbl.pm:519> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[6404] bbl.pm:615> INFO - Output to main.bbl
+[6405] Biber.pm:109> INFO - WARNINGS: 3
