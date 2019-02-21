@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.15)  21 FEB 2019 16:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.15)  21 FEB 2019 17:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2387,7 +2387,7 @@ Package pdftex.def Info: chapter5/img/SouthPole_3.jpg used on input line 20.
 
  <./Pictures/ICL2.png (PNG copy)>]
 [4 <./chapter5/img/icecube_detector_sm.png> <./chapter5/img/SouthPole_3.jpg>]
-<chapter5/img/layoutIC.png, id=134, 313.9228pt x 261.97874pt>
+<chapter5/img/layoutIC.png, id=135, 313.9228pt x 261.97874pt>
 File: chapter5/img/layoutIC.png Graphic file (type png)
 
 <use chapter5/img/layoutIC.png>
@@ -2414,7 +2414,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 53--54
 
  []
 
-<chapter7/img/CoordinateSystem.png, id=150, 671.50874pt x 660.4675pt>
+<chapter7/img/CoordinateSystem.png, id=152, 671.50874pt x 660.4675pt>
 File: chapter7/img/CoordinateSystem.png Graphic file (type png)
 
 <use chapter7/img/CoordinateSystem.png>
@@ -2422,14 +2422,14 @@ Package pdftex.def Info: chapter7/img/CoordinateSystem.png used on input line 5
 7.
 (pdftex.def)             Requested size: 227.62206pt x 223.88075pt.
  [6 <./chapter5/img/layoutIC.png> <./chapter7/img/CoordinateSystem.png>]
-<chapter5/img/DOM-Picture.png, id=167, 308.352pt x 277.035pt>
+<chapter5/img/DOM-Picture.png, id=168, 308.352pt x 277.035pt>
 File: chapter5/img/DOM-Picture.png Graphic file (type png)
 
 <use chapter5/img/DOM-Picture.png>
 Package pdftex.def Info: chapter5/img/DOM-Picture.png used on input line 75.
 (pdftex.def)             Requested size: 218.51521pt x 196.32422pt.
 
-<chapter5/img/electronicsDOM.png, id=168, 859.21pt x 790.955pt>
+<chapter5/img/electronicsDOM.png, id=169, 859.21pt x 790.955pt>
 File: chapter5/img/electronicsDOM.png Graphic file (type png)
 
 <use chapter5/img/electronicsDOM.png>
@@ -2437,87 +2437,82 @@ Package pdftex.def Info: chapter5/img/electronicsDOM.png used on input line 76.
 
 (pdftex.def)             Requested size: 218.51521pt x 201.15378pt.
 
-<chapter5/img/acceptanceDOM.png, id=171, 857.2025pt x 676.5275pt>
+<chapter5/img/acceptanceDOM.png, id=172, 857.2025pt x 676.5275pt>
 File: chapter5/img/acceptanceDOM.png Graphic file (type png)
 
 <use chapter5/img/acceptanceDOM.png>
 Package pdftex.def Info: chapter5/img/acceptanceDOM.png used on input line 86.
 (pdftex.def)             Requested size: 318.66948pt x 251.49838pt.
-
-Underfull \vbox (badness 1810) has occurred while \output is active []
-
  [7 <./chapter5/img/DOM-Picture.png> <./chapter5/img/electronicsDOM.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 98--99
+Underfull \hbox (badness 10000) in paragraph at lines 96--97
 
  []
 
-LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 107.
 [8 <./chapter5/img/acceptanceDOM.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 121--122
+LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 105.
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--120
 
  []
 
-<chapter5/img/cablelayout.png, id=196, 1018.80624pt x 815.045pt>
+<chapter5/img/cablelayout.png, id=197, 1018.80624pt x 815.045pt>
 File: chapter5/img/cablelayout.png Graphic file (type png)
 
 <use chapter5/img/cablelayout.png>
-Package pdftex.def Info: chapter5/img/cablelayout.png used on input line 129.
+Package pdftex.def Info: chapter5/img/cablelayout.png used on input line 127.
 (pdftex.def)             Requested size: 409.71692pt x 327.77821pt.
 
-<chapter5/img/cableSchematic_withcable.png, id=197, 1033.8625pt x 797.98125pt>
+<chapter5/img/cableSchematic_withcable.png, id=198, 1033.8625pt x 797.98125pt>
 File: chapter5/img/cableSchematic_withcable.png Graphic file (type png)
 
 <use chapter5/img/cableSchematic_withcable.png>
 Package pdftex.def Info: chapter5/img/cableSchematic_withcable.png used on inpu
-t line 130.
+t line 128.
 (pdftex.def)             Requested size: 409.71692pt x 316.2402pt.
  [9] [10 <./chapter5/img/cablelayout.png> <./chapter5/img/cableSchematic_withca
 ble.png>]
-<chapter5/img/dataflow.png, id=216, 773.89125pt x 806.01125pt>
+<chapter5/img/dataflow.png, id=217, 773.89125pt x 806.01125pt>
 File: chapter5/img/dataflow.png Graphic file (type png)
 
 <use chapter5/img/dataflow.png>
-Package pdftex.def Info: chapter5/img/dataflow.png used on input line 158.
+Package pdftex.def Info: chapter5/img/dataflow.png used on input line 156.
 (pdftex.def)             Requested size: 318.66948pt x 331.8934pt.
  [11]
 Underfull \vbox (badness 6792) has occurred while \output is active []
 
  [12 <./chapter5/img/dataflow.png>]
-<chapter5/img/globaltrigger.png, id=235, 795.97375pt x 298.11375pt>
+<chapter5/img/globaltrigger.png, id=234, 795.97375pt x 298.11375pt>
 File: chapter5/img/globaltrigger.png Graphic file (type png)
 
 <use chapter5/img/globaltrigger.png>
-Package pdftex.def Info: chapter5/img/globaltrigger.png used on input line 192.
+Package pdftex.def Info: chapter5/img/globaltrigger.png used on input line 190.
 
 (pdftex.def)             Requested size: 364.19667pt x 136.40163pt.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 198.
+               Default added (so using `tbp') on input line 196.
 
 
 LaTeX Warning: Reference `sec:filterselection' on page 13 undefined on input li
-ne 227.
+ne 225.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 233--234
+Underfull \hbox (badness 10000) in paragraph at lines 231--232
 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [13 <./chapter5/img/globaltrigger.png>]
+[13 <./chapter5/img/globaltrigger.png>]
 
 LaTeX Warning: Reference `sec:cherenkoveffect' on page 14 undefined on input li
-ne 239.
+ne 237.
 
 [14] <chapter5/img/2008config.png, id=264, 918.43124pt x 704.6325pt>
 File: chapter5/img/2008config.png Graphic file (type png)
 
 <use chapter5/img/2008config.png>
-Package pdftex.def Info: chapter5/img/2008config.png used on input line 277.
+Package pdftex.def Info: chapter5/img/2008config.png used on input line 276.
 (pdftex.def)             Requested size: 188.39174pt x 144.54pt.
 
 <chapter5/img/spiceleacoefficients.png, id=265, 1017.8025pt x 1519.6775pt>
@@ -2525,19 +2520,23 @@ File: chapter5/img/spiceleacoefficients.png Graphic file (type png)
 
 <use chapter5/img/spiceleacoefficients.png>
 Package pdftex.def Info: chapter5/img/spiceleacoefficients.png used on input li
-ne 279.
+ne 278.
 (pdftex.def)             Requested size: 169.40555pt x 252.94499pt.
 
 
 LaTeX Warning: Reference `sec:propagation' on page 15 undefined on input line 2
-91.
+90.
 
-[15 <./chapter5/img/2008config.png> <./chapter5/img/spiceleacoefficients.png>]
+
+Underfull \vbox (badness 1033) has occurred while \output is active []
+
+ [15 <./chapter5/img/2008config.png> <./chapter5/img/spiceleacoefficients.png>]
+
 <chapter5/img/waveform.png, id=278, 1024.82875pt x 549.05125pt>
 File: chapter5/img/waveform.png Graphic file (type png)
 
 <use chapter5/img/waveform.png>
-Package pdftex.def Info: chapter5/img/waveform.png used on input line 295.
+Package pdftex.def Info: chapter5/img/waveform.png used on input line 294.
 (pdftex.def)             Requested size: 455.24411pt x 243.89558pt.
 
 <chapter4/img/ICinteractions2.png, id=283, 758.835pt x 485.815pt>
@@ -2545,7 +2544,7 @@ File: chapter4/img/ICinteractions2.png Graphic file (type png)
 
 <use chapter4/img/ICinteractions2.png>
 Package pdftex.def Info: chapter4/img/ICinteractions2.png used on input line 30
-5.
+4.
 (pdftex.def)             Requested size: 455.24411pt x 291.45418pt.
 
 <chapter5/img/ICUpgradeLayout_V3.jpg, id=289, 683.05188pt x 530.48187pt>
@@ -2553,10 +2552,10 @@ File: chapter5/img/ICUpgradeLayout_V3.jpg Graphic file (type jpg)
 
 <use chapter5/img/ICUpgradeLayout_V3.jpg>
 Package pdftex.def Info: chapter5/img/ICUpgradeLayout_V3.jpg used on input line
- 330.
+ 331.
 (pdftex.def)             Requested size: 364.19667pt x 282.85388pt.
  [16 <./chapter5/img/waveform.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 339--342
+Underfull \hbox (badness 10000) in paragraph at lines 340--343
 
  []
 
@@ -2564,34 +2563,37 @@ Underfull \hbox (badness 10000) in paragraph at lines 339--342
 File: chapter5/img/gen2_structure.jpg Graphic file (type jpg)
 
 <use chapter5/img/gen2_structure.jpg>
-Package pdftex.def Info: chapter5/img/gen2_structure.jpg used on input line 346
+Package pdftex.def Info: chapter5/img/gen2_structure.jpg used on input line 347
 .
 (pdftex.def)             Requested size: 455.24411pt x 276.36115pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 351--354
+Underfull \hbox (badness 10000) in paragraph at lines 352--355
 
  []
 
-[17 <./chapter4/img/ICinteractions2.png>] [18 <./chapter5/img/ICUpgradeLayout_V
-3.jpg>] <chapter5/img/LV.png, id=333, 1625.07124pt x 862.22125pt>
+[17 <./chapter4/img/ICinteractions2.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [18 <./chapter5/img/ICUpgradeLayout_V3.jpg>]
+<chapter5/img/LV.png, id=331, 1625.07124pt x 862.22125pt>
 File: chapter5/img/LV.png Graphic file (type png)
 
 <use chapter5/img/LV.png>
 Package pdftex.def Info: chapter5/img/LV.png used on input line 410.
 (pdftex.def)             Requested size: 432.48051pt x 229.46112pt.
  [19 <./chapter5/img/gen2_structure.jpg>]
-<chapter5/img/dm.png, id=356, 961.5925pt x 810.02625pt>
+<chapter5/img/dm.png, id=354, 961.5925pt x 810.02625pt>
 File: chapter5/img/dm.png Graphic file (type png)
 
 <use chapter5/img/dm.png>
-Package pdftex.def Info: chapter5/img/dm.png used on input line 422.
+Package pdftex.def Info: chapter5/img/dm.png used on input line 423.
 (pdftex.def)             Requested size: 295.90588pt x 249.2639pt.
 
 
-LaTeX Warning: Reference `needforBSM' on page 20 undefined on input line 427.
+LaTeX Warning: Reference `needforBSM' on page 20 undefined on input line 428.
 
-[20 <./chapter5/img/LV.png>] [21 <./chapter5/img/dm.png>]) [22]
-<Pictures/library_crop.jpg, id=403, 1003.75pt x 558.085pt>
+[20 <./chapter5/img/LV.png>]) [21 <./chapter5/img/dm.png>] [22]
+<Pictures/library_crop.jpg, id=401, 1003.75pt x 558.085pt>
 File: Pictures/library_crop.jpg Graphic file (type jpg)
 
 <use Pictures/library_crop.jpg>
@@ -2631,18 +2633,25 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 331.
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package biblatex Warning: Please rerun LaTeX.
+(biblatex)                Page breaks have changed.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 38730 strings out of 493029
- 724999 string characters out of 6136233
- 1297008 words of memory out of 5000000
- 41044 multiletter control sequences out of 15000+600000
- 108441 words of font info for 195 fonts, out of 8000000 for 9000
+ 38726 strings out of 493029
+ 724953 string characters out of 6136233
+ 1297017 words of memory out of 5000000
+ 41043 multiletter control sequences out of 15000+600000
+ 108358 words of font info for 194 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,17n,57p,10460b,2456s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 57i,17n,57p,10460b,2454s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
 ips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share
 /texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm
@@ -2659,10 +2668,10 @@ msy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb></usr/share/texmf/f
 onts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pf
 b>
-Output written on main.pdf (35 pages, 6792230 bytes).
+Output written on main.pdf (35 pages, 6789672 bytes).
 PDF statistics:
- 1306 PDF objects out of 1440 (max. 8388607)
- 1176 compressed objects within 12 object streams
- 324 named destinations out of 1000 (max. 500000)
+ 1304 PDF objects out of 1440 (max. 8388607)
+ 1174 compressed objects within 12 object streams
+ 323 named destinations out of 1000 (max. 500000)
  32611 words of extra memory for PDF output out of 35830 (max. 10000000)
 
