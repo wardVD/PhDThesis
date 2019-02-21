@@ -19,84 +19,84 @@
 %(Note that the gauge derivative acting on ϕ∗ has the opposite sign in front of i, from the complex conjugate of this equation). The gauge field is playing the role of a connection field. In order for the derivative to be gauge covariant, the gauge field must transform as
 %Aμ→Aμ+1g∂μα. 
 
-\chapterimage{planck_crop.png}
-\chapter{Planck's law}
-\label{ch:planck}
-%bron: http://hyperphysics.phy-astr.gsu.edu/hbase/quantum/rayj.html
-\section{Electromagnetic waves in a cubical cavity}
-Suppose we have EM waves in a cavity at equilibrium with its surroundings. These waves must satisfy the wave equation in three dimensions:
+%\chapterimage{planck_crop.png}
+%\chapter{Planck's law}
+%\label{ch:planck}
+%%bron: http://hyperphysics.phy-astr.gsu.edu/hbase/quantum/rayj.html
+%\section{Electromagnetic waves in a cubical cavity}
+%Suppose we have EM waves in a cavity at equilibrium with its surroundings. These waves must satisfy the wave equation in three dimensions:
 
-\begin{equation}
-\label{eq:wave}
-\frac{\partial^2 \Psi}{\partial x^2} + \frac{\partial^2 \Psi}{\partial y^2} + \frac{\partial^2 \Psi}{\partial z^2} = \frac{1}{c^2} \frac{\partial^2 \Psi}{\partial t^2}.
-\end{equation}
-The solution must give zero amplitude at the walls. A non-zero value would mean energy is dissipated through the walls which is in contradiction to our equilibrium assumption. A general solution takes the form of
+%\begin{equation}
+%\label{eq:wave}
+%\frac{\partial^2 \Psi}{\partial x^2} + \frac{\partial^2 \Psi}{\partial y^2} + \frac{\partial^2 \Psi}{\partial z^2} = \frac{1}{c^2} \frac{\partial^2 \Psi}{\partial t^2}.
+%\end{equation}
+%The solution must give zero amplitude at the walls. A non-zero value would mean energy is dissipated through the walls which is in contradiction to our equilibrium assumption. A general solution takes the form of
 
-\begin{equation}
-\Psi(x,y,z,t) = \Psi_0 \sin{k_1x} \sin{k_2y} \sin{k_3z} \sin{k_4 t},
-\end{equation}
-which, after requiring $k_n L = n \pi$ with $n=0,1,2...$ and $k_4 \frac{\lambda}{2c} = \pi$, leads to
+%\begin{equation}
+%\Psi(x,y,z,t) = \Psi_0 \sin{k_1x} \sin{k_2y} \sin{k_3z} \sin{k_4 t},
+%\end{equation}
+%which, after requiring $k_n L = n \pi$ with $n=0,1,2...$ and $k_4 \frac{\lambda}{2c} = \pi$, leads to
 
-\begin{equation}
-\Psi(x,y,z,t) = \Psi_0 \sin{\left(\frac{n_1 \pi x}{L}\right)} \sin{\left(\frac{n_2 \pi y}{L}\right)} \sin{\left(\frac{n_3 \pi z}{L}\right)} \sin{\left(\frac{2\pi ct}{\lambda}\right)}.
-\end{equation}
+%\begin{equation}
+%\Psi(x,y,z,t) = \Psi_0 \sin{\left(\frac{n_1 \pi x}{L}\right)} \sin{\left(\frac{n_2 \pi y}{L}\right)} \sin{\left(\frac{n_3 \pi z}{L}\right)} \sin{\left(\frac{2\pi ct}{\lambda}\right)}.
+%\end{equation}
 
-From the wave equation it is easy to find that
+%From the wave equation it is easy to find that
 
-\begin{equation}
-\label{eq:n}
-n^2 = n_1^2 + n_2^2 + n_3^2 = \frac{4L^2}{\lambda^2},
-\end{equation}
-which span up a sphere in ``n-space'' with a volume of $\frac{1}{8}\frac{4}{3}\pi n^{3/2}$, where the first term originates from the positive nature of $n_{1,2,3}$. Because there are two possible polarizations of the waves one has to multiply with an additional factor 2. The number of modes per unit wavelength is equal to
+%\begin{equation}
+%\label{eq:n}
+%n^2 = n_1^2 + n_2^2 + n_3^2 = \frac{4L^2}{\lambda^2},
+%\end{equation}
+%which span up a sphere in ``n-space'' with a volume of $\frac{1}{8}\frac{4}{3}\pi n^{3/2}$, where the first term originates from the positive nature of $n_{1,2,3}$. Because there are two possible polarizations of the waves one has to multiply with an additional factor 2. The number of modes per unit wavelength is equal to
 
-\begin{equation}
-\frac{dN}{d\lambda} \times \frac{1}{L^3} = \frac{d}{d\lambda}\left[\frac{8\pi L^3}{3\lambda^3}\right]  \times \frac{1}{L^3} = - \left[\frac{8\pi}{\lambda^4}\right].
-\end{equation}
-\subsection{Classical approach}
-Following the principle of equipartition of energy, each standing wave mode will have an average enkergy $kT$ with $k$ the Boltzmann constant and $T$ the temperature in Kelvin. The energy density is then:
+%\begin{equation}
+%\frac{dN}{d\lambda} \times \frac{1}{L^3} = \frac{d}{d\lambda}\left[\frac{8\pi L^3}{3\lambda^3}\right]  \times \frac{1}{L^3} = - \left[\frac{8\pi}{\lambda^4}\right].
+%\end{equation}
+%\subsection{Classical approach}
+%Following the principle of equipartition of energy, each standing wave mode will have an average enkergy $kT$ with $k$ the Boltzmann constant and $T$ the temperature in Kelvin. The energy density is then:
 
-\begin{equation}
-\frac{du}{d\lambda} = -kT \frac{8\pi}{\lambda^4}.
-\end{equation}
-In function of frequency $\nu = \frac{c}{\lambda}$:
+%\begin{equation}
+%\frac{du}{d\lambda} = -kT \frac{8\pi}{\lambda^4}.
+%\end{equation}
+%In function of frequency $\nu = \frac{c}{\lambda}$:
 
-\begin{equation}
-\label{eq:rayleigh}
-\frac{du}{d\nu} = -\frac{c}{\lambda^2} \frac{du}{d\lambda} = \frac{8\pi kT \nu^2}{c^3},
-\end{equation}
-also known as the Rayleigh-Jeans law\footnote{This is often quoted per unit of staradian, which results in $\frac{2 kT \nu^2}{c^3}$}. Problem: divergence
+%\begin{equation}
+%\label{eq:rayleigh}
+%\frac{du}{d\nu} = -\frac{c}{\lambda^2} \frac{du}{d\lambda} = \frac{8\pi kT \nu^2}{c^3},
+%\end{equation}
+%also known as the Rayleigh-Jeans law\footnote{This is often quoted per unit of staradian, which results in $\frac{2 kT \nu^2}{c^3}$}. Problem: divergence
 
-\subsection{Quantum approach}
-The energy levels from a quantized harmonic oscillator are equal to
+%\subsection{Quantum approach}
+%The energy levels from a quantized harmonic oscillator are equal to
 
-\begin{equation}
-E_r = h\nu\left(r+\frac{1}{2}\right) = \frac{hc}{\lambda}\left(r+\frac{1}{2}\right) \ \ \ \textrm{with} r = 0,1,2,...
-\end{equation}
-Implementing eq. \ref{eq:n}
+%\begin{equation}
+%E_r = h\nu\left(r+\frac{1}{2}\right) = \frac{hc}{\lambda}\left(r+\frac{1}{2}\right) \ \ \ \textrm{with} r = 0,1,2,...
+%\end{equation}
+%Implementing eq. \ref{eq:n}
 
-\begin{equation}
-E = \left(r+\frac{1}{2}\right) \frac{hc}{2L}\sqrt{n_1^2 + n_2^2 + n_3^2}
-\end{equation}
-According to statistical physics the average energy is now not equal to $kT$ but follows a probability distribution
+%\begin{equation}
+%E = \left(r+\frac{1}{2}\right) \frac{hc}{2L}\sqrt{n_1^2 + n_2^2 + n_3^2}
+%\end{equation}
+%According to statistical physics the average energy is now not equal to $kT$ but follows a probability distribution
 
-\begin{equation}
-p(\nu,r) = \frac{e^{\frac{-rh\nu}{kT}}}{\sum_{r=0}^\infty e^{\frac{-rh\nu}{kT}}},
-\end{equation}
-where we reference to the ground state of the oscillator: $E'_r = E_r - E_0$.
+%\begin{equation}
+%p(\nu,r) = \frac{e^{\frac{-rh\nu}{kT}}}{\sum_{r=0}^\infty e^{\frac{-rh\nu}{kT}}},
+%\end{equation}
+%where we reference to the ground state of the oscillator: $E'_r = E_r - E_0$.
 
-The average energy is now:
+%The average energy is now:
 
-\begin{equation}
-\begin{split}
-\langle E(\nu)\rangle &= \sum_{r=0}^\infty E(\nu,r) \cdot p(\nu,r) = \frac{\sum_{r=0}^\infty r h \nu \  e^{\frac{-rh\nu}{kT}}}{\sum_{r=0}^\infty e^{\frac{-rh\nu}{kT}}}\\
-&= \frac{h\nu}{e^{h\nu/kT} - 1}
-\end{split}
-\end{equation}
-Substituting this for $kT$ in eq. \ref{eq:rayleigh} we find Planck's equation:
+%\begin{equation}
+%\begin{split}
+%\langle E(\nu)\rangle &= \sum_{r=0}^\infty E(\nu,r) \cdot p(\nu,r) = \frac{\sum_{r=0}^\infty r h \nu \  e^{\frac{-rh\nu}{kT}}}{\sum_{r=0}^\infty e^{\frac{-rh\nu}{kT}}}\\
+%&= \frac{h\nu}{e^{h\nu/kT} - 1}
+%\end{split}
+%\end{equation}
+%Substituting this for $kT$ in eq. \ref{eq:rayleigh} we find Planck's equation:
 
-\begin{equation}
-\frac{du}{d\nu} = \frac{8\pi h \nu^3}{c^3} \frac{h\nu}{e^{h\nu/kT} - 1}
-\end{equation}
+%\begin{equation}
+%\frac{du}{d\nu} = \frac{8\pi h \nu^3}{c^3} \frac{h\nu}{e^{h\nu/kT} - 1}
+%\end{equation}
 
 \chapterimage{gauss.png}
 \chapter{Statistics}

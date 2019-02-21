@@ -1,19 +1,20 @@
 [0] Config.pm:340> INFO - This is Biber 2.4
 [0] Config.pm:343> INFO - Logfile is 'main.blg'
-[62] biber:287> INFO - === Fri Feb 15, 2019, 10:11:22
-[213] Biber.pm:348> INFO - Reading 'main.bcf'
-[455] Biber.pm:742> INFO - Found 146 citekeys in bib section 0
-[467] Biber.pm:3151> INFO - Processing section 0
-[512] Biber.pm:3308> INFO - Looking for bibtex format file 'bibliography.bib' for section 0
-[1382] bibtex.pm:1113> INFO - Decoding LaTeX character macros into UTF-8
-[2091] bibtex.pm:974> INFO - Found BibTeX data source 'bibliography.bib'
-[2176] Utils.pm:147> WARN - ISBN '9780201503975, 0201503972' in entry 'Peskin:1995ev' is invalid - run biber with '--validate_datamodel' for details.
-[3419] Utils.pm:147> WARN - ISBN '9780521016469, 9781316598917' in entry 'Gaisser:2016uoy' is invalid - run biber with '--validate_datamodel' for details.
-[4003] Utils.pm:147> WARN - I didn't find a database entry for 'subsubsec:galactic' (section 0)
-[5384] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[5384] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[5384] Biber.pm:3028> INFO - Sorting list 'none/global' of type 'entry' with scheme 'none' and locale 'en-US'
-[5384] Biber.pm:3032> INFO - No sort tailoring available for locale 'en-US'
-[5564] bbl.pm:519> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[6404] bbl.pm:615> INFO - Output to main.bbl
-[6405] Biber.pm:109> INFO - WARNINGS: 3
+[52] biber:287> INFO - === Thu Feb 21, 2019, 15:06:59
+[218] Biber.pm:348> INFO - Reading 'main.bcf'
+[492] Biber.pm:742> INFO - Found 223 citekeys in bib section 0
+[500] Biber.pm:3151> INFO - Processing section 0
+[540] Biber.pm:3308> INFO - Looking for bibtex format file 'bibliography.bib' for section 0
+[1149] bibtex.pm:1113> INFO - Decoding LaTeX character macros into UTF-8
+[1783] bibtex.pm:974> INFO - Found BibTeX data source 'bibliography.bib'
+[1891] Utils.pm:147> WARN - ISBN '9780201503975, 0201503972' in entry 'Peskin:1995ev' is invalid - run biber with '--validate_datamodel' for details.
+[3087] Utils.pm:147> WARN - ISBN '9780521016469, 9781316598917' in entry 'Gaisser:2016uoy' is invalid - run biber with '--validate_datamodel' for details.
+[4417] Utils.pm:147> WARN - BibTeX subsystem: warning: comma(s) at end of name (removing)
+[4417] Utils.pm:147> WARN - BibTeX subsystem: author, warning: comma(s) at end of name (removing)
+[5766] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[5766] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[5766] Biber.pm:3028> INFO - Sorting list 'none/global' of type 'entry' with scheme 'none' and locale 'en-US'
+[5766] Biber.pm:3032> INFO - No sort tailoring available for locale 'en-US'
+[5942] bbl.pm:519> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[6738] bbl.pm:615> INFO - Output to main.bbl
+[6738] Biber.pm:109> INFO - WARNINGS: 4
