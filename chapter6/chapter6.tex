@@ -4,36 +4,37 @@
 \begin{flushright}
 \textit{\\Soon there will be virtual reality, and augmented reality. If you assume any rate of improvement at all, then games will become indistinguishable from reality . . ., it would seem to follow that the odds we are in base reality are one in billions. $\sim$ Elon Musk\\}
 \end{flushright}
-To be able to search for new physics, one has to have a good handle on the detector response on known physics processes. Depending on the analysis, some processes are more interesting than others. In general, the particle interactions of interest are referred to as \textit{signal events}. Other interactions, which mimic or obscure the signal events, are typically called \textit{background events}. These events are simulated using Monte Carlo\footnote{While recovering from an illness in 1946, Stanislaw Ulam figured that the actual counting of succesful attempts in playing a card game would yield him a much faster answer to the probability of succes rather than doing the actual calculus. His work, shared with John von Neumann, needed to remain secret and adopted the code word ``Monte Carlo''\index{Monte Carlo}, referring to the gambling games in the Monte Carlo Casino in Monaco.} (MC) simulations, where one makes use of a model that describes the interactions and their probability to occur. A typical MC simulation consists of hundreds to millions of events that are constructed using these models with the use of random number generators. To determine the detector response of a particle interaction, one first has to start with the particle generation, which sets the conditions of the initial interaction. Afterwards, the propagation of the particle in the detector (medium) is simulated as best as possible. Below, an overview of the important background and signal simulations that are used in this analysis is given. A flowchart of the simulations steps is shown in Fig. \ref{fig:flowchart}.
+To be able to search for new physics, one needs a good handle on the detector response to known physics processes. Depending on the analysis, some processes are more interesting than others. In general, the particle interactions of interest are referred to as \textit{signal events}. Other interactions, which mimic or obscure the signal events, are typically called \textit{background events}. These events are simulated using Monte Carlo\footnote{While recovering from an illness in 1946, Stanislaw Ulam figured that the actual counting of succesful attempts in playing a card game would yield him a much faster answer to the probability of succes rather than doing the actual calculus. His work, shared with John von Neumann, needed to remain secret and adopted the code word ``Monte Carlo''\index{Monte Carlo}, referring to the gambling games in the Monte Carlo Casino in Monaco.} (MC) simulations, where one makes use of a model that describes the interactions and their probability to occur. A typical MC simulation consists of hundreds to millions of events that are constructed using these models with the use of random number generators. To determine the detector response to a particle interaction, one first has to start with the particle generation, which sets the conditions of the initial interaction. Afterwards, the propagation of the particle in the detector (medium) is simulated as best as possible. Below, an overview of the important background and signal simulations that are used in this analysis is given. A flowchart of the simulations steps is shown in Fig. \ref{fig:flowchart}.
 
 \begin{figure}
 \centering
 \includegraphics[width=0.65\textwidth]{chapter6/img/flowchart_extended.png}
-\caption{Flowchart of the simulation layout. On the left is shown that particles are injected and their interactions are simulated to digitized waveforms. The right part shows real data processing. After triggering, both data and simulation go through the same processing chain to prepare for analysis.}
+\caption{Flowchart of the simulation layout. On the left is shown how particles are injected and their interactions are simulated down to digitized waveforms. The right part shows real data processing. After triggering, both data and simulation go through the same processing chain to prepare for analysis.}
 \label{fig:flowchart}
 \end{figure}
 
-\begin{corollary}[The software framework]
-\textit{IceTray} \index{IceTray} is a modular framework written and used by the IceCube collaboration and mostly written in C++ for fast computation. A python interface for most modules is provided for fast and easy implementation of the code. The framework is used in both online and offline processing and is stream-based with modules that act on events in the stream and essentially follows a flowchart of modules that is provided by the user.\\
+\section{The software framework}
+\textit{IceTray} \index{IceTray} is a modular framework written and used by the IceCube collaboration and mostly written in C++ for fast computation. A Python interface for most modules is provided for fast and easy implementation of the code. The framework is used in both online and offline processing and is stream-based with modules that act on events in the stream and essentially follows a flowchart of modules that is provided by the user.\\
 
-\noindent To process the large amount of simulation that is required for the collaboration, a data processing and management framework called \textit{IceProd} was developed. The setup is very light-weight, running as a python application. It uses (complex) workflow DAGs (see below) across distributed computing grids in order to optimize usage of resources. A \textit{dataset} is set up by running hundreds to thousands of jobs in parallel over multiple computing resources all over the world. Each dataset has specific input parameters that are fixed. Distributions in physical parameters such as the direction, energy, position, etc. of the particle(s) are provided by random number generators \cite{1742-6596-664-6-062056}.\\
+\noindent To process the large amount of simulation that is required for the collaboration, a data processing and management framework called \textit{IceProd} was developed. The setup is very light-weight, running as a Python application. It uses (complex) workflow DAGs (see below) across distributed computing grids in order to optimize usage of resources. A \textit{dataset} is set up by running hundreds to thousands of jobs in parallel over multiple computing resources all over the world. Each dataset has specific input parameters that are fixed. Distributions in physical parameters such as the direction, energy, position, etc. of the particle(s) are provided by random number generators \cite{1742-6596-664-6-062056}.\\
 
-\noindent \textit{HTCondor} is an open source computing software that provides a job queueing mechanism, scheduling policy, priority scheme, resource monitoring, and resource management. Users submit their serial or parallel jobs to HTCondor and places them into a queue. It chooses when and where to run the jobs based upon a policy, carefully monitors their progress, and ultimately informs the user upon completion.\\
+\noindent \textit{HTCondor} is an open source computing software that provides a job queueing mechanism, scheduling policy, priority scheme, resource monitoring, and resource management. Users submit their serial or parallel jobs to HTCondor which places them into a queue. It chooses when and where to run the jobs based upon a policy, carefully monitors their progress, and ultimately informs the user upon completion.\\
 
-\noindent \textit{DAGMans} (Directed Acyclic Graph Managers) are meta-schedulers for the execution of computations. They submit the programs to HTCondor in an order that is represented by a DAG and processes the results. DAGMans are often used by analyzers for bulk computations on large amounts of data.
-\end{corollary}
+\noindent \textit{DAGMans} (Directed Acyclic Graph Managers) are meta-schedulers for the execution of computations. A Directed Acyclic Graph (DAG) consists out of nodes in a graph. Each node represents a certain computation that needs a certain input, output or execution that could depend on another node. Once a DAG is set up, DAGMans submit the programs to HTCondor in an order represented by a DAG an processes the results. DAGMans are often used by analyzers for bulk computations on large amounts of data.
 
 \section{Generation}
-Simulations start with setting up the starting conditions of the physical processes one wants to simulate. For example, a shower event by itself is not well defined. The type of primary particle (H, He, Fe,...), the energy, the inclination and so on will all define the properties of the full air shower that will be produced. Multiple different generators used in the IceCube collaboration serve other purposes; some are explained in more detail below.
+Simulations start with setting up the starting conditions of the physical processes one wants to simulate. For example, a shower event by itself is not well defined. The type of primary particle (H, He, Fe,...), the energy, the inclination and so on will all determine the properties of the full air shower that is produced. Multiple different generators used in the IceCube collaboration serve different purposes; some are explained in more detail below.
 
 \subsection{Background simulation}
+In this work we search for signal events that are not exected from the Standard Model. However, the IceCube neutrino observatory is not designed to look for particles with an anomalous charge. Therefore, it is necessary to properly account the other physical processes that are not sought for in this analysis but can mimic the signature of the signal. SMPs with a charge lower than the electron charge will produce less light compared to muons due to the squared charge dependency in the Cherenkov effect (see Eq. \ref{eq:franktamm}). Because the optical modules are located far away from each other, most of the light that is produced in tracks is lost. For this reason, there is a large uncertainty on the amount of Cherenkov photons that were produced when a track is seen in an event. Muons that originate from air shower events can produce dim tracks and are simulated with CORSIKA simulation. The NuGen program was used to simulate events originating from neutrinos. Both simulation programs are given in more detail below. The datasets used in this analysis use SpiceLea as the ice model (see Section \ref{subsec:icesimulation}). An overview of the data samples and several simulation paramaters is given in Table \ref{tab:datasets}
+
 \subsubsection{CORSIKA}
 \label{subsub:corsika}
-A free, publicly available software framework that is widely used in the astrophysics community for the simulation of cosmic ray interactions is called CORSIKA \index{CORSIKA} (COsmic Ray SImulations for Kascade). It was originally developed for the KASCADE experiment and now used by most people and collaborations to simulate air shower events. IceCube analyses, such as this one, use CORSIKA simulations to simulate the muonic component that is able to reach the in-ice detector.
+A free, publicly available software framework that is widely used in the astrophysics community for the simulation of cosmic ray interactions is called CORSIKA \index{CORSIKA} (COsmic Ray SImulations for Kascade) \cite{Heck:1998vt}. It was originally developed for the KASCADE experiment and is now used by most people and collaborations to simulate air shower events. IceCube analyses, such as this one, use CORSIKA simulations to simulate the muonic component that is able to reach the in-ice detector.
 
 The code is written in FORTRAN 77, but a C++ version is currently in the making \cite{Engel:2018akg}.\\
 
-\noindent A particle of specific type, energy, direction and position is injected in the top of the atmosphere and propagated. The distribution of particles in the shower is saved and read out according to a certain altitude. Because the flux of cosmic rays is exceedingly small at the highest energies, too many resources and too much time would be required to simulate an energy distribution as measured in experiments. Therefore, one often simulates a much harder spectrum and reweights the events accordingly later on (see Section \ref{sec:weighting}). Simulation datasets are often subdivided into a low-energy and high-energy dataset. In this analysis, the former ranges from primary energies between 600 GeV to 100 TeV and uses a spectral index that is close to what is measured. The spectral index of the latter is smaller, resulting in a harder spectrum, and the primary energy ranges from 100 TeV to 100 EeV. The lower limit of the energy range is due to the limited penetration depth of muons through the ice. An overview is given in Table \ref{tab:datasets}.\\
+\noindent The program initially injects a particle of specific type, energy, direction and position in the top of the atmosphere. The particles are tracked through the atmoshpere until they undergo reactions with the air nuclei or - in the case of instable secondaries - decay. Multiple different hadronic interaction models exist to describe the interactions at high energies such as QGSJET \cite{Ostapchenko:2010vb}, SIBYLL \cite{Riehn:2017mfm} and EPOS-LHC \cite{Pierog:2013ria}. The production of new particles after decay or interaction creates showers of particles and these particles are saved and read out at a certain altitude. Because the flux of cosmic rays is exceedingly small at the highest energies, too many resources and too much time would be required to simulate an energy distribution as measured in experiments. Therefore, one often simulates a much harder spectrum and reweights the events accordingly later on (see Section \ref{sec:weighting}). Simulation datasets are often subdivided into a low-energy and high-energy dataset. In this analysis, the former ranges from primary energies between 600 GeV to 100 TeV and uses a spectral index that is close to what is measured ($\gamma = 2.6$). The spectral index of the latter is smaller, resulting in a harder spectrum ($\gamma = 2$) leading to more statistics for rare high-energy events. The primary energy ranges from 100 TeV to 100 EeV. The lower limit of the energy range at 600 GeV is due to the limited penetration depth of muons through the ice.\\
 
 \noindent The spectrum used for this analysis, after reweighting, follows the following energy distribution:
 
@@ -42,29 +43,38 @@ The code is written in FORTRAN 77, but a C++ version is currently in the making 
 \Phi_i \left(E_{\textrm{prim}}\right) = \sum^3_{j=1} a_{i,j} E^{-\gamma_{i,j}} \cdot \exp \left[- \frac{E}{Z_i R_{c,j}}\right].
 \end{equation}
 
-\noindent where we sum over the three populations that are mentioned in Section \ref{subsubsec:galactic}, $\gamma$ is the spectral index, $Z$ the particle atomic number and $a_{i,j}$ the normalization constants for primary $i$ in population $j$. The 5 groups that are assumed to contribute significantly to the flux are: p, He, CNO, Mg-Si and Fe. This is the convention that is used in Ref. \cite{Gaisser:2013bla}. Table \ref{tab:fluxnormalization} shows the best fits for the normalization constants to describe the data.
+\noindent where we sum over three populations: particles accelerated from supernova remnants, a higher-energy galactic component of unknown origin and particles accelerated to ultra-high-energy from extra-galactic sources (more info in Section \ref{subsubsec:galactic}). $\gamma$ is the spectral index, $Z$ the particle atomic number and $a_{i,j}$ the normalization constants for primary $i$ in population $j$. $R$ is the magnetic rigidity and $R_c$ is the characteristic rigidity or cutoff above which a particular acceleration process reaches its limit. The 5 groups that are assumed to contribute significantly to the flux are: p, He, CNO, Mg-Si and Fe. This is the convention that is used in Ref. \cite{Gaisser:2013bla}. Table \ref{tab:fluxnormalization} summarizes the typical values for these parameters and shows the best fits for the normalization constants to describe the data.
 
 \begin{table}[]
 \centering
 \caption{Best fit for parameters in Eq. \ref{eq:gaisser}. Numbers taken from Ref. \cite{Gaisser:2013bla}.}
 \label{tab:fluxnormalization}
-\begin{tabular}{|
->{\columncolor[HTML]{9B9B9B}}c |c|c|c|c|c|c|c|c|c|c|c|}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|}
 \hline
-$j$ & \cellcolor[HTML]{9B9B9B}$R_c$ {[}V{]} & \multicolumn{5}{c|}{\cellcolor[HTML]{9B9B9B}$\gamma$} & \multicolumn{5}{c|}{\cellcolor[HTML]{9B9B9B}$a_{i,j}$} \\ \hline
+\cellcolor[HTML]{F1A91E}$j$ & \cellcolor[HTML]{F1A91E}$R_c$ {[}V{]} & \multicolumn{5}{c|}{\cellcolor[HTML]{F1A91E}$\gamma$} & \multicolumn{5}{c|}{\cellcolor[HTML]{F1A91E}$a_{i,j}$} \\ \hline
  &  & p & He & CNO & Mg-Si & Fe & p & He & CNO & Mg-Si & Fe \\ \hline
 1 & $4 \cdot 10^{15}$ & 1.66 & 1.58 & 1.63 & 1.67 & 1.63 & 7860 & 3550 & 2200 & 1430 & 2120 \\ \hline
 2 & $30 \cdot 10^{15}$ & \multicolumn{5}{c|}{1.4} & \multicolumn{2}{c|}{20} & \multicolumn{3}{c|}{13.4} \\ \hline
 3 & $2 \cdot 10^{18}$ & \multicolumn{5}{c|}{1.4} & \multicolumn{2}{c|}{1.7} & \multicolumn{3}{c|}{1.14} \\ \hline
-\end{tabular}
+\end{tabular}%
+}
 \end{table}
 
 \paragraph{Interactions}
-The atmosphere composition is always set at 78.1\% N$_2$, 21\% O$_2$, and 0.9\% Ar, which is a good description of reality. However, the density of the air above the detector changes significantly during the year because of temperature differences in the Arctic Summer and Winter. Most analyses treat the muonic component as a background and are not interested in the details of the showers and how it changes during the year and therefore use an average of the atmospheric density. \\
+The atmosphere composition is always set at 78.1\% N$_2$, 21\% O$_2$, and 0.9\% Ar, which is a good description of reality. However, the density of the air above the detector changes significantly during the year because of temperature differences in the Antarctic summer and winter. Most analyses, including this one, treat the muonic component as a background and are not interested in the details of the showers and how it changes during the year and therefore use an average of the atmospheric density. The atmospheric depth and densities were set to the averages of the month November for 5 years of data \cite{samDeRidder}. This is shown in Figure \ref{fig:atmosphere}.\\
 
-\noindent The shower propagation and composition depends on the models that are used to simulate these high-energy interactions. The lowest energies are simulated with FLUKA \index{FLUKA} (FLUktuierende KAskade) \cite{Battistoni:2015epi}. This model covers the energy range that can be compared with accelerator experiments. Which model is the best for the highest energies is not known at the time of writing since there are no controlled laboratory measurements that are capable of reaching these energies. Several studies seem to indicate that the composition changes drastically at the highest energies \textcolor{red}{SAMCITEREN+andere}. Fortunately, this is of no importance for this analysis.\\
+\begin{figure}
+\centering
+\includegraphics[width=\textwidth]{chapter6/img/atmosphere.png}
+\caption{\textit{Left: }Average atmospheric depth per month. \textit{Right: }Average atmospheric density per month. Figures obtained with 5 years of data (2007-2011) \cite{samDeRidder}.}
+\label{fig:atmosphere}
+\end{figure}
+
+\noindent The shower propagation and composition depends on the models that are used to simulate the high-energy interactions. The lowest energies are simulated with FLUKA \index{FLUKA} (FLUktuierende KAskade) \cite{Battistoni:2015epi}. This model covers the energy range that can be compared with accelerator experiments.  The SIBYLL model was used for the high-energy interactions. However, which model is the best for the highest energies is not known at the time of writing since there are no controlled laboratory measurements that are capable of reaching these energies. Several studies seem to indicate that the composition changes drastically at the highest energies, i.e. IceCube \cite{Rawlins:2016bkc}, Pierre Auger Observatory \cite{Porcelli:2015jli}, and Telescope Array \cite{Belz:2015cvi}. However, the different experiments do not agree, presumably due to the different techniques used to determine the primary composition \cite{samDeRidder}. Recent work has shown that the most likely cause of discrepency lies in non-perfect models \cite{Dembinski:2019uta}. Even though this discussion is far from resolved, it is fortunately of no importance for this analysis as these effects become more prominent at the higher energies.\\
 
 \subsubsection{NuGen}
+\label{subsec:nugen}
 The neutrino-generator\index{neutrino-generator} (NuGen) is a neutrino event generator program that works with the IceTray framework. With this module, one can inject a primary neutrino on the surface of the Earth by specifying a few parameters in the steering file.
 
 The physics implemented in this program is based on the ANIS-All Neutrino Interaction Generator \cite{Gazizov:2004va}. However, the cross sections have been updated and the structure of the code has been changed significantly from ANIS to incorporate it in the IceTray framework.\\
@@ -72,17 +82,17 @@ The physics implemented in this program is based on the ANIS-All Neutrino Intera
 \noindent The generator requires the first interaction to be near the detector and
 
 \newcommand\barparen[1]{\overset{(-)}{#1}}
-
+\vspace{2mm}
 \begin{itemize}
 \item prepares a primary neutrino and injects it to the Earth,
-\item propagates the neutrino and works out interactions inside the Earth\footnote{Possible interactions are CC, NC, Glashow resonance for $\bar{\nu}_e$ and tau decay for $\barparen{\nu_\tau}$. CC interactions produce no new neutrinos and the simulation stops at the vertex point. The other interactions create new secondary neutrinos.} (when they occur),
+\item propagates the neutrino and works out interactions inside the Earth\footnote{Possible interactions are CC, NC, Glashow resonance for $\bar{\nu}_e$ and $\tau$ decay for $\barparen{\nu_\tau}$. CC interactions produce no new neutrinos and the simulation stops at the vertex point. The other interactions create new secondary neutrinos.} (when they occur),
 \item makes a forced interaction inside the detection volume\footnote{
 In most cases, a neutrino will not interact within the medium, but for computational reasons at least one neutrino is forced to interact and the simulation is reweighted afterwards accordingly.} (only if any neutrino reaches the detector site),
 \item stores injected neutrinos and all generated secondaries,
 \item stores interaction weight information.
 \end{itemize}
 \vspace{3mm}
-\noindent The generator also does not distinguish between neutrino and antineutrino and assumes a ratio of (1:1).\\
+\noindent The generator alternates between neutrino and antineutrino and assumes a neutrino-antineutrino ratio of (1:1).\\
 
 \noindent The spectrum used for this analysis, after reweighting, follows the Honda2006 spectrum \cite{Honda:2006qj} for atmospheric neutrinos, SarcevicStd for the prompt component \cite{Enberg:2008te}, and an astrophysical flux fit from Ref. \cite{Aartsen:2014gkd} (see Section \ref{sec:neutrinos} for more information on these fluxes). The astrophysical flux measured by the IceCube collaboration follows an energy spectrum equal to
 
@@ -95,83 +105,49 @@ E^2 \left(\Phi \right) = 1.5 \cdot 10^{-8} \left( \frac{E}{100 \textrm{ TeV}} \r
 \begin{figure}
 \centering
 \includegraphics[width=0.6\textwidth]{chapter6/img/neutrinoenergy.png}
-\caption{Distribution of weighted neutrino fluxes that were used for this analysis. The atmospheric $\nu_\mu$ and $\nu_e$ fluxes were derived from Ref. \cite{Honda:2006qj}, prompt from Ref. \cite{Enberg:2008te}, and astrophysical from Ref. \cite{Aartsen:2014gkd}.}
+\caption{Distribution of weighted neutrino fluxes that were used for this analysis. The atmospheric $\nu_\mu$ and $\nu_e$ fluxes were derived from Ref. \cite{Honda:2006qj}, prompt from Ref. \cite{Enberg:2008te}, and astrophysical from Ref. \cite{Aartsen:2014gkd}. The energy refers to the energy of the primary neutrino.}
 \label{fig:neutrinospectrum}
 \end{figure}
 
 \subsubsection{GENIE}
-To include the lowest energies, which are not accounted for by ANIS/NuGen, the GENIE (Generates Events for Neutrino Interaction Experiments) neutrino generator was implemented in IceTray. It is a well established generator, used by collaborations worldwide and written in C++ \cite{Andreopoulos:2009rq,Andreopoulos:2015wxa}.\\
+To include the lowest energies (0.5 - 100 GeV), which are not included in ANIS/NuGen, the GENIE (Generates Events for Neutrino Interaction Experiments) neutrino generator was implemented in IceTray. It is a well established generator, used by collaborations worldwide and written in C++ \cite{Andreopoulos:2009rq,Andreopoulos:2015wxa}.\\
 
 \noindent The spectrum used for this analysis, after reweighting, follows the Honda2015 spectrum \cite{Honda:2015fha} for low-energy atmospheric neutrinos.
 
 \begin{table}[]
 \centering
 \small
-\caption{Overview of the datasets used in this analysis. GaisserH3a from Ref. \cite{Gaisser:2013bla}, Honda2015 from Ref. \cite{Honda:2015fha}, Honda2006 from Ref. \cite{Honda:2006qj}, Sarcevic from Ref. \cite{Enberg:2008te}, and astrophysical from Ref. \cite{Aartsen:2014gkd}.}
+\caption{Overview of the datasets used in this analysis. GaisserH3a from Ref. \cite{Gaisser:2013bla}, Honda2015 from Ref. \cite{Honda:2015fha}, Honda2006 from Ref. \cite{Honda:2006qj}, Sarcevic from Ref. \cite{Enberg:2008te}, and astrophysical from Ref. \cite{Aartsen:2014gkd}. The dataset number is a unique number used in IceProd to distinguish data samples.}
 \label{tab:datasets}
 \resizebox{\textwidth}{!}{%
-\begin{tabular}{|
->{\columncolor[HTML]{9B9B9B}}l |c|c|c|c|c|r|}
+\begin{tabular}{|l |c|c|c|c|c|r|}
 \hline
-Generator & \cellcolor[HTML]{9B9B9B}Type & \cellcolor[HTML]{9B9B9B}Range {[}GeV{]} & \cellcolor[HTML]{9B9B9B}Simulated $\gamma$ & \cellcolor[HTML]{9B9B9B}Weighted $\gamma$ & \cellcolor[HTML]{9B9B9B}Ice & \cellcolor[HTML]{9B9B9B}Dataset \\ \hline
-CORS. & 5-comp. & $10^5 - 10^{11}$ & 2 & GaisserH3a & SpiceLea & 11937 \\ \hline
-CORS. & 5-comp. & $600 - 10^5$ & 2.6 & GaisserH3a & SpiceLea & 11499 \\ \hline
-CORS. & 5-comp. & $600 - 10^5$ & 2.6 & GaisserH3a & SpiceLea & 11808 \\ \hline
-CORS. & 5-comp. & $600 - 10^5$ & 2.6 & GaisserH3a & SpiceLea & 11865 \\ \hline
-CORS. & 5-comp. & $600 - 10^5$ & 2.6 & GaisserH3a & SpiceLea & 11905 \\ \hline
-CORS. & 5-comp. & $600 - 10^5$ & 2.6 & GaisserH3a & SpiceLea & 11926 \\ \hline
-CORS. & 5-comp. & $600 - 10^5$ & 2.6 & GaisserH3a & SpiceLea & 11943 \\ \hline
-CORS. & 5-comp. & $600 - 10^5$ & 2.6 & GaisserH3a & SpiceLea & 12161 \\ \hline
-CORS. & 5-comp. & $600 - 10^5$ & 2.6 & GaisserH3a & SpiceLea & 12268 \\ \hline
-GENIE & $\nu_\mu$ & $0.5 - 100$ & 1 & Honda2015 & SpiceMie & 12475 \\ \hline
-\cellcolor[HTML]{9B9B9B} &  &  &  & atmos.: Honda2006 &  &  \\
-\cellcolor[HTML]{9B9B9B} &  &  &  & prompt: Sarcevic &  &  \\
-\multirow{-3}{*}{\cellcolor[HTML]{9B9B9B}NuGen} & \multirow{-3}{*}{$\nu_\mu$} & \multirow{-3}{*}{$100 - 10^8$} & \multirow{-3}{*}{2} & astro.: Astro. & \multirow{-3}{*}{SpiceLea} & \multirow{-3}{*}{11029} \\ \hline
-\cellcolor[HTML]{9B9B9B} &  &  &  & atmos.: Honda2006 &  &  \\
-\cellcolor[HTML]{9B9B9B} &  &  &  & prompt: Sarcevic &  &  \\
-\multirow{-3}{*}{\cellcolor[HTML]{9B9B9B}NuGen} & \multirow{-3}{*}{$\nu_\mu$} & \multirow{-3}{*}{$100 - 10^8$} & \multirow{-3}{*}{2} & astro.: Astro. & \multirow{-3}{*}{SpiceLea} & \multirow{-3}{*}{12346} \\ \hline
-\cellcolor[HTML]{9B9B9B} &  &  &  & atmos.: Honda2006 &  &  \\
-\cellcolor[HTML]{9B9B9B} &  &  &  & prompt: Sarcevic &  &  \\
-\multirow{-3}{*}{\cellcolor[HTML]{9B9B9B}NuGen} & \multirow{-3}{*}{$\nu_\mu$} & \multirow{-3}{*}{$100 - 10^8$} & \multirow{-3}{*}{2} & astro.: Astro. & \multirow{-3}{*}{SpiceLea} & \multirow{-3}{*}{11883} \\ \hline
-\cellcolor[HTML]{9B9B9B} &  &  &  & atmos.: Honda2006 &  &  \\
-\cellcolor[HTML]{9B9B9B} &  &  &  & prompt: Sarcevic &  &  \\
-\multirow{-3}{*}{\cellcolor[HTML]{9B9B9B}NuGen} & \multirow{-3}{*}{$\nu_e$} & \multirow{-3}{*}{$100 - 10^8$} & \multirow{-3}{*}{2} & astro.: Astro. & \multirow{-3}{*}{SpiceLea} & \multirow{-3}{*}{12034} \\ \hline
-\cellcolor[HTML]{9B9B9B} &  &  &  & atmos.: Honda2006 &  &  \\
-\cellcolor[HTML]{9B9B9B} &  &  &  & prompt: Sarcevic &  &  \\
-\multirow{-3}{*}{\cellcolor[HTML]{9B9B9B}NuGen} & \multirow{-3}{*}{$\nu_e$} & \multirow{-3}{*}{$100 - 10^8$} & \multirow{-3}{*}{2} & astro.: Astro. & \multirow{-3}{*}{SpiceLea} & \multirow{-3}{*}{12646} \\ \hline
-\end{tabular}%
-}
-\end{table}
-
-
-
-\begin{table}[]
-\footnotesize
-\centering
-\caption{Overview of the datasets used for systematic uncertainties. Polyg(onato) follows from Ref. \cite{Hoerandel:2002yg}, GaisserH4a from Ref. \cite{Gaisser:2011cc} and Bartol from Ref. \cite{PhysRevD.70.023006}.}
-\label{tab:systematics}
-\resizebox{\textwidth}{!}{%
-\begin{tabular}{|l|c|c|c|c|c|c|r|}
-\hline
-\rowcolor[HTML]{9B9B9B} 
-Generator & Type & Range {[}GeV{]} & Sim. $\gamma$ & Weighted $\gamma$ & Ice & Dataset & Syst. Eff. \\ \hline
-\cellcolor[HTML]{9B9B9B}CORS. & Hoerandel & $600 - 10^5$ & Polyg. & GaisserH3a & SpiceLea & 11527 & DOM eff. -10\% \\ \hline
-\cellcolor[HTML]{9B9B9B}CORS. & Hoerandel & $600 - 10^{11}$ & Polyg. & GaisserH3a & SpiceLea & 11526 & DOM eff. +10\% \\ \hline
-\cellcolor[HTML]{9B9B9B} &  &  &  &  &  &  & Abs. +10\% \\ \cline{8-8} 
-\cellcolor[HTML]{9B9B9B} &  &  &  &  &  &  & Scat. +10\% \\ \cline{8-8} 
-\multirow{-3}{*}{\cellcolor[HTML]{9B9B9B}CORS.} & \multirow{-3}{*}{5-comp.} & \multirow{-3}{*}{$600 - 10^{11}$} & \multirow{-3}{*}{2.6} & \multirow{-3}{*}{GaisserH3a} & \multirow{-3}{*}{SpiceLea} & \multirow{-3}{*}{12388} & \multicolumn{1}{l|}{Abs./Scat. -7.1\%} \\ \hline
-\cellcolor[HTML]{9B9B9B}CORS. & \multicolumn{3}{c|}{All datasets from Table \ref{tab:datasets}} & GaisserH4a & SpiceLea & Table \ref{tab:datasets} & GaisserH4a \\ \hline
-\cellcolor[HTML]{9B9B9B}NuGen & $\nu_\mu$ & $100 - 10^8$ & 2 & Bartol (syst.) & SpiceLea & 11029 & Bartol flux \\ \hline
-\cellcolor[HTML]{9B9B9B} &  &  &  &  &  &  & DOM eff. +10\% \\
-\cellcolor[HTML]{9B9B9B} &  &  &  &  &  &  & DOM eff. -10\% \\
-\cellcolor[HTML]{9B9B9B} &  &  &  &  &  &  & Abs. +10\% \\
-\cellcolor[HTML]{9B9B9B} &  &  &  &  &  &  & Scat. +10\% \\
-\cellcolor[HTML]{9B9B9B} &  &  &  &  &  &  & Abs./Scat. -7.1\% \\
-\multirow{-6}{*}{\cellcolor[HTML]{9B9B9B}NuGen} & \multirow{-6}{*}{$\nu_\mu$} & \multirow{-6}{*}{$100 - 10^7$} & \multirow{-6}{*}{2} & \multirow{-6}{*}{\begin{tabular}[c]{@{}c@{}}Honda2006\\ \\ + Bartol (syst.)\end{tabular}} & \multirow{-6}{*}{SpiceLea} & \multirow{-6}{*}{11883} & Bartol flux \\ \hline
-\cellcolor[HTML]{9B9B9B} &  &  &  &  &  &  & DOM eff. +10\% \\
-\cellcolor[HTML]{9B9B9B} &  &  &  &  &  &  & DOM eff. -10\% \\
-\cellcolor[HTML]{9B9B9B} &  &  &  &  &  &  & Abs./Scat. -7.1\% \\
-\multirow{-4}{*}{\cellcolor[HTML]{9B9B9B}NuGen} & \multirow{-4}{*}{$\nu_\mu$} & \multirow{-4}{*}{$100 - 10^8$} & \multirow{-4}{*}{2} & \multirow{-4}{*}{\begin{tabular}[c]{@{}c@{}}Honda2006\\ \\ + Bartol (syst.)\end{tabular}} & \multirow{-4}{*}{SpiceLea} & \multirow{-4}{*}{12346} & Bartol flux \\ \hline
+\cellcolor[HTML]{F1A91E}Generator & \cellcolor[HTML]{F1A91E}Type & \cellcolor[HTML]{F1A91E}Range {[}GeV{]} & \cellcolor[HTML]{F1A91E}Simulated $\gamma$ & \cellcolor[HTML]{F1A91E}Weighted $\gamma$ & \cellcolor[HTML]{F1A91E}Ice & \cellcolor[HTML]{F1A91E}Dataset \\ \hline
+\textbf{CORS.} & 5-comp. & $10^5 - 10^{11}$ & 2 & GaisserH3a & SpiceLea & 11937 \\ \hline
+\textbf{CORS.} & 5-comp. & $600 - 10^5$ & 2.6 & GaisserH3a & SpiceLea & 11499 \\ \hline
+\textbf{CORS.} & 5-comp. & $600 - 10^5$ & 2.6 & GaisserH3a & SpiceLea & 11808 \\ \hline
+\textbf{CORS.} & 5-comp. & $600 - 10^5$ & 2.6 & GaisserH3a & SpiceLea & 11865 \\ \hline
+\textbf{CORS.} & 5-comp. & $600 - 10^5$ & 2.6 & GaisserH3a & SpiceLea & 11905 \\ \hline
+\textbf{CORS.} & 5-comp. & $600 - 10^5$ & 2.6 & GaisserH3a & SpiceLea & 11926 \\ \hline
+\textbf{CORS.} & 5-comp. & $600 - 10^5$ & 2.6 & GaisserH3a & SpiceLea & 11943 \\ \hline
+\textbf{CORS.} & 5-comp. & $600 - 10^5$ & 2.6 & GaisserH3a & SpiceLea & 12161 \\ \hline
+\textbf{CORS.} & 5-comp. & $600 - 10^5$ & 2.6 & GaisserH3a & SpiceLea & 12268 \\ \hline
+\textbf{GENIE} & $\nu_\mu$ & $0.5 - 100$ & 1 & Honda2015 & SpiceMie & 12475 \\ \hline
+ &  &  &  & atmos.: Honda2006 &  &  \\
+ &  &  &  & prompt: Sarcevic &  &  \\
+\multirow{-3}{*}{\textbf{NuGen}} & \multirow{-3}{*}{$\nu_\mu$} & \multirow{-3}{*}{$100 - 10^8$} & \multirow{-3}{*}{2} & astro.: Astro. & \multirow{-3}{*}{SpiceLea} & \multirow{-3}{*}{11029} \\ \hline
+ &  &  &  & atmos.: Honda2006 &  &  \\
+ &  &  &  & prompt: Sarcevic &  &  \\
+\multirow{-3}{*}{\textbf{NuGen}} & \multirow{-3}{*}{$\nu_\mu$} & \multirow{-3}{*}{$100 - 10^8$} & \multirow{-3}{*}{2} & astro.: Astro. & \multirow{-3}{*}{SpiceLea} & \multirow{-3}{*}{12346} \\ \hline
+ &  &  &  & atmos.: Honda2006 &  &  \\
+ &  &  &  & prompt: Sarcevic &  &  \\
+\multirow{-3}{*}{\textbf{NuGen}} & \multirow{-3}{*}{$\nu_\mu$} & \multirow{-3}{*}{$100 - 10^8$} & \multirow{-3}{*}{2} & astro.: Astro. & \multirow{-3}{*}{SpiceLea} & \multirow{-3}{*}{11883} \\ \hline
+ &  &  &  & atmos.: Honda2006 &  &  \\
+ &  &  &  & prompt: Sarcevic &  &  \\
+\multirow{-3}{*}{\textbf{NuGen}} & \multirow{-3}{*}{$\nu_e$} & \multirow{-3}{*}{$100 - 10^8$} & \multirow{-3}{*}{2} & astro.: Astro. & \multirow{-3}{*}{SpiceLea} & \multirow{-3}{*}{12034} \\ \hline
+ &  &  &  & atmos.: Honda2006 &  &  \\
+ &  &  &  & prompt: Sarcevic &  &  \\
+\multirow{-3}{*}{\textbf{NuGen}} & \multirow{-3}{*}{$\nu_e$} & \multirow{-3}{*}{$100 - 10^8$} & \multirow{-3}{*}{2} & astro.: Astro. & \multirow{-3}{*}{SpiceLea} & \multirow{-3}{*}{12646} \\ \hline
 \end{tabular}%
 }
 \end{table}
@@ -194,7 +170,7 @@ As mentioned in Section \ref{sec:properties}, the signal flux is assumed to be i
 \label{fig:angles}
 \end{figure}
 
-\noindent Because slow moving particles would require specialized treatment, the minimal velocity of the particles is set as $\beta > 0.95$ and simulated with an $E^{-1}$ spectrum. The spectrum is later normalized to a flux of $10^{-14} \textrm{ GeV } \textrm{cm}^{-2} \textrm{ s}^{-1} \textrm{ sr}^{-1}$ with an $E^{-2}$ spectrum (see Appendix \ref{sec:powerlawdistr}) where the absolute flux is only necessary for illustrative purposes, see Section \textcolor{red}{refer to this section when it's written!}.\\
+\noindent Because slow moving particles would require specialized treatment\footnote{Cherenkov photon production in Eq. \ref{eq:franktamm} changes for $\beta < 1$ compared to relativistic particles ($\beta \approx 1$). Similarly, ionization effects as seen in Eq. \ref{eq:ioniz} for slow moving particles would not be comparible to relativistic particles. Also, the IceCube detector is designed to trigger on relativistic particles and most of the cleaning tools (see Section \ref{sec:pulsecleaning}) rely on relativistic speeds. Dedicated analyses on slow moving particles like monopoles are being done but need specialized simulation and analyses. This is beyond the scope of this work.}, therefore, the minimal velocity of the particles is set as $\beta > 0.95$. The energy distribution is simulated with an $E^{-1}$ spectrum and is later normalized to a flux of $10^{-14} \textrm{ GeV } \textrm{cm}^{-2} \textrm{ s}^{-1} \textrm{ sr}^{-1}$ with an $E^{-2}$ spectrum (see Appendix \ref{sec:powerlawdistr}) where the absolute flux is only necessary for illustrative purposes (see Section \ref{subsec:mrf}).\\
 
 \noindent Similar to the background, SpiceLea was used as the nominal ice model.
 

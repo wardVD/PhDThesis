@@ -625,7 +625,38 @@ Because of the limited statistics in the systematic background sample sets, thes
 \item \textit{Atmospheric $\mu$ flux: }We look at the difference between the GaisserH3a \cite{Gaisser:2013bla} and GaisserH4a \cite{Gaisser:2011cc} models.
 \item \textit{Atmospheric $\nu_\mu$ flux: }We look at the difference between the Bartol \cite{PhysRevD.70.023006} and Honda2006 \cite{Honda:2006qj} models.
 \end{itemize}
-Similar to the detector uncertainties, the effects were computed at Level 4 for background datasets and at BDT cuts of 0.32, 0.32 and 0.3 for particles with charges 1/2, 1/3 and 2/3 respectively. Results are also shown in Tab. \ref{tab:detectoruncertainties}.
+Similar to the detector uncertainties, the effects were computed at Level 4 for background datasets and at BDT cuts of 0.32, 0.32 and 0.3 for particles with charges 1/2, 1/3 and 2/3 respectively. The datasets used for detector and flux uncertainties are shown in Tab. \ref{tab:systematics}. Results are shown in Tab. \ref{tab:detectoruncertainties}. 
+
+\begin{table}[]
+\footnotesize
+\centering
+\caption{Overview of the datasets used for systematic uncertainties. Polyg(onato) follows from Ref. \cite{Hoerandel:2002yg}, GaisserH4a from Ref. \cite{Gaisser:2011cc} and Bartol from Ref. \cite{PhysRevD.70.023006}.}
+\label{tab:systematics}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{|l|c|c|c|c|c|c|r|}
+\hline
+\rowcolor[HTML]{F1A91E} 
+Generator & Type & Range {[}GeV{]} & Sim. $\gamma$ & Weighted $\gamma$ & Ice & Dataset & Syst. Eff. \\ \hline
+\textbf{CORS.} & Hoerandel & $600 - 10^5$ & Polyg. & GaisserH3a & SpiceLea & 11527 & DOM eff. -10\% \\ \hline
+\textbf{CORS.} & Hoerandel & $600 - 10^{11}$ & Polyg. & GaisserH3a & SpiceLea & 11526 & DOM eff. +10\% \\ \hline
+ &  &  &  &  &  &  & Abs. +10\% \\ \cline{8-8} 
+ &  &  &  &  &  &  & Scat. +10\% \\ \cline{8-8} 
+\multirow{-3}{*}{\textbf{CORS.}} & \multirow{-3}{*}{5-comp.} & \multirow{-3}{*}{$600 - 10^{11}$} & \multirow{-3}{*}{2.6} & \multirow{-3}{*}{GaisserH3a} & \multirow{-3}{*}{SpiceLea} & \multirow{-3}{*}{12388} & \multicolumn{1}{l|}{Abs./Scat. -7.1\%} \\ \hline
+\textbf{CORS.} & \multicolumn{3}{c|}{All datasets from Table \ref{tab:datasets}} & GaisserH4a & SpiceLea & Table \ref{tab:datasets} & GaisserH4a \\ \hline
+\textbf{NuGen} & $\nu_\mu$ & $100 - 10^8$ & 2 & Bartol (syst.) & SpiceLea & 11029 & Bartol flux \\ \hline
+ &  &  &  &  &  &  & DOM eff. +10\% \\
+ &  &  &  &  &  &  & DOM eff. -10\% \\
+ &  &  &  &  &  &  & Abs. +10\% \\
+ &  &  &  &  &  &  & Scat. +10\% \\
+ &  &  &  &  &  &  & Abs./Scat. -7.1\% \\
+\multirow{-6}{*}{\textbf{NuGen}} & \multirow{-6}{*}{$\nu_\mu$} & \multirow{-6}{*}{$100 - 10^7$} & \multirow{-6}{*}{2} & \multirow{-6}{*}{\begin{tabular}[c]{@{}c@{}}Honda2006\\ \\ + Bartol (syst.)\end{tabular}} & \multirow{-6}{*}{SpiceLea} & \multirow{-6}{*}{11883} & Bartol flux \\ \hline
+ &  &  &  &  &  &  & DOM eff. +10\% \\
+ &  &  &  &  &  &  & DOM eff. -10\% \\
+ &  &  &  &  &  &  & Abs./Scat. -7.1\% \\
+\multirow{-4}{*}{\textbf{NuGen}} & \multirow{-4}{*}{$\nu_\mu$} & \multirow{-4}{*}{$100 - 10^8$} & \multirow{-4}{*}{2} & \multirow{-4}{*}{\begin{tabular}[c]{@{}c@{}}Honda2006\\ \\ + Bartol (syst.)\end{tabular}} & \multirow{-4}{*}{SpiceLea} & \multirow{-4}{*}{12346} & Bartol flux \\ \hline
+\end{tabular}%
+}
+\end{table}
 
 \item \textbf{Pull-validation: }As will be explained in Section \ref{sec:results}, only one BDT is used for the final event rate. Pull-validation offers us a way to get more statistics but choosing one BDT for the full data sample and comparing the data rate to the mean of a fluctuating pool of expected background events gives rise to a large uncertainty. It was found that this uncertainty is highly dominating, but was chosen conservatively.\\
 
