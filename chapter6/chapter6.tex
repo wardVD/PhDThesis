@@ -4,7 +4,7 @@
 \begin{flushright}
 \textit{\\Soon there will be virtual reality, and augmented reality. If you assume any rate of improvement at all, then games will become indistinguishable from reality . . ., it would seem to follow that the odds we are in base reality are one in billions. $\sim$ Elon Musk\\}
 \end{flushright}
-To be able to search for new physics, one needs a good handle on the detector response to known physics processes. Depending on the analysis, some processes are more interesting than others. In general, the particle interactions of interest are referred to as \textit{signal events}. Other interactions, which mimic or obscure the signal events, are typically called \textit{background events}. These events are simulated using Monte Carlo\footnote{While recovering from an illness in 1946, Stanislaw Ulam figured that the actual counting of succesful attempts in playing a card game would yield him a much faster answer to the probability of succes rather than doing the actual calculus. His work, shared with John von Neumann, needed to remain secret and adopted the code word ``Monte Carlo''\index{Monte Carlo}, referring to the gambling games in the Monte Carlo Casino in Monaco.} (MC) simulations, where one makes use of a model that describes the interactions and their probability to occur. A typical MC simulation consists of hundreds to millions of events that are constructed using these models with the use of random number generators. To determine the detector response to a particle interaction, one first has to start with the particle generation, which sets the conditions of the initial interaction. Afterwards, the propagation of the particle in the detector (medium) is simulated as best as possible. Below, an overview of the important background and signal simulations that are used in this analysis is given. A flowchart of the simulations steps is shown in Fig. \ref{fig:flowchart}.
+To be able to search for new physics, one needs a good handle on the detector response to known physics processes. Depending on the analysis, some processes are more interesting than others. In general, the particle interactions of interest are referred to as \textit{signal events}. Other interactions, which mimic or obscure the signal events, are typically called \textit{background events}. These events are simulated using Monte Carlo\footnote{While recovering from an illness in 1946, Stanislaw Ulam figured that the actual counting of succesful attempts in playing a card game would yield him a much faster answer to the probability of succes rather than doing the actual calculus. His work, shared with John von Neumann, needed to remain secret and adopted the code word ``Monte Carlo''\index{Monte Carlo}, referring to the gambling games in the Monte Carlo Casino in Monaco.} (MC) simulations, where one makes use of a model that describes the interactions and their probability to occur. A typical MC simulation consists of hundreds to millions of events that are constructed using these models with the use of random number generators. To determine the detector response to a particle interaction, one first has to start with the particle generation, which sets the conditions of the initial interaction. Afterwards, the propagation of the particle in the detector (medium) is simulated as best as possible. Below, an overview of the important background and signal simulations that are used in this analysis is given. A flowchart of the simulations steps is shown in Figure \ref{fig:flowchart}.
 
 \begin{figure}
 \centering
@@ -100,7 +100,7 @@ In most cases, a neutrino will not interact within the medium, but for computati
 E^2 \left(\Phi \right) = 1.5 \cdot 10^{-8} \left( \frac{E}{100 \textrm{ TeV}} \right)^{-0.3} \textrm{GeV } \textrm{cm}^{-2} \textrm{s}^{-1} \textrm{sr}^{-1}.
 \end{equation}
 \vspace{3mm}
-\noindent The distribution for these different components can be seen in Fig. \ref{fig:neutrinospectrum}.
+\noindent The distribution for these different components can be seen in Figure \ref{fig:neutrinospectrum}.
 
 \begin{figure}
 \centering
@@ -153,7 +153,7 @@ To include the lowest energies (0.5 - 100 GeV), which are not included in ANIS/N
 \end{table}
 
 \subsection{Signal simulation}
-As mentioned in Section \ref{sec:properties}, the signal flux is assumed to be isotropic close to the detector. The SMP starting points are randomly placed on a disk with a direction perpendicular to it as shown in Fig. \ref{fig:injector}. The disk has a radius of 800 m and is located at a distance of 1000 m from the detector center. The disk itself is randomly rotated around the detector center to simulate an isotropic flux. The distribution of the azimuth, $\phi$, and cosine of the zenith\footnote{See Appendix \ref{sec:angularappendix} why we show the cosine of the zenith.}, $\cos(\theta)$, is shown in Fig. \ref{fig:angles}.\\
+As mentioned in Section \ref{sec:properties}, the signal flux is assumed to be isotropic close to the detector. The SMP starting points are randomly placed on a disk with a direction perpendicular to it as shown in Figure \ref{fig:injector}. The disk has a radius of 800 m and is located at a distance of 1000 m from the detector center. The disk itself is randomly rotated around the detector center to simulate an isotropic flux. The distribution of the azimuth, $\phi$, and cosine of the zenith\footnote{See Appendix \ref{sec:angularappendix} why we show the cosine of the zenith.}, $\cos(\theta)$, is shown in Figure \ref{fig:angles}.\\
 
 \begin{figure}[t]
 \centering
@@ -175,16 +175,14 @@ As mentioned in Section \ref{sec:properties}, the signal flux is assumed to be i
 \noindent Similar to the background, SpiceLea was used as the nominal ice model.
 
 \section{Propagation}
-After generation, the particles need to be propagated through the medium. The particles will interact, lose energy, produce new particles, and generate light. The particle interactions and light production are done in two different modules as photon simulation is done with GPU. The former module is called \texttt{PROPOSAL}, the latter \texttt{ppc}.
-
-
+After generation, the particles need to be propagated through the ice. The particles will interact, lose energy, produce new particles, and generate light. The particle interactions and light production are done in two different modules. The former module is called \texttt{PROPOSAL} and runs on normal CPUs, whereas the latter is called \texttt{ppc} and uses GPUs to simulate enormous amounts of photons that are propagated through the ice.
 
 
 \subsection{\texttt{PROPOSAL}}
-Using the cross sections of the important interactions, together with the properties of the traversing medium and the particles (mass, charge, spin, decay time, etc.), it is possible to simulate the energy losses, secondary production and the consequent interactions of these daughter particles. This is done in the software package \texttt{PROPOSAL} \index{PROPOSAL} (the Propagator with Optimal Precision and Optimized Speed for All Leptons), fully written in C++. It was based on its predecessor \texttt{MMC} (Muon Monte Carlo), which was written in Java. In 2018, a substantial improved version of \texttt{PROPOSAL} was finalized. An illustration of the workings of the code is given in Fig. \ref{fig:proposal} and an in-depth documentation is given in Ref. \cite{Dunsch:2018nsc}.
+Using the cross sections of the important interactions, together with the properties of the traversed medium and the particles (mass, charge, spin, decay time, etc.), it is possible to simulate the energy losses, secondary production and the consequent interactions of these daughter particles. This is done in the software package \texttt{PROPOSAL} \index{PROPOSAL} (the Propagator with Optimal Precision and Optimized Speed for All Leptons), fully written in C++. It was based on its predecessor \texttt{MMC} (Muon Monte Carlo), which was written in Java. In 2018, a substantially improved version of \texttt{PROPOSAL} was finalized. An illustration of the workings of the code is given in Figure \ref{fig:proposal} and an in-depth documentation is given in Ref. \cite{Dunsch:2018nsc}.
 
 \paragraph{\texttt{PROPOSAL} for SMPs}
-Since we assume the SMPs to behave leptonically, it was chosen to use \texttt{PROPOSAL} for the signal propagation as well. The mass and charge of the particle are set in the input parameters and the cross section dependence on these parameters can be seen in Section \ref{sec:energyloss}. In general, there is a small dependence on the mass and a squared dependency on the charge, except for bremsstrahlung that has a quadratic charge dependency. These effects only become prominent and important for highly relativistic particles, which as will be seen in Section \textcolor{red}{verwijs hiernaar als je dit geschreven hebt}, do not have a dominating contribution to the total signal.\\
+Since we assume the SMPs to behave leptonically, it was chosen to use \texttt{PROPOSAL} for the signal propagation as well. The mass and charge of the particle are set in the input parameters and the cross section dependence on these parameters can be seen in Section \ref{sec:energyloss}. In general, there is a small dependence on the mass and a dependence on the square of the charge, except for bremsstrahlung, which has a quartic charge dependence.
 
 \begin{figure}
 \centering
@@ -193,29 +191,29 @@ Since we assume the SMPs to behave leptonically, it was chosen to use \texttt{PR
 \label{fig:proposal}
 \end{figure}
 
-\noindent The \texttt{PROPOSAL} module keeps track of all the particles that are produced during propagation and the accompanying energy losses in a tree-like structure (called an \textit{I3MCTree}). This collection of particles and their interactions are forwarded to a light production computation module.
+\noindent The \texttt{PROPOSAL} module keeps track of all the particles that are produced during propagation and the accompanying energy losses in a tree-like structure (called an \textit{I3MCTree}). This collection of particles and their interactions are forwarded to a light-production computation module.
 
 \subsection{Photoelectron generators}
-In Section \ref{subsec:icesimulation} we already explained how the ice is simulated in the IceCube detector. The parameters $b_e(400)$ and $a_{dust}(400)$ define the photon propagation through the ice and determine if they are absorbed or hit a DOM. To optimize computing time, the DOMs were scaled (nominally with a factor of 5) to force more photon interactions. The number of photons emitted was then appropriately scaled down with the square of this scaling factor\footnote{The surface of a sphere scales with the square of the radius.}. The DOM acceptance curves, as shown in Fig. \ref{fig:acceptance}, together with the Frank-Tamm formula (Eq. \ref{eq:franktamm}) allow to calculate the expected number of photons produced per unit length:
+In Section \ref{subsec:icesimulation} we already explained how the ice is simulated in the IceCube detector. The parameters $b_e(400)$ and $a_{dust}(400)$ define the photon propagation through the ice and determine if photons are absorbed in the ice or hit a DOM. To optimize computing time, the DOMs were scaled in radius (nominally with a factor of 5) to force more photon interactions. The number of photons emitted was then appropriately scaled down with the square of this scaling factor\footnote{The surface of a sphere scales with the square of the radius.}. With the Frank-Tamm formula (Eq. \ref{eq:franktamm}) it is possible to calculate the expected number of photons produced per unit length in the wavelength interval of interest\footnote{From Figure \ref{fig:acceptance} it is clear that $\lambda_1 \approx 300$ nm and $\lambda_2 \approx 650$ nm.}
 
 \begin{equation}
 \frac{dN}{dx} = \int_{\lambda_1}^{\lambda_2} \frac{2 \pi \alpha}{\lambda^2} \sin^2 \left(\theta_c\right) d\lambda = 2\pi \alpha \sin^2 \left(\theta_c\right) \left(\frac{1}{\lambda_1} -\frac{1}{\lambda_2}\right).
 \end{equation}
-From this formula, we find that the expected rate of a Cherenkov emission profile is equal to $\approx 350$ photons/cm. Together with the DOM acceptance, which has an overall average of around 7\%, the expected \textit{seen} number of photons per meter is equal to 2450 m$^{-1}$.\\
+From this formula, we find that the expected rate of a Cherenkov emission profile is equal to $\approx 350$ photons/cm. Together with the DOM acceptance curve, as shown in Figure \ref{fig:acceptance}, which has an overall average of around 7\%, the expected \textit{observed} number of photons is equal to 2450 m$^{-1}$.\\
 
-\noindent \texttt{PPC}\index{PPC} is a Photon Propagation Code, written in C++ and runs on graphic processing units (GPUs). This allows the code to run up to a hunderd times faster than in a CPU-only environment. \texttt{PPC} employs both CUDA (NVIDIA GPU only) and OpenCL programming interface (both NVIDIA and AMD GPUs) together with multiple CPU environments.
+\noindent \texttt{PPC}\index{PPC} is a Photon Propagation Code, written in C++ that runs on graphic processing units (GPUs). This allows the code to run up to a hunderd times faster than in a CPU-only environment. \texttt{PPC} employs both CUDA (NVIDIA GPU only) and OpenCL programming interface (both NVIDIA and AMD GPUs) together with multiple CPU environments.
 GPU environments allow the tracking of thousands of photons simultaneously, vastly improving the computational speed. For more information, see Ref. \cite{dimaspice}.
 
-Previous photon propagation code, such as \texttt{Photonics} \index{Photonics} \cite{Lundberg:2007mf}, produced 6-dimensional photon tables (3 spatial, 2 directional and 1 temporal). This meant that at least one set of tables had to be produced per particle type and per velocity and interpolation methods had to be used, with the accompanying inaccuracies. These tables also required significant disk space and the method was therefore replaced with the GPU-codes. Direct photon simulation also allows for other non-trivial implementations such as the tilting of ice layers.\\
+Previous photon propagation codes, such as \texttt{Photonics} \index{Photonics} \cite{Lundberg:2007mf}, produced 6-dimensional photon tables (3 spatial, 2 directional and 1 temporal). This meant that at least one set of tables had to be produced per particle type and per velocity and interpolation methods had to be used, with the accompanying inaccuracies. These tables also required significant disk space and the method was therefore replaced with the GPU-codes. Direct photon simulation also allows for other non-trivial implementations such as the tilting of ice layers.\\
 
 \noindent Another photon propagation code is called \texttt{CLSim}\index{CLSim}, which uses GEANT4 to propagate particles. A hybrid version called \texttt{HybridCLsim} is often used. Muons are propagated using \texttt{PROPOSAL}/\texttt{MMC} \index{MMC} and their stochastic losses (which are small showers) are simulated from tables whereas the ``bare muons'' (with their stochastics) are simulated using direct propagation. This avoids time loss for the rare but very computational high-energy cascade events.\\
 
-\noindent An illustration of photon propagation in the IceCube detector for both a cascade and track simulation is shown in Fig. \ref{fig:photonsimulation}.
+\noindent An illustration of photon propagation in the IceCube detector for both a cascade and track simulation is shown in Figure \ref{fig:photonsimulation}.
 
 \begin{figure}
 \centering
-\includegraphics[width=0.48\textwidth,height=1.9in]{chapter6/img/photons_track_rounded.png}
-\includegraphics[width=0.48\textwidth,height=1.9in]{chapter6/img/photons_cascade_rounded.png}
+\includegraphics[width=0.8\textwidth,height=2.6in]{chapter6/img/photons_track_rounded.png}
+%\includegraphics[width=0.48\textwidth,height=1.9in]{chapter6/img/photons_cascade_rounded.png}
 \caption{\textit{Left:} simulation of a track event in IceCube. Each line represents a photon path and colors indicate how far they have traveled from their generation point. \textit{Right:} simulation of a cascade event in IceCube.}
 \label{fig:photonsimulation}
 \end{figure}
@@ -226,7 +224,7 @@ Previous photon propagation code, such as \texttt{Photonics} \index{Photonics} \
 \section{Detector simulation}
 Further processing of the simulations involve:
 \begin{itemize}
-\item \texttt{Polyplopia}: a project dedicated to merge multiple events to account for coincident events (that are simulated independently). An estimated 15\% of CORSIKA events result in coincident events and make up de bulk of bad reconstructions where down-going muons are simulated as up-going (example see Fig. \ref{fig:coincidentevent});
+\item \texttt{Polyplopia}: a project dedicated to merge multiple events to account for coincident events (that are simulated independently). An estimated 15\% of CORSIKA events result in coincident events and make up de bulk of bad reconstructions where down-going muons are simulated as up-going (example see Figure \ref{fig:coincidentevent});
 \item \texttt{Vuvuzela}: the PMT noise is simulated as having an exponential component from  thermal and radioactive decays, and a log-normal contribution for scintillation;
 \item \texttt{PMT}: the time from the first photon entering the PMT to the readout after passing along multiple dynodes has an uncertainty, referred to as ``PMT jitter''\index{PMT jitter}. The amplification of photoelectrons by the PMT is also not constant and is simulated in this module. Additionally, the module accounts for prepulses, late pulses, afterpulses and saturation of the PMT. More information can be found in Refs. \cite{Abbasi:2010vc,Ma:2009aw}.
 \item \texttt{DOMLauncher}: the digitization of the PMT pulses and other behavior of the DOM mainboard (as explained in Section \ref{subsec:mainboard}) is done in this module. The three main features of the DOM that are simulated to generate launches are the discriminator, LC, and digitization.
@@ -235,21 +233,22 @@ Further processing of the simulations involve:
 
 \section{Processing}
 \label{sec:processing}
-After a full particle propagation and detector response simulation, the sample is sent through the same PnF procedure as is done with the data (see Section \ref{subsec:filters}). The different stages of processing are referred to as ``Levels'', where basic conversion from PnF formats to i3files is called \textit{Level0} done for data. Reconstructions, calibrations and hit cleaning necessary for the filters are done at \textit{Level1} while the filter processing is done at \textit{Level2}. These two levels are usually only run on simulation sets unless data is being reprocessed. 
+After a full particle propagation and detector response simulation, the sample is sent through the same PnF procedure as is done with the data (see Section \ref{subsec:filters}). The different stages of processing are referred to as ``Levels'', where basic conversion from PnF formats to i3files (see Section \ref{subsec:datahandling}) is called \textit{Level0}. Reconstructions, calibrations and hit cleaning necessary for the filters are done at \textit{Level1} while the filter processing is done at \textit{Level2} (Section \ref{subsec:filters}).
 
-\section{Burn sample}
+\section{Simulation validation: burn sample}
 \label{sec:burnsample}
-Getting the intricate details of physical events in non-trivial environments just right is not an easy task. In many steps of the way, simulations use fits and estimations. Some simulation datasets are reasonable to compare to the data, depending on the phase space one is looking at, while other datasets need other specifications. For example, analyses dedicated to measuring the cosmic ray interactions need much more fine-tuning in their models for the atmosphere, composition, interaction models, etc. than an analysis dedicated to search for muon tracks that first propagated through the Earth and have atmospheric muons as a background.
+Getting the intricate details of physical events in non-trivial environments just right is not an easy task. In many steps of the way, simulations use fits and estimations. Some simulation datasets are reasonable to compare to the data, depending on the phase space one is looking at, while other datasets need other specifications. For example, analyses dedicated to measuring the cosmic ray interactions need much more fine-tuning in their models for the atmosphere, composition, interaction models, etc. than an analysis dedicated to search for muon tracks that first propagated through the Earth and have atmospheric muons as a background. Similarly, in this analysis the burn sample was used to compare data and MC to determine if the agreement between both made for a valid comparison. This is done in the analysis presented in Chapter \ref{ch:space}.
 
-It is for this reason, most analyses select a certain subset of the data they want to analyze to compare to the Monte Carlo simulations. For this analysis, 10\% of the total data, called the \textit{burn sample}\index{burn sample}, was used to compare data to Monte Carlo. As indicated in Section \ref{subsec:datahandling}, the data is saved in 8-hour runs and the burn sample consists of every run ending with a `0'. The burn sample also allows to estimate the robustness of certain reconstructions and variables regarding differences in data and simulation.\\
+It is for this reason that most analyses select a certain subset of the data they want to analyze to compare to the Monte Carlo simulations. For the present work, 10\% of the total data, called the \textit{burn sample}\index{burn sample}, was used to compare data to Monte Carlo. As indicated in Section \ref{subsec:datahandling}, the data is saved in 8 hour runs and the burn sample consists of every run that ends on a `0'. The burn sample also allows to estimate the robustness of certain reconstructions and variables regarding differences in data and simulation.\\
 
-\noindent After the discovery of an SPE offset in the DOM response in 2015, it was decided that multiple years of data was to be reprocessed in what was called \textit{pass2 reprocessing} \cite{pass2}. Aside from the SPE correction, the raw pulses were reprocessed with 2017 PnF, making the data more uniform in the course of the years for easier comparison\footnote{Most filters did not undergo changes or only minor ones.}. This analysis makes use of data starting in the years 2011 to 2015 and are referred to as IC86-1 to IC86-5 where IC86 stands for the complete 86-string IceCube detector configuration and the last digit refers to the year of the season start. Only runs were considered that had
-
+\noindent After the discovery of an SPE offset in the DOM response in 2015, it was decided that multiple years of data was to be reprocessed in what was called \textit{pass2 reprocessing} \cite{pass2}. Aside from the SPE correction, the raw pulses were reprocessed with 2017 PnF, making the data more uniform in the course of the years for easier comparison\footnote{Most filters did not undergo changes or only minor ones.}. This analysis makes use of data starting in the years 2011 to 2015 and are referred to as IC86-1 to IC86-5 where IC86 stands for the complete 86-string IceCube detector configuration and the last digit refers to the year of the season start. More recent years were not fully processed in time for this analysis. Only runs were considered that had
+\vspace{2mm}
 \begin{enumerate}
 \item a positive tag from run coordinators (status == ``good\_i3''),
 \item at least 5000 active optical modules,
 \item all strings active during runtime.
 \end{enumerate}
+\vspace{2mm}
 
 \noindent The \textit{livetime} is the total time that the detector was up and running and non-corrupted data was processed. Due to the increase in detector uptime over the years, this also means that the livetime of the different datasets has increased. The livetime for the different years is equal to
 \vspace{2mm}
@@ -260,6 +259,7 @@ It is for this reason, most analyses select a certain subset of the data they wa
 \item around 36.6 days of livetime for IC86-4,
 \item around 36.7 days of livetime for IC86-5,
 \end{itemize}
+\vspace{2mm}
 
 \noindent resulting in a total burn sample livetime of around 170 days.
 
@@ -270,4 +270,4 @@ After a full simulation, it is possible to visualize the event in an event viewe
 
 The number of photons seen per DOM is indicated by the size of the spheres; the larger the sphere, the more PEs were seen. The color of the modules indicates the time of the pulse registration. The color scale can be chosen, but usually a rainbow pattern is used where red indicates the earliest pulse hits and blue the last. 
 
-An example is given in Fig. \ref{fig:photonsimulation}. \textcolor{red}{\\ \\ en in eerste steamshovel verwijzen naar dit deel?}.
+An example of a track event in the event viewer is given in Figure \ref{fig:photonsimulation}.

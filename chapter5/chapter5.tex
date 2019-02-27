@@ -3,7 +3,7 @@
 \begin{flushright}
 \textit{\\Computers are useless; they can only give you answers $\sim$ Pablo Picasso\\}
 \end{flushright}
-IceCube is a neutrino observatory located near the Amundsen-Scott South Pole Station close to the geographic South Pole. Experiments that search for astrophysical neutrinos need to be constructed with enormous instrumented volumes. IceCube is the first gigaton neutrino detector ever built and was designed specifically for this case. It is buried beneath the surface of the Antarctic ice, starting from around 1450 meters of depth and extending to around 2500 meters ($\sim$300 meters above bedrock). The ice acts as a medium for both the interaction of a neutrino and light propagation. This chapter serves as a general overview of the several components of IceCube detector together with an introduction to the data processing.\\
+IceCube is a neutrino observatory located near the Amundsen-Scott South Pole Station close to the geographic South Pole. Experiments that search for astrophysical neutrinos need to be constructed with enormous instrumented volumes. IceCube is the first gigaton neutrino detector ever built and was designed specifically for this case. It is buried beneath the surface of the Antarctic ice, starting from around 1450 meters of depth and extending to around 2500 meters ($\sim$300 meters above bedrock). The ice acts as a medium for both the interaction of a neutrino and light propagation. This chapter serves as a general overview of the several components of the IceCube detector together with an introduction to the data processing.\\
 \newline
 \noindent The main goal of the IceCube experiment is to learn more about the distant sources that we believe to be responsible for the production of the highest-energy cosmic rays. As indicated in Section \ref{sec:neutrinos}, neutrinos are crucial in gaining information about these far away sources. Large-scale detectors are necessary to observe the faint flux of neutrinos with very high energies. Detecting the Cherenkov radiation (Chapter \ref{ch:cherenkov}) from neutrino interactions is the best way to observe these weakly interacting particles. Because hadronic, elecromagnetic and muonic components from these interactions require a medium that extends to a couple of kilometers and has good light propagation charactaristics, the South Pole ice sheet acts as a near ideal component of the detector. As a proof of concept, the AMANDA (Antarctic Muon And Neutrino Detector Array) experiment was built between 1996 and 2000 to show that neutrinos with energies above 50 GeV could be detected in the Antarctic ice \cite{amandaurl,Andres:1999hm}. After construction was finalized, this detector consisted of 677 optical modules mounted on 19 separate strings that are spread out in a rough circle with a diameter of around 200 meters. The strings were deployed by first ``drilling'' holes in the ice with a hot-water hose, showing that this specific drilling technique works and can be used on larger scales. After some years of data taking, it was clear that high-energy neutrinos could be observed, paving the way for the much larger IceCube project \cite{Ahrens:2002gq}.
 
@@ -69,7 +69,7 @@ A particle's direction is defined with zenith and azimuth angles, $\theta$ and $
 \subsection{Digital optical modules}
 \label{subsec:doms}
 The Digital Optical Modules, or DOMs, convert light into electrical signals and have the necessary hardware installed to perform some basic processing of the electrical pulses. A downward facing 10''-diameter photomultiplier tube (PMT) is set with a high voltage of 2 kV, resulting in a gain of $10^7$ \cite{Aartsen:2016nxy}. The amplitude of the resulting waveforms ranges from 1 mV up to and beyond the linearity limit of the PMT ($\sim2$ V) with the width ranging from 12 ns to 1500 ns. This wide dynamic range of the waveform is processed by onboard electronics: the main board and delay board. The main board controls all the devices in the DOM (high voltage power supply for the PMT, the flasher board and pressure, temperature, and power supply voltage monitor sensors), digitizes the PMT waveforms, communicates with the data acquisition (DAQ) on the surface, houses an internal clock that is regularly calibrated with the DAQ on the surface and exchanges pulses with the adjacent DOMs.
-An illustration of the mechanical components of the optical module and a schematic view of the data flow starting from the PMT is shown in Figure \ref{fig:DOM}. The optical module is housed in a 13''-glass sphere of 0.5'' thick made from borosilicate. It is separated into two halves and held together with an aluminium waistband. The sphere was tested up to 690 bar hydrostatic pressure and is able to withstand the enormous pressure that the DOM is exposed to deep within the ice and during freezing (see Section \ref{sec:deployment}). A penetrator inside the glass sphere brings out three wires pairs housed in a cable. One wire pair is connected to the string and ultimately to the IceCube Laboratory (see Section \ref{subsec:icl}), the other two wires to the neighboring DOMs directly above and below for local coincidence pulses (see Section \ref{subsec:cablesystems}). A detailed description is given in the detector paper \cite{Aartsen:2016nxy}.
+An illustration of the mechanical components of the optical module and a schematic view of the data flow starting from the PMT is shown in Figure \ref{fig:DOM}. The optical module is housed in a 13''-glass sphere of 0.5'' thick made from borosilicate. It is separated into two halves and held together with an aluminium waistband. The sphere was tested up to 690 bar hydrostatic pressure and is able to withstand the enormous pressure that the DOM is exposed to deep within the ice and during freezing (see Section \ref{sec:deployment}). A penetrator inside the glass sphere brings out three wires pairs housed in a cable. One wire pair is connected to the string and ultimately to the IceCube Laboratory (see Section \ref{subsec:icl}). The other two wires are connected to the neighboring DOMs directly above and below for local coincidence pulses (see Section \ref{subsec:cablesystems}). A detailed description is given in the detector paper \cite{Aartsen:2016nxy}.
 
 \begin{figure}
 \includegraphics[width=0.48\textwidth]{chapter5/img/DOM-Picture.png}
@@ -81,10 +81,10 @@ An illustration of the mechanical components of the optical module and a schemat
 \subsubsection{PMTs}
 The 10'' (or 25 cm) diameter PMT comes in two types: Hamamatsu R7081-02 for standard IceCube DOMs and a high-quantum-efficiency (HQE) version, Hamamatsu R7081-02MOD for the specialized DeepCore strings \cite{Abbasi:2010vc}. The peak quantum efficiency is around 25\% (34\% for HQE) at a wavelength of approximately 390 nm. However, the total acceptance of the optical module is the convolution of the quantum efficiency with the glass transmission (93\% at 400 nm, decreasing to 50\% at 340 nm and 10\% at 315 nm at a normal incidence). The resulting acceptance is illustrated in Figure \ref{fig:acceptance}. The PMTs face downwards and are housed in a mu-metal grid to shield them from the Earth magnetic field and a silicone gel necessary for optical coupling and mechanical support.
 
-\begin{figure}[ht]
+\begin{figure}[t]
 \centering
 \includegraphics[width=0.7\textwidth]{chapter5/img/acceptanceDOM.png}
-\caption{Fraction of photons arriving from a direction parallel to the PMT axis in function of the photon wavelength. Glass and gel transmission, PMT quantum and collection efficiencies are all included. Figure from Ref. \cite{Aartsen:2013rt}.}
+\caption{Fraction of photons arriving from a direction parallel to the PMT axis and are recorded in function of the photon wavelength. Glass and gel transmission, PMT quantum and collection efficiencies are all included. Figure from Ref. \cite{Aartsen:2013rt}.}
 \label{fig:acceptance}
 \end{figure}
 
@@ -157,7 +157,7 @@ In total, 5484 (5160 IC + 324 IT) optical modules were deployed and as of 2018, 
 \caption{Schematic overview of the data flow in the primary IceCube online systems.}
 \label{fig:dataflow}
 \end{figure}
-First processing of the photon detection is done inside the DOM. After digitization, the waveforms are sent along the cable/string to which all DOMs are attached and that runs to the ICL. Each one of the strings is connected to one of the DOMHubs, which together with servers that run various online systems, comprises the South Pole System (SPS). An overview is given in Figure \ref{fig:dataflow}.
+First processing of the photon detection is done inside the DOM as mentioned in Section \ref{subsec:mainboard}. After digitization, the waveforms are sent along the cable/string to which all DOMs are attached and that runs to the ICL. Each one of the strings is connected to one of the DOMHubs, which together with servers that run various online systems, comprises the South Pole System (SPS). An overview is given in Figure \ref{fig:dataflow}.
 
 The data acquisition (DAQ) system is run on the DOMHubs and recognizes patterns in hits that are most likely caused by particle interactions with the use of the implemented triggers and filters (see below). This combination of hits is called an ``event''. Most of the DAQ data rate originates from atmospheric muons with an event rate averaging 2.7 kHz. The total bandwith saved to tape/disk (see Section \ref{subsec:datahandling}) is approximately 1 TB/day.
 
@@ -232,6 +232,28 @@ Most of the data is processed with the PnF system. The geometry, calibration, an
 
 \noindent Files are stored in IceCube specific files and are called \textit{i3files} \index{i3file}.
 
+\section{IceCube event topology}
+The compressed waveforms are refolded to approximations of the original waveforms using average single-photoelectron pulse shapes as can be seen in Figure \ref{fig:waveform}. The timing, shape and amplitude of the reconstructed waveforms in all the DOMs in an event are used to characterize the event topologies in the detector. Different interactions give rise to several possible signatures in the detector. Energetic muons propagate several hunderds of meters in the ice and give rise to tracks, whereas electrons and hadrons are stopped almost immediately, giving rise to cascades (see Section \ref{sec:propagation}).
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\textwidth]{chapter5/img/waveform.png}
+\caption{\textit{Left:} pulse information illustrated with blue bars; the leading-edges time, width, and charge of the pulse are given by the left edge, width, and height of the bar, respectively. The red bars show the same after SuperDST compression. \textit{Right: }Reconstructed pulses using the full pulse profiles in blue are compared to an approximation of the original waveform that is obtained by convolving the pulse times and charges with an average single-photoelectron pulse shape. Figures from Ref. \cite{waveforms}.}
+\label{fig:waveform}
+\end{figure}
+
+The track-like events, originating from charged-current muon neutrino interactions, provide an angular resolution at a typical angle of 1$^\circ$ for well-contained and reconstructed tracks at 1 TeV and improves to $\sim 0.3^\circ$ for neutrinos with an energy of 1 PeV \cite{Aartsen:2018ywr}. Cascades, originating from electromagnetic or hadronic cascades, result in a more spherical light generation in the detector. Well-contained shower events have an average deposited energy resolution of around 15\%. These event types are shown in more detail in Figure \ref{fig:ICinteractions2}.
+ 
+
+\begin{figure}
+\centering
+\includegraphics[width=\textwidth]{chapter4/img/ICinteractions2.png}
+\caption{Neutrino interactions in the IceCube detector have two distinct types of interactions: cascades and tracks. Energetic taus are theorized to have double-bang signatures but have not undeniably been seen. Colors determine the timing of hits in the optical modules in the ice. Illustrations from the IceCube collaboration \cite{kjeroSignatures}.}
+\label{fig:ICinteractions2}
+\end{figure}
+
+
+
 \section{Antarctic ice}
 \label{sec:ice}
 The ice, in which the optical modules are frozen, acts as the propagation medium for the light that is produced by relativistic particles. Therefore, the parameterization of the ice is of great importance for good reconstructions and reliable simulations. The relativistic particles that travel through the ice produce photons in a Cherenkov cone of around 41$^\circ$ (see Section \ref{sec:cherenkoveffect}). How these photons further propagate from the point of emission to the receiving sensors is determined by the absorption and scattering within the ice. The most important parameters necessary to describe the photon propagation in ice are:
@@ -286,25 +308,6 @@ Over the years, multiple different ice models have been constructed. For this an
 \subsection{Systematic uncertainties}
 The characteristics of the ice are complex. Dust particles, the tilt in the ice sheets, etc. result into non-negligible uncertainties in the ice model. Data from the flasher runs are compared to simulation and this verification was used to quantify the uncertainty on the measured values of $b_e(400)$ and $a(400)$. From this, it was determined that $(+10\%,0), (0,+10\%)$ and $(-7.1\%,-7.1\%)$ uncertainties on the scattering and absorption coefficients, respectively, was a conservative estimation.
 
-\section{IceCube event topology}
-The compressed waveforms are refolded to approximations of the original waveforms using average single-photoelectron pulse shapes as can be seen in Figure \ref{fig:waveform}. The timing, shape and amplitude of the reconstructed waveforms in all the DOMs in an event are used to characterize the event topologies in the detector. Different interactions give rise to several possible signatures in the detector. Energetic muons propagate several hunderds of meters in the ice and give rise to tracks, whereas electrons and hadrons are stopped almost immediately, giving rise to cascades (see Section \ref{sec:propagation}).
-
-\begin{figure}[t]
-\centering
-\includegraphics[width=\textwidth]{chapter5/img/waveform.png}
-\caption{\textit{Left:} pulse information illustrated with blue bars; the leading-edges time, width, and charge of the pulse are given by the left edge, width, and height of the bar, respectively. The red bars show the same after SuperDST compression. \textit{Right: }Reconstructed pulses using the full pulse profiles in blue are compared to an approximation of the original waveform that is obtained by convolving the pulse times and charges with an average single-photoelectron pulse shape. Figures from Ref. \cite{waveforms}.}
-\label{fig:waveform}
-\end{figure}
-
-The track-like events, originating from charged-current muon neutrino interactions, provide an angular resolution at a typical angle of 1$^\circ$ for well-contained and reconstructed tracks at 1 TeV and improves to $\sim 0.3^\circ$ for neutrinos with an energy of 1 PeV \cite{Aartsen:2018ywr}. Cascades, originating from electromagnetic or hadronic cascades, result in a more spherical light generation in the detector. Well-contained shower events have an average deposited energy resolution of around 15\%. These event types are shown in more detail in Figure \ref{fig:ICinteractions2}.
- 
-
-\begin{figure}
-\centering
-\includegraphics[width=\textwidth]{chapter4/img/ICinteractions2.png}
-\caption{Neutrino interactions in the IceCube detector have two distinct types of interactions: cascades and tracks. Energetic taus are theorized to have double-bang signatures but have not undeniably been seen. Colors determine the timing of hits in the optical modules in the ice. Illustrations from the IceCube collaboration \cite{kjeroSignatures}.}
-\label{fig:ICinteractions2}
-\end{figure}
 
 
 \section{Future upgrades}
@@ -349,7 +352,9 @@ Deployment is currently planned for the 2022/2023 season.
 \label{fig:gen2}
 \end{figure}
 
-\noindent Although the IceCube in-ice array has successfully been able to determine the flux of astrophysical neutrinos and show the detection of a coincident neutrino with a blazar in an active state, a next generation larger detector infill would greatly improve the detection possibilities of astrophysical neutrinos \cite{Blaufuss:2015muc}. A 10 km$^3$ volume of clear glacial ice would allow for a much higher detector acceptance of high-energy neutrino interactions, helping in searches for point sources, beter characterizing the spectral and flavor properties, and search for cosmogenic neutrinos among others. Point sources and cosmogenic neutrinos have, for now, not been observed even though the detector has been running stable for a couple of years. There is also only a small set of unambiguous astrophysical neutrinos. It would take extremely large running operations from the current detector (without hardware failures that are prone to happen more and more) to gather enough events for meaningful statistics. A much larger instrumented volume, such as the one proposed, is predicted to have an increase in sensitivity to transient source densities and rated by about two orders of magnitude \cite{Ahlers:2014ioa}. Also, a large extension of the active volume could help to look for long tracks originating from SMPs. Although much is undecided, the plans are to have an extra surface array for cosmic ray detecton and a radio array for the highest energy neutrinos along the in-ice array.\\
+\noindent Although the IceCube in-ice array has successfully been able to determine the flux of astrophysical neutrinos and show the detection of a coincident neutrino with a blazar (see Section \ref{subsubsec:agn}) in an active state, a next generation larger detector infill would greatly improve the detection possibilities of astrophysical neutrinos \cite{Blaufuss:2015muc}. A 10 km$^3$ volume of clear glacial ice would allow for a much higher detector acceptance of high-energy neutrino interactions, helping in searches for point sources, beter characterizing the spectral and flavor properties, and search for cosmogenic neutrinos among others. Point sources and cosmogenic neutrinos have, for now, not been observed even though the detector has been running stable for a couple of years. There is also only a small set of unambiguous astrophysical neutrinos. It would take extremely large running operations from the current detector (without hardware failures that are prone to happen more and more) to gather enough events for meaningful statistics. A much larger instrumented volume, such as the one proposed, is predicted to have an increase in sensitivity to transient source densities and rated by about two orders of magnitude \cite{Ahlers:2014ioa}. Also, a large extension of the active volume could help to look for long tracks originating from SMPs.
+
+Although much is undecided, the plans are to have an extra surface array for cosmic ray detecton and a radio array for the highest energy neutrinos along the in-ice array.\\
 \newline
 \textcolor{red}{Deployment is planned for ???}
 
@@ -413,7 +418,7 @@ The IceCube experiment consists of about 300 people from 50 institutions spread 
 \end{figure}
 
 \textcolor{red}{is dit  nu goed uitgelegd of niet?\\}
-Lorentz symmetry is one of the foundations of the SM: fundamental laws in nature are thought to be independent of the observer's inertial frame. Some SM extensions allow for spontaneous breaking of Lorentz symmetry and can lead to Lorentz-invariance violating (LIV) effects. Examples are string theory or quantum gravity. Some effects that would follow from these extensions are incorporated in the Standard Model Extension (SME) \cite{Colladay:1998fq} and although the size of LIV effects should be suppressed by the Planck scale ($\approx 10^{19}$ GeV). They could manifest themselves in, e.g., oscillations of atmospheric neutrinos that would modify the observed energy and zenith angle distributions of atmospheric muon neutrinos observed by the IceCube experiment. The LIV effects are often parametrised by two paramameters: $\rho_d$ and $\cos \left(\theta_d\right)$ (which are explained in the capture of Figure \ref{fig:lv}), where $d$ refers to the power of the operator in the Hamiltonian. The energy reach of the IceCube detector makes it possible to go to dimensions up to 8 whereas most other experiments are sensitive up to dimension $d=3$ or $d=4$. This analysis was done first in the 40-string configuration \cite{Abbasi:2010kx} and later redone with the full detector configuration \cite{Aartsen:2017ibm}. Results for $3 \leq d \leq 8$ are shown in Figure \ref{fig:lv}.
+Lorentz symmetry is one of the foundations of the SM: fundamental laws in nature are thought to be independent of the observer's inertial frame. Some SM extensions allow for spontaneous breaking of Lorentz symmetry and can lead to Lorentz-invariance violating (LIV) effects. Examples are string theory or quantum gravity. Some effects that would follow from these extensions are incorporated in the Standard Model Extension (SME) \cite{Colladay:1998fq}. Although the size of LIV effects should be suppressed by the Planck scale ($\approx 10^{19}$ GeV), they could manifest themselves in, e.g., oscillations of atmospheric neutrinos that would modify the observed energy and zenith angle distributions of atmospheric muon neutrinos observed by the IceCube experiment. The LIV effects are often parametrised by two paramameters: $\rho_d$ and $\cos \left(\theta_d\right)$ (which are explained in the capture of Figure \ref{fig:lv}), where $d$ refers to the power of the operator in the Hamiltonian. The energy reach of the IceCube detector makes it possible to go to dimensions up to 8 whereas most other experiments are sensitive up to dimension $d=3$ or $d=4$. This analysis was done first in the 40-string configuration \cite{Abbasi:2010kx} and later redone with the full detector configuration \cite{Aartsen:2017ibm}. Results for $3 \leq d \leq 8$ are shown in Figure \ref{fig:lv}.
 
 \subsection{Dark matter}
 \label{subsubsec:DM}
