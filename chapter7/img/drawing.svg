@@ -16,7 +16,10 @@
    viewBox="0 0 744.09448819 1052.3622047"
    height="297mm"
    width="210mm"
-   sodipodi:docname="drawing.svg">
+   sodipodi:docname="drawing.svg"
+   inkscape:export-filename="/home/ward/Documents/PhD Thesis/Document/chapter7/img/linefit2.png"
+   inkscape:export-xdpi="341.88547"
+   inkscape:export-ydpi="341.88547">
   <defs
      id="defs4">
     <marker
@@ -121,8 +124,8 @@
      showgrid="false"
      inkscape:current-layer="layer1"
      inkscape:document-units="px"
-     inkscape:cy="851.22465"
-     inkscape:cx="142.31278"
+     inkscape:cy="843.60298"
+     inkscape:cx="141.437"
      inkscape:zoom="5.6568543"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
@@ -309,22 +312,24 @@
        inkscape:export-ydpi="341.88547" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:124.00000095%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#5927d0;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
-       x="140.625"
-       y="207.98718"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:124.00000095%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#5927d0;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="139.625"
+       y="205.36218"
        id="text10231"
        sodipodi:linespacing="124%"
        inkscape:export-xdpi="341.88547"
        inkscape:export-ydpi="341.88547"><tspan
          sodipodi:role="line"
          id="tspan10233"
-         x="140.625"
-         y="207.98718"
-         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.5px;line-height:124.00000095%;font-family:'Liberation Mono';-inkscape-font-specification:'Liberation Mono Italic';fill:#5927d0;fill-opacity:1;">V</tspan></text>
+         x="139.625"
+         y="205.36218"
+         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.5px;line-height:124.00000095%;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman,  Bold Italic';fill:#5927d0;fill-opacity:1">v<tspan
+   style="font-size:64.99999762%;baseline-shift:sub;-inkscape-font-specification:'Latin Modern Roman,  Bold';font-family:'Latin Modern Roman';font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal"
+   id="tspan4257">part</tspan></tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:124.00000095%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#5927d0;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="127.54932"
+       x="127.17432"
        y="217.26431"
        id="text10231-3"
        sodipodi:linespacing="124%"
@@ -334,12 +339,12 @@
        inkscape:export-ydpi="341.88547"><tspan
          sodipodi:role="line"
          id="tspan10233-7"
-         x="127.54932"
+         x="127.17432"
          y="217.26431"
-         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.5px;line-height:124.00000095%;font-family:'Liberation Mono';-inkscape-font-specification:'Liberation Mono Italic';fill:#280b0b;fill-opacity:1">r</tspan></text>
+         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.5px;line-height:124.00000095%;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman,  Bold Italic';fill:#280b0b;fill-opacity:1">r</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:7.5px;line-height:124.00000095%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;baseline-shift:baseline;fill:#ff5454;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+       style="font-style:oblique;font-weight:normal;font-size:7.5px;line-height:124.00000095%;font-family:Garuda;letter-spacing:0px;word-spacing:0px;baseline-shift:baseline;fill:#ff5454;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;-inkscape-font-specification:'Garuda Oblique';font-stretch:normal;font-variant:normal;"
        x="166.72168"
        y="167.1378"
        id="text10231-3-2"
@@ -352,10 +357,10 @@
          id="tspan10233-7-5"
          x="166.72168"
          y="167.1378"
-         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5px;line-height:124.00000095%;font-family:'Liberation Mono';-inkscape-font-specification:'Liberation Mono Italic';baseline-shift:baseline;fill:#ff5454;fill-opacity:1;">(r<tspan
+         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5px;line-height:124.00000095%;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman,  Bold Italic';baseline-shift:baseline;fill:#ff5454;fill-opacity:1">(r<tspan
    id="tspan10271"
-   style="font-size:5px;baseline-shift:sub;fill:#ff5454;fill-opacity:1;">1</tspan>,t<tspan
-   style="font-size:5px;baseline-shift:sub;fill:#ff5454;fill-opacity:1;"
+   style="font-size:3.25px;baseline-shift:sub;fill:#ff5454;fill-opacity:1;-inkscape-font-specification:'Latin Modern Roman, Bold Italic';font-family:'Latin Modern Roman';font-weight:bold;font-style:italic;font-stretch:normal;font-variant:normal">1</tspan>,t<tspan
+   style="font-size:3.25px;baseline-shift:sub;fill:#ff5454;fill-opacity:1;-inkscape-font-specification:'Latin Modern Roman, Bold Italic';font-family:'Latin Modern Roman';font-weight:bold;font-style:italic;font-stretch:normal;font-variant:normal"
    id="tspan10277">1</tspan>)</tspan></text>
     <text
        xml:space="preserve"
@@ -372,10 +377,10 @@
          id="tspan10233-7-5-7"
          x="179.01633"
          y="185.3278"
-         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5px;line-height:124.00000095%;font-family:'Liberation Mono';-inkscape-font-specification:'Liberation Mono Italic';baseline-shift:baseline;fill:#ff5454;fill-opacity:1">(r<tspan
+         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5px;line-height:124.00000095%;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman,  Bold Italic';baseline-shift:baseline;fill:#ff5454;fill-opacity:1">(r<tspan
    id="tspan10271-6"
-   style="font-size:5px;baseline-shift:sub;fill:#ff5454;fill-opacity:1">2</tspan>,t<tspan
-   style="font-size:5px;baseline-shift:sub;fill:#ff5454;fill-opacity:1"
+   style="font-size:3.25px;baseline-shift:sub;fill:#ff5454;fill-opacity:1;-inkscape-font-specification:'Latin Modern Roman, Bold Italic';font-family:'Latin Modern Roman';font-weight:bold;font-style:italic;font-stretch:normal;font-variant:normal">2</tspan>,t<tspan
+   style="font-size:3.25px;baseline-shift:sub;fill:#ff5454;fill-opacity:1;-inkscape-font-specification:'Latin Modern Roman, Bold Italic';font-family:'Latin Modern Roman';font-weight:bold;font-style:italic;font-stretch:normal;font-variant:normal"
    id="tspan10277-8">2</tspan>)</tspan></text>
     <text
        xml:space="preserve"
@@ -392,18 +397,18 @@
          id="tspan10233-7-5-3"
          x="221.61952"
          y="235.35561"
-         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5px;line-height:124.00000095%;font-family:'Liberation Mono';-inkscape-font-specification:'Liberation Mono Italic';baseline-shift:baseline;fill:#ff5454;fill-opacity:1">(r<tspan
-   style="font-size:65%;baseline-shift:sub"
+         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5px;line-height:124.00000095%;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman,  Bold Italic';baseline-shift:baseline;fill:#ff5454;fill-opacity:1">(r<tspan
+   style="font-size:65%;baseline-shift:sub;-inkscape-font-specification:'Latin Modern Roman,  Bold Italic';font-family:'Latin Modern Roman';font-weight:bold;font-style:italic;font-stretch:normal;font-variant:normal"
    id="tspan10317">3</tspan>,t<tspan
-   style="font-size:65%;baseline-shift:sub"
+   style="font-size:65%;baseline-shift:sub;-inkscape-font-specification:'Latin Modern Roman,  Bold Italic';font-family:'Latin Modern Roman';font-weight:bold;font-style:italic;font-stretch:normal;font-variant:normal"
    id="tspan10315">3</tspan>)</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:7.5px;line-height:124.00000095%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;baseline-shift:baseline;fill:#ff5454;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.5px;line-height:123.00000191%;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS';letter-spacing:0px;word-spacing:0px;baseline-shift:baseline;fill:#ff5454;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="164.87421"
        y="217.50116"
        id="text10231-3-2-3-3"
-       sodipodi:linespacing="124%"
+       sodipodi:linespacing="123%"
        inkscape:transform-center-x="-7.9549513"
        inkscape:transform-center-y="16.970585"
        inkscape:export-xdpi="341.88547"
@@ -412,8 +417,10 @@
          id="tspan10233-7-5-7-5"
          x="164.87421"
          y="217.50116"
-         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5px;line-height:124.00000095%;font-family:'Liberation Mono';-inkscape-font-specification:'Liberation Mono Italic';baseline-shift:baseline;fill:#241c1c;fill-opacity:1">r+vt<tspan
-   style="font-size:64.99999762%;baseline-shift:sub;fill:#241c1c"
+         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5px;line-height:124.00000095%;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Bold Italic';letter-spacing:-0.15000001px;baseline-shift:baseline;fill:#241c1c;fill-opacity:1">r+v<tspan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:64.99999762%;line-height:123.00000191%;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman,  Bold';letter-spacing:-0.15000001px;baseline-shift:sub"
+   id="tspan4229">part</tspan>t<tspan
+   style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:64.99999762%;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Bold Italic';letter-spacing:-0.15000001px;baseline-shift:sub;fill:#241c1c"
    id="tspan10343">1</tspan></tspan></text>
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.4;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:0.4,0.8;stroke-dashoffset:0"
@@ -458,8 +465,8 @@
          id="tspan10233-7-5-7-5-9"
          x="172.23344"
          y="228.77557"
-         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5px;line-height:124.00000095%;font-family:'Liberation Mono';-inkscape-font-specification:'Liberation Mono Italic';baseline-shift:baseline;fill:#241c1c;fill-opacity:1">d<tspan
-   style="font-size:65%;baseline-shift:sub"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5px;line-height:124.00000095%;font-family:cmmi10;-inkscape-font-specification:cmmi10;baseline-shift:baseline;fill:#241c1c;fill-opacity:1;">d<tspan
+   style="font-size:65%;baseline-shift:sub;-inkscape-font-specification:cmmi10;font-family:cmmi10;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
    id="tspan4226">1</tspan></tspan></text>
   </g>
 </svg>
