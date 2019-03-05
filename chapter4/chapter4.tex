@@ -34,7 +34,7 @@ v = c/n.
 
 \noindent When a charged particle moves inside a dielectric medium, it excites the molecules of the medium to the higher levels and excited states. The molecules emit photons in the form of electromagnetic radiation upon returning back to their ground state. According to the \textit{Huygens principle}, the emitted waves move out spherically at the phase velocity of the medium (which can be less than the speed of light in vacuum). If the motion of the particle is slow, the radiated waves bunch up slightly in the direction of motion, but they do not cross. However, if the particle moves faster than the light speed, the emitted waves add up constructively, leading to a coherent radiation at angle $\theta_c$ with respect to the particle direction; Cherenkov radiation. The coherent interference is enough to be visible to the naked eye\footnote{The typical blue light in the cooling water at nuclear reactors is also due to this Cherenkov radiation.}. The signature of the effect is a cone of emission in the direction of particle motion. Figure \ref{fig:cherenkov} shows a schematic view of the Cherenkov radiation, illustrating the typical spherical wavefront and the resulting radiation\footnote{The typical cone shape of this effect can be easily seen when observing ducks. If a duck is traveling in a straight line in the water, individual concentric waves can be distinguished and a cone shaped wave is produced behind them.}.
 
-\begin{figure}[ht]
+\begin{figure}[t]
 \centering
 \includegraphics[width=0.6\textwidth]{chapter4/img/cherenkov2.png}
 \caption{Schematic view of Cherenkov radiation from a particle traveling at a velocity $v$.}
@@ -78,14 +78,14 @@ The IceCube experiment is a neutrino detector, but neutrinos have no electromagn
 \nu_l \left(\bar{\nu}_l\right) + N &\xrightarrow{W} l^- \left(l^+\right) + X^{+\left(-\right)} \ \ && \left(CC\right)\\
 \nu_l \left(\bar{\nu}_l\right) + N &\xrightarrow{Z} \nu'_l \left(\bar{\nu}'_l\right) + X && \left(NC\right),
 \end{alignat}
-where $l$ is the lepton flavor ($e,\mu,\tau$), $N$ denotes the inital hadronic state of the nucleus and $X$ the final hadronic state. These interactions are illustrated in Figure \ref{fig:feynmanneutrino}.\\
+where $l$ is the lepton flavor ($e,\mu,\tau$), $N$ denotes the initial hadronic state of the nucleus and $X$ the final hadronic state. These interactions are illustrated in Figure \ref{fig:feynmanneutrino}.\\
 \newline
 The charged leptons and hadrons lead to light production via gamma ray production and Cherenkov radiation. With the right material, it is possible to detect this light production and reconstruct some of the neutrino's characteristics. \textcolor{red}{Because the light production depends on the square of the charge of a particle, the IceCube detector is not powerful in detecting if the primary particle was a neutrino or antineutrino\footnote{Although it is not possible to distinguish neutrino from antineutrino events on an event-by-event basis, there are ways to look at differences. One example is to look at inelasticity effects as done in Ref. \cite{Aartsen:2018vez}.}.}
 
 \begin{figure}[t]
 \centering
 \includegraphics[width = 0.9\textwidth]{chapter4/img/feynmanneutrino.png}
-\caption{Feynman diagrams of NC (\textit{left}) and CC (\textit{right}) neutrino interactions. $l$ is the lepton flavor ($e,\mu,\tau$), $N$ denotes the intial hadronic state of the nucleus and $X$ the final hadronic state. The antineutrino interactions are given in brackets.}
+\caption{Feynman diagrams of NC (\textit{left}) and CC (\textit{right}) neutrino interactions. $l$ is the lepton flavor ($e,\mu,\tau$), $N$ denotes the initial hadronic state of the nucleus and $X$ the final hadronic state. The antineutrino interactions are given in brackets.}
 \label{fig:feynmanneutrino}
 \end{figure}
 
@@ -106,7 +106,7 @@ As described in Section \ref{sec:neutrinointeractions}, neutrinos give rise to s
 
 In a charged current neutrino interaction, the energetic electron gives rise to a shower of gamma rays (bremsstrahlung) and positrons and electrons (pair production). Positrons and electrons in their turn emit new gamma rays and this process continues until the photon energies fall below the pair production threshold. Because electrons/positrons lose their energy fast, they are almost immediately stopped, giving an \textit{electromagnetic cascade} an almost spherical shape.
 
-Let us assume $E_0$ is the energy of the incoming electron. In a very simplistic toy model one can say that an electron emits one photon after one radiation length, $X_0$. A photon will decay into an electron-positron pair after approximately one radiation length too\footnote{In fact one radiation length implies $1/e$ times the initial energy. Assuming the electron loses half its energy to the photon, then 0.63/0.5 $\approx 1$. After one radiation length, a high energy photon loses $\approx 7/9$ times its energy via bremsstrahlung, again we assume $\approx 1$.}. At every decay or radiation process, it is assumed that the daugher particles carry 1/2 of the energy. After $t$ steps, the energy is equal to
+Let us assume $E_0$ is the energy of the incoming electron. In a very simplistic toy model one can say that an electron emits one photon after one radiation length, $X_0$. A photon will decay into an electron-positron pair after approximately one radiation length too\footnote{In fact one radiation length implies $1/e$ times the initial energy. Assuming the electron loses half its energy to the photon, then 0.63/0.5 $\approx 1$. After one radiation length, a high energy photon loses $\approx 7/9$ times its energy via bremsstrahlung, again we assume $\approx 1$.}. At every decay or radiation process, it is assumed that the daughter particles carry 1/2 of the energy. After $t$ steps, the energy is equal to
 
 \begin{equation}
 E(t) = \frac{E_0}{2^t}.
@@ -129,7 +129,7 @@ X = X_0 \frac{\ln\left(\frac{E_0}{E_c}\right)}{\ln 2}.
 This logarithmic dependence on the energy of the initial particle will therefore result into elongations of a couple of meters at most. Typical values in ice are $X_0 \approx 40$ cm and $E_c \approx 80$ MeV.
 
 \subsubsection{Hadrons}
-In the case of neutral current events, the breakup of the struck nucleus leads to charged byproducts. These byproducts can reinteract in the medium and produce neutral pions that decay into gamma rays. These particles again die out quickly, resulting in a spherical emission of light for \textit{hadronic cascades}. The basic development of hadronic cascades in space is very similar to that of electromagnetic ones, but with important differences in energy loss, particle content, lateral spread and fluctuations. Hadronic cascades contain particles heavier than electrons, that have a higher Cherenkov threshold. A fraction of them are slow neutrons, which do not produce any light. Neutral pions produce gamma rays. Charged pions, on the other hand, can decay into muons and muon neutrinos; long-ranged particles that do not contribute to the cascading process. Finally, a non-neglibible fraction of the energy is lost in the hadronic binding processes.
+In the case of neutral current events, the breakup of the struck nucleus leads to charged byproducts. These byproducts can re-interact in the medium and produce neutral pions that decay into gamma rays. These particles again die out quickly, resulting in a spherical emission of light for \textit{hadronic cascades}. The basic development of hadronic cascades in space is very similar to that of electromagnetic ones, but with important differences in energy loss, particle content, lateral spread and fluctuations. Hadronic cascades contain particles heavier than electrons, that have a higher Cherenkov threshold. A fraction of them are slow neutrons, which do not produce any light. Neutral pions produce gamma rays. Charged pions, on the other hand, can decay into muons and muon neutrinos; long-ranged particles that do not contribute to the cascading process. Finally, a non-negligible fraction of the energy is lost in the hadronic binding processes.
 
 The light yield will be smaller than the one obtained from an electromagnetic cascade of equal initial energy and with much larger event-by-event variations. 
 
@@ -150,7 +150,7 @@ Above 1 TeV, however, the muon, on average, loses more energy to stochastic\foot
 \label{fig:energyloss}
 \end{figure}
 
-\noindent The average energy loss from ionization and stochastic effects along the muon trajectory can be parametrized by \cite{Barrett:1952woo} 
+\noindent The average energy loss from ionization and stochastic effects along the muon trajectory can be parameterized by \cite{Barrett:1952woo} 
 
 \begin{equation}
 \label{eq:energyloss}
@@ -163,7 +163,7 @@ where $a$ and $b$ are obtained by fitting and can be found in Table \ref{tab:ene
 R_\mu \approx \frac{1}{b} \ln \left( \frac{E_\mu}{E_{th}} +1 \right),
 \end{split}
 \end{equation}
-with $E_{th} = a/b = 720$ GeV, the energy theshold above which stochastic effects are dominant.\\
+with $E_{th} = a/b = 720$ GeV, the energy threshold above which stochastic effects are dominant.\\
 
 
 % Please add the following required packages to your document preamble:
@@ -245,7 +245,7 @@ where $\sigma_{el}$ denotes the cross section for the Coulomb scattering of the 
 & \textrm{ \ \ where \ \ } \delta \approx \frac{\mu^2 \omega}{2E(E-\omega)},
 \end{split}
 \end{equation}
-where $\alpha$ is the fine structure constant and $\omega$ the photon's frequency with $\hbar = 1$. The atomic and nuclear formfactors are equal to
+where $\alpha$ is the fine structure constant and $\omega$ the photon's frequency with $\hbar = 1$. The atomic and nuclear form factors are equal to
 
 \begin{equation}
 \label{eq:formfactors}
@@ -254,7 +254,7 @@ where $\alpha$ is the fine structure constant and $\omega$ the photon's frequenc
 &\Delta \sigma^{el}_n(\delta) = \left[\frac{D_n}{1+\delta (D_n \sqrt{e} -1)/m_t}\right].
 \end{split}
 \end{equation}
-Values for $B$ and $D_n$ can be found in Ref. \cite{Kelner:1995hu}, here, $e$ is the base of the natural logarithm ($\approx 2.718$) and other constants are as defined in Eq. \ref{eq:ioniz}. Other parametrizations can be found in the corresponding literature \cite{Chirkin:2004hz}. 
+Values for $B$ and $D_n$ can be found in Ref. \cite{Kelner:1995hu}, here, $e$ is the base of the natural logarithm ($\approx 2.718$) and other constants are as defined in Eq. \ref{eq:ioniz}. Other parameterizations can be found in the corresponding literature \cite{Chirkin:2004hz}. 
 %mu hier dimensieloos (zie inleiding)
 
 \subsection{Inelastic component}
@@ -292,7 +292,7 @@ Parameters that aren't defined here can be found in the corresponding literature
 %\end{equation}
 \subsection{Pair production}
 \label{subsec:pairprod}
-Pair production occurs when the virtual photon radiated from the primary particle or proton splits into an electron-positron pair or muon-antimuon pair, as is illustrated in Figure \ref{fig:feynmannuclpairprod} (right). The differenctial cross section is equal to
+Pair production occurs when the virtual photon radiated from the primary particle or proton splits into an electron-positron pair or muon-antimuon pair, as is illustrated in Figure \ref{fig:feynmannuclpairprod} (right). The differential cross section is equal to
  
 \begin{equation}
 \begin{split}
@@ -312,4 +312,4 @@ and $\epsilon_+$ and $\epsilon_-$ denote the energies of the positively and nega
 
 \subsection{Conclusion}
 \label{sub:energylossconclusion}
-From the previous discussion we can conclude that the charge enters in the energy loss formulae quadratically for ionization, pair production and the photonuclear effect. Bremsstrahlung scales with a factor of $z^4$, making it negligible compared to the other energy losses. The influence of the mass of the particle enters these equations in a non-trivial manner but has a minimal effect, again with brensstrahlung as the exception. There, the mass enters with $1/m^2_t$, making it completely negligible for heavy particles. The effects from secondary particle production in the light yield are only substantial at very relativistic SMPs ($\approx 10^4$ times the rest mass). Due to the assumed $E^{-2}$ signal flux (see Chapter \ref{ch:theoreticalmotivation}), their relative contribution to the sample is very small but accounted for.
+From the previous discussion we can conclude that the charge enters in the energy loss formulae quadratically for ionization, pair production and the photonuclear effect. Bremsstrahlung scales with a factor of $z^4$, making it negligible compared to the other energy losses. The influence of the mass of the particle enters these equations in a non-trivial manner but has a minimal effect, again with bremsstrahlung as the exception. There, the mass enters with $1/m^2_t$, making it completely negligible for heavy particles. The effects from secondary particle production in the light yield are only substantial at very relativistic SMPs ($\approx 10^4$ times the rest mass). Due to the assumed $E^{-2}$ signal flux (see Chapter \ref{ch:theoreticalmotivation}), their relative contribution to the sample is very small but accounted for.
