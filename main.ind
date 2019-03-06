@@ -2,70 +2,70 @@
 \nopagebreak
 \tikz\node at (0pt,0pt) [draw=none,fill=ocre!50,line width=1pt,inner sep=5pt]{\parbox{\linewidth-2\fboxsep-2\fboxrule-2pt}{\centering\large\sffamily\bfseries\textcolor{white}{B}}};\vspace*{0.2cm}\nopagebreak
 
-  \item burn sample\dotfill \hyperpage{99}
+  \item burn sample\dotfill \hyperpage{95}
 
   \indexspace
 \nopagebreak
 \tikz\node at (0pt,0pt) [draw=none,fill=ocre!50,line width=1pt,inner sep=5pt]{\parbox{\linewidth-2\fboxsep-2\fboxrule-2pt}{\centering\large\sffamily\bfseries\textcolor{white}{C}}};\vspace*{0.2cm}\nopagebreak
 
-  \item CLSim\dotfill \hyperpage{98}
-  \item coincident events\dotfill \hyperpage{107}
-  \item CoincSuite\dotfill \hyperpage{109}
-  \item CORSIKA\dotfill \hyperpage{91}
+  \item CLSim\dotfill \hyperpage{94}
+  \item coincident events\dotfill \hyperpage{105}
+  \item CoincSuite\dotfill \hyperpage{108}
+  \item CORSIKA\dotfill \hyperpage{87}
 
   \indexspace
 \nopagebreak
 \tikz\node at (0pt,0pt) [draw=none,fill=ocre!50,line width=1pt,inner sep=5pt]{\parbox{\linewidth-2\fboxsep-2\fboxrule-2pt}{\centering\large\sffamily\bfseries\textcolor{white}{F}}};\vspace*{0.2cm}\nopagebreak
 
-  \item FLUKA\dotfill \hyperpage{92}
+  \item FLUKA\dotfill \hyperpage{88}
 
   \indexspace
 \nopagebreak
 \tikz\node at (0pt,0pt) [draw=none,fill=ocre!50,line width=1pt,inner sep=5pt]{\parbox{\linewidth-2\fboxsep-2\fboxrule-2pt}{\centering\large\sffamily\bfseries\textcolor{white}{I}}};\vspace*{0.2cm}\nopagebreak
 
-  \item i3file\dotfill \hyperpage{78}
-  \item IceTray\dotfill \hyperpage{89}
+  \item i3file\dotfill \hyperpage{74}
+  \item IceTray\dotfill \hyperpage{85}
 
   \indexspace
 \nopagebreak
 \tikz\node at (0pt,0pt) [draw=none,fill=ocre!50,line width=1pt,inner sep=5pt]{\parbox{\linewidth-2\fboxsep-2\fboxrule-2pt}{\centering\large\sffamily\bfseries\textcolor{white}{L}}};\vspace*{0.2cm}\nopagebreak
 
-  \item Line-Fit\dotfill \hyperpage{102}
+  \item Line-Fit\dotfill \hyperpage{98}
 
   \indexspace
 \nopagebreak
 \tikz\node at (0pt,0pt) [draw=none,fill=ocre!50,line width=1pt,inner sep=5pt]{\parbox{\linewidth-2\fboxsep-2\fboxrule-2pt}{\centering\large\sffamily\bfseries\textcolor{white}{M}}};\vspace*{0.2cm}\nopagebreak
 
-  \item MMC\dotfill \hyperpage{98}
-  \item Monte Carlo\dotfill \hyperpage{89}
+  \item MMC\dotfill \hyperpage{94}
+  \item Monte Carlo\dotfill \hyperpage{85}
 
   \indexspace
 \nopagebreak
 \tikz\node at (0pt,0pt) [draw=none,fill=ocre!50,line width=1pt,inner sep=5pt]{\parbox{\linewidth-2\fboxsep-2\fboxrule-2pt}{\centering\large\sffamily\bfseries\textcolor{white}{N}}};\vspace*{0.2cm}\nopagebreak
 
-  \item neutrino-generator\dotfill \hyperpage{93}
+  \item neutrino-generator\dotfill \hyperpage{89}
 
   \indexspace
 \nopagebreak
 \tikz\node at (0pt,0pt) [draw=none,fill=ocre!50,line width=1pt,inner sep=5pt]{\parbox{\linewidth-2\fboxsep-2\fboxrule-2pt}{\centering\large\sffamily\bfseries\textcolor{white}{P}}};\vspace*{0.2cm}\nopagebreak
 
-  \item Photonics\dotfill \hyperpage{98}
-  \item PMT jitter\dotfill \hyperpage{98}
-  \item PPC\dotfill \hyperpage{97}
-  \item PROPOSAL\dotfill \hyperpage{96}
+  \item Photonics\dotfill \hyperpage{94}
+  \item PMT jitter\dotfill \hyperpage{95}
+  \item PPC\dotfill \hyperpage{94}
+  \item PROPOSAL\dotfill \hyperpage{93}
 
   \indexspace
 \nopagebreak
 \tikz\node at (0pt,0pt) [draw=none,fill=ocre!50,line width=1pt,inner sep=5pt]{\parbox{\linewidth-2\fboxsep-2\fboxrule-2pt}{\centering\large\sffamily\bfseries\textcolor{white}{S}}};\vspace*{0.2cm}\nopagebreak
 
-  \item seededRT\dotfill \hyperpage{107}
-  \item SPE\dotfill \hyperpage{104}
-  \item Steamshovel\dotfill \hyperpage{100}
+  \item seededRT\dotfill \hyperpage{104}
+  \item SPE\dotfill \hyperpage{101}
+  \item Steamshovel\dotfill \hyperpage{96}
 
   \indexspace
 \nopagebreak
 \tikz\node at (0pt,0pt) [draw=none,fill=ocre!50,line width=1pt,inner sep=5pt]{\parbox{\linewidth-2\fboxsep-2\fboxrule-2pt}{\centering\large\sffamily\bfseries\textcolor{white}{T}}};\vspace*{0.2cm}\nopagebreak
 
-  \item TopologicalSplitter\dotfill \hyperpage{107}
+  \item TopologicalSplitter\dotfill \hyperpage{106}
 
 \end{theindex}

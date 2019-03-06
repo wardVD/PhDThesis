@@ -161,9 +161,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.3}Propagation}{60}{section.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.1}Cascades}{60}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.1}Cascades}{61}{subsection.4.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.3.1.1}Electrons and photons}{60}{subsubsection.4.3.1.1}
+\contentsline {subsubsection}{\numberline {4.3.1.1}Electrons and photons}{61}{subsubsection.4.3.1.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {4.3.1.2}Hadrons}{61}{subsubsection.4.3.1.2}
 \defcounter {refsection}{0}\relax 
@@ -305,153 +305,157 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {7.1.3}SPE and MPE}{103}{subsection.7.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.1.4}\texttt {Millipede}}{104}{subsection.7.1.4}
+\contentsline {subsection}{\numberline {7.1.4}\texttt {Paraboloid}}{106}{subsection.7.1.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.1.5}\texttt {FiniteReco}}{106}{subsection.7.1.5}
+\contentsline {subsection}{\numberline {7.1.5}\texttt {Millipede}}{107}{subsection.7.1.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.1.6}\texttt {Paraboloid}}{106}{subsection.7.1.6}
+\contentsline {subsection}{\numberline {7.1.6}\texttt {FiniteReco}}{108}{subsection.7.1.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.2}Pulse cleaning}{106}{section.7.2}
+\contentsline {section}{\numberline {7.2}Pulse cleaning}{109}{section.7.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.3}\texttt {IceHive}}{107}{section.7.3}
+\contentsline {section}{\numberline {7.3}\texttt {IceHive}}{109}{section.7.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.3.1}\texttt {HiveSplitter}}{108}{subsection.7.3.1}
+\contentsline {subsection}{\numberline {7.3.1}\texttt {HiveSplitter}}{110}{subsection.7.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.3.2}\texttt {HiveCleaning}}{109}{subsection.7.3.2}
+\contentsline {subsection}{\numberline {7.3.2}\texttt {HiveCleaning}}{112}{subsection.7.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.3.3}Remark}{109}{subsection.7.3.3}
+\contentsline {subsection}{\numberline {7.3.3}Remark}{112}{subsection.7.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.4}CoincSuite}{110}{section.7.4}
+\contentsline {section}{\numberline {7.4}CoincSuite}{112}{section.7.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.5}Analysis techniques}{110}{section.7.5}
+\contentsline {section}{\numberline {7.5}Event cleaning and reconstructions: summary}{113}{section.7.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.6}Boosted Decision Tree classifiers}{110}{section.7.6}
+\contentsline {section}{\numberline {7.6}Minimal-Redundancy-Maximum-Relevance}{113}{section.7.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.6.1}Stucture}{111}{subsection.7.6.1}
+\contentsline {section}{\numberline {7.7}Boosted Decision Tree classifiers}{113}{section.7.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.6.2}Training}{111}{subsection.7.6.2}
+\contentsline {subsection}{\numberline {7.7.1}Structure}{114}{subsection.7.7.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.6.3}Boosting}{112}{subsection.7.6.3}
+\contentsline {subsection}{\numberline {7.7.2}Training}{114}{subsection.7.7.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.6.4}Overtraining}{113}{subsection.7.6.4}
+\contentsline {subsection}{\numberline {7.7.3}Boosting}{115}{subsection.7.7.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {7.6.4.1}Pruning}{113}{subsubsection.7.6.4.1}
+\contentsline {subsection}{\numberline {7.7.4}Overtraining}{116}{subsection.7.7.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {7.6.4.2}Data-MC agreement}{114}{subsubsection.7.6.4.2}
+\contentsline {subsubsection}{\numberline {7.7.4.1}Pruning}{116}{subsubsection.7.7.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.7}Minimal-Redundancy-Maximum-Relevance}{114}{section.7.7}
+\contentsline {subsubsection}{\numberline {7.7.4.2}Additional checks}{117}{subsubsection.7.7.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}The SPACE Analysis}{115}{chapter.8}
+\contentsline {chapter}{\numberline {8}The SPACE Analysis}{119}{chapter.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.1}Filter selection}{115}{section.8.1}
+\contentsline {section}{\numberline {8.1}Filter selection}{119}{section.8.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.1.1}VEF}{115}{subsection.8.1.1}
+\contentsline {subsection}{\numberline {8.1.1}VEF}{119}{subsection.8.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.1.2}LowUp}{117}{subsection.8.1.2}
+\contentsline {subsection}{\numberline {8.1.2}LowUp}{121}{subsection.8.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.1.3}Online Muon L2}{117}{subsection.8.1.3}
+\contentsline {subsection}{\numberline {8.1.3}Online Muon L2}{121}{subsection.8.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.1.4}DeepCore}{117}{subsection.8.1.4}
+\contentsline {subsection}{\numberline {8.1.4}DeepCore}{121}{subsection.8.1.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.1.5}Burnsample checks}{118}{subsection.8.1.5}
+\contentsline {subsection}{\numberline {8.1.5}Burnsample checks}{122}{subsection.8.1.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.2}Level 3}{118}{section.8.2}
+\contentsline {section}{\numberline {8.2}Level 3}{122}{section.8.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.2.1}Zenith angle cut}{118}{subsection.8.2.1}
+\contentsline {subsection}{\numberline {8.2.1}Zenith angle cut}{122}{subsection.8.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.2.2}RlogL cut}{119}{subsection.8.2.2}
+\contentsline {subsection}{\numberline {8.2.2}RlogL cut}{123}{subsection.8.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.2.3}NPE cut}{119}{subsection.8.2.3}
+\contentsline {subsection}{\numberline {8.2.3}NPE cut}{123}{subsection.8.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.2.4}Starting rlogL cut}{119}{subsection.8.2.4}
+\contentsline {subsection}{\numberline {8.2.4}Starting rlogL cut}{123}{subsection.8.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.2.5}Stopping rlogL cut}{120}{subsection.8.2.5}
+\contentsline {subsection}{\numberline {8.2.5}Stopping rlogL cut}{124}{subsection.8.2.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.3}Level 4}{120}{section.8.3}
+\contentsline {section}{\numberline {8.3}Level 4}{124}{section.8.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.3.1}Cleaning and quality cuts}{120}{subsection.8.3.1}
+\contentsline {subsection}{\numberline {8.3.1}Cleaning and quality cuts}{124}{subsection.8.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Innerstring domination}{121}{section*.82}
+\contentsline {paragraph}{Innerstring domination}{125}{section*.84}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.3.2}Variable construction}{122}{subsection.8.3.2}
+\contentsline {subsection}{\numberline {8.3.2}Variable construction}{126}{subsection.8.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {8.3.2.1}Commonvariables}{122}{subsubsection.8.3.2.1}
+\contentsline {subsubsection}{\numberline {8.3.2.1}Commonvariables}{126}{subsubsection.8.3.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {8.3.2.2}Millipede variables}{122}{subsubsection.8.3.2.2}
+\contentsline {subsubsection}{\numberline {8.3.2.2}Millipede variables}{126}{subsubsection.8.3.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Mean loss}{122}{section*.89}
+\contentsline {paragraph}{Mean loss}{126}{section*.91}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Uniformity}{125}{section*.92}
+\contentsline {paragraph}{Uniformity}{129}{section*.94}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Track length}{125}{section*.93}
+\contentsline {paragraph}{Track length}{129}{section*.95}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {8.3.2.3}New variables}{127}{subsubsection.8.3.2.3}
+\contentsline {subsubsection}{\numberline {8.3.2.3}New variables}{131}{subsubsection.8.3.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Speedratio}{127}{section*.94}
+\contentsline {paragraph}{Speedratio}{131}{section*.96}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{NewLength}{127}{section*.96}
+\contentsline {paragraph}{NewLength}{131}{section*.98}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.3.3}Variable selection}{128}{subsection.8.3.3}
+\contentsline {subsection}{\numberline {8.3.3}Variable selection}{132}{subsection.8.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.4}Level 5}{130}{section.8.4}
+\contentsline {section}{\numberline {8.4}Level 5}{134}{section.8.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.4.1}BDT result}{130}{subsection.8.4.1}
+\contentsline {subsection}{\numberline {8.4.1}BDT result}{134}{subsection.8.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.4.2}Pull-validation}{131}{subsection.8.4.2}
+\contentsline {subsection}{\numberline {8.4.2}Pull-validation}{135}{subsection.8.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.4.3}Model Rejection Factor}{132}{subsection.8.4.3}
+\contentsline {subsection}{\numberline {8.4.3}Model Rejection Factor}{136}{subsection.8.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.4.4}Systematic uncertainties}{134}{subsection.8.4.4}
+\contentsline {subsection}{\numberline {8.4.4}Systematic uncertainties}{138}{subsection.8.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Implementing the uncertainties in the upper limit}{137}{section*.111}
+\contentsline {paragraph}{Implementing the uncertainties in the upper limit}{141}{section*.113}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.5}Results}{139}{section.8.5}
+\contentsline {section}{\numberline {8.5}Results}{143}{section.8.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.5.1}Unblinding}{139}{subsection.8.5.1}
+\contentsline {subsection}{\numberline {8.5.1}Unblinding}{143}{subsection.8.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.5.2}Limits}{140}{subsection.8.5.2}
+\contentsline {subsection}{\numberline {8.5.2}Limits}{144}{subsection.8.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {9}Summary and Conclusion}{143}{chapter.9}
+\contentsline {chapter}{\numberline {9}Summary and Conclusion}{147}{chapter.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{\@mypartnumtocformat {\textlatin {III}}{Additions}}{145}{part.3}
+\contentsline {part}{\@mypartnumtocformat {\textlatin {III}}{Additions}}{149}{part.3}
 \ttl@stoptoc {default@2}
 \ttl@starttoc {default@3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Appendices}{147}{section*.116}
+\contentsline {chapter}{Appendices}{151}{section*.118}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Statistics}{149}{Appendix.a.A}
+\contentsline {chapter}{\numberline {A}Statistics}{153}{Appendix.a.A}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}Distributions}{151}{Appendix.a.B}
+\contentsline {chapter}{\numberline {B}Distributions}{155}{Appendix.a.B}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.1}Spherical random numbers}{151}{section.a.B.1}
+\contentsline {section}{\numberline {B.1}Spherical random numbers}{155}{section.a.B.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.2}Power law distributions}{152}{section.a.B.2}
+\contentsline {section}{\numberline {B.2}Power law distributions}{156}{section.a.B.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.3}Angular distributions}{153}{section.a.B.3}
+\contentsline {section}{\numberline {B.3}Angular distributions}{157}{section.a.B.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.4}Weighting}{154}{section.a.B.4}
+\contentsline {section}{\numberline {B.4}Weighting}{158}{section.a.B.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {C}AdaBoost: simple example}{157}{Appendix.a.C}
+\contentsline {chapter}{\numberline {C}Boosted Decision Trees: examples}{161}{Appendix.a.C}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Initial distribution}{157}{section*.121}
+\contentsline {section}{\numberline {C.1}Decision Tree: simple example}{161}{section.a.C.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Round 1}{157}{section*.122}
+\contentsline {section}{\numberline {C.2}AdaBoost: simple example}{161}{section.a.C.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Round 2}{158}{section*.123}
+\contentsline {paragraph}{Initial distribution}{162}{section*.124}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Round 3}{158}{section*.124}
+\contentsline {paragraph}{Round 1}{162}{section*.125}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Final step}{158}{section*.125}
+\contentsline {paragraph}{Round 2}{162}{section*.126}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {D}Resampling Methods}{159}{Appendix.a.D}
+\contentsline {paragraph}{Round 3}{163}{section*.127}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {D.1}Bootstrapping}{159}{section.a.D.1}
+\contentsline {paragraph}{Final step}{163}{section*.128}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {D.2}Cross-validation}{159}{section.a.D.2}
+\contentsline {chapter}{\numberline {D}Resampling Methods}{165}{Appendix.a.D}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {E}Additional BDT Checks}{161}{Appendix.a.E}
+\contentsline {section}{\numberline {D.1}Bootstrapping}{165}{section.a.D.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {F}Data Events at Final Level}{163}{Appendix.a.F}
+\contentsline {section}{\numberline {D.2}Cross-validation}{165}{section.a.D.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\leavevmode {\color {ocre}Bibliography}}{167}{chapter*.135}
+\contentsline {chapter}{\numberline {E}Additional BDT Checks}{167}{Appendix.a.E}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {F}Data Events at Final Level}{169}{Appendix.a.F}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\leavevmode {\color {ocre}Bibliography}}{173}{chapter*.138}
 \contentsfinish 

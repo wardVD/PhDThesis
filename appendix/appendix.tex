@@ -120,7 +120,7 @@ P(n) = \frac{\lambda^n e^{-\lambda}}{n!},
 
 \section{Spherical random numbers}
 \label{sec:sphericalrandom}
-Most random number generators provide uniform distributions between the range $[0,1]$. Assume we want to make a uniform distribution along a sphere with angles $\phi$ and $\theta$ and radius $r$, in spherical coordinates. Random numbers between $[0,\pi]$, $[0,2\pi]$ and $[0,R]$ (the ranges of the coordinates) would not give a uniform distribution as illustrated in Fig. \ref{fig:sphere} (left).
+Most random number generators provide uniform distributions between the range $[0,1]$. Assume we want to make a uniform distribution along a sphere with angles $\phi$ and $\theta$ and radius $r$, in spherical coordinates. Random numbers between $[0,\pi]$, $[0,2\pi]$ and $[0,R]$ (the ranges of the coordinates) would not give a uniform distribution as illustrated in Figure \ref{fig:sphere} (left).
 
 \begin{figure}
 \centering
@@ -195,7 +195,7 @@ F^{-1}(u) = \left((1-u) \cdot E_{min}^{-\gamma+1} + u \cdot E_{max}^{-\gamma+1}\
 \end{equation}
 \noindent which shows how one can draw a distribution in function of $E$ following $f(E)$ with a uniform random number $u$.\\
 
-\noindent For $\gamma$ = -1, the computations are analogous and one can see that this will produce a uniform distribution in log space. This is shown in Fig. \ref{fig:powerlawrandom}.
+\noindent For $\gamma$ = -1, the computations are analogous and one can see that this will produce a uniform distribution in log space. This is shown in Figure \ref{fig:powerlawrandom}.
             \begin{equation}
             \begin{split}
             E &= E_{min} \cdot 10^{u\cdot \log{\frac{E_{max}}{E_{min}}}}\\
@@ -211,7 +211,7 @@ F^{-1}(u) = \left((1-u) \cdot E_{min}^{-\gamma+1} + u \cdot E_{max}^{-\gamma+1}\
 \label{fig:powerlawrandom}
 \end{figure}
 
-In Fig. \ref{fig:signalweighting} the signal reweighting is shown.
+In Figure \ref{fig:signalweighting} the signal reweighting is shown.
 
 \begin{figure}
 \centering
@@ -235,7 +235,7 @@ d\Omega = \sin(\theta) d\theta d\phi.
 \Omega \propto \cos(\theta),
 \end{equation}
 
-\noindent or in other words: the space angle is proportional to the azimuth and the cosine of the zenith. An example is shown in Fig. \ref{fig:spaceangle}.
+\noindent or in other words: the space angle is proportional to the azimuth and the cosine of the zenith. An example is shown in Figure \ref{fig:spaceangle}.
 
 \begin{figure}
 \centering
@@ -249,7 +249,7 @@ d\Omega = \sin(\theta) d\theta d\phi.
 A method that is often used in simulations is \textit{weighting}. The simulated and expected differential flux of particles is often not the same, mainly due to two reasons:
 
 \begin{itemize}
-\item The flux has no uniform power law behavior. As can bee seen in Fig. \ref{fig:spectrumCR}, there can be multiple ``kinks'' and changes in a spectrum. Instead of simulating the flux according to one model, a general uniform flux is used and later reweighted to be able to fit to other models more easily.
+\item The flux has no uniform power law behavior. As can bee seen in Figure \ref{fig:spectrumCR}, there can be multiple ``kinks'' and changes in a spectrum. Instead of simulating the flux according to one model, a general uniform flux is used and later reweighted to be able to fit to other models more easily.
 \item A steep power law indicates very few events at the highest energy bins. This means large CPU time would be necessary to simulate these events. As an example, let us assume two different fluxes
 
 \begin{equation}
@@ -274,9 +274,32 @@ w = \frac{dN_{exp}}{dA d\Omega dE dt} \times \frac{dA d\Omega dE}{dN_{sim}}.
 \noindent A disadvantage of using weights is that certain events with a high weight are rare but can dominate or obscure the sample in the tails of certain distributions.
 
 \chapterimage{lines.jpg}
-\chapter{AdaBoost: simple example}
+\chapter{Boosted Decision Trees: examples}
 \label{ch:adaboostappendix}
 
+\section{Decision Tree: simple example}
+Let us assume we want to categorize 6 people if they are \textit{healty} or \textit{unhealthy}. The decision tree training can be done if we have a sample set that labels people in these two categories and some other information about these persons is known. In this example, we know if the person is older than 30, if he eats a lot of pizza and if he exercises a lot. This is summarized in Table \ref{tab:pizza}.\\
+
+\begin{table}[t]
+\centering
+\caption{Summary of dataset used to train decision tree.}
+\label{tab:pizza}
+\begin{tabular}{|l|c|c|c|r|}
+\hline
+\rowcolor[HTML]{F1A91E} 
+Person & Age \textless 30 & Eats lots of pizza & Exercises often & Healthy \\ \hline
+A & 1 & 1 & 1 & 0 \\ \hline
+B & 1 & 0 & 1 & 1 \\ \hline
+C & 1 & 0 & 0 & 1 \\ \hline
+D & 0 & 0 & 0 & 0 \\ \hline
+E & 0 & 0 & 1 & 1 \\ \hline
+F & 0 & 0 & 1 & 1 \\ \hline
+\end{tabular}
+\end{table}
+
+\noindent As an example, we can show how the first child nodes are determined. The sample set has three variables and the variable selection that allows for the largest separation (see Eq. \ref{eq:separationgain}) will be chosen. The results from $\Delta S$ for the age, pizza and exercises selections are 0, -1.7 and -2.6 respectively. Therefore, it should be clear that the age selection should be chosen first in the decision tree as it gives the larges separation for the child nodes. Deeper child nodes are selected in a similar fashion. 
+
+\section{AdaBoost: simple example}
 Consider a binary decision tree classification with 10 training examples. The illustrations below are 2D variable distributions.\\
 \newline
 \noindent We give each event an equal weight, making the weight distribution $D_1$ uniform. For this simple example, each of our classifiers will be an axis-parallel linear classifier (simple cut in one of the two variables).
@@ -375,7 +398,7 @@ In this method, one iterates the procedure of selecting a training sample and a 
 \chapter{Additional BDT Checks}
 \label{ch:bdtchecks}
 \usechapterimagetrue
-As explained in Section \ref{sec:BDT}, it is important to perfom some checks to see if a BDT is performing normally. A first check is done to see if the distribution of the training and testing samples show significant differences. This is shown in Fig. \ref{fig:overtraining} and explained in more detail in Section \ref{subsec:overtraining}.\\
+As explained in Section \ref{sec:BDT}, it is important to perfom some checks to see if a BDT is performing normally. A first check is done to see if the distribution of the training and testing samples show significant differences. This is shown in Figure \ref{fig:overtraining} and explained in more detail in Section \ref{subsec:overtraining}.\\
 
 \begin{figure}[ht]
 \centering
@@ -384,7 +407,7 @@ As explained in Section \ref{sec:BDT}, it is important to perfom some checks to 
 \label{fig:overtraining}
 \end{figure}
 
-\noindent The correlation between the 17 variables that were used in the BDT is shown in Fig. \ref{fig:correlation}. These variables were selected with the mRMR feature, which shows an excellent performance since there are no significant correlations in both signal and backround visible.
+\noindent The correlation between the 17 variables that were used in the BDT is shown in Figure \ref{fig:correlation}. These variables were selected with the mRMR feature, which shows an excellent performance since there are no significant correlations in both signal and backround visible.
 \begin{figure}[ht]
 \centering
 \includegraphics[width=0.49\textwidth]{appendix/img/correlationbackground.png}
