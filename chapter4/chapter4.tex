@@ -70,7 +70,7 @@ In water and ice, the refractive index is $\approx 1.33$, making $\beta_{min} = 
 
 \section{Neutrino interactions}
 \label{sec:neutrinointeractions}
-The IceCube experiment is a neutrino detector, but neutrinos have no electromagnetic charge. Neutrinos are only visible through their production of secondary particles with an electromagnetic charge and emit Cherenkov radiation in the ice. Here, we briefly describe how these interactions take place.\\
+The IceCube experiment is a neutrino detector, but neutrinos have no electromagnetic charge. Neutrinos are only visible through their production of secondary particles with an electromagnetic charge and they emit Cherenkov radiation in the ice. Here, we briefly describe how these interactions take place.\\
 
 \noindent Neutrinos interact with matter through both charged current (CC) and neutral current (NC) processes. In the former, the mediator particle is a charged $W$ boson resulting in a charged lepton in the final state. In the latter, the mediator particle is the neutral $Z$ boson. Both interaction types have a resulting hadronic component as daughter particles. The interactions can be written as
 
@@ -97,16 +97,16 @@ As described in Section \ref{sec:neutrinointeractions}, neutrinos give rise to s
 \begin{figure}[t]
 \centering
 \includegraphics[width=0.7\textwidth]{chapter4/img/ICinteractions.png}
-\caption{Schematic view of the neutrino signatures in matter. At each interaction point there is a hadronic cascade (red). Every hadronic cascade has electromagnetic sub-showers which are not illustrated here. Muons and energetic taus can give rise to tracks. The electromagnetic and hadronic cascades have a more spherical shape but are exaggerated for illustrative purposes in the figure. Illustrations from Ref. \cite{Wallraff}.}
+\caption{Schematic view of the charged current neutrino signatures in matter. At each interaction point there is a hadronic cascade (red). Every hadronic cascade has electromagnetic sub-showers which are not illustrated here. Muons and energetic taus can give rise to tracks. The electromagnetic and hadronic cascades have a more spherical shape but are exaggerated for illustrative purposes in the figure. Illustrations from Ref. \cite{Wallraff}.}
 \label{fig:ICinteractions}
 \end{figure}
 
 \subsection{Cascades}
 \subsubsection{Electrons and photons}
 
-In a charged current neutrino interaction, the energetic electron gives rise to a shower of gamma rays (bremsstrahlung) and positrons and electrons (pair production). Positrons and electrons in their turn emit new gamma rays and this process continues until the photon energies fall below the pair production threshold. Because electrons/positrons lose their energy fast, they are almost immediately stopped, giving an \textit{electromagnetic cascade} an almost spherical shape.
+In a charged current electron-neutrino interaction, the energetic electron gives rise to a shower of gamma rays (bremsstrahlung) and positrons and electrons (pair production). Positrons and electrons in their turn emit new gamma rays and this process continues until the photon energies fall below the pair production threshold. Because electrons/positrons lose their energy fast, they are almost immediately stopped, giving an \textit{electromagnetic cascade} an almost spherical shape.
 
-Let us assume $E_0$ is the energy of the incoming electron. In a very simplistic toy model one can say that an electron emits one photon after one radiation length, $X_0$. A photon will decay into an electron-positron pair after approximately one radiation length too\footnote{In fact one radiation length implies $1/e$ times the initial energy. Assuming the electron loses half its energy to the photon, then 0.63/0.5 $\approx 1$. After one radiation length, a high energy photon loses $\approx 7/9$ times its energy via bremsstrahlung, again we assume $\approx 1$.}. At every decay or radiation process, it is assumed that the daughter particles carry 1/2 of the energy. After $t$ steps, the energy is equal to
+Let us assume $E_0$ is the energy of the incoming electron. In a very simplistic toy model one can say that an electron emits one photon after one radiation length, $X_0$. A photon will decay into an electron-positron pair after approximately one radiation length too\footnote{In fact one radiation length actually implies $1/e$ times the initial energy. Assuming the electron loses half its energy to the photon, and with 0.63/0.5 $\approx 1$, the radiation length is indeed almost equal to the average length an electron travels before emitting a photon. The total probability for pair production per unit radiation length from a photon is $\approx 7/9$, where we again assume that this is $\approx 1$.}. At every decay or radiation process, it is assumed that the daughter particles carry 1/2 of the energy. After $t$ steps, the energy is equal to
 
 \begin{equation}
 E(t) = \frac{E_0}{2^t}.
@@ -175,14 +175,14 @@ with $E_{th} = a/b = 720$ GeV, the energy threshold above which stochastic effec
 \begin{center}
 \begin{tabular}{|l |c|c|}
 \hline
-{\cellcolor[HTML]{F1A91E} \textbf{Medium}}   & \cellcolor[HTML]{F1A91E}{$a \left(\frac{\textrm{GeV}}{\textrm{mwe}}\right)$} & \cellcolor[HTML]{F1A91E}{$b \left(\frac{10^{-3}}{\textrm{mwe}}\right)$} \\ \hline 
+{\cellcolor[HTML]{F1A91E} \textbf{Medium}}   & \cellcolor[HTML]{F1A91E}{$a \left(\frac{\textrm{GeV}}{\textrm{mwe}^\dagger}\right)$} & \cellcolor[HTML]{F1A91E}{$b \left(\frac{10^{-3}}{\textrm{mwe}}\right)$} \\ \hline 
 \textbf{Air}    & 0.281                                                                                             & 0.347                                                                                        \\ \hline
 \textbf{Ice}      & 0.259                                                                                             & 0.363                                                                                        \\ \hline
 \textbf{Fr. Rock} & 0.231                                                                                             & 0.436                                                                                        \\ \hline
 \textbf{St. Rock} & 0.223                                                                                             & 0.463                                                                                        \\ \hline
 \end{tabular}
 \end{center}
-\centering ${}^\dagger$ Mwe stands for ``meter water equivalent'', a unit often used in cosmic ray physics. A detector shielded by matter equal to 100 mwe would be equally shielded from cosmic rays if it were 100 meters below water.
+\centering  ${}^\dagger${\small Mwe stands for ``meter water equivalent'', a unit often used in cosmic ray physics. A detector shielded by matter equal to 100 mwe would be equally shielded from cosmic rays if it were 100 meters below water.}
 \end{table}
 
 \noindent SMPs will have very similar signatures in the IceCube detector as we have assumed that they behave leptonically (Section \ref{sec:properties}). The tracks will be dim compared to muon tracks due to the charge dependence in the Cherenkov effect (Section \ref{sec:cherenkoveffect}).
@@ -191,7 +191,7 @@ with $E_{th} = a/b = 720$ GeV, the energy threshold above which stochastic effec
 \label{sec:energyloss}
 As mentioned in Section \ref{subsub:energyloss}, secondary interactions such as bremsstrahlung, pair production and photonuclear effect, become non-negligible at certain energies. At high energies (> 1 TeV for muons) the Cherenkov light of the secondary particles will have a significant contribution additional to the Cherenkov light coming from the primary particle. These effects are taken into account in IceCube simulations and are of great importance for high-energy muons. Since these interactions are electromagnetic in nature, they will also play a role for SMP particles, yet these effects are small for the SMPs with a primary focus on lower energies.
 
-In this section we go over the four main components of secondary interactions. This section is largely based on the findings in Ref. \cite{Chirkin:2004hz}. The energy of the secondary particles will be expressed by $\nu = v E$, with $E$ the energy of the incident particle and $v$ the fraction of the energy transfer. Secondary interactions occur at all energy levels and become continuous in nature below a certain energy threshold. Therefore, in many codes $v_{cut}$ is implemented as a lower bound equal to 0.05 and a $\nu_{cut}$ equal to 500 MeV \cite{dimaspice}. 
+In this section we go over the four main components of secondary interactions. This section is largely based on the findings in Ref. \cite{Chirkin:2004hz}. The energy of the secondary particles will be expressed by $\nu = v E$, with $E$ the energy of the incident particle and $v$ the fraction of the energy transfer. Secondary interactions occur at all energy levels and become approximately continuous in nature below a certain energy threshold. Therefore, in many codes $v_{cut}$ is implemented as a lower bound equal to 0.05 and a $\nu_{cut}$ equal to 500 MeV \cite{dimaspice}. 
 
 \subsection{Ionization}
 Fast charged particles that move through matter interact with the electrons of atoms in the material. The interaction excites or ionizes the atoms. The Feynman diagram of this interaction is given in Figure \ref{fig:feynmanionizbrems} (left). 
@@ -235,7 +235,7 @@ Charged particles that decelerate by another charged particle lose kinetic energ
 \begin{equation}
 \sigma = \sigma_{el} + \Delta \sigma^{in}_a + \Delta \sigma^{in}_n,
 \end{equation}
-where $\sigma_{el}$ denotes the cross section for the Coulomb scattering of the particle off the atomic nucleus and the two other terms are corrections that account for additional processes, in which the bremsstrahlung is accompanied by a change of electron or nuclear structure of the atom in the final state.
+where $\sigma_{el}$ denotes the cross section for the Coulomb scattering of the particle off the atomic nucleus and the two other terms are corrections that account for additional processes, in which the bremsstrahlung is accompanied by a change of electronic or nuclear structure of the atom in the final state.
 
 \subsubsection{Elastic component}
 \begin{equation}
@@ -257,7 +257,7 @@ where $\alpha$ is the fine structure constant and $\omega$ the photon's frequenc
 Values for $B$ and $D_n$ can be found in Ref. \cite{Kelner:1995hu}, here, $e$ is the base of the natural logarithm ($\approx 2.718$) and other constants are as defined in Eq. \ref{eq:ioniz}. Other parameterizations can be found in the corresponding literature \cite{Chirkin:2004hz}. 
 %mu hier dimensieloos (zie inleiding)
 
-\subsection{Inelastic component}
+\subsubsection{Inelastic component}
 
 The effect of nuclear excitation can be evaluated as
 

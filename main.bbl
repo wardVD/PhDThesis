@@ -194,6 +194,13 @@
       \verb http://cms.web.cern.ch/news/jets-cms-and-determination-their-energy-scale
       \endverb
     \endentry
+    \entry{hyperphysicsStrengths}{misc}{}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \verb{url}
+      \verb http://hyperphysics.phy-astr.gsu.edu/hbase/Forces/couple.html#c1
+      \endverb
+    \endentry
     \entry{kircher1641athanasii}{book}{}
       \name{author}{1}{}{%
         {{hash=63b98a8625c0e63ec71ce521985e8ab6}{%
@@ -3682,70 +3689,39 @@
       \verb https://link.aps.org/doi/10.1103/PhysRev.32.533
       \endverb
     \endentry
-    \entry{ISRAEL2005201}{article}{}
-      \name{author}{8}{}{%
-        {{hash=fe5e7e552b88016dfa6a8f78746b99c8}{%
-           family={Israel},
-           family_i={I\bibinitperiod},
-           given={M.H.},
-           given_i={M\bibinitperiod}}}%
-        {{hash=5eca936ca3dadd3dd272e3a96cf1e424}{%
-           family={Binns},
-           family_i={B\bibinitperiod},
-           given={W.R.},
-           given_i={W\bibinitperiod}}}%
-        {{hash=48a813b2446681ef3eda2296f94c7e3a}{%
-           family={Cummings},
-           family_i={C\bibinitperiod},
-           given={A.C.},
-           given_i={A\bibinitperiod}}}%
-        {{hash=6490c68a1aeba29433dcd245be464d92}{%
-           family={Leske},
-           family_i={L\bibinitperiod},
-           given={R.A.},
-           given_i={R\bibinitperiod}}}%
-        {{hash=1bd158f91b39d24adfe0131d91537ce2}{%
-           family={Mewaldt},
-           family_i={M\bibinitperiod},
-           given={R.A.},
-           given_i={R\bibinitperiod}}}%
-        {{hash=240f09996b5ef08c903e2984d1ff0675}{%
-           family={Stone},
+    \entry{GAISSER200698}{article}{}
+      \name{author}{2}{}{%
+        {{hash=915bc159dd2bc0830010df52b6ff5573}{%
+           family={Gaisser},
+           family_i={G\bibinitperiod},
+           given={Thomas\bibnamedelima K.},
+           given_i={T\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=24b5d1b901a8c16d0db2e2e436be8a61}{%
+           family={Stanev},
            family_i={S\bibinitperiod},
-           given={E.C.},
-           given_i={E\bibinitperiod}}}%
-        {{hash=8eecbc9044c6ff98b2f030c4b306c650}{%
-           prefix={von},
-           prefix_i={v\bibinitperiod},
-           family={Rosenvinge},
-           family_i={R\bibinitperiod},
-           given={T.T.},
+           given={Todor},
            given_i={T\bibinitperiod}}}%
-        {{hash=a604a1135aa9fbb18dd928a2c8b68e56}{%
-           family={Wiedenbeck},
-           family_i={W\bibinitperiod},
-           given={M.E.},
-           given_i={M\bibinitperiod}}}%
       }
-      \strng{namehash}{fb62b8f03c43ff20f864af0431341caf}
-      \strng{fullhash}{70bc0d78a6dbbd950419797547624290}
+      \strng{namehash}{1b051662a696406d63d23386a42a63f9}
+      \strng{fullhash}{1b051662a696406d63d23386a42a63f9}
       \field{sortinit}{0}
       \field{sortinithash}{990108227b3316c02842d895999a0165}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{abstract}{After a brief review of galactic cosmic rays in the GeV to TeV energy range, we describe some current problems of interest for particles of very high energy. Particularly interesting are two features of the spectrum, the knee above 1015 eV and the ankle above 1018 eV. An important question is whether the highest-energy particles are of extra-galactic origin and, if so, at what energy the transition occurs. A theme common to all energy ranges is use of nuclear abundances as a tool for understanding the origin of the cosmic radiation.}
       \field{issn}{0375-9474}
       \field{journaltitle}{Nuclear Physics A}
-      \field{note}{Nuclei in the Cosmos VIII}
-      \field{title}{Isotopic Composition of Cosmic Rays: Results from the Cosmic Ray Isotope Spectrometer on the ACE Spacecraft}
-      \field{volume}{758}
-      \field{year}{2005}
-      \field{pages}{201\bibrangedash 208}
-      \range{pages}{8}
+      \field{note}{Special Isseu on Nuclear Astrophysics}
+      \field{title}{High-energy cosmic rays}
+      \field{volume}{777}
+      \field{year}{2006}
+      \field{pages}{98\bibrangedash 110}
+      \range{pages}{13}
       \verb{doi}
-      \verb https://doi.org/10.1016/j.nuclphysa.2005.05.038
+      \verb https://doi.org/10.1016/j.nuclphysa.2005.01.024
       \endverb
       \verb{url}
-      \verb http://www.sciencedirect.com/science/article/pii/S037594740500686X
+      \verb http://www.sciencedirect.com/science/article/pii/S0375947405000540
       \endverb
     \endentry
     \entry{Blasi:2013rva}{article}{}
@@ -7229,6 +7205,35 @@
       \verb 1308.5501
       \endverb
     \endentry
+    \entry{Neunhoffer:2004ha}{article}{}
+      \name{author}{1}{}{%
+        {{hash=43d8ecbf5b1d2cf34be160f8647dbce3}{%
+           family={Neunhoffer},
+           family_i={N\bibinitperiod},
+           given={Till},
+           given_i={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{43d8ecbf5b1d2cf34be160f8647dbce3}
+      \strng{fullhash}{43d8ecbf5b1d2cf34be160f8647dbce3}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{astro-ph}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Astropart. Phys.}
+      \field{title}{{Estimating the angular resolution of tracks in neutrino telescopes based on a likelihood analysis}}
+      \field{volume}{25}
+      \field{year}{2006}
+      \field{pages}{220\bibrangedash 225}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1016/j.astropartphys.2006.01.002
+      \endverb
+      \verb{eprint}
+      \verb astro-ph/0403367
+      \endverb
+    \endentry
     \entry{millipedeinternal}{misc}{}
       \name{author}{1}{}{%
         {{hash=187fba1552767b18f30c44375da17514}{%
@@ -7291,35 +7296,6 @@
       \field{labelnamesource}{author}
       \verb{url}
       \verb https://lib.ugent.be/fulltxt/RUG01/002/479/620/RUG01-002479620_2018_0001_AC.pdf
-      \endverb
-    \endentry
-    \entry{Neunhoffer:2004ha}{article}{}
-      \name{author}{1}{}{%
-        {{hash=43d8ecbf5b1d2cf34be160f8647dbce3}{%
-           family={Neunhoffer},
-           family_i={N\bibinitperiod},
-           given={Till},
-           given_i={T\bibinitperiod}}}%
-      }
-      \strng{namehash}{43d8ecbf5b1d2cf34be160f8647dbce3}
-      \strng{fullhash}{43d8ecbf5b1d2cf34be160f8647dbce3}
-      \field{sortinit}{0}
-      \field{sortinithash}{990108227b3316c02842d895999a0165}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{eprintclass}{astro-ph}
-      \field{eprinttype}{arXiv}
-      \field{journaltitle}{Astropart. Phys.}
-      \field{title}{{Estimating the angular resolution of tracks in neutrino telescopes based on a likelihood analysis}}
-      \field{volume}{25}
-      \field{year}{2006}
-      \field{pages}{220\bibrangedash 225}
-      \range{pages}{6}
-      \verb{doi}
-      \verb 10.1016/j.astropartphys.2006.01.002
-      \endverb
-      \verb{eprint}
-      \verb astro-ph/0403367
       \endverb
     \endentry
     \entry{RTcutwiki}{misc}{}

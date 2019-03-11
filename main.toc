@@ -2,59 +2,473 @@
 \defcounter {refsection}{0}\relax 
 \select@language {english}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {1}Cosmic Rays and Neutrinos}{3}{chapter.1}
+\contentsline {chapter}{\numberline {}Nederlandstalige samenvatting}{7}{chapter*.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.1}Cosmic rays}{3}{section.1.1}
+\contentsline {chapter}{\numberline {}Introduction}{9}{chapter*.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.1}Discovery of cosmic rays}{3}{subsection.1.1.1}
+\contentsline {chapter}{\numberline {1}The Standard Model of Particle Physics}{11}{chapter.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.2}What are cosmic rays?}{4}{subsection.1.1.2}
+\contentsline {section}{\numberline {1.1}What we call matter: fermions}{11}{section.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.1.2.1}Galactic component}{6}{subsubsection.1.1.2.1}
+\select@language {greek}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.1.2.2}Extragalactic component}{7}{subsubsection.1.1.2.2}
+\select@language {english}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.3}Acceleration mechanism}{9}{subsection.1.1.3}
+\select@language {greek}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.1.3.1}Supernova (remnants)}{9}{subsubsection.1.1.3.1}
+\select@language {english}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{First- and second-order Fermi acceleration}{10}{section*.8}
+\contentsline {subsection}{\numberline {1.1.1}Leptons}{12}{subsection.1.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Power}{12}{section*.10}
+\select@language {greek}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Maximum energy}{12}{section*.11}
+\select@language {english}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.1.3.2}Active Galactic Nuclei}{13}{subsubsection.1.1.3.2}
+\select@language {greek}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.1.3.3}Gamma Ray Bursts}{14}{subsubsection.1.1.3.3}
+\select@language {english}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.1.3.4}Starburst galaxies}{14}{subsubsection.1.1.3.4}
+\contentsline {subsection}{\numberline {1.1.2}Quarks}{13}{subsection.1.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.1.3.5}Galaxy clusters}{14}{subsubsection.1.1.3.5}
+\contentsline {section}{\numberline {1.2}How particles communicate: interactions}{13}{section.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.4}Propagation}{14}{subsection.1.1.4}
+\contentsline {subsection}{\numberline {1.2.1}Gravity}{13}{subsection.1.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.2}Air showers}{14}{section.1.2}
+\select@language {greek}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.1}Hadronic component}{15}{subsection.1.2.1}
+\select@language {english}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.2}Muonic component}{16}{subsection.1.2.2}
+\select@language {greek}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.3}Electromagnetic component}{16}{subsection.1.2.3}
+\select@language {english}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.3}Neutrinos}{16}{section.1.3}
+\contentsline {subsection}{\numberline {1.2.2}Electromagnetism}{14}{subsection.1.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.1}Conventional}{17}{subsection.1.3.1}
+\select@language {greek}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.2}Prompt}{18}{subsection.1.3.2}
+\select@language {english}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.3}Astrophysical}{18}{subsection.1.3.3}
+\select@language {greek}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.4}Other neutrino sources}{19}{subsection.1.3.4}
+\select@language {english}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.3.4.1}Supernova neutrinos}{19}{subsubsection.1.3.4.1}
+\contentsline {subsection}{\numberline {1.2.3}Weak force}{15}{subsection.1.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.3.4.2}GZK neutrinos}{20}{subsubsection.1.3.4.2}
+\contentsline {subsection}{\numberline {1.2.4}Strong force}{15}{subsection.1.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\leavevmode {\color {ocre}Bibliography}}{21}{chapter*.18}
+\contentsline {subsection}{\numberline {1.2.5}A note about bosons}{15}{subsection.1.2.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.3}The Standard Model in theory}{16}{section.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.3.1}SU(3): quantum chromodynamics}{17}{subsection.1.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.3.2}SU(2) $\times $ U(1): electroweak}{17}{subsection.1.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.3.3}Brout-Englert-Higgs mechanism}{18}{subsection.1.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Massive bosons}{18}{section*.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Massive fermions}{21}{section*.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.3.4}Particle mixing}{21}{subsection.1.3.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.4}A success story}{24}{section.1.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.4.1}Predictions}{24}{subsection.1.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.4.2}Precision tests}{24}{subsection.1.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.5}The need for physics beyond the Standard Model}{25}{section.1.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.5.1}Unifying theories}{28}{subsection.1.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.5.2}How to look for new physics}{29}{subsection.1.5.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}Motivation of the Analysis}{31}{chapter.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.1}Introduction}{31}{section.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.2}Theory}{31}{section.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.3}Previous searches}{32}{section.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.1}Searches with accelerators and fixed targets}{32}{subsection.2.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.2}Colliders}{33}{subsection.2.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.3}Searches for particles with telescopes}{33}{subsection.2.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.4}Properties of the signal}{34}{section.2.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Cosmic Rays and Neutrinos}{37}{chapter.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}Cosmic rays}{37}{section.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.1}Discovery of cosmic rays}{37}{subsection.3.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.2}What are cosmic rays?}{38}{subsection.3.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.1.2.1}Galactic component}{40}{subsubsection.3.1.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.1.2.2}Extragalactic component}{41}{subsubsection.3.1.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.3}Acceleration mechanism}{43}{subsection.3.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.1.3.1}Supernova (remnants)}{43}{subsubsection.3.1.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{First- and second-order Fermi acceleration}{44}{section*.21}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Power}{46}{section*.23}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Maximum energy}{46}{section*.24}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.1.3.2}Active Galactic Nuclei}{47}{subsubsection.3.1.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.1.3.3}Gamma Ray Bursts}{48}{subsubsection.3.1.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.1.3.4}Starburst galaxies}{48}{subsubsection.3.1.3.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.1.3.5}Galaxy clusters}{48}{subsubsection.3.1.3.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.4}Propagation}{48}{subsection.3.1.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}Air showers}{48}{section.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.1}Hadronic component}{49}{subsection.3.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.2}Muonic component}{50}{subsection.3.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.3}Electromagnetic component}{50}{subsection.3.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.3}Neutrinos}{51}{section.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3.1}Conventional}{51}{subsection.3.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3.2}Prompt}{52}{subsection.3.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3.3}Astrophysical}{53}{subsection.3.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3.4}Other neutrino sources}{53}{subsection.3.3.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.3.4.1}Supernova neutrinos}{53}{subsubsection.3.3.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.3.4.2}GZK neutrinos}{54}{subsubsection.3.3.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Relativistic Particles in Matter}{55}{chapter.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.1}Cherenkov effect}{55}{section.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.2}Neutrino interactions}{57}{section.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.3}Propagation}{58}{section.4.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3.1}Cascades}{59}{subsection.4.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.3.1.1}Electrons and photons}{59}{subsubsection.4.3.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.3.1.2}Hadrons}{59}{subsubsection.4.3.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3.2}Muon tracks}{59}{subsection.4.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.3.2.1}Energy loss}{60}{subsubsection.4.3.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.4}Energy loss formulae}{61}{section.4.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.4.1}Ionization}{61}{subsection.4.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.4.2}Bremsstrahlung}{62}{subsection.4.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.4.2.1}Elastic component}{62}{subsubsection.4.4.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.4.2.2}Inelastic component}{63}{subsubsection.4.4.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.4.3}Photonuclear}{63}{subsection.4.4.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.4.4}Pair production}{63}{subsection.4.4.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.4.5}Conclusion}{64}{subsection.4.4.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}The IceCube Experiment}{65}{chapter.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.1}Geometry}{65}{section.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1.1}In-ice array}{67}{subsection.5.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1.2}DeepCore}{67}{subsection.5.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1.3}IceTop}{67}{subsection.5.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1.4}IceCube coordinate system}{68}{subsection.5.1.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.2}Hardware components}{69}{section.5.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.1}Digital optical modules}{69}{subsection.5.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.2.1.1}PMTs}{69}{subsubsection.5.2.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.2.1.2}Main board and delay board}{70}{subsubsection.5.2.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.2.1.3}Flasher board}{70}{subsubsection.5.2.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.2}Calibration}{71}{subsection.5.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.3}Cable systems}{71}{subsection.5.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.4}IceCube laboratory}{71}{subsection.5.2.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.3}Deployment}{73}{section.5.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.4}Data taking}{73}{section.5.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.4.1}Triggers}{73}{subsection.5.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.4.2}Filters}{75}{subsection.5.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.4.3}Data handling}{76}{subsection.5.4.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.5}IceCube event topology}{76}{section.5.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.6}Antarctic ice}{77}{section.5.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.6.1}Ice simulation}{77}{subsection.5.6.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.6.2}Systematic uncertainties}{79}{subsection.5.6.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.7}Future upgrades}{79}{section.5.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.7.1}IceCube Upgrade}{79}{subsection.5.7.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.7.2}IceCube Gen2}{80}{subsection.5.7.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.7.2.1}In-ice infill}{80}{subsubsection.5.7.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.7.2.2}Surface array}{81}{subsubsection.5.7.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.7.2.3}Radio array}{81}{subsubsection.5.7.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.8}Beyond the Standard Model searches}{82}{section.5.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.8.1}Lorentz invariance violation}{82}{subsection.5.8.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.8.2}Dark matter}{83}{subsection.5.8.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.8.3}Magnetic monopoles}{83}{subsection.5.8.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.9}Discussion}{84}{section.5.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {part}{\@mypartnumtocformat {\textlatin {I}}{Simulation, Processing and Analysis}}{85}{part.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {6}Simulation: Event Generation and Propagation}{87}{chapter.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.1}The software framework}{87}{section.6.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.2}Generation}{89}{section.6.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.2.1}Background simulation}{89}{subsection.6.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {6.2.1.1}CORSIKA}{89}{subsubsection.6.2.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Interactions}{90}{section*.57}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {6.2.1.2}NuGen}{91}{subsubsection.6.2.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {6.2.1.3}GENIE}{92}{subsubsection.6.2.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.2.2}Signal simulation}{92}{subsection.6.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.3}Propagation}{94}{section.6.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.3.1}\texttt {PROPOSAL}}{94}{subsection.6.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\texttt {PROPOSAL} for SMPs}{95}{section*.63}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.3.2}Photoelectron generators}{95}{subsection.6.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.4}Detector simulation}{96}{section.6.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.5}Processing}{97}{section.6.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.6}Simulation validation: burn sample}{97}{section.6.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.7}Event viewer}{98}{section.6.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {7}Reconstruction, Cleaning and Analysis Techniques}{99}{chapter.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.1}Reconstruction}{99}{section.7.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.1.1}Likelihood}{99}{subsection.7.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.1.2}\texttt {Line-Fit}}{100}{subsection.7.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {7.1.2.1}\texttt {Improved Line-Fit}}{101}{subsubsection.7.1.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.1.3}SPE and MPE}{101}{subsection.7.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.1.4}\texttt {Paraboloid}}{104}{subsection.7.1.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.1.5}\texttt {Millipede}}{105}{subsection.7.1.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.1.6}\texttt {FiniteReco}}{107}{subsection.7.1.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.2}Pulse cleaning}{107}{section.7.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.3}\texttt {IceHive}}{107}{section.7.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.3.1}\texttt {HiveSplitter}}{109}{subsection.7.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.3.2}\texttt {HiveCleaning}}{110}{subsection.7.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.3.3}Remark}{110}{subsection.7.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.4}CoincSuite}{110}{section.7.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.5}Event cleaning and reconstructions: summary}{111}{section.7.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.6}Minimal-Redundancy-Maximum-Relevance}{111}{section.7.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.7}Boosted Decision Tree classifiers}{112}{section.7.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.7.1}Structure}{112}{subsection.7.7.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.7.2}Training}{113}{subsection.7.7.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.7.3}Boosting}{113}{subsection.7.7.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.7.4}Overtraining}{114}{subsection.7.7.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {7.7.4.1}Pruning}{114}{subsubsection.7.7.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {7.7.4.2}Additional checks}{115}{subsubsection.7.7.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {8}The SPACE Analysis}{117}{chapter.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.1}Filter selection}{118}{section.8.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.1.1}VEF}{120}{subsection.8.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.1.2}LowUp}{120}{subsection.8.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.1.3}Online Muon L2}{120}{subsection.8.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.1.4}DeepCore}{120}{subsection.8.1.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.1.5}Burnsample checks}{121}{subsection.8.1.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.2}Level 3}{121}{section.8.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.2.1}The zenith angle cut}{122}{subsection.8.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.2.2}The rlogL cut}{122}{subsection.8.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.2.3}The NPE cut}{123}{subsection.8.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.2.4}The starting rlogL cut}{123}{subsection.8.2.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.2.5}The stopping rlogL cut}{124}{subsection.8.2.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.3}Level 4}{124}{section.8.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.3.1}Cleaning and quality cuts}{124}{subsection.8.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Innerstring domination}{125}{section*.87}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.3.2}Variable construction}{126}{subsection.8.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {8.3.2.1}Commonvariables}{127}{subsubsection.8.3.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{AvgDistToDom}{127}{section*.89}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{EmptyHits}{127}{section*.91}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{COG Separation}{129}{section*.93}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{TrackDistribution}{129}{section*.96}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{ZTravel}{129}{section*.98}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{ZMax}{129}{section*.100}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{ZPattern}{129}{section*.102}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {8.3.2.2}Millipede variables}{133}{subsubsection.8.3.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Mean loss}{133}{section*.105}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Uniformity}{134}{section*.107}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Track length}{134}{section*.109}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {8.3.2.3}New variables}{134}{subsubsection.8.3.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Speedratio}{134}{section*.111}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{NewLength}{136}{section*.113}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {8.3.2.4}Other variables}{137}{subsubsection.8.3.2.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.3.3}Variable selection}{137}{subsection.8.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.4}Level 5}{137}{section.8.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.4.1}BDT result}{141}{subsection.8.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.4.2}Pull-validation}{142}{subsection.8.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.4.3}Model Rejection Factor}{144}{subsection.8.4.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.4.4}Systematic uncertainties}{145}{subsection.8.4.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Implementing the uncertainties in the upper limit}{148}{section*.131}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.5}Results}{149}{section.8.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.5.1}Unblinding}{149}{subsection.8.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.5.2}Limits}{150}{subsection.8.5.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {9}Summary and Conclusion}{153}{chapter.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {part}{\@mypartnumtocformat {\textlatin {II}}{Additions}}{155}{part.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Appendices}{157}{section*.136}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}Statistics}{159}{Appendix.a.A}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {B}Distributions}{161}{Appendix.a.B}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {B.1}Spherical random numbers}{161}{section.a.B.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {B.2}Power law distributions}{162}{section.a.B.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {B.3}Angular distributions}{163}{section.a.B.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {B.4}Weighting}{164}{section.a.B.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {C}Boosted Decision Trees: examples}{167}{Appendix.a.C}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {C.1}Decision Tree: simple example}{167}{section.a.C.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {C.2}AdaBoost: simple example}{167}{section.a.C.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Initial distribution}{168}{section*.142}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Round 1}{168}{section*.143}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Round 2}{168}{section*.144}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Round 3}{169}{section*.145}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Final step}{169}{section*.146}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {D}Resampling Methods}{171}{Appendix.a.D}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {D.1}Bootstrapping}{171}{section.a.D.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {D.2}Cross-validation}{171}{section.a.D.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {E}Additional BDT Checks}{173}{Appendix.a.E}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {F}Data Events at Final Level}{175}{Appendix.a.F}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\leavevmode {\color {ocre}Bibliography}}{179}{chapter*.156}
 \contentsfinish 

@@ -1,22 +1,23 @@
 [0] Config.pm:340> INFO - This is Biber 2.4
-[0] Config.pm:343> INFO - Logfile is 'main.blg'
-[43] biber:287> INFO - === Tue Mar  5, 2019, 17:16:44
-[161] Biber.pm:348> INFO - Reading 'main.bcf'
-[391] Biber.pm:742> INFO - Found 235 citekeys in bib section 0
-[399] Biber.pm:3151> INFO - Processing section 0
-[434] Biber.pm:3308> INFO - Looking for bibtex format file 'bibliography.bib' for section 0
-[1049] bibtex.pm:1113> INFO - Decoding LaTeX character macros into UTF-8
-[1560] bibtex.pm:974> INFO - Found BibTeX data source 'bibliography.bib'
-[1581] Utils.pm:147> WARN - Duplicate entry key: 'Aartsen:2018vez' in file 'bibliography.bib', skipping ...
-[1581] Utils.pm:147> WARN - Duplicate entry key: 'millipedeinternal' in file 'bibliography.bib', skipping ...
-[1617] Utils.pm:147> WARN - ISBN '9780201503975, 0201503972' in entry 'Peskin:1995ev' is invalid - run biber with '--validate_datamodel' for details.
-[2352] Utils.pm:147> WARN - ISBN '9780521016469, 9781316598917' in entry 'Gaisser:2016uoy' is invalid - run biber with '--validate_datamodel' for details.
-[3405] Utils.pm:147> WARN - BibTeX subsystem: warning: comma(s) at end of name (removing)
-[3405] Utils.pm:147> WARN - BibTeX subsystem: author, warning: comma(s) at end of name (removing)
-[4783] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[4783] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[4784] Biber.pm:3028> INFO - Sorting list 'none/global' of type 'entry' with scheme 'none' and locale 'en-US'
-[4784] Biber.pm:3032> INFO - No sort tailoring available for locale 'en-US'
-[4963] bbl.pm:519> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[5719] bbl.pm:615> INFO - Output to main.bbl
-[5719] Biber.pm:109> INFO - WARNINGS: 6
+[1] Config.pm:343> INFO - Logfile is 'main.blg'
+[54] biber:287> INFO - === Fri Mar  8, 2019, 12:19:15
+[181] Biber.pm:348> INFO - Reading 'main.bcf'
+[391] Biber.pm:742> INFO - Found 236 citekeys in bib section 0
+[400] Biber.pm:3151> INFO - Processing section 0
+[436] Biber.pm:3308> INFO - Looking for bibtex format file 'bibliography.bib' for section 0
+[1078] bibtex.pm:1113> INFO - Decoding LaTeX character macros into UTF-8
+[1691] bibtex.pm:974> INFO - Found BibTeX data source 'bibliography.bib'
+[1715] Utils.pm:147> WARN - Duplicate entry key: 'Aartsen:2018vez' in file 'bibliography.bib', skipping ...
+[1716] Utils.pm:147> WARN - Duplicate entry key: 'millipedeinternal' in file 'bibliography.bib', skipping ...
+[1716] Utils.pm:147> WARN - Duplicate entry key: 'Grupen:2005rx' in file 'bibliography.bib', skipping ...
+[1750] Utils.pm:147> WARN - ISBN '9780201503975, 0201503972' in entry 'Peskin:1995ev' is invalid - run biber with '--validate_datamodel' for details.
+[2769] Utils.pm:147> WARN - ISBN '9780521016469, 9781316598917' in entry 'Gaisser:2016uoy' is invalid - run biber with '--validate_datamodel' for details.
+[3805] Utils.pm:147> WARN - BibTeX subsystem: warning: comma(s) at end of name (removing)
+[3805] Utils.pm:147> WARN - BibTeX subsystem: author, warning: comma(s) at end of name (removing)
+[5169] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[5169] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[5169] Biber.pm:3028> INFO - Sorting list 'none/global' of type 'entry' with scheme 'none' and locale 'en-US'
+[5169] Biber.pm:3032> INFO - No sort tailoring available for locale 'en-US'
+[5355] bbl.pm:519> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[6142] bbl.pm:615> INFO - Output to main.bbl
+[6142] Biber.pm:109> INFO - WARNINGS: 7
