@@ -204,20 +204,20 @@ In Section \ref{subsec:icesimulation} we already explained how the ice is simula
 \end{equation}
 From this formula, we find that the expected rate of a Cherenkov emission profile is equal to $\approx 350$ photons/cm. Together with the DOM acceptance curve, as shown in Figure \ref{fig:acceptance}, which has an overall average of around 7\%, the expected \textit{observed} number of photons is equal to 2450 m$^{-1}$.\\
 
-\noindent \texttt{PPC}\index{PPC} is a Photon Propagation Code, written in C++ that runs on graphic processing units (GPUs). This allows the code to run up to a hundred times faster than in a CPU-only environment. \texttt{PPC} employs both CUDA (NVIDIA GPU only) and OpenCL programming interface (both NVIDIA and AMD GPUs) together with multiple CPU environments.
+\noindent \texttt{PPC}\index{PPC} is a Photon Propagation Code, written in C++ that runs on graphic processing units (GPUs). This allows the code to run up to a hundred times faster than in a CPU-only environment. \texttt{PPC} employs both CUDA (NVIDIA GPU only) and OpenCL programming interfaces (both NVIDIA and AMD GPUs) together with multiple CPU environments.
 GPU environments allow the tracking of thousands of photons simultaneously, vastly improving the computational speed. For more information, see Ref. \cite{dimaspice}.
 
 Previous photon propagation codes, such as \texttt{Photonics} \index{Photonics} \cite{Lundberg:2007mf}, produced 6-dimensional photon tables (3 spatial, 2 directional and 1 temporal). This meant that at least one set of tables had to be produced per particle type and per velocity and interpolation methods had to be used, with the accompanying inaccuracies. These tables also required significant disk space and the method was therefore replaced with the GPU-codes. Direct photon simulation also allows for other non-trivial implementations such as the tilting of ice layers.\\
 
-\noindent Another photon propagation code is called \texttt{CLSim}\index{CLSim}, which uses GEANT4 to propagate particles. A hybrid version called \texttt{HybridCLsim} is often used. Muons are propagated using \texttt{PROPOSAL}/\texttt{MMC} \index{MMC} and their stochastic losses (which are small showers) are simulated from tables whereas the ``bare muons'' (with their stochastics) are simulated using direct propagation. This avoids time loss for the rare but very computational high-energy cascade events.\\
+\noindent Another photon propagation code is called \texttt{CLSim}\index{CLSim}, which uses GEANT4 to propagate particles. A hybrid version called \texttt{HybridCLsim} is often used. Muons are propagated using \texttt{PROPOSAL}/\texttt{MMC} \index{MMC} and their stochastic losses (which are small showers) are simulated from tables whereas the ``bare muons'' (with their stochastics) are simulated using direct propagation. This avoids time loss for the rare but very computationally expensive high-energy cascade events.\\
 
-\noindent An illustration of photon propagation in the IceCube detector for both a cascade and track simulation is shown in Figure \ref{fig:photonsimulation}.
+\noindent An illustration of photon propagation in the IceCube detector for a track simulation is shown in Figure \ref{fig:photonsimulation}.
 
 \begin{figure}
 \centering
 \includegraphics[width=0.8\textwidth,height=2.6in]{chapter6/img/photons_track_rounded.png}
 %\includegraphics[width=0.48\textwidth,height=1.9in]{chapter6/img/photons_cascade_rounded.png}
-\caption{Simulation of a track event in IceCube. Each line represents a photon path and colors indicate how far they have traveled from their generation point.}
+\caption{Simulation of a track event in IceCube. Each line represents a photon path and colors indicate how far they have traveled from their generation point. The color code represents a time delay with respect to a direct unscattered photon. Only 0.01\% of all Cherenkov photons produced in this 100 TeV simulated muon is shown.}
 \label{fig:photonsimulation}
 \end{figure}
 %Hier ook indirect cherenkov light component
@@ -228,7 +228,7 @@ Previous photon propagation codes, such as \texttt{Photonics} \index{Photonics} 
 Further processing of the simulations involve:
 \vspace{2mm}
 \begin{itemize}
-\item \texttt{Polyplopia}: a project dedicated to merge multiple events to account for coincident events (that are simulated independently). An estimated 15\% of CORSIKA events result in coincident events and make up the bulk of bad reconstructions where downgoing muons are simulated as upgoing (example see Figure \ref{fig:coincidentevent});
+\item \texttt{Polyplopia}: a project dedicated to merge multiple events to account for coincident events (that are simulated independently). An estimated 15\% of CORSIKA events result in coincident events and make up the bulk of bad reconstructions where downgoing muons are reconstructed as upgoing (example see Figure \ref{fig:coincidentevent});
 \item \texttt{Vuvuzela}: the PMT noise is simulated as having an exponential component from  thermal and radioactive decays, and a log-normal contribution for scintillation;
 \item \texttt{PMT}: the time from the first photon entering the PMT to the readout after passing along multiple dynodes has an uncertainty, referred to as ``PMT jitter''\index{PMT jitter}. The amplification of photoelectrons by the PMT is also not constant and is simulated in this module. Additionally, the module accounts for prepulses, late pulses, afterpulses and saturation of the PMT. More information can be found in Refs. \cite{Abbasi:2010vc,Ma:2009aw}.
 \item \texttt{DOMLauncher}: the digitization of the PMT pulses and other behavior of the DOM mainboard (as explained in Section \ref{subsec:mainboard}) is done in this module. The three main features of the DOM that are simulated to generate launches are the discriminator, LC, and digitization.
@@ -245,7 +245,7 @@ Getting the intricate details of physical events in non-trivial environments jus
 
 It is for this reason that most analyses select a certain subset of the data they want to analyze to compare to the Monte Carlo simulations. For the present work, 10\% of the total data, called the \textit{burn sample}\index{burn sample}, was used to compare data to Monte Carlo. As indicated in Section \ref{subsec:datahandling}, the data is saved in 8 hour runs and the burn sample consists of every run that ends on a `0'. The burn sample also allows to estimate the robustness of certain reconstructions and variables regarding differences in data and simulation.\\
 
-\noindent After the discovery of an SPE offset in the DOM response in 2015, it was decided that multiple years of data was to be reprocessed in what was called \textit{pass2 reprocessing} \cite{pass2}. Aside from the SPE correction, the raw pulses were reprocessed with 2017 PnF, making the data more uniform in the course of the years for easier comparison\footnote{Most filters did not undergo changes or only minor ones.}. This analysis makes use of data starting in the years 2011 to 2015 and are referred to as IC86-1 to IC86-5 where IC86 stands for the complete 86-string IceCube detector configuration and the last digit refers to the year of the season start. More recent years were not fully processed in time for this analysis. Only runs were considered that had
+\noindent After the discovery of an SPE offset in the DOM response in 2015, it was decided that multiple years of data were to be reprocessed in what was called \textit{pass2 reprocessing} \cite{pass2}. Aside from the SPE correction, the raw pulses were reprocessed with 2017 PnF, making the data more uniform in the course of the years for easier comparison\footnote{Most filters did not undergo changes or only minor ones.}. This analysis makes use of data starting in the years 2011 to 2015 and are referred to as IC86-1 to IC86-5 where IC86 stands for the complete 86-string IceCube detector configuration and the last digit refers to the year of the season start. More recent years were not fully processed in time for this analysis. Only runs were considered that had
 \vspace{2mm}
 \begin{enumerate}
 \item a positive tag from run coordinators (status == ``good\_i3''),
@@ -272,4 +272,4 @@ After a full simulation, it is possible to visualize the event in an event viewe
 
 The number of photons seen per DOM is indicated by the size of the spheres; the larger the sphere, the more PEs were seen. The color of the spheres indicates the time of the pulse registration. The color scale can be chosen, but usually a rainbow pattern is used where red indicates the earliest pulse hits and blue the last. 
 
-An example of a track event in the event viewer is given in Figure \ref{fig:photonsimulation}.
+An example of a track event in the event viewer is given in Figure \ref{fig:coincidentevent}.

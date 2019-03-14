@@ -98,6 +98,7 @@
 %\frac{du}{d\nu} = \frac{8\pi h \nu^3}{c^3} \frac{h\nu}{e^{h\nu/kT} - 1}
 %\end{equation}
 
+\iffalse
 \chapterimage{gauss.png}
 \chapter{Statistics}
 A word that is often mentioned in this work is ``statistics''. It refers to the statistical error of a counting experiment, i.e. the Poissonian error. The Poisson distribution is a discrete probability of a certain number of $n$events occurring in a fixed time interval. The Poisson probability function is given by
@@ -113,6 +114,8 @@ P(n) = \frac{\lambda^n e^{-\lambda}}{n!},
 \end{equation}
 
 \noindent In other words: higher statistics denotes a lower statistical error.
+
+\fi
 
 \chapterimage{random_crop.png}
 \chapter{Distributions}
@@ -371,7 +374,7 @@ N_N < N_P \textrm{ and } N \subset P.
 From $N$, only one estimate of the mean can be computed. To get a sense of the variability one could assume a Gaussian or Poissonian probability, or what is done in this method: form a new subsample that is also of size $N_N$. This can only be done by \textit{sampling with replacement} where the elements in the subsample can be repeated. If $N_N$ is sufficiently large, this will almost certainly result in subsamples that are different from the original sample. The mean can be computed from the new subsample and this process is repeated a large number of times (typically of the order of 1,000). The distribution of the means then indicates our confidence in the sample mean where a large variability assumes large uncertainties.
 
 \section{Cross-validation}
-Another example of a resampling method is cross-validation, sometimes called \textit{rotation estimation}, where one wants to estimate the predictive power of a model. From a sample, a subsample called the \textit{training sample} is selected to train a model (e.g. a BDT). This model is then checked on another subsample called the \textit{testing sample}. This allows to estimate how the model will generalize to other independent datasets. Training samples will often have a lower performance in parameter estimations from the testing sample than the training sample. In cross-validation one tries to get an estimate for this effect. An often uses cross-validation method is called \textit{$k$-fold cross-validation}.
+Another example of a resampling method is cross-validation, sometimes called \textit{rotation estimation}, where one wants to estimate the predictive power of a model. From a sample, a subsample called the \textit{training sample} is selected to train a model (e.g. a BDT). This model is then checked on another subsample called the \textit{testing sample}. This allows to estimate how the model will generalize to other independent datasets. Training samples will often have a lower performance in parameter estimations from the testing sample than the training sample. In cross-validation one tries to get an estimate for this effect. An often used cross-validation method is called \textit{$k$-fold cross-validation}.
 
 In this method, one iterates the procedure of selecting a training sample and a testing sample $k$ times. If the total size of the sample set is $N_N$, the testing samples will have a size of $N_N/k$. As we have $k$ iterations, the subsamples can be chosen without replacement and are unique each time. At each iteration, the training sample will have a size of $N_N - \frac{N_N}{k} = N_N \cdot \frac{k-1}{k}$. The $k$ results can then be averaged to produce a single estimation.\\
 
@@ -416,6 +419,7 @@ As explained in Section \ref{sec:BDT}, it is important to perfom some checks to 
 \label{fig:correlation}
 \end{figure}
 
+
 \usechapterimagefalse
 \chapterimage{whitepage.png}
 \chapter{Data Events at Final Level}
@@ -426,7 +430,7 @@ As explained in Section \ref{sec:BDT}, it is important to perfom some checks to 
 \centering
 \includegraphics[width=0.49\textwidth]{appendix/img/FINAL_data_m_10000_ch1ovr2_1.png}
 \includegraphics[width=0.49\textwidth]{appendix/img/FINAL_data_m_10000_ch1ovr2_1_NUMUANOLOGY.png}
-\caption{Event viewers of an event that survive the SMP with mass 10 TeV and charge 1/2 selection. \textit{Left (data): } Short and bright up-going track corresponds to $\mu$ from an atmospheric $\nu_\mu$ that stopped shortly after leaving DeepCore. \textit{Right: }Simulated atmospheric $\nu_\mu$ event that strongly resembles this data event.}
+\caption{Event viewers of an event that survive the SMP with mass 10 TeV and charge 1/2 selection. \textit{Left (real data): } Short and bright upgoing track corresponds to $\mu$ from an atmospheric $\nu_\mu$ that stopped shortly after leaving DeepCore. \textit{Right: }Simulated atmospheric $\nu_\mu$ event that strongly resembles this data event.}
 \label{fig:final_1}
 \end{figure}
 
@@ -434,7 +438,7 @@ As explained in Section \ref{sec:BDT}, it is important to perfom some checks to 
 \centering
 \includegraphics[width=0.49\textwidth]{appendix/img/FINAL_data_m_10000_ch1ovr2_2.png}
 \includegraphics[width=0.49\textwidth]{appendix/img/FINAL_data_m_10000_ch1ovr2_2_NUMUANALOGY.png}
-\caption{Event viewers of an event that survive the SMP with mass 10 TeV and charge 1/2 selection. \textit{Left (data): }Corresponds to an up-going $\mu$ from atmospheric $\nu_\mu$ that either starts or ``corridors'' in between strings and skims DeepCore. After leaving DeepCore it only passes close to one string, giving the two hits. \textit{Right: }Simulated atmospheric $\nu_\mu$ event that strongly resembles this data event.}
+\caption{Event viewers of an event that survive the SMP with mass 10 TeV and charge 1/2 selection. \textit{Left (real data): }Corresponds to an upgoing $\mu$ from atmospheric $\nu_\mu$ that either starts or ``corridors'' in between strings and skims DeepCore along the side. After leaving DeepCore it only passes close to one string, giving the two hits. \textit{Right: }Simulated atmospheric $\nu_\mu$ event that strongly resembles this data event.}
 \label{fig:final_1}
 \end{figure}
 
@@ -442,7 +446,7 @@ As explained in Section \ref{sec:BDT}, it is important to perfom some checks to 
 \centering
 \includegraphics[width=0.49\textwidth]{appendix/img/FINAL_data_m_10_ch1ovr3_1.png}
 \includegraphics[width=0.49\textwidth]{appendix/img/FINAL_data_m_10_ch1ovr3_1_NUMUANALOGY.png}
-\caption{Event viewers of an event that survive the SMP with mass 10 GeV and charge 1/3 selection. \textit{Left (data): }Corresponds to a horizontal $\mu$ from atmospheric $\nu_\mu$ that passes close to one string in IceCube and stops in DeepCore where more light is recorded. \textit{Right: }Simulated atmospheric $\nu_\mu$ event that strongly resembles this data event.}
+\caption{Event viewers of an event that survive the SMP with mass 10 GeV and charge 1/3 selection. \textit{Left (real data): }Corresponds to a horizontal $\mu$ from atmospheric $\nu_\mu$ that passes close to one string in IceCube and stops in DeepCore where more light is recorded. \textit{Right: }Simulated atmospheric $\nu_\mu$ event that strongly resembles this data event.}
 \label{fig:final_3}
 \end{figure}
 
@@ -450,15 +454,18 @@ As explained in Section \ref{sec:BDT}, it is important to perfom some checks to 
 \centering
 \includegraphics[width=0.49\textwidth]{appendix/img/FINAL_signal_m_100_ch1ovr2.png}
 \includegraphics[width=0.49\textwidth]{appendix/img/FINAL_signal_m_100_ch1ovr3.png}
-\caption{\textit{Left: }Typical SMP of 100 GeV and charge 1/2 that survives the final selection. \textit{Right: }Typical SMP of 100 GeV and charge 1/3 that survives theh final selection. Note that there is a lot less light produces compared to particles with higher charges.}
+\caption{\textit{Left: }Typical simulated SMP of 100 GeV and charge 1/2 that survives the final selection. \textit{Right: }Typical simulated SMP of 100 GeV and charge 1/3 that survives the final selection. Note that there is a lot less light produced compared to particles with higher charges.}
 \label{fig:final_4}
 \end{figure}
 
 \begin{figure}
 \centering
 \includegraphics[width=0.49\textwidth]{appendix/img/FINAL_signal_m_100_ch2ovr3.png}
-\caption{Typical SMP of 100 GeV and charge 1/3 that survives theh final selection. Note that there is a lot more light produces compared to particles with lower charges.}
+\caption{Typical simulated SMP of 100 GeV and charge 1/3 that survives the final selection. Note that there is a lot more light produced compared to particles with lower charges.}
 \label{fig:final_4}
 \end{figure}
+
+
+
 
 \end{appendices}

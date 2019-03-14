@@ -80,7 +80,6 @@
       \field{sortinithash}{990108227b3316c02842d895999a0165}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{isbn}{9780201503975, 0201503972}
       \field{title}{{An Introduction to quantum field theory}}
       \field{year}{1995}
       \verb{url}
@@ -3607,7 +3606,6 @@
       \field{sortinithash}{990108227b3316c02842d895999a0165}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{isbn}{9780521016469, 9781316598917}
       \field{title}{{Cosmic Rays and Particle Physics}}
       \field{year}{2016}
       \verb{url}
@@ -5549,14 +5547,14 @@
     \endentry
     \entry{pass2}{misc}{}
       \name{author}{1}{}{%
-        {{hash=aa0933322213f03478e36208ac32047d}{%
-           family={collaboration},
-           family_i={c\bibinitperiod},
+        {{hash=90549ed8df7bc4f04caae5fa5edfddd2}{%
+           family={Collaboration},
+           family_i={C\bibinitperiod},
            given={The\bibnamedelima IceCube},
            given_i={T\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
       }
-      \strng{namehash}{aa0933322213f03478e36208ac32047d}
-      \strng{fullhash}{aa0933322213f03478e36208ac32047d}
+      \strng{namehash}{90549ed8df7bc4f04caae5fa5edfddd2}
+      \strng{fullhash}{90549ed8df7bc4f04caae5fa5edfddd2}
       \field{sortinit}{0}
       \field{sortinithash}{990108227b3316c02842d895999a0165}
       \field{labelnamesource}{author}
@@ -7236,14 +7234,14 @@
     \endentry
     \entry{millipedeinternal}{misc}{}
       \name{author}{1}{}{%
-        {{hash=187fba1552767b18f30c44375da17514}{%
-           family={collaboration},
-           family_i={c\bibinitperiod},
-           given={IceCube},
-           given_i={I\bibinitperiod}}}%
+        {{hash=90549ed8df7bc4f04caae5fa5edfddd2}{%
+           family={Collaboration},
+           family_i={C\bibinitperiod},
+           given={The\bibnamedelima IceCube},
+           given_i={T\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
       }
-      \strng{namehash}{187fba1552767b18f30c44375da17514}
-      \strng{fullhash}{187fba1552767b18f30c44375da17514}
+      \strng{namehash}{90549ed8df7bc4f04caae5fa5edfddd2}
+      \strng{fullhash}{90549ed8df7bc4f04caae5fa5edfddd2}
       \field{sortinit}{0}
       \field{sortinithash}{990108227b3316c02842d895999a0165}
       \field{labelnamesource}{author}
@@ -7280,6 +7278,23 @@
       \verb{eprint}
       \verb 1311.4767
       \endverb
+    \endentry
+    \entry{millipedeinternal2}{misc}{}
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=f18f10f13bb94641750e86c15d3ee678}{%
+           family={Góra},
+           family_i={G\bibinitperiod},
+           given={D.},
+           given_i={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{7766da6a04264eef35c0c94b020c3224}
+      \strng{fullhash}{7766da6a04264eef35c0c94b020c3224}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Studies on millipede, IceCube Internal Report: icecube/201404001.}
     \endentry
     \entry{stefthesis}{misc}{}
       \name{author}{1}{}{%
@@ -7409,14 +7424,14 @@
     \endentry
     \entry{VEF2012}{misc}{}
       \name{author}{1}{}{%
-        {{hash=aa0933322213f03478e36208ac32047d}{%
-           family={collaboration},
-           family_i={c\bibinitperiod},
+        {{hash=90549ed8df7bc4f04caae5fa5edfddd2}{%
+           family={Collaboration},
+           family_i={C\bibinitperiod},
            given={The\bibnamedelima IceCube},
            given_i={T\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
       }
-      \strng{namehash}{aa0933322213f03478e36208ac32047d}
-      \strng{fullhash}{aa0933322213f03478e36208ac32047d}
+      \strng{namehash}{90549ed8df7bc4f04caae5fa5edfddd2}
+      \strng{fullhash}{90549ed8df7bc4f04caae5fa5edfddd2}
       \field{sortinit}{0}
       \field{sortinithash}{990108227b3316c02842d895999a0165}
       \field{labelnamesource}{author}
@@ -7426,14 +7441,14 @@
     \endentry
     \entry{LowUp2012}{misc}{}
       \name{author}{1}{}{%
-        {{hash=aa0933322213f03478e36208ac32047d}{%
-           family={collaboration},
-           family_i={c\bibinitperiod},
+        {{hash=90549ed8df7bc4f04caae5fa5edfddd2}{%
+           family={Collaboration},
+           family_i={C\bibinitperiod},
            given={The\bibnamedelima IceCube},
            given_i={T\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
       }
-      \strng{namehash}{aa0933322213f03478e36208ac32047d}
-      \strng{fullhash}{aa0933322213f03478e36208ac32047d}
+      \strng{namehash}{90549ed8df7bc4f04caae5fa5edfddd2}
+      \strng{fullhash}{90549ed8df7bc4f04caae5fa5edfddd2}
       \field{sortinit}{0}
       \field{sortinithash}{990108227b3316c02842d895999a0165}
       \field{labelnamesource}{author}
@@ -7443,14 +7458,14 @@
     \endentry
     \entry{muon2012filter}{misc}{}
       \name{author}{1}{}{%
-        {{hash=aa0933322213f03478e36208ac32047d}{%
-           family={collaboration},
-           family_i={c\bibinitperiod},
+        {{hash=90549ed8df7bc4f04caae5fa5edfddd2}{%
+           family={Collaboration},
+           family_i={C\bibinitperiod},
            given={The\bibnamedelima IceCube},
            given_i={T\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
       }
-      \strng{namehash}{aa0933322213f03478e36208ac32047d}
-      \strng{fullhash}{aa0933322213f03478e36208ac32047d}
+      \strng{namehash}{90549ed8df7bc4f04caae5fa5edfddd2}
+      \strng{fullhash}{90549ed8df7bc4f04caae5fa5edfddd2}
       \field{sortinit}{0}
       \field{sortinithash}{990108227b3316c02842d895999a0165}
       \field{labelnamesource}{author}
@@ -7460,14 +7475,14 @@
     \endentry
     \entry{OnlineMuonL22012}{misc}{}
       \name{author}{1}{}{%
-        {{hash=aa0933322213f03478e36208ac32047d}{%
-           family={collaboration},
-           family_i={c\bibinitperiod},
+        {{hash=90549ed8df7bc4f04caae5fa5edfddd2}{%
+           family={Collaboration},
+           family_i={C\bibinitperiod},
            given={The\bibnamedelima IceCube},
            given_i={T\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
       }
-      \strng{namehash}{aa0933322213f03478e36208ac32047d}
-      \strng{fullhash}{aa0933322213f03478e36208ac32047d}
+      \strng{namehash}{90549ed8df7bc4f04caae5fa5edfddd2}
+      \strng{fullhash}{90549ed8df7bc4f04caae5fa5edfddd2}
       \field{sortinit}{0}
       \field{sortinithash}{990108227b3316c02842d895999a0165}
       \field{labelnamesource}{author}
@@ -7477,14 +7492,14 @@
     \endentry
     \entry{DeepCore2012}{misc}{}
       \name{author}{1}{}{%
-        {{hash=aa0933322213f03478e36208ac32047d}{%
-           family={collaboration},
-           family_i={c\bibinitperiod},
+        {{hash=90549ed8df7bc4f04caae5fa5edfddd2}{%
+           family={Collaboration},
+           family_i={C\bibinitperiod},
            given={The\bibnamedelima IceCube},
            given_i={T\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
       }
-      \strng{namehash}{aa0933322213f03478e36208ac32047d}
-      \strng{fullhash}{aa0933322213f03478e36208ac32047d}
+      \strng{namehash}{90549ed8df7bc4f04caae5fa5edfddd2}
+      \strng{fullhash}{90549ed8df7bc4f04caae5fa5edfddd2}
       \field{sortinit}{0}
       \field{sortinithash}{990108227b3316c02842d895999a0165}
       \field{labelnamesource}{author}
@@ -7494,19 +7509,43 @@
     \endentry
     \entry{2011rate}{misc}{}
       \name{author}{1}{}{%
-        {{hash=187fba1552767b18f30c44375da17514}{%
-           family={collaboration},
-           family_i={c\bibinitperiod},
-           given={IceCube},
-           given_i={I\bibinitperiod}}}%
+        {{hash=90549ed8df7bc4f04caae5fa5edfddd2}{%
+           family={Collaboration},
+           family_i={C\bibinitperiod},
+           given={The\bibnamedelima IceCube},
+           given_i={T\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
       }
-      \strng{namehash}{187fba1552767b18f30c44375da17514}
-      \strng{fullhash}{187fba1552767b18f30c44375da17514}
+      \strng{namehash}{90549ed8df7bc4f04caae5fa5edfddd2}
+      \strng{fullhash}{90549ed8df7bc4f04caae5fa5edfddd2}
       \field{sortinit}{0}
       \field{sortinithash}{990108227b3316c02842d895999a0165}
       \field{labelnamesource}{author}
       \verb{url}
       \verb https://wiki.icecube.wisc.edu/index.php/Effects_of_DOM_Mainboard_Release_443
+      \endverb
+    \endentry
+    \entry{Niessen2001Search}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=ec15586e54be25431951e0737a50b76a}{%
+           family={Nießen},
+           family_i={N\bibinitperiod},
+           given={Peter},
+           given_i={P\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Humboldt-Universität zu Berlin, Mathematisch-Naturwissenschaftliche Fakultät I}%
+      }
+      \strng{namehash}{ec15586e54be25431951e0737a50b76a}
+      \strng{fullhash}{ec15586e54be25431951e0737a50b76a}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Search for relativistic magnetic monopoles with the AMANDA detector}
+      \field{type}{phdthesis}
+      \field{year}{2001}
+      \verb{doi}
+      \verb http://dx.doi.org/10.18452/14579
       \endverb
     \endentry
     \entry{steffthesis}{thesis}{}
@@ -7550,6 +7589,23 @@
       \field{title}{A Search for Dark Matter in the Center of the Earth with the IceCube Neutrino Detector}
       \field{type}{mathesis}
       \field{year}{2015}
+    \endentry
+    \entry{pybdturl}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=90549ed8df7bc4f04caae5fa5edfddd2}{%
+           family={Collaboration},
+           family_i={C\bibinitperiod},
+           given={The\bibnamedelima IceCube},
+           given_i={T\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+      }
+      \strng{namehash}{90549ed8df7bc4f04caae5fa5edfddd2}
+      \strng{fullhash}{90549ed8df7bc4f04caae5fa5edfddd2}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \verb{url}
+      \verb http://software.icecube.wisc.edu/documentation/projects/pybdt/
+      \endverb
     \endentry
     \entry{1352676}{inproceedings}{}
       \name{author}{3}{}{%
