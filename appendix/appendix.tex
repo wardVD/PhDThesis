@@ -123,7 +123,7 @@ P(n) = \frac{\lambda^n e^{-\lambda}}{n!},
 
 \section{Spherical random numbers}
 \label{sec:sphericalrandom}
-Most random number generators provide uniform distributions between the range $[0,1]$. Assume we want to make a uniform distribution along a sphere with angles $\phi$ and $\theta$ and radius $r$, in spherical coordinates. Random numbers between $[0,\pi]$, $[0,2\pi]$ and $[0,R]$ (the ranges of the coordinates) would not give a uniform distribution as illustrated in Figure \ref{fig:sphere} (left).
+Most random number generators provide uniform distributions between the range $[0,1]$. Assume we want to make a uniform distribution along a sphere with angles $\phi$ and $\theta$ and radius $r$, in spherical coordinates. Random numbers between $[0,\pi]$, $[0,2\pi]$ and $[0,R]$ (the ranges of the coordinates) would not give a uniform distribution as illustrated in Figure \ref{fig:sphere} (left).\\
 
 \begin{figure}
 \centering
@@ -220,7 +220,7 @@ In Figure \ref{fig:signalweighting} the signal reweighting is shown.
 \centering
 \includegraphics[width=0.48\textwidth]{appendix/img/SpectrumBeforeWeighting.png}
 \includegraphics[width=0.48\textwidth]{appendix/img/SpectrumAfterWeighting.png}
-\caption{\textit{Left: }Spectrum of the signal before weighting following an $E^{-1}$ spectrum. The rise in the rate in function of energy is due to the trigger efficiency that increases in function of energy. \textit{Right: }Spectrum of the signal after reweighting to an energy spectrum of $E{-2}$.}
+\caption{\textit{Left: }Spectrum of the signal before weighting following an $E^{-1}$ spectrum. The rise in the rate in function of energy is due to the trigger efficiency that increases in function of energy. \textit{Right: }Spectrum of the signal after reweighting to an energy spectrum of $E^{-2}$.}
 \label{fig:signalweighting}
 \end{figure}
 
@@ -250,7 +250,7 @@ d\Omega = \sin(\theta) d\theta d\phi.
 \section{Weighting}
 \label{sec:weighting}
 A method that is often used in simulations is \textit{weighting}. The simulated and expected differential flux of particles is often not the same, mainly due to two reasons:
-
+\vspace{2mm}
 \begin{itemize}
 \item The flux has no uniform power law behavior. As can bee seen in Figure \ref{fig:spectrumCR}, there can be multiple ``kinks'' and changes in a spectrum. Instead of simulating the flux according to one model, a general uniform flux is used and later reweighted to be able to fit to other models more easily.
 \item A steep power law indicates very few events at the highest energy bins. This means large CPU time would be necessary to simulate these events. As an example, let us assume two different fluxes
@@ -430,7 +430,7 @@ As explained in Section \ref{sec:BDT}, it is important to perfom some checks to 
 \centering
 \includegraphics[width=0.49\textwidth]{appendix/img/FINAL_data_m_10000_ch1ovr2_1.png}
 \includegraphics[width=0.49\textwidth]{appendix/img/FINAL_data_m_10000_ch1ovr2_1_NUMUANOLOGY.png}
-\caption{Event viewers of an event that survive the SMP with mass 10 TeV and charge 1/2 selection. \textit{Left (real data): } Short and bright upgoing track corresponds to $\mu$ from an atmospheric $\nu_\mu$ that stopped shortly after leaving DeepCore. \textit{Right: }Simulated atmospheric $\nu_\mu$ event that strongly resembles this data event.}
+\caption{Event display of events that survive the SMP with mass 10 TeV and charge 1/2 selection. \textit{Left (real data): } A short and bright upgoing tracks corresponds to $\mu$ from an atmospheric $\nu_\mu$ that stopped shortly after leaving DeepCore. \textit{Right: }Simulated atmospheric $\nu_\mu$ event that strongly resembles this data event.}
 \label{fig:final_1}
 \end{figure}
 
@@ -438,7 +438,7 @@ As explained in Section \ref{sec:BDT}, it is important to perfom some checks to 
 \centering
 \includegraphics[width=0.49\textwidth]{appendix/img/FINAL_data_m_10000_ch1ovr2_2.png}
 \includegraphics[width=0.49\textwidth]{appendix/img/FINAL_data_m_10000_ch1ovr2_2_NUMUANALOGY.png}
-\caption{Event viewers of an event that survive the SMP with mass 10 TeV and charge 1/2 selection. \textit{Left (real data): }Corresponds to an upgoing $\mu$ from atmospheric $\nu_\mu$ that either starts or ``corridors'' in between strings and skims DeepCore along the side. After leaving DeepCore it only passes close to one string, giving the two hits. \textit{Right: }Simulated atmospheric $\nu_\mu$ event that strongly resembles this data event.}
+\caption{Event display of events that survive the SMP with mass 10 TeV and charge 1/2 selection. \textit{Left (real data): }Corresponds to an upgoing $\mu$ from atmospheric $\nu_\mu$ that either starts or ``corridors'' in between strings and skims DeepCore along the side. After leaving DeepCore it only passes close to one string, giving the two hits. \textit{Right: }Simulated atmospheric $\nu_\mu$ event that strongly resembles this data event.}
 \label{fig:final_1}
 \end{figure}
 
@@ -446,7 +446,7 @@ As explained in Section \ref{sec:BDT}, it is important to perfom some checks to 
 \centering
 \includegraphics[width=0.49\textwidth]{appendix/img/FINAL_data_m_10_ch1ovr3_1.png}
 \includegraphics[width=0.49\textwidth]{appendix/img/FINAL_data_m_10_ch1ovr3_1_NUMUANALOGY.png}
-\caption{Event viewers of an event that survive the SMP with mass 10 GeV and charge 1/3 selection. \textit{Left (real data): }Corresponds to a horizontal $\mu$ from atmospheric $\nu_\mu$ that passes close to one string in IceCube and stops in DeepCore where more light is recorded. \textit{Right: }Simulated atmospheric $\nu_\mu$ event that strongly resembles this data event.}
+\caption{Event display of events that survive the SMP with mass 10 GeV and charge 1/3 selection. \textit{Left (real data): }Corresponds to a horizontal $\mu$ from atmospheric $\nu_\mu$ that passes close to one string in IceCube and stops in DeepCore where more light is recorded. \textit{Right: }Simulated atmospheric $\nu_\mu$ event that strongly resembles this data event.}
 \label{fig:final_3}
 \end{figure}
 

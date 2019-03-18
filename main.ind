@@ -50,8 +50,8 @@
 \tikz\node at (0pt,0pt) [draw=none,fill=ocre!50,line width=1pt,inner sep=5pt]{\parbox{\linewidth-2\fboxsep-2\fboxrule-2pt}{\centering\large\sffamily\bfseries\textcolor{white}{P}}};\vspace*{0.2cm}\nopagebreak
 
   \item Photonics\dotfill \hyperpage{98}
-  \item PMT jitter\dotfill \hyperpage{98}
-  \item PPC\dotfill \hyperpage{97}
+  \item PMT jitter\dotfill \hyperpage{99}
+  \item PPC\dotfill \hyperpage{98}
   \item PROPOSAL\dotfill \hyperpage{96}
 
   \indexspace
