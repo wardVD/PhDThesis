@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.15)  18 MAR 2019 15:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.15)  20 MAR 2019 11:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2155,23 +2155,23 @@ LaTeX Warning: Label `fig:final_4' multiply defined.
 ))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 48.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 50.
  (/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -2245,9 +2245,9 @@ ABD: EveryShipout initializing macros
 .................................................
 . chemgreek info: "mapping-activated"
 . 
-. Activating mapping `default' on line 48.
+. Activating mapping `default' on line 50.
 .................................................
-LaTeX Info: Redefining \microtypecontext on input line 48.
+LaTeX Info: Redefining \microtypecontext on input line 50.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -2270,10 +2270,10 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (./main.bbl)
-Package biblatex Info: Reference section=0 on input line 48.
-Package biblatex Info: Reference segment=0 on input line 48.
+Package biblatex Info: Reference section=0 on input line 50.
+Package biblatex Info: Reference segment=0 on input line 50.
 \AtBeginShipoutBox=\box62
-Package hyperref Info: Link coloring OFF on input line 48.
+Package hyperref Info: Link coloring OFF on input line 50.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -2283,9 +2283,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count439
 )
-LaTeX Info: Redefining \ref on input line 48.
-LaTeX Info: Redefining \pageref on input line 48.
-LaTeX Info: Redefining \nameref on input line 48.
+LaTeX Info: Redefining \ref on input line 50.
+LaTeX Info: Redefining \pageref on input line 50.
+LaTeX Info: Redefining \nameref on input line 50.
 \openout2 = `front.aux'.
 
 
@@ -2358,17 +2358,6 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 
 
 ]
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.42 
-     
-? 
-
 Underfull \hbox (badness 10000) in paragraph at lines 45--46
 
  []
@@ -2388,7 +2377,7 @@ Package pdftex.def Info: Pictures/logo_UGent_EN_RGB_2400_kleur_witbg.png used o
 n input line 68.
 (pdftex.def)             Requested size: 100.27435pt x 75.28091pt.
 )
-Overfull \hbox (2.43332pt too wide) in paragraph at lines 58--50
+Overfull \hbox (2.43332pt too wide) in paragraph at lines 58--52
 $[]$  $[]$[] 
  []
 
@@ -2396,7 +2385,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.50 \include{voorblad}
+l.52 \include{voorblad}
                         [2 <./Pictures/logo_UGent_EN_RGB_2400_kleur_witbg.png>]
 \openout2 = `thankyou.aux'.
 
@@ -2441,7 +2430,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--38
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.52 \include{poem}
+l.54 \include{poem}
                     [1
 
 
@@ -2450,7 +2439,7 @@ l.52 \include{poem}
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.61 \mainmatter
+l.63 \mainmatter
                  [2
 
 
@@ -2460,7 +2449,7 @@ File: Pictures/60seconds_StandardModelCube.jpg Graphic file (type jpg)
 
 <use Pictures/60seconds_StandardModelCube.jpg>
 Package pdftex.def Info: Pictures/60seconds_StandardModelCube.jpg used on input
- line 71.
+ line 73.
 (pdftex.def)             Requested size: 597.50787pt x 336.10442pt.
  (./main.toc
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -3015,9 +3004,6 @@ File: chapter4/img/ICinteractions.png Graphic file (type png)
 Package pdftex.def Info: chapter4/img/ICinteractions.png used on input line 99.
 
 (pdftex.def)             Requested size: 318.66948pt x 188.51654pt.
-
-Underfull \vbox (badness 1490) has occurred while \output is active []
-
  [60 <./chapter4/img/feynmanneutrino.png> <./chapter4/img/ICinteractions.png>] 
 [61]
 Underfull \hbox (badness 10000) in paragraph at lines 144--145
@@ -3278,17 +3264,13 @@ Package pdftex.def Info: chapter5/img/LV.png used on input line 419.
 File: chapter5/img/dm.png Graphic file (type png)
 
 <use chapter5/img/dm.png>
-Package pdftex.def Info: chapter5/img/dm.png used on input line 432.
+Package pdftex.def Info: chapter5/img/dm.png used on input line 431.
 (pdftex.def)             Requested size: 295.90588pt x 249.2639pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [84 <./chapter5/img/LV.png>] [85 <./chapter5/img/dm.png>]) [86] (./main.ptc) [
 87
 
 
-]
-[88]
+] [88]
 \openout2 = `chapter6/chapter6.aux'.
 
  (./chapter6/chapter6.tex
@@ -3581,7 +3563,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 265--266
 
  []
 
-[109] <chapter7/img/coincidenteventsCORS.png, id=2368, 770.88pt x 578.16pt>
+[109] <chapter7/img/coincidenteventsCORS.png, id=2370, 770.88pt x 578.16pt>
 File: chapter7/img/coincidenteventsCORS.png Graphic file (type png)
 
 <use chapter7/img/coincidenteventsCORS.png>
@@ -3592,14 +3574,14 @@ ne 269.
 Underfull \vbox (badness 5133) has occurred while \output is active []
 
  [110 <./chapter7/img/coincidenteventsCORS.png>]
-<chapter7/img/hexagons.png, id=2378, 253.69781pt x 376.40625pt>
+<chapter7/img/hexagons.png, id=2380, 253.69781pt x 376.40625pt>
 File: chapter7/img/hexagons.png Graphic file (type png)
 
 <use chapter7/img/hexagons.png>
 Package pdftex.def Info: chapter7/img/hexagons.png used on input line 283.
 (pdftex.def)             Requested size: 227.62206pt x 337.72865pt.
 
-<chapter7/img/cherenkovzoll.png, id=2379, 420.57124pt x 811.03pt>
+<chapter7/img/cherenkovzoll.png, id=2381, 420.57124pt x 811.03pt>
 File: chapter7/img/cherenkovzoll.png Graphic file (type png)
 
 <use chapter7/img/cherenkovzoll.png>
@@ -3611,7 +3593,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 301--302
 
  []
 
-<chapter7/img/coincsuite.png, id=2395, 1696.3375pt x 500.87125pt>
+<chapter7/img/coincsuite.png, id=2397, 1696.3375pt x 500.87125pt>
 File: chapter7/img/coincsuite.png Graphic file (type png)
 
 <use chapter7/img/coincsuite.png>
@@ -3631,7 +3613,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 343--344
 Underfull \vbox (badness 2556) has occurred while \output is active []
 
  [113]
-<chapter7/img/bdt.png, id=2423, 462.78159pt x 441.86131pt>
+<chapter7/img/bdt.png, id=2425, 462.78159pt x 441.86131pt>
 File: chapter7/img/bdt.png Graphic file (type png)
 
 <use chapter7/img/bdt.png>
@@ -3642,7 +3624,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 419--422
 
  []
 
-[115] <chapter7/img/overtraining.png, id=2458, 860.21375pt x 759.83875pt>
+[115] <chapter7/img/overtraining.png, id=2460, 860.21375pt x 759.83875pt>
 File: chapter7/img/overtraining.png Graphic file (type png)
 
 <use chapter7/img/overtraining.png>
@@ -3668,7 +3650,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 468--471
 
 ]
 Chapter 8.
-<Pictures/wallhaven-301134.png, id=2486, 1927.2pt x 1084.05pt>
+<Pictures/wallhaven-301134.png, id=2488, 1927.2pt x 1084.05pt>
 File: Pictures/wallhaven-301134.png Graphic file (type png)
 
 <use Pictures/wallhaven-301134.png>
@@ -3685,7 +3667,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--18
  []
 
 [119 <./Pictures/wallhaven-301134.png>]
-<chapter8/img/CutFlow_Level2b_Level3_Level4.png, id=2494, 722.7pt x 794.97pt>
+<chapter8/img/CutFlow_Level2b_Level3_Level4.png, id=2496, 722.7pt x 794.97pt>
 File: chapter8/img/CutFlow_Level2b_Level3_Level4.png Graphic file (type png)
 
 <use chapter8/img/CutFlow_Level2b_Level3_Level4.png>
@@ -3693,7 +3675,7 @@ Package pdftex.def Info: chapter8/img/CutFlow_Level2b_Level3_Level4.png used on
  input line 23.
 (pdftex.def)             Requested size: 364.19667pt x 400.61363pt.
  [120 <./chapter8/img/CutFlow_Level2b_Level3_Level4.png>]
-<chapter8/img/FilterRate_better_rotated.png, id=2507, 1445.4pt x 1445.4pt>
+<chapter8/img/FilterRate_better_rotated.png, id=2509, 1445.4pt x 1445.4pt>
 File: chapter8/img/FilterRate_better_rotated.png Graphic file (type png)
 
 <use chapter8/img/FilterRate_better_rotated.png>
@@ -3705,14 +3687,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 72--73
 
  []
 
-<chapter8/img/stringview.jpg, id=2533, 154.176pt x 143.0946pt>
+<chapter8/img/stringview.jpg, id=2535, 154.176pt x 143.0946pt>
 File: chapter8/img/stringview.jpg Graphic file (type jpg)
 
 <use chapter8/img/stringview.jpg>
 Package pdftex.def Info: chapter8/img/stringview.jpg used on input line 76.
 (pdftex.def)             Requested size: 250.38564pt x 232.39276pt.
 
-<chapter8/img/FilterRatePerRun.png, id=2540, 499.3857pt x 350.5095pt>
+<chapter8/img/FilterRatePerRun.png, id=2542, 499.3857pt x 350.5095pt>
 File: chapter8/img/FilterRatePerRun.png Graphic file (type png)
 
 <use chapter8/img/FilterRatePerRun.png>
@@ -3720,7 +3702,7 @@ Package pdftex.def Info: chapter8/img/FilterRatePerRun.png used on input line 8
 9.
 (pdftex.def)             Requested size: 223.07211pt x 156.57257pt.
 
-<chapter8/img/FilterRatePerMonth.png, id=2541, 497.2176pt x 352.6776pt>
+<chapter8/img/FilterRatePerMonth.png, id=2543, 497.2176pt x 352.6776pt>
 File: chapter8/img/FilterRatePerMonth.png Graphic file (type png)
 
 <use chapter8/img/FilterRatePerMonth.png>
@@ -3733,67 +3715,58 @@ Underfull \hbox (badness 10000) in paragraph at lines 117--118
  []
 
 
-<chapter8/img/1D_stack_mpefit_zenith_new.png, id=2554, 680.64816pt x 629.93237p
-t>
-File: chapter8/img/1D_stack_mpefit_zenith_new.png Graphic file (type png)
- <use chapter8/img/1D_stack_mpefit_zenith_new.png>
-Package pdftex.def Info: chapter8/img/1D_stack_mpefit_zenith_new.png used on in
-put line 127.
-(pdftex.def)             Requested size: 318.66948pt x 294.93404pt.
+<chapter8/img/1D_stack_mpefit_zenith_final.png, id=2556, 247.23947pt x 190.1842
+pt>
+File: chapter8/img/1D_stack_mpefit_zenith_final.png Graphic file (type png)
+ <use chapter8/img/1D_stack_mpefit_zenith_final.png>
+Package pdftex.def Info: chapter8/img/1D_stack_mpefit_zenith_final.png used on 
+input line 127.
+(pdftex.def)             Requested size: 364.19667pt x 280.1739pt.
  [124 <./chapter8/img/FilterRatePerRun.png> <./chapter8/img/FilterRatePerMonth.
 png>]
-<chapter8/img/1D_stack_mpefit_rlogl_new.png, id=2571, 680.64816pt x 629.93237pt
->
-File: chapter8/img/1D_stack_mpefit_rlogl_new.png Graphic file (type png)
- <use chapter8/img/1D_stack_mpefit_rlogl_new.png>
-Package pdftex.def Info: chapter8/img/1D_stack_mpefit_rlogl_new.png used on inp
-ut line 150.
-(pdftex.def)             Requested size: 318.66948pt x 294.93404pt.
+<chapter8/img/1D_stack_mpefit_rlogl_final.png, id=2573, 247.23947pt x 190.1842p
+t>
+File: chapter8/img/1D_stack_mpefit_rlogl_final.png Graphic file (type png)
+ <use chapter8/img/1D_stack_mpefit_rlogl_final.png>
+Package pdftex.def Info: chapter8/img/1D_stack_mpefit_rlogl_final.png used on i
+nput line 150.
+(pdftex.def)             Requested size: 364.19667pt x 280.1739pt.
 
-<chapter8/img/L3_zenithcut_gr_1p4835298642_rloglcut_less_15_1D_stack_npe_new.pn
-g, id=2574, 680.64816pt x 629.29842pt>
-File: chapter8/img/L3_zenithcut_gr_1p4835298642_rloglcut_less_15_1D_stack_npe_n
-ew.png Graphic file (type png)
+<chapter8/img/1D_stack_npe_final.png, id=2576, 247.23947pt x 190.1842pt>
+File: chapter8/img/1D_stack_npe_final.png Graphic file (type png)
 
-<use chapter8/img/L3_zenithcut_gr_1p4835298642_rloglcut_less_15_1D_stack_npe_ne
-w.png>
-Package pdftex.def Info: chapter8/img/L3_zenithcut_gr_1p4835298642_rloglcut_les
-s_15_1D_stack_npe_new.png used on input line 167.
-(pdftex.def)             Requested size: 318.66948pt x 294.63722pt.
- [125 <./chapter8/img/1D_stack_mpefit_zenith_new.png>]
-<chapter8/img/L3_zenithcut_gr_1p4835298642_rloglcut_less_15_npecut_less_50_1D_s
-tack_finitereco_rllh_starting_new.png, id=2587, 680.64816pt x 629.93237pt>
-File: chapter8/img/L3_zenithcut_gr_1p4835298642_rloglcut_less_15_npecut_less_50
-_1D_stack_finitereco_rllh_starting_new.png Graphic file (type png)
+<use chapter8/img/1D_stack_npe_final.png>
+Package pdftex.def Info: chapter8/img/1D_stack_npe_final.png used on input line
+ 167.
+(pdftex.def)             Requested size: 364.19667pt x 280.1739pt.
+ [125 <./chapter8/img/1D_stack_mpefit_zenith_final.png>]
+<chapter8/img/1D_stack_finitereco_rllh_starting_final.png, id=2589, 1174.3875pt
+ x 903.375pt>
+File: chapter8/img/1D_stack_finitereco_rllh_starting_final.png Graphic file (ty
+pe png)
+ <use chapter8/img/1D_stack_finitereco_rllh_starting_final.png>
+Package pdftex.def Info: chapter8/img/1D_stack_finitereco_rllh_starting_final.p
+ng used on input line 185.
+(pdftex.def)             Requested size: 364.19667pt x 280.13985pt.
 
-<use chapter8/img/L3_zenithcut_gr_1p4835298642_rloglcut_less_15_npecut_less_50_
-1D_stack_finitereco_rllh_starting_new.png>
-Package pdftex.def Info: chapter8/img/L3_zenithcut_gr_1p4835298642_rloglcut_les
-s_15_npecut_less_50_1D_stack_finitereco_rllh_starting_new.png used on input lin
-e 185.
-(pdftex.def)             Requested size: 318.66948pt x 294.93404pt.
+<chapter8/img/1D_stack_finitereco_rllh_stopping_final.png, id=2591, 939.29869pt
+ x 722.48868pt>
+File: chapter8/img/1D_stack_finitereco_rllh_stopping_final.png Graphic file (ty
+pe png)
+ <use chapter8/img/1D_stack_finitereco_rllh_stopping_final.png>
+Package pdftex.def Info: chapter8/img/1D_stack_finitereco_rllh_stopping_final.p
+ng used on input line 200.
+(pdftex.def)             Requested size: 364.19667pt x 280.12683pt.
 
-<chapter8/img/L3_zenithcut_gr_1p4835298642_rloglcut_less_15_npecut_less_50_star
-tingtrackcut_hs_gr_0_1D_stack_finitereco_rllh_stopping_new.png, id=2589, 680.64
-816pt x 629.93237pt>
-File: chapter8/img/L3_zenithcut_gr_1p4835298642_rloglcut_less_15_npecut_less_50
-_startingtrackcut_hs_gr_0_1D_stack_finitereco_rllh_stopping_new.png Graphic fil
-e (type png)
-
-<use chapter8/img/L3_zenithcut_gr_1p4835298642_rloglcut_less_15_npecut_less_50_
-startingtrackcut_hs_gr_0_1D_stack_finitereco_rllh_stopping_new.png>
-Package pdftex.def Info: chapter8/img/L3_zenithcut_gr_1p4835298642_rloglcut_les
-s_15_npecut_less_50_startingtrackcut_hs_gr_0_1D_stack_finitereco_rllh_stopping_
-new.png used on input line 200.
-(pdftex.def)             Requested size: 318.66948pt x 294.93404pt.
- [126 <./chapter8/img/1D_stack_mpefit_rlogl_new.png>]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 208.
 
-[127 <./chapter8/img/L3_zenithcut_gr_1p4835298642_rloglcut_less_15_1D_stack_npe
-_new.png>] [128 <./chapter8/img/L3_zenithcut_gr_1p4835298642_rloglcut_less_15_n
-pecut_less_50_1D_stack_finitereco_rllh_starting_new.png>]
+[126 <./chapter8/img/1D_stack_mpefit_rlogl_final.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [127 <./chapter8/img/1D_stack_npe_final.png>] [128 <./chapter8/img/1D_stack_fi
+nitereco_rllh_starting_final.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 267--268
 
  []
@@ -3802,20 +3775,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 267--268
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 271.
 
-
-Underfull \vbox (badness 1960) has occurred while \output is active []
-
- [129 <./chapter8/img/L3_zenithcut_gr_1p4835298642_rloglcut_less_15_npecut_less
-_50_startingtrackcut_hs_gr_0_1D_stack_finitereco_rllh_stopping_new.png>]
-<chapter8/img/1D_stack_avdistdom_150.png, id=2642, 939.51pt x 722.7pt>
+<chapter8/img/1D_stack_avdistdom_150.png, id=2631, 939.51pt x 722.7pt>
 File: chapter8/img/1D_stack_avdistdom_150.png Graphic file (type png)
 
 <use chapter8/img/1D_stack_avdistdom_150.png>
 Package pdftex.def Info: chapter8/img/1D_stack_avdistdom_150.png used on input 
 line 302.
 (pdftex.def)             Requested size: 409.71692pt x 315.16594pt.
-
-<chapter8/img/1D_stack_emptyhits_100.png, id=2644, 939.51pt x 722.7pt>
+ [129 <./chapter8/img/1D_stack_finitereco_rllh_stopping_final.png>] [130 <./cha
+pter8/img/1D_stack_avdistdom_150.png>] <chapter8/img/1D_stack_emptyhits_100.png
+, id=2651, 939.51pt x 722.7pt>
 File: chapter8/img/1D_stack_emptyhits_100.png Graphic file (type png)
 
 <use chapter8/img/1D_stack_emptyhits_100.png>
@@ -3823,7 +3792,7 @@ Package pdftex.def Info: chapter8/img/1D_stack_emptyhits_100.png used on input
 line 312.
 (pdftex.def)             Requested size: 409.71692pt x 315.16594pt.
 
-<chapter8/img/1D_stack_trackseparation_150.png, id=2647, 939.51pt x 722.7pt>
+<chapter8/img/1D_stack_trackseparation_150.png, id=2654, 939.51pt x 722.7pt>
 File: chapter8/img/1D_stack_trackseparation_150.png Graphic file (type png)
 
 <use chapter8/img/1D_stack_trackseparation_150.png>
@@ -3831,7 +3800,7 @@ Package pdftex.def Info: chapter8/img/1D_stack_trackseparation_150.png used on
 input line 322.
 (pdftex.def)             Requested size: 409.71692pt x 315.16594pt.
 
-<chapter8/img/1D_stack_trackseparation_50.png, id=2648, 939.51pt x 722.7pt>
+<chapter8/img/1D_stack_trackseparation_50.png, id=2655, 939.51pt x 722.7pt>
 File: chapter8/img/1D_stack_trackseparation_50.png Graphic file (type png)
 
 <use chapter8/img/1D_stack_trackseparation_50.png>
@@ -3839,7 +3808,7 @@ Package pdftex.def Info: chapter8/img/1D_stack_trackseparation_50.png used on i
 nput line 329.
 (pdftex.def)             Requested size: 409.71692pt x 315.16594pt.
 
-<chapter8/img/1D_stack_trackdistribution_50.png, id=2651, 939.51pt x 722.7pt>
+<chapter8/img/1D_stack_trackdistribution_50.png, id=2658, 939.51pt x 722.7pt>
 File: chapter8/img/1D_stack_trackdistribution_50.png Graphic file (type png)
 
 <use chapter8/img/1D_stack_trackdistribution_50.png>
@@ -3847,7 +3816,7 @@ Package pdftex.def Info: chapter8/img/1D_stack_trackdistribution_50.png used on
  input line 339.
 (pdftex.def)             Requested size: 409.71692pt x 315.16594pt.
 
-<chapter8/img/1D_stack_ztravel.png, id=2653, 939.51pt x 722.7pt>
+<chapter8/img/1D_stack_ztravel.png, id=2660, 939.51pt x 722.7pt>
 File: chapter8/img/1D_stack_ztravel.png Graphic file (type png)
 
 <use chapter8/img/1D_stack_ztravel.png>
@@ -3855,17 +3824,17 @@ Package pdftex.def Info: chapter8/img/1D_stack_ztravel.png used on input line 3
 49.
 (pdftex.def)             Requested size: 409.71692pt x 315.16594pt.
 
-<chapter8/img/1D_stack_zmax.png, id=2656, 939.51pt x 722.7pt>
+<chapter8/img/1D_stack_zmax.png, id=2663, 939.51pt x 722.7pt>
 File: chapter8/img/1D_stack_zmax.png Graphic file (type png)
 
 <use chapter8/img/1D_stack_zmax.png>
 Package pdftex.def Info: chapter8/img/1D_stack_zmax.png used on input line 359.
 
 (pdftex.def)             Requested size: 409.71692pt x 315.16594pt.
- [130] [131 <./chapter8/img/1D_stack_avdistdom_150.png> <./chapter8/img/1D_stac
-k_emptyhits_100.png>] [132 <./chapter8/img/1D_stack_trackseparation_150.png> <.
-/chapter8/img/1D_stack_trackseparation_50.png>] [133 <./chapter8/img/1D_stack_t
-rackdistribution_50.png> <./chapter8/img/1D_stack_ztravel.png>]
+ [131 <./chapter8/img/1D_stack_emptyhits_100.png>] [132 <./chapter8/img/1D_stac
+k_trackseparation_150.png> <./chapter8/img/1D_stack_trackseparation_50.png>] [1
+33 <./chapter8/img/1D_stack_trackdistribution_50.png> <./chapter8/img/1D_stack_
+ztravel.png>]
 <chapter8/img/1D_stack_zpattern.png, id=2695, 939.51pt x 722.7pt>
 File: chapter8/img/1D_stack_zpattern.png Graphic file (type png)
 
@@ -3884,7 +3853,7 @@ Package pdftex.def Info: chapter8/img/millipedeStef.png used on input line 380.
  [134 <./chapter8/img/1D_stack_zmax.png>]
 [135 <./chapter8/img/1D_stack_zpattern.png> <./chapter8/img/millipedeStef.png>]
 
-<chapter8/img/1D_stack_millipede_dedx_mean_nozeroes.png, id=2718, 939.51pt x 72
+<chapter8/img/1D_stack_millipede_dedx_mean_nozeroes.png, id=2719, 939.51pt x 72
 2.7pt>
 File: chapter8/img/1D_stack_millipede_dedx_mean_nozeroes.png Graphic file (type
  png)
@@ -3893,7 +3862,7 @@ Package pdftex.def Info: chapter8/img/1D_stack_millipede_dedx_mean_nozeroes.png
  used on input line 393.
 (pdftex.def)             Requested size: 409.71692pt x 315.16594pt.
 
-<chapter8/img/1D_stack_millipede_dedx_runsabovemean.png, id=2721, 939.51pt x 72
+<chapter8/img/1D_stack_millipede_dedx_runsabovemean.png, id=2722, 939.51pt x 72
 2.7pt>
 File: chapter8/img/1D_stack_millipede_dedx_runsabovemean.png Graphic file (type
  png)
@@ -3902,7 +3871,7 @@ Package pdftex.def Info: chapter8/img/1D_stack_millipede_dedx_runsabovemean.png
  used on input line 403.
 (pdftex.def)             Requested size: 409.71692pt x 315.16594pt.
 
-<chapter8/img/1D_stack_millipede_tracklength60.png, id=2723, 939.51pt x 722.7pt
+<chapter8/img/1D_stack_millipede_tracklength60.png, id=2724, 939.51pt x 722.7pt
 >
 File: chapter8/img/1D_stack_millipede_tracklength60.png Graphic file (type png)
 
@@ -3910,13 +3879,10 @@ File: chapter8/img/1D_stack_millipede_tracklength60.png Graphic file (type png)
 Package pdftex.def Info: chapter8/img/1D_stack_millipede_tracklength60.png used
  on input line 415.
 (pdftex.def)             Requested size: 409.71692pt x 315.16594pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [136 <./chapter8/img/1D_stack_millipede_dedx_mean_nozeroes.png>] [137 <./chapt
 er8/img/1D_stack_millipede_dedx_runsabovemean.png> <./chapter8/img/1D_stack_mil
-lipede_tracklength60.png>]
-<chapter8/img/1D_stack_speedratio.png, id=2743, 939.51pt x 722.7pt>
+lipede_tracklength60.png>] <chapter8/img/1D_stack_speedratio.png, id=2745, 939.
+51pt x 722.7pt>
 File: chapter8/img/1D_stack_speedratio.png Graphic file (type png)
 
 <use chapter8/img/1D_stack_speedratio.png>
@@ -3938,7 +3904,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 468--469
  []
 
 
-<chapter8/img/newlengthillustration_extra.png, id=2761, 458.97789pt x 423.26553
+<chapter8/img/newlengthillustration_extra.png, id=2763, 458.97789pt x 423.26553
 pt>
 File: chapter8/img/newlengthillustration_extra.png Graphic file (type png)
  <use chapter8/img/newlengthillustration_extra.png>
@@ -3946,7 +3912,7 @@ Package pdftex.def Info: chapter8/img/newlengthillustration_extra.png used on i
 nput line 474.
 (pdftex.def)             Requested size: 273.14923pt x 251.89455pt.
 
-<chapter8/img/1D_stack_newlength_150.png, id=2762, 939.51pt x 722.7pt>
+<chapter8/img/1D_stack_newlength_150.png, id=2764, 939.51pt x 722.7pt>
 File: chapter8/img/1D_stack_newlength_150.png Graphic file (type png)
 
 <use chapter8/img/1D_stack_newlength_150.png>
@@ -3954,7 +3920,7 @@ Package pdftex.def Info: chapter8/img/1D_stack_newlength_150.png used on input
 line 482.
 (pdftex.def)             Requested size: 409.71692pt x 315.16594pt.
 
-<chapter8/img/1D_stack_newlength_all_z.png, id=2763, 939.51pt x 722.7pt>
+<chapter8/img/1D_stack_newlength_all_z.png, id=2765, 939.51pt x 722.7pt>
 File: chapter8/img/1D_stack_newlength_all_z.png Graphic file (type png)
 
 <use chapter8/img/1D_stack_newlength_all_z.png>
@@ -3963,7 +3929,7 @@ t line 490.
 (pdftex.def)             Requested size: 409.71692pt x 315.16594pt.
  [139] [140 <./chapter8/img/newlengthillustration_extra.png> <./chapter8/img/1D
 _stack_newlength_150.png>]
-<chapter8/img/1D_stack_linefitvelocity.png, id=2789, 939.51pt x 722.7pt>
+<chapter8/img/1D_stack_linefitvelocity.png, id=2790, 939.51pt x 722.7pt>
 File: chapter8/img/1D_stack_linefitvelocity.png Graphic file (type png)
 
 <use chapter8/img/1D_stack_linefitvelocity.png>
@@ -3971,7 +3937,7 @@ Package pdftex.def Info: chapter8/img/1D_stack_linefitvelocity.png used on inpu
 t line 511.
 (pdftex.def)             Requested size: 409.71692pt x 315.16594pt.
 
-<chapter8/img/1D_stack_sigma_corr_paraboloid.png, id=2790, 939.51pt x 722.7pt>
+<chapter8/img/1D_stack_sigma_corr_paraboloid.png, id=2791, 939.51pt x 722.7pt>
 File: chapter8/img/1D_stack_sigma_corr_paraboloid.png Graphic file (type png)
 
 <use chapter8/img/1D_stack_sigma_corr_paraboloid.png>
@@ -3979,7 +3945,7 @@ Package pdftex.def Info: chapter8/img/1D_stack_sigma_corr_paraboloid.png used o
 n input line 519.
 (pdftex.def)             Requested size: 409.71692pt x 315.16594pt.
 
-<chapter8/img/1D_stack_spefit1_hc_coszenith_foefelare.png, id=2791, 939.51pt x 
+<chapter8/img/1D_stack_spefit1_hc_coszenith_foefelare.png, id=2792, 939.51pt x 
 722.7pt>
 File: chapter8/img/1D_stack_spefit1_hc_coszenith_foefelare.png Graphic file (ty
 pe png)
@@ -3990,214 +3956,210 @@ ng used on input line 527.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 541.
+               Default added (so using `tbp') on input line 539.
 
 [141 <./chapter8/img/1D_stack_newlength_all_z.png>] [142 <./chapter8/img/1D_sta
 ck_linefitvelocity.png> <./chapter8/img/1D_stack_sigma_corr_paraboloid.png>]
 [143 <./chapter8/img/1D_stack_spefit1_hc_coszenith_foefelare.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 606--607
+Underfull \hbox (badness 10000) in paragraph at lines 604--605
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 618--619
+Underfull \hbox (badness 10000) in paragraph at lines 616--617
 
  []
 
 
-<chapter8/img/dist_vs_bdt_result2_signal_m_100_charge1ovr2_better.png, id=2825,
+<chapter8/img/dist_vs_bdt_result2_signal_m_100_charge1ovr2_better.png, id=2827,
  674.2791pt x 505.89pt>
 File: chapter8/img/dist_vs_bdt_result2_signal_m_100_charge1ovr2_better.png Grap
 hic file (type png)
 
 <use chapter8/img/dist_vs_bdt_result2_signal_m_100_charge1ovr2_better.png>
 Package pdftex.def Info: chapter8/img/dist_vs_bdt_result2_signal_m_100_charge1o
-vr2_better.png used on input line 622.
+vr2_better.png used on input line 620.
 (pdftex.def)             Requested size: 318.66948pt x 239.09604pt.
 
 [144]
-Underfull \hbox (badness 10000) in paragraph at lines 633--634
+Underfull \hbox (badness 10000) in paragraph at lines 631--632
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 644--645
+Underfull \hbox (badness 10000) in paragraph at lines 642--643
 
  []
 
 [145 <./chapter8/img/dist_vs_bdt_result2_signal_m_100_charge1ovr2_better.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 653--654
+Underfull \hbox (badness 10000) in paragraph at lines 651--652
 
  []
 
 
-<chapter8/img/pullval_result2_signal_m_100_charge1ovr2.png, id=2859, 1353.6171p
+<chapter8/img/pullval_result2_signal_m_100_charge1ovr2.png, id=2861, 1353.6171p
 t x 648.2619pt>
 File: chapter8/img/pullval_result2_signal_m_100_charge1ovr2.png Graphic file (t
 ype png)
 
 <use chapter8/img/pullval_result2_signal_m_100_charge1ovr2.png>
 Package pdftex.def Info: chapter8/img/pullval_result2_signal_m_100_charge1ovr2.
-png used on input line 657.
+png used on input line 655.
 (pdftex.def)             Requested size: 455.24411pt x 218.02223pt.
 
-<chapter8/img/PMF_test_numu_atmos_bg_betweenbin_0p29_0p3_crop_typo.png, id=2862
+<chapter8/img/PMF_test_numu_atmos_bg_betweenbin_0p29_0p3_crop_typo.png, id=2864
 , 615.7404pt x 623.6901pt>
 File: chapter8/img/PMF_test_numu_atmos_bg_betweenbin_0p29_0p3_crop_typo.png Gra
 phic file (type png)
 
 <use chapter8/img/PMF_test_numu_atmos_bg_betweenbin_0p29_0p3_crop_typo.png>
 Package pdftex.def Info: chapter8/img/PMF_test_numu_atmos_bg_betweenbin_0p29_0p
-3_crop_typo.png used on input line 664.
+3_crop_typo.png used on input line 662.
 (pdftex.def)             Requested size: 223.07211pt x 225.94624pt.
 
 <chapter8/img/PMF_test_numu_atmos_bg_betweenbin_0p34_0p35_crop_typo.png, id=286
-3, 615.0177pt x 625.1355pt>
+5, 615.0177pt x 625.1355pt>
 File: chapter8/img/PMF_test_numu_atmos_bg_betweenbin_0p34_0p35_crop_typo.png Gr
 aphic file (type png)
 
 <use chapter8/img/PMF_test_numu_atmos_bg_betweenbin_0p34_0p35_crop_typo.png>
 Package pdftex.def Info: chapter8/img/PMF_test_numu_atmos_bg_betweenbin_0p34_0p
-35_crop_typo.png used on input line 665.
+35_crop_typo.png used on input line 663.
 (pdftex.def)             Requested size: 223.07211pt x 226.73697pt.
 
 [146 <./chapter8/img/pullval_result2_signal_m_100_charge1ovr2.png>] [147 <./cha
 pter8/img/PMF_test_numu_atmos_bg_betweenbin_0p29_0p3_crop_typo.png> <./chapter8
 /img/PMF_test_numu_atmos_bg_betweenbin_0p34_0p35_crop_typo.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 706--707
+Underfull \hbox (badness 10000) in paragraph at lines 704--705
 
  []
 
 
 <chapter8/img/ModelRejectionFactor_percentile_0p9_signal_m_100_ch_1ovr2_noSYST.
-png, id=2890, 722.7pt x 722.7pt>
+png, id=2891, 722.7pt x 722.7pt>
 File: chapter8/img/ModelRejectionFactor_percentile_0p9_signal_m_100_ch_1ovr2_no
 SYST.png Graphic file (type png)
 
 <use chapter8/img/ModelRejectionFactor_percentile_0p9_signal_m_100_ch_1ovr2_noS
 YST.png>
 Package pdftex.def Info: chapter8/img/ModelRejectionFactor_percentile_0p9_signa
-l_m_100_ch_1ovr2_noSYST.png used on input line 710.
+l_m_100_ch_1ovr2_noSYST.png used on input line 708.
 (pdftex.def)             Requested size: 409.71692pt x 409.71571pt.
  [148 <./chapter8/img/ModelRejectionFactor_percentile_0p9_signal_m_100_ch_1ovr2
 _noSYST.png>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 717.
+               Default added (so using `tbp') on input line 715.
 
 [149]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 771.
+               Default added (so using `tbp') on input line 769.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 808.
+               Default added (so using `tbp') on input line 806.
 
 
 <chapter8/img/PVUncertainty_sig_m_100_c_1ovr2_BDTCUT0p25_test_numu_atmos_bg.png
-, id=2931, 623.6901pt x 511.6716pt>
+, id=2933, 623.6901pt x 511.6716pt>
 File: chapter8/img/PVUncertainty_sig_m_100_c_1ovr2_BDTCUT0p25_test_numu_atmos_b
 g.png Graphic file (type png)
 
 <use chapter8/img/PVUncertainty_sig_m_100_c_1ovr2_BDTCUT0p25_test_numu_atmos_bg
 .png>
 Package pdftex.def Info: chapter8/img/PVUncertainty_sig_m_100_c_1ovr2_BDTCUT0p2
-5_test_numu_atmos_bg.png used on input line 830.
+5_test_numu_atmos_bg.png used on input line 828.
 (pdftex.def)             Requested size: 223.07211pt x 183.00708pt.
 
 <chapter8/img/PVUncertainty_sig_m_100_c_1ovr2_BDTCUT0p32_total_test_sig.png, id
-=2932, 623.6901pt x 511.6716pt>
+=2934, 623.6901pt x 511.6716pt>
 File: chapter8/img/PVUncertainty_sig_m_100_c_1ovr2_BDTCUT0p32_total_test_sig.pn
 g Graphic file (type png)
 
 <use chapter8/img/PVUncertainty_sig_m_100_c_1ovr2_BDTCUT0p32_total_test_sig.png
 >
 Package pdftex.def Info: chapter8/img/PVUncertainty_sig_m_100_c_1ovr2_BDTCUT0p3
-2_total_test_sig.png used on input line 831.
+2_total_test_sig.png used on input line 829.
 (pdftex.def)             Requested size: 223.07211pt x 183.00708pt.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 836.
+               Default added (so using `tbp') on input line 834.
 
-
-Underfull \vbox (badness 4266) has occurred while \output is active []
-
- [150]
-[151 <./chapter8/img/PVUncertainty_sig_m_100_c_1ovr2_BDTCUT0p25_test_numu_atmos
-_bg.png> <./chapter8/img/PVUncertainty_sig_m_100_c_1ovr2_BDTCUT0p32_total_test_
-sig.png>]
-<chapter8/img/PVuncertainty_asweights_background.png, id=2958, 671.50874pt x 67
+[150] [151 <./chapter8/img/PVUncertainty_sig_m_100_c_1ovr2_BDTCUT0p25_test_numu
+_atmos_bg.png> <./chapter8/img/PVUncertainty_sig_m_100_c_1ovr2_BDTCUT0p32_total
+_test_sig.png>]
+<chapter8/img/PVuncertainty_asweights_background.png, id=2960, 671.50874pt x 67
 7.53125pt>
 File: chapter8/img/PVuncertainty_asweights_background.png Graphic file (type pn
 g)
  <use chapter8/img/PVuncertainty_asweights_background.png>
 Package pdftex.def Info: chapter8/img/PVuncertainty_asweights_background.png us
-ed on input line 882.
+ed on input line 880.
 (pdftex.def)             Requested size: 223.07211pt x 225.0747pt.
 
-<chapter8/img/PVuncertainty_asweights_signal.png, id=2959, 671.50874pt x 677.53
+<chapter8/img/PVuncertainty_asweights_signal.png, id=2961, 671.50874pt x 677.53
 125pt>
 File: chapter8/img/PVuncertainty_asweights_signal.png Graphic file (type png)
  <use chapter8/img/PVuncertainty_asweights_signal.png>
 Package pdftex.def Info: chapter8/img/PVuncertainty_asweights_signal.png used o
-n input line 883.
+n input line 881.
 (pdftex.def)             Requested size: 223.07211pt x 225.0747pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 4660) has occurred while \output is active []
 
  [152 <./chapter8/img/PVuncertainty_asweights_background.png> <./chapter8/img/P
 Vuncertainty_asweights_signal.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 901--902
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 903--904
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 905--906
-
- []
-
-
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 922.
+               Default added (so using `tbp') on input line 920.
 
 
-<chapter8/img/UpperLimitPlot_massesOBSERVED.png, id=2987, 630.9171pt x 630.9171
+<chapter8/img/UpperLimitPlot_massesOBSERVED.png, id=2989, 630.9171pt x 630.9171
 pt>
 File: chapter8/img/UpperLimitPlot_massesOBSERVED.png Graphic file (type png)
  <use chapter8/img/UpperLimitPlot_massesOBSERVED.png>
 Package pdftex.def Info: chapter8/img/UpperLimitPlot_massesOBSERVED.png used on
- input line 958.
+ input line 956.
 (pdftex.def)             Requested size: 273.14923pt x 273.14708pt.
 
-<chapter8/img/UpperLimitPlot_masses_withunc_0p5.png, id=2988, 722.7pt x 722.7pt
+<chapter8/img/UpperLimitPlot_masses_withunc_0p5.png, id=2990, 722.7pt x 722.7pt
 >
 File: chapter8/img/UpperLimitPlot_masses_withunc_0p5.png Graphic file (type png
 )
  <use chapter8/img/UpperLimitPlot_masses_withunc_0p5.png>
 Package pdftex.def Info: chapter8/img/UpperLimitPlot_masses_withunc_0p5.png use
-d on input line 965.
+d on input line 963.
 (pdftex.def)             Requested size: 273.14923pt x 273.15117pt.
 
-<chapter8/img/UpperLimitPlot_masses_withunc_0p333333333333.png, id=2989, 722.7p
+<chapter8/img/UpperLimitPlot_masses_withunc_0p333333333333.png, id=2991, 722.7p
 t x 722.7pt>
 File: chapter8/img/UpperLimitPlot_masses_withunc_0p333333333333.png Graphic fil
 e (type png)
 
 <use chapter8/img/UpperLimitPlot_masses_withunc_0p333333333333.png>
 Package pdftex.def Info: chapter8/img/UpperLimitPlot_masses_withunc_0p333333333
-333.png used on input line 972.
+333.png used on input line 970.
 (pdftex.def)             Requested size: 273.14923pt x 273.15117pt.
 
-<chapter8/img/UpperLimitPlot_masses_withunc_0p666666666667.png, id=2990, 722.7p
+<chapter8/img/UpperLimitPlot_masses_withunc_0p666666666667.png, id=2992, 722.7p
 t x 722.7pt>
 File: chapter8/img/UpperLimitPlot_masses_withunc_0p666666666667.png Graphic fil
 e (type png)
 
 <use chapter8/img/UpperLimitPlot_masses_withunc_0p666666666667.png>
 Package pdftex.def Info: chapter8/img/UpperLimitPlot_masses_withunc_0p666666666
-667.png used on input line 980.
+667.png used on input line 978.
 (pdftex.def)             Requested size: 273.14923pt x 273.15117pt.
 ) [153]
 [154 <./chapter8/img/UpperLimitPlot_massesOBSERVED.png>] [155 <./chapter8/img/U
@@ -4208,7 +4170,7 @@ hunc_0p333333333333.png>] [156 <./chapter8/img/UpperLimitPlot_masses_withunc_0p
 
  (./chapter9/chapter9.tex
 Chapter 9.
-<Pictures/ribbon.png, id=3016, 602.25pt x 334.24875pt>
+<Pictures/ribbon.png, id=3018, 602.25pt x 334.24875pt>
 File: Pictures/ribbon.png Graphic file (type png)
 
 <use Pictures/ribbon.png>
@@ -4261,7 +4223,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--15
 
 ] [162]
 Appendix A.
-<Pictures/random_crop.png, id=3073, 722.7pt x 401.5pt>
+<Pictures/random_crop.png, id=3075, 722.7pt x 401.5pt>
 File: Pictures/random_crop.png Graphic file (type png)
 
 <use Pictures/random_crop.png>
@@ -4272,14 +4234,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 126--127
 
  []
 
-<appendix/img/badrandom.png, id=3075, 357.7365pt x 298.4751pt>
+<appendix/img/badrandom.png, id=3077, 357.7365pt x 298.4751pt>
 File: appendix/img/badrandom.png Graphic file (type png)
 
 <use appendix/img/badrandom.png>
 Package pdftex.def Info: appendix/img/badrandom.png used on input line 130.
 (pdftex.def)             Requested size: 223.07211pt x 186.11836pt.
 
-<appendix/img/goodrandom.png, id=3076, 349.7868pt x 322.3242pt>
+<appendix/img/goodrandom.png, id=3078, 349.7868pt x 322.3242pt>
 File: appendix/img/goodrandom.png Graphic file (type png)
 
 <use appendix/img/goodrandom.png>
@@ -4298,7 +4260,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 198--200
 
  []
 
-<appendix/img/probabilitypowerlaw_index1.png, id=3101, 578.16pt x 1156.32pt>
+<appendix/img/probabilitypowerlaw_index1.png, id=3103, 578.16pt x 1156.32pt>
 File: appendix/img/probabilitypowerlaw_index1.png Graphic file (type png)
 
 <use appendix/img/probabilitypowerlaw_index1.png>
@@ -4306,7 +4268,7 @@ Package pdftex.def Info: appendix/img/probabilitypowerlaw_index1.png used on in
 put line 211.
 (pdftex.def)             Requested size: 218.51521pt x 437.02423pt.
 
-<appendix/img/probabilitypowerlaw_index2.png, id=3102, 578.16pt x 1156.32pt>
+<appendix/img/probabilitypowerlaw_index2.png, id=3104, 578.16pt x 1156.32pt>
 File: appendix/img/probabilitypowerlaw_index2.png Graphic file (type png)
 
 <use appendix/img/probabilitypowerlaw_index2.png>
@@ -4314,7 +4276,7 @@ Package pdftex.def Info: appendix/img/probabilitypowerlaw_index2.png used on in
 put line 212.
 (pdftex.def)             Requested size: 218.51521pt x 437.02423pt.
 
-<appendix/img/SpectrumBeforeWeighting.png, id=3104, 416.9979pt x 383.031pt>
+<appendix/img/SpectrumBeforeWeighting.png, id=3106, 416.9979pt x 383.031pt>
 File: appendix/img/SpectrumBeforeWeighting.png Graphic file (type png)
 
 <use appendix/img/SpectrumBeforeWeighting.png>
@@ -4322,7 +4284,7 @@ Package pdftex.def Info: appendix/img/SpectrumBeforeWeighting.png used on input
  line 221.
 (pdftex.def)             Requested size: 218.51521pt x 200.72023pt.
 
-<appendix/img/SpectrumAfterWeighting.png, id=3105, 421.3341pt x 383.7537pt>
+<appendix/img/SpectrumAfterWeighting.png, id=3107, 421.3341pt x 383.7537pt>
 File: appendix/img/SpectrumAfterWeighting.png Graphic file (type png)
 
 <use appendix/img/SpectrumAfterWeighting.png>
@@ -4330,7 +4292,7 @@ Package pdftex.def Info: appendix/img/SpectrumAfterWeighting.png used on input
 line 222.
 (pdftex.def)             Requested size: 218.51521pt x 199.02606pt.
 
-<appendix/img/spaceangle.png, id=3108, 1044.90375pt x 463.7325pt>
+<appendix/img/spaceangle.png, id=3110, 1044.90375pt x 463.7325pt>
 File: appendix/img/spaceangle.png Graphic file (type png)
 
 <use appendix/img/spaceangle.png>
@@ -4346,7 +4308,7 @@ abilitypowerlaw_index2.png>] [167 <./appendix/img/SpectrumBeforeWeighting.png>
 <./appendix/img/SpectrumAfterWeighting.png> <./appendix/img/spaceangle.png>]
 [168]
 Appendix B.
-<Pictures/lines.jpg, id=3144, 855.195pt x 481.8pt>
+<Pictures/lines.jpg, id=3146, 855.195pt x 481.8pt>
 File: Pictures/lines.jpg Graphic file (type jpg)
  <use Pictures/lines.jpg>
 Package pdftex.def Info: Pictures/lines.jpg used on input line 280.
@@ -4361,7 +4323,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 306--309
 
  []
 
-<appendix/img/adaboost1.png, id=3147, 590.205pt x 540.0175pt>
+<appendix/img/adaboost1.png, id=3149, 590.205pt x 540.0175pt>
 File: appendix/img/adaboost1.png Graphic file (type png)
 
 <use appendix/img/adaboost1.png>
@@ -4373,21 +4335,21 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [169
 
  <./Pictures/lines.jpg>]
-<appendix/img/adaboost2.png, id=3154, 925.4575pt x 515.9275pt>
+<appendix/img/adaboost2.png, id=3156, 925.4575pt x 515.9275pt>
 File: appendix/img/adaboost2.png Graphic file (type png)
 
 <use appendix/img/adaboost2.png>
 Package pdftex.def Info: appendix/img/adaboost2.png used on input line 319.
 (pdftex.def)             Requested size: 199.16928pt x 111.03246pt.
 
-<appendix/img/adaboost3.png, id=3156, 1218.5525pt x 455.7025pt>
+<appendix/img/adaboost3.png, id=3158, 1218.5525pt x 455.7025pt>
 File: appendix/img/adaboost3.png Graphic file (type png)
 
 <use appendix/img/adaboost3.png>
 Package pdftex.def Info: appendix/img/adaboost3.png used on input line 331.
 (pdftex.def)             Requested size: 199.16928pt x 74.47841pt.
 
-<appendix/img/adaboost4.png, id=3158, 1225.57875pt x 456.70625pt>
+<appendix/img/adaboost4.png, id=3160, 1225.57875pt x 456.70625pt>
 File: appendix/img/adaboost4.png Graphic file (type png)
 
 <use appendix/img/adaboost4.png>
@@ -4397,7 +4359,7 @@ Package pdftex.def Info: appendix/img/adaboost4.png used on input line 343.
 Underfull \vbox (badness 1400) has occurred while \output is active []
 
  [170 <./appendix/img/adaboost1.png> <./appendix/img/adaboost2.png> <./appendix
-/img/adaboost3.png>] <appendix/img/adaboost5.png, id=3167, 1162.3425pt x 508.90
+/img/adaboost3.png>] <appendix/img/adaboost5.png, id=3169, 1162.3425pt x 508.90
 125pt>
 File: appendix/img/adaboost5.png Graphic file (type png)
 
@@ -4413,7 +4375,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 379--380
 
  []
 
-[173] <appendix/img/resampling_before.png, id=3186, 438.05763pt x 285.48763pt>
+[173] <appendix/img/resampling_before.png, id=3188, 438.05763pt x 285.48763pt>
 File: appendix/img/resampling_before.png Graphic file (type png)
 
 <use appendix/img/resampling_before.png>
@@ -4421,14 +4383,14 @@ Package pdftex.def Info: appendix/img/resampling_before.png used on input line
 385.
 (pdftex.def)             Requested size: 223.07211pt x 145.37895pt.
 
-<appendix/img/hist1.png, id=3187, 255.26947pt x 188.705pt>
+<appendix/img/hist1.png, id=3189, 255.26947pt x 188.705pt>
 File: appendix/img/hist1.png Graphic file (type png)
 
 <use appendix/img/hist1.png>
 Package pdftex.def Info: appendix/img/hist1.png used on input line 386.
 (pdftex.def)             Requested size: 223.07211pt x 164.90338pt.
 
-<appendix/img/resampling_after.png, id=3188, 438.05763pt x 285.48763pt>
+<appendix/img/resampling_after.png, id=3190, 438.05763pt x 285.48763pt>
 File: appendix/img/resampling_after.png Graphic file (type png)
 
 <use appendix/img/resampling_after.png>
@@ -4436,7 +4398,7 @@ Package pdftex.def Info: appendix/img/resampling_after.png used on input line 3
 93.
 (pdftex.def)             Requested size: 223.07211pt x 145.37895pt.
 
-<appendix/img/hist2.png, id=3189, 255.26947pt x 189.55026pt>
+<appendix/img/hist2.png, id=3191, 255.26947pt x 189.55026pt>
 File: appendix/img/hist2.png Graphic file (type png)
 
 <use appendix/img/hist2.png>
@@ -4450,14 +4412,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 404--405
 
  []
 
-<appendix/img/overtrain.png, id=3203, 1348.5582pt x 505.89pt>
+<appendix/img/overtrain.png, id=3205, 1348.5582pt x 505.89pt>
 File: appendix/img/overtrain.png Graphic file (type png)
 
 <use appendix/img/overtrain.png>
 Package pdftex.def Info: appendix/img/overtrain.png used on input line 408.
 (pdftex.def)             Requested size: 455.24411pt x 170.77295pt.
 
-<appendix/img/correlationbackground.png, id=3205, 551.4201pt x 489.2679pt>
+<appendix/img/correlationbackground.png, id=3207, 551.4201pt x 489.2679pt>
 File: appendix/img/correlationbackground.png Graphic file (type png)
 
 <use appendix/img/correlationbackground.png>
@@ -4465,7 +4427,7 @@ Package pdftex.def Info: appendix/img/correlationbackground.png used on input l
 ine 416.
 (pdftex.def)             Requested size: 223.07211pt x 197.92844pt.
 
-<appendix/img/correlationsignal.png, id=3206, 551.4201pt x 489.2679pt>
+<appendix/img/correlationsignal.png, id=3208, 551.4201pt x 489.2679pt>
 File: appendix/img/correlationsignal.png Graphic file (type png)
 
 <use appendix/img/correlationsignal.png>
@@ -4478,7 +4440,7 @@ Package pdftex.def Info: appendix/img/correlationsignal.png used on input line
 [176 <./appendix/img/correlationbackground.png> <./appendix/img/correlationsign
 al.png>]
 Appendix E.
-<appendix/img/FINAL_data_m_10000_ch1ovr2_1.png, id=3219, 770.88pt x 578.16pt>
+<appendix/img/FINAL_data_m_10000_ch1ovr2_1.png, id=3221, 770.88pt x 578.16pt>
 File: appendix/img/FINAL_data_m_10000_ch1ovr2_1.png Graphic file (type png)
 
 <use appendix/img/FINAL_data_m_10000_ch1ovr2_1.png>
@@ -4486,7 +4448,7 @@ Package pdftex.def Info: appendix/img/FINAL_data_m_10000_ch1ovr2_1.png used on
 input line 431.
 (pdftex.def)             Requested size: 223.07211pt x 167.3004pt.
 
-<appendix/img/FINAL_data_m_10000_ch1ovr2_1_NUMUANOLOGY.png, id=3220, 770.88pt x
+<appendix/img/FINAL_data_m_10000_ch1ovr2_1_NUMUANOLOGY.png, id=3222, 770.88pt x
  578.16pt>
 File: appendix/img/FINAL_data_m_10000_ch1ovr2_1_NUMUANOLOGY.png Graphic file (t
 ype png)
@@ -4495,7 +4457,7 @@ Package pdftex.def Info: appendix/img/FINAL_data_m_10000_ch1ovr2_1_NUMUANOLOGY.
 png used on input line 432.
 (pdftex.def)             Requested size: 223.07211pt x 167.3004pt.
 
-<appendix/img/FINAL_data_m_10000_ch1ovr2_2.png, id=3221, 770.88pt x 578.16pt>
+<appendix/img/FINAL_data_m_10000_ch1ovr2_2.png, id=3223, 770.88pt x 578.16pt>
 File: appendix/img/FINAL_data_m_10000_ch1ovr2_2.png Graphic file (type png)
 
 <use appendix/img/FINAL_data_m_10000_ch1ovr2_2.png>
@@ -4503,7 +4465,7 @@ Package pdftex.def Info: appendix/img/FINAL_data_m_10000_ch1ovr2_2.png used on
 input line 439.
 (pdftex.def)             Requested size: 223.07211pt x 167.3004pt.
 
-<appendix/img/FINAL_data_m_10000_ch1ovr2_2_NUMUANALOGY.png, id=3222, 770.88pt x
+<appendix/img/FINAL_data_m_10000_ch1ovr2_2_NUMUANALOGY.png, id=3224, 770.88pt x
  578.16pt>
 File: appendix/img/FINAL_data_m_10000_ch1ovr2_2_NUMUANALOGY.png Graphic file (t
 ype png)
@@ -4512,7 +4474,7 @@ Package pdftex.def Info: appendix/img/FINAL_data_m_10000_ch1ovr2_2_NUMUANALOGY.
 png used on input line 440.
 (pdftex.def)             Requested size: 223.07211pt x 167.3004pt.
 
-<appendix/img/FINAL_data_m_10_ch1ovr3_1.png, id=3223, 770.88pt x 578.16pt>
+<appendix/img/FINAL_data_m_10_ch1ovr3_1.png, id=3225, 770.88pt x 578.16pt>
 File: appendix/img/FINAL_data_m_10_ch1ovr3_1.png Graphic file (type png)
 
 <use appendix/img/FINAL_data_m_10_ch1ovr3_1.png>
@@ -4520,7 +4482,7 @@ Package pdftex.def Info: appendix/img/FINAL_data_m_10_ch1ovr3_1.png used on inp
 ut line 447.
 (pdftex.def)             Requested size: 223.07211pt x 167.3004pt.
 
-<appendix/img/FINAL_data_m_10_ch1ovr3_1_NUMUANALOGY.png, id=3224, 770.88pt x 57
+<appendix/img/FINAL_data_m_10_ch1ovr3_1_NUMUANALOGY.png, id=3226, 770.88pt x 57
 8.16pt>
 File: appendix/img/FINAL_data_m_10_ch1ovr3_1_NUMUANALOGY.png Graphic file (type
  png)
@@ -4529,7 +4491,7 @@ Package pdftex.def Info: appendix/img/FINAL_data_m_10_ch1ovr3_1_NUMUANALOGY.png
  used on input line 448.
 (pdftex.def)             Requested size: 223.07211pt x 167.3004pt.
 
-<appendix/img/FINAL_signal_m_100_ch1ovr2.png, id=3225, 770.88pt x 578.16pt>
+<appendix/img/FINAL_signal_m_100_ch1ovr2.png, id=3227, 770.88pt x 578.16pt>
 File: appendix/img/FINAL_signal_m_100_ch1ovr2.png Graphic file (type png)
 
 <use appendix/img/FINAL_signal_m_100_ch1ovr2.png>
@@ -4537,7 +4499,7 @@ Package pdftex.def Info: appendix/img/FINAL_signal_m_100_ch1ovr2.png used on in
 put line 455.
 (pdftex.def)             Requested size: 223.07211pt x 167.3004pt.
 
-<appendix/img/FINAL_signal_m_100_ch1ovr3.png, id=3226, 770.88pt x 578.16pt>
+<appendix/img/FINAL_signal_m_100_ch1ovr3.png, id=3228, 770.88pt x 578.16pt>
 File: appendix/img/FINAL_signal_m_100_ch1ovr3.png Graphic file (type png)
 
 <use appendix/img/FINAL_signal_m_100_ch1ovr3.png>
@@ -4545,7 +4507,7 @@ Package pdftex.def Info: appendix/img/FINAL_signal_m_100_ch1ovr3.png used on in
 put line 456.
 (pdftex.def)             Requested size: 223.07211pt x 167.3004pt.
 
-<appendix/img/FINAL_signal_m_100_ch2ovr3.png, id=3227, 770.88pt x 578.16pt>
+<appendix/img/FINAL_signal_m_100_ch2ovr3.png, id=3229, 770.88pt x 578.16pt>
 File: appendix/img/FINAL_signal_m_100_ch2ovr3.png Graphic file (type png)
 
 <use appendix/img/FINAL_signal_m_100_ch2ovr3.png>
@@ -4564,32 +4526,32 @@ al_m_100_ch1ovr3.png> <./appendix/img/FINAL_signal_m_100_ch2ovr3.png>] [180
 
 
 ]
-<Pictures/library_crop.jpg, id=3249, 1003.75pt x 558.085pt>
+<Pictures/library_crop.jpg, id=3251, 1003.75pt x 558.085pt>
 File: Pictures/library_crop.jpg Graphic file (type jpg)
 
 <use Pictures/library_crop.jpg>
-Package pdftex.def Info: Pictures/library_crop.jpg used on input line 300.
+Package pdftex.def Info: Pictures/library_crop.jpg used on input line 302.
 (pdftex.def)             Requested size: 597.50787pt x 332.23076pt.
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
  [181 <./Pictures/library_crop.jpg>] [182]
 [183] [184] [185] [186] [187] [188] [189] [190] [191] [192] [193]
-Overfull \hbox (0.27176pt too wide) in paragraph at lines 305--305
+Overfull \hbox (0.27176pt too wide) in paragraph at lines 307--307
 []\T1/lmr/m/sc/10.95 (-20) url\T1/lmr/m/n/10.95 (-20) : []$\T1/lmtt/m/n/10.95 h
 ttps : / / www . dissertations . se / dissertation / fef1f8e4ba/$[] \T1/lmr/m/n
 /10.95 (-20) (cited on pages []110[]^^U
  []
 
 
-Overfull \hbox (2.27995pt too wide) in paragraph at lines 305--305
+Overfull \hbox (2.27995pt too wide) in paragraph at lines 307--307
 []\T1/lmr/m/n/10.95 (-20) The Ice-Cube Col-lab-o-ra-tion. \T1/lmr/m/sc/10.95 (-
 20) url\T1/lmr/m/n/10.95 (-20) : []$\T1/lmtt/m/n/10.95 http : / / software . ic
 ecube . wisc . edu / documentation /
  []
 
 [194]
-Overfull \hbox (6.59827pt too wide) in paragraph at lines 305--305
+Overfull \hbox (6.59827pt too wide) in paragraph at lines 307--307
 []\T1/lmr/m/n/10.95 (-20) Aaron Rood-man. ``Blind anal-y-sis in par-ti-cle phys
 ics''. In: \T1/lmr/m/it/10.95 (-20) eConf \T1/lmr/m/n/10.95 (-20) C030908 (2003
 ). [,166(2003)],
@@ -4599,15 +4561,15 @@ ics''. In: \T1/lmr/m/it/10.95 (-20) eConf \T1/lmr/m/n/10.95 (-20) C030908 (2003
 \openout7 = `main.ptc'.
 
 [195]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 331.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 331.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 333.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 333.
  (./main.aux (./front.aux) (./voorblad.aux) (./thankyou.aux) (./poem.aux)
 (./nederlands.aux) (./introduction.aux) (./chapter1/chapter1.aux)
 (./chapter2/chapter2.aux) (./chapter3/chapter3.aux) (./chapter4/chapter4.aux)
 (./chapter5/chapter5.aux) (./chapter6/chapter6.aux) (./chapter7/chapter7.aux)
 (./chapter8/chapter8.aux) (./chapter9/chapter9.aux) (./appendix/appendix.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 331.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 331.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 333.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 333.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -4617,11 +4579,11 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 41322 strings out of 493029
- 783990 string characters out of 6136233
- 1408560 words of memory out of 5000000
- 42462 multiletter control sequences out of 15000+600000
- 206502 words of font info for 333 fonts, out of 8000000 for 9000
+ 41321 strings out of 493029
+ 783068 string characters out of 6136233
+ 1408667 words of memory out of 5000000
+ 42463 multiletter control sequences out of 15000+600000
+ 206419 words of font info for 332 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,28n,62p,10460b,2850s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
@@ -4652,10 +4614,10 @@ ic/lm/lmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/sym
 bols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symb
 ols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbo
 ls/msbm7.pfb>
-Output written on main.pdf (201 pages, 41182243 bytes).
+Output written on main.pdf (201 pages, 38606600 bytes).
 PDF statistics:
- 4576 PDF objects out of 5155 (max. 8388607)
- 3769 compressed objects within 38 object streams
+ 4579 PDF objects out of 5155 (max. 8388607)
+ 3772 compressed objects within 38 object streams
  1057 named destinations out of 1200 (max. 500000)
  54115 words of extra memory for PDF output out of 61914 (max. 10000000)
 

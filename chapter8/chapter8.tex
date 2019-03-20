@@ -124,7 +124,7 @@ The upwards trend to higher zenith angles of several samples is due to the filte
 
 \begin{figure}[t]
 \centering
-\includegraphics[width=0.7\textwidth]{chapter8/img/1D_stack_mpefit_zenith_new.png}
+\includegraphics[width=0.8\textwidth]{chapter8/img/1D_stack_mpefit_zenith_final.png}
 \caption{Number of events as a function of the MPE reconstructed zenith angle and normalized to the burn sample. The cut is illustrated with an orange line, the arrow points towards the events that are kept.}
 \label{fig:level3cutszenith}
 \end{figure}
@@ -142,12 +142,12 @@ where NCh is the number of channels/DOMs and NPara the number of fitted paramete
 \textrm{rlogL} < 15.
 \end{equation}
 
-The rlogL distribution can be seen in Figure \ref{fig:level3cutsrlogl}. Data and Monte Carlo disagree at larger values due to non-perfect simulations. Events that lead to bad reconstructions are not, or not well, simulated and are removed with this cut.
+\noindent The rlogL distribution can be seen in Figure \ref{fig:level3cutsrlogl}. Data and Monte Carlo disagree at larger values due to non-perfect simulations. Events that lead to bad reconstructions are not, or not well, simulated and are removed with this cut.
 
 
 \begin{figure}[t]
 \centering
-\includegraphics[width=0.7\textwidth]{chapter8/img/1D_stack_mpefit_rlogl_new.png}
+\includegraphics[width=0.8\textwidth]{chapter8/img/1D_stack_mpefit_rlogl_final.png}
 \caption{Number of events as a function of rlogL normalized to the burn sample. The cut is illustrated with an orange line, the arrow points towards the events that are kept.}
 \label{fig:level3cutsrlogl}
 \end{figure}
@@ -160,11 +160,11 @@ The total number of photoelectrons seen in the detector for an event is correlat
 \textrm{NPE} < 50.
 \end{equation} 
 
-The NPE distribution can be seen in Figure \ref{fig:level3npe}. Signal samples with a lower charge clearly show NPE distributions that peak at lower values, as  expected. 
+\noindent The NPE distribution can be seen in Figure \ref{fig:level3npe}. Signal samples with a lower charge clearly show NPE distributions that peak at lower values, as  expected. 
 
 \begin{figure}[t]
 \centering
-\includegraphics[width=0.7\textwidth]{chapter8/img/L3_zenithcut_gr_1p4835298642_rloglcut_less_15_1D_stack_npe_new.png}
+\includegraphics[width=0.8\textwidth]{chapter8/img/1D_stack_npe_final.png}
 \caption{Number of events as a function of number of photoelectrons (NPE) seen in the detector. The cut is illustrated with an orange line, the arrow points towards the events that are kept.}
 \label{fig:level3npe}
 \end{figure}
@@ -178,11 +178,11 @@ The likelihood is always compared to the likelihood of throughgoing tracks, henc
 \textrm{rel\_logL}(\textrm{starting}) = \textrm{logL}(\textrm{starting}) - \textrm{logL}(\textrm{throughgoing}) > 0. 
 \end{equation}
 
-The starting rlogL distribution can be seen in Figure \ref{fig:level3starting}. Because the log-likelihoods are negative, positive number indicate larger probabilities for throughgoing tracks. We can see that there is a large contribution of starting tracks in the background due to the filter requirements and previous cuts that focus on dim tracks.
+\noindent The starting rlogL distribution can be seen in Figure \ref{fig:level3starting}. Because the log-likelihoods are negative, positive number indicate larger probabilities for throughgoing tracks. We can see that there is a large contribution of starting tracks in the background due to the filter requirements and previous cuts that focus on dim tracks.
 
 \begin{figure}[t]
 \centering
-\includegraphics[width=0.7\textwidth]{chapter8/img/L3_zenithcut_gr_1p4835298642_rloglcut_less_15_npecut_less_50_1D_stack_finitereco_rllh_starting_new.png}
+\includegraphics[width=0.8\textwidth]{chapter8/img/1D_stack_finitereco_rllh_starting_final.png}
 \caption{Number of events as a function of the starting likelihood. The cut is illustrated with an orange line, the arrow points towards the events that are kept.}
 \label{fig:level3starting}
 \end{figure}
@@ -193,11 +193,11 @@ Analogous to the previous cut, it was chosen to place the stopping relative logL
 \textrm{rel\_logL}(\textrm{stopping}) = \textrm{logL}(\textrm{stopping}) - \textrm{logL}(\textrm{throughgoing}) > 10. 
 \end{equation}
 
-The stopping rlogL distribution can be seen in Figure \ref{fig:level3stopping}. Because the log-likelihoods are negative, positive number indicate larger probabilities for throughgoing tracks. We can see that there is a large contribution of stopping tracks in the background due to the filter requirements and previous cuts that focus on dim tracks.
+\noindent The stopping rlogL distribution can be seen in Figure \ref{fig:level3stopping}. Because the log-likelihoods are negative, positive number indicate larger probabilities for throughgoing tracks. We can see that there is a large contribution of stopping tracks in the background due to the filter requirements and previous cuts that focus on dim tracks.
 
 \begin{figure}[t]
 \centering
-\includegraphics[width=0.7\textwidth]{chapter8/img/L3_zenithcut_gr_1p4835298642_rloglcut_less_15_npecut_less_50_startingtrackcut_hs_gr_0_1D_stack_finitereco_rllh_stopping_new.png}
+\includegraphics[width=0.8\textwidth]{chapter8/img/1D_stack_finitereco_rllh_stopping_final.png}
 \caption{Number of events as a function of the stopping likelihood. The cut is illustrated with an orange line, the arrow points towards the events that are kept.}
 \label{fig:level3stopping}
 \end{figure}
@@ -426,7 +426,7 @@ In addition, new variables were constructed. One was adopted from Jan K\"unnen's
 \begin{equation}
 \frac{v_{12}}{v_{13}} = \frac{d\left( \textrm{HLC}_1,\textrm{HLC}_2 \right)/\Delta t\left(\textrm{HLC}_1, \textrm{HLC}_2\right)}{d\left(\textrm{HLC}_1, \textrm{HLC}_3 \right)/\Delta t\left(\textrm{HLC}_1,\textrm{HLC}_3 \right)},
 \end{equation}
-where $d\left( \textrm{HLC}_i,\textrm{HLC}_j \right)$ is the distance between the DOMs that recorded the $i$th and $j$th HLC hits. $\Delta t\left(\textrm{HLC}_i, \textrm{HLC}_j\right)$ is the difference in time of the $i$th and $j$th HLC hits. This distribution is expected to peak at a value of 1, which is the expected result if one assumes that the photons originate from a particle traversing in a straight line passing close to the DOMs. This is illustrated in Figure \ref{fig:newvariables1}.
+where $d\left( \textrm{HLC}_i,\textrm{HLC}_j \right)$ is the distance between the DOMs that recorded the $i$th and $j$th HLC hits. $\Delta t\left(\textrm{HLC}_i, \textrm{HLC}_j\right)$ is the difference in time of the $i$th and $j$th HLC hits. This distribution is expected to peak at a value of 1, which is the expected result if one assumes that the photons originate from a particle traversing in a straight line passing close to the DOMs. This is illustrated in Figure \ref{fig:newvariables1}. The variable only shows a very modest contribution to the signal selection as can be seen in Table \ref{tab:mrmrimportance}.
 
 \begin{figure}
 \centering
@@ -535,8 +535,6 @@ After cleaning with the \texttt{IceHive} module, the SPE and MPE reconstructions
 \subsection{Variable selection}
 The variables that are used in the BDT at Level 5 were selected by using the mRMR technique, which was explained in Section \ref{sec:mrmr}. The 17 most important variables were used in the BDT. Less variables meant a lower performance while more variables did not show to add additional power in the BDT performance and meant more computational resources were necessary. In a BDT, one variable will be more important than another since some have a much larger discrimination power than others. Therefore, an overview of all the variables used in Level 5 is shown in Table \ref{tab:mrmrimportance}. One BDT was used to show the relative importance (number from 0 to 1) of the variables. The importance is computed by counting the amount of split nodes using each
 variable and weighting each count by the separation gain and by the overall weight of the tree in the forest. More information can be found in Ref. \cite{pybdturl}.
-
-\textcolor{red}{DIRK ZEGGEN}
 
 \begin{table}[]
 \footnotesize
@@ -650,7 +648,7 @@ A single event will have one BDT score attributed per iteration and by reprocess
 w_{PV} = \frac{\# \textrm{scores above cut threshold}}{N_p}.
 \end{equation}
 
-The number of pull-validation iterations, $N_p$, should be high enough to extract as much information as possible, but low enough so that the subsamples, which are 10\% of the total set chosen ad random each time, are still adding information in the variability of the BDT performance. Too many iterations would introduce correlation effects in the subsamples. Previous analyses indicated that $N_p = 200$ is good enough to fulfill these requirements \cite{Aartsen:2016fep,Aartsen:2015exf}. It is also used in this analysis. The result for an SMP with charge 1/2 and mass 100 GeV is shown in Figure \ref{fig:pullval} and shows the power of PV. Figure \ref{fig:betweenbins} illustrates how one bin in this histogram is constructed. For a certain BDT score range, a sample will have a rate that changes slightly when the BDT is trained with a different training sample. For example, one BDT estimates a rate of $x$ Hz for the signal between a BDT score of 0.30 and 0.31, whereas another BDT estimates a rate of $y$ Hz for the signal between these BDT scores. These rates, for all $N_p$ BDTs (divided by the average rate), are shown as a histogram in the figure. We can see that lower BDT scores imply more statistics and have a Gaussian-like distribution (left plot). For higher scores, the distribution resembles that of a log-normal or Poisson (right plot). The average rate is computed and used in the pull-validation histogram.\\
+\noindent The number of pull-validation iterations, $N_p$, should be high enough to extract as much information as possible, but low enough so that the subsamples, which are 10\% of the total set chosen ad random each time, are still adding information in the variability of the BDT performance. Too many iterations would introduce correlation effects in the subsamples. Previous analyses indicated that $N_p = 200$ is good enough to fulfill these requirements \cite{Aartsen:2016fep,Aartsen:2015exf}. It is also used in this analysis. The result for an SMP with charge 1/2 and mass 100 GeV is shown in Figure \ref{fig:pullval} and shows the power of PV. Figure \ref{fig:betweenbins} illustrates how one bin in this histogram is constructed. For a certain BDT score range, a sample will have a rate that changes slightly when the BDT is trained with a different training sample. For example, one BDT estimates a rate of $x$ Hz for the signal between a BDT score of 0.30 and 0.31, whereas another BDT estimates a rate of $y$ Hz for the signal between these BDT scores. These rates, for all $N_p$ BDTs (divided by the average rate), are shown as a histogram in the figure. We can see that lower BDT scores imply more statistics and have a Gaussian-like distribution (left plot). For higher scores, the distribution resembles that of a log-normal or Poisson (right plot). The average rate is computed and used in the pull-validation histogram.\\
  
 \begin{figure}
 \centering
